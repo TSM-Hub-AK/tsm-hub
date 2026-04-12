@@ -1,0 +1,31 @@
+name: Update TSM Hub
+
+on:
+  schedule:
+    - cron: '0 4,8,12,16 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch prices
+        env:
+          METALS_API_KEY: ${{ secrets.METALS_API_KEY }}
+        run: node src/fetch-prices.js
+
+      - name: Generate Hub page
+        run: node src/generate-hub.js
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=tsm-hub
