@@ -120,27 +120,8 @@ html = html.replace(/\{\{SILVER_OZ\}\}/g, '$' + formatPrice(prices.precious.silv
 html = html.replace(/\{\{PLATINUM_OZ\}\}/g, '$' + formatPrice(prices.precious.platinum.price, 2));
 html = html.replace(/\{\{PALLADIUM_OZ\}\}/g, '$' + formatPrice(prices.precious.palladium.price, 2));
 
-// Replace digest content placeholder
-// If a digest file exists, use it; otherwise show placeholder
-const digestPath = path.join(__dirname, '..', 'data', 'digest.html');
-if (fs.existsSync(digestPath)) {
-  const digestHTML = fs.readFileSync(digestPath, 'utf8');
-  html = html.replace('{{DIGEST_CONTENT}}', digestHTML);
-  console.log('Digest content loaded from data/digest.html');
-} else {
-  html = html.replace('{{DIGEST_CONTENT}}', `
-    <div class="digest-section">
-      <h2 class="digest-section__title">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-        Market News & Analysis
-      </h2>
-      <p style="color: var(--color-text-muted); font-size: var(--text-sm); padding: var(--space-4) 0;">
-        News digest is being compiled. Check back soon for the latest market analysis across all metals.
-      </p>
-    </div>
-  `);
-  console.log('No digest file found — using placeholder');
-}
+// Digest content is now static in template.html
+console.log('News digest content is embedded in template');
 
 // Write output
 const distDir = path.join(__dirname, '..', 'dist');
