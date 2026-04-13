@@ -29,6 +29,9 @@ jobs:
       - name: Fetch SHFE prices
         run: node src/fetch-shfe.js
 
+      - name: Fetch market news
+        run: node src/fetch-news.js
+
       - name: Generate Hub page
         run: node src/generate-hub.js
 
