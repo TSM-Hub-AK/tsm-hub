@@ -2,10 +2,10 @@ name: Update TSM Hub
 
 on:
   schedule:
-    # Run 1: 06:00 UTC (09:00 MSK / 14:00 CST) — after SHFE daytime session closes (15:00 CST)
+    # Run 1: 08:00 UTC (11:00 MSK / 16:00 HKT) — after SHFE close (15:00 CST = 07:00 UTC)
     - cron: '0 8 * * 1-5'
-    # Run 2: 14:00 UTC (17:00 MSK) — after LME afternoon session
-    - cron: '0 14 * * 1-5'
+    # Run 2: 16:00 UTC (19:00 MSK / 00:00+1 HKT) — after LME + LBMA PM Gold fix (15:00 London)
+    - cron: '0 16 * * 1-5'
   workflow_dispatch: # Manual trigger anytime
 
 jobs:
