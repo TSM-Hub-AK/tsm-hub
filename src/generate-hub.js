@@ -230,20 +230,43 @@ function generateNewsHTML(newsData) {
       title = title.slice(0, -((' - ' + article.source).length));
     }
     
-    return `      <div class="news-item">
+    const metalTags = (article.metals || ['general']).join(' ');
+    return `      <div class="news-item" data-metals="${metalTags}">
         <div class="news-item__headline"><a href="${article.link}" target="_blank" rel="noopener">${escapeHtml(title)}</a></div>
         <div class="news-item__source">${escapeHtml(sourceDisplay)}${date ? ' · ' + date : ''}</div>
       </div>`;
   }).join('\n');
   
-  return `<div class="digest-section">
+  // Build metal filter options from available articles
+  const allMetalTags = new Set();
+  newsData.articles.forEach(a => (a.metals || []).forEach(m => allMetalTags.add(m)));
+  const metalNames = {
+    nickel: 'Nickel', copper: 'Copper', aluminum: 'Aluminum',
+    zinc: 'Zinc', lead: 'Lead', tin: 'Tin',
+    gold: 'Gold', silver: 'Silver', platinum: 'Platinum', palladium: 'Palladium',
+    general: 'General'
+  };
+  // Order: base metals first, then precious, then general
+  const metalOrder = ['nickel','copper','aluminum','zinc','lead','tin','gold','silver','platinum','palladium','general'];
+  const availableMetals = metalOrder.filter(m => allMetalTags.has(m));
+  
+  const filterOptions = availableMetals
+    .map(m => `<button class="news-filter-btn" data-filter="${m}">${metalNames[m] || m}</button>`)
+    .join('\n            ');
+
+  return `<div class="digest-section" id="news-section">
       <h2 class="digest-section__title">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2m-4-3H9M7 16h6M7 12h10"/></svg>
         Latest Market News
       </h2>
-      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-4);">Auto-curated from global news sources. Updated with each Hub refresh.</p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-4);">Select a metal to filter news. Updated with each Hub refresh.</p>
+      <div class="news-filter-bar">
+        <button class="news-filter-btn news-filter-btn--active" data-filter="all">All</button>
+            ${filterOptions}
+      </div>
+      <div class="news-empty" style="display:none; padding: var(--space-6) 0; text-align: center; color: var(--color-text-faint); font-size: var(--text-sm);">No news available for this metal right now.</div>
 ${newsItems}
-      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-3);">Source: Google News RSS · Fetched: ${formatTime(newsData.fetched_at)}</p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-3);">Source: Google News RSS \u00b7 Fetched: ${formatTime(newsData.fetched_at)}</p>
     </div>`;
 }
 
