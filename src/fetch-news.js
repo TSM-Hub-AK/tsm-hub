@@ -17,14 +17,16 @@ const path = require('path');
 // ─── Configuration ───
 
 const NEWS_QUERIES = [
-  { query: 'LME copper aluminum nickel zinc price today', category: 'base_metals' },
-  { query: 'gold silver platinum price today', category: 'precious_metals' },
-  { query: 'SHFE Shanghai metals nickel copper', category: 'shfe' },
-  { query: 'metals commodities trade tariffs', category: 'trade' },
-  { query: 'mining metals production supply chain', category: 'mining' },
+  { query: 'nickel market price Indonesia SHFE LME', category: 'nickel' },
+  { query: 'copper market price LME supply demand', category: 'copper' },
+  { query: 'aluminum aluminium market price smelter', category: 'aluminum' },
+  { query: 'zinc lead market price LME', category: 'zinc' },
+  { query: 'gold price LBMA market central bank', category: 'gold' },
+  { query: 'silver platinum palladium precious metals', category: 'precious' },
+  { query: 'metals commodities trade tariffs supply chain', category: 'general' },
 ];
 
-const MAX_TOTAL_ARTICLES = 15;  // Final curated list for Hub
+const MAX_TOTAL_ARTICLES = 30;  // More articles to support per-metal filtering
 const MAX_AGE_DAYS = 7;         // Max article age (7 days)
 
 // Trusted sources for metals/commodities (bonus in scoring)
@@ -63,6 +65,40 @@ const NEGATIVE_KEYWORDS = [
   '18k, 22k', '22k & 24k', 'carat gold',
   'agriculture', 'sustainable agriculture',
 ];
+
+// Metal tagging rules: map keywords in title to metal tags
+const METAL_TAGS = {
+  nickel: ['nickel', 'ni ', 'shfe ni', 'stainless steel', 'indonesia nickel', 'class 1 nickel', 'class 2 nickel', 'npi ', 'nickel pig iron', 'rkab'],
+  copper: ['copper', 'cu ', 'red metal'],
+  aluminum: ['aluminum', 'aluminium', 'alumina', 'bauxite'],
+  zinc: ['zinc', 'zn ', 'galvaniz'],
+  lead: ['lead', 'pb '],
+  tin: ['tin ', 'tin,', 'solder'],
+  gold: ['gold', 'au ', 'bullion', 'lbma gold'],
+  silver: ['silver', 'ag '],
+  platinum: ['platinum', 'pt ', 'pgm'],
+  palladium: ['palladium', 'pd '],
+};
+
+function tagMetals(title) {
+  const titleLower = ' ' + title.toLowerCase() + ' ';
+  const tags = [];
+  for (const [metal, keywords] of Object.entries(METAL_TAGS)) {
+    if (keywords.some(kw => titleLower.includes(kw))) {
+      tags.push(metal);
+    }
+  }
+  // General metals/commodities articles get 'general' tag
+  if (tags.length === 0) {
+    const generalKw = ['metal', 'metals', 'commodity', 'commodities', 'lme', 'mining', 'tariff', 'trade war', 'supply chain', 'smelter'];
+    if (generalKw.some(kw => titleLower.includes(kw))) {
+      tags.push('general');
+    }
+  }
+  // If still no tags, mark as general
+  if (tags.length === 0) tags.push('general');
+  return tags;
+}
 
 // ─── Fetch Functions ───
 
@@ -299,6 +335,7 @@ async function main() {
       sourceUrl: a.sourceUrl,
       pubDate: a.pubDate,
       category: a.category,
+      metals: tagMetals(a.title),
     })),
   };
   
