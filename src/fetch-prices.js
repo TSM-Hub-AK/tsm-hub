@@ -1,172 +1,134 @@
 /**
- * fetch-shfe.js
- * Fetches SHFE (Shanghai Futures Exchange) daily settlement prices
- * and trading data for Nickel via direct SHFE JSON API.
- * Saves to data/shfe.json
+ * fetch-prices.js
+ * Fetches latest metal prices from Metals.dev API
+ * Saves raw JSON to data/prices.json
  * 
- * No API key needed — public endpoints.
- * Prices in RMB/tonne (native SHFE units).
- * 
- * Endpoints used:
- *   /data/config/currentTradingday.dat — current & last trading day
- *   /data/tradedata/future/dailydata/js{DATE}.dat — settlement prices (per contract)
- *   /data/tradedata/future/dailydata/kx{DATE}.dat — daily express (product summary)
- * 
- * Usage: node src/fetch-shfe.js
+ * Usage: METALS_API_KEY=xxx node src/fetch-prices.js
  */
 
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const BASE = 'https://www.shfe.com.cn/data/tradedata/future/dailydata';
-const CONFIG_URL = 'https://www.shfe.com.cn/data/config/currentTradingday.dat';
+const API_KEY = process.env.METALS_API_KEY;
+if (!API_KEY) {
+  console.error('ERROR: METALS_API_KEY environment variable is required');
+  process.exit(1);
+}
+
+// We need two calls:
+// 1. LME/Industrial metals in kg (convert to per tonne) — standard LME unit
+// 2. Precious metals in troy ounces — standard LBMA/COMEX unit
+
+const endpoints = [
+  {
+    name: 'industrial',
+    url: `https://api.metals.dev/v1/latest?api_key=${API_KEY}&currency=USD&unit=kg`
+  },
+  {
+    name: 'precious',
+    url: `https://api.metals.dev/v1/latest?api_key=${API_KEY}&currency=USD&unit=toz`
+  }
+];
 
 function fetchJSON(url) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, {
-      headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'User-Agent': 'Mozilla/5.0 (compatible; TSMHub/1.0)',
-        'Referer': 'https://www.shfe.com.cn/eng/reports/StatisticalData/DailyData/'
-      }
-    }, (res) => {
-      if (res.statusCode !== 200) {
-        reject(new Error(`HTTP ${res.statusCode} for ${url}`));
-        res.resume();
-        return;
-      }
+    https.get(url, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try {
           resolve(JSON.parse(data));
         } catch (e) {
-          reject(new Error('Failed to parse: ' + data.substring(0, 200)));
+          reject(new Error('Failed to parse API response: ' + data.substring(0, 200)));
         }
       });
-    });
-    req.on('error', reject);
-    req.setTimeout(30000, () => {
-      req.destroy();
-      reject(new Error('Timeout fetching ' + url));
-    });
+    }).on('error', reject);
   });
 }
 
 async function main() {
-  console.log('Fetching SHFE data...');
+  console.log('Fetching metal prices from Metals.dev...');
   
-  // 1. Get current trading day
-  console.log('  Getting current trading day...');
-  const config = await fetchJSON(CONFIG_URL);
-  const tradingDay = config.currentTradingday;
-  const lastTradingDay = config.lastTradingday;
-  console.log(`  Current: ${tradingDay}, Last: ${lastTradingDay}`);
+  const results = {};
   
-  // 2. Fetch settlement prices (try current day, fall back to last)
-  let dateToUse = tradingDay;
-  let settlement;
-  
-  try {
-    console.log(`  Fetching settlement for ${dateToUse}...`);
-    settlement = await fetchJSON(`${BASE}/js${dateToUse}.dat`);
-    const niCheck = (settlement.o_cursor || []).filter(r => 
-      r.PRODUCTID && r.PRODUCTID.startsWith('ni')
-    );
-    if (niCheck.length === 0) throw new Error('No nickel data');
-  } catch (err) {
-    console.log(`  Fallback to ${lastTradingDay}: ${err.message}`);
-    dateToUse = lastTradingDay;
-    settlement = await fetchJSON(`${BASE}/js${dateToUse}.dat`);
-  }
-  
-  // 3. Fetch daily express (product-level summary: volume, high, low, avg)
-  let express = null;
-  try {
-    console.log(`  Fetching daily express for ${dateToUse}...`);
-    express = await fetchJSON(`${BASE}/kx${dateToUse}.dat`);
-  } catch (err) {
-    console.log(`  Daily express unavailable: ${err.message}`);
-  }
-  
-  // 4. Extract nickel settlement data
-  const niSettlement = (settlement.o_cursor || [])
-    .filter(r => r.PRODUCTID && r.PRODUCTID.startsWith('ni'))
-    .map(r => ({
-      contract: r.INSTRUMENTID,
-      settlement_price: r.SETTLEMENTPRICE,
-      unit: 'RMB/t',
-      margin_long: r.SPECLONGMARGINRATIO,
-      margin_short: r.SPECSHORTMARGINRATIO
-    }));
-  
-  // 5. Extract product summary from daily express
-  let productSummary = null;
-  if (express) {
-    const products = express.o_curproduct || [];
-    const niProd = products.find(p => p.PRODUCTID && p.PRODUCTID.trim() === 'ni_f');
-    if (niProd) {
-      productSummary = {
-        total_volume: niProd.VOLUME,
-        turnover_billion_rmb: niProd.TURNOVER,
-        day_high: niProd.HIGHESTPRICE,
-        day_low: niProd.LOWESTPRICE,
-        avg_price: Math.round(niProd.AVGPRICE),
-        unit: 'RMB/t'
-      };
+  for (const ep of endpoints) {
+    console.log(`  Fetching ${ep.name} metals...`);
+    const data = await fetchJSON(ep.url);
+    
+    if (data.status !== 'success') {
+      console.error(`API error for ${ep.name}:`, JSON.stringify(data));
+      process.exit(1);
     }
+    
+    results[ep.name] = data;
   }
   
-  // 6. Determine front-month contract (first with settlement > 0)
-  const frontMonth = niSettlement.find(s => s.settlement_price && s.settlement_price > 0);
+  // Build unified price object
+  const ind = results.industrial.metals;
+  const prec = results.precious.metals;
   
-  // 7. Build output
-  const shfeData = {
-    date: dateToUse,
-    date_formatted: `${dateToUse.slice(0,4)}-${dateToUse.slice(4,6)}-${dateToUse.slice(6,8)}`,
+  const prices = {
+    timestamp: results.precious.timestamps.metal,
+    currency_timestamp: results.precious.timestamps.currency,
     fetched_at: new Date().toISOString(),
-    source: 'Shanghai Futures Exchange (SHFE)',
-    source_url: 'https://www.shfe.com.cn/eng/reports/StatisticalData/DailyData/',
     
-    // Front-month contract (main display price)
-    front_month: frontMonth || null,
+    // Precious metals — USD per troy ounce (as quoted on LBMA/COMEX)
+    precious: {
+      gold: { price: prec.gold, unit: 'USD/oz', source: 'Spot' },
+      silver: { price: prec.silver, unit: 'USD/oz', source: 'Spot' },
+      platinum: { price: prec.platinum, unit: 'USD/oz', source: 'Spot' },
+      palladium: { price: prec.palladium, unit: 'USD/oz', source: 'Spot' },
+      // LBMA fixes
+      lbma_gold_am: { price: prec.lbma_gold_am, unit: 'USD/oz', source: 'LBMA AM Fix' },
+      lbma_gold_pm: { price: prec.lbma_gold_pm, unit: 'USD/oz', source: 'LBMA PM Fix' },
+      lbma_silver: { price: prec.lbma_silver, unit: 'USD/oz', source: 'LBMA Fix' },
+      lbma_platinum_am: { price: prec.lbma_platinum_am, unit: 'USD/oz', source: 'LBMA AM Fix' },
+      lbma_platinum_pm: { price: prec.lbma_platinum_pm, unit: 'USD/oz', source: 'LBMA PM Fix' },
+      lbma_palladium_am: { price: prec.lbma_palladium_am, unit: 'USD/oz', source: 'LBMA AM Fix' },
+      lbma_palladium_pm: { price: prec.lbma_palladium_pm, unit: 'USD/oz', source: 'LBMA PM Fix' },
+    },
     
-    // All nickel settlement prices
-    settlement: niSettlement,
+    // LME Industrial metals — USD per tonne (as quoted on LME)
+    lme: {
+      copper: { price: Math.round(ind.lme_copper * 1000), unit: 'USD/t', source: 'LME' },
+      aluminum: { price: Math.round(ind.lme_aluminum * 1000), unit: 'USD/t', source: 'LME' },
+      nickel: { price: Math.round(ind.lme_nickel * 1000), unit: 'USD/t', source: 'LME' },
+      zinc: { price: Math.round(ind.lme_zinc * 1000), unit: 'USD/t', source: 'LME' },
+      lead: { price: Math.round(ind.lme_lead * 1000), unit: 'USD/t', source: 'LME' },
+    },
     
-    // Product summary (combined nickel futures stats)
-    product_summary: productSummary
+    // Spot industrial (non-LME branded)
+    industrial_spot: {
+      copper: { price: Math.round(ind.copper * 1000), unit: 'USD/t', source: 'Spot' },
+      aluminum: { price: Math.round(ind.aluminum * 1000), unit: 'USD/t', source: 'Spot' },
+      nickel: { price: Math.round(ind.nickel * 1000), unit: 'USD/t', source: 'Spot' },
+      zinc: { price: Math.round(ind.zinc * 1000), unit: 'USD/t', source: 'Spot' },
+      lead: { price: Math.round(ind.lead * 1000), unit: 'USD/t', source: 'Spot' },
+    }
   };
   
-  // 8. Save
+  // Save to data directory
   const dataDir = path.join(__dirname, '..', 'data');
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
   
-  const outPath = path.join(dataDir, 'shfe.json');
-  fs.writeFileSync(outPath, JSON.stringify(shfeData, null, 2));
+  const outPath = path.join(dataDir, 'prices.json');
+  fs.writeFileSync(outPath, JSON.stringify(prices, null, 2));
   
-  // 9. Report
-  console.log(`\nSHFE data saved to ${outPath}`);
-  console.log(`Date: ${shfeData.date_formatted}`);
-  console.log(`Contracts: ${shfeData.settlement.length}`);
-  
-  if (shfeData.front_month) {
-    console.log(`\nFront month: ${shfeData.front_month.contract}`);
-    console.log(`  Settlement: ¥${shfeData.front_month.settlement_price.toLocaleString()} RMB/t`);
+  console.log(`\nPrices saved to ${outPath}`);
+  console.log('\nLME Metals (USD/tonne):');
+  for (const [metal, info] of Object.entries(prices.lme)) {
+    console.log(`  ${metal}: $${info.price.toLocaleString()}`);
   }
-  
-  if (productSummary) {
-    console.log(`\nDay range: ¥${productSummary.day_low.toLocaleString()} — ¥${productSummary.day_high.toLocaleString()}`);
-    console.log(`Volume: ${productSummary.total_volume.toLocaleString()} lots`);
+  console.log('\nPrecious Metals (USD/oz):');
+  for (const [metal, info] of Object.entries(prices.precious)) {
+    if (!metal.startsWith('lbma_')) {
+      console.log(`  ${metal}: $${info.price.toLocaleString()}`);
+    }
   }
-  
-  console.log('\nAll settlements:');
-  for (const s of shfeData.settlement) {
-    console.log(`  ${s.contract}: ¥${(s.settlement_price || 0).toLocaleString()} ${s.unit}`);
-  }
+  console.log(`\nData timestamp: ${prices.timestamp}`);
 }
 
 main().catch(err => {
