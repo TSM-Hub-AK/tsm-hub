@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TSM Hub — Market Digest · {{DATA_DATE}}</title>
-  <meta name="description" content="Full daily snapshot of the global metals market: LME, LBMA, COMEX prices, news and analysis. All key developments in one place.">
+  <meta name="description" content="Full daily snapshot of the global metals market: LME, LBMA, SHFE, COMEX prices, news and analysis. All key developments in one place.">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="TSM Hub — Market Digest · {{DATA_DATE}}">
-  <meta property="og:description" content="Full daily snapshot: LME, LBMA, COMEX prices, metals market news. One True source.">
+  <meta property="og:description" content="Full daily snapshot: LME, LBMA, SHFE, COMEX prices, metals market news. One True source.">
   <meta property="og:site_name" content="TrueSource Metals">
 
   <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABQUlEQVR4nGP8//8/AwMDEwMFgGmIW8BCoQsYGBgYWIa4DZiGuA2GfhgM/VQw9MNg6IdB/4cBxVkR7yz11ZoIF0ULgyFug6EfBkM/DIZ+GAz9MBj6YTD0w2Doh8HQD4OhHwZDPwyGfhgM/TAY+mEw9MNg6IfB0A+DoR8GQz8Mhn4YDP0wGPphMPTDgIGBgYEFjXNIS8JdPPRtMPTDYOiHwdAPg6EfBkM/DIZ+GAz9MBj6YTD0w2Doh8HQDwMGBgYGZmQOEd6k2AZDO5UM/TAY+mEw9MNg6IfB0A+DoR8GQz8Mhn4YDP0wGPphMPTDYOiHwdAPg6EfBkM/DIZ+GAz9MBj6YTD0w2Doh8HQD4OhHwYMDAwMLMgcsmww9MNg6IfB0A+DoR8GQz8Mhn4YDP0wGPphQN8wAAC8GikvdfMXJAAAAABJRU5ErkJggg==">
@@ -584,9 +584,9 @@
 
     <!-- Hero -->
     <div class="digest-hero">
-      <div class="digest-hero__metal">All Metals — LME / LBMA / Spot</div>
+      <div class="digest-hero__metal">All Metals — LME / LBMA / SHFE / Spot</div>
       <h1 class="digest-hero__title">Market Digest — {{DATA_DATE}}</h1>
-      <p class="digest-hero__subtitle">Live prices from global exchanges. Data sourced from LME, LBMA and spot markets via Metals.dev. Last updated: {{DATA_TIME}}</p>
+      <p class="digest-hero__subtitle">Live prices from global exchanges. Data sourced from LME, LBMA, SHFE and spot markets via Metals.dev and SHFE. Last updated: {{DATA_TIME}}</p>
     </div>
 
     <!-- ============================================ -->
@@ -606,6 +606,55 @@
     <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); margin-bottom: var(--space-10);">
       Source: <a href="https://metals.dev" target="_blank" rel="noopener">Metals.dev</a> · LME, LBMA official data · Last update: {{DATA_TIME}}
     </p>
+
+    <!-- ============================================ -->
+    <!-- SECTION 1b: SHFE NICKEL FUTURES -->
+    <!-- ============================================ -->
+    <div class="digest-section">
+      <h2 class="digest-section__title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+        SHFE Nickel Futures
+      </h2>
+
+      <div class="key-figures" style="margin-bottom: var(--space-6);">
+        <div class="key-figure">
+          <div class="key-figure__label">Front Month ({{SHFE_NI_CONTRACT}})</div>
+          <div class="key-figure__value">{{SHFE_NI_SETTLEMENT}}</div>
+          <div class="key-figure__note">Settlement · RMB/t</div>
+        </div>
+        <div class="key-figure">
+          <div class="key-figure__label">Day Range</div>
+          <div class="key-figure__value" style="font-size: var(--text-base);">{{SHFE_NI_LOW}} — {{SHFE_NI_HIGH}}</div>
+          <div class="key-figure__note">RMB/t · All contracts</div>
+        </div>
+        <div class="key-figure">
+          <div class="key-figure__label">Volume</div>
+          <div class="key-figure__value">{{SHFE_NI_VOLUME}}</div>
+          <div class="key-figure__note">lots (1 lot = 1 t)</div>
+        </div>
+        <div class="key-figure">
+          <div class="key-figure__label">Avg Price</div>
+          <div class="key-figure__value">{{SHFE_NI_AVG}}</div>
+          <div class="key-figure__note">RMB/t</div>
+        </div>
+      </div>
+
+      <details style="font-size: var(--text-sm);">
+        <summary style="cursor: pointer; color: var(--color-primary); font-weight: 500; margin-bottom: var(--space-3);">All SHFE Nickel contracts — settlement prices</summary>
+        <table class="data-table" style="margin-top: var(--space-2);">
+          <thead>
+            <tr><th>Contract</th><th>Settlement (RMB/t)</th></tr>
+          </thead>
+          <tbody>
+              {{SHFE_TABLE_ROWS}}
+          </tbody>
+        </table>
+      </details>
+
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-3);">
+        Source: <a href="https://www.shfe.com.cn/eng/reports/StatisticalData/DailyData/" target="_blank" rel="noopener">Shanghai Futures Exchange</a> · {{SHFE_DATE}}
+      </p>
+    </div>
 
     <!-- ============================================ -->
     <!-- SECTION 2: WAREHOUSE STOCKS -->
