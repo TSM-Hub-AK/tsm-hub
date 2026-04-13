@@ -515,6 +515,157 @@
       line-height: 1.7;
     }
 
+    /* === HUB CONTACT FORM === */
+    .hub-contact {
+      max-width: var(--content-default);
+      margin: var(--space-10) auto var(--space-8);
+      padding: 0 var(--space-6);
+    }
+
+    .hub-contact__card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-8);
+    }
+
+    .hub-contact__title {
+      font-family: var(--font-display);
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-2);
+    }
+
+    .hub-contact__subtitle {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      margin-bottom: var(--space-6);
+    }
+
+    .hub-form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-4);
+    }
+
+    @media (max-width: 600px) {
+      .hub-form-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .hub-form-group {
+      margin-bottom: var(--space-4);
+    }
+
+    .hub-form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--color-text);
+      margin-bottom: 0.35rem;
+      letter-spacing: 0.02em;
+    }
+
+    .hub-form-group label .req {
+      color: var(--color-gold);
+      margin-left: 2px;
+    }
+
+    .hub-form-group input,
+    .hub-form-group textarea {
+      width: 100%;
+      padding: 0.65rem 0.9rem;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      color: var(--color-text);
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .hub-form-group input:focus,
+    .hub-form-group textarea:focus {
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(45, 157, 165, 0.15);
+    }
+
+    .hub-form-group input::placeholder,
+    .hub-form-group textarea::placeholder {
+      color: var(--color-text-muted);
+      opacity: 0.5;
+    }
+
+    .hub-form-group textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    .hub-form-submit {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: var(--space-2);
+      padding: 0.7rem 1.75rem;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+      background: var(--color-primary);
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s ease, transform 0.15s ease;
+    }
+
+    .hub-form-submit:hover {
+      background: var(--color-gold);
+      transform: translateY(-1px);
+    }
+
+    .hub-form-note {
+      font-size: 0.75rem;
+      color: var(--color-text-faint);
+      margin-top: var(--space-3);
+    }
+
+    .hub-form-success {
+      display: none;
+      text-align: center;
+      padding: var(--space-8) 0;
+    }
+
+    .hub-form-success.is-visible {
+      display: block;
+    }
+
+    .hub-form-success__icon {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto var(--space-3);
+      background: var(--color-primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hub-form-success__title {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-1);
+    }
+
+    .hub-form-success__text {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+    }
+
     /* === FOOTER === */
     .footer {
       border-top: 1px solid var(--color-border-subtle);
@@ -1139,6 +1290,45 @@
 
   </main>
 
+  <!-- CONTACT FORM -->
+  <div class="hub-contact">
+    <div class="hub-contact__card">
+      <h3 class="hub-contact__title">Questions or Feedback?</h3>
+      <p class="hub-contact__subtitle">Have a question about the market data, want to suggest an improvement, or interested in TrueSource Metals? Drop us a line.</p>
+
+      <form id="hubContactForm" action="https://formspree.io/f/xaqaywlb" method="POST">
+        <input type="hidden" name="source" value="hub">
+        <div class="hub-form-row">
+          <div class="hub-form-group">
+            <label for="hName">Name <span class="req">*</span></label>
+            <input type="text" id="hName" name="name" placeholder="Your name" required>
+          </div>
+          <div class="hub-form-group">
+            <label for="hEmail">Email <span class="req">*</span></label>
+            <input type="email" id="hEmail" name="email" placeholder="your@email.com" required>
+          </div>
+        </div>
+        <div class="hub-form-group">
+          <label for="hMessage">Message</label>
+          <textarea id="hMessage" name="message" placeholder="Your question, feedback, or inquiry..."></textarea>
+        </div>
+        <button type="submit" class="hub-form-submit">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></svg>
+          Send
+        </button>
+        <p class="hub-form-note">Your information is kept confidential. We respond within one business day.</p>
+      </form>
+
+      <div class="hub-form-success" id="hubFormSuccess">
+        <div class="hub-form-success__icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+        </div>
+        <h4 class="hub-form-success__title">Thank You</h4>
+        <p class="hub-form-success__text">Your message has been received. We'll get back to you shortly.</p>
+      </div>
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="footer__inner">
@@ -1170,6 +1360,48 @@
           updateIcon();
         });
       }
+    })();
+
+    // Hub contact form submission
+    (function() {
+      var form = document.getElementById('hubContactForm');
+      var success = document.getElementById('hubFormSuccess');
+      if (!form || !success) return;
+
+      var emailField = document.getElementById('hEmail');
+      if (emailField) {
+        emailField.addEventListener('invalid', function() {
+          if (emailField.validity.valueMissing) {
+            emailField.setCustomValidity('Please enter your email address');
+          } else if (emailField.validity.typeMismatch) {
+            emailField.setCustomValidity('Please enter a valid email address');
+          } else {
+            emailField.setCustomValidity('');
+          }
+        });
+        emailField.addEventListener('input', function() {
+          emailField.setCustomValidity('');
+        });
+      }
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var data = new FormData(form);
+        fetch(form.action, {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        }).then(function(response) {
+          if (response.ok) {
+            form.style.display = 'none';
+            success.classList.add('is-visible');
+          } else {
+            alert('Something went wrong. Please try again or email info@truesourcemetals.com directly.');
+          }
+        }).catch(function() {
+          alert('Network error. Please try again or email info@truesourcemetals.com directly.');
+        });
+      });
     })();
 
     // News metal filter
