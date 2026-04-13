@@ -2,30 +2,45 @@ name: Update TSM Hub
 
 on:
   schedule:
-    - cron: '0 4,8,12,16 * * 1-5'
-  workflow_dispatch:
+    # Run 1: 06:00 UTC (09:00 MSK / 14:00 CST) — after SHFE daytime session closes (15:00 CST)
+    - cron: '0 8 * * 1-5'
+    # Run 2: 14:00 UTC (17:00 MSK) — after LME afternoon session
+    - cron: '0 14 * * 1-5'
+  workflow_dispatch: # Manual trigger anytime
 
 jobs:
-  update:
+  update-prices:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Fetch prices
+      - name: Fetch LME/LBMA prices (Metals.dev)
         env:
           METALS_API_KEY: ${{ secrets.METALS_API_KEY }}
         run: node src/fetch-prices.js
 
+      - name: Fetch SHFE prices
+        run: node src/fetch-shfe.js
+
       - name: Generate Hub page
         run: node src/generate-hub.js
 
+      - name: Copy static assets to dist
+        run: |
+          cp src/tsm_logo.jpg dist/ 2>/dev/null || true
+          cp src/favicon.ico dist/ 2>/dev/null || true
+
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=tsm-hub
+          projectName: tsm-hub
+          directory: dist
