@@ -170,6 +170,8 @@ async function main() {
 }
 
 main().catch(err => {
-  console.error('Fatal error:', err.message);
-  process.exit(1);
+  console.error('WARNING: SHFE fetch failed:', err.message);
+  console.log('Continuing without SHFE data — Hub will show last available or N/A.');
+  // Do NOT exit with code 1 — let workflow continue
+  process.exit(0);
 });
