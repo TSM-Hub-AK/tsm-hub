@@ -17,6 +17,16 @@ if (!fs.existsSync(pricesPath)) {
 }
 const prices = JSON.parse(fs.readFileSync(pricesPath, 'utf8'));
 
+// Read news (optional — won't fail if missing)
+const newsPath = path.join(__dirname, '..', 'data', 'news.json');
+let news = null;
+if (fs.existsSync(newsPath)) {
+  news = JSON.parse(fs.readFileSync(newsPath, 'utf8'));
+  console.log(`News data loaded: ${news.article_count} articles`);
+} else {
+  console.log('WARNING: data/news.json not found — news section will be empty');
+}
+
 // Read SHFE prices (optional — won't fail if missing)
 const shfePath = path.join(__dirname, '..', 'data', 'shfe.json');
 let shfe = null;
@@ -204,8 +214,66 @@ if (shfe) {
   html = html.replace('{{SHFE_TABLE_ROWS}}', '<tr><td colspan="2">Data not available</td></tr>');
 }
 
-// Digest content is static in template.html
-console.log('News digest content is embedded in template');
+// ─── News Section ───
+
+function generateNewsHTML(newsData) {
+  if (!newsData || !newsData.articles || newsData.articles.length === 0) {
+    return ''; // No news section if no data
+  }
+  
+  const newsItems = newsData.articles.map(article => {
+    const date = article.pubDate ? formatNewsDate(article.pubDate) : '';
+    const sourceDisplay = article.source || 'News';
+    // Strip " - SourceName" suffix from Google News titles (source shown separately)
+    let title = article.title;
+    if (article.source && title.endsWith(' - ' + article.source)) {
+      title = title.slice(0, -((' - ' + article.source).length));
+    }
+    
+    return `      <div class="news-item">
+        <div class="news-item__headline"><a href="${article.link}" target="_blank" rel="noopener">${escapeHtml(title)}</a></div>
+        <div class="news-item__source">${escapeHtml(sourceDisplay)}${date ? ' · ' + date : ''}</div>
+      </div>`;
+  }).join('\n');
+  
+  return `<div class="digest-section">
+      <h2 class="digest-section__title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2m-4-3H9M7 16h6M7 12h10"/></svg>
+        Latest Market News
+      </h2>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-4);">Auto-curated from global news sources. Updated with each Hub refresh.</p>
+${newsItems}
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-3);">Source: Google News RSS · Fetched: ${formatTime(newsData.fetched_at)}</p>
+    </div>`;
+}
+
+function formatNewsDate(isoString) {
+  const d = new Date(isoString);
+  const now = new Date();
+  const diffMs = now - d;
+  const diffHours = Math.round(diffMs / (1000 * 60 * 60));
+  
+  if (diffHours < 1) return 'just now';
+  if (diffHours < 24) return `${diffHours}h ago`;
+  const diffDays = Math.round(diffHours / 24);
+  if (diffDays === 1) return 'yesterday';
+  if (diffDays <= 7) return `${diffDays} days ago`;
+  
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${months[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+}
+
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+const newsSectionHTML = generateNewsHTML(news);
+html = html.replace('{{NEWS_SECTION_HTML}}', newsSectionHTML);
+console.log(`News section: ${news ? news.article_count + ' articles' : 'empty'}`);
 
 // ─── Write Output ───
 
