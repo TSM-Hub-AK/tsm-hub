@@ -253,13 +253,15 @@ function generateNewsHTML(newsData) {
   const topicNames = {
     'rwa': 'RWA / Tokenization',
     'hk-regulatory': 'HK Regulatory',
+    'esg': 'ESG',
+    'china-policy': 'China Policy',
   };
 
   // Order: base metals first, then precious, then general
   const metalOrder = ['nickel','copper','aluminum','zinc','lead','tin','gold','silver','platinum','palladium','general'];
   const availableMetals = metalOrder.filter(m => allMetalTags.has(m));
   // Topic order
-  const topicOrder = ['rwa', 'hk-regulatory'];
+  const topicOrder = ['rwa', 'hk-regulatory', 'esg', 'china-policy'];
   const availableTopics = topicOrder.filter(t => allTopicTags.has(t));
   
   const metalFilterOptions = availableMetals
