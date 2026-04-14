@@ -31,9 +31,15 @@ const NEWS_QUERIES = [
   // ── HK Regulatory ──
   { query: 'Hong Kong SFC virtual assets regulation fintech', category: 'hk-regulatory' },
   { query: 'Hong Kong HKMA tokenization digital assets policy', category: 'hk-regulatory' },
+  // ── ESG & Sustainability ──
+  { query: 'ESG metals mining sustainability carbon reporting', category: 'esg' },
+  { query: 'responsible sourcing supply chain due diligence minerals', category: 'esg' },
+  // ── China Policy ──
+  { query: 'China metals trade policy export controls minerals', category: 'china-policy' },
+  { query: 'China rare earth critical minerals policy regulations', category: 'china-policy' },
 ];
 
-const MAX_TOTAL_ARTICLES = 40;  // More articles to support per-metal + topic filtering
+const MAX_TOTAL_ARTICLES = 50;  // More articles to support per-metal + topic filtering
 const MAX_AGE_DAYS = 7;         // Max article age (7 days)
 
 // Trusted sources for metals/commodities (bonus in scoring)
@@ -51,6 +57,9 @@ const TIER2_SOURCES = [
   'coindesk.com', 'theblock.co', 'ledgerinsights.com', 'rwa.io',
   'hkma.gov.hk', 'sfc.hk', 'gov.hk', 'info.gov.hk',
   'thestandard.com.hk', 'ejinsight.com', 'fintechnews.hk',
+  // ESG & China Policy sources
+  'responsible-mining.net', 'irma.org', 'globalreportinginitiative.org',
+  'caixin.com', 'yicai.com', 'globaltimes.cn', 'china.org.cn',
 ];
 
 // Keywords that boost relevance
@@ -84,6 +93,8 @@ const NEGATIVE_KEYWORDS = [
 const TOPIC_TAGS = {
   rwa: ['rwa', 'real world asset', 'real-world asset', 'tokeniz', 'tokenised', 'tokenized', 'digital asset', 'security token', 'asset-backed token'],
   'hk-regulatory': ['hong kong', 'hkma', 'sfc ', 'securities and futures commission', 'cyberport', 'ensemble', 'hksar', 'greater bay area'],
+  esg: ['esg', 'sustainability', 'sustainable', 'carbon', 'net zero', 'net-zero', 'green energy', 'green mining', 'responsible sourcing', 'due diligence', 'circular economy', 'recycl', 'emission', 'decarboni', 'climate', 'scope 3', 'scope 1', 'environmental', 'clean energy', 'renewable', 'cobalt-free', 'ethical sourcing', 'conflict mineral', 'community funding'],
+  'china-policy': ['china', 'chinese', 'beijing', 'export control', 'export ban', 'rare earth', 'critical mineral', 'gallium', 'germanium', 'antimony', 'state reserve'],
 };
 
 // Metal tagging rules: map keywords in title to metal tags
@@ -245,8 +256,8 @@ function scoreArticle(article) {
   const titleLower = article.title.toLowerCase();
   const sourceDomain = (article.sourceUrl || '').toLowerCase();
   
-  // Hard discard: negative keywords (but not for rwa/hk-regulatory articles)
-  const isTopicArticle = article.category === 'rwa' || article.category === 'hk-regulatory';
+  // Hard discard: negative keywords (but not for topic articles)
+  const isTopicArticle = ['rwa', 'hk-regulatory', 'esg', 'china-policy'].includes(article.category);
   if (NEGATIVE_KEYWORDS.some(kw => titleLower.includes(kw))) return -1;
   // For non-topic articles, also block blockchain/crypto terms
   if (!isTopicArticle && (titleLower.includes('blockchain') || titleLower.includes('crypto'))) return -1;
