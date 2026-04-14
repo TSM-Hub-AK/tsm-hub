@@ -231,7 +231,8 @@ function generateNewsHTML(newsData) {
     }
     
     const metalTags = (article.metals || ['general']).join(' ');
-    return `      <div class="news-item" data-metals="${metalTags}">
+    const topicTags = (article.topics || []).join(' ');
+    return `      <div class="news-item" data-metals="${metalTags}" data-topics="${topicTags}">
         <div class="news-item__headline"><a href="${article.link}" target="_blank" rel="noopener">${escapeHtml(title)}</a></div>
         <div class="news-item__source">${escapeHtml(sourceDisplay)}${date ? ' · ' + date : ''}</div>
       </div>`;
@@ -240,26 +241,44 @@ function generateNewsHTML(newsData) {
   // Build metal filter options from available articles
   const allMetalTags = new Set();
   newsData.articles.forEach(a => (a.metals || []).forEach(m => allMetalTags.add(m)));
+  const allTopicTags = new Set();
+  newsData.articles.forEach(a => (a.topics || []).forEach(t => allTopicTags.add(t)));
+
   const metalNames = {
     nickel: 'Nickel', copper: 'Copper', aluminum: 'Aluminum',
     zinc: 'Zinc', lead: 'Lead', tin: 'Tin',
     gold: 'Gold', silver: 'Silver', platinum: 'Platinum', palladium: 'Palladium',
     general: 'General'
   };
+  const topicNames = {
+    'rwa': 'RWA / Tokenization',
+    'hk-regulatory': 'HK Regulatory',
+  };
+
   // Order: base metals first, then precious, then general
   const metalOrder = ['nickel','copper','aluminum','zinc','lead','tin','gold','silver','platinum','palladium','general'];
   const availableMetals = metalOrder.filter(m => allMetalTags.has(m));
+  // Topic order
+  const topicOrder = ['rwa', 'hk-regulatory'];
+  const availableTopics = topicOrder.filter(t => allTopicTags.has(t));
   
-  const filterOptions = availableMetals
+  const metalFilterOptions = availableMetals
     .map(m => `<button class="news-filter-btn" data-filter="${m}">${metalNames[m] || m}</button>`)
     .join('\n            ');
+  const topicFilterOptions = availableTopics
+    .map(t => `<button class="news-filter-btn news-filter-btn--topic" data-filter="${t}" data-filter-type="topic">${topicNames[t] || t}</button>`)
+    .join('\n            ');
+  const topicSeparator = availableTopics.length > 0 && availableMetals.length > 0
+    ? '\n            <span class="news-filter-divider"></span>\n            '
+    : '';
+  const filterOptions = metalFilterOptions + topicSeparator + topicFilterOptions;
 
   return `<div class="digest-section" id="news-section">
       <h2 class="digest-section__title">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2m-4-3H9M7 16h6M7 12h10"/></svg>
         Latest Market News
       </h2>
-      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-4);">Select a metal to filter news. Updated with each Hub refresh.</p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-4);">Filter by metal or topic. Updated with each Hub refresh.</p>
       <div class="news-filter-bar">
         <button class="news-filter-btn news-filter-btn--active" data-filter="all">All</button>
             ${filterOptions}
