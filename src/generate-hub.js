@@ -214,6 +214,73 @@ if (shfe) {
   html = html.replace('{{SHFE_TABLE_ROWS}}', '<tr><td colspan="2">Data not available</td></tr>');
 }
 
+// ─── Glossary Section ───
+
+const glossaryPath = path.join(__dirname, '..', 'data', 'glossary.json');
+let glossaryHTML = '';
+if (fs.existsSync(glossaryPath)) {
+  const glossary = JSON.parse(fs.readFileSync(glossaryPath, 'utf8'));
+  
+  const categoryIcons = {
+    'metals-exchanges': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-3 3"/></svg>',
+    'rwa-tokenization': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',
+    'regulatory-compliance': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+    'trade-policy': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+    'esg-sustainability': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75"/></svg>',
+  };
+  
+  const categoryCards = glossary.categories.map(cat => {
+    const icon = categoryIcons[cat.id] || '';
+    const terms = cat.terms.map(t => {
+      const fullNameDisplay = t.full_name && t.full_name !== t.term
+        ? `<span class="glossary-fullname">${escapeHtml(t.full_name)}</span>`
+        : '';
+      return `<div class="glossary-term">
+              <div class="glossary-term__header">
+                <span class="glossary-term__name">${escapeHtml(t.term)}</span>
+                ${fullNameDisplay}
+              </div>
+              <div class="glossary-term__def">${escapeHtml(t.definition)}</div>
+              <div class="glossary-term__attr">${escapeHtml(t.attribution)}</div>
+            </div>`;
+    }).join('\n');
+    
+    return `<div class="glossary-category" data-glossary-cat="${cat.id}">
+          <h3 class="glossary-category__title">${icon} ${escapeHtml(cat.name)}</h3>
+          ${terms}
+        </div>`;
+  }).join('\n');
+  
+  // Category tab buttons
+  const categoryTabs = glossary.categories.map((cat, i) => {
+    const active = i === 0 ? ' glossary-tab--active' : '';
+    return `<button class="glossary-tab${active}" data-glossary-tab="${cat.id}">${escapeHtml(cat.name)}</button>`;
+  }).join('\n            ');
+  
+  glossaryHTML = `<div class="digest-section" id="glossary-section">
+      <h2 class="digest-section__title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Glossary
+      </h2>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-4);">Key terms across metals markets, tokenization, regulation, trade policy, and sustainability. Definitions based on official documentation from primary sources.</p>
+      <div class="glossary-tabs">
+        <button class="glossary-tab glossary-tab--all glossary-tab--active" data-glossary-tab="all">All</button>
+            ${categoryTabs.replace(' glossary-tab--active', '')}
+      </div>
+      <div class="glossary-search">
+        <input type="text" class="glossary-search__input" placeholder="Search terms..." id="glossarySearch">
+      </div>
+      <div class="glossary-content">
+${categoryCards}
+      </div>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4);">All definitions are based on official documentation from the cited organisations. No external links are included — source information may change over time. ${glossary.categories.reduce((sum, c) => sum + c.terms.length, 0)} terms across ${glossary.categories.length} categories.</p>
+    </div>`;
+  
+  console.log(`Glossary loaded: ${glossary.categories.reduce((sum, c) => sum + c.terms.length, 0)} terms across ${glossary.categories.length} categories`);
+} else {
+  console.log('WARNING: data/glossary.json not found — glossary section will be empty');
+}
+
 // ─── News Section ───
 
 function generateNewsHTML(newsData) {
@@ -318,6 +385,7 @@ function escapeHtml(text) {
 
 const newsSectionHTML = generateNewsHTML(news);
 html = html.replace('{{NEWS_SECTION_HTML}}', newsSectionHTML);
+html = html.replace('{{GLOSSARY_SECTION_HTML}}', glossaryHTML);
 console.log(`News section: ${news ? news.article_count + ' articles' : 'empty'}`);
 
 // ─── Write Output ───
