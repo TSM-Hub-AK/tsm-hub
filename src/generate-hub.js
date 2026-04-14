@@ -214,6 +214,65 @@ if (shfe) {
   html = html.replace('{{SHFE_TABLE_ROWS}}', '<tr><td colspan="2">Data not available</td></tr>');
 }
 
+// ─── Producers Section ───
+
+const producersPath = path.join(__dirname, '..', 'data', 'producers.json');
+let producers = null;
+if (fs.existsSync(producersPath)) {
+  producers = JSON.parse(fs.readFileSync(producersPath, 'utf8'));
+  const totalProducers = Object.values(producers).reduce((sum, arr) => sum + arr.length, 0);
+  console.log(`Producers data loaded: ${totalProducers} entries across ${Object.keys(producers).length} metals`);
+} else {
+  console.log('WARNING: data/producers.json not found — producers section will be empty');
+}
+
+function generateProducersHTML(producersData) {
+  if (!producersData) return '';
+
+  const metalTabs = [
+    { key: 'copper', label: 'Copper' },
+    { key: 'aluminium', label: 'Aluminium' },
+    { key: 'nickel', label: 'Nickel' },
+    { key: 'zinc', label: 'Zinc' },
+    { key: 'tin', label: 'Tin' },
+    { key: 'lead', label: 'Lead' },
+    { key: 'gold', label: 'Gold' },
+    { key: 'silver', label: 'Silver' },
+    { key: 'platinum', label: 'Platinum' },
+    { key: 'palladium', label: 'Palladium' },
+    { key: 'steel', label: 'Steel' },
+    { key: 'iron_ore', label: 'Iron Ore' },
+  ];
+
+  // Only include tabs for metals present in the data
+  const availableTabs = metalTabs.filter(t => producersData[t.key] && producersData[t.key].length > 0);
+
+  const tabsHtml = availableTabs.map((t, i) => {
+    const active = t.key === 'copper' ? ' producers-tab--active' : '';
+    return `<button class="producers-tab${active}" data-metal="${t.key}">${escapeHtml(t.label)}</button>`;
+  }).join('\n        ');
+
+  const totalEntries = Object.values(producersData).reduce((sum, arr) => sum + arr.length, 0);
+
+  return `<div class="digest-section producers-section" id="producers-section">
+      <h2 class="digest-section__title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        Producers Directory
+      </h2>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">Global metals producers — verified data from official sources. ${totalEntries} entries across ${availableTabs.length} metals. Company websites link to official domains only.</p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5); font-style: italic;">Producer data compiled from public sources including USGS Mineral Commodity Summaries, World Steel Association, and company annual reports. For corrections or updates, contact <a href="mailto:info@truesourcemetals.com" style="color: var(--color-primary);">info@truesourcemetals.com</a></p>
+      <div class="producers-tabs">
+        ${tabsHtml}
+      </div>
+      <div class="producers-grid" id="producersGrid">
+        <!-- Populated by JavaScript from TSM_PRODUCERS data -->
+      </div>
+      <script>window.TSM_PRODUCERS = ${JSON.stringify(producersData)};<\/script>
+    </div>`;
+}
+
+const producersSectionHTML = generateProducersHTML(producers);
+
 // ─── Glossary Section ───
 
 const glossaryPath = path.join(__dirname, '..', 'data', 'glossary.json');
@@ -386,7 +445,9 @@ function escapeHtml(text) {
 const newsSectionHTML = generateNewsHTML(news);
 html = html.replace('{{NEWS_SECTION_HTML}}', newsSectionHTML);
 html = html.replace('{{GLOSSARY_SECTION_HTML}}', glossaryHTML);
+html = html.replace('{{PRODUCERS_SECTION_HTML}}', producersSectionHTML);
 console.log(`News section: ${news ? news.article_count + ' articles' : 'empty'}`);
+console.log(`Producers section: ${producers ? Object.values(producers).reduce((sum, arr) => sum + arr.length, 0) + ' entries' : 'empty'}`);
 
 // ─── Write Output ───
 

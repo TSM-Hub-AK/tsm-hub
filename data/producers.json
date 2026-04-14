@@ -1,0 +1,1002 @@
+{
+  "copper": [
+    {
+      "name": "BHP",
+      "country": "Australia",
+      "website": "https://www.bhp.com",
+      "production": "1,500,000 t (2024)",
+      "ticker": "BHP",
+      "exchange": "ASX/NYSE"
+    },
+    {
+      "name": "Codelco",
+      "country": "Chile",
+      "website": "https://www.codelco.com",
+      "production": "1,440,000 t (2024)",
+      "ticker": "State-owned",
+      "exchange": ""
+    },
+    {
+      "name": "Freeport-McMoRan",
+      "country": "USA",
+      "website": "https://www.fcx.com",
+      "production": "1,260,000 t (2024)",
+      "ticker": "FCX",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Glencore",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "951,600 t (2024)",
+      "ticker": "GLEN",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Southern Copper",
+      "country": "Mexico",
+      "website": "https://www.southerncoppercorp.com",
+      "production": "883,462 t (2024)",
+      "ticker": "SCCO",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Anglo American",
+      "country": "UK",
+      "website": "https://www.angloamerican.com",
+      "production": "772,700 t (2024)",
+      "ticker": "AAL",
+      "exchange": "LSE"
+    },
+    {
+      "name": "KGHM Polska Miedź",
+      "country": "Poland",
+      "website": "https://kghm.com",
+      "production": "729,700 t (2024)",
+      "ticker": "KGH",
+      "exchange": "WSE"
+    },
+    {
+      "name": "CMOC Group",
+      "country": "China",
+      "website": "https://en.cmoc.com",
+      "production": "502,600 t (2024)",
+      "ticker": "3993",
+      "exchange": "HKEX"
+    },
+    {
+      "name": "Antofagasta",
+      "country": "UK",
+      "website": "https://www.antofagasta.co.uk",
+      "production": "448,800 t (2024)",
+      "ticker": "ANTO",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Teck Resources",
+      "country": "Canada",
+      "website": "https://www.teck.com",
+      "production": "358,910 t (2024)",
+      "ticker": "TECK",
+      "exchange": "TSX/NYSE"
+    }
+  ],
+  "aluminium": [
+    {
+      "name": "China Hongqiao Group",
+      "country": "China",
+      "website": "http://en.hongqiaochina.com",
+      "production": "6,000,000 t",
+      "ticker": "1378",
+      "exchange": "HKEX"
+    },
+    {
+      "name": "Chinalco (Chalco)",
+      "country": "China",
+      "website": "https://www.chalco.com.cn",
+      "production": "4,000,000 t",
+      "ticker": "2600",
+      "exchange": "HKEX"
+    },
+    {
+      "name": "Rusal",
+      "country": "Russia",
+      "website": "https://www.rusal.ru",
+      "production": "3,900,000 t",
+      "ticker": "RUAL",
+      "exchange": "MOEX"
+    },
+    {
+      "name": "Rio Tinto",
+      "country": "UK/Australia",
+      "website": "https://www.riotinto.com",
+      "production": "3,400,000 t",
+      "ticker": "RIO",
+      "exchange": "LSE/ASX"
+    },
+    {
+      "name": "Emirates Global Aluminium (EGA)",
+      "country": "UAE",
+      "website": "https://www.ega.ae",
+      "production": "2,800,000 t",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Alcoa",
+      "country": "USA",
+      "website": "https://www.alcoa.com",
+      "production": "2,300,000 t",
+      "ticker": "AA",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Xinfa Group",
+      "country": "China",
+      "website": "",
+      "production": "1,800,000 t",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Aluminium Bahrain (Alba)",
+      "country": "Bahrain",
+      "website": "https://www.albasmelter.com",
+      "production": "1,600,000 t",
+      "ticker": "ALBH",
+      "exchange": "BSE"
+    },
+    {
+      "name": "Hindalco Industries",
+      "country": "India",
+      "website": "https://www.hindalco.com",
+      "production": "1,300,000 t",
+      "ticker": "HINDALCO",
+      "exchange": "NSE"
+    },
+    {
+      "name": "Norsk Hydro",
+      "country": "Norway",
+      "website": "https://www.hydro.com",
+      "production": "1,300,000 t",
+      "ticker": "NHY",
+      "exchange": "OSE"
+    },
+    {
+      "name": "South32",
+      "country": "Australia",
+      "website": "https://www.south32.net",
+      "production": "600,000 t",
+      "ticker": "S32",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Century Aluminum",
+      "country": "USA",
+      "website": "https://www.centuryaluminum.com",
+      "production": "500,000 t",
+      "ticker": "CENX",
+      "exchange": "NASDAQ"
+    }
+  ],
+  "nickel": [
+    {
+      "name": "Tsingshan Holding Group",
+      "country": "China",
+      "website": "https://www.tsingshan.com",
+      "production": "~19% of global output (2024)",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Nornickel",
+      "country": "Russia",
+      "website": "https://nornickel.com",
+      "production": "205,067 t (2024)",
+      "ticker": "GMKN",
+      "exchange": "MOEX"
+    },
+    {
+      "name": "Vale",
+      "country": "Brazil",
+      "website": "https://vale.com",
+      "production": "159,900 t (2024)",
+      "ticker": "VALE",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Glencore",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "82,300 t (2024)",
+      "ticker": "GLEN",
+      "exchange": "LSE"
+    },
+    {
+      "name": "BHP",
+      "country": "Australia",
+      "website": "https://www.bhp.com",
+      "production": "80,000 t (2024)",
+      "ticker": "BHP",
+      "exchange": "ASX/NYSE"
+    },
+    {
+      "name": "Jinchuan Group",
+      "country": "China",
+      "website": "http://en.jnmc.com",
+      "production": "330,000 t capacity (incl. products)",
+      "ticker": "State-owned",
+      "exchange": ""
+    },
+    {
+      "name": "Nickel Asia",
+      "country": "Philippines",
+      "website": "https://www.nickelasia.com",
+      "production": "~109,000 t ore (2023)",
+      "ticker": "NIKL",
+      "exchange": "PSE"
+    },
+    {
+      "name": "Ningbo Lygend Mining",
+      "country": "China",
+      "website": "https://www.lygendmining.com",
+      "production": "95,180 t (2023, Halmahera)",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Sumitomo Metal Mining",
+      "country": "Japan",
+      "website": "https://www.smm.co.jp",
+      "production": "~40,000 t (est)",
+      "ticker": "5713",
+      "exchange": "TSE"
+    },
+    {
+      "name": "South32",
+      "country": "Australia",
+      "website": "https://www.south32.net",
+      "production": "40,800 t (2023, Cerro Matoso)",
+      "ticker": "S32",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Eramet",
+      "country": "France",
+      "website": "https://www.eramet.com",
+      "production": "~35,000 t (est)",
+      "ticker": "ERA",
+      "exchange": "Euronext"
+    },
+    {
+      "name": "Huayou Cobalt",
+      "country": "China",
+      "website": "https://en.huayou.com",
+      "production": "42,000 t (2023, PT Huayue)",
+      "ticker": "603799",
+      "exchange": "SSE"
+    }
+  ],
+  "zinc": [
+    {
+      "name": "Hindustan Zinc",
+      "country": "India",
+      "website": "https://www.hzlindia.com",
+      "production": "1,114,000 t (FY2026)",
+      "ticker": "HINDZINC",
+      "exchange": "NSE"
+    },
+    {
+      "name": "Glencore",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "969,000 t (2025)",
+      "ticker": "GLEN",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Teck Resources",
+      "country": "Canada",
+      "website": "https://www.teck.com",
+      "production": "556,000 t (2024)",
+      "ticker": "TECK",
+      "exchange": "TSX/NYSE"
+    },
+    {
+      "name": "Zijin Mining",
+      "country": "China",
+      "website": "https://www.zijinmining.com",
+      "production": "~500,000 t capacity",
+      "ticker": "2899",
+      "exchange": "HKEX"
+    },
+    {
+      "name": "Volcan Compañía Minera",
+      "country": "Peru",
+      "website": "https://www.volcan.com.pe",
+      "production": "~400,000 t capacity",
+      "ticker": "VOLCANC1",
+      "exchange": "BVL"
+    },
+    {
+      "name": "Nexa Resources",
+      "country": "Luxembourg",
+      "website": "https://www.nexaresources.com",
+      "production": "327,000 t (2024)",
+      "ticker": "NEXA",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Vedanta",
+      "country": "UK/India",
+      "website": "https://www.vedanta.co.in",
+      "production": "~300,000 t (2024)",
+      "ticker": "VED",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Industrias Peñoles",
+      "country": "Mexico",
+      "website": "https://www.penoles.com.mx",
+      "production": "270,000 t refined (2024)",
+      "ticker": "PE&OLES",
+      "exchange": "BMV"
+    },
+    {
+      "name": "Boliden",
+      "country": "Sweden",
+      "website": "https://www.boliden.com",
+      "production": "~240,000 t",
+      "ticker": "BOL",
+      "exchange": "NASDAQ Stockholm"
+    },
+    {
+      "name": "MMG Limited",
+      "country": "Hong Kong",
+      "website": "https://www.mmg.com",
+      "production": "232,000 t (2025)",
+      "ticker": "1208",
+      "exchange": "HKEX"
+    }
+  ],
+  "tin": [
+    {
+      "name": "Yunnan Tin Company",
+      "country": "China",
+      "website": "https://en.ytc.cn",
+      "production": "80,100 t",
+      "ticker": "000960",
+      "exchange": "SZSE"
+    },
+    {
+      "name": "Minsur",
+      "country": "Peru",
+      "website": "https://www.minsur.com",
+      "production": "31,700 t",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Yunnan Chengfeng Non-ferrous Metals",
+      "country": "China",
+      "website": "",
+      "production": "21,800 t",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Malaysia Smelting Corporation",
+      "country": "Malaysia",
+      "website": "https://www.msmelt.com",
+      "production": "20,700 t",
+      "ticker": "MSC",
+      "exchange": "KLSE"
+    },
+    {
+      "name": "PT Timah",
+      "country": "Indonesia",
+      "website": "https://www.timah.com",
+      "production": "15,300 t",
+      "ticker": "TINS",
+      "exchange": "IDX"
+    },
+    {
+      "name": "Guangxi China Tin",
+      "country": "China",
+      "website": "https://www.china-tin.com",
+      "production": "12,000 t",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Empresa Metalúrgica Vinto",
+      "country": "Bolivia",
+      "website": "https://vinto.gob.bo",
+      "production": "10,000 t",
+      "ticker": "State-owned",
+      "exchange": ""
+    },
+    {
+      "name": "Thaisarco",
+      "country": "Thailand",
+      "website": "https://www.thaisarco.com",
+      "production": "9,200 t",
+      "ticker": "Private",
+      "exchange": ""
+    }
+  ],
+  "lead": [
+    {
+      "name": "Hindustan Zinc",
+      "country": "India",
+      "website": "https://www.hzlindia.com",
+      "production": "300,000 t",
+      "ticker": "HINDZINC",
+      "exchange": "NSE"
+    },
+    {
+      "name": "Glencore",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "190,000 t",
+      "ticker": "GLEN",
+      "exchange": "LSE"
+    },
+    {
+      "name": "South32",
+      "country": "Australia",
+      "website": "https://www.south32.net",
+      "production": "102,000 t",
+      "ticker": "S32",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Ural Mining and Metallurgical Co",
+      "country": "Russia",
+      "website": "",
+      "production": "99,000 t",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Teck Resources",
+      "country": "Canada",
+      "website": "https://www.teck.com",
+      "production": "93,000 t",
+      "ticker": "TECK",
+      "exchange": "TSX/NYSE"
+    },
+    {
+      "name": "Renco Group",
+      "country": "USA",
+      "website": "https://rencogroup.com",
+      "production": "78,000 t",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Newmont",
+      "country": "USA",
+      "website": "https://www.newmont.com",
+      "production": "54,000 t",
+      "ticker": "NEM",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Industrias Peñoles",
+      "country": "Mexico",
+      "website": "https://www.penoles.com.mx",
+      "production": "50,000 t (est)",
+      "ticker": "PE&OLES",
+      "exchange": "BMV"
+    },
+    {
+      "name": "Hecla Mining",
+      "country": "USA",
+      "website": "https://www.hecla.com",
+      "production": "36,000 t",
+      "ticker": "HL",
+      "exchange": "NYSE"
+    }
+  ],
+  "gold": [
+    {
+      "name": "Newmont",
+      "country": "USA",
+      "website": "https://www.newmont.com",
+      "production": "213 t (2024)",
+      "ticker": "NEM",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Barrick Gold",
+      "country": "Canada",
+      "website": "https://www.barrick.com",
+      "production": "122 t (2024)",
+      "ticker": "GOLD",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Agnico Eagle Mines",
+      "country": "Canada",
+      "website": "https://www.agnicoeagle.com",
+      "production": "108 t (2024)",
+      "ticker": "AEM",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Navoi Mining and Metallurgy",
+      "country": "Uzbekistan",
+      "website": "https://www.ngmk.uz",
+      "production": "96 t (2024)",
+      "ticker": "State-owned",
+      "exchange": ""
+    },
+    {
+      "name": "Polyus",
+      "country": "Russia",
+      "website": "https://polyus.com",
+      "production": "93 t (2024)",
+      "ticker": "PLZL",
+      "exchange": "MOEX"
+    },
+    {
+      "name": "AngloGold Ashanti",
+      "country": "South Africa",
+      "website": "https://www.anglogoldashanti.com",
+      "production": "82 t (2024)",
+      "ticker": "AU",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Kinross Gold",
+      "country": "Canada",
+      "website": "https://www.kinross.com",
+      "production": "66 t (2024)",
+      "ticker": "KGC",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Gold Fields",
+      "country": "South Africa",
+      "website": "https://www.goldfields.com",
+      "production": "64 t (2024)",
+      "ticker": "GFI",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Zijin Mining Group",
+      "country": "China",
+      "website": "https://www.zijinmining.com",
+      "production": "62 t (2024)",
+      "ticker": "2899",
+      "exchange": "HKEX"
+    },
+    {
+      "name": "Freeport-McMoRan",
+      "country": "USA",
+      "website": "https://www.fcx.com",
+      "production": "59 t (est 2024)",
+      "ticker": "FCX",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Northern Star Resources",
+      "country": "Australia",
+      "website": "https://www.nsrltd.com",
+      "production": "50 t (est 2024)",
+      "ticker": "NST",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Harmony Gold",
+      "country": "South Africa",
+      "website": "https://www.harmony.co.za",
+      "production": "48 t (2024)",
+      "ticker": "HMY",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Shandong Gold",
+      "country": "China",
+      "website": "https://www.sdgold.com.cn",
+      "production": "45 t (est 2024)",
+      "ticker": "600547",
+      "exchange": "SSE"
+    },
+    {
+      "name": "B2Gold",
+      "country": "Canada",
+      "website": "https://b2gold.com",
+      "production": "30 t (est 2024)",
+      "ticker": "BTG",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Eldorado Gold",
+      "country": "Canada",
+      "website": "https://www.eldoradogold.com",
+      "production": "25 t (est 2024)",
+      "ticker": "ELD",
+      "exchange": "TSX"
+    }
+  ],
+  "silver": [
+    {
+      "name": "Fresnillo",
+      "country": "Mexico",
+      "website": "https://www.fresnilloplc.com",
+      "production": "56 Moz (2024)",
+      "ticker": "FRES",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Industrias Peñoles",
+      "country": "Mexico",
+      "website": "https://www.penoles.com.mx",
+      "production": "~40 Moz (est 2024)",
+      "ticker": "PE&OLES",
+      "exchange": "BMV"
+    },
+    {
+      "name": "Pan American Silver",
+      "country": "Canada",
+      "website": "https://panamericansilver.com",
+      "production": "21 Moz (2024)",
+      "ticker": "PAAS",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Hecla Mining",
+      "country": "USA",
+      "website": "https://www.hecla.com",
+      "production": "17 Moz (2025)",
+      "ticker": "HL",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Buenaventura",
+      "country": "Peru",
+      "website": "https://www.buenaventura.com",
+      "production": "~11 Moz (est)",
+      "ticker": "BVN",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Coeur Mining",
+      "country": "USA",
+      "website": "https://www.coeur.com",
+      "production": "11.4 Moz (2024)",
+      "ticker": "CDE",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "SilverCrest Metals",
+      "country": "Canada",
+      "website": "https://silvercrestmetals.com",
+      "production": "~10 Moz (est)",
+      "ticker": "SILV",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "First Majestic Silver",
+      "country": "Canada",
+      "website": "https://www.firstmajestic.com",
+      "production": "8.4 Moz (2024)",
+      "ticker": "AG",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Fortuna Silver Mines",
+      "country": "Canada",
+      "website": "https://www.fortunasilver.com",
+      "production": "~7 Moz (est)",
+      "ticker": "FSM",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Endeavour Silver",
+      "country": "Canada",
+      "website": "https://edrsilver.com",
+      "production": "~5-6 Moz (est)",
+      "ticker": "EXK",
+      "exchange": "NYSE"
+    }
+  ],
+  "platinum": [
+    {
+      "name": "Anglo American Platinum",
+      "country": "South Africa",
+      "website": "https://www.angloamericanplatinum.com",
+      "production": "1,800,000 oz (est 2024)",
+      "ticker": "AMS",
+      "exchange": "JSE"
+    },
+    {
+      "name": "Impala Platinum (Implats)",
+      "country": "South Africa",
+      "website": "https://www.implats.co.za",
+      "production": "1,590,000 oz refined (FY2024)",
+      "ticker": "IMP",
+      "exchange": "JSE"
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "country": "South Africa",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "~1,000,000 oz PGM (est 2024)",
+      "ticker": "SBSW",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Nornickel",
+      "country": "Russia",
+      "website": "https://nornickel.com",
+      "production": "667,000 oz (2024)",
+      "ticker": "GMKN",
+      "exchange": "MOEX"
+    },
+    {
+      "name": "Northam Platinum",
+      "country": "South Africa",
+      "website": "https://www.northam.co.za",
+      "production": "~500,000 oz (est FY2024)",
+      "ticker": "NHM",
+      "exchange": "JSE"
+    },
+    {
+      "name": "Zimplats",
+      "country": "Zimbabwe",
+      "website": "https://www.zimplats.com",
+      "production": "~250,000 oz (est)",
+      "ticker": "ZIM",
+      "exchange": "ASX"
+    }
+  ],
+  "palladium": [
+    {
+      "name": "Nornickel",
+      "country": "Russia",
+      "website": "https://nornickel.com",
+      "production": "2,725,000 oz (2025)",
+      "ticker": "GMKN",
+      "exchange": "MOEX"
+    },
+    {
+      "name": "Anglo American Platinum",
+      "country": "South Africa",
+      "website": "https://www.angloamericanplatinum.com",
+      "production": "~1,100,000 oz (est)",
+      "ticker": "AMS",
+      "exchange": "JSE"
+    },
+    {
+      "name": "Impala Platinum (Implats)",
+      "country": "South Africa",
+      "website": "https://www.implats.co.za",
+      "production": "~640,000 oz (est)",
+      "ticker": "IMP",
+      "exchange": "JSE"
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "country": "South Africa",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "~260,000 oz (est)",
+      "ticker": "SBSW",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Northam Platinum",
+      "country": "South Africa",
+      "website": "https://www.northam.co.za",
+      "production": "~480,000 oz (est)",
+      "ticker": "NHM",
+      "exchange": "JSE"
+    }
+  ],
+  "steel": [
+    {
+      "name": "China Baowu Group",
+      "country": "China",
+      "website": "https://www.baowugroup.com",
+      "production": "130.09 Mt (2024)",
+      "ticker": "State-owned",
+      "exchange": ""
+    },
+    {
+      "name": "ArcelorMittal",
+      "country": "Luxembourg",
+      "website": "https://corporate.arcelormittal.com",
+      "production": "65.00 Mt (2024)",
+      "ticker": "MT",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Ansteel Group",
+      "country": "China",
+      "website": "http://www.ansteel.cn",
+      "production": "59.55 Mt",
+      "ticker": "State-owned",
+      "exchange": ""
+    },
+    {
+      "name": "Nippon Steel",
+      "country": "Japan",
+      "website": "https://www.nipponsteel.com",
+      "production": "43.64 Mt",
+      "ticker": "5401",
+      "exchange": "TSE"
+    },
+    {
+      "name": "HBIS Group",
+      "country": "China",
+      "website": "http://www.hbisco.com",
+      "production": "42.28 Mt",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Shagang Group",
+      "country": "China",
+      "website": "http://www.sha-steel.com",
+      "production": "40.22 Mt",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Jianlong Group",
+      "country": "China",
+      "website": "http://www.jianlongindustrial.com",
+      "production": "39.37 Mt",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "POSCO Holdings",
+      "country": "South Korea",
+      "website": "https://www.posco.com",
+      "production": "37.97 Mt",
+      "ticker": "005490",
+      "exchange": "KRX"
+    },
+    {
+      "name": "Shougang Group",
+      "country": "China",
+      "website": "http://www.shougang.com.cn",
+      "production": "31.57 Mt",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "Tata Steel",
+      "country": "India",
+      "website": "https://www.tatasteel.com",
+      "production": "31.02 Mt",
+      "ticker": "TATASTEEL",
+      "exchange": "NSE"
+    },
+    {
+      "name": "Delong Steel",
+      "country": "China",
+      "website": "https://delongsteel.com",
+      "production": "29.33 Mt",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "JSW Steel",
+      "country": "India",
+      "website": "https://www.jsw.in/steel",
+      "production": "26.95 Mt",
+      "ticker": "JSWSTEEL",
+      "exchange": "NSE"
+    },
+    {
+      "name": "JFE Steel",
+      "country": "Japan",
+      "website": "https://www.jfe-steel.co.jp",
+      "production": "23.53 Mt",
+      "ticker": "5411",
+      "exchange": "TSE"
+    },
+    {
+      "name": "Nucor",
+      "country": "USA",
+      "website": "https://www.nucor.com",
+      "production": "20.66 Mt",
+      "ticker": "NUE",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "SAIL",
+      "country": "India",
+      "website": "https://www.sail.co.in",
+      "production": "19.10 Mt",
+      "ticker": "SAIL",
+      "exchange": "NSE"
+    }
+  ],
+  "iron_ore": [
+    {
+      "name": "Vale",
+      "country": "Brazil",
+      "website": "https://vale.com",
+      "production": "328 Mt (2024)",
+      "ticker": "VALE",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Rio Tinto",
+      "country": "UK/Australia",
+      "website": "https://www.riotinto.com",
+      "production": "328 Mt (2024, Pilbara)",
+      "ticker": "RIO",
+      "exchange": "LSE/ASX"
+    },
+    {
+      "name": "BHP",
+      "country": "Australia",
+      "website": "https://www.bhp.com",
+      "production": "260 Mt (2024)",
+      "ticker": "BHP",
+      "exchange": "ASX/NYSE"
+    },
+    {
+      "name": "Fortescue",
+      "country": "Australia",
+      "website": "https://www.fmgl.com.au",
+      "production": "192 Mt (2024)",
+      "ticker": "FMG",
+      "exchange": "ASX"
+    },
+    {
+      "name": "ArcelorMittal",
+      "country": "Luxembourg",
+      "website": "https://corporate.arcelormittal.com",
+      "production": "50 Mt (est)",
+      "ticker": "MT",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Anglo American (Kumba)",
+      "country": "South Africa",
+      "website": "https://www.angloamerican.com",
+      "production": "40 Mt (est)",
+      "ticker": "AAL",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Metalloinvest",
+      "country": "Russia",
+      "website": "https://metalloinvest.com",
+      "production": "40 Mt (est)",
+      "ticker": "Private",
+      "exchange": ""
+    },
+    {
+      "name": "NMDC",
+      "country": "India",
+      "website": "https://www.nmdc.co.in",
+      "production": "40 Mt (est)",
+      "ticker": "NMDC",
+      "exchange": "NSE"
+    },
+    {
+      "name": "Cleveland-Cliffs",
+      "country": "USA",
+      "website": "https://www.clevelandcliffs.com",
+      "production": "40 Mt (est)",
+      "ticker": "CLF",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "LKAB",
+      "country": "Sweden",
+      "website": "https://www.lkab.com",
+      "production": "28 Mt",
+      "ticker": "State-owned",
+      "exchange": ""
+    }
+  ]
+}
