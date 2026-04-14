@@ -225,6 +225,27 @@
 
     .header__main-link:hover { color: var(--color-primary); text-decoration: none; }
 
+    .data-policy-badge {
+      background: var(--color-surface-2);
+      border-bottom: 1px solid var(--color-border-subtle);
+      padding: var(--space-2) var(--space-4);
+      text-align: center;
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+      font-family: var(--font-body);
+      letter-spacing: 0.04em;
+    }
+    .data-policy-badge__icon {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: var(--space-1);
+      color: var(--color-primary);
+    }
+    .data-policy-badge strong {
+      color: var(--color-text);
+      font-weight: 600;
+    }
+
     .theme-toggle {
       background: none;
       border: 1px solid var(--color-border);
@@ -1236,6 +1257,11 @@
       </div>
     </div>
   </header>
+
+  <div class="data-policy-badge">
+    <span class="data-policy-badge__icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+    <strong>Primary data only.</strong> No estimates. No interpretation. No editorial bias. All data sourced from official exchanges and public filings.
+  </div>
 
   <!-- UNIVERSAL SEARCH BAR -->
   <div class="hub-search-bar" role="search" aria-label="Search Hub">
