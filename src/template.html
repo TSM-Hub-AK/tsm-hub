@@ -444,6 +444,36 @@
       color: var(--color-bg);
     }
 
+    /* Topic filter buttons — gold accent */
+    .news-filter-btn--topic {
+      border-color: var(--color-gold-muted, rgba(201, 168, 76, 0.25));
+      color: var(--color-gold);
+    }
+    .news-filter-btn--topic:hover {
+      border-color: var(--color-gold);
+      color: var(--color-gold);
+      background: var(--color-gold-muted);
+    }
+    .news-filter-btn--topic.news-filter-btn--active {
+      background: var(--color-gold);
+      border-color: var(--color-gold);
+      color: var(--color-bg);
+    }
+    .news-filter-btn--topic.news-filter-btn--active:hover {
+      background: var(--color-gold);
+      color: var(--color-bg);
+    }
+
+    /* Divider between metal and topic filters */
+    .news-filter-divider {
+      display: inline-block;
+      width: 1px;
+      height: 1.5rem;
+      background: var(--color-border);
+      align-self: center;
+      margin: 0 var(--space-1);
+    }
+
     /* === NEWS ITEM === */
     .news-item {
       padding: var(--space-5) 0;
@@ -1411,7 +1441,7 @@
       });
     })();
 
-    // News metal filter
+    // News metal + topic filter
     (function() {
       var section = document.getElementById('news-section');
       if (!section) return;
@@ -1423,30 +1453,46 @@
       buttons.forEach(function(btn) {
         btn.addEventListener('click', function() {
           var filter = btn.getAttribute('data-filter');
+          var filterType = btn.getAttribute('data-filter-type'); // 'topic' or null (metal)
 
           // Update active button
           buttons.forEach(function(b) { b.classList.remove('news-filter-btn--active'); });
           btn.classList.add('news-filter-btn--active');
 
-          // Filter news items — show matching + general as fallback
+          // Filter news items
           var visibleCount = 0;
           var generalItems = [];
           items.forEach(function(item) {
-            var metals = item.getAttribute('data-metals') || '';
-            var metalList = metals.split(' ');
-            if (filter === 'all' || metalList.indexOf(filter) !== -1) {
+            var metals = (item.getAttribute('data-metals') || '').split(' ');
+            var topics = (item.getAttribute('data-topics') || '').split(' ').filter(Boolean);
+
+            if (filter === 'all') {
               item.style.display = '';
               visibleCount++;
-            } else if (metalList.indexOf('general') !== -1) {
-              generalItems.push(item);
-              item.style.display = 'none';
+            } else if (filterType === 'topic') {
+              // Topic filter: match against data-topics
+              if (topics.indexOf(filter) !== -1) {
+                item.style.display = '';
+                visibleCount++;
+              } else {
+                item.style.display = 'none';
+              }
             } else {
-              item.style.display = 'none';
+              // Metal filter: match against data-metals
+              if (metals.indexOf(filter) !== -1) {
+                item.style.display = '';
+                visibleCount++;
+              } else if (metals.indexOf('general') !== -1) {
+                generalItems.push(item);
+                item.style.display = 'none';
+              } else {
+                item.style.display = 'none';
+              }
             }
           });
 
-          // If too few results, show general news as well
-          if (filter !== 'all' && visibleCount < 3) {
+          // If too few results for metal filter, show general news as well
+          if (filter !== 'all' && filterType !== 'topic' && visibleCount < 3) {
             generalItems.forEach(function(item) {
               item.style.display = '';
               visibleCount++;
@@ -1456,6 +1502,11 @@
           // Show/hide empty message
           if (emptyMsg) {
             emptyMsg.style.display = visibleCount === 0 ? 'block' : 'none';
+            if (visibleCount === 0) {
+              emptyMsg.textContent = filterType === 'topic'
+                ? 'No news available for this topic right now.'
+                : 'No news available for this metal right now.';
+            }
           }
         });
       });
