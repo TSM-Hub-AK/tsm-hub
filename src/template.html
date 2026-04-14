@@ -190,6 +190,32 @@
       gap: var(--space-4);
     }
 
+    .header__nav {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+    }
+
+    .header__nav-link {
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--color-text-muted);
+      text-decoration: none;
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-sm);
+      transition: color 0.2s, background 0.2s;
+    }
+
+    .header__nav-link:hover {
+      color: var(--color-primary);
+      background: var(--color-surface-elevated);
+      text-decoration: none;
+    }
+
+    .header__nav-link--active {
+      color: var(--color-primary);
+    }
+
     .header__main-link {
       font-size: var(--text-sm);
       color: var(--color-text-muted);
@@ -1167,6 +1193,9 @@
     /* === MOBILE === */
     @media (max-width: 900px) {
       .producers-grid { grid-template-columns: repeat(2, 1fr); }
+      .header__nav { gap: 0; }
+      .header__nav-link { padding: var(--space-1) var(--space-2); font-size: var(--text-xs); }
+      .header__main-link { display: none; }
     }
 
     @media (max-width: 600px) {
@@ -1179,6 +1208,7 @@
       .data-table th, .data-table td { padding: var(--space-1) var(--space-2); }
       .producers-grid { grid-template-columns: 1fr; }
       .hub-search-bar { padding: 0 var(--space-4); }
+      .header__nav-link { padding: 2px var(--space-1); }
     }
   </style>
 </head>
@@ -1191,6 +1221,12 @@
         <img src="https://truesourcemetals.com/tsm_logo.jpg" alt="TSM" class="header__logo" width="36" height="36">
         <span class="header__name">TSM<span class="header__hub">Hub</span></span>
       </a>
+      <nav class="header__nav" aria-label="Hub sections">
+        <a href="#prices-section" class="header__nav-link">Prices</a>
+        <a href="#news-section" class="header__nav-link">News</a>
+        <a href="#glossary-section" class="header__nav-link">Glossary</a>
+        <a href="#producers-section" class="header__nav-link">Producers</a>
+      </nav>
       <div class="header__right">
         <a href="https://truesourcemetals.com" class="header__main-link">truesourcemetals.com</a>
         <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
@@ -1239,7 +1275,7 @@
     <!-- ============================================ -->
     <!-- LIVE PRICES FROM API -->
     <!-- ============================================ -->
-    <div class="digest-section">
+    <div class="digest-section" id="prices-section">
       <h2 class="digest-section__title">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
         Live Exchange Prices
@@ -2268,6 +2304,36 @@
           }
         });
       });
+    })();
+  </script>
+
+  <!-- NAV SCROLL-SPY -->
+  <script>
+    (function() {
+      const navLinks = document.querySelectorAll('.header__nav-link');
+      if (!navLinks.length) return;
+      const sections = Array.from(navLinks).map(link => {
+        const id = link.getAttribute('href').slice(1);
+        return { id, el: document.getElementById(id), link };
+      }).filter(s => s.el);
+
+      let ticking = false;
+      function onScroll() {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+          const scrollY = window.scrollY + 80;
+          let active = null;
+          for (let i = sections.length - 1; i >= 0; i--) {
+            if (sections[i].el.offsetTop <= scrollY) { active = sections[i]; break; }
+          }
+          navLinks.forEach(l => l.classList.remove('header__nav-link--active'));
+          if (active) active.link.classList.add('header__nav-link--active');
+          ticking = false;
+        });
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
     })();
   </script>
 
