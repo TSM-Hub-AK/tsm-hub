@@ -308,6 +308,25 @@ if (!fs.existsSync(distDir)) {
 const outPath = path.join(distDir, 'index.html');
 fs.writeFileSync(outPath, html);
 
+// Generate sitemap.xml
+const today = new Date().toISOString().split('T')[0];
+const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hub.truesourcemetals.com/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>`;
+fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml);
+console.log('Sitemap generated: dist/sitemap.xml');
+
+// Generate robots.txt
+const robotsTxt = `User-agent: *\nAllow: /\nSitemap: https://hub.truesourcemetals.com/sitemap.xml\n`;
+fs.writeFileSync(path.join(distDir, 'robots.txt'), robotsTxt);
+console.log('Robots.txt generated: dist/robots.txt');
+
 console.log(`Hub page generated: ${outPath}`);
 console.log(`Data date: ${dataDate}`);
 console.log(`Data timestamp: ${dataTime}`);
