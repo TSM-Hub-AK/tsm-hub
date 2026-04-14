@@ -474,6 +474,103 @@
       margin: 0 var(--space-1);
     }
 
+    /* === GLOSSARY === */
+    .glossary-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+    .glossary-tab {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-full, 999px);
+      padding: var(--space-1) var(--space-4);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      color: var(--color-text-muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+    }
+    .glossary-tab:hover {
+      border-color: var(--color-gold);
+      color: var(--color-gold);
+    }
+    .glossary-tab--active {
+      background: var(--color-gold);
+      border-color: var(--color-gold);
+      color: var(--color-bg);
+    }
+    .glossary-tab--active:hover {
+      background: var(--color-gold);
+      color: var(--color-bg);
+    }
+    .glossary-search {
+      margin-bottom: var(--space-6);
+    }
+    .glossary-search__input {
+      width: 100%;
+      max-width: 400px;
+      padding: var(--space-2) var(--space-4);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      color: var(--color-text);
+      font-size: var(--text-sm);
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+    .glossary-search__input::placeholder { color: var(--color-text-faint); }
+    .glossary-search__input:focus { border-color: var(--color-gold); }
+    .glossary-category {
+      margin-bottom: var(--space-8);
+    }
+    .glossary-category__title {
+      font-family: var(--font-display);
+      font-size: var(--text-base);
+      font-weight: 700;
+      color: var(--color-gold);
+      margin-bottom: var(--space-4);
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+    .glossary-term {
+      padding: var(--space-4) 0;
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+    .glossary-term:last-child { border-bottom: none; }
+    .glossary-term__header {
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+      margin-bottom: var(--space-1);
+    }
+    .glossary-term__name {
+      font-weight: 700;
+      font-size: var(--text-sm);
+      color: var(--color-text);
+    }
+    .glossary-fullname {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+      font-weight: 400;
+    }
+    .glossary-term__def {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      line-height: 1.6;
+    }
+    .glossary-term__attr {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-top: var(--space-1);
+      font-style: italic;
+    }
+
     /* === NEWS ITEM === */
     .news-item {
       padding: var(--space-5) 0;
@@ -1320,6 +1417,9 @@
       </div>
     </div>
 
+    <!-- GLOSSARY -->
+    {{GLOSSARY_SECTION_HTML}}
+
     <!-- Disclaimer -->
     <div class="disclaimer">
       <strong>Disclaimer.</strong> This digest is compiled from publicly available sources for informational purposes only and does not constitute investment advice, a recommendation, or an offer to buy or sell any commodity or financial instrument. TrueSource Metals makes no warranties regarding the accuracy or completeness of the information presented. All market data, news and analysis are sourced from publicly available information with full attribution to original publishers. All trademarks, logos and brand names referenced herein are the property of their respective owners. Live prices sourced from <a href="https://metals.dev" target="_blank" rel="noopener">Metals.dev</a> (LME, LBMA official data). If any content owner believes their rights have been affected, please contact <a href="mailto:info@truesourcemetals.com">info@truesourcemetals.com</a> for prompt resolution. Always consult qualified professionals before making investment decisions.
@@ -1439,6 +1539,60 @@
           alert('Network error. Please try again or email info@truesourcemetals.com directly.');
         });
       });
+    })();
+
+    // Glossary tab switching + search
+    (function() {
+      var section = document.getElementById('glossary-section');
+      if (!section) return;
+
+      var tabs = section.querySelectorAll('.glossary-tab');
+      var categories = section.querySelectorAll('.glossary-category');
+      var searchInput = document.getElementById('glossarySearch');
+
+      tabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+          var catId = tab.getAttribute('data-glossary-tab');
+          tabs.forEach(function(t) { t.classList.remove('glossary-tab--active'); });
+          tab.classList.add('glossary-tab--active');
+          if (searchInput) searchInput.value = '';
+
+          categories.forEach(function(cat) {
+            if (catId === 'all' || cat.getAttribute('data-glossary-cat') === catId) {
+              cat.style.display = '';
+            } else {
+              cat.style.display = 'none';
+            }
+            // Reset any search-hidden terms
+            cat.querySelectorAll('.glossary-term').forEach(function(t) { t.style.display = ''; });
+          });
+        });
+      });
+
+      if (searchInput) {
+        searchInput.addEventListener('input', function() {
+          var q = searchInput.value.toLowerCase().trim();
+          // Reset tab to All when searching
+          if (q) {
+            tabs.forEach(function(t) { t.classList.remove('glossary-tab--active'); });
+            section.querySelector('[data-glossary-tab="all"]').classList.add('glossary-tab--active');
+          }
+          categories.forEach(function(cat) {
+            cat.style.display = '';
+            var visibleInCat = 0;
+            cat.querySelectorAll('.glossary-term').forEach(function(term) {
+              var text = term.textContent.toLowerCase();
+              if (!q || text.indexOf(q) !== -1) {
+                term.style.display = '';
+                visibleInCat++;
+              } else {
+                term.style.display = 'none';
+              }
+            });
+            cat.style.display = visibleInCat > 0 ? '' : 'none';
+          });
+        });
+      }
     })();
 
     // News metal + topic filter
