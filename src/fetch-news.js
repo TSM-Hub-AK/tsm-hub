@@ -17,6 +17,7 @@ const path = require('path');
 // ─── Configuration ───
 
 const NEWS_QUERIES = [
+  // ── Metals ──
   { query: 'nickel market price Indonesia SHFE LME', category: 'nickel' },
   { query: 'copper market price LME supply demand', category: 'copper' },
   { query: 'aluminum aluminium market price smelter', category: 'aluminum' },
@@ -24,9 +25,15 @@ const NEWS_QUERIES = [
   { query: 'gold price LBMA market central bank', category: 'gold' },
   { query: 'silver platinum palladium precious metals', category: 'precious' },
   { query: 'metals commodities trade tariffs supply chain', category: 'general' },
+  // ── RWA & Tokenization ──
+  { query: 'RWA tokenization real world assets securities blockchain', category: 'rwa' },
+  { query: 'tokenized bonds commodities assets regulation', category: 'rwa' },
+  // ── HK Regulatory ──
+  { query: 'Hong Kong SFC virtual assets regulation fintech', category: 'hk-regulatory' },
+  { query: 'Hong Kong HKMA tokenization digital assets policy', category: 'hk-regulatory' },
 ];
 
-const MAX_TOTAL_ARTICLES = 30;  // More articles to support per-metal filtering
+const MAX_TOTAL_ARTICLES = 40;  // More articles to support per-metal + topic filtering
 const MAX_AGE_DAYS = 7;         // Max article age (7 days)
 
 // Trusted sources for metals/commodities (bonus in scoring)
@@ -40,6 +47,10 @@ const TIER2_SOURCES = [
   'investingnews.com', 'recyclingtoday.com', 'agmetalminer.com',
   'argusmedia.com', 'fortune.com', 'livemint.com', 'economictimes.com',
   'aljazeera.com', 'steelnews.biz',
+  // RWA & HK Regulatory sources
+  'coindesk.com', 'theblock.co', 'ledgerinsights.com', 'rwa.io',
+  'hkma.gov.hk', 'sfc.hk', 'gov.hk', 'info.gov.hk',
+  'thestandard.com.hk', 'ejinsight.com', 'fintechnews.hk',
 ];
 
 // Keywords that boost relevance
@@ -56,8 +67,11 @@ const WEAK_KEYWORDS = [
 ];
 
 // Negative keywords — discard entirely
+// NOTE: 'blockchain' and 'crypto' are NOT negative for rwa/hk-regulatory categories
 const NEGATIVE_KEYWORDS = [
-  'bitcoin', 'crypto', 'nft', 'blockchain', 'ethereum', 'dogecoin',
+  'bitcoin', 'ethereum', 'dogecoin', 'solana', 'memecoin',
+  'nft',
+  // 'blockchain' and 'crypto' removed from global negatives — handled per-category below
   'horoscope', 'astrology', 'zodiac',
   'death metal', 'heavy metal band', 'metal music',
   'jewellery offer', 'jewelry offer', 'akshaya tritiya',
@@ -65,6 +79,12 @@ const NEGATIVE_KEYWORDS = [
   '18k, 22k', '22k & 24k', 'carat gold',
   'agriculture', 'sustainable agriculture',
 ];
+
+// Topic tagging rules: map keywords in title to topic tags
+const TOPIC_TAGS = {
+  rwa: ['rwa', 'real world asset', 'real-world asset', 'tokeniz', 'tokenised', 'tokenized', 'digital asset', 'security token', 'asset-backed token'],
+  'hk-regulatory': ['hong kong', 'hkma', 'sfc ', 'securities and futures commission', 'cyberport', 'ensemble', 'hksar', 'greater bay area'],
+};
 
 // Metal tagging rules: map keywords in title to metal tags
 const METAL_TAGS = {
@@ -97,6 +117,17 @@ function tagMetals(title) {
   }
   // If still no tags, mark as general
   if (tags.length === 0) tags.push('general');
+  return tags;
+}
+
+function tagTopics(title) {
+  const titleLower = ' ' + title.toLowerCase() + ' ';
+  const tags = [];
+  for (const [topic, keywords] of Object.entries(TOPIC_TAGS)) {
+    if (keywords.some(kw => titleLower.includes(kw))) {
+      tags.push(topic);
+    }
+  }
   return tags;
 }
 
@@ -214,8 +245,11 @@ function scoreArticle(article) {
   const titleLower = article.title.toLowerCase();
   const sourceDomain = (article.sourceUrl || '').toLowerCase();
   
-  // Hard discard: negative keywords
+  // Hard discard: negative keywords (but not for rwa/hk-regulatory articles)
+  const isTopicArticle = article.category === 'rwa' || article.category === 'hk-regulatory';
   if (NEGATIVE_KEYWORDS.some(kw => titleLower.includes(kw))) return -1;
+  // For non-topic articles, also block blockchain/crypto terms
+  if (!isTopicArticle && (titleLower.includes('blockchain') || titleLower.includes('crypto'))) return -1;
   
   // Hard discard: too old
   if (article.pubDate) {
@@ -336,6 +370,7 @@ async function main() {
       pubDate: a.pubDate,
       category: a.category,
       metals: tagMetals(a.title),
+      topics: tagTopics(a.title),
     })),
   };
   
