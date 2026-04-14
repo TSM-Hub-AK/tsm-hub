@@ -290,7 +290,8 @@ if (fs.existsSync(glossaryPath)) {
   
   const categoryCards = glossary.categories.map(cat => {
     const icon = categoryIcons[cat.id] || '';
-    const terms = cat.terms.map(t => {
+    const sortedTerms = [...cat.terms].sort((a, b) => a.term.localeCompare(b.term, 'en', { sensitivity: 'base' }));
+    const terms = sortedTerms.map(t => {
       const fullNameDisplay = t.full_name && t.full_name !== t.term
         ? `<span class="glossary-fullname">${escapeHtml(t.full_name)}</span>`
         : '';
