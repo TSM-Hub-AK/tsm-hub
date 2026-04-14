@@ -1,0 +1,309 @@
+{
+  "categories": [
+    {
+      "id": "metals-exchanges",
+      "name": "Metals & Exchanges",
+      "icon": "chart",
+      "terms": [
+        {
+          "term": "LME",
+          "full_name": "London Metal Exchange",
+          "definition": "Founded in 1877, the London Metal Exchange is the world's largest market for industrial base metals, including copper, aluminium, zinc, lead, nickel, and tin. It operates three trading methods: open-outcry Ring trading, electronic trading via LME Select, and a 24-hour telephone market. The LME is owned by Hong Kong Exchanges and Clearing (HKEX), which acquired it in 2012.",
+          "attribution": "Based on: LME official documentation"
+        },
+        {
+          "term": "LBMA",
+          "full_name": "London Bullion Market Association",
+          "definition": "Established in 1987 at the request of the Bank of England, the LBMA is the international trade association representing the global over-the-counter (OTC) wholesale market for gold, silver, platinum, and palladium. It defines itself as the global authority on precious metals, maintaining the Good Delivery Lists that set standards for acceptable bullion bars traded in London.",
+          "attribution": "Based on: LBMA official documentation"
+        },
+        {
+          "term": "SHFE",
+          "full_name": "Shanghai Futures Exchange",
+          "definition": "Established in 1999, the Shanghai Futures Exchange is a futures exchange regulated by the China Securities Regulatory Commission (CSRC). It offers futures contracts for copper, aluminium, zinc, lead, nickel, tin, gold, silver, and crude oil, making it one of China's principal commodities exchanges.",
+          "attribution": "Based on: SHFE official documentation"
+        },
+        {
+          "term": "COMEX",
+          "full_name": "Commodity Exchange",
+          "definition": "COMEX is a Designated Contract Market operated by CME Group that offers benchmark futures and options contracts in precious, base, and ferrous metals. It joined CME Group through the merger with NYMEX in 2008 and serves as a primary global reference for gold, silver, copper, and aluminium price discovery.",
+          "attribution": "Based on: CME Group official documentation"
+        },
+        {
+          "term": "Settlement Price",
+          "full_name": "Official Settlement Price",
+          "definition": "The settlement price is the official price established at the close of a trading session, used as the reference price for marking open positions to market and settling expiring contracts. On the LME, the Official Settlement Price is the last cash offer price quoted during the second Ring session, established between 12:20 and 13:25 London time, and serves as the global reference for physical metals contracts.",
+          "attribution": "Based on: LME official documentation"
+        },
+        {
+          "term": "Spot Price vs Futures Price",
+          "full_name": "Spot Price and Futures Price",
+          "definition": "The spot price is the current market price at which a commodity can be bought or sold for immediate delivery and settlement. A futures price is the agreed-upon price for delivery of a commodity at a specified date in the future, determined by supply and demand expectations, cost of carry, and storage costs.",
+          "attribution": "Based on: CME Group and LME official documentation"
+        },
+        {
+          "term": "Contango vs Backwardation",
+          "full_name": "Contango and Backwardation",
+          "definition": "Contango describes a market condition in which futures prices are higher than the current spot price, typically reflecting storage costs and the cost of carry. Backwardation is the opposite condition, where futures prices trade below the spot price, often indicating near-term supply tightness or strong immediate demand.",
+          "attribution": "Based on: CME Group official documentation"
+        },
+        {
+          "term": "Warehouse Stocks",
+          "full_name": "Exchange-Approved Warehouse Stocks",
+          "definition": "Warehouse stocks are physical quantities of metal stored in exchange-accredited warehouse facilities and registered against exchange warrants. On the LME, approved warehouses are authorised to store LME-registered brands of metal on behalf of warrant holders and to issue LME warrants representing title to those metals.",
+          "attribution": "Based on: LME official documentation"
+        },
+        {
+          "term": "Cash vs 3-Month",
+          "full_name": "LME Cash and Three-Month Pricing Convention",
+          "definition": "A distinctive feature of the LME is its pricing structure, which quotes both a cash price (for settlement in two business days) and a three-month forward price (for delivery three months from the trade date). This convention reflects the historical shipping time from major mining regions to London and underpins the LME's role as a global pricing benchmark.",
+          "attribution": "Based on: LME official documentation"
+        },
+        {
+          "term": "Open Outcry",
+          "full_name": "Open Outcry Trading",
+          "definition": "Open outcry is a traditional method of communicating trade orders on an exchange floor through a combination of verbal bids and offers and standardised hand signals. On the LME, Ring trading — a form of open outcry — takes place in a circular arrangement where members trade in five-minute sessions for each metal, and this session produces the LME's Official Prices.",
+          "attribution": "Based on: LME official documentation"
+        }
+      ]
+    },
+    {
+      "id": "rwa-tokenization",
+      "name": "RWA & Tokenization",
+      "icon": "link",
+      "terms": [
+        {
+          "term": "RWA",
+          "full_name": "Real World Assets",
+          "definition": "Real World Assets (RWA) is a term used in blockchain and digital finance to describe tangible or traditional financial assets — such as commodities, real estate, bonds, or equities — that are represented as digital tokens on a distributed ledger. Tokenizing RWAs aims to bridge traditional finance and decentralized finance by making these assets programmable, divisible, and tradable on-chain.",
+          "attribution": "Based on: FSB and industry standard documentation"
+        },
+        {
+          "term": "Tokenization",
+          "full_name": "Asset Tokenization",
+          "definition": "Tokenization is the process of converting ownership rights or claims to a real-world or financial asset into a digital token recorded on a distributed ledger or blockchain. The resulting token can represent full or fractional ownership, and its transfer constitutes a transfer of the underlying rights in accordance with the applicable legal structure.",
+          "attribution": "Based on: FSB and ICMA official documentation"
+        },
+        {
+          "term": "Security Token",
+          "full_name": "Security Token",
+          "definition": "A security token is a digital token that is classified as a security under applicable financial regulations, representing ownership rights, investment interests, or economic entitlements in an underlying asset or enterprise. Because security tokens are treated as securities, their issuance and trading are subject to the same investor protection and disclosure requirements as traditional securities.",
+          "attribution": "Based on: SEC and ESMA official documentation"
+        },
+        {
+          "term": "DLT",
+          "full_name": "Distributed Ledger Technology",
+          "definition": "Distributed Ledger Technology (DLT) refers to the protocols and supporting infrastructure that allow computers in different locations to propose, validate, and record transactions in a synchronised way across a network, without relying on a central trusted authority. Blockchain is one type of DLT in which data is organised into a chain of connected and cryptographically secured blocks.",
+          "attribution": "Based on: Bank for International Settlements (BIS) official documentation"
+        },
+        {
+          "term": "Smart Contract",
+          "full_name": "Smart Contract",
+          "definition": "A smart contract is a self-executing programme stored on a blockchain that automatically enforces and executes the terms of an agreement when predefined conditions are met, without requiring human intervention or a trusted intermediary. Once deployed on a blockchain, a smart contract is immutable and its execution is transparent and auditable by participants on the network.",
+          "attribution": "Based on: Ethereum Foundation and ICMA official documentation"
+        },
+        {
+          "term": "Digital Bond",
+          "full_name": "Digital Bond",
+          "definition": "A digital bond is a debt security whose issuance, ownership record, and lifecycle management are conducted using distributed ledger technology or blockchain, rather than through traditional centralised securities infrastructure. Digital bonds can be issued natively on-chain as security tokens, or they can be tokenised representations of conventionally issued bonds held by a custodian.",
+          "attribution": "Based on: ICMA official documentation"
+        },
+        {
+          "term": "Atomic Settlement",
+          "full_name": "Atomic Settlement",
+          "definition": "Atomic settlement is the simultaneous, all-or-nothing exchange of an asset and its corresponding payment on a distributed ledger, structured so that either both legs of the transaction complete or neither does. This mechanism eliminates principal risk in delivery-versus-payment (DvP) transactions by ensuring no party can deliver without receiving, and vice versa.",
+          "attribution": "Based on: BIS and FSB official documentation"
+        },
+        {
+          "term": "Fractionalization",
+          "full_name": "Asset Fractionalization",
+          "definition": "Fractionalization is the process of dividing ownership of a single high-value asset into multiple smaller, independently tradeable units through tokenization on a blockchain. By lowering the minimum investment threshold, fractionalization can increase market liquidity and broaden access to asset classes that were previously available only to large investors.",
+          "attribution": "Based on: FSB and ICMA official documentation"
+        },
+        {
+          "term": "Custody (Digital Assets)",
+          "full_name": "Digital Asset Custody",
+          "definition": "Digital asset custody refers to the safekeeping and management of the private cryptographic keys that control access to, and transfer of, digital assets recorded on a distributed ledger. Because digital assets are accessed and transferred through these private keys, custodians are responsible for securing the keys themselves rather than holding physical certificates or instruments.",
+          "attribution": "Based on: FSB and Hogan Lovells official documentation"
+        },
+        {
+          "term": "STO",
+          "full_name": "Security Token Offering",
+          "definition": "A Security Token Offering (STO) is a regulated method of raising capital in which a company issues digital tokens on a blockchain that are classified as securities and represent ownership rights, profit participation, or other investment interests. Unlike unregulated token sales, STOs are subject to applicable securities laws in each jurisdiction, including disclosure, registration, and investor eligibility requirements.",
+          "attribution": "Based on: SEC and ESMA official documentation"
+        }
+      ]
+    },
+    {
+      "id": "regulatory-compliance",
+      "name": "Regulatory & Compliance",
+      "icon": "shield",
+      "terms": [
+        {
+          "term": "SFC",
+          "full_name": "Securities and Futures Commission",
+          "definition": "The Securities and Futures Commission (SFC) is an independent statutory body established in May 1989 pursuant to the Securities and Futures Commission Ordinance to regulate Hong Kong's securities and futures markets. It derives its investigative, remedial, and disciplinary powers from the Securities and Futures Ordinance and is operationally independent of the Hong Kong Government, funded mainly by transaction levies and licensing fees.",
+          "attribution": "Based on: SFC official documentation"
+        },
+        {
+          "term": "HKMA",
+          "full_name": "Hong Kong Monetary Authority",
+          "definition": "The Hong Kong Monetary Authority (HKMA) is Hong Kong's central banking institution, established on 1 April 1993 by merging the Office of the Exchange Fund and the Office of the Commissioner of Banking. Its principal functions include maintaining currency stability, promoting the safety and stability of Hong Kong's banking system, and managing the Exchange Fund.",
+          "attribution": "Based on: HKMA official documentation"
+        },
+        {
+          "term": "KYC",
+          "full_name": "Know Your Customer",
+          "definition": "Know Your Customer (KYC) is the mandatory process by which financial institutions verify the identity of their clients, assess their risk profile, and gather information on the nature and purpose of the business relationship. KYC is a foundational component of Anti-Money Laundering compliance frameworks and is required under financial regulations across major jurisdictions.",
+          "attribution": "Based on: FATF official documentation"
+        },
+        {
+          "term": "AML",
+          "full_name": "Anti-Money Laundering",
+          "definition": "Anti-Money Laundering (AML) refers to the body of laws, regulations, and procedures designed to prevent criminals from disguising illegally obtained funds as legitimate income. Financial institutions are required to implement AML programmes that include customer due diligence, transaction monitoring, suspicious activity reporting, and record-keeping.",
+          "attribution": "Based on: FATF official documentation"
+        },
+        {
+          "term": "MiCA",
+          "full_name": "Markets in Crypto-Assets Regulation",
+          "definition": "Markets in Crypto-Assets (MiCA) is a regulation of the European Union that establishes a comprehensive and harmonised regulatory framework for crypto-assets across all EU member states, covering issuers and service providers for asset-referenced tokens, e-money tokens, and other crypto-assets. Adopted by the European Parliament on 20 April 2023, MiCA has been fully applicable since December 2024 and introduces authorisation, disclosure, and investor protection requirements modelled on existing EU financial services legislation.",
+          "attribution": "Based on: European Commission and ESMA official documentation"
+        },
+        {
+          "term": "VASP",
+          "full_name": "Virtual Asset Service Provider",
+          "definition": "A Virtual Asset Service Provider (VASP) is a term defined by the Financial Action Task Force (FATF) to describe any natural or legal person that, as a business on behalf of another, conducts activities such as exchanging virtual assets for fiat currency, transferring virtual assets, or safekeeping and administering virtual assets. VASPs are required under FATF standards to implement the same AML and counter-terrorist financing (CTF) controls as traditional financial institutions.",
+          "attribution": "Based on: FATF official documentation"
+        },
+        {
+          "term": "Regulatory Sandbox",
+          "full_name": "Regulatory Sandbox",
+          "definition": "A regulatory sandbox is a framework established by a financial regulator that allows firms to test innovative products, services, or business models in a live market environment under relaxed regulatory requirements, subject to defined conditions and oversight. The UK's Financial Conduct Authority (FCA) launched the first financial regulatory sandbox in 2015, and the approach has since been adopted by regulators globally, including the HKMA.",
+          "attribution": "Based on: FCA and HKMA official documentation"
+        },
+        {
+          "term": "FATF",
+          "full_name": "Financial Action Task Force",
+          "definition": "The Financial Action Task Force (FATF) is an intergovernmental organisation established by the G7 in 1989 to develop and promote policies to combat money laundering, terrorist financing, and proliferation financing. FATF sets international standards through its Recommendations, monitors countries' compliance, and maintains public lists identifying jurisdictions with strategic deficiencies in their AML and counter-terrorist financing regimes.",
+          "attribution": "Based on: FATF official documentation"
+        }
+      ]
+    },
+    {
+      "id": "trade-policy",
+      "name": "Trade & Policy",
+      "icon": "globe",
+      "terms": [
+        {
+          "term": "CBAM",
+          "full_name": "Carbon Border Adjustment Mechanism",
+          "definition": "The Carbon Border Adjustment Mechanism (CBAM) is the European Union's regulatory tool that places a carbon price on imports of carbon-intensive goods entering the EU, ensuring that the carbon cost of imports is equivalent to that borne by EU producers under the EU Emissions Trading System. CBAM initially covers cement, iron and steel, aluminium, fertilisers, electricity, and hydrogen, with importers required to purchase CBAM certificates corresponding to the embedded emissions in their goods.",
+          "attribution": "Based on: European Commission official documentation"
+        },
+        {
+          "term": "CRMA",
+          "full_name": "Critical Raw Materials Act",
+          "definition": "The Critical Raw Materials Act (CRMA) is a European Union regulation adopted in 2024 that aims to secure the EU's access to a sustainable supply of critical and strategic raw materials essential for green, digital, defence, and aerospace technologies. It establishes domestic benchmarks for extraction, processing, and recycling of strategic raw materials, streamlines permitting for critical raw materials projects, diversifies import sources, and creates a European Critical Raw Materials Board to coordinate implementation.",
+          "attribution": "Based on: European Commission official documentation"
+        },
+        {
+          "term": "Tariff",
+          "full_name": "Tariff",
+          "definition": "A tariff is a tax levied by a government on goods imported from other countries, typically expressed as a percentage of the goods' value (ad valorem) or as a fixed amount per unit (specific tariff). Tariffs are used to generate government revenue, protect domestic industries from foreign competition, and as instruments of trade policy.",
+          "attribution": "Based on: WTO official documentation"
+        },
+        {
+          "term": "Export Controls",
+          "full_name": "Export Controls",
+          "definition": "Export controls are government-imposed legal restrictions on the export, re-export, or transfer of specific goods, software, technology, and services to foreign countries or persons, typically to protect national security, foreign policy objectives, or prevent proliferation of weapons. In the United States, export controls on dual-use items are administered by the Bureau of Industry and Security (BIS) under the Export Administration Regulations (EAR).",
+          "attribution": "Based on: U.S. Department of Commerce BIS official documentation"
+        },
+        {
+          "term": "Critical Minerals",
+          "full_name": "Critical Minerals",
+          "definition": "Critical minerals are minerals or elements designated as essential to a nation's economic or national security, characterised by supply chains that are vulnerable to disruption and an absence of viable substitutes in key applications. The United States formally defined critical minerals in the Energy Act of 2020 as those essential to the economy or national security with a supply chain vulnerable to disruption; the EU maintains a parallel list under the Critical Raw Materials Act.",
+          "attribution": "Based on: U.S. Geological Survey and European Commission official documentation"
+        },
+        {
+          "term": "Sanctions",
+          "full_name": "Economic and Trade Sanctions",
+          "definition": "Sanctions are coercive measures imposed by governments or international bodies that restrict or prohibit financial transactions, trade, or other dealings with designated countries, entities, or individuals, typically to achieve foreign policy, national security, or human rights objectives. Sanctions can take the form of asset freezes, trade embargoes, travel bans, or restrictions on specific sectors such as banking, energy, or arms.",
+          "attribution": "Based on: U.S. Department of the Treasury OFAC and UN official documentation"
+        },
+        {
+          "term": "WTO",
+          "full_name": "World Trade Organization",
+          "definition": "The World Trade Organization (WTO), established on 1 January 1995 pursuant to the Marrakesh Agreement, is the principal intergovernmental organisation that regulates and facilitates international trade among its member countries. It provides a framework for negotiating trade agreements, operates a binding dispute settlement system, and administers a set of agreements covering trade in goods, services, and intellectual property.",
+          "attribution": "Based on: WTO official documentation"
+        },
+        {
+          "term": "OECD Due Diligence Guidance",
+          "full_name": "OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas",
+          "definition": "The OECD Due Diligence Guidance is a voluntary framework developed by the Organisation for Economic Co-operation and Development (OECD) that provides detailed recommendations to help companies identify and mitigate risks of contributing to conflict, human rights abuses, or other harms through their mineral sourcing decisions. It outlines a five-step risk-based due diligence process and is recognised internationally as the baseline standard for responsible mineral supply chain management.",
+          "attribution": "Based on: OECD official documentation"
+        },
+        {
+          "term": "IRA",
+          "full_name": "Inflation Reduction Act",
+          "definition": "The Inflation Reduction Act (IRA) is a U.S. federal law enacted in 2022 that includes significant provisions for clean energy manufacturing and critical minerals. Among its key mechanisms is a tax credit under Section 45X for domestic producers of critical minerals, and eligibility requirements for electric vehicle tax credits that mandate a specified percentage of battery critical minerals be extracted or processed in the United States or countries with a U.S. free trade agreement.",
+          "attribution": "Based on: U.S. Department of the Treasury and IRS official documentation"
+        }
+      ]
+    },
+    {
+      "id": "esg-sustainability",
+      "name": "ESG & Sustainability",
+      "icon": "leaf",
+      "terms": [
+        {
+          "term": "ESG",
+          "full_name": "Environmental, Social, and Governance",
+          "definition": "ESG stands for Environmental, Social, and Governance — a framework used to evaluate a company's management of risks and opportunities related to environmental stewardship, social responsibility, and corporate governance. ESG criteria are used by investors, regulators, and other stakeholders to assess a company's long-term sustainability, ethical conduct, and potential non-financial risks.",
+          "attribution": "Based on: UN Principles for Responsible Investment and ESMA official documentation"
+        },
+        {
+          "term": "Scope 1/2/3 Emissions",
+          "full_name": "Scope 1, Scope 2, and Scope 3 Greenhouse Gas Emissions",
+          "definition": "The Greenhouse Gas Protocol Corporate Standard defines three scopes for classifying a company's greenhouse gas emissions: Scope 1 covers direct emissions from sources owned or controlled by the company; Scope 2 covers indirect emissions from the generation of purchased energy; and Scope 3 covers all other indirect emissions across the company's value chain, including both upstream and downstream activities.",
+          "attribution": "Based on: GHG Protocol Corporate Standard official documentation"
+        },
+        {
+          "term": "Carbon Neutrality / Net Zero",
+          "full_name": "Carbon Neutrality and Net Zero",
+          "definition": "Carbon neutrality refers to a state in which a company or entity's greenhouse gas emissions are balanced by equivalent carbon offset activities, typically focused on carbon dioxide. Net zero is a more comprehensive standard requiring that all greenhouse gas emissions across Scopes 1, 2, and 3 are reduced as far as possible and that any residual emissions are counterbalanced through verified carbon removal rather than avoidance offsets.",
+          "attribution": "Based on: Science Based Targets initiative (SBTi) and IPCC official documentation"
+        },
+        {
+          "term": "Responsible Sourcing",
+          "full_name": "Responsible Sourcing",
+          "definition": "Responsible sourcing is a commitment by companies to account for the social, environmental, and governance risks associated with the procurement of materials and services throughout their supply chains. In the context of metals and minerals, responsible sourcing typically involves supply chain due diligence, traceability, third-party audits, and adherence to internationally recognised frameworks such as the OECD Due Diligence Guidance.",
+          "attribution": "Based on: OECD and RJC official documentation"
+        },
+        {
+          "term": "Circular Economy",
+          "full_name": "Circular Economy",
+          "definition": "A circular economy is an economic model designed to eliminate waste and pollution by keeping products, components, and materials in use at their highest value for as long as possible, in contrast to the traditional linear take-make-waste model. It is based on three principles: eliminate waste and pollution, circulate products and materials, and regenerate natural systems.",
+          "attribution": "Based on: Ellen MacArthur Foundation official documentation"
+        },
+        {
+          "term": "IRMA",
+          "full_name": "Initiative for Responsible Mining Assurance",
+          "definition": "The Initiative for Responsible Mining Assurance (IRMA) is a multi-stakeholder, non-profit organisation that operates an independent, third-party assurance programme for industrial-scale mine sites, covering all mined materials. IRMA's standard assesses mine performance across environmental and social criteria, and its governance includes equal representation from industry, civil society, affected communities, and purchasers of mined materials.",
+          "attribution": "Based on: IRMA official documentation"
+        },
+        {
+          "term": "Conflict Minerals",
+          "full_name": "Conflict Minerals",
+          "definition": "Conflict minerals are minerals mined in conflict-affected and high-risk areas (CAHRAs) where their extraction has been linked to the financing of armed groups or to serious human rights violations. The term is most commonly associated with tin, tungsten, tantalum, and gold (collectively 3TG), which are subject to mandatory supply chain due diligence disclosure requirements under U.S. law (Dodd-Frank Act Section 1502) and EU regulation.",
+          "attribution": "Based on: SEC, EU Conflict Minerals Regulation, and OECD official documentation"
+        },
+        {
+          "term": "LCA",
+          "full_name": "Life Cycle Assessment",
+          "definition": "A Life Cycle Assessment (LCA) is a standardised methodology, codified in ISO 14040 and ISO 14044, for evaluating the environmental impacts of a product, process, or service across its entire life cycle — from raw material extraction through production, use, and end-of-life disposal or recycling. LCA follows four defined phases: goal and scope definition, life cycle inventory analysis, life cycle impact assessment, and interpretation.",
+          "attribution": "Based on: ISO 14040 and ISO 14044 official documentation"
+        }
+      ]
+    }
+  ]
+}
