@@ -255,13 +255,14 @@ function generateNewsHTML(newsData) {
     'hk-regulatory': 'HK Regulatory',
     'esg': 'ESG',
     'china-policy': 'China Policy',
+    'global-policy': 'Global Policy',
   };
 
   // Order: base metals first, then precious, then general
   const metalOrder = ['nickel','copper','aluminum','zinc','lead','tin','gold','silver','platinum','palladium','general'];
   const availableMetals = metalOrder.filter(m => allMetalTags.has(m));
   // Topic order
-  const topicOrder = ['rwa', 'hk-regulatory', 'esg', 'china-policy'];
+  const topicOrder = ['rwa', 'hk-regulatory', 'esg', 'china-policy', 'global-policy'];
   const availableTopics = topicOrder.filter(t => allTopicTags.has(t));
   
   const metalFilterOptions = availableMetals
