@@ -2213,8 +2213,10 @@
             return true;
           });
         } else {
-          items = producers[metal] || [];
+          items = (producers[metal] || []).slice();
         }
+        // Sort alphabetically
+        items.sort(function(a, b) { return a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }); });
 
         if (items.length === 0) {
           grid.innerHTML = '<div class="producers-empty">No producers found for this metal.</div>';

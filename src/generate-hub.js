@@ -96,7 +96,7 @@ function generatePriceRows(items) {
 const bannerData = {
   lme: [
     { name: 'Copper', price: prices.lme.copper.price, unit: 'USD/t' },
-    { name: 'Aluminum', price: prices.lme.aluminum.price, unit: 'USD/t' },
+    { name: 'Aluminium', price: prices.lme.aluminum.price, unit: 'USD/t' },
     { name: 'Nickel', price: prices.lme.nickel.price, unit: 'USD/t' },
     { name: 'Zinc', price: prices.lme.zinc.price, unit: 'USD/t' },
     { name: 'Lead', price: prices.lme.lead.price, unit: 'USD/t' },
@@ -372,7 +372,7 @@ function generateNewsHTML(newsData) {
   newsData.articles.forEach(a => (a.topics || []).forEach(t => allTopicTags.add(t)));
 
   const metalNames = {
-    nickel: 'Nickel', copper: 'Copper', aluminum: 'Aluminum',
+    nickel: 'Nickel', copper: 'Copper', aluminum: 'Aluminium',
     zinc: 'Zinc', lead: 'Lead', tin: 'Tin',
     gold: 'Gold', silver: 'Silver', platinum: 'Platinum', palladium: 'Palladium',
     general: 'General'
