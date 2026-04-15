@@ -149,6 +149,34 @@
       height: 28px;
     }
 
+    .brand-logo rect {
+      opacity: 0;
+      transform-origin: center;
+      animation: logoAssemble 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      transition: fill 0.4s ease;
+    }
+
+    .brand-logo rect:nth-child(1) { animation-delay: 0.1s; }
+    .brand-logo rect:nth-child(2) { animation-delay: 0.2s; }
+    .brand-logo rect:nth-child(3) { animation-delay: 0.3s; }
+    .brand-logo rect:nth-child(4) { animation-delay: 0.4s; }
+
+    @keyframes logoAssemble {
+      0% { opacity: 0; transform: scale(0.3) rotate(-45deg); }
+      60% { opacity: 1; transform: scale(1.08) rotate(3deg); }
+      100% { opacity: 1; transform: scale(1) rotate(0deg); }
+    }
+
+    .brand:hover .brand-logo rect:nth-child(1),
+    .brand:hover .brand-logo rect:nth-child(4) {
+      fill: var(--color-gold);
+    }
+
+    .brand:hover .brand-logo rect:nth-child(2),
+    .brand:hover .brand-logo rect:nth-child(3) {
+      fill: var(--color-primary);
+    }
+
     .brand-name {
       font-family: var(--font-display);
       font-weight: 700;
