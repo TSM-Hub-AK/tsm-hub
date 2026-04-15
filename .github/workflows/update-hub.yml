@@ -26,6 +26,11 @@ jobs:
           METALS_API_KEY: ${{ secrets.METALS_API_KEY }}
         run: node src/fetch-prices.js
 
+      - name: Fetch Metals-API prices (Cobalt, Lithium, Mo, AA, Rare Earths, Minor Metals)
+        env:
+          METALS_API_COM_KEY: ${{ secrets.METALS_API_COM_KEY }}
+        run: node src/fetch-metals-api.js
+
       - name: Fetch SHFE prices
         run: node src/fetch-shfe.js
 

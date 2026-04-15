@@ -27,12 +27,28 @@ if (fs.existsSync(newsPath)) {
   console.log('WARNING: data/news.json not found — news section will be empty');
 }
 
+// Read Metals-API.com prices (optional — Cobalt, Lithium, Mo, AA, Rare Earths, Minor Metals)
+const metalsApiPath = path.join(__dirname, '..', 'data', 'metals-api.json');
+let metalsApi = null;
+if (fs.existsSync(metalsApiPath)) {
+  metalsApi = JSON.parse(fs.readFileSync(metalsApiPath, 'utf8'));
+  const available = Object.values(metalsApi.metals).filter(m => m.price !== null).length;
+  console.log(`Metals-API data loaded: ${available}/${Object.keys(metalsApi.metals).length} metals with prices`);
+} else {
+  console.log('WARNING: data/metals-api.json not found — Metals-API section will be empty');
+}
+
 // Read SHFE prices (optional — won't fail if missing)
 const shfePath = path.join(__dirname, '..', 'data', 'shfe.json');
 let shfe = null;
 if (fs.existsSync(shfePath)) {
   shfe = JSON.parse(fs.readFileSync(shfePath, 'utf8'));
-  console.log(`SHFE data loaded: ${shfe.date_formatted}, ${shfe.settlement.length} contracts`);
+  if (shfe.metals) {
+    const totalContracts = Object.values(shfe.metals).reduce((sum, m) => sum + (m.contract_count || 0), 0);
+    console.log(`SHFE data loaded: ${shfe.date_formatted}, ${Object.keys(shfe.metals).length} metals, ${totalContracts} contracts`);
+  } else if (shfe.settlement) {
+    console.log(`SHFE data loaded: ${shfe.date_formatted}, ${shfe.settlement.length} contracts (legacy format)`);
+  }
 } else {
   console.log('WARNING: data/shfe.json not found — SHFE section will show N/A');
 }
@@ -115,13 +131,33 @@ const bannerData = {
   ]
 };
 
-// SHFE prices for banner
-if (shfe && shfe.settlement && shfe.settlement.length > 0) {
-  // Show front-month + next month settlement in banner
+// SHFE prices for banner — show front-month for all metals
+if (shfe && shfe.metals) {
+  const shfeRows = [];
+  // Order: base metals, precious, steel
+  const shfeOrder = ['cu','al','zn','pb','ni','sn','ao','ad','au','ag','rb','hc','ss','wr'];
+  for (const key of shfeOrder) {
+    const m = shfe.metals[key];
+    if (m && m.front_month && m.front_month.settlement_price > 0) {
+      const currency = '¥';
+      const decimals = m.unit === 'RMB/g' ? 2 : 0;
+      shfeRows.push({
+        name: m.name,
+        price: m.front_month.settlement_price,
+        unit: m.unit,
+        currency: currency,
+        decimals: decimals
+      });
+    }
+  }
+  if (shfeRows.length > 0) {
+    bannerData.shfe = shfeRows;
+  }
+} else if (shfe && shfe.settlement && shfe.settlement.length > 0) {
+  // Legacy format fallback
   const frontContracts = shfe.settlement
     .filter(s => s.settlement_price && s.settlement_price > 0)
-    .slice(0, 3); // first 3 contracts
-  
+    .slice(0, 3);
   bannerData.shfe = frontContracts.map(s => ({
     name: `Nickel ${s.contract.replace('ni', '')}`,
     price: s.settlement_price,
@@ -154,6 +190,76 @@ if (bannerData.shfe) {
           </div>`;
 }
 
+// Metals-API groups: LME Cash-Settled, OTC/Benchmark
+if (metalsApi) {
+  const ma = metalsApi.metals;
+  
+  // LME Cash-Settled contracts
+  const lmeCashSettled = [
+    ma.cobalt, ma.lithium, ma.molybdenum, ma.aluminium_alloy
+  ].filter(m => m && m.price !== null);
+  
+  if (lmeCashSettled.length > 0) {
+    bannerData.lme_cash = lmeCashSettled.map(m => {
+      const decimals = m.unit.includes('/t') ? 0 : 2;
+      return { name: m.name, price: m.price, unit: m.unit, decimals: decimals };
+    });
+    pricesHTML += `
+          <div class="banner-prices-group">
+            <div class="banner-prices-group-title">LME Cash-Settled</div>
+            ${generatePriceRows(bannerData.lme_cash)}
+          </div>`;
+  }
+  
+  // Energy / Strategic
+  const strategic = [
+    ma.uranium, ma.vanadium
+  ].filter(m => m && m.price !== null && m.price > 0);
+  
+  if (strategic.length > 0) {
+    bannerData.strategic = strategic.map(m => ({
+      name: m.name, price: m.price, unit: m.unit, decimals: 2
+    }));
+    pricesHTML += `
+          <div class="banner-prices-group">
+            <div class="banner-prices-group-title">Energy &amp; Strategic</div>
+            ${generatePriceRows(bannerData.strategic)}
+          </div>`;
+  }
+  
+  // Rare Earths (raw API prices)
+  const rareEarths = [
+    ma.neodymium, ma.praseodymium, ma.dysprosium
+  ].filter(m => m && m.price !== null && m.price > 0);
+  
+  if (rareEarths.length > 0) {
+    bannerData.rare_earths = rareEarths.map(m => ({
+      name: m.name, price: m.price, unit: m.unit, decimals: 2
+    }));
+    pricesHTML += `
+          <div class="banner-prices-group">
+            <div class="banner-prices-group-title">Rare Earths</div>
+            ${generatePriceRows(bannerData.rare_earths)}
+          </div>`;
+  }
+  
+  // Minor Metals
+  const minorMetals = [
+    ma.tungsten, ma.ferrochrome, ma.titanium, ma.manganese
+  ].filter(m => m && m.price !== null && m.price > 0);
+  
+  if (minorMetals.length > 0) {
+    bannerData.minor_metals = minorMetals.map(m => ({
+      name: m.name, price: m.price, unit: m.unit, decimals: 2
+    }));
+    pricesHTML += `
+          <div class="banner-prices-group">
+            <div class="banner-prices-group-title">Minor Metals</div>
+            ${generatePriceRows(bannerData.minor_metals)}
+          </div>`;
+  }
+}
+
 // ─── Replace Placeholders ───
 
 const dataDate = formatDate(prices.timestamp);
@@ -176,32 +282,33 @@ html = html.replace(/\{\{PLATINUM_OZ\}\}/g, '$' + formatPrice(prices.precious.pl
 html = html.replace(/\{\{PALLADIUM_OZ\}\}/g, '$' + formatPrice(prices.precious.palladium.price, 2));
 
 // SHFE placeholders
-if (shfe) {
-  const fm = shfe.front_month;
+if (shfe && shfe.metals && shfe.metals.ni) {
+  const ni = shfe.metals.ni;
+  const fm = ni.front_month;
   html = html.replace(/\{\{SHFE_NI_SETTLEMENT\}\}/g, fm ? '¥' + formatPrice(fm.settlement_price, 0) : 'N/A');
   html = html.replace(/\{\{SHFE_NI_CONTRACT\}\}/g, fm ? fm.contract : 'N/A');
   html = html.replace(/\{\{SHFE_DATE\}\}/g, formatShfeDate(shfe.date));
   
   // Product summary
-  const ps = shfe.product_summary;
+  const ps = ni.summary;
   html = html.replace(/\{\{SHFE_NI_HIGH\}\}/g, ps ? '¥' + formatPrice(ps.day_high, 0) : 'N/A');
   html = html.replace(/\{\{SHFE_NI_LOW\}\}/g, ps ? '¥' + formatPrice(ps.day_low, 0) : 'N/A');
   html = html.replace(/\{\{SHFE_NI_VOLUME\}\}/g, ps ? formatPrice(ps.total_volume, 0) : 'N/A');
   html = html.replace(/\{\{SHFE_NI_AVG\}\}/g, ps ? '¥' + formatPrice(ps.avg_price, 0) : 'N/A');
   
-  // All settlement rows for table
-  if (shfe.settlement && shfe.settlement.length > 0) {
-    const shfeTableRows = shfe.settlement
-      .filter(s => s.settlement_price && s.settlement_price > 0)
-      .map(s => {
-        const contractLabel = s.contract.replace('ni', 'NI ');
-        return `<tr>
-          <td>${contractLabel}</td>
-          <td>¥${formatPrice(s.settlement_price, 0)}</td>
-        </tr>`;
-      }).join('\n              ');
-    html = html.replace('{{SHFE_TABLE_ROWS}}', shfeTableRows);
-  }
+  // Nickel contract settlement table — no longer a flat array, skip if not available
+  html = html.replace('{{SHFE_TABLE_ROWS}}', '<tr><td colspan="2">See SHFE settlement prices above</td></tr>');
+} else if (shfe && shfe.front_month) {
+  // Legacy format
+  const fm = shfe.front_month;
+  html = html.replace(/\{\{SHFE_NI_SETTLEMENT\}\}/g, fm ? '¥' + formatPrice(fm.settlement_price, 0) : 'N/A');
+  html = html.replace(/\{\{SHFE_NI_CONTRACT\}\}/g, fm ? fm.contract : 'N/A');
+  html = html.replace(/\{\{SHFE_DATE\}\}/g, formatShfeDate(shfe.date));
+  html = html.replace(/\{\{SHFE_NI_HIGH\}\}/g, 'N/A');
+  html = html.replace(/\{\{SHFE_NI_LOW\}\}/g, 'N/A');
+  html = html.replace(/\{\{SHFE_NI_VOLUME\}\}/g, 'N/A');
+  html = html.replace(/\{\{SHFE_NI_AVG\}\}/g, 'N/A');
+  html = html.replace('{{SHFE_TABLE_ROWS}}', '<tr><td colspan="2">Data not available</td></tr>');
 } else {
   // No SHFE data — replace with N/A
   html = html.replace(/\{\{SHFE_NI_SETTLEMENT\}\}/g, 'N/A');
