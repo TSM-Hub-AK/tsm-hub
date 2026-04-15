@@ -127,8 +127,8 @@ async function main() {
       continue;
     }
 
-    // Metals-API returns inverse rate (1 USD = X oz), so price = 1/rate
-    const secondaryPrice = Math.round((1 / rawRate) * 100) / 100;
+    // Metals-API returns USD price directly when base=USD
+    const secondaryPrice = Math.round(rawRate * 100) / 100;
     const diff = Math.abs(comp.primary_price - secondaryPrice);
     const diffPct = (diff / comp.primary_price) * 100;
 
