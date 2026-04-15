@@ -905,9 +905,9 @@
       },
       {
         "country": "Australia",
-        "production_y1": "216,000",
-        "production_y2": "213,000",
-        "reserves": "135,700,000"
+        "production_y1": "16,000",
+        "production_y2": "13,000",
+        "reserves": "5,700,000"
       },
       {
         "country": "Brazil",
@@ -917,8 +917,8 @@
       },
       {
         "country": "Burma",
-        "production_y1": "243,000",
-        "production_y2": "231,000",
+        "production_y1": "43,000",
+        "production_y2": "31,000",
         "reserves": "NA"
       },
       {

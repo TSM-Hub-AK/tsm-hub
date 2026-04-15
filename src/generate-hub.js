@@ -311,6 +311,15 @@ if (fs.existsSync(countryDataPath)) {
   countryData = JSON.parse(fs.readFileSync(countryDataPath, 'utf8'));
   const metals = Object.keys(countryData).filter(k => !k.startsWith('_'));
   console.log(`Country data loaded: ${metals.length} metals`);
+
+  // Run data validator — fail build on critical errors
+  const { execSync } = require('child_process');
+  try {
+    execSync('node ' + path.join(__dirname, 'validate-data.js'), { stdio: 'inherit' });
+  } catch (e) {
+    console.error('\n✖ BUILD HALTED: Data validation failed. Fix errors in country-data.json before deploying.');
+    process.exit(1);
+  }
 } else {
   console.log('WARNING: data/country-data.json not found — reserves section will be empty');
 }
