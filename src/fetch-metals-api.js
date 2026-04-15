@@ -3,13 +3,19 @@
  * Fetches metal prices from Metals-API.com for metals NOT covered by Metals.dev
  * Saves to data/metals-api.json
  * 
- * Covers: Cobalt, Lithium, Molybdenum, LME Aluminium Alloy,
- *         Neodymium, Praseodymium, Dysprosium,
- *         Tungsten, Vanadium, Manganese, Ferro Chrome, Titanium, Uranium
+ * Coverage: 39 metals across 7 groups
+ *   - LME Cash-Settled (Cobalt, Lithium, Molybdenum, Aluminium Alloy)
+ *   - PGMs (Rhodium, Iridium, Ruthenium, Osmium)
+ *   - Energy & Strategic (Uranium, Vanadium, Ferro Chrome, Ferro Silicon)
+ *   - Rare Earths (Neodymium, Praseodymium, Dysprosium, Lanthanum, Terbium)
+ *   - Minor/Specialty Metals (Tungsten, Titanium, Antimony, Gallium, Germanium,
+ *     Hafnium, Indium, Magnesium, Rhenium, Tellurium, Manganese)
+ *   - Battery/EV Chain (Cobalt Sulphate, Lithium Hydroxide, Lithium Carbonate,
+ *     Spodumene, Manganese Sulphate, Nickel Pig Iron)
+ *   - Iron Ore (62% Fe, 58% Fe, 65% Fe)
  * 
- * Price policy: For exchange-traded metals with standard industry units (LME USD/t,
- * uranium USD/lb etc.) we convert. For OTC/rare metals where the API unit mapping
- * is unclear, we display the raw USD price with the API-stated unit and add a note.
+ * Price policy: For exchange-traded metals with standard industry units we convert.
+ * For OTC/rare metals we display raw USD price with API-stated unit.
  * "Primary data only. No estimates. No interpretation."
  * 
  * Usage: METALS_API_COM_KEY=xxx node src/fetch-metals-api.js
@@ -25,24 +31,18 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-// Split into two requests due to API symbol limit per request
+// API has ~5-6 symbol limit per request, split into groups
 const GROUPS = [
-  {
-    name: 'exchange_traded',
-    symbols: 'LCO,LITHIUM,MO,URANIUM,VAN'
-  },
-  {
-    name: 'lme_alloy',
-    symbols: 'LME-ALUA'
-  },
-  {
-    name: 'rare_earths',
-    symbols: 'ND,PRA,DYS,TUNGSTEN'
-  },
-  {
-    name: 'minor_metals',
-    symbols: 'MN,FE-CR,TITANIUM'
-  }
+  { name: 'lme_cash',      symbols: 'LCO,LITHIUM,MO,URANIUM,VAN' },
+  { name: 'lme_alloy',     symbols: 'LME-ALUA' },
+  { name: 'pgm',           symbols: 'XRH,IRD,RUTH,OSMIUM' },
+  { name: 'rare_earths',   symbols: 'ND,PRA,DYS,LTH,TER' },
+  { name: 'minor_1',       symbols: 'TUNGSTEN,MN,FE-CR,FE-SI,TITANIUM' },
+  { name: 'minor_2',       symbols: 'ANTIMONY,GALLIUM,GER,HAF,INDIUM' },
+  { name: 'minor_3',       symbols: 'MG,RHENIUM,TE' },
+  { name: 'battery_1',     symbols: 'CO-SO4,LI-OH,LITH-CAR,SPOD' },
+  { name: 'battery_2',     symbols: 'MN-SO4,NPI' },
+  { name: 'iron_ore',      symbols: 'IRON62,IRON58,IRON65' },
 ];
 
 // Conversion constants
@@ -50,90 +50,243 @@ const TROY_OZ_PER_TONNE = 32150.747;
 const TROY_OZ_PER_LB = 14.5833;
 const OZ_PER_TONNE = 35274.0;
 
-// Metal configuration
-// convert: function(rawUsdPrice) → converted price, or null to use raw
+// Metal configuration: symbol → display config
+// convert: function(rawUsdPrice) → converted price, or null → show raw
 const METAL_CONFIG = {
-  // ─── Exchange-traded: reliable conversions ───
+  // ─── LME Cash-Settled ───
   'LCO': {
-    key: 'cobalt', name: 'Cobalt', exchange: 'LME',
+    key: 'cobalt', name: 'Cobalt', group: 'lme_cash', exchange: 'LME',
     unit: 'USD/t', sourceUnit: 'troy oz',
     convert: (p) => Math.round(p * TROY_OZ_PER_TONNE),
-    note: 'LME cash-settled cobalt contract'
+    note: 'LME cash-settled cobalt'
   },
   'LITHIUM': {
-    key: 'lithium', name: 'Lithium', exchange: 'LME',
+    key: 'lithium', name: 'Lithium', group: 'lme_cash', exchange: 'LME',
     unit: 'USD/t', sourceUnit: 'oz',
     convert: (p) => Math.round(p * OZ_PER_TONNE),
     note: 'LME cash-settled lithium hydroxide'
   },
   'MO': {
-    key: 'molybdenum', name: 'Molybdenum', exchange: 'LME',
+    key: 'molybdenum', name: 'Molybdenum', group: 'lme_cash', exchange: 'LME',
     unit: 'USD/lb', sourceUnit: 'troy oz',
     convert: (p) => Math.round(p * TROY_OZ_PER_LB * 100) / 100,
     note: 'LME cash-settled molybdenum (Platts)'
   },
   'LME-ALUA': {
-    key: 'aluminium_alloy', name: 'Aluminium Alloy', exchange: 'LME',
+    key: 'aluminium_alloy', name: 'Aluminium Alloy', group: 'lme_cash', exchange: 'LME',
     unit: 'USD/t', sourceUnit: 'tonne',
     convert: (p) => Math.round(p),
-    note: 'LME NASAAC (North American Special Aluminium Alloy Contract)'
+    note: 'LME NASAAC'
   },
-  'URANIUM': {
-    key: 'uranium', name: 'Uranium (U₃O₈)', exchange: 'UxC/TradeTech',
-    unit: 'USD/lb', sourceUnit: 'lb',
-    convert: (p) => Math.round(p * 100) / 100,
-    note: 'Spot U₃O₈ (yellowcake)'
-  },
-  'VAN': {
-    key: 'vanadium', name: 'Vanadium Pentoxide', exchange: 'OTC',
-    unit: 'USD/lb', sourceUnit: 'troy oz',
-    convert: (p) => Math.round(p * TROY_OZ_PER_LB * 100) / 100,
-    note: 'V₂O₅ benchmark (Fastmarkets)'
-  },
-  'FE-CR': {
-    key: 'ferrochrome', name: 'Ferro Chrome', exchange: 'OTC',
-    unit: 'USD/lb', sourceUnit: 'troy oz',
-    convert: (p) => Math.round(p * TROY_OZ_PER_LB * 100) / 100,
-    note: 'High-carbon ferrochrome (Cr content basis)'
-  },
-  // ─── Rare earths & minor metals: show raw API price ───
-  // These metals have no standardised exchange unit; API units may not match
-  // industry conventions. We show prices as provided by source.
-  'ND': {
-    key: 'neodymium', name: 'Neodymium', exchange: 'OTC',
-    unit: 'USD/oz', sourceUnit: 'oz',
-    convert: null,  // raw price
-    note: 'Nd metal price per oz (Metals-API). Industry benchmarks: Fastmarkets, Asian Metal, SMM (typically quoted in USD/kg for oxide)'
-  },
-  'PRA': {
-    key: 'praseodymium', name: 'Praseodymium', exchange: 'OTC',
+
+  // ─── PGMs (Platinum Group Metals) ───
+  'XRH': {
+    key: 'rhodium', name: 'Rhodium', group: 'pgm', exchange: 'LPPM/JM',
     unit: 'USD/oz', sourceUnit: 'oz',
     convert: null,
-    note: 'Pr metal price per oz (Metals-API). Industry benchmarks: Fastmarkets, Asian Metal, SMM (typically quoted in USD/kg for oxide)'
+    note: 'Johnson Matthey base price'
   },
-  'DYS': {
-    key: 'dysprosium', name: 'Dysprosium', exchange: 'OTC',
+  'IRD': {
+    key: 'iridium', name: 'Iridium', group: 'pgm', exchange: 'LPPM/JM',
     unit: 'USD/oz', sourceUnit: 'oz',
     convert: null,
-    note: 'Dy metal price per oz (Metals-API). Industry benchmarks: Fastmarkets, Asian Metal, SMM (typically quoted in USD/kg for oxide)'
+    note: 'Johnson Matthey base price'
   },
-  'TUNGSTEN': {
-    key: 'tungsten', name: 'Tungsten APT', exchange: 'OTC',
+  'RUTH': {
+    key: 'ruthenium', name: 'Ruthenium', group: 'pgm', exchange: 'LPPM/JM',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Johnson Matthey base price'
+  },
+  'OSMIUM': {
+    key: 'osmium', name: 'Osmium', group: 'pgm', exchange: 'OTC',
     unit: 'USD/troy oz', sourceUnit: 'troy oz',
     convert: null,
-    note: 'APT (Ammonium Paratungstate) per troy oz (Metals-API). Industry benchmark: USD/mtu (Fastmarkets, Asian Metal)'
+    note: 'Dealer price'
+  },
+
+  // ─── Energy & Strategic ───
+  'URANIUM': {
+    key: 'uranium', name: 'Uranium (U₃O₈)', group: 'strategic', exchange: 'UxC/TradeTech',
+    unit: 'USD/lb', sourceUnit: 'lb',
+    convert: (p) => Math.round(p * 100) / 100,
+    note: 'Spot U₃O₈'
+  },
+  'VAN': {
+    key: 'vanadium', name: 'Vanadium Pentoxide', group: 'strategic', exchange: 'OTC',
+    unit: 'USD/lb', sourceUnit: 'troy oz',
+    convert: (p) => Math.round(p * TROY_OZ_PER_LB * 100) / 100,
+    note: 'V₂O₅ (Fastmarkets)'
+  },
+  'FE-CR': {
+    key: 'ferrochrome', name: 'Ferro Chrome', group: 'strategic', exchange: 'OTC',
+    unit: 'USD/lb', sourceUnit: 'troy oz',
+    convert: (p) => Math.round(p * TROY_OZ_PER_LB * 100) / 100,
+    note: 'High-carbon FeCr (Cr basis)'
+  },
+  'FE-SI': {
+    key: 'ferrosilicon', name: 'Ferro Silicon', group: 'strategic', exchange: 'OTC',
+    unit: 'USD/troy oz', sourceUnit: 'troy oz',
+    convert: null,
+    note: 'FeSi benchmark'
+  },
+
+  // ─── Rare Earths ───
+  'ND': {
+    key: 'neodymium', name: 'Neodymium', group: 'rare_earths', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Nd metal (Metals-API). Benchmark: Fastmarkets, Asian Metal, SMM in USD/kg oxide'
+  },
+  'PRA': {
+    key: 'praseodymium', name: 'Praseodymium', group: 'rare_earths', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Pr metal (Metals-API). Benchmark: Fastmarkets, Asian Metal, SMM in USD/kg oxide'
+  },
+  'DYS': {
+    key: 'dysprosium', name: 'Dysprosium', group: 'rare_earths', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Dy metal (Metals-API). Benchmark: Fastmarkets, Asian Metal, SMM in USD/kg oxide'
+  },
+  'LTH': {
+    key: 'lanthanum', name: 'Lanthanum', group: 'rare_earths', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'La metal (Metals-API)'
+  },
+  'TER': {
+    key: 'terbium', name: 'Terbium', group: 'rare_earths', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Tb metal (Metals-API)'
+  },
+
+  // ─── Minor / Specialty Metals ───
+  'TUNGSTEN': {
+    key: 'tungsten', name: 'Tungsten APT', group: 'minor', exchange: 'OTC',
+    unit: 'USD/troy oz', sourceUnit: 'troy oz',
+    convert: null,
+    note: 'APT (Metals-API). Benchmark: USD/mtu (Fastmarkets)'
   },
   'MN': {
-    key: 'manganese', name: 'Manganese', exchange: 'OTC',
+    key: 'manganese', name: 'Manganese', group: 'minor', exchange: 'OTC',
     unit: 'USD/oz', sourceUnit: 'oz',
     convert: null,
-    note: 'Mn price per oz (Metals-API). Industry benchmarks: Mn ore in USD/dmtu, electrolytic Mn in USD/t (Asian Metal, Fastmarkets)'
+    note: 'Mn (Metals-API). Benchmark: Mn ore USD/dmtu, EMM USD/t'
   },
   'TITANIUM': {
-    key: 'titanium', name: 'Titanium Sponge', exchange: 'OTC',
+    key: 'titanium', name: 'Titanium Sponge', group: 'minor', exchange: 'OTC',
     unit: 'USD/oz', sourceUnit: 'oz',
     convert: null,
-    note: 'Ti sponge price per oz (Metals-API). Industry benchmarks: USD/kg (Asian Metal, Fastmarkets)'
+    note: 'Ti sponge (Metals-API). Benchmark: USD/kg'
+  },
+  'ANTIMONY': {
+    key: 'antimony', name: 'Antimony', group: 'minor', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Sb ingot (Metals-API)'
+  },
+  'GALLIUM': {
+    key: 'gallium', name: 'Gallium', group: 'minor', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Ga 99.99% (Metals-API)'
+  },
+  'GER': {
+    key: 'germanium', name: 'Germanium', group: 'minor', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Ge 99.999% (Metals-API)'
+  },
+  'HAF': {
+    key: 'hafnium', name: 'Hafnium', group: 'minor', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Hf crystal bar (Metals-API)'
+  },
+  'INDIUM': {
+    key: 'indium', name: 'Indium', group: 'minor', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'In 99.99% (Metals-API)'
+  },
+  'MG': {
+    key: 'magnesium', name: 'Magnesium', group: 'minor', exchange: 'OTC',
+    unit: 'USD/troy oz', sourceUnit: 'troy oz',
+    convert: null,
+    note: 'Mg 99.9% (Metals-API)'
+  },
+  'RHENIUM': {
+    key: 'rhenium', name: 'Rhenium', group: 'minor', exchange: 'OTC',
+    unit: 'USD/troy oz', sourceUnit: 'troy oz',
+    convert: null,
+    note: 'Re pellets (Metals-API)'
+  },
+  'TE': {
+    key: 'tellurium', name: 'Tellurium', group: 'minor', exchange: 'OTC',
+    unit: 'USD/oz', sourceUnit: 'oz',
+    convert: null,
+    note: 'Te 99.99% (Metals-API)'
+  },
+
+  // ─── Battery / EV Chain ───
+  'CO-SO4': {
+    key: 'cobalt_sulphate', name: 'Cobalt Sulphate', group: 'battery', exchange: 'OTC',
+    unit: 'USD/t', sourceUnit: 'metric ton',
+    convert: (p) => Math.round(p),
+    note: 'CoSO₄ (Fastmarkets/Asian Metal)'
+  },
+  'LI-OH': {
+    key: 'lithium_hydroxide', name: 'Lithium Hydroxide', group: 'battery', exchange: 'OTC',
+    unit: 'USD/t', sourceUnit: 'metric ton',
+    convert: (p) => Math.round(p),
+    note: 'LiOH·H₂O battery grade (Fastmarkets)'
+  },
+  'LITH-CAR': {
+    key: 'lithium_carbonate', name: 'Lithium Carbonate', group: 'battery', exchange: 'OTC',
+    unit: 'USD/troy oz', sourceUnit: 'troy oz',
+    convert: null,
+    note: 'Li₂CO₃ battery grade (Metals-API)'
+  },
+  'SPOD': {
+    key: 'spodumene', name: 'Spodumene Concentrate', group: 'battery', exchange: 'OTC',
+    unit: 'USD/t', sourceUnit: 'metric ton',
+    convert: (p) => Math.round(p),
+    note: 'SC6 spodumene CIF China (Fastmarkets)'
+  },
+  'MN-SO4': {
+    key: 'manganese_sulphate', name: 'Manganese Sulphate', group: 'battery', exchange: 'OTC',
+    unit: 'USD/t', sourceUnit: 'metric ton',
+    convert: (p) => Math.round(p),
+    note: 'MnSO₄ battery grade'
+  },
+  'NPI': {
+    key: 'nickel_pig_iron', name: 'Nickel Pig Iron', group: 'battery', exchange: 'OTC',
+    unit: 'USD/t', sourceUnit: 'metric ton',
+    convert: (p) => Math.round(p),
+    note: 'NPI (Indonesia/China)'
+  },
+
+  // ─── Iron Ore ───
+  'IRON62': {
+    key: 'iron_ore_62', name: 'Iron Ore 62% Fe', group: 'iron_ore', exchange: 'SGX/Platts',
+    unit: 'USD/dmt', sourceUnit: 'dmt',
+    convert: (p) => Math.round(p * 100) / 100,
+    note: 'CFR China (Platts IODEX)'
+  },
+  'IRON58': {
+    key: 'iron_ore_58', name: 'Iron Ore 58% Fe', group: 'iron_ore', exchange: 'OTC',
+    unit: 'USD/dmt', sourceUnit: 'dmt',
+    convert: (p) => Math.round(p * 100) / 100,
+    note: 'CFR China'
+  },
+  'IRON65': {
+    key: 'iron_ore_65', name: 'Iron Ore 65% Fe', group: 'iron_ore', exchange: 'OTC',
+    unit: 'USD/dmt', sourceUnit: 'dmt',
+    convert: (p) => Math.round(p * 100) / 100,
+    note: 'CFR China (65% Fe premium)'
   },
 };
 
@@ -167,10 +320,9 @@ async function main() {
       
       if (!data.success) {
         console.warn(`  WARNING: API error for ${group.name}:`, JSON.stringify(data.error || data));
-        continue; // Skip this group, don't abort
+        continue;
       }
       
-      // Check for holiday/no-data responses
       if (data.info && data.info.includes('holiday')) {
         console.warn(`  NOTE: ${group.name} — ${data.info}`);
       }
@@ -178,44 +330,48 @@ async function main() {
       Object.assign(allRates, data.rates);
     } catch (err) {
       console.warn(`  WARNING: Failed to fetch ${group.name}: ${err.message}`);
-      // Continue with other groups
     }
   }
   
   // Build structured output
   const metals = {};
+  let fetched = 0;
+  let missing = 0;
   
   for (const [symbol, config] of Object.entries(METAL_CONFIG)) {
     const usdKey = `USD${symbol}`;
     const rawPrice = allRates[usdKey];
     
     if (rawPrice === undefined || rawPrice === null) {
-      console.warn(`  WARNING: No price for ${symbol} (${config.name})`);
+      missing++;
       metals[config.key] = {
         name: config.name,
         price: null,
         unit: config.unit,
+        group: config.group,
         exchange: config.exchange,
         raw_usd: null,
         raw_unit: config.sourceUnit,
-        note: 'Price not available',
+        note: config.note + ' — Price not available',
       };
       continue;
     }
     
     const displayPrice = config.convert ? config.convert(rawPrice) : (Math.round(rawPrice * 100) / 100);
+    fetched++;
     
     metals[config.key] = {
       name: config.name,
       price: displayPrice,
       unit: config.unit,
+      group: config.group,
       exchange: config.exchange,
       raw_usd: Math.round(rawPrice * 10000) / 10000,
       raw_unit: config.sourceUnit,
       note: config.note,
     };
     
-    console.log(`  ${config.name}: $${displayPrice !== null ? displayPrice.toLocaleString() : 'N/A'} ${config.unit} (raw: $${rawPrice.toFixed(4)} per ${config.sourceUnit})`);
+    console.log(`  ${config.name}: $${displayPrice !== null ? displayPrice.toLocaleString() : 'N/A'} ${config.unit}`);
   }
   
   const output = {
@@ -223,7 +379,7 @@ async function main() {
     date: new Date().toISOString().split('T')[0],
     source: 'Metals-API.com',
     source_url: 'https://metals-api.com',
-    note: 'Exchange-traded metals converted to standard industry units. OTC/rare earth prices shown as provided by API — industry benchmark pricing (Fastmarkets, Asian Metal, SMM) may use different units.',
+    note: 'Exchange-traded metals converted to standard industry units. OTC/rare earth/minor metal prices shown as provided by API — industry benchmark pricing (Fastmarkets, Asian Metal, SMM) may use different units.',
     metals: metals,
   };
   
@@ -237,7 +393,8 @@ async function main() {
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2));
   
   console.log(`\nPrices saved to ${outPath}`);
-  console.log(`Metals fetched: ${Object.keys(metals).length}`);
+  console.log(`Fetched: ${fetched}/${fetched + missing} metals`);
+  if (missing > 0) console.log(`Missing: ${missing} metals (holiday or unavailable)`);
 }
 
 main().catch(err => {

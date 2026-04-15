@@ -190,74 +190,56 @@ if (bannerData.shfe) {
           </div>`;
 }
 
-// Metals-API groups: LME Cash-Settled, OTC/Benchmark
+// Metals-API groups
 if (metalsApi) {
   const ma = metalsApi.metals;
   
-  // LME Cash-Settled contracts
-  const lmeCashSettled = [
-    ma.cobalt, ma.lithium, ma.molybdenum, ma.aluminium_alloy
-  ].filter(m => m && m.price !== null);
-  
-  if (lmeCashSettled.length > 0) {
-    bannerData.lme_cash = lmeCashSettled.map(m => {
-      const decimals = m.unit.includes('/t') ? 0 : 2;
+  // Helper: build group from array, filter nulls and zero prices
+  function buildGroup(title, metalKeys) {
+    const items = metalKeys
+      .map(k => ma[k])
+      .filter(m => m && m.price !== null && m.price > 0);
+    if (items.length === 0) return;
+    const rows = items.map(m => {
+      let decimals = 2;
+      if (m.unit.includes('/t') && m.price >= 100) decimals = 0;
+      if (m.unit.includes('/dmt')) decimals = 2;
+      if (m.price >= 1000) decimals = 0;
       return { name: m.name, price: m.price, unit: m.unit, decimals: decimals };
     });
     pricesHTML += `
           <div class="banner-prices-group">
-            <div class="banner-prices-group-title">LME Cash-Settled</div>
-            ${generatePriceRows(bannerData.lme_cash)}
+            <div class="banner-prices-group-title">${title}</div>
+            ${generatePriceRows(rows)}
           </div>`;
   }
   
-  // Energy / Strategic
-  const strategic = [
-    ma.uranium, ma.vanadium
-  ].filter(m => m && m.price !== null && m.price > 0);
+  // LME Cash-Settled
+  buildGroup('LME Cash-Settled', ['cobalt', 'lithium', 'molybdenum', 'aluminium_alloy']);
   
-  if (strategic.length > 0) {
-    bannerData.strategic = strategic.map(m => ({
-      name: m.name, price: m.price, unit: m.unit, decimals: 2
-    }));
-    pricesHTML += `
-          <div class="banner-prices-group">
-            <div class="banner-prices-group-title">Energy &amp; Strategic</div>
-            ${generatePriceRows(bannerData.strategic)}
-          </div>`;
-  }
+  // PGMs (Platinum Group)
+  buildGroup('Platinum Group (PGM)', ['rhodium', 'iridium', 'ruthenium', 'osmium']);
   
-  // Rare Earths (raw API prices)
-  const rareEarths = [
-    ma.neodymium, ma.praseodymium, ma.dysprosium
-  ].filter(m => m && m.price !== null && m.price > 0);
+  // Energy & Strategic
+  buildGroup('Energy &amp; Strategic', ['uranium', 'vanadium', 'ferrochrome', 'ferrosilicon']);
   
-  if (rareEarths.length > 0) {
-    bannerData.rare_earths = rareEarths.map(m => ({
-      name: m.name, price: m.price, unit: m.unit, decimals: 2
-    }));
-    pricesHTML += `
-          <div class="banner-prices-group">
-            <div class="banner-prices-group-title">Rare Earths</div>
-            ${generatePriceRows(bannerData.rare_earths)}
-          </div>`;
-  }
+  // Rare Earths
+  buildGroup('Rare Earths', ['neodymium', 'praseodymium', 'dysprosium', 'lanthanum', 'terbium']);
   
-  // Minor Metals
-  const minorMetals = [
-    ma.tungsten, ma.ferrochrome, ma.titanium, ma.manganese
-  ].filter(m => m && m.price !== null && m.price > 0);
+  // Minor / Specialty Metals
+  buildGroup('Minor &amp; Specialty Metals', [
+    'antimony', 'gallium', 'germanium', 'hafnium', 'indium',
+    'magnesium', 'rhenium', 'tellurium', 'tungsten', 'titanium', 'manganese'
+  ]);
   
-  if (minorMetals.length > 0) {
-    bannerData.minor_metals = minorMetals.map(m => ({
-      name: m.name, price: m.price, unit: m.unit, decimals: 2
-    }));
-    pricesHTML += `
-          <div class="banner-prices-group">
-            <div class="banner-prices-group-title">Minor Metals</div>
-            ${generatePriceRows(bannerData.minor_metals)}
-          </div>`;
-  }
+  // Battery / EV Chain
+  buildGroup('Battery &amp; EV Materials', [
+    'cobalt_sulphate', 'lithium_hydroxide', 'lithium_carbonate',
+    'spodumene', 'manganese_sulphate', 'nickel_pig_iron'
+  ]);
+  
+  // Iron Ore
+  buildGroup('Iron Ore', ['iron_ore_62', 'iron_ore_65', 'iron_ore_58']);
 }
 
 // ─── Replace Placeholders ───
