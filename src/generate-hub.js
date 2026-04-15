@@ -260,7 +260,7 @@ function generateProducersHTML(producersData) {
         Producers Directory
       </h2>
       <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">Global metals producers — verified data from official sources. ${totalEntries} entries across ${availableTabs.length} metals. Company websites link to official domains only. Production figures are published as reported by original sources (company annual reports, regulatory filings, industry publications) — formats vary by source. TrueSource does not modify, estimate, or interpret primary data.</p>
-      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5); font-style: italic;">Producer data compiled from public sources including USGS Mineral Commodity Summaries, World Steel Association, and company annual reports. For corrections or updates, contact <a href="mailto:info@truesourcemetals.com" style="color: var(--color-primary);">info@truesourcemetals.com</a></p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5); font-style: italic;">Producer data compiled from public sources including USGS Mineral Commodity Summaries, World Steel Association, and company annual reports. Links verified as of April 2026. Some regional websites may have restricted access depending on your location. For corrections or updates, contact <a href="mailto:info@truesourcemetals.com" style="color: var(--color-primary);">info@truesourcemetals.com</a></p>
       <div class="producers-tabs">
         ${tabsHtml}
       </div>
