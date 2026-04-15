@@ -230,18 +230,33 @@ function generateProducersHTML(producersData) {
   if (!producersData) return '';
 
   const metalTabs = [
+    // Exchange-traded base metals (LME/SHFE)
     { key: 'copper', label: 'Copper' },
     { key: 'aluminium', label: 'Aluminium' },
     { key: 'nickel', label: 'Nickel' },
     { key: 'zinc', label: 'Zinc' },
     { key: 'tin', label: 'Tin' },
     { key: 'lead', label: 'Lead' },
+    // Precious metals (LBMA/COMEX/SHFE)
     { key: 'gold', label: 'Gold' },
     { key: 'silver', label: 'Silver' },
     { key: 'platinum', label: 'Platinum' },
     { key: 'palladium', label: 'Palladium' },
+    // Steel & ferrous (SHFE/LME)
     { key: 'steel', label: 'Steel' },
     { key: 'iron_ore', label: 'Iron Ore' },
+    // EV & battery metals (LME cash-settled)
+    { key: 'lithium', label: 'Lithium' },
+    { key: 'cobalt', label: 'Cobalt' },
+    { key: 'molybdenum', label: 'Molybdenum' },
+    // Rare earths & minor metals (OTC / benchmark pricing)
+    { key: 'rare_earths', label: 'Rare Earths' },
+    { key: 'tungsten', label: 'Tungsten' },
+    { key: 'vanadium', label: 'Vanadium' },
+    { key: 'manganese', label: 'Manganese' },
+    { key: 'chromium', label: 'Chromium' },
+    { key: 'titanium', label: 'Titanium' },
+    { key: 'uranium', label: 'Uranium' },
   ];
 
   // Only include tabs for metals present in the data

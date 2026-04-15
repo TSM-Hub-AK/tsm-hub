@@ -3659,5 +3659,1465 @@
       "ticker": "",
       "exchange": ""
     }
+  ],
+  "lithium": [
+    {
+      "name": "Albemarle Corporation",
+      "country": "United States",
+      "website": "https://www.albemarle.com",
+      "production": "Energy Storage segment volumes up 35% year-over-year in 2023; full-year 2023 net sales of $9.6 billion (volume growth 21%); production withheld at company level — USGS withholds U.S. domestic production figures (W) to avoid disclosing proprietary data",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Sociedad Química y Minera de Chile S.A. (SQM)",
+      "country": "Chile",
+      "website": "https://www.sqm.com",
+      "production": "Lithium and Derivatives sales volumes: 170,000 metric tons (2023), a record high; first production of spodumene concentrate commenced at Mt. Holland (Australia) in Q4 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ganfeng Lithium Group Co., Ltd.",
+      "country": "China",
+      "website": "https://www.ganfenglithium.com",
+      "production": "Information not available — specific 2023 production volume in metric tons not disclosed at company level in primary sources reviewed; GHG Scope I emissions 400,800 t CO2e and Scope II 639,200 t CO2e in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Tianqi Lithium Corporation",
+      "country": "China",
+      "website": "https://en.tianqilithium.com",
+      "production": "Full-year 2023 operating revenue: RMB 40.503 billion; net profit attributable to shareholders: RMB 7.297 billion; specific 2023 production volume in metric tons not disclosed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Pilbara Minerals Ltd.",
+      "country": "Australia",
+      "website": "https://www.pilbaraminerals.com.au",
+      "production": "631,045 tonnes of spodumene concentrate in 2023 (calendar year), a 22% increase from 517,923 t in 2022; also produced 18 t of tantalite concentrate as byproduct",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Mineral Resources Limited (MinRes)",
+      "country": "Australia",
+      "website": "https://www.mineralresources.com.au",
+      "production": "Information not available — specific consolidated 2023 spodumene production volumes in metric tons not separately disclosed at company level in primary sources reviewed; Wodgina Train 2 commenced production in FY23 and Train 3 reached practical completion; Mt Marion expansion construction completed FY23",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "IGO Limited / Tianqi Lithium Energy Australia (TLEA JV)",
+      "country": "Australia",
+      "website": "https://www.igo.com.au",
+      "production": "Greenbushes annual spodumene production: 1,491,000 tonnes in FY23 (year ended June 30, 2023), exceeding guidance; Kwinana Lithium Hydroxide Refinery Train 1 produced 1,884 t of lithium hydroxide for full year FY23 (including 1,542 t battery grade)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Arcadium Lithium (now Rio Tinto Lithium)",
+      "country": "Ireland (registered); operational HQ in Philadelphia, USA and Brisbane, Australia",
+      "website": "https://www.riotinto.com",
+      "production": "Allkem (pre-merger): Olaroz Lithium Facility (Argentina) – full year FY2023 (ended June 30, 2023) production: ~14,900 tonnes lithium carbonate; Mt Cattlin (Australia) full year FY23 production approximately 175,000 dmt spodumene concentrate. Livent (pre-merger, calendar year 2023): volumes roughly flat vs 2022 baseline of ~20,500 MT LCE from Argentina brine operations",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Sigma Lithium Corporation",
+      "country": "Canada (TSX/Nasdaq listed)",
+      "website": "https://www.sigmalithiumcorp.com",
+      "production": "FY2023 (first operational year): Q3 2023 production 38,800 tonnes; Q4 2023 production 59,900 tonnes; full year 2023 unaudited production approximately 98,700 tonnes of spodumene concentrate (5.5% Li2O 'Triple Zero Green Lithium'); 2023 guidance target was 130,000 tonnes (plant ramping through year)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Core Lithium Ltd.",
+      "country": "Australia",
+      "website": "https://www.corelithium.com.au",
+      "production": "FY23 (year ended June 30, 2023): 18,274 tonnes of spodumene concentrate produced; spodumene concentrate sales: 5,423 tonnes in FY23; FY24 production guidance: 80,000–90,000 tonnes (subsequently idled operations in early 2024 due to lower lithium prices)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Piedmont Lithium Inc.",
+      "country": "United States",
+      "website": "https://www.piedmontlithium.com",
+      "production": "2023 full year revenue: $39.8 million on sales of 43,200 dmt of spodumene concentrate (via 25% ownership in North American Lithium / NAL JV with Sayona Mining); NAL 2023 full year production: 98,800 dmt (100% basis); NAL Q4 2023 production: 34,200 dmt",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Sayona Mining Limited",
+      "country": "Australia (ASX listed; operations in Canada)",
+      "website": "https://www.sayonamining.com.au",
+      "production": "NAL (North American Lithium, Sayona 75%, Piedmont 25%) full year 2023 production: 98,800 dmt of spodumene concentrate (100% basis); FY July 2023–June 2024 production guidance: 140,000–160,000 dmt",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Lithium Americas Corp.",
+      "country": "Canada",
+      "website": "https://lithiumamericas.com",
+      "production": "Information not available — no commercial production in 2023; Thacker Pass (Nevada, USA) was in construction/permitting phase in 2023; targeting nameplate capacity of 40,000 tpa of battery-quality lithium carbonate",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zijin Mining Group Co., Ltd.",
+      "country": "China",
+      "website": "https://www.zijinmining.com",
+      "production": "Information not available for lithium in 2023 — lithium commercial production not yet commenced in 2023; company held 13.46 million tonnes LCE of lithium resources as of December 31, 2023; 2024 guidance: 25,000 tonnes LCE",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "POSCO Holdings (POSCO International – POSCO Pilbara Lithium Solution)",
+      "country": "South Korea",
+      "website": "https://www.posco.com",
+      "production": "Information not available — POSCO's lithium hydroxide plant in Gwangyang, South Korea (targeting 43,000 t/yr capacity) was in ramp-up phase in 2023; specific 2023 production volumes not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Codelco (Corporación Nacional del Cobre de Chile)",
+      "country": "Chile",
+      "website": "https://www.codelco.com",
+      "production": "Information not available — Codelco holds large lithium resources in Chile (Maricunga and Pedernales salars) but was not a commercial lithium producer in 2023; government agreements to develop lithium assets with SQM framework announced in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Allkem Limited (now part of Arcadium Lithium)",
+      "country": "Australia",
+      "website": "https://www.allkem.co",
+      "production": "Olaroz Lithium Facility (Argentina): Q3 FY2024 (Sept qtr 2023) production 4,453 t lithium carbonate (+35% YoY); Mt Cattlin (WA, Australia): Q3 FY2024 record quarterly production 72,549 dmt spodumene; Naraha (Japan) LiOH refinery: 526 t LiOH sold in Sept qtr 2023; merged with Livent effective January 4, 2024",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Talison Lithium Pty Ltd (operated by TLEA – Tianqi Lithium Energy Australia, Greenbushes)",
+      "country": "Australia",
+      "website": "https://www.talisonlithium.com",
+      "production": "Greenbushes mine spodumene production: 1,491,000 tonnes in FY23 (year ended June 30, 2023), exceeding guidance; owned 51% by TLEA (Tianqi 51% + IGO 24.99%) and 49% by Albemarle",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Liontown Resources Limited",
+      "country": "Australia",
+      "website": "https://www.ltresources.com.au",
+      "production": "Information not available — Kathleen Valley lithium project (WA) was in construction in 2023; first ore was mined and first spodumene concentrate was expected Q2 2024; no commercial production in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Compass Minerals International",
+      "country": "United States",
+      "website": "https://www.compassminerals.com",
+      "production": "Information not available — Lithium Americas divested Pastos Grandes lithium project (Argentina) interest; Compass Minerals' own Ogden, Utah lithium brine project was in feasibility stage in 2023; no commercial lithium production in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Patriot Battery Metals Inc.",
+      "country": "Canada",
+      "website": "https://www.patriotbatterymetals.com",
+      "production": "Information not available — exploration stage company in 2023; Corvette lithium project (Quebec, Canada) in exploration and resource definition phase",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "AMG Advanced Metallurgical Group (formerly Mibra Mine)",
+      "country": "Netherlands",
+      "website": "https://www.amg-nv.com",
+      "production": "Information not available — Mibra mine in Minas Gerais, Brazil produces spodumene and tantalite; specific 2023 production volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Lepidico Ltd.",
+      "country": "Australia",
+      "website": "https://www.lepidico.com",
+      "production": "Information not available — Phase 1 lithium hydroxide project (Namibia/UAE) was in development in 2023; no commercial production commenced in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Winsome Resources Limited",
+      "country": "Australia",
+      "website": "https://www.winsomeresources.com",
+      "production": "Information not available — advanced exploration/development stage in 2023; Adina and Cancet lithium projects (Quebec, Canada) in resource definition",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "cobalt": [
+    {
+      "name": "CMOC Group Ltd. (China Molybdenum Co., Ltd.)",
+      "country": "China",
+      "website": "https://en.cmoc.com",
+      "production": "55,526 tonnes of cobalt (2023, metal content), up 173.71% year-over-year; of which Kisanfu (KFM) produced 33,900 t cobalt in hydroxide and Tenke Fungurume (TFM) produced 21,700 t cobalt in hydroxide (USGS Yearbook figures); CMOC announced world's No. 1 cobalt producer in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Glencore plc",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "41,300 tonnes of cobalt (own sourced, 2023), 6% lower than 2022 (43,800 t); of which KCC (Kamoto Copper Company, DRC) produced approximately 28,000 t cobalt in concentrates/hydroxides and Mutanda (DRC) produced approximately 11,200 t cobalt in concentrates/hydroxides; Murrin Murrin (Australia) refined cobalt: 2,400 t",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Eurasian Resources Group S.à r.l. (ERG)",
+      "country": "Luxembourg",
+      "website": "https://www.eurasianresources.lu",
+      "production": "Information not available — Boss Mining (DRC) was suspended May 2023 following flooding after restart in November 2022; Metalkol Roan Tailings Reclamation (RTR, DRC) reprocessed 7.9 million tonnes of historic tailings in 2023; specific cobalt production volume in metric tons not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Vale S.A.",
+      "country": "Brazil",
+      "website": "https://www.vale.com",
+      "production": "Refined cobalt: 1,959 tonnes (2023, metal at Long Harbour and Port Colborne refineries), a decrease from 2,434 t in 2022; mine cobalt from Voisey's Bay: 637 t, Sudbury: 365 t, Thompson: 94 t; total finished cobalt production on 100% basis via 50/50 JV: 2,876 t (Cobalt Refinery Company, Fort Saskatchewan, Alberta)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Sherritt International Corporation",
+      "country": "Canada",
+      "website": "https://www.sherritt.com",
+      "production": "Finished cobalt production: 2,876 tonnes (2023, 100% Moa JV basis); Sherritt's 50% share: approximately 1,438 t; finished nickel (100% basis): 28,672 tonnes; cobalt produced at Fort Saskatchewan, Alberta refinery from Moa Nickel S.A. (Cuba) feed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "PJSC MMC Norilsk Nickel (Nornickel)",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Mined cobalt: estimated 8,700 tonnes (2023, per USGS); refined cobalt metal: approximately 1,000 tonnes (2023, per USGS); note: Kola Division fire in September 2022 reduced subsequent cobalt output",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zhejiang Huayou Cobalt Co., Ltd.",
+      "country": "China",
+      "website": "https://www.huayou.com",
+      "production": "Cobalt products production: 40,645.56 tonnes (2023, metal quantity), up 5.58% year-over-year; cobalt products sales: 41,382.61 tonnes",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Terrafame Ltd.",
+      "country": "Finland",
+      "website": "https://www.terrafame.com",
+      "production": "Information not available — Sotkamo bioleaching mine and cobalt sulfate refinery operations were interrupted by May–July 2023 shutdown due to low nickel prices; design capacity: 7,400 t/yr cobalt sulfate; specific 2023 cobalt sulfate production volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Boliden AB",
+      "country": "Sweden",
+      "website": "https://www.boliden.com",
+      "production": "Cobalt in nickel concentrate: 513 tonnes (2023, from Kevitsa mine, Sodankylä, Finland), down from 624 t in 2022; Harjavalta smelter (Finland) also processes cobalt-bearing materials",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Compagnie de Tifnout Tighanimine (CTT) – subsidiary of Groupe Managem",
+      "country": "Morocco",
+      "website": "https://www.managemgroup.com",
+      "production": "Mine and refinery combined: 1,506 tonnes of refined cobalt metal (2023), an 11% decrease from 2022, intentionally reduced due to low cobalt prices; primary cobalt mine at Bou-Azzer; refinery at Guemassa",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Lundin Mining Corporation (Eagle Mine)",
+      "country": "Canada",
+      "website": "https://www.lundinmining.com",
+      "production": "Eagle Mine (100% owned, Michigan, USA): produced cobalt-bearing nickel-copper sulfide concentrates in 2023; mine life extended to 2029; specific cobalt production volume not stated separately in primary sources reviewed; nickel production approximately 15,000–18,000 t/yr range",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "PT Halmahera Persada Lygend (JV: Lygend Resources & PT Trimegah Bangun Persada Tbk / Harita Nickel)",
+      "country": "Indonesia",
+      "website": "https://www.haritanickel.com",
+      "production": "Design capacity: 4,500 + 2,250 t/yr cobalt in MHP (mixed hydroxide precipitate); cobalt sulfate production commenced July 2023; specific 2023 cobalt production volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "PT Huayue Nickel Cobalt (Zhejiang Huayou Cobalt)",
+      "country": "Indonesia",
+      "website": "https://www.huayou.com",
+      "production": "HPAL mixed hydroxide precipitate (MHP) production commenced 2021; specific 2023 cobalt production volume not confirmed in primary sources reviewed; part of Indonesia's ~19,000 t mined cobalt total in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "PT Vale Indonesia Tbk",
+      "country": "Indonesia",
+      "website": "https://www.vale.com/indonesia",
+      "production": "Information not available — produces cobalt-bearing nickel matte from laterite ores at Sorowako integrated mining and smelting operation in South Sulawesi; specific 2023 cobalt volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Wanbao Mining (subsidiary of Norinco / China North Industries Group)",
+      "country": "China",
+      "website": "Information not available",
+      "production": "Pumpi copper-cobalt project (DRC): approximately 4,000 tonnes of cobalt estimated output in 2023 (designed capacity: 5,000 t/yr cobalt hydroxide); commenced cobalt hydroxide production in 2021",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "MMG Limited (Kinsevere mine)",
+      "country": "China (Hong Kong listed; subsidiary of China Minmetals Corp.)",
+      "website": "https://www.mmg.com",
+      "production": "Cobalt plant commissioned September 2023; first cobalt production in second half of 2023; specific 2023 cobalt volume not confirmed (plant in initial ramp-up at year-end 2023); copper cathode production at Kinsevere: approximately 44,000 tonnes in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Nanjing Hanrui Cobalt Co., Ltd.",
+      "country": "China",
+      "website": "https://www.hanruicobalt.com",
+      "production": "Annual production capacity increased to 5,000 t/yr cobalt metal powder (expanded in 2022); specific 2023 production volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ganzhou Tengyuan Cobalt New Materials Co., Ltd. (Tengyuan Cobalt)",
+      "country": "China",
+      "website": "Information not available",
+      "production": "Added 13,500 t/yr electrowinning cobalt refining capacity in 2023; specific 2023 production volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shenzhen GEM High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "https://www.gem.com.cn",
+      "production": "Second-largest refined cobalt producer in China in 2023 per USGS; specific production volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "CNGR Advanced Material Co., Ltd.",
+      "country": "China",
+      "website": "https://www.cngr.cn",
+      "production": "Third-largest refined cobalt producer in China in 2023 per USGS; specific production volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Umicore NV",
+      "country": "Belgium",
+      "website": "https://www.umicore.com",
+      "production": "Belgium refined cobalt production (metal powder, oxide, and hydroxide): estimated 700 tonnes in 2023 per USGS; Umicore is a key processor of cobalt from secondary/recycled materials",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Jervois Global Limited (Idaho Cobalt Operations)",
+      "country": "Australia",
+      "website": "https://www.jervoisglobal.com",
+      "production": "Information not available — Idaho Cobalt Operations (ICO) suspended construction in March 2023 due to low cobalt prices; had stockpiled >27,000 t ore for future processing; prior production guidance was 1,500–1,700 t cobalt in concentrate for 2023 (guidance not achieved)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "First Quantum Minerals Ltd. (Ravensthorpe Nickel)",
+      "country": "Canada",
+      "website": "https://www.first-quantum.com",
+      "production": "Australia cobalt mine production: part of Australia total of 5,222 t (2023); Ravensthorpe nickel-cobalt operation (Western Australia) production slowed in 2023; mining suspended January 2024 due to weak nickel prices (stockpile processing continued)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ambatovy Nickel (Sherritt 12%, Korea Resources Corp 27.5%, SNC-Lavalin 5%, Sumitomo Corp 54.167%)",
+      "country": "Canada/Korea/Japan (operations in Madagascar)",
+      "website": "https://ambatovy.com",
+      "production": "Madagascar mined cobalt: estimated 4,000 tonnes (2023) per USGS; Madagascar refined cobalt (metal powder): estimated 3,400 t (2023) per USGS; Ambatovy is the principal producer in Madagascar",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Cobalt Refinery Company Inc. (50/50 JV: Sherritt International / Cuba General Nickel Co.)",
+      "country": "Canada",
+      "website": "https://www.sherritt.com",
+      "production": "Refined cobalt metal: 2,876 tonnes (2023, 100% basis), a 15% decrease from 3,368 t in 2022; primary feed from Moa Nickel S.A. (Cuba)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Norilsk Nickel / Kola MMC (cobalt refinery)",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Refined cobalt metal: approximately 1,000 tonnes (2023e, per USGS)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "molybdenum": [
+    {
+      "name": "Freeport-McMoRan Inc. (Climax Molybdenum Company subsidiary)",
+      "country": "United States",
+      "website": "https://www.fcx.com",
+      "production": "82 million recoverable pounds (37,195 metric tons) of molybdenum, consolidated, 2023; by operation: Climax mine (Colorado) 17 million lbs, Henderson mine (Colorado) 13 million lbs, North America copper mines (Arizona/New Mexico) 30 million lbs, Cerro Verde (Peru, 53.56%) 22 million lbs",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Codelco (Corporación Nacional del Cobre de Chile)",
+      "country": "Chile",
+      "website": "https://www.codelco.com",
+      "production": "16,300 metric tons (16.3 ktons) of molybdenum, own production, 2023; down 19.0% from 20,100 metric tons in 2022; decline attributed primarily to lower production at Chuquicamata",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Southern Copper Corporation",
+      "country": "United States (operations in Mexico and Peru; subsidiary of Grupo México)",
+      "website": "https://www.southerncoppercorp.com",
+      "production": "26,836 metric tons of mined molybdenum, 2023; a 2.3% increase versus 2022 (26,240 metric tons); production at Toquepala (Peru), Buenavista (Mexico), Cuajone (Peru), and La Caridad (Mexico)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "CMOC Group Ltd. (China Molybdenum Co., Ltd.)",
+      "country": "China",
+      "website": "https://en.cmoc.com",
+      "production": "15,635 metric tons of molybdenum, China operations (Sandaozhuang mine area, Luanchuan, Henan), 2023; up 3.45% year-over-year",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Antofagasta plc",
+      "country": "United Kingdom (Chilean operations)",
+      "website": "https://www.antofagasta.co.uk",
+      "production": "11,000 metric tons of molybdenum, full year 2023; a 13% increase year-on-year from 9,700 t in 2022; produced at Los Pelambres (Chile) and Centinela (Chile) as copper byproduct",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zangezur Copper-Molybdenum Combine (ZCMC) CJSC",
+      "country": "Armenia",
+      "website": "https://www.zcmc.am",
+      "production": "Armenia mined molybdenum: estimated 7,800 metric tons (2023e, per USGS); ZCMC processes 22 million tons of ore per annum as of 2023; produces copper and molybdenum concentrate; also refines molybdenum to ferromolybdenum and ammonium perrhenate on site",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Grupo México S.A.B. de C.V. (via Southern Copper's Buenavista and Grupo México's own operations)",
+      "country": "Mexico",
+      "website": "https://www.gmexico.com",
+      "production": "Mexico total mined molybdenum: approximately 15,000 metric tons (2023e, per USGS); production primarily from Southern Copper's Buenavista del Cobre and La Caridad operations in Sonora (consolidated under Southern Copper's 26,836 t total, which includes Mexico and Peru)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Cerro Verde (Sociedad Minera Cerro Verde S.A.A.) — operated by Freeport-McMoRan",
+      "country": "Peru",
+      "website": "https://www.freeportmcmoran.com/operations/south-america-mining/cerro-verde",
+      "production": "22 million recoverable pounds (approximately 9,979 metric tons) of molybdenum, 2023 (Cerro Verde's share in FCX's consolidated 82 million lbs total); FCX owns 53.56%; Buenaventura 19.58%; BHP 14.97%",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Jinduicheng Molybdenum Group Mining Corporation",
+      "country": "China",
+      "website": "https://www.jinmo.com",
+      "production": "Information not available — one of China's top five molybdenum producers in 2022 (contributing to China's 110,000 t total in 2023e); specific 2023 production volume not confirmed from primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Luoyang Luanchuan Molybdenum Industry Group Co., Ltd. (LYZX)",
+      "country": "China",
+      "website": "Information not available",
+      "production": "Information not available — one of China's top five molybdenum concentrate producers in 2022, operating the Luanchuan molybdenum mine in Henan Province; contributes to China's 110,000 t total in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Yichun Luming Mining Co., Ltd.",
+      "country": "China",
+      "website": "Information not available",
+      "production": "Information not available — one of China's top five molybdenum concentrate producers in 2022 (Luming molybdenum mine, Heilongjiang Province); contributes to China's 110,000 t total in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Copper development company Freeport (Henderson Mine)",
+      "country": "United States",
+      "website": "https://www.climaxmolybdenum.com/operations/usa",
+      "production": "13 million recoverable pounds (approximately 5,897 metric tons) of molybdenum, 2023; underground block-cave mine with daily milling capacity of 32,000 metric tons of ore; annual production capacity approximately 15 million lbs",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Climax Molybdenum Mine (Freeport-McMoRan subsidiary)",
+      "country": "United States",
+      "website": "https://www.climaxmolybdenum.com/operations/usa",
+      "production": "17 million recoverable pounds (approximately 7,711 metric tons) of molybdenum, 2023; open-pit mine with 25,000 metric ton-per-day mill; design capacity approximately 30 million lbs/yr",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Oyu Tolgoi LLC (operated by Rio Tinto / Turquoise Hill Resources / Erdenes Oyu Tolgoi)",
+      "country": "Mongolia",
+      "website": "https://www.ot.mn",
+      "production": "Mongolia mined molybdenum: estimated 3,100 metric tons (2023e, per USGS); Oyu Tolgoi is the primary contributor; molybdenum is recovered as a byproduct of copper mining",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "BHP (Olympic Dam / Prominent Hill)",
+      "country": "Australia",
+      "website": "https://www.bhp.com",
+      "production": "Australia mined molybdenum: 500 metric tons (2023, per USGS), up from 277 t in 2022; molybdenum reported as byproduct; BHP's Olympic Dam and Prominent Hill are primary Australian sources",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Iran – National Iranian Copper Industries Co. (NICICo) / Sar Cheshmeh",
+      "country": "Iran",
+      "website": "https://www.nicico.com",
+      "production": "Iran mined molybdenum: estimated 3,700 metric tons (2023e, per USGS); primarily from the Sar Cheshmeh porphyry copper-molybdenum deposit in Kerman Province",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Antamina Mine (Teck Resources 22.5%, BHP 33.75%, Glencore 33.75%, Mitsubishi 10%)",
+      "country": "Peru",
+      "website": "https://www.antamina.com",
+      "production": "Peru mined molybdenum: 37,000 metric tons total (2023e, per USGS); Antamina is one of several contributing mines; specific Antamina molybdenum volume not separately reported in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Thompson Creek Metals (now Centerra Gold Inc. – US Molybdenum Business Unit / Langeloth facility)",
+      "country": "Canada",
+      "website": "https://www.centerragold.com",
+      "production": "Information not available for mine production — Thompson Creek mine (Idaho) has been on care and maintenance since December 2014; Langeloth metallurgical facility (Pennsylvania) was processing purchased third-party concentrates in 2023 operating slightly below breakeven capacity (~14 million lbs breakeven); restart of Thompson Creek mine announced September 2024 targeting first production H2 2027",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Teck Resources Limited (Highland Valley Copper, Quebrada Blanca)",
+      "country": "Canada",
+      "website": "https://www.teck.com",
+      "production": "Canada mined molybdenum: approximately 1,000 metric tons (2023, per USGS); Teck's Highland Valley Copper (British Columbia) and Quebrada Blanca (Chile) operations produce molybdenum as byproduct; specific Teck molybdenum output not separately confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Almalyk Mining and Metallurgical Complex (AMMC) – Uzbekistan",
+      "country": "Uzbekistan",
+      "website": "https://www.agmk.uz",
+      "production": "Uzbekistan mined molybdenum: estimated 1,700 metric tons (2023e, per USGS); produced from the Kalmakyr porphyry copper-molybdenum-gold deposit at Almalyk",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Norilsk Nickel (Bystrinsky / GRK Bystrinskoye) – Russia",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Russia mined molybdenum: estimated 1,700 metric tons (2023e, per USGS); contributed by Trans-Baikal Division (Bystrinsky copper-gold-iron project, Zabaykalsky Krai); specific Nornickel molybdenum volume not separately reported",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Korea Resources Corporation (Yeongdong Molybdenum Mine, Republic of Korea)",
+      "country": "Republic of Korea",
+      "website": "https://www.kores.net",
+      "production": "Republic of Korea mined molybdenum: 400 metric tons (2023, per USGS); production from the Yeongdong deposit in Chungcheongbuk Province",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Anglo American plc (Los Bronces / El Soldado — via Anglo American Sur)",
+      "country": "United Kingdom",
+      "website": "https://www.angloamerican.com",
+      "production": "Information not available — molybdenum is recovered as a byproduct at Los Bronces copper mine (Chile, Codelco holds 20% through Anglo American Sur framework); specific 2023 molybdenum volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zijin Mining Group Co., Ltd. (Duobaoshan mine, Heilongjiang)",
+      "country": "China",
+      "website": "https://www.zijinmining.com",
+      "production": "2024 guidance: 9,000 tonnes of molybdenum (per Zijin 2023 annual results press release); 2023 production not separately reported; molybdenum produced primarily from the Duobaoshan copper-molybdenum mine in Heilongjiang and other assets; also under construction: Shapinggou molybdenum mine (Anhui Province, received mining license July 2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Harita Nickel / Weda Bay Nickel (nickel-molybdenum byproduct context — Halmahera, Indonesia)",
+      "country": "Indonesia",
+      "website": "https://www.haritanickel.com",
+      "production": "Information not available — specific molybdenum production not reported; Indonesia's molybdenum output is minor and not separately listed by USGS in 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Climax Molybdenum Company (Fort Madison Conversion Facility)",
+      "country": "United States",
+      "website": "https://www.climaxmolybdenum.com/operations/usa",
+      "production": "Conversion facility processing capacity: approximately 120,000 pounds of molybdenum concentrate per day; produces upgraded molybdenum chemicals (molybdic oxide, ammonium molybdate, molybdenum disulfide, sodium molybdate); specific 2023 conversion volumes not separately reported",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "rare_earths": [
+    {
+      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "https://www.reht.com/",
+      "production": "2023 mining quota: 178,650 t REO equivalent (light rare earths); planned full-year REO production of 161,400 t (2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "China Rare Earth Group Co., Ltd.",
+      "country": "China",
+      "website": "https://www.regcc.cn/zgxtjten/index.shtml",
+      "production": "2023 mining quota: 13,010 t REO equivalent (heavy rare earths); total group mining quota 42,400 t including light and heavy rare earths",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Lynas Rare Earths Limited",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com/",
+      "production": "FY2024 (year ended 30 June 2024): 5,655 tonnes NdPr ready-for-sale production; 10,908 tonnes total REO ready-for-sale production. FY2023: 6,142 tonnes NdPr; 16,780 tonnes total REO.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "United States",
+      "website": "https://mpmaterials.com/",
+      "production": "Full year 2024: 45,455 metric tons REO in concentrate (record); 1,294 metric tons NdPr oxide (record). Full year 2023: 41,557 metric tons REO in concentrate; 200 metric tons NdPr oxide.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com/",
+      "production": "Q1–Q3 2023: 12,340.92 t rare earth oxides produced (up 23.11% YoY); 12,395.41 t rare earth metals produced (up 48.16% YoY); 59,035.02 t rare earth salts produced (up 167.23% YoY)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "China Rare Earth Resources and Technology Co., Ltd.",
+      "country": "China",
+      "website": "Information not available",
+      "production": "Full year 2023: 2,384 tonnes rare earth ore production (up 27.55% YoY); 3,756.13 tonnes rare earth oxides production (up 2.50% YoY); 2023 smelting quota: 5,700 t",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "https://www.cxtc.com/default.aspx",
+      "production": "2023 smelting quota (Fujian Changting Jinlong Rare Earth Co., Ltd., subsidiary): 4,000 t; 2023 mining quota (Ninghua Xingluokeng subsidiary): 5 t. Rare earth smelting and separation business of major subsidiaries integrated into China Rare Earth Group from 2024 onwards.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Energy Fuels Inc.",
+      "country": "United States",
+      "website": "https://www.energyfuels.com/",
+      "production": "2024: approximately 38,000 kg (38 metric tonnes) separated NdPr oxide produced; 9,000 kg finished high-purity partially separated mixed heavy Sm+ RE Carbonate. 2023: 153 metric tonnes of mixed RE Carbonate sold; 11 metric tonnes finished RE Carbonate in inventory at year-end.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Iluka Resources Limited",
+      "country": "Australia",
+      "website": "https://www.iluka.com/",
+      "production": "Information not available (Eneabba rare earths refinery under construction as of 2023; no commercial rare earth oxide production reported in 2023 Annual Report dated 21 February 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "IREL (India) Limited",
+      "country": "India",
+      "website": "https://www.irel.co.in/",
+      "production": "FY2023-24: 5,872 tonnes Mixed Rare Earth Chloride (MRCL) production; 532 Ktpa minerals production. Installed capacity: 11,200 tpa MREC processing; 5,000 tpa TREO refining capacity.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com/",
+      "production": "Information not available (no specific rare earth oxide or separated REE production volume in tonnes disclosed in 2023 Annual Results; Magnequench segment volume: 4,694 tonnes magnetic powders/bonded magnets in FY2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Solvay S.A.",
+      "country": "Belgium",
+      "website": "https://www.solvay.com/",
+      "production": "From April 2025: \"several hundred metric tons annually\" of NdPr oxide from La Rochelle, France facility (as stated by CEO Philippe Kehren to Reuters, 6 November 2025); no specific annual tonnage for 2023 or 2024 magnet REE production publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Solikamsk Magnesium Plant (SMZ / Rosatom)",
+      "country": "Russia",
+      "website": "https://www.smz.ru/",
+      "production": "Information not available (no specific rare earth oxide or metal production volume in tonnes publicly disclosed in English-language primary sources; SMZ accounts for 100% of Russia's rare earth compound production; revenue from rare earth carbonates, niobium, tantalum and titanium compounds was approximately 4 billion rubles in 2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "REEtec AS",
+      "country": "Norway",
+      "website": "https://www.reetec.no/",
+      "production": "Information not available (first industrial-scale plant at Herøya commissioned for start-up beginning of 2025; designed nameplate capacity of 720 tonnes NdPr oxide per year; demonstration plant operated since 2019)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Arafura Rare Earths Limited",
+      "country": "Australia",
+      "website": "https://www.arultd.com/",
+      "production": "Information not available (Nolans Project not yet in production as of FY2024; project is shovel-ready pending Final Investment Decision; planned production target: 4,440 tpa NdPr oxide and 573 tpa SEG/HRE oxide once operational over a 38-year mine life)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Hastings Technology Metals Ltd.",
+      "country": "Australia",
+      "website": "https://hastingstechmetals.com/",
+      "production": "Information not available (Yangibana Project under construction as of 2024; construction 32% complete at end of June 2024 quarter with A$154 million spent; first production of rare earth concentrate targeted for 2H 2026; planned output up to 37,000 tpa rare earth concentrate, equivalent to approximately 3,400 tpa NdPr)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Rainbow Rare Earths Limited",
+      "country": "United Kingdom",
+      "website": "https://www.rainbowrareearths.com/",
+      "production": "Information not available (Phalaborwa Project in South Africa in development; front-end pilot plant produced approximately 35 kg of mixed rare earth carbonate during 24/7 integrated campaign completed March 2024; commercial production not commenced; first production now expected from 2028 per December 2024 interim economic study)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Pensana Plc",
+      "country": "United Kingdom",
+      "website": "https://pensana.co.uk/",
+      "production": "Information not available (Longonjo Project in Angola under construction; commissioning scheduled for 2027; planned production: 20,000 t/y mixed rare earth carbonate from 2027; full expansion to 40,000 t/y MREC from 2029 onwards)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Mkango Resources Ltd.",
+      "country": "Canada",
+      "website": "https://mkango.ca/",
+      "production": "Information not available (Songwe Hill Project in Malawi in pre-development; Mining Development Agreement with Government of Malawi signed July 2024; Definitive Feasibility Study completed 2022; no commercial production commenced)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Peak Rare Earths Limited",
+      "country": "Australia",
+      "website": "https://peakrareearths.com/",
+      "production": "Information not available (Ngualla Project in Tanzania in pre-development; no commercial production commenced; early works initiated December 2023; Final Investment Decision pending; front-end engineering and design completed November 2023 with upfront capital cost revised to US$286.9 million)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Vital Metals Limited",
+      "country": "Australia",
+      "website": "https://www.vitalmetals.com.au/",
+      "production": "Information not available (Nechalacho mine halted 2023 following bankruptcy of Saskatoon processing subsidiary; company focused on developing the larger Tardiff deposit; scoping study ongoing; pilot-scale mining conducted 2021–2023 but no annual production figures publicly disclosed as official primary-source data)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Northern Minerals Limited",
+      "country": "Australia",
+      "website": "https://northernminerals.com.au/",
+      "production": "Information not available (Browns Range pilot plant completed its three-year test program in 2022; Definitive Feasibility Study for full-scale commercial beneficiation plant in progress as of 2023; no commercial-scale REE production figures reported for 2023 or 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Less Common Metals Ltd. (LCM)",
+      "country": "United Kingdom",
+      "website": "https://lesscommonmetals.com/",
+      "production": "Information not available (no specific annual REE metal production tonnage publicly disclosed; expanding NdPr metal capacity from approximately 110 t/yr to up to 330 t/yr; also produces Dy, Tb, and SmCo alloys on commercial basis)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ganzhou Qiandong Rare Earths Group Co., Ltd.",
+      "country": "China",
+      "website": "https://www.jxgqd.com/en/",
+      "production": "Information not available (no specific annual production figures publicly available in English-language primary sources; annual output capacity of rare earth metals stated as 1,000 tonnes)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "China Minmetals Rare Earth Co., Ltd.",
+      "country": "China",
+      "website": "http://www.minmetals.com/english/",
+      "production": "Information not available (subsidiary of China Rare Earth Group Co., Ltd. since 2021 consolidation; individual rare earth production figures not separately disclosed in English-language primary sources; parent China Minmetals 2023 total operating revenue: RMB 934.6 billion)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "China Southern Rare Earth Group Co., Ltd.",
+      "country": "China",
+      "website": "Information not available",
+      "production": "2023 mining quota: 42,400 t REO total (light and heavy rare earths combined, under China Rare Earth Group umbrella). Subsidiary Ganzhou Rare Earth (Longnan) Nonferrous Metals Co., Ltd. smelting quota: 28,300 t.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "CBMM — Companhia Brasileira de Metalurgia e Mineração",
+      "country": "Brazil",
+      "website": "https://cbmm.com/",
+      "production": "Information not available (pilot plant for rare earth concentrate production commenced 2012 with capacity of up to 1,000 t/yr; current commercial-scale rare earth production volume not publicly disclosed; primary business is niobium; rare earths are a strategic co-product development under study)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Guangdong Rare Earth Industry Group Co., Ltd.",
+      "country": "China",
+      "website": "Information not available",
+      "production": "2023 mining quota (Pingyuan Huaqi Rare Earth Industry subsidiary): 2,700 t. Full Guangdong group quotas integrated into China Rare Earth Group Co., Ltd. from 2024 following December 2023 equity transfer.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Longyan Rare Earth Development Co., Ltd. (subsidiary of Xiamen Tungsten)",
+      "country": "China",
+      "website": "Information not available",
+      "production": "2023 mining quota: 3,400 t REO (Fujian, Longyan, Xinluo area). 2023 smelting quota (Fujian Changting Jinlong Rare Earth Co., Ltd., subsidiary): 4,000 t. Quotas integrated into China Rare Earth Group from 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Lovozersky GOK LLC (Rosatom Mining Division)",
+      "country": "Russia",
+      "website": "Information not available",
+      "production": "Information not available (produces loparite concentrate feedstock for the Solikamsk Magnesium Plant; no specific production tonnage publicly disclosed in English-language primary sources)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "tungsten": [
+    {
+      "name": "China Minmetals Corporation (CNMC)",
+      "country": "China",
+      "website": "https://www.minmetals.com",
+      "production": "Information not available — CNMC is a state-owned enterprise; company-level tungsten production figures are not publicly disclosed. China national total: 63,000 metric tons W content (2023e, USGS Mineral Commodity Summaries 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd.",
+      "country": "China",
+      "website": "https://www.xiamentungsten.com",
+      "production": "Information not available — company-level mine production figures not publicly disclosed in English-language sources. Parent country total: 63,000 metric tons W content (2023e, USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Chongyi Zhangyuan Tungsten Co., Ltd.",
+      "country": "China",
+      "website": "https://www.zhangyuantungsten.com",
+      "production": "Information not available — company-level mine production figures not publicly disclosed. China national total: 63,000 metric tons W content (2023e, USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Wolfram Bergbau und Hütten AG (WBH / Sandvik subsidiary)",
+      "country": "Austria",
+      "website": "https://www.wolfram.at",
+      "production": "Information not available — production from Felbertal mine (Mittersill) reported as approximately 500,000 tonnes of ore per year grading ~0.29% WO3 (Geoscience Australia, 2023); exact annual concentrate output not publicly disclosed. Austria national total: 910 metric tons W content (2022), 910 metric tons W content (2023e), USGS MCS 2024",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Almonty Industries Inc.",
+      "country": "Canada",
+      "website": "https://almonty.com",
+      "production": "Information not available — Almonty's Panasqueira Mine (Portugal) and Los Santos Mine (Spain, care and maintenance as of 2020) are operating or development-stage. Panasqueira is reported to produce tungsten concentrate with a recovery rate consistently averaging 80%. Spain national total: 800 metric tons W content (2022), 1,500 metric tons (2023e); Portugal: 500 metric tons (2022), 500 metric tons (2023e). USGS MCS 2024. Exact company-level figure not stated in annual filings.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Masan High-Tech Materials (MSR) — Nui Phao Mine",
+      "country": "Vietnam",
+      "website": "https://masanhightechmaterials.com",
+      "production": "Information not available — Nui Phao is the largest tungsten mine outside China; Vietnam national total: 4,000 metric tons W content (2022), 3,500 metric tons W content (2023e), USGS MCS 2024. Reuters reported the mine produces 'nearly all of the estimated 3,400 metric tons extracted annually from Vietnam' (2024 data). Exact 2023 company-level figure not publicly reported in annual filings.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "PJSC Primorsky GOK (part of Rostec / Russian Federal tungsten complex)",
+      "country": "Russia",
+      "website": "https://www.rostec.ru",
+      "production": "Information not available — Russia national total: 2,000 metric tons W content (2022), 2,000 metric tons W content (2023e), USGS MCS 2024. Company-level breakdown not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ruanda Minerals SARL (Rwanda Tin and Tungsten cooperatives network)",
+      "country": "Rwanda",
+      "website": "Information not available",
+      "production": "Information not available — Rwanda national total: 1,400 metric tons W content (2022), 1,400 metric tons W content (2023e), USGS MCS 2024. Production is distributed across artisanal and small-scale mining operations; no single company dominates.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "COMIBOL / COMSUR / Colquiri Mine (Bolivia)",
+      "country": "Bolivia",
+      "website": "https://www.comibol.gob.bo",
+      "production": "Information not available — Bolivia national total: 1,360 metric tons W content (2022), 1,500 metric tons W content (2023e), USGS MCS 2024. Bolivian tungsten is produced by a mix of state-owned (COMIBOL) and private/cooperative operations; exact company-level figures not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "North Korean Mining Bureau (DPRK — state producer)",
+      "country": "North Korea",
+      "website": "Information not available",
+      "production": "Information not available — North Korea national total: 1,520 metric tons W content (2022), 1,700 metric tons W content (2023e), USGS MCS 2024. Production data from DPRK is not independently verifiable.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Tungsten Mining NL / King Island Scheelite",
+      "country": "Australia",
+      "website": "https://www.kingislandscheelite.com.au",
+      "production": "Information not available — Australia national total: 200 metric tons W content (2022), 800 metric tons W content (2023e), USGS MCS 2024. King Island Scheelite's Dolphin mine was in development/restart phase in 2023; production volumes not publicly stated.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Almonty Industries — Los Santos Mine / Spain",
+      "country": "Spain",
+      "website": "https://almonty.com",
+      "production": "Information not available — Los Santos Mine was placed under care and maintenance in February 2020; Spain national total: 800 metric tons W content (2022), 1,500 metric tons W content (2023e), USGS MCS 2024 (primarily reflects other operators/artisanal production).",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "vanadium": [
+    {
+      "name": "Pangang Group Vanadium Titanium & Resources Co., Ltd.",
+      "country": "China",
+      "website": "https://www.pangang.com.cn",
+      "production": "Information not available — company-level production not publicly disclosed in English-language sources. Pangang Group is described as accounting for 'more than 30% of China's vanadium production' (LP Vanadium / Pangang Group press release, 2023). China national total: 66,900 metric tons V content (2022), 68,000 metric tons V content (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "HBIS Group (Chengsteel / Chengde Steel)",
+      "country": "China",
+      "website": "https://www.hbisco.com",
+      "production": "Information not available — company-level vanadium production not publicly reported separately. HBIS is the world's second-largest producer of vanadium and titanium materials per HBIS corporate communications (2023). China national total: 66,900 metric tons V content (2022), 68,000 metric tons V content (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "EVRAZ plc (Russia, NTMK / Vanady Tula)",
+      "country": "Russia",
+      "website": "https://www.evraz.com",
+      "production": "Information not available — EVRAZ's vanadium operations (KGOK mine → NTMK slag → Vanady Tula V2O5 → Nikom FeV, Czech Republic) are integrated into its steel business. Russia national total: ~20,000 metric tons V content (2022e), 20,000 metric tons V content (2023e), USGS MCS 2024. EVRAZ's last public annual report was for FY2021 before London delisting in February 2023.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Bushveld Minerals Ltd. (Vametco and Vanchem)",
+      "country": "South Africa",
+      "website": "https://www.bushveldminerals.com",
+      "production": "3,714 metric tons of vanadium in 2023 (Vametco: 2,306 t nitro-vanadium; Vanchem: 1,408 t comprising 798 t FeV, 416 t V2O5 flake, 195 t vanadium chemicals), as reported in the USGS Minerals Yearbook 2023 (Vanadium chapter, citing Bushveld Minerals Ltd. 2023, 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Largo Inc. (Maracás Menchen Mine)",
+      "country": "Canada",
+      "website": "https://www.largoinc.com",
+      "production": "9,681 tonnes of V2O5 equivalent in full year 2023, per Largo's Q4 and Full Year 2023 Operational Results announcement (January 23, 2024). Compared to 10,436 tonnes in 2022.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Companhia Brasileira de Metalurgia e Mineração (CBMM)",
+      "country": "Brazil",
+      "website": "https://www.cbmm.com",
+      "production": "Information not available — CBMM is primarily a niobium producer. Brazil's vanadium production (as reported by USGS) is mainly from Largo Inc.'s Maracás Menchen Mine. Brazil national total: 5,840 metric tons V content (2022), 6,400 metric tons V content (2023e), USGS MCS 2024. CBMM does not report separate vanadium production.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Glencore plc — Rhovan Vanadium Facility",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "Information not available — Glencore's Rhovan facility in South Africa produces high-purity V2O5. In H1 2025, Rhovan produced 7.7 million lb of V2O5 (Glencore, 2025). 2023 full-year figure: Glencore's 2023 Annual Report references Rhovan operations but does not state an isolated 2023 production figure in available public summaries.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "AMG Vanadium LLC (AMG Advanced Metallurgical Group)",
+      "country": "Netherlands",
+      "website": "https://amg-nv.com",
+      "production": "Information not available — AMG Vanadium is described as the 'world's market leader in recycling vanadium from oil refining residues' and the only US ferrovanadium producer. In 2023, ferrovanadium and tantalum concentrate sales increased 45% versus 2022; exact production tonnage not stated in public filings. United States secondary vanadium (from ash, residues, spent catalysts): estimated 5,700 metric tons (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "U.S. Vanadium LLC (USV)",
+      "country": "United States",
+      "website": "https://www.usvanadium.com",
+      "production": "Information not available — USV operates a vanadium oxide production facility in Hot Springs, Arkansas, and a grinding/roasting facility in Benton, Arkansas (acquired 2021). Exact 2023 production tonnage not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ferro-Alloy Resources Ltd. (FAR) — Balasausqandiq Project",
+      "country": "United Kingdom",
+      "website": "https://www.ferro-alloy.com",
+      "production": "311 metric tons of V2O5 produced in 2023 (compared to 306 t V2O5 in 2022) at its processing facility processing secondary materials (spent catalysts) in Qyzylorda Province, Kazakhstan. Reported in USGS Minerals Yearbook 2023 — Vanadium chapter, citing Ferro-Alloy Resources Ltd., 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Energy Fuels Inc.",
+      "country": "Canada",
+      "website": "https://www.energyfuels.com",
+      "production": "36 metric tons of V2O5 (contained in FeV) sold from existing inventory in Q1 2023; no new vanadium produced from ore in 2023. As of year-end 2023, approximately 410 t V2O5 as finished goods inventory and an estimated 450 to 1,400 t V2O5 in tailings solution. Reported in USGS Minerals Yearbook 2023 — Vanadium chapter and Energy Fuels 2023 annual results (February 23, 2024).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Czech Vanadium a.s.",
+      "country": "Czech Republic",
+      "website": "https://www.czechvanadium.com",
+      "production": "2,456 tonnes of vanadium produced in 2023 (45.4% less than 2022 and 35.8% below the originally set annual production plan), as stated in Czech Vanadium Annual Report 2023 (filed June 2024).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Navoiuran (Navoi Mining & Metallurgical Plant — Uranium and Vanadium division)",
+      "country": "Uzbekistan",
+      "website": "https://www.ngmk.uz",
+      "production": "Information not available — Navoiuran is primarily a uranium producer; vanadium co-production data not separately disclosed. Uzbekistan produces vanadium as a by-product of uranium ISR processing.",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "manganese": [
+    {
+      "name": "South32 Limited — Australia Manganese (GEMCO)",
+      "country": "Australia",
+      "website": "https://www.south32.net",
+      "production": "3,545 thousand wet metric tonnes (kwmt) for FY2023 (year ended 30 June 2023), representing a record annual production; GEMCO is a 60% South32 owned operation (Groote Eylandt Mining Company). Source: South32 Financial Results and Outlook Year Ended 30 June 2023 (August 2023).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "South32 Limited — South Africa Manganese",
+      "country": "Australia",
+      "website": "https://www.south32.net",
+      "production": "2,108 thousand wet metric tonnes (kwmt) for FY2023 (year ended 30 June 2023), representing a record annual production; South32 holds a 54.6% interest in the South Africa Manganese operations. Source: South32 Financial Results and Outlook Year Ended 30 June 2023 (August 2023).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Eramet S.A. — Comilog (Moanda Mine, Gabon)",
+      "country": "France",
+      "website": "https://www.eramet.com",
+      "production": "7.4 million metric tonnes of manganese ore produced in Gabon in full year 2023 (stable production after H2 2023 rebound of +22% vs H2 2022). Source: Eramet FY2023 Full Year Results, February 22, 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Assmang Proprietary Limited (ARM Ferrous / African Rainbow Minerals)",
+      "country": "South Africa",
+      "website": "https://www.arm.co.za",
+      "production": "Manganese ore sales volumes: 4.3 million metric tonnes in F2023 (year ended 30 June 2023), up 9% from F2022 (3.96 million tonnes). Export sales: 3.6 million tonnes; local sales: 0.73 million tonnes. Source: ARM F2023 Annual Results Commentary.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Tshipi é Ntle Manganese Mining (Pty) Ltd. — Tshipi Borwa Mine",
+      "country": "South Africa",
+      "website": "https://www.tshipi.co.za",
+      "production": "3.3 million metric tonnes of manganese ore produced in calendar year 2023 (FY2023 for owner OM Holdings: 3.3 Mt). Tshipi is on track to achieve 3.4 Mtpa per the Q3 FY2023 quarterly report (OM Holdings, ASX). Source: Mining Data Online / OM Holdings quarterly reports.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Grupo Industrial Camargo Corrêa / Mineração Pedra Branca do Amapari (Brazil)",
+      "country": "Brazil",
+      "website": "Information not available",
+      "production": "Information not available — Brazil national total: 624 thousand metric tons Mn content (2022), 620 thousand metric tons Mn content (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Guyana Manganese Inc. (wholly owned subsidiary of Bosai Group, China)",
+      "country": "China",
+      "website": "http://en.cqbosai.com",
+      "production": "315,000 metric tonnes of manganese ore (gross weight) produced in 2023, at the Matthews Ridge Mine in northwest Guyana. Mine restarted in 2022 after nearly 54 years of dormancy. Source: USGS Minerals Yearbook 2023 — Manganese chapter.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Consolidated Minerals (Consmin) — Woodie Woodie Mine",
+      "country": "Australia",
+      "website": "https://www.consminerals.com",
+      "production": "Information not available — Australia national total: 3,040 thousand metric tons Mn content (2022), 3,000 thousand metric tons (2023e), USGS MCS 2024. Woodie Woodie is one of Australia's principal manganese operations alongside GEMCO.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Comilog / Société Minière de la Moanda (Gabon — Eramet subsidiary)",
+      "country": "France",
+      "website": "https://www.eramet.com",
+      "production": "See Eramet entry above — Comilog is the operating entity for the Moanda mine in Gabon, producing 7.4 million metric tonnes of manganese ore in 2023.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ghana Manganese Company Ltd. (GMC)",
+      "country": "Ghana",
+      "website": "https://ghamang.com.gh",
+      "production": "Information not available — Ghana national total: 844 thousand metric tons Mn content (2022), 840 thousand metric tons (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "MOIL Limited (Manganese Ore India Limited)",
+      "country": "India",
+      "website": "https://www.moil.nic.in",
+      "production": "Information not available — India national total: 721 thousand metric tons Mn content (2022), 720 thousand metric tons (2023e), USGS MCS 2024. MOIL is the dominant Indian manganese producer.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "JSC Nikopol Ferroalloy Plant (Ferrexpo / Privat Group related — Ukraine)",
+      "country": "Ukraine",
+      "website": "Information not available",
+      "production": "Information not available — Ukraine national total (concentrate basis): 323 thousand metric tons (2022), 320 thousand metric tons (2023e), USGS MCS 2024. JSC Nikopol Ferroalloy Plant temporarily suspended operations in November 2023 due to damage from Russian artillery (per USGS Minerals Yearbook 2023 — Manganese chapter).",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "chromium": [
+    {
+      "name": "Glencore plc — Merafe Chrome Venture",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "Attributable ferrochrome production: 1,162,000 metric tonnes in full year 2023 (79.85% Glencore share of the Glencore-Merafe venture), down 22% from 1,488,000 tonnes in 2022; reduction mainly due to planned additional smelter offline days during high electricity demand winter season. Source: Glencore Full Year 2023 Production Report, February 1, 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Merafe Resources Ltd.",
+      "country": "South Africa",
+      "website": "https://www.meraferesources.co.za",
+      "production": "Attributable ferrochrome production: 300,000 metric tonnes for year ended 31 December 2023 (2022: 384,000 tonnes), down 22%. Merafe holds a 20.15% stake in the Glencore-Merafe Chrome Venture. Source: Merafe Resources Integrated Annual Report 2023.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Samancor Chrome (Pty) Ltd.",
+      "country": "South Africa",
+      "website": "https://samancorcr.com",
+      "production": "Information not available — Samancor Chrome is a privately held company (majority shareholder Terris Chrome with Japanese consortium and BEE shareholders). Specific annual production figures are not publicly disclosed. South Africa national total: 19,100 thousand metric tons chromite ore gross weight (2022), 18,000 thousand metric tons (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "TNC Kazchrome JSC (Eurasian Resources Group / ERG)",
+      "country": "Kazakhstan",
+      "website": "https://www.eurasianresources.lu",
+      "production": "Record chrome ore output and ferroalloys production in 2024 (ERG/Kazchrome press release, June 2025). In 2024, Donskoy GOK reported 6 million tonnes of ore and 1.864 million tonnes of ferroalloys at record output. 2023 figures: Kazakhstan national total: 6,000 thousand metric tons chromite ore gross weight (2022e), 6,000 thousand metric tons (2023e), USGS MCS 2024. Kazchrome is the world's largest high-carbon ferrochrome producer by chrome content per ERG.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Outokumpu Oyj — Kemi Chromite Mine",
+      "country": "Finland",
+      "website": "https://www.outokumpu.com",
+      "production": "Chromite ore: 1,906,409 metric tonnes produced in 2023; Ferrochromium: 390,000 metric tonnes produced in 2023. Source: USGS Minerals Yearbook 2023 — Chromium chapter.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Tata Steel Mining Limited (TSML) — Sukinda Chromite Mines",
+      "country": "India",
+      "website": "https://www.tatasteelmining.com",
+      "production": "Ferrochrome production: 373,000 metric tonnes in 2021-22 (scaled up from 37,000 tonnes in 2020-21). 2022-23 and 2023-24 figures: India national total: 4,000 thousand metric tons chromite ore (2022e), 4,200 thousand metric tons (2023e), USGS MCS 2024. TSML's exact 2023 company-level production not separately stated.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Indian Metals & Ferro Alloys Ltd. (IMFA)",
+      "country": "India",
+      "website": "https://www.imfa.in",
+      "production": "Targeting 800,000 metric tonnes of chrome ore production from Sukinda mines in the current fiscal year (2025-26) per IMFA corporate communications (August 2025). 2023 exact production not stated. India national total: 4,000 thousand metric tons chromite ore (2022e), 4,200 thousand metric tons (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Odisha Mining Corporation Ltd. (OMC)",
+      "country": "India",
+      "website": "https://www.omcltd.in",
+      "production": "0.37 million metric tonnes of chrome ore in Q1 FY2025-26 (Odisha Mining Corporation LinkedIn post, July 2025). 2023 exact production not stated. India national total: 4,000 thousand metric tons chromite ore (2022e), 4,200 thousand metric tons (2023e), USGS MCS 2024.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Vedanta Resources Ltd. — Chromite (Odisha, India)",
+      "country": "United Kingdom",
+      "website": "https://www.vedantagroup.com",
+      "production": "Information not available — Vedanta's ferrochrome capacity expansion plans: from 140,000 t/yr to 450,000 t/yr (per USGS Minerals Yearbook 2023 — Chromium). 2023 production not publicly stated.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zimasco (Pvt) Ltd. (majority owned by Sinosteel, China)",
+      "country": "Zimbabwe",
+      "website": "Information not available",
+      "production": "Information not available — Zimasco's Kwekwe smelter restarted after a 2-month shutdown in 2023 per USGS Minerals Yearbook 2023 — Chromium. Zimbabwe is included in 'Other countries' in USGS MCS 2024 country totals.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Jubilee Metals Group Plc — Chromite Recovery (South Africa)",
+      "country": "United Kingdom",
+      "website": "https://www.jubileemetalsgroup.com",
+      "production": "Information not available — Jubilee Metals operates a chromite concentrate recovery facility on the Bushveld Complex with capacity of 360,000 tonnes per year. 2023 production figures not stated in available sources.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Yildirim Group / American Chrome & Chemicals Inc.",
+      "country": "Turkey",
+      "website": "https://www.yildirimgroup.com",
+      "production": "Information not available — American Chrome & Chemicals (subsidiary) produces sodium dichromate from chromite ore at Castle Hayne, NC and Corpus Christi, TX. Turkey national total: 5,410 thousand metric tons chromite ore (2022), 6,000 thousand metric tons (2023e), USGS MCS 2024. Turkey-origin chromite production figures at Yildirim's own mines not separately disclosed.",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "titanium": [
+    {
+      "name": "PJSC VSMPO-AVISMA Corporation",
+      "country": "Russia",
+      "website": "https://vsmpo.ru",
+      "production": "Russia national sponge metal production: 20,000 metric tonnes (2022), 20,000 metric tonnes (2023e), USGS MCS 2024. VSMPO-AVISMA accounts for the majority of Russia's titanium sponge output. Company-level annual production figure: over 20,000 tonnes of finished titanium products per year per corporate website. Exact 2023 production not separately disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Osaka Titanium Technologies Co., Ltd. (OTC)",
+      "country": "Japan",
+      "website": "https://www.osaka-titanium.co.jp",
+      "production": "Information not available — OTC operated its Amagasaki plant 'at almost full capacity throughout 2023-24 to produce titanium sponge' (Argus Media, May 2024). Japan national sponge production: 47,000 metric tonnes (2022), 60,000 metric tonnes (2023e), USGS MCS 2024. OTC's capacity was 40,000 t/yr as of 2023 (expanding to 50,000 t/yr). OTC is described as the world's second largest titanium sponge producer after VSMPO-AVISMA.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Toho Titanium Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.toho-titanium.co.jp",
+      "production": "Information not available — Toho Titanium is the world's third-largest titanium sponge producer per company's Medium-Term Management Plan FY2023-2025. Production capacity: domestic plants (Wakamatsu/Chigasaki) plus ATTM joint venture in Saudi Arabia (15,600 t/yr capacity). Japan national sponge: 47,000 metric tonnes (2022), 60,000 metric tonnes (2023e), USGS MCS 2024. Exact 2023 output not disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "AMIC Toho Titanium Metal Co., Ltd. (ATTM) — Advanced Metal Industries Cluster",
+      "country": "Saudi Arabia",
+      "website": "https://www.amic.com.sa",
+      "production": "12,000 metric tonnes of titanium sponge produced in 2023 (up from 9,700 t in 2022 and 5,700 t in 2021). Saudi Arabia national total: 12,000 metric tonnes (2023e), USGS MCS 2024. ATTM is a joint venture: AMIC (65%) and Toho Titanium (35%); plant capacity 15,600 t/yr. Source: USGS Mineral Industry of Saudi Arabia 2020-2021 (published 2026), referencing 2023 data.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "UKTMP / ULBA Metallurgical Plant (Kazakhstan)",
+      "country": "Kazakhstan",
+      "website": "https://www.ulba.kz",
+      "production": "Kazakhstan national sponge metal production: 15,000 metric tonnes (2022), 14,000 metric tonnes (2023e), USGS MCS 2024. UKTMP (Ust-Kamenogorsk Titanium-Magnesium Plant) is Kazakhstan's primary titanium sponge producer.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Tronox Holdings plc",
+      "country": "United Kingdom",
+      "website": "https://www.tronox.com",
+      "production": "Annual titanium feedstock mining capacity approximately 832,000 metric tonnes (comprising 182,000 MT rutile/leucoxene, 240,000 MT synthetic rutile, 410,000 MT titanium slag) per Tronox 2025 10-K filing (SEC). Full year 2023 total revenue: $2,850 million (includes TiO2, zircon, pig iron, and other titanium products). TiO2 pigment not disaggregated from feedstock production in public reports.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Iluka Resources Ltd.",
+      "country": "Australia",
+      "website": "https://www.iluka.com",
+      "production": "639,000 tonnes of zircon/rutile/synthetic rutile (Z/R/SR) total production in full year 2023. Source: Iluka Resources Quarterly Review to 31 December 2023 (January 23, 2024). Includes 211,000 tonnes of synthetic rutile sold in 2023.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Rio Tinto — Rio Tinto Iron & Titanium (RTIT)",
+      "country": "United Kingdom",
+      "website": "https://www.riotinto.com",
+      "production": "Information not available — Rio Tinto's titanium operations (ilmenite, titanium slag, and pig iron from Sorel-Tracy, Quebec, Canada and Richards Bay Minerals in South Africa) are integrated. Exact 2023 titanium product tonnage not disaggregated in public annual reports.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Richards Bay Minerals (RBM) — Rio Tinto / Tronox joint venture",
+      "country": "South Africa",
+      "website": "https://www.rbm.co.za",
+      "production": "Information not available — RBM mines ilmenite, rutile, zircon, and leucoxene from heavy mineral sands at Richards Bay. Exact 2023 production not separately stated in public sources. Rio Tinto holds 74% of RBM.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Kenmare Resources plc — Moma Mine",
+      "country": "Ireland",
+      "website": "https://www.kenmareresources.com",
+      "production": "Information not available — Kenmare operates the Moma Titanium Minerals Mine in Mozambique. 2023 annual production figures not extracted from primary source within research scope.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "TIMET (Titanium Metals Corporation) — a Precision Castparts / Berkshire Hathaway company",
+      "country": "United States",
+      "website": "https://www.timet.com",
+      "production": "Information not available — TIMET is one of the world's largest producers of titanium metal products (sponge, ingot, mill products). US sponge production is withheld (W) in USGS data; the Henderson, NV plant (capacity 12,600 t/yr) was idled since 2020 as of 2023; the Rowley, UT plant (capacity 10,900 t/yr) was idled since 2016. TIMET's Morgantown, PA and Toronto, OH facilities produce titanium mill products.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "ATI Inc. (Allegheny Technologies Inc.)",
+      "country": "United States",
+      "website": "https://www.atimaterials.com",
+      "production": "Information not available — ATI operates the Rowley, Utah titanium sponge plant (capacity 10,900 t/yr, idled since 2016 per USGS). ATI produces titanium and specialty alloy mill products; no US sponge production in 2023.",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "uranium": [
+    {
+      "name": "Kazatomprom (National Atomic Company of Kazakhstan JSC)",
+      "country": "Kazakhstan",
+      "website": "https://www.kazatomprom.kz",
+      "production": "21,112 tonnes of uranium (tU) on a 100% basis in 2023; 11,169 tU on an attributable basis in 2023. Source: Kazatomprom FY2023 Operating and Financial Review (March 15, 2024) and FY2023 Financial Results (kazatomprom.kz, March 15, 2024). Kazakhstan national total: approximately 21,270 tU in 2023 per World Nuclear Association (2024); WNA 2024 data: 23,270 tU.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Cameco Corporation",
+      "country": "Canada",
+      "website": "https://www.cameco.com",
+      "production": "17.6 million pounds (approximately 7,983 tU) in 2023 (uranium segment production). Delivered 32 million pounds at an average realized price of $67.31 (CAD). Source: Cameco 2023 Annual Report (cameco.com) and Cameco 2023 Results announcement (February 8, 2024). WNA 2024 data for Cameco: 10,193 tU in 2024 (17% of world total).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Orano SA (formerly AREVA Mines)",
+      "country": "France",
+      "website": "https://www.orano.group",
+      "production": "Information not available — Orano's Mining Sector revenue was €1,319 million in 2023. Lower production volume at mining sites outside Canada noted in 2023 Annual Results (February 16, 2024). WNA 2024 data: 6,815 tU in 2024 (11% of world total). Orano's 2023 mines include Cigar Lake (Canada, joint with Cameco), Katco (Kazakhstan, joint with Kazatomprom), and previously Niger (Somaïr/Cominak, affected by coup).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Uranium One Inc. (subsidiary of Rosatom / ARMZ)",
+      "country": "Russia",
+      "website": "https://www.uranium1.com",
+      "production": "Information not available — Uranium One holds joint ventures with Kazatomprom in Kazakhstan (Karatau/Budenovskoye 2, Akdala, South Inkai 4, Khorassan 1) and other assets. WNA 2024 data: 5,829 tU in 2024 (10% of world total). 2023 production not separately disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "JSC Atomredmetzoloto (ARMZ Uranium Holding — Rosatom)",
+      "country": "Russia",
+      "website": "https://www.armz.ru",
+      "production": "2,710 tonnes of uranium produced in 2023 (103% fulfillment of uranium production plan; 3% above target); up from 2,508 tU in 2022. Source: ARMZ Performance of the Mining Division 2023 (report.rosatom.ru/go_eng/2023/armz_2023_eng.pdf, 2024). Russia national total: approximately 2,738 tU in 2024 (WNA).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "CGN (China General Nuclear Power Group) — Swakop Uranium (Husab Mine)",
+      "country": "China",
+      "website": "https://www.cgnpc.com.cn",
+      "production": "Information not available — Husab Mine (operated by Swakop Uranium, 75% CGN) produced approximately 4,437 tU in 2024 (WNA mine table). In 2023, Husab produced approximately 4,000-4,500 tU/yr (design capacity: ~6,000 tU/yr per World Nuclear Association/Oregon Group). Exact 2023 figure not available from primary company source.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Navoiyuran (Navoi Mining & Metallurgical Company — Uranium Division)",
+      "country": "Uzbekistan",
+      "website": "https://www.ngmk.uz",
+      "production": "Approximately 4,000+ tU in 2023 (estimated: Uzbekistan produced 3,560 tU in 2022; 2023 production increased by 14% per Navoiyuran annual report 2023, implying ~4,059 tU). Production volume only reported in relative terms publicly; absolute 2023 figure not officially stated. WNA 2024 estimate for Uzbekistan: 4,000 tU.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "BHP Group — Olympic Dam (uranium as co-product)",
+      "country": "Australia",
+      "website": "https://www.bhp.com",
+      "production": "3,406 metric tonnes of uranium produced in FY2023 (year ended 30 June 2023), up 43% from FY2022. Source: BHP Operational Review for the Year Ended 30 June 2023 (BHP, July 20, 2023). Uranium is a by-product of copper smelting at Olympic Dam.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Rössing Uranium Ltd. (majority owned by CNNC — China National Nuclear Corporation)",
+      "country": "Namibia",
+      "website": "https://www.rossing.com",
+      "production": "2,920 metric tonnes of uranium oxide (tU equivalent) produced in 2023 (compared to 2,659 metric tonnes in 2022; 10% higher year-on-year). 9.3 million tonnes of ore milled. Source: Rössing Uranium Sustainability and Performance Report 2023 (rossing.com, launched June 18, 2024).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "General Atomics / Quasar Resources (formerly AREVA Resources Australia — Beverley/Four Mile)",
+      "country": "United States",
+      "website": "https://www.ga.com",
+      "production": "Information not available — Quasar Resources (General Atomics subsidiary) operates ISR uranium operations at Beverley North and Four Mile in South Australia. WNA 2024 data: General Atomics/Quasar: 1,808 tU in 2024 (3% of world total). 2023 production not separately stated.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Energy Fuels Inc.",
+      "country": "Canada",
+      "website": "https://www.energyfuels.com",
+      "production": "560,000 pounds (approximately 254 tU) of uranium sold from inventory in 2023 at an average realized price of $59.42/lb; sold from existing inventory (no new uranium produced from ore in 2023). Three mines commenced production in late December 2023. Source: Energy Fuels 2023 Annual Results (February 23, 2024, investors.energyfuels.com).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Paladin Energy Ltd.",
+      "country": "Australia",
+      "website": "https://www.paladinenergy.com.au",
+      "production": "Information not available — Langer Heinrich Mine in Namibia was under care and maintenance from 2018 until restart in March 2024; no production in 2023. By mid-2024 it had produced 235 tU during ramp-up. Source: World Nuclear Association, Namibia country profile (January 2026).",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Uranium One / JV Budenovskoye LLP (Kazakhstan)",
+      "country": "Russia",
+      "website": "https://www.uranium1.com",
+      "production": "3,299 tU from Karatau (Budenovskoye 2) mine in 2024 (WNA mine table); and 2,803 tU from Akdala & South Inkai 4 in 2024 (WNA). 2023 figures for individual joint ventures not separately available. Total Uranium One company production: 5,829 tU in 2024 (WNA).",
+      "ticker": "",
+      "exchange": ""
+    }
   ]
 }

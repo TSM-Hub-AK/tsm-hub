@@ -1,16 +1,21 @@
 /**
  * fetch-shfe.js
  * Fetches SHFE (Shanghai Futures Exchange) daily settlement prices
- * and trading data for Nickel via direct SHFE JSON API.
- * Saves to data/shfe.json
+ * for ALL metals traded on SHFE. Saves to data/shfe.json
  * 
  * No API key needed — public endpoints.
  * Prices in RMB/tonne (native SHFE units).
  * 
+ * Metals covered:
+ *   cu (Copper), al (Aluminium), zn (Zinc), pb (Lead), ni (Nickel), sn (Tin)
+ *   ao (Aluminium Oxide), ad (Cast Aluminium Alloy)
+ *   au (Gold — RMB/g), ag (Silver — RMB/kg)
+ *   rb (Steel Rebar), hc (Hot Rolled Coils), ss (Stainless Steel), wr (Wire Rod)
+ * 
  * Endpoints used:
  *   /data/config/currentTradingday.dat — current & last trading day
- *   /data/tradedata/future/dailydata/js{DATE}.dat — settlement prices (per contract)
  *   /data/tradedata/future/dailydata/kx{DATE}.dat — daily express (product summary)
+ *   /data/tradedata/future/dailydata/js{DATE}.dat — settlement prices (per contract)
  * 
  * Usage: node src/fetch-shfe.js
  */
@@ -21,6 +26,24 @@ const path = require('path');
 
 const BASE = 'https://www.shfe.com.cn/data/tradedata/future/dailydata';
 const CONFIG_URL = 'https://www.shfe.com.cn/data/config/currentTradingday.dat';
+
+// All SHFE metals we track — product_id prefix → display config
+const SHFE_METALS = {
+  cu:  { name: 'Copper',               unit: 'RMB/t',  category: 'base' },
+  al:  { name: 'Aluminium',            unit: 'RMB/t',  category: 'base' },
+  zn:  { name: 'Zinc',                 unit: 'RMB/t',  category: 'base' },
+  pb:  { name: 'Lead',                 unit: 'RMB/t',  category: 'base' },
+  ni:  { name: 'Nickel',               unit: 'RMB/t',  category: 'base' },
+  sn:  { name: 'Tin',                  unit: 'RMB/t',  category: 'base' },
+  ao:  { name: 'Aluminium Oxide',      unit: 'RMB/t',  category: 'base' },
+  ad:  { name: 'Cast Aluminium Alloy', unit: 'RMB/t',  category: 'base' },
+  au:  { name: 'Gold',                 unit: 'RMB/g',  category: 'precious' },
+  ag:  { name: 'Silver',               unit: 'RMB/kg', category: 'precious' },
+  rb:  { name: 'Steel Rebar',          unit: 'RMB/t',  category: 'steel' },
+  hc:  { name: 'Hot Rolled Coils',     unit: 'RMB/t',  category: 'steel' },
+  ss:  { name: 'Stainless Steel',      unit: 'RMB/t',  category: 'steel' },
+  wr:  { name: 'Wire Rod',             unit: 'RMB/t',  category: 'steel' },
+};
 
 function fetchJSON(url) {
   return new Promise((resolve, reject) => {
@@ -55,7 +78,7 @@ function fetchJSON(url) {
 }
 
 async function main() {
-  console.log('Fetching SHFE data...');
+  console.log('Fetching SHFE data (all metals)...');
   
   // 1. Get current trading day
   console.log('  Getting current trading day...');
@@ -71,17 +94,18 @@ async function main() {
   try {
     console.log(`  Fetching settlement for ${dateToUse}...`);
     settlement = await fetchJSON(`${BASE}/js${dateToUse}.dat`);
-    const niCheck = (settlement.o_cursor || []).filter(r => 
-      r.PRODUCTID && r.PRODUCTID.startsWith('ni')
+    // Verify we have data — check for any metal
+    const hasData = (settlement.o_cursor || []).some(r => 
+      r.PRODUCTID && r.SETTLEMENTPRICE && r.SETTLEMENTPRICE > 0
     );
-    if (niCheck.length === 0) throw new Error('No nickel data');
+    if (!hasData) throw new Error('No settlement data for today yet');
   } catch (err) {
     console.log(`  Fallback to ${lastTradingDay}: ${err.message}`);
     dateToUse = lastTradingDay;
     settlement = await fetchJSON(`${BASE}/js${dateToUse}.dat`);
   }
   
-  // 3. Fetch daily express (product-level summary: volume, high, low, avg)
+  // 3. Fetch daily express (product-level summary)
   let express = null;
   try {
     console.log(`  Fetching daily express for ${dateToUse}...`);
@@ -90,56 +114,69 @@ async function main() {
     console.log(`  Daily express unavailable: ${err.message}`);
   }
   
-  // 4. Extract nickel settlement data
-  const niSettlement = (settlement.o_cursor || [])
-    .filter(r => r.PRODUCTID && r.PRODUCTID.startsWith('ni'))
-    .map(r => ({
-      contract: r.INSTRUMENTID,
-      settlement_price: r.SETTLEMENTPRICE,
-      unit: 'RMB/t',
-      margin_long: r.SPECLONGMARGINRATIO,
-      margin_short: r.SPECSHORTMARGINRATIO
-    }));
+  // 4. Extract data for ALL metals
+  const allContracts = settlement.o_cursor || [];
+  const allProducts = express ? (express.o_curproduct || []) : [];
   
-  // 5. Extract product summary from daily express
-  let productSummary = null;
-  if (express) {
-    const products = express.o_curproduct || [];
-    const niProd = products.find(p => p.PRODUCTID && p.PRODUCTID.trim() === 'ni_f');
-    if (niProd) {
-      productSummary = {
-        total_volume: niProd.VOLUME,
-        turnover_billion_rmb: niProd.TURNOVER,
-        day_high: niProd.HIGHESTPRICE,
-        day_low: niProd.LOWESTPRICE,
-        avg_price: Math.round(niProd.AVGPRICE),
-        unit: 'RMB/t'
+  const metals = {};
+  
+  for (const [prefix, config] of Object.entries(SHFE_METALS)) {
+    // Get all settlement contracts for this metal
+    // SHFE uses prefix_f format (e.g. 'ni_f', 'cu_f') in both settlement and express data
+    const productId = `${prefix}_f`;
+    const contracts = allContracts
+      .filter(r => r.PRODUCTID && r.PRODUCTID.trim() === productId)
+      .map(r => ({
+        contract: r.INSTRUMENTID ? r.INSTRUMENTID.trim() : '',
+        settlement_price: r.SETTLEMENTPRICE || 0,
+        open: r.OPENPRICE || 0,
+        high: r.HIGHESTPRICE || 0,
+        low: r.LOWESTPRICE || 0,
+        close: r.CLOSEPRICE || 0,
+        volume: r.VOLUME || 0,
+        open_interest: r.OPENINTEREST || 0,
+      }))
+      .filter(r => r.settlement_price > 0);
+    
+    // Front-month = first contract with settlement > 0 and volume > 0
+    const frontMonth = contracts.find(c => c.volume > 0) || contracts[0] || null;
+    
+    // Product summary from daily express
+    const prodExpress = allProducts.find(p => 
+      p.PRODUCTID && p.PRODUCTID.trim() === `${prefix}_f`
+    );
+    
+    let summary = null;
+    if (prodExpress) {
+      summary = {
+        total_volume: prodExpress.VOLUME || 0,
+        day_high: prodExpress.HIGHESTPRICE || 0,
+        day_low: prodExpress.LOWESTPRICE || 0,
+        avg_price: prodExpress.AVGPRICE ? Math.round(prodExpress.AVGPRICE * 100) / 100 : 0,
       };
     }
+    
+    metals[prefix] = {
+      name: config.name,
+      unit: config.unit,
+      category: config.category,
+      front_month: frontMonth,
+      summary: summary,
+      contract_count: contracts.length,
+    };
   }
   
-  // 6. Determine front-month contract (first with settlement > 0)
-  const frontMonth = niSettlement.find(s => s.settlement_price && s.settlement_price > 0);
-  
-  // 7. Build output
+  // 5. Build output
   const shfeData = {
     date: dateToUse,
     date_formatted: `${dateToUse.slice(0,4)}-${dateToUse.slice(4,6)}-${dateToUse.slice(6,8)}`,
     fetched_at: new Date().toISOString(),
     source: 'Shanghai Futures Exchange (SHFE)',
     source_url: 'https://www.shfe.com.cn/eng/reports/StatisticalData/DailyData/',
-    
-    // Front-month contract (main display price)
-    front_month: frontMonth || null,
-    
-    // All nickel settlement prices
-    settlement: niSettlement,
-    
-    // Product summary (combined nickel futures stats)
-    product_summary: productSummary
+    metals: metals,
   };
   
-  // 8. Save
+  // 6. Save
   const dataDir = path.join(__dirname, '..', 'data');
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -148,24 +185,21 @@ async function main() {
   const outPath = path.join(dataDir, 'shfe.json');
   fs.writeFileSync(outPath, JSON.stringify(shfeData, null, 2));
   
-  // 9. Report
+  // 7. Report
   console.log(`\nSHFE data saved to ${outPath}`);
   console.log(`Date: ${shfeData.date_formatted}`);
-  console.log(`Contracts: ${shfeData.settlement.length}`);
+  console.log(`\nMetals summary:`);
   
-  if (shfeData.front_month) {
-    console.log(`\nFront month: ${shfeData.front_month.contract}`);
-    console.log(`  Settlement: ¥${shfeData.front_month.settlement_price.toLocaleString()} RMB/t`);
-  }
-  
-  if (productSummary) {
-    console.log(`\nDay range: ¥${productSummary.day_low.toLocaleString()} — ¥${productSummary.day_high.toLocaleString()}`);
-    console.log(`Volume: ${productSummary.total_volume.toLocaleString()} lots`);
-  }
-  
-  console.log('\nAll settlements:');
-  for (const s of shfeData.settlement) {
-    console.log(`  ${s.contract}: ¥${(s.settlement_price || 0).toLocaleString()} ${s.unit}`);
+  for (const [key, metal] of Object.entries(metals)) {
+    const fm = metal.front_month;
+    if (fm) {
+      const priceStr = metal.unit === 'RMB/g' 
+        ? `¥${fm.settlement_price.toFixed(2)}` 
+        : `¥${fm.settlement_price.toLocaleString()}`;
+      console.log(`  ${metal.name} (${key}): ${priceStr} ${metal.unit} [${fm.contract}] (${metal.contract_count} contracts)`);
+    } else {
+      console.log(`  ${metal.name} (${key}): No data`);
+    }
   }
 }
 
