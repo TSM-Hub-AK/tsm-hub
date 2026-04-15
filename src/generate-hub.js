@@ -796,7 +796,8 @@ const dataSourcesHTML = `<div class="digest-section" id="sources-section">
       Our Data Sources
     </h2>
     <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">TrueSource Metals uses only primary, authoritative sources. We do not modify, estimate, or interpret data. All figures are reported exactly as published by the original source.</p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-4);">
+    <style>.sources-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); } @media (max-width: 700px) { .sources-grid { grid-template-columns: 1fr; } }</style>
+    <div class="sources-grid">
       <div style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);">
         <h3 style="font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;">Production &amp; Reserves</h3>
         <div style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;">
