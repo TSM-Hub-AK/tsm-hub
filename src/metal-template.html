@@ -686,6 +686,65 @@
         font-size: var(--text-xs);
       }
     }
+
+    /* === TSM Splash === */
+    .tsm-splash {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: var(--color-bg, #0f1419);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+    }
+    .tsm-splash.is-hidden { opacity: 0; pointer-events: none; }
+
+    .tsm-splash__logo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      width: 72px;
+      height: 72px;
+    }
+
+    .tsm-splash__cube {
+      border-radius: 5px;
+      opacity: 0;
+      transform: scale(0.3) rotate(-15deg);
+      animation: splashCubeIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    }
+    .tsm-splash__cube:nth-child(1) { background: var(--color-primary, #2d9da5); animation-delay: 0s; }
+    .tsm-splash__cube:nth-child(2) { background: var(--color-gold, #c9a84c); animation-delay: 0.1s; }
+    .tsm-splash__cube:nth-child(3) { background: var(--color-gold, #c9a84c); animation-delay: 0.2s; }
+    .tsm-splash__cube:nth-child(4) { background: var(--color-primary, #2d9da5); animation-delay: 0.3s; }
+
+    @keyframes splashCubeIn {
+      0% { opacity: 0; transform: scale(0.3) rotate(-15deg); }
+      100% { opacity: 1; transform: scale(1) rotate(0deg); }
+    }
+
+    .tsm-splash__text {
+      font-family: var(--font-display);
+      font-size: clamp(0.875rem, 1.5vw, 1.125rem);
+      font-weight: 700;
+      color: var(--color-text-muted, #8a9aac);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      opacity: 0;
+      transform: translateY(6px);
+      animation: splashTextIn 0.4s ease-out 0.5s forwards;
+    }
+    .tsm-splash__text span { color: var(--color-gold, #c9a84c); }
+
+    @keyframes splashTextIn {
+      0% { opacity: 0; transform: translateY(6px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
   </style>
   <script>
     (function() {
@@ -695,6 +754,17 @@
   </script>
 </head>
 <body>
+
+  <!-- TSM Splash (once per session) -->
+  <div class="tsm-splash" id="tsmSplash">
+    <div class="tsm-splash__logo">
+      <div class="tsm-splash__cube"></div>
+      <div class="tsm-splash__cube"></div>
+      <div class="tsm-splash__cube"></div>
+      <div class="tsm-splash__cube"></div>
+    </div>
+    <div class="tsm-splash__text">True<span>Source</span> Metals</div>
+  </div>
 
   <!-- HEADER -->
   <header class="header">
@@ -834,6 +904,16 @@
       html.setAttribute('data-theme', next);
       localStorage.setItem('tsm-theme', next);
     }
+  </script>
+  <script>
+    (function() {
+      var splash = document.getElementById('tsmSplash');
+      if (!splash) return;
+      if (sessionStorage.getItem('tsm-splash')) { splash.remove(); return; }
+      sessionStorage.setItem('tsm-splash', '1');
+      setTimeout(function() { splash.classList.add('is-hidden'); }, 1600);
+      setTimeout(function() { splash.remove(); }, 2200);
+    })();
   </script>
 </body>
 </html>
