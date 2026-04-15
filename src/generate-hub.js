@@ -633,7 +633,7 @@ console.log(`Stats: ${totalPrices} prices, ${totalProducers} producers across ${
 const statsHTML = `<div class="hub-stats">
       <div class="hub-stat">
         <div class="hub-stat__number">${totalPrices}</div>
-        <div class="hub-stat__label">Live Prices</div>
+        <div class="hub-stat__label">Official Prices</div>
       </div>
       <div class="hub-stat">
         <div class="hub-stat__number">${totalProducers}</div>
@@ -663,7 +663,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "TSM Hub — Metals Market Data",
-  "description": `${totalPrices} live prices across ${totalMetalsP} metals, ${totalProducers} global producers directory, ${totalTerms} glossary terms. Covers LME, LBMA, SHFE, rare earths, battery metals, PGMs, specialty metals. Updated twice daily.`,
+  "description": `${totalPrices} official prices across ${totalMetalsP} metals, ${totalProducers} global producers directory, ${totalTerms} glossary terms. Covers LME, LBMA, SHFE, rare earths, battery metals, PGMs, specialty metals. Updated twice daily.`,
   "url": "https://hub.truesourcemetals.com",
   "license": "https://creativecommons.org/licenses/by-nc/4.0/",
   "creator": {
