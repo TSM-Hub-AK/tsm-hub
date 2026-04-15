@@ -42,6 +42,16 @@ jobs:
       - name: Fetch market news
         run: node src/fetch-news.js
 
+      - name: Archive data (prices + news + validation)
+        run: node src/archive-data.js
+
+      - name: Commit archive to repo
+        run: |
+          git config user.name "TSM Hub"
+          git config user.email "info@truesourcemetals.com"
+          git add data/archive/ -f
+          git diff --cached --quiet && echo "No new archive data" || (git commit -m "Archive data $(date -u +%Y-%m-%d_%H:%M)" && git push)
+
       - name: Generate Hub page
         run: node src/generate-hub.js
 
