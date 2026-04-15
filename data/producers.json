@@ -79,6 +79,543 @@
       "production": "358,910 t (2024)",
       "ticker": "TECK",
       "exchange": "TSX/NYSE"
+    },
+    {
+      "name": "Rio Tinto plc",
+      "country": "United Kingdom / Australia",
+      "hq": "London, United Kingdom",
+      "website": "https://www.riotinto.com",
+      "production": "697 kt mined copper (consolidated basis, 2024), +13% vs 2023",
+      "key_metals": [
+        "Copper",
+        "Iron Ore",
+        "Aluminium",
+        "Gold",
+        "Titanium Dioxide",
+        "Borates"
+      ],
+      "description": "Global diversified miner with copper operations at Kennecott (Utah, USA), a 30% stake in Escondida (Chile, operated by BHP), and the Oyu Tolgoi copper-gold underground mine (Mongolia, 66% stake) which ramped up significantly in 2024. Copper is Rio Tinto's fastest-growing commodity.",
+      "source": "Rio Tinto Q4 2024 Production Results press release, January 16, 2025 — https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+    },
+    {
+      "name": "Ivanhoe Mines Ltd.",
+      "country": "Canada",
+      "hq": "Vancouver, British Columbia, Canada",
+      "website": "https://www.ivanhoemines.com",
+      "production": "437,061 t copper in concentrate (2024, Kamoa-Kakula Complex 100% basis); record production +12% vs 2023",
+      "key_metals": [
+        "Copper",
+        "Zinc",
+        "Gold",
+        "Silver"
+      ],
+      "description": "Canadian mining company (TSX: IVN) operating the Kamoa-Kakula copper complex in the DRC — the world's largest high-grade copper discovery — as a joint venture with Zijin Mining (39.6%) and the DRC government. Also operates the Kipushi zinc-silver mine in the DRC. Phase 3 concentrator ramp-up drove record Q4 2024 output of 133,819 t.",
+      "source": "Ivanhoe Mines 2024 Production Results and 2025 Guidance press release, January 8, 2025 — https://www.ivanhoemines.com"
+    },
+    {
+      "name": "First Quantum Minerals Ltd.",
+      "country": "Canada",
+      "hq": "Vancouver, British Columbia, Canada",
+      "website": "https://www.first-quantum.com",
+      "production": "431,000 t copper (2024 full year), +14% vs prior year, exceeding guidance of 420,000 t",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Nickel",
+        "Zinc"
+      ],
+      "description": "Major Canadian copper miner (TSX: FM) with flagship operations at Kansanshi (Zambia, 200,000–230,000 t Cu/yr guidance 2025) and Sentinel / Trident complex (Zambia). Cobre Panamá operations remain suspended since late 2023 following government order. The Kansanshi S3 expansion was nearing completion at mid-2025.",
+      "source": "First Quantum Minerals Q4 2024 Results press release, February 11, 2025 — https://www.first-quantum.com/news/first-quantum-minerals-reports-fourth-quarter-2024-results/"
+    },
+    {
+      "name": "Zijin Mining Group Co., Ltd.",
+      "country": "China",
+      "hq": "Shanghang, Fujian, China",
+      "website": "https://www.zijinmining.com",
+      "production": "1.07 million t mined copper (2024), +6% year-on-year; ranked 4th globally (per company)",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Zinc",
+        "Lead",
+        "Silver",
+        "Molybdenum",
+        "Lithium"
+      ],
+      "description": "China's largest diversified miner (HKEX: 2899; SHSE: 601899) with major copper assets including Kamoa-Kakula (DRC, 39.6% JV stake), Čukaru Peki and Bor complex (Serbia), and the Julong copper mine (Tibet). Five-year mined copper CAGR of 24%. Also holds a 10% stake in Ivanhoe Mines.",
+      "source": "Zijin Mining 2024 Annual Results announcement, March 21, 2025 — https://www.zijinmining.com/investor/2024-newyeji.htm"
+    },
+    {
+      "name": "MMG Limited",
+      "country": "Australia (majority Chinese-owned)",
+      "hq": "Melbourne, Victoria, Australia",
+      "website": "https://www.mmg.com",
+      "production": "399,758 t copper (2024 full year), +15% vs 2023",
+      "key_metals": [
+        "Copper",
+        "Zinc",
+        "Lead",
+        "Silver",
+        "Gold",
+        "Cobalt"
+      ],
+      "description": "Hong Kong-listed base metals miner (HKEX: 1208) majority-owned by China Minmetals Corporation. Operates Las Bambas (Peru, 323 kt Cu in 2024), Kinsevere (DRC, 45 kt Cu cathode), Khoemacau (Botswana, acquired March 2024, 31 kt Cu in 9 months), and Dugald River / Rosebery zinc-lead mines (Australia).",
+      "source": "MMG 2024 Annual Results announcement, March 4, 2025 — https://www.mmg.com/wp-content/uploads/2025/03/e_2025-03-04_2024-Annual-Results.pdf"
+    },
+    {
+      "name": "Lundin Mining Corporation",
+      "country": "Canada",
+      "hq": "Toronto, Ontario, Canada",
+      "website": "https://www.lundinmining.com",
+      "production": "Record 369,067 t copper (2024 full year); record zinc 191,704 t",
+      "key_metals": [
+        "Copper",
+        "Zinc",
+        "Gold",
+        "Nickel",
+        "Molybdenum",
+        "Silver"
+      ],
+      "description": "Diversified Canadian base metals miner (TSX: LUN; OM: LUMI) with operations in Chile (Candelaria, Caserones 70%), Argentina (Josemaría), Brazil (Chapada), and the USA (Eagle nickel-copper). Record copper production in 2024 driven by Candelaria H2 strong performance and increased Caserones ownership from 51% to 70%.",
+      "source": "Lundin Mining 2024 Production Results press release, January 16, 2025 — https://www.lundinmining.com/news/lundin-mining-announces-record-production-results-for-2024-and-provides-2025-guidance"
+    },
+    {
+      "name": "Vale S.A.",
+      "country": "Brazil",
+      "hq": "Rio de Janeiro, Brazil",
+      "website": "https://www.vale.com",
+      "production": "348,200 t copper (2024 full year), +6.6% vs 2023; Salobo complex reached record annual production",
+      "key_metals": [
+        "Iron Ore",
+        "Nickel",
+        "Copper",
+        "Cobalt",
+        "Gold",
+        "Silver",
+        "Manganese"
+      ],
+      "description": "Brazilian multinational and world's largest iron ore producer, also a significant copper and nickel miner. Copper operations managed through Vale Base Metals: Salobo complex (Brazil, ~200 kt Cu record in 2024, with Salobo 3 ramp-up completed), Sossego (Brazil), Sudbury (Canada), and Voisey's Bay (Canada, VBME ramp-up).",
+      "source": "Vale Production and Sales Report Q4 2024, January 28, 2025 — https://vale.com/w/vales-production-and-sales-in-4q24-and-2024; Vale Base Metals 2024 Integrated Report"
+    },
+    {
+      "name": "KAZ Minerals (KAZ Minerals Holdings Ltd.)",
+      "country": "Kazakhstan",
+      "hq": "Almaty, Kazakhstan",
+      "website": "https://www.kazminerals.com",
+      "production": "379.9 kt copper (2024 full year), vs 403.4 kt in 2023; record 96.5 Mt ore throughput",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Zinc",
+        "Molybdenum"
+      ],
+      "description": "Leading copper producer in Kazakhstan (formerly LSE-listed, delisted 2021, now privately held). Operates three major open-pit mines: Aktogay (228.8 kt Cu in 2024), Bozshakol (104.7 kt), and East Region & Bozymchak (46.4 kt). Production decreased year-on-year due to expected decline in ore grades as ore bodies mature.",
+      "source": "KAZ Minerals Q4 2024 Production and Sales Report, February 10, 2025 — https://www.kazminerals.com/q4-2024-production-report/"
+    },
+    {
+      "name": "Capstone Copper Corp.",
+      "country": "Canada",
+      "hq": "Vancouver, British Columbia, Canada",
+      "website": "https://capstonecopper.com",
+      "production": "Record 184,460 t copper (2024 full year), +12% vs 2023",
+      "key_metals": [
+        "Copper",
+        "Molybdenum",
+        "Gold",
+        "Silver"
+      ],
+      "description": "Canada-based copper miner (TSX: CS; ASX: CSC) with four operations: Pinto Valley (Arizona, USA), Cozamin (Mexico), Mantos Blancos and Mantoverde (Chile). The Mantoverde Development Project (MVDP) produced first copper concentrate in June 2024 and achieved commercial production in September 2024, driving the +12% growth. 2025 guidance 220,000–255,000 t.",
+      "source": "Capstone Copper 2024 Production Results press release, January 20, 2025 — https://capstonecopper.com/news/capstone-copper-announces-2024-production-results-and-provides-2025-guidance/"
+    },
+    {
+      "name": "Hudbay Minerals Inc.",
+      "country": "Canada",
+      "hq": "Toronto, Ontario, Canada",
+      "website": "https://hudbayminerals.com",
+      "production": "138,405 t copper (2024 full year consolidated, 100% basis): Peru 99,001 t + British Columbia 26,406 t + Manitoba 12,998 t",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Zinc",
+        "Silver",
+        "Molybdenum"
+      ],
+      "description": "Canadian base metals miner (TSX; NYSE: HBM) with three operating mines: Constancia (Peru), Copper Mountain (British Columbia, 75% interest), and Lalor/New Britannia (Manitoba). Achieved record free cash flows in 2024. Consolidated 100% of Copper Mountain in March 2025. Copper World project in Arizona received all major state permits.",
+      "source": "Hudbay Q4 and Full Year 2024 Results press release, February 19, 2025 — https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results/"
+    },
+    {
+      "name": "Barrick Mining Corporation",
+      "country": "Canada",
+      "hq": "Toronto, Ontario, Canada",
+      "website": "https://www.barrick.com",
+      "production": "195,000 t copper (2024 full year attributable): Lumwana 123,000 t + Zaldívar ~40,000 t + Jabal Sayid ~32,000 t",
+      "key_metals": [
+        "Gold",
+        "Copper",
+        "Silver"
+      ],
+      "description": "World's second-largest gold miner (NYSE: GOLD; TSX: ABX) with copper as a growing business. Operates Lumwana (Zambia, 100%), Zaldívar (Chile, 50% JV with Antofagasta), and Jabal Sayid (Saudi Arabia, 50%). A Super Pit expansion feasibility study for Lumwana targets doubling production to ~240,000 t/yr by the early 2030s. Reko Diq (Pakistan, pre-construction) is a tier-one copper-gold project.",
+      "source": "Barrick Q4 2024 Results press release, February 12, 2025 — https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx"
+    },
+    {
+      "name": "Ero Copper Corp.",
+      "country": "Canada",
+      "hq": "Vancouver, British Columbia, Canada",
+      "website": "https://www.ero-copper.com",
+      "production": "40,600 t copper in concentrate (2024 full year); record Q4 2024 of 12,883 t",
+      "key_metals": [
+        "Copper",
+        "Gold"
+      ],
+      "description": "Canadian copper mining company (TSX: ERO; NYSE: ERO) with two operations in Brazil: Caraíba (VMS deposit, Bahia, 35,444 t Cu in 2024) and the newly commissioned Tucumã operation (porphyry copper, Pará, 5,156 t Cu in partial 2024). The Xavantina gold mine provides significant by-product revenue. 2025 guidance approximately 75,000–85,000 t, nearly doubling output.",
+      "source": "Ero Copper 2024 Production Results press release, February 11, 2025 — https://api.mziq.com/mzfilemanager/v2/d/1951db45-c927-4b21-b514-7cb902782309/"
+    },
+    {
+      "name": "Taseko Mines Limited",
+      "country": "Canada",
+      "hq": "Vancouver, British Columbia, Canada",
+      "website": "https://www.tasekomines.com",
+      "production": "105.6 million lbs copper (approx. 47,900 t) and 1.4 million lbs molybdenum (2024 full year)",
+      "key_metals": [
+        "Copper",
+        "Molybdenum",
+        "Silver"
+      ],
+      "description": "Canadian copper mining company (TSX: TKO; NYSE American: TGB; LSE: TKO) operating the Gibraltar copper mine (100% owned) in British Columbia — Canada's second-largest open-pit copper mine. The Florence Copper in-situ recovery project in Arizona was ~56% complete at year-end 2024, with initial copper production anticipated in Q4 2025.",
+      "source": "Taseko Mines 2024 Production Results press release, January 9, 2025 — https://www.globenewswire.com/news-release/2025/01/09/3006998/0/en/Taseko-Announces-2024-Production-Results-and-Amendment-to-Gibraltar-Silver-Stream.html"
+    },
+    {
+      "name": "PT Amman Mineral Internasional Tbk",
+      "country": "Indonesia",
+      "hq": "Jakarta, Indonesia",
+      "website": "https://www.amman.co.id",
+      "production": "395 million lbs copper in concentrate (approx. 179,000 t) (2024 full year), +27% year-on-year",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver"
+      ],
+      "description": "Indonesian publicly listed company (IDX: AMMAN) operating the Batu Hijau copper-gold porphyry mine in West Nusa Tenggara — Indonesia's second-largest copper mine, currently in Phase 7. Commissioned a new copper smelter (222,000 t/yr cathode capacity) with first cathode harvest in March 2025. The adjacent Elang copper-gold project is in development.",
+      "source": "AMMAN Full Year 2024 Earnings Results press release, March 20, 2025 — https://www.amman.co.id/press-release/amman-full-year-2024-earnings-results-a-record-breaking-year-for-gold-production"
+    },
+    {
+      "name": "Jiangxi Copper Company Limited",
+      "country": "China",
+      "hq": "Nanchang, Jiangxi, China",
+      "website": "https://en.jxcc.com",
+      "production": "2.2919 million t copper cathode (2024 full year), +9.28% vs 2023; 118.26 t gold; largest copper cathode producer among China's 19 listed smelters",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Sulphuric Acid"
+      ],
+      "description": "China's largest integrated copper producer (HKEX: 0358; SHSE: 600362), vertically integrated from the Dexing mine (Jiangxi, China's largest copper mine at ~155 kt Cu/yr) through smelting and refining. Primarily processes purchased concentrate. 2025 guidance: 200,000 t copper in concentrate (mined) and 2.37 million t copper cathode.",
+      "source": "Jiangxi Copper 2024 Annual Report, April 30, 2025 — https://en.jxcc.com/uploadFiles/file/20250430/b393e724d4b840bb98e11cccd75d5771.pdf; SMM 2024 Annual Reports analysis (May 14, 2025)"
+    },
+    {
+      "name": "Tongling Nonferrous Metals Group Holding Co., Ltd.",
+      "country": "China",
+      "hq": "Tongling, Anhui, China",
+      "website": "https://www.tnmg.com.cn",
+      "production": "155,200 t copper from own concentrates; 1.768 million t copper cathode; 22.91 t gold; 547.67 t silver (2024 full year)",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Sulphuric Acid",
+        "Iron Ore Concentrates",
+        "Copper Semis"
+      ],
+      "description": "Major Chinese state-owned copper enterprise (SZSE: 000630) fully integrated from mining through smelting and processing. Holds a 70% stake in the Mirador copper mine in Ecuador (contributing 155,200 t from own concentrates in 2024). One of China's largest copper cathode producers with annual capacity exceeding 1.7 million t.",
+      "source": "Tongling Nonferrous Metals 2024 Annual Report summary, metal.com news (July 11, 2025) — https://news.metal.com/newscontent/103424193"
+    },
+    {
+      "name": "Yunnan Copper Co., Ltd.",
+      "country": "China",
+      "hq": "Kunming, Yunnan, China",
+      "website": "https://www.yncopper.com",
+      "production": "1.206 million t copper cathode (2024 full year); China's third-largest copper producer",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Sulphuric Acid"
+      ],
+      "description": "Major Chinese state-owned copper smelter and refiner (SHSE: 000878), a subsidiary of Chinalco. Primarily processes purchased concentrates from both domestic and international sources at large smelting complexes in Yunnan. Copper cathode production was lower than normal due to the Southwest Copper Industry relocation/upgrade project which caused ~235,000 t reduction; 2025 target is 1.52 million t.",
+      "source": "MatrixBCG analysis citing 2024 annual data — https://matrixbcg.com/blogs/competitors/yncopper"
+    },
+    {
+      "name": "MMC Norilsk Nickel PJSC (Nornickel)",
+      "country": "Russia",
+      "hq": "Moscow, Russia",
+      "website": "https://www.nornickel.com",
+      "production": "219 kt copper (2024 full year), exceeding 2024 production guidance",
+      "key_metals": [
+        "Nickel",
+        "Copper",
+        "Palladium",
+        "Platinum",
+        "Cobalt",
+        "Gold",
+        "Silver"
+      ],
+      "description": "World's largest palladium producer and top-tier nickel producer (MOEX: GMKN) with copper as a major co-product from Arctic smelting operations in Norilsk, Kola Peninsula, and GRK Bystrinskoye (Transbaikal, Russia). The 2024 reconstruction of the flash smelting furnace at Nadezhda Metallurgical Plant increased smelting capacity by 25%.",
+      "source": "Norilsk Nickel 2024 Financial Results presentation, February 2025 — https://nornik-upload.storage.yandexcloud.net/iblock/452/21gutz9u4yrvp26263smrtdyh4mnhl2b/norilsk_nickel_eng_2024.pdf"
+    },
+    {
+      "name": "Boliden AB",
+      "country": "Sweden",
+      "hq": "Stockholm, Sweden",
+      "website": "https://www.boliden.com",
+      "production": "Mine: ~82 kt copper in concentrate (2024, Aitik mine: 40.8 Mt milled at 0.17% Cu grade); Smelters: approximately 480 kt copper cathodes (Harjavalta record cathode production + Rönnskär)",
+      "key_metals": [
+        "Copper",
+        "Zinc",
+        "Lead",
+        "Gold",
+        "Silver",
+        "Nickel"
+      ],
+      "description": "Swedish integrated mining and smelting company (OM: BOL) operating the Aitik open-pit copper mine in Sweden (one of Europe's largest), plus the Boliden Area, Garpenberg (zinc-silver), Kevitsa (copper-nickel-PGM), and Tara (zinc-lead, Ireland) mines. Smelting operations include Rönnskär (Sweden), Harjavalta and Kokkola (Finland), Odda (zinc, Norway), and Bergsöe (lead). Acquired Neves-Corvo and Zinkgruvan mines in 2025.",
+      "source": "Boliden Q4 2024 Interim Report, February 6, 2025 — https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_Q4_2024_presentation_0.pdf; Boliden Aitik Resources and Reserves 2024 report"
+    },
+    {
+      "name": "Vedanta Resources Limited / Konkola Copper Mines (KCM)",
+      "country": "United Kingdom / Zambia",
+      "hq": "London, United Kingdom",
+      "website": "https://www.vedantaresources.com",
+      "production": "KCM (Zambia): ~41 kt metal in concentrate (H2 FY2024-25, post-restart); Vedanta Copper India (Silvassa refinery): record 149 kt copper cathode (FY2024-25 = April 2024–March 2025), +6% vs prior year",
+      "key_metals": [
+        "Copper",
+        "Cobalt",
+        "Zinc",
+        "Lead",
+        "Silver",
+        "Aluminium"
+      ],
+      "description": "Diversified Indian-owned but UK-headquartered resources group (NSE: VEDL). Regained full management control of Konkola Copper Mines (KCM) in Zambia mid-2024; KCM targets 300 kt/yr by early 2030s while undergoing a comprehensive smelter refurbishment. Vedanta also operates the Silvassa copper refinery in India (149 kt cathode record in FY25) and the Nchanga mine.",
+      "source": "Vedanta Resources FY25 Results press release, June 2025 — https://www.vedantaresources.com/uploads/investor-overview/financial-results/VRLResultsOFRandPressReleaseFY25.pdf"
+    },
+    {
+      "name": "Hindustan Copper Limited (HCL)",
+      "country": "India",
+      "hq": "Kolkata, West Bengal, India",
+      "website": "https://www.hindustancopper.com",
+      "production": "~25,104 t Metal in Concentrate (MIC) (FY2024-25, April 2024–March 2025), derived from FY2025-26 figure of 27,421 t being +9% higher; ore production 2.93 million t",
+      "key_metals": [
+        "Copper"
+      ],
+      "description": "India's only integrated copper mining company (NSE/BSE: HINDCOPPER), a Government of India undertaking. Operates the Malanjkhand underground mine (Madhya Pradesh, flagship, record ore production in FY25), Khetri Copper Complex (Rajasthan), and mines in Jharkhand. Targeting 12.2 MTPA ore capacity by 2031 from the current ~4 MTPA.",
+      "source": "Hindustan Copper FY2025-26 production announcement (April 2026) — MarketScreener; Hindustan Copper Annual Report FY2024-25 on NSE — https://nsearchives.nseindia.com"
+    },
+    {
+      "name": "Pan Pacific Copper Co., Ltd. (PPC)",
+      "country": "Japan",
+      "hq": "Tokyo, Japan",
+      "website": "https://www.pan-pacific-copper.co.jp",
+      "production": "Approximately 590,000–610,000 t refined copper per year (FY2024-25 full year, based on ~303,600 t H1 FY2024-25 and ~287,400 t H2 FY2025-26 plan)",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver"
+      ],
+      "description": "Japan's largest copper smelter and refiner, a joint venture between JX Advanced Metals (formerly JX Nippon Mining & Metals, 66%) and Mitsui Mining & Smelting (34%). Operates the Saganoseki, Hitachi, Ashio, and Tamano smelters/refineries. PPC processes imported concentrate; annual capacity is approximately 650,000 t refined copper.",
+      "source": "Kitco/Reuters reporting on PPC H2 FY2025/26 production plan (October 2025); Mining.com Japan copper smelters table (April 2026)"
+    },
+    {
+      "name": "Sumitomo Metal Mining Co., Ltd.",
+      "country": "Japan",
+      "hq": "Tokyo, Japan",
+      "website": "https://www.smm.co.jp",
+      "production": "Electrolytic copper (Toyo Smelter): ~440–445 kt (FY ending March 2025); equity-attributed mine copper: ~200 kt+ (Morenci 25% ~79 kt, Cerro Verde 16.8% ~72 kt, QB2 25% ~50 kt, and other mines)",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Nickel",
+        "Silver",
+        "Molybdenum",
+        "Battery Materials"
+      ],
+      "description": "Diversified Japanese mining and smelting company (TSE: 5713) with equity stakes in major copper mines: Morenci (25%, USA, 317 kt 100% basis FY2025), Cerro Verde (16.8%, Peru, 431 kt 100% basis FY2025), and Quebrada Blanca (25%, Chile, 200 kt 100% basis FY2025). Also operates the Toyo Smelter & Refinery (Ehime) and has significant nickel operations in the Philippines (Coral Bay, Taganito) and gold mining at Hishikari.",
+      "source": "Sumitomo Metal Mining Consolidated Financial Results FY2024 (March 2025) — https://www.smm.co.jp/en/ir/library/results/pdf/2024/20250509_E_full.pdf"
+    },
+    {
+      "name": "Jinchuan Group Co., Ltd.",
+      "country": "China",
+      "hq": "Jinchang, Gansu, China",
+      "website": "https://en.jnmc.com",
+      "production": "Copper cathode production: 1.3272 million t (2024, +158,100 t vs 2023), per SMM analysis of 19 listed smelters; copper production capacity approximately 1.1 million t/yr",
+      "key_metals": [
+        "Nickel",
+        "Copper",
+        "Cobalt",
+        "Platinum Group Metals",
+        "Gold",
+        "Silver"
+      ],
+      "description": "Chinese state-owned mining and smelting company, among the world's largest nickel producers and a major copper producer (HKEX: 2362 for Jinchuan Group International Resources). Owns the world's third-largest nickel-copper sulfide deposit in Gansu Province. Copper production comes from both domestic smelting of own and purchased concentrate, and overseas mine assets (DRC, Mexico, Ecuador, South Africa).",
+      "source": "SMM 'Graphic Guide to 2024 Annual Reports of 19 Copper Smelters' analysis, May 14, 2025 — https://news.metal.com/newscontent/103325316; Jinchuan Group Investor Relations Presentation 2024"
+    },
+    {
+      "name": "Grupo México S.A.B. de C.V.",
+      "country": "Mexico",
+      "hq": "Mexico City, Mexico",
+      "website": "https://www.gmexico.com",
+      "production": "Mining Division: ~1.083 million t copper (2024 full year, estimated from H1 538,741 t +5.3%); ASARCO operations (USA) contribute ~100–115 kt of this total",
+      "key_metals": [
+        "Copper",
+        "Molybdenum",
+        "Zinc",
+        "Gold",
+        "Silver"
+      ],
+      "description": "Mexico's largest mining company and parent of Southern Copper Corporation (NYSE: SCCO). The Mining Division includes Southern Copper's operations in Mexico (Buenavista del Cobre, Caridad, La Caridad) and Peru (Cuajone, Toquepala, Ilo smelter), plus the ASARCO LLC subsidiary in the USA (Ray, Mission Complex, and Silver Bell mines in Arizona). Also has a major rail and infrastructure division.",
+      "source": "Grupo México Q2 2024 Report — https://www.mexicominingcenter.com/grupo-mexico-2nd-quarter-2024-report/"
+    },
+    {
+      "name": "Mopani Copper Mines plc",
+      "country": "Zambia",
+      "hq": "Kitwe, Zambia",
+      "website": "https://mopani.com.zm",
+      "production": "Production data not officially published for 2024; IRH reported a 54% boost in contained copper H1 2025 vs H1 2024, and cathode production increased 103% vs H1 2023 pre-acquisition",
+      "key_metals": [
+        "Copper",
+        "Cobalt"
+      ],
+      "description": "Underground copper mine complex in Zambia's Copperbelt (Mufulira and Nkana mines). International Resources Holding (UAE, subsidiary of 2PointZero) acquired a 51% stake in early 2024, targeting production growth to 200,000 t/yr by ~2027 and 300,000 t/yr by 2029. IRH has invested over $1.1 billion into Mopani since acquisition.",
+      "source": "International Resources Holding press release, October 31, 2024 — https://www.irh.ae/mopani-copper-mines-key-highlights-of-irhs-transformational-operations/; IRH July 2025 operational update"
+    },
+    {
+      "name": "Barrick / Lumwana Mining Company Limited",
+      "country": "Zambia",
+      "hq": "Solwezi, North-Western Province, Zambia",
+      "website": "https://www.barrick.com/operations/lumwana/",
+      "production": "123,000 t copper (2024, Barrick 100% attributable as sole owner)",
+      "key_metals": [
+        "Copper"
+      ],
+      "description": "The Lumwana open-pit copper mine in Zambia is 100%-owned by Barrick Mining Corporation and one of Africa's largest copper mines. A Super Pit expansion feasibility study (completed early 2025) targets doubling annual production to an average ~240,000 t/yr over the mine life extension to 2057. Currently among Zambia's top copper mines. Note: Barrick is listed as the parent; this entry covers the Zambia-specific operation.",
+      "source": "Barrick Q4 2024 Results and Reserves press release, February 12, 2025 — https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx"
+    },
+    {
+      "name": "ASARCO LLC",
+      "country": "USA",
+      "hq": "Tucson, Arizona, USA",
+      "website": "https://www.asarco.com",
+      "production": "Arizona operations approximately 100,000–115,000 t copper/yr (estimated 2024, based on 112,232 t in 2022 with subsequent operational changes at Ray, Mission Complex, and Silver Bell)",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Molybdenum"
+      ],
+      "description": "US copper mining subsidiary of Grupo México, operating open-pit copper mines in Arizona: the Ray Mine (concentrator and SX-EW), the Mission Complex (concentrator), and the Silver Bell Mine (SX-EW heap leach). ASARCO also operated the Hayden copper smelter, which was in discussions for restart in 2024. ASARCO is a distinct operating subsidiary with its own management despite being Grupo México-owned.",
+      "source": "GBReports Western USA Mining 2024 report; Reuters May 2024 on Hayden smelter restart — https://www.reuters.com/markets/commodities/grupo-mexicos-asarco-reopen-us-copper-smelter-amid-surging-prices-2024-05-24/"
+    },
+    {
+      "name": "Aurubis AG",
+      "country": "Germany",
+      "hq": "Hamburg, Germany",
+      "website": "https://www.aurubis.com",
+      "production": "~1.0 million t copper cathode/year (annual capacity; Germany's USGS 2024 refinery production: 609 kt in 2023, 630 kt in 2024e — Aurubis Hamburg is the primary contributor)",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Selenium",
+        "Tin",
+        "Nickel Sulphate",
+        "Sulphuric Acid",
+        "Lead"
+      ],
+      "description": "Europe's largest copper smelter and refiner (XETRA: NDA), processing concentrates, secondary copper, and scrap into premium copper products. Operations in Hamburg, Pirdop (Bulgaria), Lünen, Stolberg (Germany), and Olen (Belgium). The Hamburg smelter (primary) and Harjavalta (Finland, operated via Boliden JV/Harjavalta relationship) are key European copper refineries.",
+      "source": "USGS Mineral Commodity Summaries 2025 — Germany refinery data; Aurubis corporate website"
+    },
+    {
+      "name": "Sierra Gorda S.C.M.",
+      "country": "Chile",
+      "hq": "Sierra Gorda, Antofagasta Region, Chile",
+      "website": "https://www.sgscm.cl",
+      "production": "150,198 t fine copper (2023, latest officially published 100% basis figure); 2024 record plant throughput achieved following de-bottlenecking project completion",
+      "key_metals": [
+        "Copper",
+        "Molybdenum",
+        "Gold",
+        "Silver"
+      ],
+      "description": "Open-pit copper-molybdenum-gold-silver mine in northern Chile's Antofagasta Region. Operated by KGHM International Ltd. (KGHM group, 55% stake) with South32 Ltd. holding a 45% stake. Achieved record plant throughput in 2024 after completing de-bottlenecking; powered by 100% renewable energy. A fourth grinding line expansion feasibility study is expected to increase throughput by ~20%.",
+      "source": "Sierra Gorda Sustainability Report 2023 — https://www.sgscm.cl/wp-content/uploads/2024/11/DISENO_SG_ING_baja.pdf; MiningDataOnline Sierra Gorda profile (2025)"
+    },
+    {
+      "name": "Mitsubishi Materials Corporation",
+      "country": "Japan",
+      "hq": "Tokyo, Japan",
+      "website": "https://www.mmc.co.jp",
+      "production": "Refined copper: ~425,000 t (FY ending March 2025; planned H1 FY2024-25: ~37,549 t/month × 6 months = ~225 kt; H2: ~32,763 t/month × 6 = ~197 kt; total ~422 kt), approximately -6% year-on-year",
+      "key_metals": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Lead",
+        "Platinum Group Metals",
+        "Rare Earths"
+      ],
+      "description": "Japanese smelting and materials manufacturing group (TSE: 5711) operating the Naoshima and Onahama copper smelters/refineries in Japan. Holds equity stakes in Mantoverde (Chile, JV with Capstone — first copper concentrate shipped to Naoshima in October 2024), Las Bambas (small stake, Peru), and other copper assets. The company also manufactures cemented carbide cutting tools and advanced materials.",
+      "source": "Mitsubishi Materials H2 FY2024-25 production plans, October 1, 2024 — https://www.mmc.co.jp/corporate/en/news/2024/news20241001.html"
+    },
+    {
+      "name": "Yunnan Tin Co., Ltd.",
+      "country": "China",
+      "hq": "Kunming, Yunnan, China",
+      "website": "https://www.yuntingroup.com",
+      "production": "130,300 t copper (2024 full year), as part of 361,000 t total nonferrous metal production",
+      "key_metals": [
+        "Tin",
+        "Copper",
+        "Zinc",
+        "Lead",
+        "Indium",
+        "Silver"
+      ],
+      "description": "China's largest tin producer and a significant copper producer (SZSE: 000960). Yunnan Tin's copper production is a by-product of its integrated tin-copper-zinc mining and smelting operations in Yunnan Province. In 2024, it produced 84,800 t tin (global leader), 130,300 t copper, 144,000 t zinc, and 127 t indium ingots.",
+      "source": "Yunnan Tin Co. 2024 Annual Report summary — metal.com news (April 7, 2025) — https://news.metal.com/newscontent/103265067"
+    },
+    {
+      "name": "Western Mining Co., Ltd.",
+      "country": "China",
+      "hq": "Xining, Qinghai, China",
+      "website": "https://www.xmgl.com",
+      "production": "Yulong Mine (Tibet, 100% owned): approximately 100,000 t copper (2023 estimate per GlobalData); Yulong ranked China's 4th largest copper mine by production in 2023",
+      "key_metals": [
+        "Copper",
+        "Lead",
+        "Zinc",
+        "Aluminium"
+      ],
+      "description": "Chinese state-owned diversified mining company (SHSE: 601168) primarily focused on copper and aluminium in Qinghai and Tibet. The Yulong copper mine in Tibet is a large open-pit operation, one of China's largest copper mines, operating until 2036. Western Mining also produces lead, zinc, and aluminium.",
+      "source": "Mining Technology 'Five largest copper mines in China' analysis, June 2024 — https://www.mining-technology.com/marketdata/five-largest-copper-mines-china/; Mining.com top 20 copper mines 2025 (Yulong ranked ~15th, 83,412 t H1 2025)"
+    },
+    {
+      "name": "South32 Limited (Sierra Gorda stake)",
+      "country": "Australia",
+      "hq": "Perth, Western Australia, Australia",
+      "website": "https://www.south32.net",
+      "production": "South32 holds 45% in Sierra Gorda SCM (Chile); attributable copper ~67,500 t (2023 basis, 45% of ~150 kt 100% production); 2024 record throughput at Sierra Gorda implies higher output",
+      "key_metals": [
+        "Copper",
+        "Molybdenum",
+        "Gold",
+        "Silver",
+        "Manganese",
+        "Aluminium",
+        "Coal",
+        "Nickel",
+        "Zinc"
+      ],
+      "description": "Australian diversified miner (ASX: S32; LSE: S32; JSE: S32) with a 45% stake in the Sierra Gorda copper-molybdenum mine in Chile (operated by KGHM). South32 also operates manganese, metallurgical coal, aluminium, and base metals assets globally. The Sierra Gorda fourth grinding line expansion feasibility study (targeted +20% throughput) is underway.",
+      "source": "Wikipedia Sierra Gorda mine article — https://en.wikipedia.org/wiki/Sierra_Gorda_mine; MiningDataOnline Sierra Gorda production data"
     }
   ],
   "aluminium": [
@@ -275,6 +812,409 @@
       "production": "42,000 t (2023, PT Huayue)",
       "ticker": "603799",
       "exchange": "SSE"
+    },
+    {
+      "name": "PT Trimegah Bangun Persada Tbk (Harita Nickel)",
+      "country": "Indonesia",
+      "hq": "Jakarta, Indonesia",
+      "website": "https://haritanickel.com",
+      "production": "Nickel ore: 20.75 million wmt (2023, +93.7% y/y); Ferronickel: 101,538 t Ni (2023, +300% y/y); MHP: 63,654 t (2023, +50% y/y)",
+      "key_metals": [
+        "Nickel",
+        "Cobalt"
+      ],
+      "description": "Integrated nickel mining and processing company operating on Obi Island, South Halmahera, North Maluku. Operates RKEF smelters (PT Megah Surya Pertiwi and PT Halmahera Jaya Feronikel) producing ferronickel and an HPAL plant producing MHP for EV battery supply chains. Listed on IDX (NCKL).",
+      "source": "Indonesia Business Post, April 2024 (citing Harita Nickel 2023 Full-Year Financial Report); The Jakarta Post, April 2024"
+    },
+    {
+      "name": "PT Merdeka Battery Materials Tbk (MBMA)",
+      "country": "Indonesia",
+      "hq": "Jakarta, Indonesia",
+      "website": "https://merdekacoppergold.com/en/our-business/merdeka-battery-materials/",
+      "production": "SCM mine saprolite: 2.0 million wmt (Q3 2025, +89% y/y); limonite: 5.6 million wmt (Q3 2025, +51% y/y); PT ESG HPAL: 7,181 t Ni in MHP (Q3 2025)",
+      "key_metals": [
+        "Nickel",
+        "Cobalt",
+        "Copper"
+      ],
+      "description": "Subsidiary of PT Merdeka Copper Gold (IDX: MDKA), operating the Sulawesi Cahaya Mineral (SCM) nickel mine in Konawe, Southeast Sulawesi — one of the world's largest nickel resources (~13.8 million t contained Ni, 21,100-hectare concession). Developing multiple HPAL plants (PT ESG, PT Meiming, SLNC, CATL HPAL) for MHP production targeting EV batteries. Listed on IDX as MBMA.",
+      "source": "PT Merdeka Copper Gold Q3 2025 Quarterly Activities Report, November 2025 (merdekacoppergold.com); Merdeka Battery Materials website"
+    },
+    {
+      "name": "Anglo American plc (Nickel Operations, Brazil)",
+      "country": "United Kingdom (operations in Brazil)",
+      "hq": "London, United Kingdom",
+      "website": "https://www.angloamerican.com/our-portfolio/our-products/nickel",
+      "production": "39,400 t nickel (full year 2024, Brazil ferronickel operations only — Barro Alto and Niquelandia/Codemin in Goiás state)",
+      "key_metals": [
+        "Nickel",
+        "Iron Ore",
+        "Copper",
+        "Platinum Group Metals",
+        "Diamonds"
+      ],
+      "description": "Major diversified miner operating two ferronickel production sites in Goiás state, Brazil: Barro Alto (design capacity ~36,000 t Ni/yr, commissioned 2011) and Codemin/Niquelandia. Anglo American announced a strategic exit from nickel and was targeting sale of the Brazil nickel operations in H1 2025 to focus on copper. The group's PGM business in South Africa produces an additional ~25,700 t Ni/yr as a by-product.",
+      "source": "Anglo American Q4 2024 Production Report, February 2025 (angloamerican.com); LSE RNS disclosure, February 2025; Mining Technology, January 2025"
+    },
+    {
+      "name": "IGO Limited",
+      "country": "Australia",
+      "hq": "West Perth, Western Australia, Australia",
+      "website": "https://www.igo.com.au",
+      "production": "28,376 t nickel (FY2024, Nova + Forrestania); Nova alone: 20,806 t Ni (FY2024); Nova FY2025: 16,371 t Ni (Nova expected end-of-life by late 2026)",
+      "key_metals": [
+        "Nickel",
+        "Copper",
+        "Cobalt",
+        "Lithium"
+      ],
+      "description": "ASX-listed battery metals producer operating the Nova underground nickel-copper-cobalt mine in the Fraser Range, Western Australia. Forrestania reached end of mine life in FY2024 and Cosmos was placed into care and maintenance due to low nickel prices. Nova is expected to reach end of life by late 2026. IGO also holds a ~25% stake in the Greenbushes lithium mine JV with Tianqi Lithium.",
+      "source": "IGO Limited Annual Report 2024 (igo.com.au); IGO Nova Operation page (igo.com.au/site/operations/nova)"
+    },
+    {
+      "name": "Wyloo Metals Pty Ltd",
+      "country": "Australia",
+      "hq": "Perth, Western Australia, Australia",
+      "website": "https://wyloo.com",
+      "production": "~10,000 t nickel per year (Kambalda operations, Western Australia — as stated on company website, capacity)",
+      "key_metals": [
+        "Nickel",
+        "Copper",
+        "Cobalt",
+        "Chromite"
+      ],
+      "description": "Private mining company backed by Andrew Forrest's Tattarang, formed from the acquisition of Mincor Resources (2023). Operates high-grade nickel sulphide mines in Kambalda, WA (Cassini, Northern Operations), and holds the Eagle's Nest project in Ontario, Canada (Ring of Fire). Planning Australia's first integrated battery materials facility in Kwinana, WA. Produces low-carbon nickel sulphide concentrate.",
+      "source": "Wyloo website (wyloo.com/what-we-do/); Reuters, October 2024; Wyloo media release September 2023 and ROF Fact Sheet 2024"
+    },
+    {
+      "name": "Sherritt International Corporation — Moa Joint Venture",
+      "country": "Canada (operations in Cuba and Canada)",
+      "hq": "Toronto, Ontario, Canada (mine: Moa, Holguín, Cuba; refinery: Fort Saskatchewan, Alberta, Canada)",
+      "website": "https://sherritt.com",
+      "production": "30,331 t finished nickel (100% JV basis, 2024); 15,166 t nickel (Sherritt 50% share, 2024); 2025 guidance: 31,000–33,000 t (100% basis)",
+      "key_metals": [
+        "Nickel",
+        "Cobalt"
+      ],
+      "description": "Canadian company (TSX: S) operating the Moa Joint Venture — a 50/50 partnership with Cuban state company General Nickel Company S.A. Mining lateritic ore in Moa, Cuba, the MSP is refined into finished Class 1 nickel and cobalt at the Fort Saskatchewan refinery in Alberta. Mine life extended to 26 years (as of 2023 reserve update). Refinery capacity ~38,200 t Ni+Co/yr (100% basis).",
+      "source": "Sherritt International Q4 and Full Year 2024 Results, Business Wire, February 2025; Sherritt 2024 Annual Information Form (sherritt.com); Sherritt operations page (sherritt.com/operations/metals/)"
+    },
+    {
+      "name": "First Quantum Minerals Ltd. — Enterprise Nickel Mine",
+      "country": "Canada (operations in Zambia)",
+      "hq": "Vancouver, British Columbia, Canada (mine: Kalumbila, North-Western Province, Zambia)",
+      "website": "https://www.first-quantum.com",
+      "production": "19,000 t nickel from Enterprise/Zambia (2024, commercial production declared June 2024); ~5,000 t from Ravensthorpe/Australia (placed on C&M May 2024); FQM total 2024: 24,000 t Ni",
+      "key_metals": [
+        "Copper",
+        "Nickel",
+        "Gold",
+        "Cobalt"
+      ],
+      "description": "Major Canadian mining company (TSX: FM) operating the Enterprise open-pit nickel sulphide mine in Zambia's North-Western Province — Africa's largest nickel mine. Declared commercial production in June 2024 targeting ramp-up to 30,000–40,000 t/yr by 2026–2027. Ravensthorpe laterite HPAL operation in Western Australia was placed into permanent care and maintenance in May 2024.",
+      "source": "First Quantum Minerals 2024 Preliminary Production Report, January 2025 (first-quantum.com); First Quantum Q4 2024 Results, February 2025; Mining.com, July 2024"
+    },
+    {
+      "name": "Ambatovy Minerals S.A. / Dynatec Madagascar S.A.",
+      "country": "Madagascar",
+      "hq": "Antananarivo, Madagascar",
+      "website": "https://ambatovy.com",
+      "production": "35,737 t nickel and 3,428 t cobalt (2022, 100% basis); H1 2025: ~15,000 t nickel; FY target (to March 2026): 35,000 t nickel",
+      "key_metals": [
+        "Nickel",
+        "Cobalt",
+        "Ammonium Sulphate"
+      ],
+      "description": "One of the world's largest laterite nickel-cobalt HPAL mining and refining operations, located near Moramanga (mine site) and Toamasina (refinery), Madagascar. Produces Class 1 refined nickel briquettes (99.9% purity) and cobalt. Majority-owned by Sumitomo Corporation (54.17%); remainder held by Korea Mine Rehabilitation and Mineral Resources Corporation. Debt restructuring completed December 2024. Operates entirely from own mine feed.",
+      "source": "Ambatovy Sustainability Report 2022 (ambatovy.com); Discovery Alert, October 2025; Sumitomo Corporation press release November 2024 (sumitomocorp.com); Ambatovy Due Diligence Step Five Annual Report 2024"
+    },
+    {
+      "name": "MCC Ramu NiCo Ltd. (Metallurgical Corporation of China subsidiary)",
+      "country": "China (operations in Papua New Guinea)",
+      "hq": "Beijing, China (mine: Madang Province, Papua New Guinea)",
+      "website": "https://www.mcc.com.cn",
+      "production": "33,604 t nickel in MHP (full year 2023, 100% basis); ~30,000 t nickel estimated (2024, planned 30-day capital shutdown in September)",
+      "key_metals": [
+        "Nickel",
+        "Cobalt"
+      ],
+      "description": "Operates the Ramu Nickel Mine in Madang Province, Papua New Guinea — a major laterite nickel-cobalt HPAL operation that operated at or above design capacity (32,600 t/yr) for seven consecutive years through 2023. MCC (Chinese state-owned enterprise) holds 67.02% of the project; Nickel 28 Capital Corp. (TSX-V: NKL) holds 8.56%. Reserves sufficient for at least 15 more years as of 2024.",
+      "source": "Nickel 28 Capital Corp. MDA January 2024 (nickel28.com); Business Wire, February 2024 (Nickel 28 Ramu full year 2023 results); Wikipedia — Ramu Nickel Mine"
+    },
+    {
+      "name": "Terrafame Oy",
+      "country": "Finland",
+      "hq": "Sotkamo, Kainuu, Finland",
+      "website": "https://www.terrafame.com",
+      "production": "29,858 t nickel (2024); 31,455 t nickel (2023); also: 52,192 t zinc (2024); small amounts cobalt and copper",
+      "key_metals": [
+        "Nickel",
+        "Cobalt",
+        "Zinc",
+        "Copper",
+        "Uranium"
+      ],
+      "description": "Finnish state-owned battery chemicals company operating Europe's largest nickel mine in Sotkamo using bioheapleach technology. Produces battery-grade nickel sulphate and cobalt sulphate. Generates approximately 70% of all nickel mined in Europe. Net sales €544.5 million (2024). Shareholders: Finnish Minerals Group Oy (state), Galena funds, and Mandatum Oyj. Began uranium recovery from process streams in June 2024.",
+      "source": "Kaivosvastuu database, 2024 Terrafame Oy entry (kaivosvastuu.fi); Terrafame Financial Review 2024 PDF (terrafame.com)"
+    },
+    {
+      "name": "PT Aneka Tambang Tbk (ANTAM)",
+      "country": "Indonesia",
+      "hq": "Jakarta, Indonesia",
+      "website": "https://www.antam.com",
+      "production": "Nickel ore: ~9.9 million wmt (2024); Ferronickel: ~20,100 t Ni (2024, down from 21,473 t in 2023); 9M 2025 ferronickel: 13,309 t Ni",
+      "key_metals": [
+        "Nickel",
+        "Gold",
+        "Bauxite",
+        "Alumina"
+      ],
+      "description": "Indonesian state-owned diversified mining company (subsidiary of MIND ID) with nickel mines in Kolaka, North Konawe, and North Maluku, plus 100% ownership of PT Gag Nickel (Gag Island, West Papua). Operates ferronickel smelters in Kolaka (27,000 t Ni/yr capacity) and East Halmahera (13,500 t Ni/yr). Also produces gold, bauxite and is developing an alumina refinery. IDX-listed (ANTM).",
+      "source": "ANTAM FY24 Investor Presentation (Slideshare, 2025); KB Valbury research note, May 2024; Petromindo, October 2025 (9M 2025 data); ANTAM news page (antam.com)"
+    },
+    {
+      "name": "Societe Le Nickel (SLN)",
+      "country": "New Caledonia (France)",
+      "hq": "Doniambo, Noumea, New Caledonia",
+      "website": "https://www.sln.nc",
+      "production": "~47,000 t ferronickel (2019, pre-COVID); 2024: mining output dropped ~50% vs 2023, ferronickel production fell ~35% y/y due to May 2024 civil unrest in New Caledonia",
+      "key_metals": [
+        "Nickel (Ferronickel)"
+      ],
+      "description": "Oldest nickel producer in New Caledonia (operations since 1880), majority-owned by Eramet (56%) with the balance held by STCPI (New Caledonian interests). Operates open-pit laterite mines and the Doniambo pyrometallurgical smelter producing ferronickel. Severely impacted by the May 2024 riots which damaged key infrastructure and halted mining operations.",
+      "source": "Mining Data Online — SLN Mine profile, June 2025 (miningdataonline.com); IISD Commodity Profile Nickel 2025"
+    },
+    {
+      "name": "Prony Resources New Caledonia (PRNC) — Goro Mine",
+      "country": "New Caledonia (France)",
+      "hq": "Prony, Southern Province, New Caledonia",
+      "website": "https://pronyresources.com",
+      "production": "Design capacity: 57,000 t Ni/yr and 5,000 t Co/yr; operations suspended May–late 2024 due to riots; restart initiated targeting 3,500 t/month of Ni and Co chemicals",
+      "key_metals": [
+        "Nickel",
+        "Cobalt"
+      ],
+      "description": "Operates the Goro laterite HPAL mine and refinery in southern New Caledonia, one of only three global industrial facilities capable of producing Nickel Hydroxide Cake (NHC, 37% Ni). Previously a Vale asset, acquired by Trafigura and New Caledonian investors in 2021. Production suspended for six months due to May 2024 riots; restart announced late 2024 with no confirmed date.",
+      "source": "Mining Technology, November 2024 (prony-resources-nickel-goro-mine); Hatch Performance Innovations — Project Lucy page (hatchperformanceinnovations.com); Prony Resources website (pronyresources.com)"
+    },
+    {
+      "name": "Pacific Metals Co., Ltd. (PAMCO)",
+      "country": "Japan",
+      "hq": "Tokyo, Japan (smelter: Hachinohe, Aomori Prefecture, Japan)",
+      "website": "https://www.pacific-metals.co.jp",
+      "production": "~30,000 t Ni/yr ferronickel (design capacity based on 1.7% ore grade and stated throughput; Japan's largest ferronickel producer, with Sumitomo Metal Mining Hyuga Smelting and Nippon Yakin Kogyo as the other two Japanese ferronickel producers)",
+      "key_metals": [
+        "Nickel (Ferronickel)",
+        "Slag products"
+      ],
+      "description": "Japan's largest ferronickel producer, listed on the Nikkei 225, operating a RKEF facility with one of the world's largest rotary kilns (131 m) and electric arc furnaces in Hachinohe. Produces ferronickel for the stainless steel market. Signed an MOU with The Metals Company (TMC) in November 2023 to evaluate commercial processing of polymetallic nodules.",
+      "source": "PAMCO Financial Results Briefing Session FY H1 2025 (pacific-metals.co.jp, November 2025); TMC press release (investors.metals.co); Wikipedia — Pacific Metals"
+    },
+    {
+      "name": "Nippon Yakin Kogyo Co., Ltd.",
+      "country": "Japan",
+      "hq": "Tokyo, Japan (smelter: Oheyama Plant, Kyoto Prefecture; steel plant: Kawasaki, Kanagawa)",
+      "website": "https://www.nyk.co.jp",
+      "production": "Ferronickel production volume not separately disclosed; stainless steel and high-performance alloy sales: 130,700 t (FY2024). Recycled materials account for 58.7% of ferronickel raw materials in FY2024.",
+      "key_metals": [
+        "Nickel (Ferronickel)",
+        "Stainless Steel",
+        "High-performance Alloys"
+      ],
+      "description": "Japanese stainless steel manufacturer (est. 1925) and ferronickel producer using the proprietary Krupp-Renn process at its Oheyama Plant — the only commercial user of this process in the world. All ferronickel is consumed internally to produce stainless steel and high-performance alloys at the Kawasaki Plant. Increasing use of urban mine recycled materials to reduce reliance on nickel ore.",
+      "source": "Nippon Yakin Kogyo Integrated Report 2024 (nyk.co.jp); PAMCO Financial Presentation showing Japanese ferronickel production by company (three producers: PAMCO, Sumitomo/Hyuga, Nippon Yakin)"
+    },
+    {
+      "name": "Solway Investment Group GmbH — Fenix Project (ProNiCo / CGN)",
+      "country": "Switzerland (operations in Guatemala)",
+      "hq": "Zug, Switzerland (operations: Izabal Department, Guatemala)",
+      "website": "https://solwaygroup.com",
+      "production": "Suspended November 2022 (US sanctions); capacity: 25,000 t Ni/yr (ProNiCo ferronickel plant); mine capacity: 2.2 million t nickel ore/yr. US sanctions lifted January 2024; restart planned April–May 2026.",
+      "key_metals": [
+        "Nickel (Ferronickel)"
+      ],
+      "description": "Private Swiss mining and metals group operating the Fenix Project in eastern Guatemala — a fully integrated ferronickel operation comprising the CGN open-pit nickel mine and ProNiCo ferronickel smelter. Previously produced over 1,000 t Ni/month. Operations halted November 2022 after US sanctions imposed on Guatemalan subsidiaries; restart planned mid-2026 after sanctions lifted January 2024. Solway also operates the Pobuzhsky Ferronickel Plant in Ukraine (currently halted due to Russian missile strike, October 2022).",
+      "source": "Solway Investment Group website (solwaygroup.com/our-business/fenix-project-guatemala/); Reuters / Mining.com, January 2026; Energy News OE Digital, January 2026"
+    },
+    {
+      "name": "Koniambo Nickel SAS (KNS)",
+      "country": "New Caledonia (France)",
+      "hq": "Koné, Northern Province, New Caledonia",
+      "website": "",
+      "production": "Transitioned to care and maintenance February 2024; Glencore 49% attributable production in 2023: 22,200 t Ni; 100% basis ~45,000 t Ni/yr when operating",
+      "key_metals": [
+        "Nickel (Ferronickel)"
+      ],
+      "description": "Open-pit laterite mine and ferronickel smelter in New Caledonia's Northern Province, 49% owned by Glencore and 51% by SOFINOR (New Caledonian interests). Placed into care and maintenance in February 2024 due to high operating costs and weak nickel prices. Glencore failed to find a buyer; redundancy process for ~1,200 workers commenced August 2024. Plant in suspension since August 2024.",
+      "source": "Glencore Full Year 2024 Production Report, January 2025 (glencore.com); Mining Data Online — Koniambo Mine profile, May 2025; Reuters, February 2024"
+    },
+    {
+      "name": "Mining Industry Indonesia (MIND ID) — Pakal Island Mine",
+      "country": "Indonesia",
+      "hq": "Jakarta, Indonesia",
+      "website": "https://www.mind.id",
+      "production": "Pakal Island Mine: ~35,970 t Ni (2023, GlobalData estimate)",
+      "key_metals": [
+        "Nickel"
+      ],
+      "description": "MIND ID is the Indonesian state mining holding company (Inalum/BUMN) that acts as parent of ANTAM, PT Vale Indonesia stake, and other state assets. The Pakal Island mine in North Maluku is listed separately as the 10th largest nickel mine globally per GlobalData's 2023 data, operated as part of the Indonesian industrial park ecosystem.",
+      "source": "Mining Technology — World's ten largest nickel mines (mining-technology.com, 2023 GlobalData figures); Mining Technology — Indonesia nickel capacity additions 2026, February 2026"
+    },
+    {
+      "name": "Korea Zinc Co., Ltd. / KEMCO",
+      "country": "South Korea",
+      "hq": "Seoul, South Korea (refinery: Ulsan, Onsan National Industrial Complex)",
+      "website": "https://www.koreazinc.co.kr",
+      "production": "Current capacity: ~22,000 t Ni/yr; all-in-one nickel refinery (KEMCO) under construction targeting 42,600 t Ni/yr additional capacity (total 65,000 t/yr) for commercial production in 2026",
+      "key_metals": [
+        "Zinc",
+        "Lead",
+        "Nickel",
+        "Gold",
+        "Silver",
+        "Cobalt",
+        "Sulfuric Acid"
+      ],
+      "description": "World's largest zinc smelter company and a growing nickel refiner/producer via its subsidiary KEMCO. Currently operates nickel refining at the Onsan refinery in Ulsan. A KRW 506.3 billion all-in-one nickel refinery capable of processing nickel matte, MHP and other intermediates into high-purity nickel sulphate broke ground November 2023 and targets 65,000 t Ni/yr by 2026 — which would make Korea Zinc/KEMCO the world's largest non-Chinese nickel sulphate producer.",
+      "source": "Korea Zinc press release, November 2023 (koreazinc.co.kr); Wikipedia — Korea Zinc; Mining Technology, January 2025"
+    },
+    {
+      "name": "Anglo American Platinum (Amplats) — Nickel By-product",
+      "country": "South Africa",
+      "hq": "Johannesburg, South Africa",
+      "website": "https://www.angloamericanplatinum.com",
+      "production": "~25,700 t nickel (2024, as PGM by-product from South African Bushveld Complex operations)",
+      "key_metals": [
+        "Platinum",
+        "Palladium",
+        "Rhodium",
+        "Nickel",
+        "Copper",
+        "Cobalt"
+      ],
+      "description": "The world's largest platinum group metals producer, operating underground mines in South Africa's Bushveld Igneous Complex. Nickel is a significant by-product of PGM smelting and refining. Anglo American Platinum's nickel production is separate from Anglo American's ferronickel operations in Brazil. JSE-listed (AMS) and LSE-listed.",
+      "source": "Anglo American Q4 2024 Production Report footnote 6/7 (angloamerican.com, February 2025); LSE RNS disclosure February 2025 showing 25.7 kt PGM-sourced Ni in 2024"
+    },
+    {
+      "name": "Ivanhoe Mines Ltd. — Platreef Project",
+      "country": "Canada (operations in South Africa)",
+      "hq": "Vancouver, British Columbia, Canada (project: Mokopane, Limpopo, South Africa)",
+      "website": "https://www.ivanhoemines.com",
+      "production": "Not yet in production; Phase 1 shaft sinking complete; Phase 1 targeted start 2025–2026; projected annual nickel production not separately quantified (nickel is one of several co-products with PGMs, copper, gold)",
+      "key_metals": [
+        "Platinum",
+        "Palladium",
+        "Rhodium",
+        "Nickel",
+        "Copper",
+        "Gold"
+      ],
+      "description": "TSX-listed Ivanhoe Mines is developing the Platreef underground mine in Limpopo, South Africa — the world's widest and flattest PGM-nickel-copper-gold deposit. Expected to be one of the world's largest low-cost PGM operations with 32-year mine life; nickel is a significant co-product. Mine NRI Digital ranked this as an upcoming major project in 2024.",
+      "source": "Mine NRI Digital, April 2024 (mine.nridigital.com); IISD Commodity Profile Nickel 2025 (upcoming mines section)"
+    },
+    {
+      "name": "Centaurus Metals Limited — Jaguar Nickel Project",
+      "country": "Australia (project in Brazil)",
+      "hq": "Perth, Western Australia, Australia (project: Pará state, Brazil)",
+      "website": "https://www.centaurus.com.au",
+      "production": "Not yet in production; 15-year open-pit plan targeting ~20,000 t Ni/yr (average 22,600 t Ni/yr in first 7 years); FID targeted before end of September 2026; first production targeted early 2029",
+      "key_metals": [
+        "Nickel",
+        "Copper",
+        "Cobalt"
+      ],
+      "description": "ASX-listed (CTM) developer of the Jaguar nickel sulphide project in Pará state, northern Brazil. Signed a binding 5-year offtake agreement with Glencore in March 2026 for 20,000 t/yr of 32% nickel concentrate (worth ~$450M). Received final environmental approval in October 2025. Capital cost estimated at $380M; in discussions with BNDES for debt financing.",
+      "source": "Mining.com, March 2026 (centaurus-inks-glencore-deal); Newsfile Corp press release, March 2026; YouTube CEO Clips, March 2026"
+    },
+    {
+      "name": "Horizonte Minerals plc — Araguaia Nickel Project",
+      "country": "United Kingdom (project in Brazil)",
+      "hq": "London, United Kingdom (project: Pará/Tocantins border, Brazil)",
+      "website": "https://www.horizonteminerals.com",
+      "production": "Project entered care and maintenance 2024 due to financing difficulties; designed capacity: 29,000 t Ni/yr (ferronickel); mine life 28 years",
+      "key_metals": [
+        "Nickel (Ferronickel)"
+      ],
+      "description": "AIM- and TSX-listed developer of the Araguaia Nickel Ferronickel Project in Brazil, targeting first metal for Q1 2024 before encountering financing difficulties. The project — which acquired Vale's former Araguaia exploration assets — entered care and maintenance in 2024. It holds one of the largest undeveloped nickel reserves in Brazil.",
+      "source": "Mine NRI Digital, April 2024 (mine.nridigital.com, Brazil section); company public disclosures (Horizonte Minerals entered significant financial difficulty during 2024)"
+    },
+    {
+      "name": "Solway Investment Group — Pobuzhsky Ferronickel Plant (PFP), Ukraine",
+      "country": "Switzerland (operations in Ukraine)",
+      "hq": "Zug, Switzerland (plant: Pobuzhskoye, Kirovohrad Oblast, Ukraine)",
+      "website": "https://solwaygroup.com",
+      "production": "Halted October 2022 (Russian missile strike destroyed power substation); capacity was >22,000 t Ni/yr and >1,100 kt dry laterite ore/yr",
+      "key_metals": [
+        "Nickel (Ferronickel)"
+      ],
+      "description": "The Pobuzhsky Ferronickel Plant operated by Solway was the only ferronickel smelter in Ukraine and a significant European nickel producer before being forcibly halted in October 2022 when a Russian missile strike destroyed the plant's power substation. The facility imported laterite ore from Indonesia, New Caledonia, and Guatemala. Included as a historically significant producer currently inactive.",
+      "source": "Solway Group website (solwaygroup.com); Wikipedia — Solway Group; Mining.com / Energy News, January 2026"
+    },
+    {
+      "name": "Nickel 28 Capital Corp. — Ramu JV Interest",
+      "country": "Canada (interest in Papua New Guinea operation)",
+      "hq": "Toronto, Ontario, Canada",
+      "website": "https://www.nickel28.com",
+      "production": "8.56% JV interest in Ramu operation (MCC operates); attributable nickel: ~2,877 t (8.56% of 33,604 t in 2023)",
+      "key_metals": [
+        "Nickel",
+        "Cobalt"
+      ],
+      "description": "TSX-V listed nickel-cobalt royalty and streaming company holding an 8.56% JV interest in the Ramu nickel-cobalt operation in Papua New Guinea (operated by MCC). Nickel 28 also holds a portfolio of 10 nickel and cobalt royalties on development and exploration projects in Canada, Australia, and Papua New Guinea. Included here as a direct equity participant in a significant producing operation.",
+      "source": "Nickel 28 website (nickel28.com/about-us/company-profile/); Nickel 28 MDA January 2024; Business Wire, February 2024"
+    },
+    {
+      "name": "Coral Bay Nickel Corporation (CBNC)",
+      "country": "Philippines",
+      "hq": "Bataraza, Palawan Province, Philippines",
+      "website": "https://cbnc.com.ph",
+      "production": "~24,000 t Ni/yr (nameplate capacity ~22,000 t Ni/yr after 2009 expansion; actual production reached 24 kt/yr by 2014); Sumitomo 100% shareholder as of planned acquisition from Nickel Asia (15.625% stake sale, announced January 2025)",
+      "key_metals": [
+        "Nickel",
+        "Cobalt"
+      ],
+      "description": "Operates the Philippines' first HPAL plant at Rio Tuba, Palawan, converting low-grade laterite ore from the adjacent Rio Tuba Nickel mine (Nickel Asia) into mixed nickel-cobalt sulphide (MS) for export to Sumitomo Metal Mining's refineries in Japan. Commissioned 2005, expanded 2009. Sumitomo Metal Mining is the majority shareholder (100% targeted); Nickel Asia is selling its remaining 15.625% stake.",
+      "source": "Coral Bay Nickel Corporation website (cbnc.com.ph); Sumitomo Metal Mining sustainability page (smm.co.jp/en/sustainability); Mining Technology, January 2025; Wood Mackenzie CBNC report overview"
+    },
+    {
+      "name": "Taganito HPAL Nickel Corporation (THPAL)",
+      "country": "Philippines",
+      "hq": "Taganito, Surigao del Norte, Philippines",
+      "website": "",
+      "production": "~36,000 t Ni/yr (nameplate capacity, achieved from 2017 after expansion; started commercial operations 2013 at 30,000 t/yr)",
+      "key_metals": [
+        "Nickel",
+        "Cobalt"
+      ],
+      "description": "HPAL plant in Taganito, Surigao del Norte, Philippines, processing laterite ore into mixed nickel-cobalt sulphide (MS) for export to Sumitomo Metal Mining's Japanese refineries. Owned 75% by Sumitomo Metal Mining, 15% by Mitsui & Co., and 10% by Nickel Asia Corporation. Commenced commercial production October 2013; capacity expanded to 36,000 t Ni/yr by FY2017.",
+      "source": "Sumitomo Metal Mining sustainability page (smm.co.jp/en/sustainability/activity_highlights/article_12/); OneMine — THPAL Plant Operation Progress (2017); Mining.com, January 2025"
+    },
+    {
+      "name": "Cerro Matoso S.A. (South32 — being sold to CoreX Holding)",
+      "country": "Colombia",
+      "hq": "Montelibano, Córdoba Department, Colombia",
+      "website": "https://www.south32.net/operations/south-america/cerro-matoso",
+      "production": "40,600 t payable nickel (FY2024, 100% of guidance achieved); 2025 guidance: 35,000 t (lower planned grades); 2023: 85,336,638 lbs nickel (royalty basis, Colombian ANM data)",
+      "key_metals": [
+        "Nickel (Ferronickel)"
+      ],
+      "description": "Open-cut laterite mine and ferronickel smelter in Córdoba Department, Colombia. One of the largest open-pit ferronickel mines in the world and the only nickel mine in Colombia. Operated since 1980; owned by South32 since 2015. South32 entered a binding agreement to sell Cerro Matoso to CoreX Holding (July 2025) as part of its strategic shift toward copper and zinc.",
+      "source": "South32 Quarterly Report June 2024 (south32.net); Colombian ANM Nickel Fact Sheet December 2024 (mineriaencolombia.anm.gov.co); Mining.com, July 2025 (South32 sale announcement); Cerro Matoso Wikipedia"
+    },
+    {
+      "name": "Lundin Mining Corporation — Neves-Corvo (Nickel by-product)",
+      "country": "Canada (operations in Portugal)",
+      "hq": "Toronto, Ontario, Canada (mine: Alentejo, Portugal)",
+      "website": "https://www.lundinmining.com",
+      "production": "Small nickel production as by-product from the Neves-Corvo copper-zinc-tin mine in Portugal (figures not separately reported; copper dominant product)",
+      "key_metals": [
+        "Copper",
+        "Zinc",
+        "Tin",
+        "Nickel"
+      ],
+      "description": "Lundin Mining's Neves-Corvo mine in Alentejo, southern Portugal produces copper, zinc, and tin with nickel as a minor by-product. One of the few European copper mines with nickel. Included here as a European nickel-producing mine, though nickel is a secondary product. TSX- and Nasdaq Stockholm-listed.",
+      "source": "USGS Mineral Commodity Summaries 2025 — Nickel (pubs.usgs.gov/periodicals/mcs2025/mcs2025-nickel.pdf) reference to other country producers; Lundin Mining annual report"
     }
   ],
   "zinc": [
@@ -469,10 +1409,11 @@
     {
       "name": "Renco Group",
       "country": "USA",
-      "website": "https://rencogroup.com",
+      "website": "",
       "production": "78,000 t",
       "ticker": "Private",
-      "exchange": ""
+      "exchange": "",
+      "description": ""
     },
     {
       "name": "Newmont",
@@ -879,7 +1820,7 @@
     {
       "name": "Delong Steel",
       "country": "China",
-      "website": "https://delongsteel.com",
+      "website": "https://www.dlsteelgroup.com",
       "production": "29.33 Mt",
       "ticker": "Private",
       "exchange": ""
