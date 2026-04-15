@@ -1,1239 +1,2814 @@
 {
+  "_metadata": {
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "doi": "https://doi.org/10.5066/P1WKQ63T",
+    "generated": "2026-04-15",
+    "script": "import-mcs-csv.js",
+    "note": "Machine-generated from USGS MCS Data Release CSV. Uranium and Germanium preserved from previous edition."
+  },
   "copper": {
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-copper.pdf",
-    "production_unit": "thousand metric tons, copper content",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+    "production_unit": "thousand metric tons",
     "reserves_unit": "thousand metric tons",
-    "year1": "2023",
-    "year2": "2024e",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "1,130",
-        "production_y2": "1,100",
+        "production_y1": "1,050",
+        "production_y2": "e1,000",
         "reserves": "47,000"
       },
       {
         "country": "Australia",
-        "production_y1": "778",
-        "production_y2": "800",
+        "production_y1": "765",
+        "production_y2": "e730",
         "reserves": "100,000"
       },
       {
         "country": "Canada",
-        "production_y1": "500",
-        "production_y2": "450",
-        "reserves": "8,300"
+        "production_y1": "515",
+        "production_y2": "e500",
+        "reserves": "7,000"
       },
       {
         "country": "Chile",
-        "production_y1": "5,250",
-        "production_y2": "5,300",
-        "reserves": "190,000"
+        "production_y1": "5,510",
+        "production_y2": "e5,300",
+        "reserves": "180,000"
       },
       {
         "country": "China",
-        "production_y1": "1,820",
-        "production_y2": "1,800",
+        "production_y1": "1,840",
+        "production_y2": "e1,800",
         "reserves": "41,000"
       },
       {
         "country": "Congo (Kinshasa)",
-        "production_y1": "2,930",
-        "production_y2": "3,300",
+        "production_y1": "2,990",
+        "production_y2": "e3,200",
         "reserves": "80,000"
+      },
+      {
+        "country": "Germany",
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": ""
       },
       {
         "country": "India",
         "production_y1": "27",
-        "production_y2": "30",
+        "production_y2": "e23",
         "reserves": "2,200"
       },
       {
         "country": "Indonesia",
-        "production_y1": "907",
-        "production_y2": "1,100",
+        "production_y1": "1,010",
+        "production_y2": "e710",
         "reserves": "21,000"
       },
       {
+        "country": "Japan",
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": ""
+      },
+      {
         "country": "Kazakhstan",
-        "production_y1": "e740",
-        "production_y2": "740",
+        "production_y1": "724",
+        "production_y2": "e710",
         "reserves": "20,000"
       },
       {
+        "country": "Korea, Republic of",
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": ""
+      },
+      {
         "country": "Mexico",
-        "production_y1": "699",
-        "production_y2": "700",
+        "production_y1": "717",
+        "production_y2": "e690",
         "reserves": "53,000"
       },
       {
         "country": "Peru",
-        "production_y1": "2,760",
-        "production_y2": "2,600",
-        "reserves": "100,000"
+        "production_y1": "2,740",
+        "production_y2": "e2,700",
+        "reserves": "85,000"
       },
       {
         "country": "Poland",
-        "production_y1": "395",
-        "production_y2": "410",
-        "reserves": "34,000"
+        "production_y1": "400",
+        "production_y2": "e410",
+        "reserves": "33,000"
       },
       {
         "country": "Russia",
-        "production_y1": "e890",
-        "production_y2": "930",
+        "production_y1": "1,020",
+        "production_y2": "e1,300",
         "reserves": "80,000"
       },
       {
         "country": "Zambia",
-        "production_y1": "712",
-        "production_y2": "680",
+        "production_y1": "823",
+        "production_y2": "e940",
         "reserves": "21,000"
       },
       {
         "country": "Other countries",
-        "production_y1": "3,020",
-        "production_y2": "2,700",
-        "reserves": "180,000"
+        "production_y1": "2,850",
+        "production_y2": "e3,000",
+        "reserves": "210,000"
       },
       {
         "country": "World total (rounded)",
-        "production_y1": "22,600",
+        "production_y1": "23,000",
         "production_y2": "23,000",
         "reserves": "980,000"
       }
     ]
   },
   "nickel": {
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-nickel.pdf",
-    "production_unit": "metric tons, nickel content",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+    "production_unit": "metric tons",
     "reserves_unit": "metric tons",
-    "year1": "2023",
-    "year2": "2024e",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "16,400",
-        "production_y2": "8,000",
-        "reserves": "310,000"
+        "production_y1": "7,490",
+        "production_y2": "e10,000",
+        "reserves": "340,000"
       },
       {
         "country": "Australia",
-        "production_y1": "149,000",
-        "production_y2": "110,000",
-        "reserves": "24,000,000"
+        "production_y1": "98,000",
+        "production_y2": "e45,000",
+        "reserves": "25,000,000"
       },
       {
         "country": "Brazil",
-        "production_y1": "82,700",
-        "production_y2": "77,000",
+        "production_y1": "67,500",
+        "production_y2": "e70,000",
         "reserves": "16,000,000"
       },
       {
         "country": "Canada",
-        "production_y1": "159,000",
-        "production_y2": "190,000",
+        "production_y1": "125,000",
+        "production_y2": "e140,000",
         "reserves": "2,200,000"
       },
       {
         "country": "China",
-        "production_y1": "e117,000",
-        "production_y2": "120,000",
+        "production_y1": "e115,000",
+        "production_y2": "e120,000",
         "reserves": "4,400,000"
       },
       {
         "country": "Indonesia",
-        "production_y1": "2,030,000",
-        "production_y2": "2,200,000",
-        "reserves": "55,000,000"
+        "production_y1": "2,310,000",
+        "production_y2": "e2,600,000",
+        "reserves": "62,000,000"
       },
       {
         "country": "New Caledonia",
-        "production_y1": "231,000",
-        "production_y2": "110,000",
+        "production_y1": "116,000",
+        "production_y2": "e140,000",
         "reserves": "7,100,000"
       },
       {
         "country": "Philippines",
-        "production_y1": "e413,000",
-        "production_y2": "330,000",
+        "production_y1": "354,000",
+        "production_y2": "e270,000",
         "reserves": "4,800,000"
       },
       {
         "country": "Russia",
-        "production_y1": "210,000",
-        "production_y2": "210,000",
+        "production_y1": "205,000",
+        "production_y2": "e200,000",
         "reserves": "8,300,000"
       },
       {
         "country": "Other countries",
-        "production_y1": "340,000",
-        "production_y2": "300,000",
+        "production_y1": "308,000",
+        "production_y2": "e290,000",
         "reserves": ">9,100,000"
       },
       {
         "country": "World total (rounded)",
-        "production_y1": "3,750,000",
-        "production_y2": "3,700,000",
-        "reserves": ">130,000,000"
+        "production_y1": "3,710,000",
+        "production_y2": "3,900,000",
+        "reserves": ">140,000,000"
       }
     ]
   },
   "zinc": {
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-zinc.pdf",
-    "production_unit": "thousand metric tons, zinc content of concentrates and direct shipping ores",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zinc.pdf",
+    "production_unit": "thousand metric tons",
     "reserves_unit": "thousand metric tons",
-    "year1": "2023",
-    "year2": "2024e",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "767",
-        "production_y2": "750",
-        "reserves": "9,200"
+        "production_y1": "759",
+        "production_y2": "e670",
+        "reserves": "9,300"
       },
       {
         "country": "Australia",
-        "production_y1": "1,090",
-        "production_y2": "1,100",
+        "production_y1": "1,100",
+        "production_y2": "e1,100",
         "reserves": "64,000"
       },
       {
         "country": "Bolivia",
-        "production_y1": "492",
-        "production_y2": "510",
+        "production_y1": "512",
+        "production_y2": "e500",
         "reserves": "NA"
       },
       {
         "country": "China",
-        "production_y1": "4,060",
-        "production_y2": "4,000",
-        "reserves": "46,000"
+        "production_y1": "4,000",
+        "production_y2": "e4,100",
+        "reserves": "60,000"
       },
       {
         "country": "India",
-        "production_y1": "e854",
-        "production_y2": "860",
-        "reserves": "9,800"
+        "production_y1": "e866",
+        "production_y2": "e870",
+        "reserves": "10,000"
       },
       {
         "country": "Kazakhstan",
-        "production_y1": "340",
-        "production_y2": "370",
-        "reserves": "7,600"
+        "production_y1": "e375",
+        "production_y2": "e360",
+        "reserves": "7,400"
       },
       {
         "country": "Mexico",
-        "production_y1": "584",
-        "production_y2": "700",
+        "production_y1": "773",
+        "production_y2": "e780",
         "reserves": "14,000"
       },
       {
         "country": "Peru",
-        "production_y1": "1,470",
-        "production_y2": "1,300",
-        "reserves": "20,000"
+        "production_y1": "1,270",
+        "production_y2": "e1,500",
+        "reserves": "18,000"
       },
       {
         "country": "Russia",
-        "production_y1": "e300",
-        "production_y2": "310",
+        "production_y1": "e310",
+        "production_y2": "e430",
         "reserves": "29,000"
       },
       {
-        "country": "South Africa",
-        "production_y1": "198",
-        "production_y2": "120",
-        "reserves": "5,900"
-      },
-      {
         "country": "Sweden",
-        "production_y1": "218",
-        "production_y2": "240",
-        "reserves": "3,900"
+        "production_y1": "239",
+        "production_y2": "e230",
+        "reserves": "4,100"
       },
       {
         "country": "Other countries",
-        "production_y1": "1,690",
-        "production_y2": "1,700",
+        "production_y1": "1,730",
+        "production_y2": "e2,000",
         "reserves": "25,000"
       },
       {
         "country": "World total (rounded)",
-        "production_y1": "12,100",
-        "production_y2": "12,000",
-        "reserves": "230,000"
+        "production_y1": "11,900",
+        "production_y2": "13,000",
+        "reserves": "240,000"
       }
     ]
   },
   "lead": {
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-lead.pdf",
-    "production_unit": "thousand metric tons, lead content",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lead.pdf",
+    "production_unit": "thousand metric tons",
     "reserves_unit": "thousand metric tons",
-    "year1": "2023",
-    "year2": "2024e",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "270",
-        "production_y2": "300",
+        "production_y1": "304",
+        "production_y2": "e280",
         "reserves": "4,600"
       },
       {
         "country": "Australia",
-        "production_y1": "430",
-        "production_y2": "430",
-        "reserves": "35,000"
+        "production_y1": "e481",
+        "production_y2": "e480",
+        "reserves": "34,000"
       },
       {
         "country": "Bolivia",
-        "production_y1": "60",
-        "production_y2": "60",
+        "production_y1": "110",
+        "production_y2": "e100",
         "reserves": "1,600"
       },
       {
         "country": "China",
-        "production_y1": "1,960",
-        "production_y2": "1,900",
+        "production_y1": "1,940",
+        "production_y2": "e1,900",
         "reserves": "22,000"
       },
       {
         "country": "India",
-        "production_y1": "226",
-        "production_y2": "220",
+        "production_y1": "e226",
+        "production_y2": "e220",
         "reserves": "1,900"
       },
       {
         "country": "Iran",
-        "production_y1": "e60",
-        "production_y2": "60",
+        "production_y1": "e70",
+        "production_y2": "e70",
         "reserves": "2,000"
       },
       {
         "country": "Mexico",
-        "production_y1": "183",
-        "production_y2": "180",
+        "production_y1": "240",
+        "production_y2": "e200",
         "reserves": "5,600"
       },
       {
         "country": "Peru",
-        "production_y1": "273",
-        "production_y2": "270",
+        "production_y1": "291",
+        "production_y2": "e290",
         "reserves": "5,000"
       },
       {
         "country": "Russia",
-        "production_y1": "e218",
-        "production_y2": "220",
+        "production_y1": "260",
+        "production_y2": "e260",
         "reserves": "8,900"
       },
       {
         "country": "Sweden",
-        "production_y1": "72",
-        "production_y2": "70",
+        "production_y1": "75",
+        "production_y2": "e70",
         "reserves": "1,700"
       },
       {
         "country": "Tajikistan",
         "production_y1": "e39",
-        "production_y2": "40",
+        "production_y2": "e40",
         "reserves": "NA"
       },
       {
         "country": "Turkey",
-        "production_y1": "e68",
-        "production_y2": "70",
+        "production_y1": "e66",
+        "production_y2": "e70",
         "reserves": "1,600"
       },
       {
         "country": "Other countries",
-        "production_y1": "511",
-        "production_y2": "520",
+        "production_y1": "498",
+        "production_y2": "e500",
         "reserves": "5,900"
       },
       {
         "country": "World total (rounded)",
-        "production_y1": "4,370",
-        "production_y2": "4,300",
-        "reserves": "96,000"
+        "production_y1": "4,600",
+        "production_y2": "4,500",
+        "reserves": "95,000"
       }
     ]
   },
   "tin": {
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-tin.pdf",
-    "production_unit": "metric tons, tin content",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf",
+    "production_unit": "metric tons",
     "reserves_unit": "metric tons",
-    "year1": "2023",
-    "year2": "2024e",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "—"
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": ""
       },
       {
         "country": "Australia",
-        "production_y1": "9,850",
-        "production_y2": "9,900",
-        "reserves": "620,000"
+        "production_y1": "11,300",
+        "production_y2": "e12,000",
+        "reserves": "570,000"
       },
       {
         "country": "Bolivia",
-        "production_y1": "18,700",
-        "production_y2": "21,000",
+        "production_y1": "21,200",
+        "production_y2": "e15,000",
         "reserves": "400,000"
       },
       {
         "country": "Brazil",
-        "production_y1": "29,300",
-        "production_y2": "29,000",
-        "reserves": "420,000"
+        "production_y1": "27,600",
+        "production_y2": "e28,000",
+        "reserves": "700,000"
       },
       {
         "country": "Burma",
-        "production_y1": "e34,000",
-        "production_y2": "34,000",
+        "production_y1": "e20,000",
+        "production_y2": "e12,000",
         "reserves": "700,000"
       },
       {
         "country": "China",
-        "production_y1": "e70,000",
-        "production_y2": "69,000",
-        "reserves": "1,000,000"
+        "production_y1": "e71,000",
+        "production_y2": "e71,000",
+        "reserves": "1,200,000"
       },
       {
         "country": "Congo (Kinshasa)",
-        "production_y1": "e20,000",
-        "production_y2": "25,000",
-        "reserves": "120,000"
+        "production_y1": "e26,000",
+        "production_y2": "e27,000",
+        "reserves": "91,000"
       },
       {
         "country": "Indonesia",
-        "production_y1": "e69,000",
-        "production_y2": "50,000",
-        "reserves": "NA"
+        "production_y1": "e55,000",
+        "production_y2": "e61,000",
+        "reserves": "1,400,000"
       },
       {
         "country": "Laos",
-        "production_y1": "e1,700",
-        "production_y2": "1,500",
+        "production_y1": "1,860",
+        "production_y2": "e1,800",
         "reserves": "NA"
       },
       {
         "country": "Malaysia",
-        "production_y1": "3,770",
-        "production_y2": "3,000",
+        "production_y1": "5,460",
+        "production_y2": "e5,000",
         "reserves": "NA"
       },
       {
         "country": "Nigeria",
-        "production_y1": "e7,000",
-        "production_y2": "7,000",
+        "production_y1": "e3,100",
+        "production_y2": "e3,500",
         "reserves": "NA"
       },
       {
         "country": "Peru",
-        "production_y1": "26,200",
-        "production_y2": "31,000",
-        "reserves": "130,000"
+        "production_y1": "32,300",
+        "production_y2": "e33,000",
+        "reserves": "150,000"
       },
       {
         "country": "Russia",
-        "production_y1": "e2,700",
-        "production_y2": "3,000",
+        "production_y1": "3,260",
+        "production_y2": "e4,500",
         "reserves": "460,000"
       },
       {
         "country": "Rwanda",
-        "production_y1": "e3,600",
-        "production_y2": "3,600",
+        "production_y1": "e4,100",
+        "production_y2": "e4,600",
         "reserves": "NA"
       },
       {
         "country": "Vietnam",
-        "production_y1": "e7,600",
-        "production_y2": "6,700",
+        "production_y1": "e11,000",
+        "production_y2": "e11,000",
         "reserves": "23,000"
       },
       {
         "country": "Other countries",
-        "production_y1": "1,840",
-        "production_y2": "1,800",
+        "production_y1": "1,570",
+        "production_y2": "e1,700",
         "reserves": "310,000"
       },
       {
         "country": "World total (rounded)",
-        "production_y1": "305,000",
-        "production_y2": "300,000",
-        "reserves": ">4,200,000"
+        "production_y1": "294,000",
+        "production_y2": "290,000",
+        "reserves": ">6,000,000"
       }
     ]
   },
   "gold": {
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-gold.pdf",
-    "production_unit": "metric tons, gold content",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gold.pdf",
+    "production_unit": "metric tons",
     "reserves_unit": "metric tons",
-    "year1": "2023",
-    "year2": "2024e",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "170",
-        "production_y2": "160",
+        "production_y1": "163",
+        "production_y2": "e160",
         "reserves": "3,000"
       },
       {
         "country": "Australia",
-        "production_y1": "296",
-        "production_y2": "290",
-        "reserves": "12,000"
+        "production_y1": "284",
+        "production_y2": "e280",
+        "reserves": "13,000"
       },
       {
         "country": "Brazil",
-        "production_y1": "71",
-        "production_y2": "70",
-        "reserves": "2,400"
-      },
-      {
-        "country": "Burkina Faso",
-        "production_y1": "57",
-        "production_y2": "60",
-        "reserves": "NA"
+        "production_y1": "e82",
+        "production_y2": "e80",
+        "reserves": "2,500"
       },
       {
         "country": "Canada",
-        "production_y1": "198",
-        "production_y2": "200",
+        "production_y1": "e200",
+        "production_y2": "e200",
         "reserves": "3,200"
       },
       {
         "country": "China",
-        "production_y1": "375",
-        "production_y2": "380",
-        "reserves": "3,100"
-      },
-      {
-        "country": "Colombia",
-        "production_y1": "61",
-        "production_y2": "60",
-        "reserves": "700"
+        "production_y1": "377",
+        "production_y2": "e380",
+        "reserves": "3,200"
       },
       {
         "country": "Ghana",
-        "production_y1": "126",
-        "production_y2": "130",
+        "production_y1": "149",
+        "production_y2": "e150",
         "reserves": "1,000"
       },
       {
         "country": "Indonesia",
-        "production_y1": "e100",
-        "production_y2": "100",
+        "production_y1": "e94",
+        "production_y2": "e90",
         "reserves": "3,600"
       },
       {
         "country": "Kazakhstan",
-        "production_y1": "133",
-        "production_y2": "130",
+        "production_y1": "e130",
+        "production_y2": "e130",
         "reserves": "2,300"
       },
       {
-        "country": "Mali",
-        "production_y1": "e67",
-        "production_y2": "70",
-        "reserves": "800"
-      },
-      {
         "country": "Mexico",
-        "production_y1": "127",
-        "production_y2": "130",
+        "production_y1": "140",
+        "production_y2": "e140",
         "reserves": "1,400"
       },
       {
         "country": "Peru",
-        "production_y1": "100",
-        "production_y2": "100",
-        "reserves": "2,500"
+        "production_y1": "108",
+        "production_y2": "e110",
+        "reserves": "2,200"
       },
       {
         "country": "Russia",
-        "production_y1": "313",
-        "production_y2": "310",
+        "production_y1": "e310",
+        "production_y2": "e310",
         "reserves": "12,000"
       },
       {
         "country": "South Africa",
-        "production_y1": "104",
-        "production_y2": "100",
+        "production_y1": "90",
+        "production_y2": "e90",
         "reserves": "5,000"
       },
       {
-        "country": "Tanzania",
-        "production_y1": "55",
-        "production_y2": "60",
-        "reserves": "400"
-      },
-      {
         "country": "Uzbekistan",
-        "production_y1": "120",
-        "production_y2": "120",
-        "reserves": "1,800"
+        "production_y1": "129",
+        "production_y2": "e130",
+        "reserves": "2,200"
       },
       {
         "country": "Other countries",
-        "production_y1": "777",
-        "production_y2": "780",
-        "reserves": "9,200"
+        "production_y1": "1,020",
+        "production_y2": "e1,000",
+        "reserves": "11,000"
       },
       {
         "country": "World total (rounded)",
-        "production_y1": "3,250",
+        "production_y1": "3,280",
         "production_y2": "3,300",
-        "reserves": "64,000"
+        "reserves": "66,000"
       }
     ]
   },
   "silver": {
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-silver.pdf",
-    "production_unit": "metric tons, silver content",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silver.pdf",
+    "production_unit": "metric tons",
     "reserves_unit": "metric tons",
-    "year1": "2023",
-    "year2": "2024e",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "1,020",
-        "production_y2": "1,100",
+        "production_y1": "1,050",
+        "production_y2": "e1,100",
         "reserves": "23,000"
       },
       {
         "country": "Argentina",
-        "production_y1": "808",
-        "production_y2": "800",
+        "production_y1": "774",
+        "production_y2": "e800",
         "reserves": "6,500"
       },
       {
         "country": "Australia",
-        "production_y1": "1,030",
-        "production_y2": "1,000",
-        "reserves": "94,000"
+        "production_y1": "1,050",
+        "production_y2": "e1,000",
+        "reserves": "91,000"
       },
       {
         "country": "Bolivia",
-        "production_y1": "1,350",
-        "production_y2": "1,300",
+        "production_y1": "1,490",
+        "production_y2": "e1,500",
         "reserves": "22,000"
       },
       {
         "country": "Canada",
-        "production_y1": "306",
-        "production_y2": "300",
+        "production_y1": "e366",
+        "production_y2": "e400",
         "reserves": "4,900"
       },
       {
         "country": "Chile",
-        "production_y1": "1,260",
-        "production_y2": "1,200",
-        "reserves": "26,000"
+        "production_y1": "e1,200",
+        "production_y2": "e1,400",
+        "reserves": "33,000"
       },
       {
         "country": "China",
-        "production_y1": "3,400",
-        "production_y2": "3,300",
-        "reserves": "70,000"
+        "production_y1": "3,430",
+        "production_y2": "e3,400",
+        "reserves": "67,000"
       },
       {
         "country": "India",
-        "production_y1": "813",
-        "production_y2": "800",
+        "production_y1": "700",
+        "production_y2": "e800",
         "reserves": "8,000"
       },
       {
         "country": "Kazakhstan",
-        "production_y1": "985",
-        "production_y2": "1,000",
+        "production_y1": "e850",
+        "production_y2": "e630",
         "reserves": "NA"
       },
       {
         "country": "Mexico",
-        "production_y1": "6,290",
-        "production_y2": "6,300",
+        "production_y1": "5,780",
+        "production_y2": "e6,300",
         "reserves": "37,000"
       },
       {
         "country": "Peru",
-        "production_y1": "3,200",
-        "production_y2": "3,100",
-        "reserves": "140,000"
+        "production_y1": "3,510",
+        "production_y2": "e3,600",
+        "reserves": "110,000"
       },
       {
         "country": "Poland",
         "production_y1": "1,320",
-        "production_y2": "1,300",
-        "reserves": "61,000"
+        "production_y2": "e1,300",
+        "reserves": "59,000"
       },
       {
         "country": "Russia",
-        "production_y1": "1,240",
-        "production_y2": "1,200",
+        "production_y1": "1,280",
+        "production_y2": "e1,200",
         "reserves": "92,000"
       },
       {
         "country": "Sweden",
-        "production_y1": "404",
-        "production_y2": "400",
+        "production_y1": "432",
+        "production_y2": "e400",
         "reserves": "NA"
       },
       {
         "country": "Other countries",
-        "production_y1": "2,050",
-        "production_y2": "2,100",
+        "production_y1": "2,110",
+        "production_y2": "e2,100",
         "reserves": "57,000"
       },
       {
         "country": "World total (rounded)",
-        "production_y1": "25,500",
-        "production_y2": "25,000",
-        "reserves": "640,000"
+        "production_y1": "25,300",
+        "production_y2": "26,000",
+        "reserves": "610,000"
       }
     ]
   },
   "lithium": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons of lithium content",
-    "reserves_unit": "metric tons of lithium content",
-    "year1": "2024e",
-    "year2": null,
-    "has_two_years": false,
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "metric tons",
+    "year1": "2024",
+    "year2": "2025e",
+    "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
         "production_y1": "W",
-        "reserves": "1,800,000"
+        "production_y2": "W",
+        "reserves": "4,400,000"
       },
       {
         "country": "Argentina",
-        "production_y1": "18,000",
-        "reserves": "4,000,000"
+        "production_y1": "13,800",
+        "production_y2": "e23,000",
+        "reserves": "4,400,000"
       },
       {
         "country": "Australia",
-        "production_y1": "88,000",
-        "reserves": "57,000,000"
+        "production_y1": "e82,700",
+        "production_y2": "e92,000",
+        "reserves": "8,400,000"
       },
       {
         "country": "Brazil",
-        "production_y1": "10,000",
-        "reserves": "390,000"
+        "production_y1": "e10,200",
+        "production_y2": "e12,000",
+        "reserves": "540,000"
       },
       {
         "country": "Canada",
-        "production_y1": "4,300",
-        "reserves": "1,200,000"
+        "production_y1": "e4,820",
+        "production_y2": "e5,600",
+        "reserves": "1,600,000"
       },
       {
         "country": "Chile",
-        "production_y1": "49,000",
-        "reserves": "9,300,000"
+        "production_y1": "48,900",
+        "production_y2": "e56,000",
+        "reserves": "9,200,000"
       },
       {
         "country": "China",
-        "production_y1": "41,000",
-        "reserves": "3,000,000"
+        "production_y1": "e41,400",
+        "production_y2": "e62,000",
+        "reserves": "4,600,000"
       },
       {
-        "country": "Namibia",
-        "production_y1": "2,700",
-        "reserves": "14,000"
+        "country": "Mali",
+        "production_y1": "e770",
+        "production_y2": "e9,400",
+        "reserves": "370,000"
       },
       {
         "country": "Portugal",
-        "production_y1": "380",
+        "production_y1": "e380",
+        "production_y2": "e380",
         "reserves": "60,000"
       },
       {
         "country": "Zimbabwe",
-        "production_y1": "22,000",
-        "reserves": "480,000"
+        "production_y1": "e20,000",
+        "production_y2": "e28,000",
+        "reserves": "500,000"
       },
       {
         "country": "Other countries",
-        "production_y1": "—",
-        "reserves": "2,800,000"
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": "2,400,000"
       },
       {
-        "country": "World total",
-        "production_y1": "240,000",
-        "reserves": "30,000,000"
+        "country": "World total (rounded)",
+        "production_y1": "222,000",
+        "production_y2": "290,000",
+        "reserves": "37,000,000"
       }
     ]
   },
   "cobalt": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons of cobalt content",
-    "reserves_unit": "metric tons of cobalt content",
-    "year1": "2023",
-    "year2": "2024e",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "metric tons",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "500",
-        "production_y2": "300",
+        "production_y1": "e200",
+        "production_y2": "e300",
         "reserves": "70,000"
       },
       {
         "country": "Australia",
-        "production_y1": "5,220",
-        "production_y2": "3,600",
+        "production_y1": "e4,780",
+        "production_y2": "e3,700",
         "reserves": "1,700,000"
       },
       {
         "country": "Canada",
-        "production_y1": "4,220",
-        "production_y2": "4,500",
+        "production_y1": "e3,350",
+        "production_y2": "e3,500",
         "reserves": "220,000"
       },
       {
+        "country": "China",
+        "production_y1": "e2,000",
+        "production_y2": "e2,000",
+        "reserves": "160,000"
+      },
+      {
         "country": "Congo (Kinshasa)",
-        "production_y1": "175,000",
-        "production_y2": "220,000",
+        "production_y1": "e226,000",
+        "production_y2": "e230,000",
         "reserves": "6,000,000"
       },
       {
         "country": "Cuba",
-        "production_y1": "3,300",
-        "production_y2": "3,500",
+        "production_y1": "e3,450",
+        "production_y2": "e2,000",
         "reserves": "500,000"
       },
       {
         "country": "Indonesia",
-        "production_y1": "19,000",
-        "production_y2": "28,000",
-        "reserves": "640,000"
+        "production_y1": "e35,000",
+        "production_y2": "e44,000",
+        "reserves": "760,000"
       },
       {
         "country": "Madagascar",
-        "production_y1": "4,000",
-        "production_y2": "2,600",
+        "production_y1": "e3,100",
+        "production_y2": "e3,900",
         "reserves": "100,000"
       },
       {
-        "country": "New Caledonia",
-        "production_y1": "2,570",
-        "production_y2": "1,500",
-        "reserves": "NA"
-      },
-      {
         "country": "Papua New Guinea",
-        "production_y1": "3,070",
-        "production_y2": "2,800",
-        "reserves": "62,000"
+        "production_y1": "e2,630",
+        "production_y2": "e2,800",
+        "reserves": "84,000"
       },
       {
         "country": "Philippines",
-        "production_y1": "3,800",
-        "production_y2": "3,800",
+        "production_y1": "e3,100",
+        "production_y2": "e3,700",
         "reserves": "260,000"
       },
       {
         "country": "Russia",
-        "production_y1": "8,700",
-        "production_y2": "8,700",
-        "reserves": "250,000"
+        "production_y1": "e8,000",
+        "production_y2": "e7,700",
+        "reserves": "800,000"
       },
       {
         "country": "Turkey",
-        "production_y1": "2,500",
-        "production_y2": "2,700",
+        "production_y1": "e2,200",
+        "production_y2": "e1,900",
         "reserves": "91,000"
       },
       {
         "country": "Other countries",
-        "production_y1": "6,080",
-        "production_y2": "6,200",
-        "reserves": "800,000"
+        "production_y1": "e7,780",
+        "production_y2": "e9,100",
+        "reserves": "780,000"
       },
       {
-        "country": "World total",
-        "production_y1": "238,000",
-        "production_y2": "290,000",
-        "reserves": "11,000,000"
+        "country": "World total (rounded)",
+        "production_y1": "302,000",
+        "production_y2": "310,000",
+        "reserves": "12,000,000"
       }
     ]
   },
   "rare_earths": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons, rare-earth-oxide (REO) equivalent",
-    "reserves_unit": "metric tons, rare-earth-oxide (REO) equivalent (gross weight)",
-    "year1": "2023",
-    "year2": "2024e",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "metric tons",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "41,600",
-        "production_y2": "45,000",
+        "production_y1": "45,500",
+        "production_y2": "e51,000",
         "reserves": "1,900,000"
       },
       {
         "country": "Australia",
-        "production_y1": "16,000",
-        "production_y2": "13,000",
-        "reserves": "5,700,000"
+        "production_y1": "e29,000",
+        "production_y2": "e29,000",
+        "reserves": "6,300,000"
       },
       {
         "country": "Brazil",
-        "production_y1": "140",
-        "production_y2": "20",
+        "production_y1": "e560",
+        "production_y2": "e2,000",
         "reserves": "21,000,000"
       },
       {
         "country": "Burma",
-        "production_y1": "43,000",
-        "production_y2": "31,000",
+        "production_y1": "e27,000",
+        "production_y2": "e22,000",
         "reserves": "NA"
       },
       {
         "country": "Canada",
-        "production_y1": "—",
-        "production_y2": "—",
+        "production_y1": "",
+        "production_y2": "",
         "reserves": "830,000"
       },
       {
         "country": "China",
-        "production_y1": "255,000",
-        "production_y2": "270,000",
+        "production_y1": "e270,000",
+        "production_y2": "e270,000",
         "reserves": "44,000,000"
       },
       {
         "country": "Greenland",
-        "production_y1": "—",
-        "production_y2": "—",
+        "production_y1": "",
+        "production_y2": "",
         "reserves": "1,500,000"
       },
       {
         "country": "India",
-        "production_y1": "2,900",
-        "production_y2": "2,900",
-        "reserves": "6,900,000"
+        "production_y1": "e2,900",
+        "production_y2": "e2,900",
+        "reserves": "NA"
       },
       {
         "country": "Madagascar",
-        "production_y1": "2,100",
-        "production_y2": "2,000",
+        "production_y1": "e1,400",
+        "production_y2": "e2,700",
         "reserves": "NA"
       },
       {
         "country": "Malaysia",
-        "production_y1": "310",
-        "production_y2": "130",
-        "reserves": "NA"
+        "production_y1": "e140",
+        "production_y2": "e110",
+        "reserves": "710,000"
       },
       {
         "country": "Nigeria",
-        "production_y1": "7,200",
-        "production_y2": "13,000",
+        "production_y1": "e1,500",
+        "production_y2": "e1,500",
         "reserves": "NA"
       },
       {
         "country": "Russia",
-        "production_y1": "2,500",
-        "production_y2": "2,500",
+        "production_y1": "e2,600",
+        "production_y2": "e2,600",
         "reserves": "3,800,000"
       },
       {
         "country": "South Africa",
-        "production_y1": "—",
-        "production_y2": "—",
+        "production_y1": "",
+        "production_y2": "",
         "reserves": "860,000"
       },
       {
         "country": "Tanzania",
-        "production_y1": "—",
-        "production_y2": "—",
+        "production_y1": "",
+        "production_y2": "",
         "reserves": "890,000"
       },
       {
         "country": "Thailand",
-        "production_y1": "3,600",
-        "production_y2": "13,000",
-        "reserves": "4,500"
-      },
-      {
-        "country": "Vietnam",
-        "production_y1": "300",
-        "production_y2": "300",
-        "reserves": "3,500,000"
-      },
-      {
-        "country": "Other",
-        "production_y1": "1,440",
-        "production_y2": "1,100",
+        "production_y1": "e2,100",
+        "production_y2": "e4,800",
         "reserves": "NA"
       },
       {
-        "country": "World total",
-        "production_y1": "376,000",
+        "country": "Vietnam",
+        "production_y1": "e300",
+        "production_y2": "e150",
+        "reserves": "3,500,000"
+      },
+      {
+        "country": "Other countries",
+        "production_y1": "e1,000",
+        "production_y2": "e550",
+        "reserves": "NA"
+      },
+      {
+        "country": "World total (rounded)",
+        "production_y1": "380,000",
         "production_y2": "390,000",
-        "reserves": ">90,000,000"
+        "reserves": ">85,000,000"
       }
     ]
   },
   "tungsten": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons of tungsten content",
-    "reserves_unit": "metric tons of tungsten content",
-    "year1": "2023",
-    "year2": "2024e",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "metric tons",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
+        "production_y1": "",
+        "production_y2": "",
         "reserves": "NA"
       },
       {
         "country": "Australia",
-        "production_y1": "430",
-        "production_y2": "1,000",
+        "production_y1": "e920",
+        "production_y2": "e1,000",
         "reserves": "570,000"
       },
       {
         "country": "Austria",
-        "production_y1": "850",
-        "production_y2": "800",
+        "production_y1": "e840",
+        "production_y2": "e840",
         "reserves": "10,000"
       },
       {
         "country": "Bolivia",
-        "production_y1": "1,500",
-        "production_y2": "1,600",
+        "production_y1": "e1,700",
+        "production_y2": "e1,700",
         "reserves": "NA"
       },
       {
         "country": "China",
-        "production_y1": "66,000",
-        "production_y2": "67,000",
-        "reserves": "2,400,000"
+        "production_y1": "e67,000",
+        "production_y2": "e67,000",
+        "reserves": "2,500,000"
+      },
+      {
+        "country": "Kazakhstan",
+        "production_y1": "",
+        "production_y2": "e2,400",
+        "reserves": "NA"
       },
       {
         "country": "Korea, North",
-        "production_y1": "1,600",
-        "production_y2": "1,700",
+        "production_y1": "e1,900",
+        "production_y2": "e2,000",
         "reserves": "29,000"
       },
       {
         "country": "Portugal",
-        "production_y1": "450",
-        "production_y2": "500",
+        "production_y1": "e650",
+        "production_y2": "e700",
         "reserves": "3,400"
       },
       {
         "country": "Russia",
-        "production_y1": "2,000",
-        "production_y2": "2,000",
+        "production_y1": "e1,500",
+        "production_y2": "e2,000",
         "reserves": "400,000"
       },
       {
         "country": "Rwanda",
-        "production_y1": "1,200",
-        "production_y2": "1,200",
+        "production_y1": "e1,300",
+        "production_y2": "e1,300",
         "reserves": "NA"
       },
       {
         "country": "Spain",
-        "production_y1": "650",
-        "production_y2": "700",
+        "production_y1": "e700",
+        "production_y2": "e800",
         "reserves": "66,000"
       },
       {
         "country": "Vietnam",
-        "production_y1": "3,500",
-        "production_y2": "3,400",
-        "reserves": "140,000"
+        "production_y1": "e3,400",
+        "production_y2": "e3,000",
+        "reserves": "170,000"
       },
       {
         "country": "Other countries",
-        "production_y1": "1,320",
-        "production_y2": "1,500",
+        "production_y1": "e1,700",
+        "production_y2": "e2,400",
         "reserves": "950,000"
       },
       {
-        "country": "World total",
-        "production_y1": "79,500",
-        "production_y2": "81,000",
-        "reserves": ">4,600,000"
+        "country": "World total (rounded)",
+        "production_y1": "82,000",
+        "production_y2": "85,000",
+        "reserves": ">4,700,000"
       }
     ]
   },
   "vanadium": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons of vanadium content",
-    "reserves_unit": "thousand metric tons of vanadium content",
-    "year1": "2023",
-    "year2": "2024e",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-vanadium.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "metric tons",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "45"
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": "50"
       },
       {
         "country": "Australia",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "128,500"
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": "10,000"
       },
       {
         "country": "Brazil",
-        "production_y1": "5,420",
-        "production_y2": "5,000",
-        "reserves": "120"
+        "production_y1": "5,190",
+        "production_y2": "e5,300",
+        "reserves": "94"
       },
       {
         "country": "China",
-        "production_y1": "e70,000",
-        "production_y2": "70,000",
-        "reserves": "4,100"
+        "production_y1": "e84,000",
+        "production_y2": "e82,000",
+        "reserves": "5,800"
       },
       {
         "country": "Russia",
-        "production_y1": "e20,000",
-        "production_y2": "21,000",
+        "production_y1": "e21,000",
+        "production_y2": "e21,000",
         "reserves": "5,000"
       },
       {
         "country": "South Africa",
-        "production_y1": "8,670",
-        "production_y2": "8,000",
-        "reserves": "430"
+        "production_y1": "8,050",
+        "production_y2": "e5,000",
+        "reserves": "520"
       },
       {
-        "country": "World total",
-        "production_y1": "104,000",
-        "production_y2": "100,000",
-        "reserves": "18,000"
+        "country": "World total (rounded)",
+        "production_y1": "118,000",
+        "production_y2": "110,000",
+        "reserves": "21,000"
       }
     ]
   },
   "manganese": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "thousand metric tons of manganese content",
-    "reserves_unit": "thousand metric tons of manganese content",
-    "year1": "2023",
-    "year2": "2024e",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf",
+    "production_unit": "thousand metric tons",
+    "reserves_unit": "thousand metric tons",
+    "year1": "2024",
+    "year2": "2025e",
     "has_two_years": true,
     "has_reserves": true,
     "countries": [
       {
         "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "—"
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": ""
       },
       {
         "country": "Australia",
-        "production_y1": "2,860",
-        "production_y2": "2,800",
-        "reserves": "500,000"
+        "production_y1": "e1,600",
+        "production_y2": "e1,600",
+        "reserves": "580,000"
       },
       {
         "country": "Brazil",
-        "production_y1": "580",
-        "production_y2": "590",
-        "reserves": "270,000"
+        "production_y1": "705",
+        "production_y2": "e800",
+        "reserves": "300,000"
       },
       {
         "country": "China",
-        "production_y1": "767",
-        "production_y2": "770",
-        "reserves": "280,000"
+        "production_y1": "690",
+        "production_y2": "e700",
+        "reserves": "260,000"
       },
       {
         "country": "Côte d'Ivoire",
-        "production_y1": "357",
-        "production_y2": "360",
+        "production_y1": "340",
+        "production_y2": "e350",
         "reserves": "NA"
       },
       {
         "country": "Gabon",
-        "production_y1": "4,490",
-        "production_y2": "4,600",
+        "production_y1": "4,640",
+        "production_y2": "e5,000",
         "reserves": "61,000"
       },
       {
         "country": "Ghana",
-        "production_y1": "818",
-        "production_y2": "820",
+        "production_y1": "1,280",
+        "production_y2": "e2,000",
         "reserves": "13,000"
       },
       {
         "country": "India",
-        "production_y1": "744",
-        "production_y2": "800",
+        "production_y1": "731",
+        "production_y2": "e790",
         "reserves": "34,000"
       },
       {
-        "country": "Malaysia",
-        "production_y1": "410",
-        "production_y2": "410",
-        "reserves": "NA"
-      },
-      {
         "country": "South Africa",
-        "production_y1": "7,300",
-        "production_y2": "7,400",
-        "reserves": "560,000"
+        "production_y1": "7,490",
+        "production_y2": "e7,600",
+        "reserves": "550,000"
       },
       {
         "country": "Other countries",
-        "production_y1": "1,230",
-        "production_y2": "1,300",
+        "production_y1": "1,240",
+        "production_y2": "e1,300",
         "reserves": "Small"
       },
       {
-        "country": "World total",
-        "production_y1": "19,600",
+        "country": "World total (rounded)",
+        "production_y1": "18,700",
         "production_y2": "20,000",
         "reserves": "1,700,000"
       }
     ]
+  },
+  "molybdenum": {
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-molybdenum.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "thousand metric tons",
+    "year1": "2024",
+    "year2": "2025e",
+    "has_two_years": true,
+    "has_reserves": true,
+    "countries": [
+      {
+        "country": "United States",
+        "production_y1": "34,000",
+        "production_y2": "e40,000",
+        "reserves": "3,500"
+      },
+      {
+        "country": "Armenia",
+        "production_y1": "e8,200",
+        "production_y2": "e5,300",
+        "reserves": "150"
+      },
+      {
+        "country": "Australia",
+        "production_y1": "600",
+        "production_y2": "e1,000",
+        "reserves": "760"
+      },
+      {
+        "country": "Canada",
+        "production_y1": "1,540",
+        "production_y2": "e2,200",
+        "reserves": "64"
+      },
+      {
+        "country": "Chile",
+        "production_y1": "38,500",
+        "production_y2": "e42,000",
+        "reserves": "2,600"
+      },
+      {
+        "country": "China",
+        "production_y1": "e100,000",
+        "production_y2": "e97,000",
+        "reserves": "7,800"
+      },
+      {
+        "country": "Iran",
+        "production_y1": "e2,900",
+        "production_y2": "e3,300",
+        "reserves": "43"
+      },
+      {
+        "country": "Kazakhstan",
+        "production_y1": "4,080",
+        "production_y2": "e4,300",
+        "reserves": "7"
+      },
+      {
+        "country": "Korea, North",
+        "production_y1": "e800",
+        "production_y2": "e800",
+        "reserves": "78"
+      },
+      {
+        "country": "Korea, Republic of",
+        "production_y1": "340",
+        "production_y2": "e500",
+        "reserves": "8"
+      },
+      {
+        "country": "Mexico",
+        "production_y1": "16,200",
+        "production_y2": "e17,000",
+        "reserves": "130"
+      },
+      {
+        "country": "Mongolia",
+        "production_y1": "3,110",
+        "production_y2": "e4,200",
+        "reserves": "10"
+      },
+      {
+        "country": "Peru",
+        "production_y1": "41,900",
+        "production_y2": "e39,000",
+        "reserves": "1,000"
+      },
+      {
+        "country": "Russia",
+        "production_y1": "e1,500",
+        "production_y2": "e1,300",
+        "reserves": "1,100"
+      },
+      {
+        "country": "Uzbekistan",
+        "production_y1": "e2,100",
+        "production_y2": "e2,000",
+        "reserves": "21"
+      },
+      {
+        "country": "Other countries",
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": "150"
+      },
+      {
+        "country": "World total (rounded)",
+        "production_y1": "256,000",
+        "production_y2": "260,000",
+        "reserves": "17,000"
+      }
+    ]
+  },
+  "chromium": {
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-chromium.pdf",
+    "production_unit": "thousand metric tons",
+    "reserves_unit": "thousand metric tons",
+    "year1": "2024",
+    "year2": "2025e",
+    "has_two_years": true,
+    "has_reserves": true,
+    "countries": [
+      {
+        "country": "United States",
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": "8,500"
+      },
+      {
+        "country": "Brazil",
+        "production_y1": "e1,400",
+        "production_y2": "e2,000",
+        "reserves": "3,900"
+      },
+      {
+        "country": "Finland",
+        "production_y1": "1,940",
+        "production_y2": "e1,900",
+        "reserves": "63,000"
+      },
+      {
+        "country": "India",
+        "production_y1": "3,370",
+        "production_y2": "e3,000",
+        "reserves": "79,000"
+      },
+      {
+        "country": "Kazakhstan",
+        "production_y1": "e6,100",
+        "production_y2": "e7,000",
+        "reserves": "230,000"
+      },
+      {
+        "country": "South Africa",
+        "production_y1": "22,900",
+        "production_y2": "e23,000",
+        "reserves": "350,000"
+      },
+      {
+        "country": "Turkey",
+        "production_y1": "9,300",
+        "production_y2": "e9,000",
+        "reserves": "27,000"
+      },
+      {
+        "country": "Zimbabwe",
+        "production_y1": "1,600",
+        "production_y2": "e2,000",
+        "reserves": "140,000"
+      },
+      {
+        "country": "Other countries",
+        "production_y1": "3,000",
+        "production_y2": "e3,000",
+        "reserves": "NA"
+      },
+      {
+        "country": "World total (rounded)",
+        "production_y1": "49,600",
+        "production_y2": "51,000",
+        "reserves": ">1,200,000"
+      }
+    ]
+  },
+  "antimony": {
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-antimony.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "metric tons",
+    "year1": "2024",
+    "year2": "2025e",
+    "has_two_years": true,
+    "has_reserves": true,
+    "countries": [
+      {
+        "country": "United States",
+        "production_y1": "",
+        "production_y2": "W",
+        "reserves": "60,000"
+      },
+      {
+        "country": "Australia",
+        "production_y1": "1,270",
+        "production_y2": "e1,300",
+        "reserves": "110,000"
+      },
+      {
+        "country": "Bolivia",
+        "production_y1": "5,300",
+        "production_y2": "e5,000",
+        "reserves": "310,000"
+      },
+      {
+        "country": "Burma",
+        "production_y1": "e4,500",
+        "production_y2": "e4,500",
+        "reserves": "140,000"
+      },
+      {
+        "country": "Canada",
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": "78,000"
+      },
+      {
+        "country": "China",
+        "production_y1": "e40,000",
+        "production_y2": "e40,000",
+        "reserves": "830,000"
+      },
+      {
+        "country": "Guatemala",
+        "production_y1": "e50",
+        "production_y2": "e50",
+        "reserves": "NA"
+      },
+      {
+        "country": "Iran",
+        "production_y1": "e90",
+        "production_y2": "e90",
+        "reserves": "NA"
+      },
+      {
+        "country": "Kazakhstan",
+        "production_y1": "e800",
+        "production_y2": "e800",
+        "reserves": "NA"
+      },
+      {
+        "country": "Kyrgyzstan",
+        "production_y1": "e700",
+        "production_y2": "e700",
+        "reserves": "260,000"
+      },
+      {
+        "country": "Laos",
+        "production_y1": "e200",
+        "production_y2": "e200",
+        "reserves": "NA"
+      },
+      {
+        "country": "Mexico",
+        "production_y1": "600",
+        "production_y2": "e600",
+        "reserves": "18,000"
+      },
+      {
+        "country": "Pakistan",
+        "production_y1": "260",
+        "production_y2": "e260",
+        "reserves": "26,000"
+      },
+      {
+        "country": "Russia",
+        "production_y1": "e40,000",
+        "production_y2": "e32,000",
+        "reserves": "350,000"
+      },
+      {
+        "country": "Tajikistan",
+        "production_y1": "e22,000",
+        "production_y2": "e22,000",
+        "reserves": "60,000"
+      },
+      {
+        "country": "Turkey",
+        "production_y1": "e3,000",
+        "production_y2": "e3,000",
+        "reserves": "99,000"
+      },
+      {
+        "country": "Vietnam",
+        "production_y1": "e220",
+        "production_y2": "e220",
+        "reserves": "54,000"
+      },
+      {
+        "country": "World total (rounded)",
+        "production_y1": "119,000",
+        "production_y2": "110,000",
+        "reserves": ">2,000,000"
+      }
+    ]
+  },
+  "gallium": {
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf",
+    "production_unit": "kilograms",
+    "reserves_unit": null,
+    "year1": "2024",
+    "year2": "2025e",
+    "has_two_years": true,
+    "has_reserves": false,
+    "countries": [
+      {
+        "country": "United States",
+        "production_y1": "",
+        "production_y2": ""
+      },
+      {
+        "country": "China",
+        "production_y1": "839,000",
+        "production_y2": "e900,000"
+      },
+      {
+        "country": "Japan",
+        "production_y1": "e3,000",
+        "production_y2": "e3,000"
+      },
+      {
+        "country": "Russia",
+        "production_y1": "e6,000",
+        "production_y2": "e6,000"
+      },
+      {
+        "country": "Other countries",
+        "production_y1": "e",
+        "production_y2": "e"
+      },
+      {
+        "country": "World total (rounded)",
+        "production_y1": "848,000",
+        "production_y2": "900,000"
+      }
+    ]
+  },
+  "graphite": {
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+    "production_unit": "metric tons",
+    "reserves_unit": "metric tons",
+    "year1": "2024",
+    "year2": "2025e",
+    "has_two_years": true,
+    "has_reserves": true,
+    "countries": [
+      {
+        "country": "United States",
+        "production_y1": "",
+        "production_y2": "",
+        "reserves": "s"
+      },
+      {
+        "country": "Austria",
+        "production_y1": "100",
+        "production_y2": "e200",
+        "reserves": "s"
+      },
+      {
+        "country": "Brazil",
+        "production_y1": "58,000",
+        "production_y2": "e65,000",
+        "reserves": "74,000,000"
+      },
+      {
+        "country": "Canada",
+        "production_y1": "11,700",
+        "production_y2": "e8,000",
+        "reserves": "5900000"
+      },
+      {
+        "country": "China",
+        "production_y1": "1,270,000",
+        "production_y2": "e1,400,000",
+        "reserves": "100,000,000"
+      },
+      {
+        "country": "Germany",
+        "production_y1": "140",
+        "production_y2": "e140",
+        "reserves": "s"
+      },
+      {
+        "country": "India",
+        "production_y1": "17,600",
+        "production_y2": "e17,000",
+        "reserves": "8,600,000"
+      },
+      {
+        "country": "Korea, North",
+        "production_y1": "e8,100",
+        "production_y2": "e8,000",
+        "reserves": "2,000,000"
+      },
+      {
+        "country": "Korea, Republic of",
+        "production_y1": "1,000",
+        "production_y2": "e500",
+        "reserves": "1,800,000"
+      },
+      {
+        "country": "Madagascar",
+        "production_y1": "85,000",
+        "production_y2": "e80,000",
+        "reserves": "27,000,000"
+      },
+      {
+        "country": "Mexico",
+        "production_y1": "706",
+        "production_y2": "e740",
+        "reserves": "3,100,000"
+      },
+      {
+        "country": "Mozambique",
+        "production_y1": "39,000",
+        "production_y2": "e60,000",
+        "reserves": "25,000,000"
+      },
+      {
+        "country": "Norway",
+        "production_y1": "5,340",
+        "production_y2": "e6,600",
+        "reserves": "600,000"
+      },
+      {
+        "country": "Russia",
+        "production_y1": "e20,000",
+        "production_y2": "e25,000",
+        "reserves": "14000000"
+      },
+      {
+        "country": "Sri Lanka",
+        "production_y1": "3,000",
+        "production_y2": "e3,200",
+        "reserves": "1,500,000"
+      },
+      {
+        "country": "Tanzania",
+        "production_y1": "e27,000",
+        "production_y2": "e75,000",
+        "reserves": "18,000,000"
+      },
+      {
+        "country": "Turkey",
+        "production_y1": "2,600",
+        "production_y2": "e2,200",
+        "reserves": "6,900,000"
+      },
+      {
+        "country": "Ukraine",
+        "production_y1": "900",
+        "production_y2": "e800",
+        "reserves": "s"
+      },
+      {
+        "country": "Vietnam",
+        "production_y1": "500",
+        "production_y2": "e500",
+        "reserves": "9700000"
+      },
+      {
+        "country": "World total (rounded)",
+        "production_y1": "1,550,000",
+        "production_y2": "1,800,000",
+        "reserves": "310,000,000"
+      }
+    ]
+  },
+  "iron_ore": {
+    "type": "multi_table",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-ore.pdf",
+    "production_unit": "thousand metric tons / million metric tons",
+    "reserves_unit": "million metric tons",
+    "sub_tables": {
+      "usable_ore": {
+        "label": "Usable Ore Production",
+        "source": "USGS Mineral Commodity Summaries 2026",
+        "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-ore.pdf",
+        "production_unit": "thousand metric tons, usable ore",
+        "reserves_unit": "million metric tons, crude ore",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": true,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "45,100",
+            "production_y2": "e38,000",
+            "reserves": "3,600"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "982,000",
+            "production_y2": "e980,000",
+            "reserves": "59,000"
+          },
+          {
+            "country": "Brazil",
+            "production_y1": "428,000",
+            "production_y2": "e420,000",
+            "reserves": "34,000"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "70,000",
+            "production_y2": "e69,000",
+            "reserves": "6,000"
+          },
+          {
+            "country": "Chile",
+            "production_y1": "e18,000",
+            "production_y2": "e19,000",
+            "reserves": "3,000"
+          },
+          {
+            "country": "China",
+            "production_y1": "293,000",
+            "production_y2": "e290,000",
+            "reserves": "17,000"
+          },
+          {
+            "country": "India",
+            "production_y1": "282,000",
+            "production_y2": "e310,000",
+            "reserves": "5,500"
+          },
+          {
+            "country": "Iran",
+            "production_y1": "e90,000",
+            "production_y2": "e93,000",
+            "reserves": "4,200"
+          },
+          {
+            "country": "Kazakhstan",
+            "production_y1": "37,000",
+            "production_y2": "e35,000",
+            "reserves": "3,800"
+          },
+          {
+            "country": "Mauritania",
+            "production_y1": "14,300",
+            "production_y2": "e15,000",
+            "reserves": "10,000"
+          },
+          {
+            "country": "Mexico",
+            "production_y1": "7,800",
+            "production_y2": "e7,700",
+            "reserves": "940"
+          },
+          {
+            "country": "Peru",
+            "production_y1": "19,800",
+            "production_y2": "e21,000",
+            "reserves": "1,800"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "e91,000",
+            "production_y2": "e86,000",
+            "reserves": "35,000"
+          },
+          {
+            "country": "South Africa",
+            "production_y1": "e64,000",
+            "production_y2": "e66,000",
+            "reserves": "1,200"
+          },
+          {
+            "country": "Sweden",
+            "production_y1": "e25,000",
+            "production_y2": "e26,000",
+            "reserves": "1,300"
+          },
+          {
+            "country": "Turkey",
+            "production_y1": "e17,000",
+            "production_y2": "e18,000",
+            "reserves": "150"
+          },
+          {
+            "country": "Ukraine",
+            "production_y1": "54,700",
+            "production_y2": "e52,000",
+            "reserves": "6,500"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "60,700",
+            "production_y2": "e64,000",
+            "reserves": "11,000"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "2,600,000",
+            "production_y2": "2,600,000",
+            "reserves": "200,000"
+          }
+        ]
+      },
+      "iron_content": {
+        "label": "Iron Content Production",
+        "source": "USGS Mineral Commodity Summaries 2026",
+        "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-ore.pdf",
+        "production_unit": "thousand metric tons, iron content",
+        "reserves_unit": "million metric tons, iron content",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": true,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "28,600",
+            "production_y2": "e24,000",
+            "reserves": "2700"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "607,000",
+            "production_y2": "e600,000",
+            "reserves": "27000"
+          },
+          {
+            "country": "Brazil",
+            "production_y1": "268,000",
+            "production_y2": "e260,000",
+            "reserves": "15000"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "42,000",
+            "production_y2": "e41,000",
+            "reserves": "2300"
+          },
+          {
+            "country": "Chile",
+            "production_y1": "e11,000",
+            "production_y2": "e12,000",
+            "reserves": "740"
+          },
+          {
+            "country": "China",
+            "production_y1": "183,000",
+            "production_y2": "e180,000",
+            "reserves": "3000"
+          },
+          {
+            "country": "India",
+            "production_y1": "175,000",
+            "production_y2": "e190,000",
+            "reserves": "3400"
+          },
+          {
+            "country": "Iran",
+            "production_y1": "e59,000",
+            "production_y2": "e61,000",
+            "reserves": "1500"
+          },
+          {
+            "country": "Kazakhstan",
+            "production_y1": "11,100",
+            "production_y2": "e11,000",
+            "reserves": "1500"
+          },
+          {
+            "country": "Mauritania",
+            "production_y1": "8,940",
+            "production_y2": "e9,300",
+            "reserves": "4400"
+          },
+          {
+            "country": "Mexico",
+            "production_y1": "4,900",
+            "production_y2": "e4,800",
+            "reserves": "520"
+          },
+          {
+            "country": "Peru",
+            "production_y1": "13,300",
+            "production_y2": "e14,000",
+            "reserves": "1000"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "e53,000",
+            "production_y2": "e50,000",
+            "reserves": "14000"
+          },
+          {
+            "country": "South Africa",
+            "production_y1": "e41,000",
+            "production_y2": "e42,000",
+            "reserves": "680"
+          },
+          {
+            "country": "Sweden",
+            "production_y1": "e18,000",
+            "production_y2": "e18,000",
+            "reserves": "600"
+          },
+          {
+            "country": "Turkey",
+            "production_y1": "e11,000",
+            "production_y2": "e11,000",
+            "reserves": "99"
+          },
+          {
+            "country": "Ukraine",
+            "production_y1": "34,000",
+            "production_y2": "e32,000",
+            "reserves": "2300"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "34,700",
+            "production_y2": "e36,000",
+            "reserves": "6000"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "1,600,000",
+            "production_y2": "1,600,000",
+            "reserves": "87000"
+          }
+        ]
+      }
+    }
+  },
+  "aluminium": {
+    "type": "multi_table",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bauxite-alumina.pdf",
+    "sub_tables": {
+      "bauxite": {
+        "label": "Bauxite Mine Production",
+        "source": "USGS Mineral Commodity Summaries 2026",
+        "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bauxite-alumina.pdf",
+        "production_unit": "thousand metric tons, dry weight",
+        "reserves_unit": "thousand metric tons",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": true,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "W",
+            "production_y2": "W",
+            "reserves": "20,000"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "100,000",
+            "production_y2": "e97,000",
+            "reserves": "3,700,000"
+          },
+          {
+            "country": "Brazil",
+            "production_y1": "e33,000",
+            "production_y2": "e33,000",
+            "reserves": "1,700,000"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "",
+            "production_y2": "",
+            "reserves": ""
+          },
+          {
+            "country": "China",
+            "production_y1": "e80,500",
+            "production_y2": "e87,000",
+            "reserves": "710,000"
+          },
+          {
+            "country": "Germany",
+            "production_y1": "",
+            "production_y2": "",
+            "reserves": ""
+          },
+          {
+            "country": "Greece",
+            "production_y1": "e970",
+            "production_y2": "e960",
+            "reserves": ""
+          },
+          {
+            "country": "Guinea",
+            "production_y1": "142,000",
+            "production_y2": "e150,000",
+            "reserves": "7,400,000"
+          },
+          {
+            "country": "India",
+            "production_y1": "25,000",
+            "production_y2": "e25,000",
+            "reserves": "650,000"
+          },
+          {
+            "country": "Indonesia",
+            "production_y1": "e9,900",
+            "production_y2": "e10,000",
+            "reserves": "2,900,000"
+          },
+          {
+            "country": "Ireland",
+            "production_y1": "",
+            "production_y2": "",
+            "reserves": ""
+          },
+          {
+            "country": "Jamaica",
+            "production_y1": "5,890",
+            "production_y2": "e6,200",
+            "reserves": "2,000,000"
+          },
+          {
+            "country": "Kazakhstan",
+            "production_y1": "4,780",
+            "production_y2": "e4,800",
+            "reserves": "160,000"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "5,470",
+            "production_y2": "e5,700",
+            "reserves": "650,000"
+          },
+          {
+            "country": "Saudi Arabia",
+            "production_y1": "e5,500",
+            "production_y2": "e5,700",
+            "reserves": "180,000"
+          },
+          {
+            "country": "Spain",
+            "production_y1": "",
+            "production_y2": "",
+            "reserves": ""
+          },
+          {
+            "country": "Turkey",
+            "production_y1": "3,660",
+            "production_y2": "e3,800",
+            "reserves": "69,000"
+          },
+          {
+            "country": "United Arab Emirates",
+            "production_y1": "",
+            "production_y2": "",
+            "reserves": ""
+          },
+          {
+            "country": "Vietnam",
+            "production_y1": "e3,710",
+            "production_y2": "e3,800",
+            "reserves": "3,100,000"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "7,780",
+            "production_y2": "e8,000",
+            "reserves": "5,300,000"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "428,000",
+            "production_y2": "440,000",
+            "reserves": "29,000,000"
+          }
+        ]
+      },
+      "alumina": {
+        "label": "Alumina Refinery Production",
+        "source": "USGS Mineral Commodity Summaries 2026",
+        "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bauxite-alumina.pdf",
+        "production_unit": "thousand metric tons, calcined equivalent weight",
+        "reserves_unit": null,
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": false,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "e700",
+            "production_y2": "e710"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "17,100",
+            "production_y2": "e17,000"
+          },
+          {
+            "country": "Brazil",
+            "production_y1": "e10,600",
+            "production_y2": "e11,000"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "1,460",
+            "production_y2": "e1,500"
+          },
+          {
+            "country": "China",
+            "production_y1": "85,500",
+            "production_y2": "e93,000"
+          },
+          {
+            "country": "Germany",
+            "production_y1": "e450",
+            "production_y2": "e460"
+          },
+          {
+            "country": "Greece",
+            "production_y1": "865",
+            "production_y2": "e850"
+          },
+          {
+            "country": "Guinea",
+            "production_y1": "351",
+            "production_y2": "e360"
+          },
+          {
+            "country": "India",
+            "production_y1": "e8,000",
+            "production_y2": "e8,200"
+          },
+          {
+            "country": "Indonesia",
+            "production_y1": "e1,200",
+            "production_y2": "e1,500"
+          },
+          {
+            "country": "Ireland",
+            "production_y1": "1,720",
+            "production_y2": "e1,700"
+          },
+          {
+            "country": "Jamaica",
+            "production_y1": "1,480",
+            "production_y2": "e1,500"
+          },
+          {
+            "country": "Kazakhstan",
+            "production_y1": "e1,400",
+            "production_y2": "e1,500"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "2,840",
+            "production_y2": "e2,900"
+          },
+          {
+            "country": "Saudi Arabia",
+            "production_y1": "1,870",
+            "production_y2": "e1,900"
+          },
+          {
+            "country": "Spain",
+            "production_y1": "e800",
+            "production_y2": "e810"
+          },
+          {
+            "country": "Turkey",
+            "production_y1": "e300",
+            "production_y2": "e310"
+          },
+          {
+            "country": "United Arab Emirates",
+            "production_y1": "2,540",
+            "production_y2": "e2,300"
+          },
+          {
+            "country": "Vietnam",
+            "production_y1": "1,410",
+            "production_y2": "e1,500"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "1,260",
+            "production_y2": "e1,300"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "142,000",
+            "production_y2": "150,000"
+          }
+        ]
+      },
+      "smelter": {
+        "label": "Primary Smelter Production",
+        "source": "USGS Mineral Commodity Summaries 2026",
+        "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bauxite-alumina.pdf",
+        "production_unit": "thousand metric tons",
+        "reserves_unit": null,
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": false,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "676",
+            "production_y2": "e660"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "1,570",
+            "production_y2": "e1,500"
+          },
+          {
+            "country": "Bahrain",
+            "production_y1": "1,620",
+            "production_y2": "e1,600"
+          },
+          {
+            "country": "Brazil",
+            "production_y1": "e1,100",
+            "production_y2": "e1,200"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "3,320",
+            "production_y2": "e3,300"
+          },
+          {
+            "country": "China",
+            "production_y1": "44,000",
+            "production_y2": "e45,000"
+          },
+          {
+            "country": "Iceland",
+            "production_y1": "742",
+            "production_y2": "e750"
+          },
+          {
+            "country": "India",
+            "production_y1": "e4,200",
+            "production_y2": "e4,200"
+          },
+          {
+            "country": "Malaysia",
+            "production_y1": "e1,050",
+            "production_y2": "e1,100"
+          },
+          {
+            "country": "Norway",
+            "production_y1": "e1,300",
+            "production_y2": "e1,300"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "3,880",
+            "production_y2": "e3,900"
+          },
+          {
+            "country": "United Arab Emirates",
+            "production_y1": "2,690",
+            "production_y2": "e2,700"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "6,680",
+            "production_y2": "e7,000"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "72,800",
+            "production_y2": "74,000"
+          }
+        ]
+      }
+    }
+  },
+  "pgm": {
+    "type": "multi_table",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-platinum-group.pdf",
+    "production_unit": "kilograms, PGM content",
+    "reserves_unit": "kilograms, PGM content",
+    "sub_tables": {
+      "platinum": {
+        "label": "Platinum Production",
+        "production_unit": "kilograms",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_reserves": false,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "3,010",
+            "production_y2": "e1,800"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "5,700",
+            "production_y2": "e5,000"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "e22,000",
+            "production_y2": "e20,000"
+          },
+          {
+            "country": "South Africa",
+            "production_y1": "126,000",
+            "production_y2": "e120,000"
+          },
+          {
+            "country": "Zimbabwe",
+            "production_y1": "18,400",
+            "production_y2": "e18,000"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "3,860",
+            "production_y2": "e3,900"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "179,000",
+            "production_y2": "170,000"
+          }
+        ]
+      },
+      "palladium": {
+        "label": "Palladium Production",
+        "production_unit": "kilograms",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_reserves": false,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "10,200",
+            "production_y2": "e6,200"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "17,000",
+            "production_y2": "e16,000"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "e89,000",
+            "production_y2": "e84,000"
+          },
+          {
+            "country": "South Africa",
+            "production_y1": "82,600",
+            "production_y2": "e70,000"
+          },
+          {
+            "country": "Zimbabwe",
+            "production_y1": "15,200",
+            "production_y2": "e15,000"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "2,870",
+            "production_y2": "e2,900"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "217,000",
+            "production_y2": "190,000"
+          }
+        ]
+      },
+      "reserves": {
+        "label": "PGM Reserves (Combined)",
+        "reserves_unit": "kilograms, PGM content",
+        "year1": null,
+        "year2": null,
+        "has_reserves": true,
+        "reserves_only": true,
+        "countries": [
+          {
+            "country": "United States",
+            "reserves": "590,000"
+          },
+          {
+            "country": "Canada",
+            "reserves": "310,000"
+          },
+          {
+            "country": "Russia",
+            "reserves": "e11,000,000"
+          },
+          {
+            "country": "South Africa",
+            "reserves": "63,000,000"
+          },
+          {
+            "country": "Zimbabwe",
+            "reserves": "1,300,000"
+          },
+          {
+            "country": "Other countries",
+            "reserves": "NA"
+          },
+          {
+            "country": "World total (rounded)",
+            "reserves": ">76,000,000"
+          }
+        ]
+      }
+    }
+  },
+  "titanium": {
+    "type": "multi_table",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium.pdf",
+    "production_unit": "thousand metric tons, TiO2 content",
+    "reserves_unit": "thousand metric tons, TiO2 content",
+    "sub_tables": {
+      "ilmenite": {
+        "label": "Ilmenite",
+        "source": "USGS Mineral Commodity Summaries 2026",
+        "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium.pdf",
+        "production_unit": "thousand metric tons, titanium dioxide (TiO2) content",
+        "reserves_unit": "thousand metric tons, titanium dioxide (TiO2) content",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": true,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "e100",
+            "production_y2": "e100",
+            "reserves": "2,000"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "e600",
+            "production_y2": "e780",
+            "reserves": "e170,000"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "e360",
+            "production_y2": "e360",
+            "reserves": "50,000"
+          },
+          {
+            "country": "China",
+            "production_y1": "e3,040",
+            "production_y2": "e3,200",
+            "reserves": "110,000"
+          },
+          {
+            "country": "India",
+            "production_y1": "e230",
+            "production_y2": "e240",
+            "reserves": "15,000"
+          },
+          {
+            "country": "Madagascar",
+            "production_y1": "e300",
+            "production_y2": "e300",
+            "reserves": "30,000"
+          },
+          {
+            "country": "Mozambique",
+            "production_y1": "e1,930",
+            "production_y2": "e1,900",
+            "reserves": "NA"
+          },
+          {
+            "country": "Norway",
+            "production_y1": "e432",
+            "production_y2": "e390",
+            "reserves": "37,000"
+          },
+          {
+            "country": "Senegal",
+            "production_y1": "e345",
+            "production_y2": "e370",
+            "reserves": "NA"
+          },
+          {
+            "country": "South Africa",
+            "production_y1": "e1,260",
+            "production_y2": "e1,300",
+            "reserves": "28,000"
+          },
+          {
+            "country": "Ukraine",
+            "production_y1": "e286",
+            "production_y2": "e200",
+            "reserves": "5,900"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "e332",
+            "production_y2": "e230",
+            "reserves": "46,000"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "9,210",
+            "production_y2": "9,400",
+            "reserves": "9,210"
+          }
+        ]
+      },
+      "rutile": {
+        "label": "Rutile",
+        "source": "USGS Mineral Commodity Summaries 2026",
+        "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium.pdf",
+        "production_unit": "thousand metric tons, titanium dioxide (TiO2) content",
+        "reserves_unit": "thousand metric tons, titanium dioxide (TiO2) content",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": true,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "es",
+            "production_y2": "es",
+            "reserves": "s"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "e200",
+            "production_y2": "e200",
+            "reserves": "e35,000"
+          },
+          {
+            "country": "India",
+            "production_y1": "e12",
+            "production_y2": "e13",
+            "reserves": "670"
+          },
+          {
+            "country": "Kenya",
+            "production_y1": "e41",
+            "production_y2": "",
+            "reserves": ""
+          },
+          {
+            "country": "Mozambique",
+            "production_y1": "e9",
+            "production_y2": "e10",
+            "reserves": "720"
+          },
+          {
+            "country": "Sierra Leone",
+            "production_y1": "e80",
+            "production_y2": "e110",
+            "reserves": "2,900"
+          },
+          {
+            "country": "South Africa",
+            "production_y1": "e102",
+            "production_y2": "e100",
+            "reserves": "6,200"
+          },
+          {
+            "country": "Ukraine",
+            "production_y1": "e9",
+            "production_y2": "e10",
+            "reserves": "2,500"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "e10",
+            "production_y2": "e9",
+            "reserves": ">540"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "460",
+            "production_y2": "450",
+            "reserves": "460"
+          }
+        ]
+      }
+    }
+  },
+  "magnesium": {
+    "type": "multi_table",
+    "source_url": null,
+    "sub_tables": {
+      "compounds": {
+        "label": "Magnesium Compounds",
+        "source_url": null,
+        "production_unit": "thousand metric tons, gross weight of magnesite (magnesium carbonate)",
+        "reserves_unit": "thousand metric tons, gross weight of magnesite",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": true,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "W",
+            "production_y2": "W",
+            "reserves": "35,000"
+          },
+          {
+            "country": "Australia",
+            "production_y1": "e410",
+            "production_y2": "e400",
+            "reserves": "280,000"
+          },
+          {
+            "country": "Austria",
+            "production_y1": "e664",
+            "production_y2": "e650",
+            "reserves": "49,000"
+          },
+          {
+            "country": "Brazil",
+            "production_y1": "e1,850",
+            "production_y2": "e1,800",
+            "reserves": "200,000"
+          },
+          {
+            "country": "Canada",
+            "production_y1": "e230",
+            "production_y2": "e230",
+            "reserves": "NA"
+          },
+          {
+            "country": "China",
+            "production_y1": "e12,900",
+            "production_y2": "e12,700",
+            "reserves": "700,000"
+          },
+          {
+            "country": "Greece",
+            "production_y1": "e134",
+            "production_y2": "e130",
+            "reserves": "280,000"
+          },
+          {
+            "country": "India",
+            "production_y1": "117",
+            "production_y2": "e85",
+            "reserves": "66,000"
+          },
+          {
+            "country": "Iran",
+            "production_y1": "e200",
+            "production_y2": "e200",
+            "reserves": "10,000"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "e1,690",
+            "production_y2": "e1,700",
+            "reserves": "2,300,000"
+          },
+          {
+            "country": "Slovakia",
+            "production_y1": "334",
+            "production_y2": "e330",
+            "reserves": "1,200,000"
+          },
+          {
+            "country": "Spain",
+            "production_y1": "e655",
+            "production_y2": "e640",
+            "reserves": "35,000"
+          },
+          {
+            "country": "Turkey",
+            "production_y1": "1,600",
+            "production_y2": "e1,600",
+            "reserves": "110,000"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "e341",
+            "production_y2": "e340",
+            "reserves": "2,500,000"
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "21,100",
+            "production_y2": "21,000",
+            "reserves": "7,800,000"
+          }
+        ]
+      },
+      "metal": {
+        "label": "Magnesium Metal",
+        "source_url": null,
+        "production_unit": "thousand metric tons of magnesium metal",
+        "reserves_unit": "No separate reserves table; resources large to virtually unlimited",
+        "year1": "2024",
+        "year2": "2025e",
+        "has_two_years": true,
+        "has_reserves": false,
+        "countries": [
+          {
+            "country": "United States",
+            "production_y1": "",
+            "production_y2": ""
+          },
+          {
+            "country": "Brazil",
+            "production_y1": "e20",
+            "production_y2": "e20"
+          },
+          {
+            "country": "China",
+            "production_y1": "953",
+            "production_y2": "e950"
+          },
+          {
+            "country": "Iran",
+            "production_y1": "e5",
+            "production_y2": "e5"
+          },
+          {
+            "country": "Israel",
+            "production_y1": "17",
+            "production_y2": "e20"
+          },
+          {
+            "country": "Kazakhstan",
+            "production_y1": "e15",
+            "production_y2": "e13"
+          },
+          {
+            "country": "Russia",
+            "production_y1": "e59",
+            "production_y2": "e60"
+          },
+          {
+            "country": "Turkey",
+            "production_y1": "e15",
+            "production_y2": "e15"
+          },
+          {
+            "country": "Other countries",
+            "production_y1": "",
+            "production_y2": ""
+          },
+          {
+            "country": "World total (rounded)",
+            "production_y1": "1,080",
+            "production_y2": "1,100"
+          }
+        ]
+      }
+    }
   },
   "uranium": {
     "source": "World Nuclear Association, 'World Uranium Mining Production', https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production (accessed 2025). NOTE: Uranium is not covered in USGS MCS 2025; WNA used per task instructions.",
@@ -1317,366 +2892,6 @@
       }
     ]
   },
-  "molybdenum": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons of molybdenum content",
-    "reserves_unit": "thousand metric tons of molybdenum content",
-    "year1": "2023",
-    "year2": "2024e",
-    "has_two_years": true,
-    "has_reserves": true,
-    "countries": [
-      {
-        "country": "United States",
-        "production_y1": "34,000",
-        "production_y2": "33,000",
-        "reserves": "3,500"
-      },
-      {
-        "country": "Argentina",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "100"
-      },
-      {
-        "country": "Armenia",
-        "production_y1": "e7,600",
-        "production_y2": "8,000",
-        "reserves": "150"
-      },
-      {
-        "country": "Australia",
-        "production_y1": "660",
-        "production_y2": "1,000",
-        "reserves": "690"
-      },
-      {
-        "country": "Canada",
-        "production_y1": "1,150",
-        "production_y2": "1,200",
-        "reserves": "64"
-      },
-      {
-        "country": "Chile",
-        "production_y1": "44,100",
-        "production_y2": "38,000",
-        "reserves": "1,400"
-      },
-      {
-        "country": "China",
-        "production_y1": "e96,000",
-        "production_y2": "110,000",
-        "reserves": "5,900"
-      },
-      {
-        "country": "Iran",
-        "production_y1": "e2,500",
-        "production_y2": "3,000",
-        "reserves": "43"
-      },
-      {
-        "country": "Kazakhstan",
-        "production_y1": "3,730",
-        "production_y2": "3,900",
-        "reserves": "7"
-      },
-      {
-        "country": "Korea, North",
-        "production_y1": "e400",
-        "production_y2": "700",
-        "reserves": "NA"
-      },
-      {
-        "country": "Korea, Republic of",
-        "production_y1": "339",
-        "production_y2": "300",
-        "reserves": "8"
-      },
-      {
-        "country": "Mexico",
-        "production_y1": "17,500",
-        "production_y2": "17,000",
-        "reserves": "130"
-      },
-      {
-        "country": "Mongolia",
-        "production_y1": "3,160",
-        "production_y2": "3,100",
-        "reserves": "10"
-      },
-      {
-        "country": "Peru",
-        "production_y1": "33,500",
-        "production_y2": "41,000",
-        "reserves": "1,900"
-      },
-      {
-        "country": "Russia",
-        "production_y1": "e1,700",
-        "production_y2": "1,700",
-        "reserves": "1,100"
-      },
-      {
-        "country": "Uzbekistan",
-        "production_y1": "e1,700",
-        "production_y2": "1,700",
-        "reserves": "21"
-      },
-      {
-        "country": "World total",
-        "production_y1": "248,000",
-        "production_y2": "260,000",
-        "reserves": "15,000"
-      }
-    ]
-  },
-  "chromium": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "thousand metric tons gross weight of chromite ore (marketable)",
-    "reserves_unit": "thousand metric tons gross weight of shipping-grade chromite ore (normalized to 45% Cr2O3, except US at 7% and Finland at 26%)",
-    "year1": "2023",
-    "year2": "2024e",
-    "has_two_years": true,
-    "has_reserves": true,
-    "countries": [
-      {
-        "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "630"
-      },
-      {
-        "country": "Brazil",
-        "production_y1": "1,420",
-        "production_y2": "1,400",
-        "reserves": "6,600"
-      },
-      {
-        "country": "Finland",
-        "production_y1": "1,910",
-        "production_y2": "1,900",
-        "reserves": "8,300"
-      },
-      {
-        "country": "India",
-        "production_y1": "4,100",
-        "production_y2": "4,100",
-        "reserves": "79,000"
-      },
-      {
-        "country": "Kazakhstan",
-        "production_y1": "6,000",
-        "production_y2": "6,500",
-        "reserves": "320,000"
-      },
-      {
-        "country": "South Africa",
-        "production_y1": "19,700",
-        "production_y2": "21,000",
-        "reserves": "200,000"
-      },
-      {
-        "country": "Turkey",
-        "production_y1": "8,160",
-        "production_y2": "8,000",
-        "reserves": "27,000"
-      },
-      {
-        "country": "Zimbabwe",
-        "production_y1": "1,070",
-        "production_y2": "1,100",
-        "reserves": "540,000"
-      },
-      {
-        "country": "Other countries",
-        "production_y1": "2,880",
-        "production_y2": "2,900",
-        "reserves": "NA"
-      },
-      {
-        "country": "World total",
-        "production_y1": "45,200",
-        "production_y2": "47,000",
-        "reserves": ">1,200,000"
-      }
-    ]
-  },
-  "antimony": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons of antimony content",
-    "reserves_unit": "metric tons of antimony content",
-    "year1": "2023",
-    "year2": "2024e",
-    "has_two_years": true,
-    "has_reserves": true,
-    "countries": [
-      {
-        "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "60,000"
-      },
-      {
-        "country": "Australia",
-        "production_y1": "1,860",
-        "production_y2": "2,000",
-        "reserves": "140,000"
-      },
-      {
-        "country": "Bolivia",
-        "production_y1": "3,700",
-        "production_y2": "3,700",
-        "reserves": "310,000"
-      },
-      {
-        "country": "Burma",
-        "production_y1": "e4,500",
-        "production_y2": "4,500",
-        "reserves": "140,000"
-      },
-      {
-        "country": "Canada",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "78,000"
-      },
-      {
-        "country": "China",
-        "production_y1": "e62,300",
-        "production_y2": "60,000",
-        "reserves": "670,000"
-      },
-      {
-        "country": "Guatemala",
-        "production_y1": "49",
-        "production_y2": "50",
-        "reserves": "NA"
-      },
-      {
-        "country": "Iran",
-        "production_y1": "e500",
-        "production_y2": "500",
-        "reserves": "NA"
-      },
-      {
-        "country": "Kazakhstan",
-        "production_y1": "e40",
-        "production_y2": "40",
-        "reserves": "NA"
-      },
-      {
-        "country": "Kyrgyzstan",
-        "production_y1": "20",
-        "production_y2": "20",
-        "reserves": "260,000"
-      },
-      {
-        "country": "Laos",
-        "production_y1": "e200",
-        "production_y2": "200",
-        "reserves": "NA"
-      },
-      {
-        "country": "Mexico",
-        "production_y1": "800",
-        "production_y2": "800",
-        "reserves": "18,000"
-      },
-      {
-        "country": "Pakistan",
-        "production_y1": "250",
-        "production_y2": "250",
-        "reserves": "26,000"
-      },
-      {
-        "country": "Russia",
-        "production_y1": "13,000",
-        "production_y2": "13,000",
-        "reserves": "350,000"
-      },
-      {
-        "country": "Tajikistan",
-        "production_y1": "17,000",
-        "production_y2": "17,000",
-        "reserves": "50,000"
-      },
-      {
-        "country": "Turkey",
-        "production_y1": "e1,600",
-        "production_y2": "1,600",
-        "reserves": "99,000"
-      },
-      {
-        "country": "Vietnam",
-        "production_y1": "300",
-        "production_y2": "300",
-        "reserves": "54,000"
-      },
-      {
-        "country": "World total",
-        "production_y1": "106,000",
-        "production_y2": "100,000",
-        "reserves": ">2,000,000"
-      }
-    ]
-  },
-  "gallium": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "kilograms of gallium content",
-    "reserves_unit": "No country-level reserves reported; world bauxite-hosted gallium resources estimated to exceed 1 million tons",
-    "year1": "2023",
-    "year2": "2024e",
-    "has_two_years": true,
-    "has_reserves": true,
-    "countries": [
-      {
-        "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "NA"
-      },
-      {
-        "country": "China",
-        "production_y1": "621,000",
-        "production_y2": "750,000",
-        "reserves": "NA"
-      },
-      {
-        "country": "Japan",
-        "production_y1": "3,000",
-        "production_y2": "3,000",
-        "reserves": "NA"
-      },
-      {
-        "country": "Korea, Republic of",
-        "production_y1": "3,000",
-        "production_y2": "3,000",
-        "reserves": "NA"
-      },
-      {
-        "country": "Russia",
-        "production_y1": "6,000",
-        "production_y2": "6,000",
-        "reserves": "NA"
-      },
-      {
-        "country": "Other countries",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "NA"
-      },
-      {
-        "country": "World total",
-        "production_y1": "633,000",
-        "production_y2": "760,000",
-        "reserves": "NA"
-      }
-    ]
-  },
   "germanium": {
     "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
     "source_url": null,
@@ -1723,1200 +2938,5 @@
         "reserves": "NA"
       }
     ]
-  },
-  "graphite": {
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "metric tons",
-    "reserves_unit": "metric tons",
-    "year1": "2023",
-    "year2": "2024e",
-    "has_two_years": true,
-    "has_reserves": true,
-    "countries": [
-      {
-        "country": "United States",
-        "production_y1": "—",
-        "production_y2": "—",
-        "reserves": "(included in world total)"
-      },
-      {
-        "country": "Austria",
-        "production_y1": "500",
-        "production_y2": "500",
-        "reserves": "(included in world total)"
-      },
-      {
-        "country": "Brazil",
-        "production_y1": "66,300",
-        "production_y2": "68,000",
-        "reserves": "74,000,000"
-      },
-      {
-        "country": "Canada",
-        "production_y1": "5,470",
-        "production_y2": "20,000",
-        "reserves": "5,900,000"
-      },
-      {
-        "country": "China",
-        "production_y1": "1,210,000",
-        "production_y2": "1,270,000",
-        "reserves": "81,000,000"
-      },
-      {
-        "country": "Germany",
-        "production_y1": "180",
-        "production_y2": "170",
-        "reserves": "(included in world total)"
-      },
-      {
-        "country": "India",
-        "production_y1": "25,600",
-        "production_y2": "27,800",
-        "reserves": "8,600,000"
-      },
-      {
-        "country": "Korea, North",
-        "production_y1": "8,100",
-        "production_y2": "8,100",
-        "reserves": "2,000,000"
-      },
-      {
-        "country": "Korea, Republic of",
-        "production_y1": "9,620",
-        "production_y2": "9,600",
-        "reserves": "1,800,000"
-      },
-      {
-        "country": "Madagascar",
-        "production_y1": "63,000",
-        "production_y2": "89,000",
-        "reserves": "27,000,000"
-      },
-      {
-        "country": "Mexico",
-        "production_y1": "1,300",
-        "production_y2": "900",
-        "reserves": "3,100,000"
-      },
-      {
-        "country": "Mozambique",
-        "production_y1": "98,000",
-        "production_y2": "75,000",
-        "reserves": "25,000,000"
-      },
-      {
-        "country": "Norway",
-        "production_y1": "6,480",
-        "production_y2": "7,000",
-        "reserves": "600,000"
-      },
-      {
-        "country": "Russia",
-        "production_y1": "15,000",
-        "production_y2": "20,000",
-        "reserves": "14,000,000"
-      },
-      {
-        "country": "Sri Lanka",
-        "production_y1": "3,000",
-        "production_y2": "3,300",
-        "reserves": "1,500,000"
-      },
-      {
-        "country": "Tanzania",
-        "production_y1": "13,200",
-        "production_y2": "25,000",
-        "reserves": "18,000,000"
-      },
-      {
-        "country": "Turkey",
-        "production_y1": "2,800",
-        "production_y2": "3,100",
-        "reserves": "6,900,000"
-      },
-      {
-        "country": "Ukraine",
-        "production_y1": "1,670",
-        "production_y2": "1,200",
-        "reserves": "(included in world total)"
-      },
-      {
-        "country": "Vietnam",
-        "production_y1": "2,500",
-        "production_y2": "2,000",
-        "reserves": "9,700,000"
-      },
-      {
-        "country": "World total",
-        "production_y1": "1,530,000",
-        "production_y2": "1,600,000",
-        "reserves": "290,000,000"
-      }
-    ]
-  },
-  "iron_ore": {
-    "type": "multi_table",
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "thousand metric tons, usable ore and iron content",
-    "reserves_unit": "million metric tons, crude ore and iron content",
-    "sub_tables": {
-      "usable_ore": {
-        "label": "Usable Ore Production",
-        "production_unit": "thousand metric tons, usable ore",
-        "reserves_unit": "million metric tons, crude ore",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_reserves": true,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "44,700",
-            "production_y2": "48,000",
-            "reserves": "3,600"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "953,000",
-            "production_y2": "930,000",
-            "reserves": "658,000"
-          },
-          {
-            "country": "Brazil",
-            "production_y1": "445,000",
-            "production_y2": "440,000",
-            "reserves": "34,000"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "59,400",
-            "production_y2": "54,000",
-            "reserves": "6,000"
-          },
-          {
-            "country": "Chile",
-            "production_y1": "18,100",
-            "production_y2": "18,000",
-            "reserves": "NA"
-          },
-          {
-            "country": "China",
-            "production_y1": "278,000",
-            "production_y2": "270,000",
-            "reserves": "20,000"
-          },
-          {
-            "country": "India",
-            "production_y1": "278,000",
-            "production_y2": "270,000",
-            "reserves": "5,500"
-          },
-          {
-            "country": "Iran",
-            "production_y1": "85,400",
-            "production_y2": "90,000",
-            "reserves": "3,800"
-          },
-          {
-            "country": "Kazakhstan",
-            "production_y1": "28,900",
-            "production_y2": "30,000",
-            "reserves": "2,500"
-          },
-          {
-            "country": "Mauritania",
-            "production_y1": "14,100",
-            "production_y2": "15,000",
-            "reserves": "NA"
-          },
-          {
-            "country": "Mexico",
-            "production_y1": "8,500",
-            "production_y2": "8,000",
-            "reserves": "NA"
-          },
-          {
-            "country": "Peru",
-            "production_y1": "20,900",
-            "production_y2": "21,000",
-            "reserves": "2,600"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "90,900",
-            "production_y2": "91,000",
-            "reserves": "35,000"
-          },
-          {
-            "country": "South Africa",
-            "production_y1": "63,200",
-            "production_y2": "66,000",
-            "reserves": "930"
-          },
-          {
-            "country": "Sweden",
-            "production_y1": "28,900",
-            "production_y2": "28,000",
-            "reserves": "1,300"
-          },
-          {
-            "country": "Turkey",
-            "production_y1": "16,800",
-            "production_y2": "18,000",
-            "reserves": "150"
-          },
-          {
-            "country": "Ukraine",
-            "production_y1": "41,700",
-            "production_y2": "42,000",
-            "reserves": "76,500"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "52,300",
-            "production_y2": "64,000",
-            "reserves": "17,000"
-          },
-          {
-            "country": "World total",
-            "production_y1": "2,530,000",
-            "production_y2": "2,500,000",
-            "reserves": "200,000"
-          }
-        ]
-      },
-      "iron_content": {
-        "label": "Iron Content",
-        "production_unit": "thousand metric tons, iron content",
-        "reserves_unit": "million metric tons, iron content",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_reserves": true,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "28,200",
-            "production_y2": "30,000",
-            "reserves": "2,300"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "589,000",
-            "production_y2": "580,000",
-            "reserves": "627,000"
-          },
-          {
-            "country": "Brazil",
-            "production_y1": "280,000",
-            "production_y2": "280,000",
-            "reserves": "15,000"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "35,700",
-            "production_y2": "32,000",
-            "reserves": "2,300"
-          },
-          {
-            "country": "Chile",
-            "production_y1": "11,400",
-            "production_y2": "11,000",
-            "reserves": "NA"
-          },
-          {
-            "country": "China",
-            "production_y1": "174,000",
-            "production_y2": "170,000",
-            "reserves": "6,900"
-          },
-          {
-            "country": "India",
-            "production_y1": "172,000",
-            "production_y2": "170,000",
-            "reserves": "3,400"
-          },
-          {
-            "country": "Iran",
-            "production_y1": "55,900",
-            "production_y2": "59,000",
-            "reserves": "1,500"
-          },
-          {
-            "country": "Kazakhstan",
-            "production_y1": "8,890",
-            "production_y2": "9,200",
-            "reserves": "900"
-          },
-          {
-            "country": "Mauritania",
-            "production_y1": "8,790",
-            "production_y2": "9,400",
-            "reserves": "NA"
-          },
-          {
-            "country": "Mexico",
-            "production_y1": "5,350",
-            "production_y2": "5,000",
-            "reserves": "NA"
-          },
-          {
-            "country": "Peru",
-            "production_y1": "14,100",
-            "production_y2": "14,000",
-            "reserves": "1,500"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "53,300",
-            "production_y2": "53,000",
-            "reserves": "14,000"
-          },
-          {
-            "country": "South Africa",
-            "production_y1": "40,200",
-            "production_y2": "42,000",
-            "reserves": "590"
-          },
-          {
-            "country": "Sweden",
-            "production_y1": "20,400",
-            "production_y2": "20,000",
-            "reserves": "600"
-          },
-          {
-            "country": "Turkey",
-            "production_y1": "10,100",
-            "production_y2": "11,000",
-            "reserves": "99"
-          },
-          {
-            "country": "Ukraine",
-            "production_y1": "26,100",
-            "production_y2": "26,000",
-            "reserves": "72,300"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "29,900",
-            "production_y2": "37,000",
-            "reserves": "8,500"
-          },
-          {
-            "country": "World total",
-            "production_y1": "1,560,000",
-            "production_y2": "1,600,000",
-            "reserves": "88,000"
-          }
-        ]
-      }
-    }
-  },
-  "aluminium": {
-    "type": "multi_table",
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-bauxite-alumina.pdf",
-    "sub_tables": {
-      "bauxite": {
-        "source": "USGS Mineral Commodity Summaries 2025",
-        "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-bauxite-alumina.pdf",
-        "production_unit": "thousand metric tons, dry weight",
-        "reserves_unit": "thousand metric tons",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_two_years": true,
-        "has_reserves": true,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "W",
-            "production_y2": "W",
-            "reserves": "20,000"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "104,000",
-            "production_y2": "100,000",
-            "reserves": "73,500,000"
-          },
-          {
-            "country": "Brazil",
-            "production_y1": "e32,000",
-            "production_y2": "33,000",
-            "reserves": "2,700,000"
-          },
-          {
-            "country": "China",
-            "production_y1": "e91,000",
-            "production_y2": "93,000",
-            "reserves": "680,000"
-          },
-          {
-            "country": "Greece",
-            "production_y1": "e1,200",
-            "production_y2": "1,200",
-            "reserves": "—"
-          },
-          {
-            "country": "Guinea",
-            "production_y1": "123,000",
-            "production_y2": "130,000",
-            "reserves": "7,400,000"
-          },
-          {
-            "country": "India",
-            "production_y1": "23,400",
-            "production_y2": "25,000",
-            "reserves": "650,000"
-          },
-          {
-            "country": "Indonesia",
-            "production_y1": "e30,000",
-            "production_y2": "32,000",
-            "reserves": "2,800,000"
-          },
-          {
-            "country": "Jamaica",
-            "production_y1": "6,000",
-            "production_y2": "6,100",
-            "reserves": "2,000,000"
-          },
-          {
-            "country": "Kazakhstan",
-            "production_y1": "4,560",
-            "production_y2": "4,900",
-            "reserves": "280,000"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "e5,800",
-            "production_y2": "6,300",
-            "reserves": "480,000"
-          },
-          {
-            "country": "Saudi Arabia",
-            "production_y1": "e5,400",
-            "production_y2": "5,800",
-            "reserves": "180,000"
-          },
-          {
-            "country": "Turkey",
-            "production_y1": "2,940",
-            "production_y2": "3,200",
-            "reserves": "69,000"
-          },
-          {
-            "country": "Vietnam",
-            "production_y1": "e3,920",
-            "production_y2": "4,200",
-            "reserves": "3,100,000"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "5,260",
-            "production_y2": "5,700",
-            "reserves": "5,300,000"
-          },
-          {
-            "country": "World total (rounded)",
-            "production_y1": "438,000",
-            "production_y2": "450,000",
-            "reserves": "29,000,000"
-          }
-        ],
-        "label": "Bauxite Mine Production"
-      },
-      "alumina": {
-        "source": "USGS Mineral Commodity Summaries 2025",
-        "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-bauxite-alumina.pdf",
-        "production_unit": "thousand metric tons, calcined equivalent weight",
-        "reserves_unit": null,
-        "year1": "2023",
-        "year2": "2024e",
-        "has_two_years": true,
-        "has_reserves": false,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "e850",
-            "production_y2": "720"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "18,800",
-            "production_y2": "18,000"
-          },
-          {
-            "country": "Brazil",
-            "production_y1": "e11,000",
-            "production_y2": "11,000"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "1,500",
-            "production_y2": "1,500"
-          },
-          {
-            "country": "China",
-            "production_y1": "82,400",
-            "production_y2": "84,000"
-          },
-          {
-            "country": "Germany",
-            "production_y1": "e900",
-            "production_y2": "960"
-          },
-          {
-            "country": "Greece",
-            "production_y1": "869",
-            "production_y2": "860"
-          },
-          {
-            "country": "Guinea",
-            "production_y1": "273",
-            "production_y2": "300"
-          },
-          {
-            "country": "India",
-            "production_y1": "e7,500",
-            "production_y2": "7,600"
-          },
-          {
-            "country": "Indonesia",
-            "production_y1": "e1,200",
-            "production_y2": "1,300"
-          },
-          {
-            "country": "Ireland",
-            "production_y1": "1,380",
-            "production_y2": "1,600"
-          },
-          {
-            "country": "Jamaica",
-            "production_y1": "1,400",
-            "production_y2": "1,500"
-          },
-          {
-            "country": "Kazakhstan",
-            "production_y1": "1,300",
-            "production_y2": "1,400"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "3,020",
-            "production_y2": "2,900"
-          },
-          {
-            "country": "Saudi Arabia",
-            "production_y1": "1,830",
-            "production_y2": "1,800"
-          },
-          {
-            "country": "Spain",
-            "production_y1": "716",
-            "production_y2": "820"
-          },
-          {
-            "country": "Turkey",
-            "production_y1": "300",
-            "production_y2": "320"
-          },
-          {
-            "country": "United Arab Emirates",
-            "production_y1": "2,480",
-            "production_y2": "2,400"
-          },
-          {
-            "country": "Vietnam",
-            "production_y1": "1,490",
-            "production_y2": "1,500"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "1,300",
-            "production_y2": "1,500"
-          },
-          {
-            "country": "World total (rounded)",
-            "production_y1": "141,000",
-            "production_y2": "142,000"
-          }
-        ],
-        "label": "Alumina Refinery Production"
-      },
-      "smelter": {
-        "source": "USGS Mineral Commodity Summaries 2025",
-        "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-aluminum.pdf",
-        "production_unit": "thousand metric tons",
-        "reserves_unit": null,
-        "year1": "2023",
-        "year2": "2024e",
-        "has_two_years": true,
-        "has_reserves": false,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "750",
-            "production_y2": "670"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "1,560",
-            "production_y2": "1,500"
-          },
-          {
-            "country": "Bahrain",
-            "production_y1": "1,620",
-            "production_y2": "1,600"
-          },
-          {
-            "country": "Brazil",
-            "production_y1": "1,020",
-            "production_y2": "1,100"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "e3,200",
-            "production_y2": "3,300"
-          },
-          {
-            "country": "China",
-            "production_y1": "41,600",
-            "production_y2": "43,000"
-          },
-          {
-            "country": "Iceland",
-            "production_y1": "e770",
-            "production_y2": "780"
-          },
-          {
-            "country": "India",
-            "production_y1": "e4,100",
-            "production_y2": "4,200"
-          },
-          {
-            "country": "Malaysia",
-            "production_y1": "e940",
-            "production_y2": "870"
-          },
-          {
-            "country": "Norway",
-            "production_y1": "e1,300",
-            "production_y2": "1,300"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "e3,700",
-            "production_y2": "3,800"
-          },
-          {
-            "country": "United Arab Emirates",
-            "production_y1": "2,660",
-            "production_y2": "2,700"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "6,780",
-            "production_y2": "6,800"
-          },
-          {
-            "country": "World total (rounded)",
-            "production_y1": "70,000",
-            "production_y2": "72,000"
-          }
-        ],
-        "label": "Primary Smelter Production"
-      }
-    }
-  },
-  "pgm": {
-    "type": "multi_table",
-    "source": "USGS Mineral Commodity Summaries 2025",
-    "source_url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-platinum-group.pdf",
-    "production_unit": "kilograms, PGM content",
-    "reserves_unit": "kilograms",
-    "sub_tables": {
-      "platinum": {
-        "label": "Platinum Production",
-        "production_unit": "kilograms",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_reserves": false,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "3,040",
-            "production_y2": "2,000"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "5,170",
-            "production_y2": "5,200"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "e21,000",
-            "production_y2": "18,000"
-          },
-          {
-            "country": "South Africa",
-            "production_y1": "125,000",
-            "production_y2": "120,000"
-          },
-          {
-            "country": "Zimbabwe",
-            "production_y1": "19,200",
-            "production_y2": "19,000"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "5,710",
-            "production_y2": "4,600"
-          },
-          {
-            "country": "World total (rounded)",
-            "production_y1": "179,000",
-            "production_y2": "170,000"
-          }
-        ]
-      },
-      "palladium": {
-        "label": "Palladium Production",
-        "production_unit": "kilograms",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_reserves": false,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "10,300",
-            "production_y2": "8,000"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "16,100",
-            "production_y2": "15,000"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "e87,000",
-            "production_y2": "75,000"
-          },
-          {
-            "country": "South Africa",
-            "production_y1": "74,900",
-            "production_y2": "72,000"
-          },
-          {
-            "country": "Zimbabwe",
-            "production_y1": "15,900",
-            "production_y2": "15,000"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "4,200",
-            "production_y2": "4,200"
-          },
-          {
-            "country": "World total (rounded)",
-            "production_y1": "208,000",
-            "production_y2": "190,000"
-          }
-        ]
-      },
-      "reserves": {
-        "label": "PGM Reserves (Combined)",
-        "reserves_unit": "kilograms, PGM content",
-        "year1": null,
-        "year2": null,
-        "has_reserves": true,
-        "reserves_only": true,
-        "countries": [
-          {
-            "country": "United States",
-            "reserves": "820,000"
-          },
-          {
-            "country": "Canada",
-            "reserves": "310,000"
-          },
-          {
-            "country": "Russia",
-            "reserves": "10,000,000"
-          },
-          {
-            "country": "South Africa",
-            "reserves": "63,000,000"
-          },
-          {
-            "country": "Zimbabwe",
-            "reserves": "1,200,000"
-          },
-          {
-            "country": "Other countries",
-            "reserves": "NA"
-          },
-          {
-            "country": "World total (rounded)",
-            "reserves": ">81,000,000"
-          }
-        ]
-      }
-    }
-  },
-  "titanium": {
-    "type": "multi_table",
-    "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-    "source_url": null,
-    "production_unit": "thousand metric tons, titanium dioxide (TiO2) content",
-    "reserves_unit": "thousand metric tons, titanium dioxide (TiO2) content",
-    "sub_tables": {
-      "ilmenite": {
-        "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-        "source_url": null,
-        "production_unit": "thousand metric tons, titanium dioxide (TiO2) content",
-        "reserves_unit": "thousand metric tons, titanium dioxide (TiO2) content",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_two_years": true,
-        "has_reserves": true,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "100",
-            "production_y2": "100",
-            "reserves": "2,000"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "400",
-            "production_y2": "400",
-            "reserves": "180,000"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "350",
-            "production_y2": "350",
-            "reserves": "51,000"
-          },
-          {
-            "country": "China",
-            "production_y1": "3,250",
-            "production_y2": "3,300",
-            "reserves": "110,000"
-          },
-          {
-            "country": "India",
-            "production_y1": "210",
-            "production_y2": "210",
-            "reserves": "15,000"
-          },
-          {
-            "country": "Madagascar",
-            "production_y1": "300",
-            "production_y2": "240",
-            "reserves": "30,000"
-          },
-          {
-            "country": "Mozambique",
-            "production_y1": "1,860",
-            "production_y2": "1,900",
-            "reserves": "NA"
-          },
-          {
-            "country": "Norway",
-            "production_y1": "360",
-            "production_y2": "360",
-            "reserves": "37,000"
-          },
-          {
-            "country": "Senegal",
-            "production_y1": "260",
-            "production_y2": "300",
-            "reserves": "NA"
-          },
-          {
-            "country": "South Africa",
-            "production_y1": "1,260",
-            "production_y2": "1,300",
-            "reserves": "28,000"
-          },
-          {
-            "country": "Ukraine",
-            "production_y1": "130",
-            "production_y2": "120",
-            "reserves": "5,900"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "360",
-            "production_y2": "330",
-            "reserves": ">54,000"
-          },
-          {
-            "country": "World total (ilmenite)",
-            "production_y1": "8,840",
-            "production_y2": "8,900",
-            "reserves": ">510,000"
-          }
-        ],
-        "label": "Ilmenite"
-      },
-      "rutile": {
-        "source": "USGS Mineral Commodity Summaries 2025 (ver. 1.2, March 2025), https://doi.org/10.3133/mcs2025",
-        "source_url": null,
-        "production_unit": "thousand metric tons, titanium dioxide (TiO2) content",
-        "reserves_unit": "thousand metric tons, titanium dioxide (TiO2) content",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_two_years": true,
-        "has_reserves": true,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "(included with ilmenite)",
-            "production_y2": "(included with ilmenite)",
-            "reserves": "(included with ilmenite)"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "200",
-            "production_y2": "200",
-            "reserves": "35,000"
-          },
-          {
-            "country": "India",
-            "production_y1": "12",
-            "production_y2": "12",
-            "reserves": "670"
-          },
-          {
-            "country": "Kenya",
-            "production_y1": "47",
-            "production_y2": "40",
-            "reserves": "NA"
-          },
-          {
-            "country": "Mozambique",
-            "production_y1": "8",
-            "production_y2": "8",
-            "reserves": "720"
-          },
-          {
-            "country": "Sierra Leone",
-            "production_y1": "110",
-            "production_y2": "60",
-            "reserves": "2,900"
-          },
-          {
-            "country": "South Africa",
-            "production_y1": "100",
-            "production_y2": "100",
-            "reserves": "6,100"
-          },
-          {
-            "country": "Ukraine",
-            "production_y1": "95",
-            "production_y2": "10",
-            "reserves": "NA"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "20",
-            "production_y2": "20",
-            "reserves": ">540"
-          },
-          {
-            "country": "World total (rutile)",
-            "production_y1": "590",
-            "production_y2": "450",
-            "reserves": ">46,000"
-          }
-        ],
-        "label": "Rutile"
-      }
-    }
-  },
-  "magnesium": {
-    "type": "multi_table",
-    "source_url": null,
-    "sub_tables": {
-      "compounds": {
-        "source_url": null,
-        "production_unit": "thousand metric tons, gross weight of magnesite (magnesium carbonate)",
-        "reserves_unit": "thousand metric tons, gross weight of magnesite",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_two_years": true,
-        "has_reserves": true,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "W",
-            "production_y2": "W",
-            "reserves": "35,000"
-          },
-          {
-            "country": "Australia",
-            "production_y1": "500",
-            "production_y2": "490",
-            "reserves": "280,000"
-          },
-          {
-            "country": "Austria",
-            "production_y1": "771",
-            "production_y2": "760",
-            "reserves": "49,000"
-          },
-          {
-            "country": "Brazil",
-            "production_y1": "1,800",
-            "production_y2": "1,800",
-            "reserves": "200,000"
-          },
-          {
-            "country": "Canada",
-            "production_y1": "150",
-            "production_y2": "150",
-            "reserves": "NA"
-          },
-          {
-            "country": "China",
-            "production_y1": "13,000",
-            "production_y2": "13,000",
-            "reserves": "680,000"
-          },
-          {
-            "country": "Greece",
-            "production_y1": "393",
-            "production_y2": "390",
-            "reserves": "280,000"
-          },
-          {
-            "country": "India",
-            "production_y1": "123",
-            "production_y2": "160",
-            "reserves": "66,000"
-          },
-          {
-            "country": "Iran",
-            "production_y1": "216",
-            "production_y2": "210",
-            "reserves": "10,000"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "2,500",
-            "production_y2": "2,500",
-            "reserves": "2,300,000"
-          },
-          {
-            "country": "Slovakia",
-            "production_y1": "391",
-            "production_y2": "380",
-            "reserves": "1,200,000"
-          },
-          {
-            "country": "Spain",
-            "production_y1": "680",
-            "production_y2": "670",
-            "reserves": "35,000"
-          },
-          {
-            "country": "Turkey",
-            "production_y1": "1,330",
-            "production_y2": "1,300",
-            "reserves": "110,000"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "373",
-            "production_y2": "370",
-            "reserves": "2,500,000"
-          },
-          {
-            "country": "World total",
-            "production_y1": "22,200",
-            "production_y2": "22,000",
-            "reserves": "7,700,000"
-          }
-        ],
-        "label": "Magnesium Compounds"
-      },
-      "metal": {
-        "source_url": null,
-        "production_unit": "thousand metric tons of magnesium metal",
-        "reserves_unit": "No separate reserves table; resources large to virtually unlimited",
-        "year1": "2023",
-        "year2": "2024e",
-        "has_two_years": true,
-        "has_reserves": false,
-        "countries": [
-          {
-            "country": "United States",
-            "production_y1": "—",
-            "production_y2": "—"
-          },
-          {
-            "country": "Brazil",
-            "production_y1": "20",
-            "production_y2": "20"
-          },
-          {
-            "country": "China",
-            "production_y1": "805",
-            "production_y2": "950"
-          },
-          {
-            "country": "Iran",
-            "production_y1": "5",
-            "production_y2": "5"
-          },
-          {
-            "country": "Israel",
-            "production_y1": "17",
-            "production_y2": "20"
-          },
-          {
-            "country": "Kazakhstan",
-            "production_y1": "22",
-            "production_y2": "20"
-          },
-          {
-            "country": "Russia",
-            "production_y1": "18",
-            "production_y2": "15"
-          },
-          {
-            "country": "Turkey",
-            "production_y1": "13",
-            "production_y2": "15"
-          },
-          {
-            "country": "Other countries",
-            "production_y1": "—",
-            "production_y2": "—"
-          },
-          {
-            "country": "World total",
-            "production_y1": "900",
-            "production_y2": "1,000"
-          }
-        ],
-        "label": "Magnesium Metal"
-      }
-    }
-  },
-  "_metadata": {
-    "generated": "2026-04-15T08:28:51.235Z",
-    "primary_source": "U.S. Geological Survey, 2025, Mineral commodity summaries 2025 (ver. 1.2, March 2025): U.S. Geological Survey, 212 p., https://doi.org/10.3133/mcs2025",
-    "metals_count": 25,
-    "symbols": {
-      "e": "Estimated",
-      "W": "Withheld to avoid disclosing company proprietary data",
-      "—": "Zero",
-      "NA": "Not available"
-    }
   }
 }
