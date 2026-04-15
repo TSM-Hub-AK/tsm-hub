@@ -149,22 +149,67 @@
       height: 28px;
     }
 
+    .brand-logo {
+      width: 48px;
+      height: 48px;
+    }
+
     .brand-logo rect {
-      opacity: 0;
       transform-origin: center;
-      animation: logoAssemble 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
       transition: fill 0.4s ease;
     }
 
-    .brand-logo rect:nth-child(1) { animation-delay: 0.1s; }
-    .brand-logo rect:nth-child(2) { animation-delay: 0.2s; }
-    .brand-logo rect:nth-child(3) { animation-delay: 0.3s; }
-    .brand-logo rect:nth-child(4) { animation-delay: 0.4s; }
+    /* Each square floats independently */
+    .brand-logo rect:nth-child(1) {
+      animation: float1 3s ease-in-out infinite, colorCycle 6s ease-in-out infinite;
+    }
+    .brand-logo rect:nth-child(2) {
+      animation: float2 3.5s ease-in-out infinite 0.3s, colorCycle 6s ease-in-out infinite 1.5s;
+    }
+    .brand-logo rect:nth-child(3) {
+      animation: float3 3.2s ease-in-out infinite 0.6s, colorCycle 6s ease-in-out infinite 3s;
+    }
+    .brand-logo rect:nth-child(4) {
+      animation: float4 3.8s ease-in-out infinite 0.9s, colorCycle 6s ease-in-out infinite 4.5s;
+    }
 
-    @keyframes logoAssemble {
-      0% { opacity: 0; transform: scale(0.3) rotate(-45deg); }
-      60% { opacity: 1; transform: scale(1.08) rotate(3deg); }
-      100% { opacity: 1; transform: scale(1) rotate(0deg); }
+    @keyframes float1 {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(-2px, -3px) rotate(-2deg); }
+      50% { transform: translate(1px, -5px) rotate(1deg); }
+      75% { transform: translate(-1px, -2px) rotate(-1deg); }
+    }
+
+    @keyframes float2 {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(3px, -2px) rotate(2deg); }
+      50% { transform: translate(-1px, -4px) rotate(-1deg); }
+      75% { transform: translate(2px, -1px) rotate(1.5deg); }
+    }
+
+    @keyframes float3 {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(-3px, 2px) rotate(-1.5deg); }
+      50% { transform: translate(2px, -3px) rotate(2deg); }
+      75% { transform: translate(-1px, 1px) rotate(-0.5deg); }
+    }
+
+    @keyframes float4 {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(2px, 3px) rotate(1deg); }
+      50% { transform: translate(-2px, -2px) rotate(-2deg); }
+      75% { transform: translate(1px, 2px) rotate(0.5deg); }
+    }
+
+    @keyframes colorCycle {
+      0%, 100% { opacity: 1; }
+      33% { opacity: 0.7; }
+      50% { fill: var(--color-gold); opacity: 1; }
+      83% { opacity: 0.7; }
+    }
+
+    .brand:hover .brand-logo rect {
+      animation-play-state: paused;
     }
 
     .brand:hover .brand-logo rect:nth-child(1),
