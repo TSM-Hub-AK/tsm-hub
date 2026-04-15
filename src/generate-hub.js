@@ -331,20 +331,43 @@ function generateProducersHTML(producersData) {
     { key: 'silver', label: 'Silver' },
     { key: 'platinum', label: 'Platinum' },
     { key: 'palladium', label: 'Palladium' },
+    // PGMs
+    { key: 'rhodium', label: 'Rhodium' },
+    { key: 'iridium', label: 'Iridium' },
+    { key: 'ruthenium', label: 'Ruthenium' },
+    { key: 'osmium', label: 'Osmium' },
     // Steel & ferrous (SHFE/LME)
     { key: 'steel', label: 'Steel' },
     { key: 'iron_ore', label: 'Iron Ore' },
+    // Ferro-alloys
+    { key: 'ferrochrome', label: 'Ferrochrome' },
+    { key: 'ferrosilicon', label: 'Ferrosilicon' },
     // EV & battery metals (LME cash-settled)
     { key: 'lithium', label: 'Lithium' },
     { key: 'cobalt', label: 'Cobalt' },
     { key: 'molybdenum', label: 'Molybdenum' },
-    // Rare earths & minor metals (OTC / benchmark pricing)
+    // Rare earths (group + individual elements)
     { key: 'rare_earths', label: 'Rare Earths' },
+    { key: 'neodymium', label: 'Neodymium' },
+    { key: 'praseodymium', label: 'Praseodymium' },
+    { key: 'dysprosium', label: 'Dysprosium' },
+    { key: 'lanthanum', label: 'Lanthanum' },
+    { key: 'terbium', label: 'Terbium' },
+    // Minor & specialty metals
     { key: 'tungsten', label: 'Tungsten' },
     { key: 'vanadium', label: 'Vanadium' },
     { key: 'manganese', label: 'Manganese' },
     { key: 'chromium', label: 'Chromium' },
     { key: 'titanium', label: 'Titanium' },
+    { key: 'antimony', label: 'Antimony' },
+    { key: 'gallium', label: 'Gallium' },
+    { key: 'germanium', label: 'Germanium' },
+    { key: 'indium', label: 'Indium' },
+    { key: 'tellurium', label: 'Tellurium' },
+    { key: 'hafnium', label: 'Hafnium' },
+    { key: 'rhenium', label: 'Rhenium' },
+    { key: 'magnesium', label: 'Magnesium' },
+    // Energy & strategic
     { key: 'uranium', label: 'Uranium' },
   ];
 
@@ -390,6 +413,7 @@ if (fs.existsSync(glossaryPath)) {
     'regulatory-compliance': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
     'trade-policy': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
     'esg-sustainability': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75"/></svg>',
+    'battery-critical-minerals': '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="12" height="18" rx="2"/><path d="M10 2v2M14 2v2M8 10h8M8 14h5"/></svg>',
   };
   
   const categoryCards = glossary.categories.map(cat => {
@@ -499,6 +523,7 @@ function generateNewsHTML(newsData) {
     general: 'General'
   };
   const topicNames = {
+    'battery-ev': 'Battery & EV',
     'rwa': 'RWA / Tokenization',
     'hk-regulatory': 'HK Regulatory',
     'esg': 'ESG',
@@ -520,7 +545,7 @@ function generateNewsHTML(newsData) {
   ];
   const availableMetals = metalOrder.filter(m => allMetalTags.has(m));
   // Topic order
-  const topicOrder = ['rwa', 'hk-regulatory', 'esg', 'china-policy', 'global-policy'];
+  const topicOrder = ['battery-ev', 'rwa', 'hk-regulatory', 'esg', 'china-policy', 'global-policy'];
   const availableTopics = topicOrder.filter(t => allTopicTags.has(t));
   
   const metalFilterOptions = availableMetals

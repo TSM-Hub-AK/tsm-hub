@@ -38,11 +38,14 @@ const NEWS_QUERIES = [
   { query: 'rare earth magnets EV wind turbine supply chain', category: 'rare-earths' },
   // ── Minor & Specialty Metals ──
   { query: 'antimony gallium germanium critical minerals market', category: 'specialty' },
-  { query: 'tungsten vanadium titanium manganese market price', category: 'specialty' },
-  { query: 'indium tellurium rhenium hafnium specialty metals', category: 'specialty' },
+  { query: 'tungsten market price mine supply APT', category: 'specialty' },
+  { query: 'vanadium titanium manganese market price supply', category: 'specialty' },
+  { query: 'indium gallium germanium semiconductor metals market', category: 'specialty' },
+  { query: 'magnesium market price supply China export', category: 'specialty' },
   // ── Energy & Strategic ──
   { query: 'uranium nuclear energy market price supply', category: 'uranium' },
-  { query: 'ferrochrome ferrosilicon vanadium steel alloys market', category: 'ferro-alloys' },
+  { query: 'ferrochrome market price South Africa stainless', category: 'ferro-alloys' },
+  { query: 'ferrosilicon market price steel alloys Norway China', category: 'ferro-alloys' },
   // ── Iron Ore & Steel ──
   { query: 'iron ore price market supply steel demand', category: 'iron-ore' },
   // ── General Metals ──
@@ -148,6 +151,7 @@ const TOPIC_TAGS = {
   esg: ['esg', 'sustainability', 'sustainable', 'carbon', 'net zero', 'net-zero', 'green energy', 'green mining', 'responsible sourcing', 'due diligence', 'circular economy', 'recycl', 'emission', 'decarboni', 'climate', 'scope 3', 'scope 1', 'environmental', 'clean energy', 'renewable', 'cobalt-free', 'ethical sourcing', 'conflict mineral', 'community funding'],
   'china-policy': ['china', 'chinese', 'beijing', 'export control', 'export ban', 'rare earth', 'critical mineral', 'gallium', 'germanium', 'antimony', 'state reserve'],
   'global-policy': ['eu ', 'european', 'cbam', 'critical raw materials act', 'crma', 'us tariff', 'tariffs', 'sanction', 'ira ', 'inflation reduction act', 'wto', 'oecd', 'g7 ', 'g20', 'trade war', 'trade deal', 'trade policy', 'trade dispute', 'import dut', 'export restrict', 'minerals security', 'supply chain act'],
+  'battery-ev': ['battery', 'ev ', 'electric vehicle', 'gigafactory', 'cathode', 'anode', 'cell manufactur', 'energy storage', 'lfp', 'nmc', 'lithium-ion', 'li-ion', 'solid-state battery', 'sodium-ion', 'battery recycl', 'battery supply chain', 'battery metal', 'ev supply'],
 };
 
 // Metal tagging rules: map keywords in title to metal tags

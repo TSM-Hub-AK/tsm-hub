@@ -95,7 +95,9 @@
         "Borates"
       ],
       "description": "Global diversified miner with copper operations at Kennecott (Utah, USA), a 30% stake in Escondida (Chile, operated by BHP), and the Oyu Tolgoi copper-gold underground mine (Mongolia, 66% stake) which ramped up significantly in 2024. Copper is Rio Tinto's fastest-growing commodity.",
-      "source": "Rio Tinto Q4 2024 Production Results press release, January 16, 2025 — https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+      "source": "Rio Tinto Q4 2024 Production Results press release, January 16, 2025 — https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Ivanhoe Mines Ltd.",
@@ -110,7 +112,9 @@
         "Silver"
       ],
       "description": "Canadian mining company (TSX: IVN) operating the Kamoa-Kakula copper complex in the DRC — the world's largest high-grade copper discovery — as a joint venture with Zijin Mining (39.6%) and the DRC government. Also operates the Kipushi zinc-silver mine in the DRC. Phase 3 concentrator ramp-up drove record Q4 2024 output of 133,819 t.",
-      "source": "Ivanhoe Mines 2024 Production Results and 2025 Guidance press release, January 8, 2025 — https://www.ivanhoemines.com"
+      "source": "Ivanhoe Mines 2024 Production Results and 2025 Guidance press release, January 8, 2025 — https://www.ivanhoemines.com",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "First Quantum Minerals Ltd.",
@@ -125,7 +129,9 @@
         "Zinc"
       ],
       "description": "Major Canadian copper miner (TSX: FM) with flagship operations at Kansanshi (Zambia, 200,000–230,000 t Cu/yr guidance 2025) and Sentinel / Trident complex (Zambia). Cobre Panamá operations remain suspended since late 2023 following government order. The Kansanshi S3 expansion was nearing completion at mid-2025.",
-      "source": "First Quantum Minerals Q4 2024 Results press release, February 11, 2025 — https://www.first-quantum.com/news/first-quantum-minerals-reports-fourth-quarter-2024-results/"
+      "source": "First Quantum Minerals Q4 2024 Results press release, February 11, 2025 — https://www.first-quantum.com/news/first-quantum-minerals-reports-fourth-quarter-2024-results/",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Zijin Mining Group Co., Ltd.",
@@ -143,7 +149,9 @@
         "Lithium"
       ],
       "description": "China's largest diversified miner (HKEX: 2899; SHSE: 601899) with major copper assets including Kamoa-Kakula (DRC, 39.6% JV stake), Čukaru Peki and Bor complex (Serbia), and the Julong copper mine (Tibet). Five-year mined copper CAGR of 24%. Also holds a 10% stake in Ivanhoe Mines.",
-      "source": "Zijin Mining 2024 Annual Results announcement, March 21, 2025 — https://www.zijinmining.com/investor/2024-newyeji.htm"
+      "source": "Zijin Mining 2024 Annual Results announcement, March 21, 2025 — https://www.zijinmining.com/investor/2024-newyeji.htm",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "MMG Limited",
@@ -160,7 +168,9 @@
         "Cobalt"
       ],
       "description": "Hong Kong-listed base metals miner (HKEX: 1208) majority-owned by China Minmetals Corporation. Operates Las Bambas (Peru, 323 kt Cu in 2024), Kinsevere (DRC, 45 kt Cu cathode), Khoemacau (Botswana, acquired March 2024, 31 kt Cu in 9 months), and Dugald River / Rosebery zinc-lead mines (Australia).",
-      "source": "MMG 2024 Annual Results announcement, March 4, 2025 — https://www.mmg.com/wp-content/uploads/2025/03/e_2025-03-04_2024-Annual-Results.pdf"
+      "source": "MMG 2024 Annual Results announcement, March 4, 2025 — https://www.mmg.com/wp-content/uploads/2025/03/e_2025-03-04_2024-Annual-Results.pdf",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Lundin Mining Corporation",
@@ -177,7 +187,9 @@
         "Silver"
       ],
       "description": "Diversified Canadian base metals miner (TSX: LUN; OM: LUMI) with operations in Chile (Candelaria, Caserones 70%), Argentina (Josemaría), Brazil (Chapada), and the USA (Eagle nickel-copper). Record copper production in 2024 driven by Candelaria H2 strong performance and increased Caserones ownership from 51% to 70%.",
-      "source": "Lundin Mining 2024 Production Results press release, January 16, 2025 — https://www.lundinmining.com/news/lundin-mining-announces-record-production-results-for-2024-and-provides-2025-guidance"
+      "source": "Lundin Mining 2024 Production Results press release, January 16, 2025 — https://www.lundinmining.com/news/lundin-mining-announces-record-production-results-for-2024-and-provides-2025-guidance",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Vale S.A.",
@@ -195,7 +207,9 @@
         "Manganese"
       ],
       "description": "Brazilian multinational and world's largest iron ore producer, also a significant copper and nickel miner. Copper operations managed through Vale Base Metals: Salobo complex (Brazil, ~200 kt Cu record in 2024, with Salobo 3 ramp-up completed), Sossego (Brazil), Sudbury (Canada), and Voisey's Bay (Canada, VBME ramp-up).",
-      "source": "Vale Production and Sales Report Q4 2024, January 28, 2025 — https://vale.com/w/vales-production-and-sales-in-4q24-and-2024; Vale Base Metals 2024 Integrated Report"
+      "source": "Vale Production and Sales Report Q4 2024, January 28, 2025 — https://vale.com/w/vales-production-and-sales-in-4q24-and-2024; Vale Base Metals 2024 Integrated Report",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "KAZ Minerals (KAZ Minerals Holdings Ltd.)",
@@ -211,7 +225,9 @@
         "Molybdenum"
       ],
       "description": "Leading copper producer in Kazakhstan (formerly LSE-listed, delisted 2021, now privately held). Operates three major open-pit mines: Aktogay (228.8 kt Cu in 2024), Bozshakol (104.7 kt), and East Region & Bozymchak (46.4 kt). Production decreased year-on-year due to expected decline in ore grades as ore bodies mature.",
-      "source": "KAZ Minerals Q4 2024 Production and Sales Report, February 10, 2025 — https://www.kazminerals.com/q4-2024-production-report/"
+      "source": "KAZ Minerals Q4 2024 Production and Sales Report, February 10, 2025 — https://www.kazminerals.com/q4-2024-production-report/",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Capstone Copper Corp.",
@@ -226,7 +242,9 @@
         "Silver"
       ],
       "description": "Canada-based copper miner (TSX: CS; ASX: CSC) with four operations: Pinto Valley (Arizona, USA), Cozamin (Mexico), Mantos Blancos and Mantoverde (Chile). The Mantoverde Development Project (MVDP) produced first copper concentrate in June 2024 and achieved commercial production in September 2024, driving the +12% growth. 2025 guidance 220,000–255,000 t.",
-      "source": "Capstone Copper 2024 Production Results press release, January 20, 2025 — https://capstonecopper.com/news/capstone-copper-announces-2024-production-results-and-provides-2025-guidance/"
+      "source": "Capstone Copper 2024 Production Results press release, January 20, 2025 — https://capstonecopper.com/news/capstone-copper-announces-2024-production-results-and-provides-2025-guidance/",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Hudbay Minerals Inc.",
@@ -242,7 +260,9 @@
         "Molybdenum"
       ],
       "description": "Canadian base metals miner (TSX; NYSE: HBM) with three operating mines: Constancia (Peru), Copper Mountain (British Columbia, 75% interest), and Lalor/New Britannia (Manitoba). Achieved record free cash flows in 2024. Consolidated 100% of Copper Mountain in March 2025. Copper World project in Arizona received all major state permits.",
-      "source": "Hudbay Q4 and Full Year 2024 Results press release, February 19, 2025 — https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results/"
+      "source": "Hudbay Q4 and Full Year 2024 Results press release, February 19, 2025 — https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results/",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Barrick Mining Corporation",
@@ -256,7 +276,9 @@
         "Silver"
       ],
       "description": "World's second-largest gold miner (NYSE: GOLD; TSX: ABX) with copper as a growing business. Operates Lumwana (Zambia, 100%), Zaldívar (Chile, 50% JV with Antofagasta), and Jabal Sayid (Saudi Arabia, 50%). A Super Pit expansion feasibility study for Lumwana targets doubling production to ~240,000 t/yr by the early 2030s. Reko Diq (Pakistan, pre-construction) is a tier-one copper-gold project.",
-      "source": "Barrick Q4 2024 Results press release, February 12, 2025 — https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx"
+      "source": "Barrick Q4 2024 Results press release, February 12, 2025 — https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Ero Copper Corp.",
@@ -269,7 +291,9 @@
         "Gold"
       ],
       "description": "Canadian copper mining company (TSX: ERO; NYSE: ERO) with two operations in Brazil: Caraíba (VMS deposit, Bahia, 35,444 t Cu in 2024) and the newly commissioned Tucumã operation (porphyry copper, Pará, 5,156 t Cu in partial 2024). The Xavantina gold mine provides significant by-product revenue. 2025 guidance approximately 75,000–85,000 t, nearly doubling output.",
-      "source": "Ero Copper 2024 Production Results press release, February 11, 2025 — https://api.mziq.com/mzfilemanager/v2/d/1951db45-c927-4b21-b514-7cb902782309/"
+      "source": "Ero Copper 2024 Production Results press release, February 11, 2025 — https://api.mziq.com/mzfilemanager/v2/d/1951db45-c927-4b21-b514-7cb902782309/",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Taseko Mines Limited",
@@ -283,7 +307,9 @@
         "Silver"
       ],
       "description": "Canadian copper mining company (TSX: TKO; NYSE American: TGB; LSE: TKO) operating the Gibraltar copper mine (100% owned) in British Columbia — Canada's second-largest open-pit copper mine. The Florence Copper in-situ recovery project in Arizona was ~56% complete at year-end 2024, with initial copper production anticipated in Q4 2025.",
-      "source": "Taseko Mines 2024 Production Results press release, January 9, 2025 — https://www.globenewswire.com/news-release/2025/01/09/3006998/0/en/Taseko-Announces-2024-Production-Results-and-Amendment-to-Gibraltar-Silver-Stream.html"
+      "source": "Taseko Mines 2024 Production Results press release, January 9, 2025 — https://www.globenewswire.com/news-release/2025/01/09/3006998/0/en/Taseko-Announces-2024-Production-Results-and-Amendment-to-Gibraltar-Silver-Stream.html",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "PT Amman Mineral Internasional Tbk",
@@ -297,7 +323,9 @@
         "Silver"
       ],
       "description": "Indonesian publicly listed company (IDX: AMMAN) operating the Batu Hijau copper-gold porphyry mine in West Nusa Tenggara — Indonesia's second-largest copper mine, currently in Phase 7. Commissioned a new copper smelter (222,000 t/yr cathode capacity) with first cathode harvest in March 2025. The adjacent Elang copper-gold project is in development.",
-      "source": "AMMAN Full Year 2024 Earnings Results press release, March 20, 2025 — https://www.amman.co.id/press-release/amman-full-year-2024-earnings-results-a-record-breaking-year-for-gold-production"
+      "source": "AMMAN Full Year 2024 Earnings Results press release, March 20, 2025 — https://www.amman.co.id/press-release/amman-full-year-2024-earnings-results-a-record-breaking-year-for-gold-production",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Jiangxi Copper Company Limited",
@@ -312,7 +340,9 @@
         "Sulphuric Acid"
       ],
       "description": "China's largest integrated copper producer (HKEX: 0358; SHSE: 600362), vertically integrated from the Dexing mine (Jiangxi, China's largest copper mine at ~155 kt Cu/yr) through smelting and refining. Primarily processes purchased concentrate. 2025 guidance: 200,000 t copper in concentrate (mined) and 2.37 million t copper cathode.",
-      "source": "Jiangxi Copper 2024 Annual Report, April 30, 2025 — https://en.jxcc.com/uploadFiles/file/20250430/b393e724d4b840bb98e11cccd75d5771.pdf; SMM 2024 Annual Reports analysis (May 14, 2025)"
+      "source": "Jiangxi Copper 2024 Annual Report, April 30, 2025 — https://en.jxcc.com/uploadFiles/file/20250430/b393e724d4b840bb98e11cccd75d5771.pdf; SMM 2024 Annual Reports analysis (May 14, 2025)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Tongling Nonferrous Metals Group Holding Co., Ltd.",
@@ -329,7 +359,9 @@
         "Copper Semis"
       ],
       "description": "Major Chinese state-owned copper enterprise (SZSE: 000630) fully integrated from mining through smelting and processing. Holds a 70% stake in the Mirador copper mine in Ecuador (contributing 155,200 t from own concentrates in 2024). One of China's largest copper cathode producers with annual capacity exceeding 1.7 million t.",
-      "source": "Tongling Nonferrous Metals 2024 Annual Report summary, metal.com news (July 11, 2025) — https://news.metal.com/newscontent/103424193"
+      "source": "Tongling Nonferrous Metals 2024 Annual Report summary, metal.com news (July 11, 2025) — https://news.metal.com/newscontent/103424193",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Yunnan Copper Co., Ltd.",
@@ -344,7 +376,9 @@
         "Sulphuric Acid"
       ],
       "description": "Major Chinese state-owned copper smelter and refiner (SHSE: 000878), a subsidiary of Chinalco. Primarily processes purchased concentrates from both domestic and international sources at large smelting complexes in Yunnan. Copper cathode production was lower than normal due to the Southwest Copper Industry relocation/upgrade project which caused ~235,000 t reduction; 2025 target is 1.52 million t.",
-      "source": "MatrixBCG analysis citing 2024 annual data — https://matrixbcg.com/blogs/competitors/yncopper"
+      "source": "MatrixBCG analysis citing 2024 annual data — https://matrixbcg.com/blogs/competitors/yncopper",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "MMC Norilsk Nickel PJSC (Nornickel)",
@@ -362,7 +396,9 @@
         "Silver"
       ],
       "description": "World's largest palladium producer and top-tier nickel producer (MOEX: GMKN) with copper as a major co-product from Arctic smelting operations in Norilsk, Kola Peninsula, and GRK Bystrinskoye (Transbaikal, Russia). The 2024 reconstruction of the flash smelting furnace at Nadezhda Metallurgical Plant increased smelting capacity by 25%.",
-      "source": "Norilsk Nickel 2024 Financial Results presentation, February 2025 — https://nornik-upload.storage.yandexcloud.net/iblock/452/21gutz9u4yrvp26263smrtdyh4mnhl2b/norilsk_nickel_eng_2024.pdf"
+      "source": "Norilsk Nickel 2024 Financial Results presentation, February 2025 — https://nornik-upload.storage.yandexcloud.net/iblock/452/21gutz9u4yrvp26263smrtdyh4mnhl2b/norilsk_nickel_eng_2024.pdf",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Boliden AB",
@@ -379,7 +415,9 @@
         "Nickel"
       ],
       "description": "Swedish integrated mining and smelting company (OM: BOL) operating the Aitik open-pit copper mine in Sweden (one of Europe's largest), plus the Boliden Area, Garpenberg (zinc-silver), Kevitsa (copper-nickel-PGM), and Tara (zinc-lead, Ireland) mines. Smelting operations include Rönnskär (Sweden), Harjavalta and Kokkola (Finland), Odda (zinc, Norway), and Bergsöe (lead). Acquired Neves-Corvo and Zinkgruvan mines in 2025.",
-      "source": "Boliden Q4 2024 Interim Report, February 6, 2025 — https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_Q4_2024_presentation_0.pdf; Boliden Aitik Resources and Reserves 2024 report"
+      "source": "Boliden Q4 2024 Interim Report, February 6, 2025 — https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_Q4_2024_presentation_0.pdf; Boliden Aitik Resources and Reserves 2024 report",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Vedanta Resources Limited / Konkola Copper Mines (KCM)",
@@ -396,7 +434,9 @@
         "Aluminium"
       ],
       "description": "Diversified Indian-owned but UK-headquartered resources group (NSE: VEDL). Regained full management control of Konkola Copper Mines (KCM) in Zambia mid-2024; KCM targets 300 kt/yr by early 2030s while undergoing a comprehensive smelter refurbishment. Vedanta also operates the Silvassa copper refinery in India (149 kt cathode record in FY25) and the Nchanga mine.",
-      "source": "Vedanta Resources FY25 Results press release, June 2025 — https://www.vedantaresources.com/uploads/investor-overview/financial-results/VRLResultsOFRandPressReleaseFY25.pdf"
+      "source": "Vedanta Resources FY25 Results press release, June 2025 — https://www.vedantaresources.com/uploads/investor-overview/financial-results/VRLResultsOFRandPressReleaseFY25.pdf",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Hindustan Copper Limited (HCL)",
@@ -408,7 +448,9 @@
         "Copper"
       ],
       "description": "India's only integrated copper mining company (NSE/BSE: HINDCOPPER), a Government of India undertaking. Operates the Malanjkhand underground mine (Madhya Pradesh, flagship, record ore production in FY25), Khetri Copper Complex (Rajasthan), and mines in Jharkhand. Targeting 12.2 MTPA ore capacity by 2031 from the current ~4 MTPA.",
-      "source": "Hindustan Copper FY2025-26 production announcement (April 2026) — MarketScreener; Hindustan Copper Annual Report FY2024-25 on NSE — https://nsearchives.nseindia.com"
+      "source": "Hindustan Copper FY2025-26 production announcement (April 2026) — MarketScreener; Hindustan Copper Annual Report FY2024-25 on NSE — https://nsearchives.nseindia.com",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Pan Pacific Copper Co., Ltd. (PPC)",
@@ -422,7 +464,9 @@
         "Silver"
       ],
       "description": "Japan's largest copper smelter and refiner, a joint venture between JX Advanced Metals (formerly JX Nippon Mining & Metals, 66%) and Mitsui Mining & Smelting (34%). Operates the Saganoseki, Hitachi, Ashio, and Tamano smelters/refineries. PPC processes imported concentrate; annual capacity is approximately 650,000 t refined copper.",
-      "source": "Kitco/Reuters reporting on PPC H2 FY2025/26 production plan (October 2025); Mining.com Japan copper smelters table (April 2026)"
+      "source": "Kitco/Reuters reporting on PPC H2 FY2025/26 production plan (October 2025); Mining.com Japan copper smelters table (April 2026)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Sumitomo Metal Mining Co., Ltd.",
@@ -439,7 +483,9 @@
         "Battery Materials"
       ],
       "description": "Diversified Japanese mining and smelting company (TSE: 5713) with equity stakes in major copper mines: Morenci (25%, USA, 317 kt 100% basis FY2025), Cerro Verde (16.8%, Peru, 431 kt 100% basis FY2025), and Quebrada Blanca (25%, Chile, 200 kt 100% basis FY2025). Also operates the Toyo Smelter & Refinery (Ehime) and has significant nickel operations in the Philippines (Coral Bay, Taganito) and gold mining at Hishikari.",
-      "source": "Sumitomo Metal Mining Consolidated Financial Results FY2024 (March 2025) — https://www.smm.co.jp/en/ir/library/results/pdf/2024/20250509_E_full.pdf"
+      "source": "Sumitomo Metal Mining Consolidated Financial Results FY2024 (March 2025) — https://www.smm.co.jp/en/ir/library/results/pdf/2024/20250509_E_full.pdf",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Jinchuan Group Co., Ltd.",
@@ -456,7 +502,9 @@
         "Silver"
       ],
       "description": "Chinese state-owned mining and smelting company, among the world's largest nickel producers and a major copper producer (HKEX: 2362 for Jinchuan Group International Resources). Owns the world's third-largest nickel-copper sulfide deposit in Gansu Province. Copper production comes from both domestic smelting of own and purchased concentrate, and overseas mine assets (DRC, Mexico, Ecuador, South Africa).",
-      "source": "SMM 'Graphic Guide to 2024 Annual Reports of 19 Copper Smelters' analysis, May 14, 2025 — https://news.metal.com/newscontent/103325316; Jinchuan Group Investor Relations Presentation 2024"
+      "source": "SMM 'Graphic Guide to 2024 Annual Reports of 19 Copper Smelters' analysis, May 14, 2025 — https://news.metal.com/newscontent/103325316; Jinchuan Group Investor Relations Presentation 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Grupo México S.A.B. de C.V.",
@@ -472,7 +520,9 @@
         "Silver"
       ],
       "description": "Mexico's largest mining company and parent of Southern Copper Corporation (NYSE: SCCO). The Mining Division includes Southern Copper's operations in Mexico (Buenavista del Cobre, Caridad, La Caridad) and Peru (Cuajone, Toquepala, Ilo smelter), plus the ASARCO LLC subsidiary in the USA (Ray, Mission Complex, and Silver Bell mines in Arizona). Also has a major rail and infrastructure division.",
-      "source": "Grupo México Q2 2024 Report — https://www.mexicominingcenter.com/grupo-mexico-2nd-quarter-2024-report/"
+      "source": "Grupo México Q2 2024 Report — https://www.mexicominingcenter.com/grupo-mexico-2nd-quarter-2024-report/",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Mopani Copper Mines plc",
@@ -485,7 +535,9 @@
         "Cobalt"
       ],
       "description": "Underground copper mine complex in Zambia's Copperbelt (Mufulira and Nkana mines). International Resources Holding (UAE, subsidiary of 2PointZero) acquired a 51% stake in early 2024, targeting production growth to 200,000 t/yr by ~2027 and 300,000 t/yr by 2029. IRH has invested over $1.1 billion into Mopani since acquisition.",
-      "source": "International Resources Holding press release, October 31, 2024 — https://www.irh.ae/mopani-copper-mines-key-highlights-of-irhs-transformational-operations/; IRH July 2025 operational update"
+      "source": "International Resources Holding press release, October 31, 2024 — https://www.irh.ae/mopani-copper-mines-key-highlights-of-irhs-transformational-operations/; IRH July 2025 operational update",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Barrick / Lumwana Mining Company Limited",
@@ -497,7 +549,9 @@
         "Copper"
       ],
       "description": "The Lumwana open-pit copper mine in Zambia is 100%-owned by Barrick Mining Corporation and one of Africa's largest copper mines. A Super Pit expansion feasibility study (completed early 2025) targets doubling annual production to an average ~240,000 t/yr over the mine life extension to 2057. Currently among Zambia's top copper mines. Note: Barrick is listed as the parent; this entry covers the Zambia-specific operation.",
-      "source": "Barrick Q4 2024 Results and Reserves press release, February 12, 2025 — https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx"
+      "source": "Barrick Q4 2024 Results and Reserves press release, February 12, 2025 — https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "ASARCO LLC",
@@ -512,7 +566,9 @@
         "Molybdenum"
       ],
       "description": "US copper mining subsidiary of Grupo México, operating open-pit copper mines in Arizona: the Ray Mine (concentrator and SX-EW), the Mission Complex (concentrator), and the Silver Bell Mine (SX-EW heap leach). ASARCO also operated the Hayden copper smelter, which was in discussions for restart in 2024. ASARCO is a distinct operating subsidiary with its own management despite being Grupo México-owned.",
-      "source": "GBReports Western USA Mining 2024 report; Reuters May 2024 on Hayden smelter restart — https://www.reuters.com/markets/commodities/grupo-mexicos-asarco-reopen-us-copper-smelter-amid-surging-prices-2024-05-24/"
+      "source": "GBReports Western USA Mining 2024 report; Reuters May 2024 on Hayden smelter restart — https://www.reuters.com/markets/commodities/grupo-mexicos-asarco-reopen-us-copper-smelter-amid-surging-prices-2024-05-24/",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Aurubis AG",
@@ -531,7 +587,9 @@
         "Lead"
       ],
       "description": "Europe's largest copper smelter and refiner (XETRA: NDA), processing concentrates, secondary copper, and scrap into premium copper products. Operations in Hamburg, Pirdop (Bulgaria), Lünen, Stolberg (Germany), and Olen (Belgium). The Hamburg smelter (primary) and Harjavalta (Finland, operated via Boliden JV/Harjavalta relationship) are key European copper refineries.",
-      "source": "USGS Mineral Commodity Summaries 2025 — Germany refinery data; Aurubis corporate website"
+      "source": "USGS Mineral Commodity Summaries 2025 — Germany refinery data; Aurubis corporate website",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Sierra Gorda S.C.M.",
@@ -546,7 +604,9 @@
         "Silver"
       ],
       "description": "Open-pit copper-molybdenum-gold-silver mine in northern Chile's Antofagasta Region. Operated by KGHM International Ltd. (KGHM group, 55% stake) with South32 Ltd. holding a 45% stake. Achieved record plant throughput in 2024 after completing de-bottlenecking; powered by 100% renewable energy. A fourth grinding line expansion feasibility study is expected to increase throughput by ~20%.",
-      "source": "Sierra Gorda Sustainability Report 2023 — https://www.sgscm.cl/wp-content/uploads/2024/11/DISENO_SG_ING_baja.pdf; MiningDataOnline Sierra Gorda profile (2025)"
+      "source": "Sierra Gorda Sustainability Report 2023 — https://www.sgscm.cl/wp-content/uploads/2024/11/DISENO_SG_ING_baja.pdf; MiningDataOnline Sierra Gorda profile (2025)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Mitsubishi Materials Corporation",
@@ -563,7 +623,9 @@
         "Rare Earths"
       ],
       "description": "Japanese smelting and materials manufacturing group (TSE: 5711) operating the Naoshima and Onahama copper smelters/refineries in Japan. Holds equity stakes in Mantoverde (Chile, JV with Capstone — first copper concentrate shipped to Naoshima in October 2024), Las Bambas (small stake, Peru), and other copper assets. The company also manufactures cemented carbide cutting tools and advanced materials.",
-      "source": "Mitsubishi Materials H2 FY2024-25 production plans, October 1, 2024 — https://www.mmc.co.jp/corporate/en/news/2024/news20241001.html"
+      "source": "Mitsubishi Materials H2 FY2024-25 production plans, October 1, 2024 — https://www.mmc.co.jp/corporate/en/news/2024/news20241001.html",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Yunnan Tin Co., Ltd.",
@@ -580,7 +642,9 @@
         "Silver"
       ],
       "description": "China's largest tin producer and a significant copper producer (SZSE: 000960). Yunnan Tin's copper production is a by-product of its integrated tin-copper-zinc mining and smelting operations in Yunnan Province. In 2024, it produced 84,800 t tin (global leader), 130,300 t copper, 144,000 t zinc, and 127 t indium ingots.",
-      "source": "Yunnan Tin Co. 2024 Annual Report summary — metal.com news (April 7, 2025) — https://news.metal.com/newscontent/103265067"
+      "source": "Yunnan Tin Co. 2024 Annual Report summary — metal.com news (April 7, 2025) — https://news.metal.com/newscontent/103265067",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Western Mining Co., Ltd.",
@@ -595,7 +659,9 @@
         "Aluminium"
       ],
       "description": "Chinese state-owned diversified mining company (SHSE: 601168) primarily focused on copper and aluminium in Qinghai and Tibet. The Yulong copper mine in Tibet is a large open-pit operation, one of China's largest copper mines, operating until 2036. Western Mining also produces lead, zinc, and aluminium.",
-      "source": "Mining Technology 'Five largest copper mines in China' analysis, June 2024 — https://www.mining-technology.com/marketdata/five-largest-copper-mines-china/; Mining.com top 20 copper mines 2025 (Yulong ranked ~15th, 83,412 t H1 2025)"
+      "source": "Mining Technology 'Five largest copper mines in China' analysis, June 2024 — https://www.mining-technology.com/marketdata/five-largest-copper-mines-china/; Mining.com top 20 copper mines 2025 (Yulong ranked ~15th, 83,412 t H1 2025)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "South32 Limited (Sierra Gorda stake)",
@@ -615,7 +681,9 @@
         "Zinc"
       ],
       "description": "Australian diversified miner (ASX: S32; LSE: S32; JSE: S32) with a 45% stake in the Sierra Gorda copper-molybdenum mine in Chile (operated by KGHM). South32 also operates manganese, metallurgical coal, aluminium, and base metals assets globally. The Sierra Gorda fourth grinding line expansion feasibility study (targeted +20% throughput) is underway.",
-      "source": "Wikipedia Sierra Gorda mine article — https://en.wikipedia.org/wiki/Sierra_Gorda_mine; MiningDataOnline Sierra Gorda production data"
+      "source": "Wikipedia Sierra Gorda mine article — https://en.wikipedia.org/wiki/Sierra_Gorda_mine; MiningDataOnline Sierra Gorda production data",
+      "ticker": "",
+      "exchange": ""
     }
   ],
   "aluminium": [
@@ -1032,7 +1100,9 @@
         "Cobalt"
       ],
       "description": "Integrated nickel mining and processing company operating on Obi Island, South Halmahera, North Maluku. Operates RKEF smelters (PT Megah Surya Pertiwi and PT Halmahera Jaya Feronikel) producing ferronickel and an HPAL plant producing MHP for EV battery supply chains. Listed on IDX (NCKL).",
-      "source": "Indonesia Business Post, April 2024 (citing Harita Nickel 2023 Full-Year Financial Report); The Jakarta Post, April 2024"
+      "source": "Indonesia Business Post, April 2024 (citing Harita Nickel 2023 Full-Year Financial Report); The Jakarta Post, April 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "PT Merdeka Battery Materials Tbk (MBMA)",
@@ -1046,7 +1116,9 @@
         "Copper"
       ],
       "description": "Subsidiary of PT Merdeka Copper Gold (IDX: MDKA), operating the Sulawesi Cahaya Mineral (SCM) nickel mine in Konawe, Southeast Sulawesi — one of the world's largest nickel resources (~13.8 million t contained Ni, 21,100-hectare concession). Developing multiple HPAL plants (PT ESG, PT Meiming, SLNC, CATL HPAL) for MHP production targeting EV batteries. Listed on IDX as MBMA.",
-      "source": "PT Merdeka Copper Gold Q3 2025 Quarterly Activities Report, November 2025 (merdekacoppergold.com); Merdeka Battery Materials website"
+      "source": "PT Merdeka Copper Gold Q3 2025 Quarterly Activities Report, November 2025 (merdekacoppergold.com); Merdeka Battery Materials website",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Anglo American plc (Nickel Operations, Brazil)",
@@ -1062,7 +1134,9 @@
         "Diamonds"
       ],
       "description": "Major diversified miner operating two ferronickel production sites in Goiás state, Brazil: Barro Alto (design capacity ~36,000 t Ni/yr, commissioned 2011) and Codemin/Niquelandia. Anglo American announced a strategic exit from nickel and was targeting sale of the Brazil nickel operations in H1 2025 to focus on copper. The group's PGM business in South Africa produces an additional ~25,700 t Ni/yr as a by-product.",
-      "source": "Anglo American Q4 2024 Production Report, February 2025 (angloamerican.com); LSE RNS disclosure, February 2025; Mining Technology, January 2025"
+      "source": "Anglo American Q4 2024 Production Report, February 2025 (angloamerican.com); LSE RNS disclosure, February 2025; Mining Technology, January 2025",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "IGO Limited",
@@ -1077,7 +1151,9 @@
         "Lithium"
       ],
       "description": "ASX-listed battery metals producer operating the Nova underground nickel-copper-cobalt mine in the Fraser Range, Western Australia. Forrestania reached end of mine life in FY2024 and Cosmos was placed into care and maintenance due to low nickel prices. Nova is expected to reach end of life by late 2026. IGO also holds a ~25% stake in the Greenbushes lithium mine JV with Tianqi Lithium.",
-      "source": "IGO Limited Annual Report 2024 (igo.com.au); IGO Nova Operation page (igo.com.au/site/operations/nova)"
+      "source": "IGO Limited Annual Report 2024 (igo.com.au); IGO Nova Operation page (igo.com.au/site/operations/nova)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Wyloo Metals Pty Ltd",
@@ -1092,7 +1168,9 @@
         "Chromite"
       ],
       "description": "Private mining company backed by Andrew Forrest's Tattarang, formed from the acquisition of Mincor Resources (2023). Operates high-grade nickel sulphide mines in Kambalda, WA (Cassini, Northern Operations), and holds the Eagle's Nest project in Ontario, Canada (Ring of Fire). Planning Australia's first integrated battery materials facility in Kwinana, WA. Produces low-carbon nickel sulphide concentrate.",
-      "source": "Wyloo website (wyloo.com/what-we-do/); Reuters, October 2024; Wyloo media release September 2023 and ROF Fact Sheet 2024"
+      "source": "Wyloo website (wyloo.com/what-we-do/); Reuters, October 2024; Wyloo media release September 2023 and ROF Fact Sheet 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Sherritt International Corporation — Moa Joint Venture",
@@ -1105,7 +1183,9 @@
         "Cobalt"
       ],
       "description": "Canadian company (TSX: S) operating the Moa Joint Venture — a 50/50 partnership with Cuban state company General Nickel Company S.A. Mining lateritic ore in Moa, Cuba, the MSP is refined into finished Class 1 nickel and cobalt at the Fort Saskatchewan refinery in Alberta. Mine life extended to 26 years (as of 2023 reserve update). Refinery capacity ~38,200 t Ni+Co/yr (100% basis).",
-      "source": "Sherritt International Q4 and Full Year 2024 Results, Business Wire, February 2025; Sherritt 2024 Annual Information Form (sherritt.com); Sherritt operations page (sherritt.com/operations/metals/)"
+      "source": "Sherritt International Q4 and Full Year 2024 Results, Business Wire, February 2025; Sherritt 2024 Annual Information Form (sherritt.com); Sherritt operations page (sherritt.com/operations/metals/)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "First Quantum Minerals Ltd. — Enterprise Nickel Mine",
@@ -1120,7 +1200,9 @@
         "Cobalt"
       ],
       "description": "Major Canadian mining company (TSX: FM) operating the Enterprise open-pit nickel sulphide mine in Zambia's North-Western Province — Africa's largest nickel mine. Declared commercial production in June 2024 targeting ramp-up to 30,000–40,000 t/yr by 2026–2027. Ravensthorpe laterite HPAL operation in Western Australia was placed into permanent care and maintenance in May 2024.",
-      "source": "First Quantum Minerals 2024 Preliminary Production Report, January 2025 (first-quantum.com); First Quantum Q4 2024 Results, February 2025; Mining.com, July 2024"
+      "source": "First Quantum Minerals 2024 Preliminary Production Report, January 2025 (first-quantum.com); First Quantum Q4 2024 Results, February 2025; Mining.com, July 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Ambatovy Minerals S.A. / Dynatec Madagascar S.A.",
@@ -1134,7 +1216,9 @@
         "Ammonium Sulphate"
       ],
       "description": "One of the world's largest laterite nickel-cobalt HPAL mining and refining operations, located near Moramanga (mine site) and Toamasina (refinery), Madagascar. Produces Class 1 refined nickel briquettes (99.9% purity) and cobalt. Majority-owned by Sumitomo Corporation (54.17%); remainder held by Korea Mine Rehabilitation and Mineral Resources Corporation. Debt restructuring completed December 2024. Operates entirely from own mine feed.",
-      "source": "Ambatovy Sustainability Report 2022 (ambatovy.com); Discovery Alert, October 2025; Sumitomo Corporation press release November 2024 (sumitomocorp.com); Ambatovy Due Diligence Step Five Annual Report 2024"
+      "source": "Ambatovy Sustainability Report 2022 (ambatovy.com); Discovery Alert, October 2025; Sumitomo Corporation press release November 2024 (sumitomocorp.com); Ambatovy Due Diligence Step Five Annual Report 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "MCC Ramu NiCo Ltd. (Metallurgical Corporation of China subsidiary)",
@@ -1147,7 +1231,9 @@
         "Cobalt"
       ],
       "description": "Operates the Ramu Nickel Mine in Madang Province, Papua New Guinea — a major laterite nickel-cobalt HPAL operation that operated at or above design capacity (32,600 t/yr) for seven consecutive years through 2023. MCC (Chinese state-owned enterprise) holds 67.02% of the project; Nickel 28 Capital Corp. (TSX-V: NKL) holds 8.56%. Reserves sufficient for at least 15 more years as of 2024.",
-      "source": "Nickel 28 Capital Corp. MDA January 2024 (nickel28.com); Business Wire, February 2024 (Nickel 28 Ramu full year 2023 results); Wikipedia — Ramu Nickel Mine"
+      "source": "Nickel 28 Capital Corp. MDA January 2024 (nickel28.com); Business Wire, February 2024 (Nickel 28 Ramu full year 2023 results); Wikipedia — Ramu Nickel Mine",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Terrafame Oy",
@@ -1163,7 +1249,9 @@
         "Uranium"
       ],
       "description": "Finnish state-owned battery chemicals company operating Europe's largest nickel mine in Sotkamo using bioheapleach technology. Produces battery-grade nickel sulphate and cobalt sulphate. Generates approximately 70% of all nickel mined in Europe. Net sales €544.5 million (2024). Shareholders: Finnish Minerals Group Oy (state), Galena funds, and Mandatum Oyj. Began uranium recovery from process streams in June 2024.",
-      "source": "Kaivosvastuu database, 2024 Terrafame Oy entry (kaivosvastuu.fi); Terrafame Financial Review 2024 PDF (terrafame.com)"
+      "source": "Kaivosvastuu database, 2024 Terrafame Oy entry (kaivosvastuu.fi); Terrafame Financial Review 2024 PDF (terrafame.com)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "PT Aneka Tambang Tbk (ANTAM)",
@@ -1178,7 +1266,9 @@
         "Alumina"
       ],
       "description": "Indonesian state-owned diversified mining company (subsidiary of MIND ID) with nickel mines in Kolaka, North Konawe, and North Maluku, plus 100% ownership of PT Gag Nickel (Gag Island, West Papua). Operates ferronickel smelters in Kolaka (27,000 t Ni/yr capacity) and East Halmahera (13,500 t Ni/yr). Also produces gold, bauxite and is developing an alumina refinery. IDX-listed (ANTM).",
-      "source": "ANTAM FY24 Investor Presentation (Slideshare, 2025); KB Valbury research note, May 2024; Petromindo, October 2025 (9M 2025 data); ANTAM news page (antam.com)"
+      "source": "ANTAM FY24 Investor Presentation (Slideshare, 2025); KB Valbury research note, May 2024; Petromindo, October 2025 (9M 2025 data); ANTAM news page (antam.com)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Societe Le Nickel (SLN)",
@@ -1190,7 +1280,9 @@
         "Nickel (Ferronickel)"
       ],
       "description": "Oldest nickel producer in New Caledonia (operations since 1880), majority-owned by Eramet (56%) with the balance held by STCPI (New Caledonian interests). Operates open-pit laterite mines and the Doniambo pyrometallurgical smelter producing ferronickel. Severely impacted by the May 2024 riots which damaged key infrastructure and halted mining operations.",
-      "source": "Mining Data Online — SLN Mine profile, June 2025 (miningdataonline.com); IISD Commodity Profile Nickel 2025"
+      "source": "Mining Data Online — SLN Mine profile, June 2025 (miningdataonline.com); IISD Commodity Profile Nickel 2025",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Prony Resources New Caledonia (PRNC) — Goro Mine",
@@ -1203,7 +1295,9 @@
         "Cobalt"
       ],
       "description": "Operates the Goro laterite HPAL mine and refinery in southern New Caledonia, one of only three global industrial facilities capable of producing Nickel Hydroxide Cake (NHC, 37% Ni). Previously a Vale asset, acquired by Trafigura and New Caledonian investors in 2021. Production suspended for six months due to May 2024 riots; restart announced late 2024 with no confirmed date.",
-      "source": "Mining Technology, November 2024 (prony-resources-nickel-goro-mine); Hatch Performance Innovations — Project Lucy page (hatchperformanceinnovations.com); Prony Resources website (pronyresources.com)"
+      "source": "Mining Technology, November 2024 (prony-resources-nickel-goro-mine); Hatch Performance Innovations — Project Lucy page (hatchperformanceinnovations.com); Prony Resources website (pronyresources.com)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Pacific Metals Co., Ltd. (PAMCO)",
@@ -1216,7 +1310,9 @@
         "Slag products"
       ],
       "description": "Japan's largest ferronickel producer, listed on the Nikkei 225, operating a RKEF facility with one of the world's largest rotary kilns (131 m) and electric arc furnaces in Hachinohe. Produces ferronickel for the stainless steel market. Signed an MOU with The Metals Company (TMC) in November 2023 to evaluate commercial processing of polymetallic nodules.",
-      "source": "PAMCO Financial Results Briefing Session FY H1 2025 (pacific-metals.co.jp, November 2025); TMC press release (investors.metals.co); Wikipedia — Pacific Metals"
+      "source": "PAMCO Financial Results Briefing Session FY H1 2025 (pacific-metals.co.jp, November 2025); TMC press release (investors.metals.co); Wikipedia — Pacific Metals",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Nippon Yakin Kogyo Co., Ltd.",
@@ -1230,7 +1326,9 @@
         "High-performance Alloys"
       ],
       "description": "Japanese stainless steel manufacturer (est. 1925) and ferronickel producer using the proprietary Krupp-Renn process at its Oheyama Plant — the only commercial user of this process in the world. All ferronickel is consumed internally to produce stainless steel and high-performance alloys at the Kawasaki Plant. Increasing use of urban mine recycled materials to reduce reliance on nickel ore.",
-      "source": "Nippon Yakin Kogyo Integrated Report 2024 (nyk.co.jp); PAMCO Financial Presentation showing Japanese ferronickel production by company (three producers: PAMCO, Sumitomo/Hyuga, Nippon Yakin)"
+      "source": "Nippon Yakin Kogyo Integrated Report 2024 (nyk.co.jp); PAMCO Financial Presentation showing Japanese ferronickel production by company (three producers: PAMCO, Sumitomo/Hyuga, Nippon Yakin)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Solway Investment Group GmbH — Fenix Project (ProNiCo / CGN)",
@@ -1242,7 +1340,9 @@
         "Nickel (Ferronickel)"
       ],
       "description": "Private Swiss mining and metals group operating the Fenix Project in eastern Guatemala — a fully integrated ferronickel operation comprising the CGN open-pit nickel mine and ProNiCo ferronickel smelter. Previously produced over 1,000 t Ni/month. Operations halted November 2022 after US sanctions imposed on Guatemalan subsidiaries; restart planned mid-2026 after sanctions lifted January 2024. Solway also operates the Pobuzhsky Ferronickel Plant in Ukraine (currently halted due to Russian missile strike, October 2022).",
-      "source": "Solway Investment Group website (solwaygroup.com/our-business/fenix-project-guatemala/); Reuters / Mining.com, January 2026; Energy News OE Digital, January 2026"
+      "source": "Solway Investment Group website (solwaygroup.com/our-business/fenix-project-guatemala/); Reuters / Mining.com, January 2026; Energy News OE Digital, January 2026",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Koniambo Nickel SAS (KNS)",
@@ -1254,7 +1354,9 @@
         "Nickel (Ferronickel)"
       ],
       "description": "Open-pit laterite mine and ferronickel smelter in New Caledonia's Northern Province, 49% owned by Glencore and 51% by SOFINOR (New Caledonian interests). Placed into care and maintenance in February 2024 due to high operating costs and weak nickel prices. Glencore failed to find a buyer; redundancy process for ~1,200 workers commenced August 2024. Plant in suspension since August 2024.",
-      "source": "Glencore Full Year 2024 Production Report, January 2025 (glencore.com); Mining Data Online — Koniambo Mine profile, May 2025; Reuters, February 2024"
+      "source": "Glencore Full Year 2024 Production Report, January 2025 (glencore.com); Mining Data Online — Koniambo Mine profile, May 2025; Reuters, February 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Mining Industry Indonesia (MIND ID) — Pakal Island Mine",
@@ -1266,7 +1368,9 @@
         "Nickel"
       ],
       "description": "MIND ID is the Indonesian state mining holding company (Inalum/BUMN) that acts as parent of ANTAM, PT Vale Indonesia stake, and other state assets. The Pakal Island mine in North Maluku is listed separately as the 10th largest nickel mine globally per GlobalData's 2023 data, operated as part of the Indonesian industrial park ecosystem.",
-      "source": "Mining Technology — World's ten largest nickel mines (mining-technology.com, 2023 GlobalData figures); Mining Technology — Indonesia nickel capacity additions 2026, February 2026"
+      "source": "Mining Technology — World's ten largest nickel mines (mining-technology.com, 2023 GlobalData figures); Mining Technology — Indonesia nickel capacity additions 2026, February 2026",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Korea Zinc Co., Ltd. / KEMCO",
@@ -1284,7 +1388,9 @@
         "Sulfuric Acid"
       ],
       "description": "World's largest zinc smelter company and a growing nickel refiner/producer via its subsidiary KEMCO. Currently operates nickel refining at the Onsan refinery in Ulsan. A KRW 506.3 billion all-in-one nickel refinery capable of processing nickel matte, MHP and other intermediates into high-purity nickel sulphate broke ground November 2023 and targets 65,000 t Ni/yr by 2026 — which would make Korea Zinc/KEMCO the world's largest non-Chinese nickel sulphate producer.",
-      "source": "Korea Zinc press release, November 2023 (koreazinc.co.kr); Wikipedia — Korea Zinc; Mining Technology, January 2025"
+      "source": "Korea Zinc press release, November 2023 (koreazinc.co.kr); Wikipedia — Korea Zinc; Mining Technology, January 2025",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Anglo American Platinum (Amplats) — Nickel By-product",
@@ -1301,7 +1407,9 @@
         "Cobalt"
       ],
       "description": "The world's largest platinum group metals producer, operating underground mines in South Africa's Bushveld Igneous Complex. Nickel is a significant by-product of PGM smelting and refining. Anglo American Platinum's nickel production is separate from Anglo American's ferronickel operations in Brazil. JSE-listed (AMS) and LSE-listed.",
-      "source": "Anglo American Q4 2024 Production Report footnote 6/7 (angloamerican.com, February 2025); LSE RNS disclosure February 2025 showing 25.7 kt PGM-sourced Ni in 2024"
+      "source": "Anglo American Q4 2024 Production Report footnote 6/7 (angloamerican.com, February 2025); LSE RNS disclosure February 2025 showing 25.7 kt PGM-sourced Ni in 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Ivanhoe Mines Ltd. — Platreef Project",
@@ -1318,7 +1426,9 @@
         "Gold"
       ],
       "description": "TSX-listed Ivanhoe Mines is developing the Platreef underground mine in Limpopo, South Africa — the world's widest and flattest PGM-nickel-copper-gold deposit. Expected to be one of the world's largest low-cost PGM operations with 32-year mine life; nickel is a significant co-product. Mine NRI Digital ranked this as an upcoming major project in 2024.",
-      "source": "Mine NRI Digital, April 2024 (mine.nridigital.com); IISD Commodity Profile Nickel 2025 (upcoming mines section)"
+      "source": "Mine NRI Digital, April 2024 (mine.nridigital.com); IISD Commodity Profile Nickel 2025 (upcoming mines section)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Centaurus Metals Limited — Jaguar Nickel Project",
@@ -1332,7 +1442,9 @@
         "Cobalt"
       ],
       "description": "ASX-listed (CTM) developer of the Jaguar nickel sulphide project in Pará state, northern Brazil. Signed a binding 5-year offtake agreement with Glencore in March 2026 for 20,000 t/yr of 32% nickel concentrate (worth ~$450M). Received final environmental approval in October 2025. Capital cost estimated at $380M; in discussions with BNDES for debt financing.",
-      "source": "Mining.com, March 2026 (centaurus-inks-glencore-deal); Newsfile Corp press release, March 2026; YouTube CEO Clips, March 2026"
+      "source": "Mining.com, March 2026 (centaurus-inks-glencore-deal); Newsfile Corp press release, March 2026; YouTube CEO Clips, March 2026",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Horizonte Minerals plc — Araguaia Nickel Project",
@@ -1344,7 +1456,9 @@
         "Nickel (Ferronickel)"
       ],
       "description": "AIM- and TSX-listed developer of the Araguaia Nickel Ferronickel Project in Brazil, targeting first metal for Q1 2024 before encountering financing difficulties. The project — which acquired Vale's former Araguaia exploration assets — entered care and maintenance in 2024. It holds one of the largest undeveloped nickel reserves in Brazil.",
-      "source": "Mine NRI Digital, April 2024 (mine.nridigital.com, Brazil section); company public disclosures (Horizonte Minerals entered significant financial difficulty during 2024)"
+      "source": "Mine NRI Digital, April 2024 (mine.nridigital.com, Brazil section); company public disclosures (Horizonte Minerals entered significant financial difficulty during 2024)",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Solway Investment Group — Pobuzhsky Ferronickel Plant (PFP), Ukraine",
@@ -1356,7 +1470,9 @@
         "Nickel (Ferronickel)"
       ],
       "description": "The Pobuzhsky Ferronickel Plant operated by Solway was the only ferronickel smelter in Ukraine and a significant European nickel producer before being forcibly halted in October 2022 when a Russian missile strike destroyed the plant's power substation. The facility imported laterite ore from Indonesia, New Caledonia, and Guatemala. Included as a historically significant producer currently inactive.",
-      "source": "Solway Group website (solwaygroup.com); Wikipedia — Solway Group; Mining.com / Energy News, January 2026"
+      "source": "Solway Group website (solwaygroup.com); Wikipedia — Solway Group; Mining.com / Energy News, January 2026",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Nickel 28 Capital Corp. — Ramu JV Interest",
@@ -1369,7 +1485,9 @@
         "Cobalt"
       ],
       "description": "TSX-V listed nickel-cobalt royalty and streaming company holding an 8.56% JV interest in the Ramu nickel-cobalt operation in Papua New Guinea (operated by MCC). Nickel 28 also holds a portfolio of 10 nickel and cobalt royalties on development and exploration projects in Canada, Australia, and Papua New Guinea. Included here as a direct equity participant in a significant producing operation.",
-      "source": "Nickel 28 website (nickel28.com/about-us/company-profile/); Nickel 28 MDA January 2024; Business Wire, February 2024"
+      "source": "Nickel 28 website (nickel28.com/about-us/company-profile/); Nickel 28 MDA January 2024; Business Wire, February 2024",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Coral Bay Nickel Corporation (CBNC)",
@@ -1382,7 +1500,9 @@
         "Cobalt"
       ],
       "description": "Operates the Philippines' first HPAL plant at Rio Tuba, Palawan, converting low-grade laterite ore from the adjacent Rio Tuba Nickel mine (Nickel Asia) into mixed nickel-cobalt sulphide (MS) for export to Sumitomo Metal Mining's refineries in Japan. Commissioned 2005, expanded 2009. Sumitomo Metal Mining is the majority shareholder (100% targeted); Nickel Asia is selling its remaining 15.625% stake.",
-      "source": "Coral Bay Nickel Corporation website (cbnc.com.ph); Sumitomo Metal Mining sustainability page (smm.co.jp/en/sustainability); Mining Technology, January 2025; Wood Mackenzie CBNC report overview"
+      "source": "Coral Bay Nickel Corporation website (cbnc.com.ph); Sumitomo Metal Mining sustainability page (smm.co.jp/en/sustainability); Mining Technology, January 2025; Wood Mackenzie CBNC report overview",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Taganito HPAL Nickel Corporation (THPAL)",
@@ -1395,7 +1515,9 @@
         "Cobalt"
       ],
       "description": "HPAL plant in Taganito, Surigao del Norte, Philippines, processing laterite ore into mixed nickel-cobalt sulphide (MS) for export to Sumitomo Metal Mining's Japanese refineries. Owned 75% by Sumitomo Metal Mining, 15% by Mitsui & Co., and 10% by Nickel Asia Corporation. Commenced commercial production October 2013; capacity expanded to 36,000 t Ni/yr by FY2017.",
-      "source": "Sumitomo Metal Mining sustainability page (smm.co.jp/en/sustainability/activity_highlights/article_12/); OneMine — THPAL Plant Operation Progress (2017); Mining.com, January 2025"
+      "source": "Sumitomo Metal Mining sustainability page (smm.co.jp/en/sustainability/activity_highlights/article_12/); OneMine — THPAL Plant Operation Progress (2017); Mining.com, January 2025",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Cerro Matoso S.A. (South32 — being sold to CoreX Holding)",
@@ -1407,7 +1529,9 @@
         "Nickel (Ferronickel)"
       ],
       "description": "Open-cut laterite mine and ferronickel smelter in Córdoba Department, Colombia. One of the largest open-pit ferronickel mines in the world and the only nickel mine in Colombia. Operated since 1980; owned by South32 since 2015. South32 entered a binding agreement to sell Cerro Matoso to CoreX Holding (July 2025) as part of its strategic shift toward copper and zinc.",
-      "source": "South32 Quarterly Report June 2024 (south32.net); Colombian ANM Nickel Fact Sheet December 2024 (mineriaencolombia.anm.gov.co); Mining.com, July 2025 (South32 sale announcement); Cerro Matoso Wikipedia"
+      "source": "South32 Quarterly Report June 2024 (south32.net); Colombian ANM Nickel Fact Sheet December 2024 (mineriaencolombia.anm.gov.co); Mining.com, July 2025 (South32 sale announcement); Cerro Matoso Wikipedia",
+      "ticker": "",
+      "exchange": ""
     },
     {
       "name": "Lundin Mining Corporation — Neves-Corvo (Nickel by-product)",
@@ -1422,7 +1546,9 @@
         "Nickel"
       ],
       "description": "Lundin Mining's Neves-Corvo mine in Alentejo, southern Portugal produces copper, zinc, and tin with nickel as a minor by-product. One of the few European copper mines with nickel. Included here as a European nickel-producing mine, though nickel is a secondary product. TSX- and Nasdaq Stockholm-listed.",
-      "source": "USGS Mineral Commodity Summaries 2025 — Nickel (pubs.usgs.gov/periodicals/mcs2025/mcs2025-nickel.pdf) reference to other country producers; Lundin Mining annual report"
+      "source": "USGS Mineral Commodity Summaries 2025 — Nickel (pubs.usgs.gov/periodicals/mcs2025/mcs2025-nickel.pdf) reference to other country producers; Lundin Mining annual report",
+      "ticker": "",
+      "exchange": ""
     }
   ],
   "zinc": [
@@ -5118,6 +5244,1524 @@
       "production": "3,299 tU from Karatau (Budenovskoye 2) mine in 2024 (WNA mine table); and 2,803 tU from Akdala & South Inkai 4 in 2024 (WNA). 2023 figures for individual joint ventures not separately available. Total Uranium One company production: 5,829 tU in 2024 (WNA).",
       "ticker": "",
       "exchange": ""
+    }
+  ],
+  "rhodium": [
+    {
+      "name": "Anglo American Platinum (Amplats / Valterra Platinum)",
+      "country": "South Africa",
+      "website": "https://www.angloamerican.com/our-business/platinum-group-metals",
+      "production": "Rhodium 000 oz refined (Q3 2023 YTD): 164,300 oz; Q4 2023 refined: 61,300 oz; FY2023 total refined 'Other PGMs and gold' (incl. Rh, Ru, Ir, Au): 557,300 oz—no individual FY2023 rhodium annual total separately disclosed in Q4 2023 Production Report. Q4 2023 Production Report states total PGM (5E+Au) FY2023 refined production: 3,800,600 oz. Rhodium is included in the 5E+Au basket as one of five elements. Source: Anglo American Q4 2023 Production Report (angloamerican.com, dated 8 Feb 2024).",
+      "ticker": "AMS",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Impala Platinum Holdings (Implats)",
+      "country": "South Africa",
+      "website": "https://www.implats.co.za",
+      "production": "Gross rhodium refined: 169,300 oz for financial year ended 30 June 2023 (FY2023). Source: Implats Summarised Consolidated Annual Results FY2023, SENS release 31 August 2023 (sharenet.co.za).",
+      "ticker": "IMP",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "country": "South Africa / United States",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "SA PGM operations 2023: 1,748,430 4Eoz (Pt+Pd+Rh+Au); US PGM underground 2023: 427,272 2Eoz (Pt+Pd). Rhodium for 2024 specifically reported as 190,000 oz (from company investor factsheet). Separate 2023 rhodium ounce figure not publicly broken out in 2023 annual reports; Sibanye is described as 'one of the world's largest primary producers of platinum, palladium, and rhodium'. Source: Sibanye-Stillwater Investor Factsheet (sibanyestillwater.com); Sibanye-Stillwater 2023 Integrated Report.",
+      "ticker": "SSW",
+      "exchange": "JSE (Johannesburg Stock Exchange); SWX (NYSE)"
+    },
+    {
+      "name": "Northam Platinum Holdings",
+      "country": "South Africa",
+      "website": "https://www.northam.co.za",
+      "production": "FY2023 (year ended 30 June 2023): Total equivalent refined metal produced from own operations: 892,876 oz 4E (Pt+Pd+Rh+Au). Individual rhodium ounce figure not separately disclosed in publicly available FY2023 reports; production reported in 4E aggregate. Source: Northam Platinum Holdings Annual Integrated Report FY2024 (Northam.co.za, FY2023 historical data shown).",
+      "ticker": "NPH",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Zimplats Holdings (Impala subsidiary)",
+      "country": "Zimbabwe",
+      "website": "https://www.zimplats.com",
+      "production": "FY2023 (year ended 30 June 2023): 6E production (Pt+Pd+Rh+Au+Ru+Ir) 611,000 oz. Separate rhodium figure not disclosed in FY2023 preliminary final report; rhodium revenue FY2023 US$169,279k vs FY2022 US$312,045k. Source: Zimplats ASX Preliminary Final Report FY2023 (zimplats.com, dated 29 Aug 2023).",
+      "ticker": "ZIM",
+      "exchange": "ASX (Australian Securities Exchange)"
+    },
+    {
+      "name": "Nornickel (MMC Norilsk Nickel)",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Ranked No. 5 globally in rhodium production with approximately 8% market share (based on refined metal output), per Nornickel 2023 Annual Report PGM market analysis. Russia total primary rhodium supply 2023: 70,000 troy oz (per Johnson Matthey PGM Market Report 2024). Specific Nornickel rhodium tonnage/koz figure not separately published in consolidated production results. Source: Nornickel 2023 Annual Report (ar2023.nornickel.com); Johnson Matthey PGM Market Report 2024.",
+      "ticker": "GMKN",
+      "exchange": "MOEX (Moscow Exchange)"
+    },
+    {
+      "name": "Mimosa Mine (50% Impala Platinum / 50% Sibanye-Stillwater JV)",
+      "country": "Zimbabwe",
+      "website": "https://www.implats.co.za",
+      "production": "FY2023: 6E production 245,000 oz in concentrate. Historical rhodium production (pre-2020): approximately 10,000 oz/year (Rhodium, koz: 10 in 2019 per miningdataonline.com). Post-2020 figures marked as not disclosed in third-party data. Source: Implats Fact Sheet—Mimosa (implats.co.za); miningdataonline.com historical data.",
+      "ticker": "N/A (unlisted JV)",
+      "exchange": "N/A"
+    },
+    {
+      "name": "Glencore (Integrated Nickel Operations, Sudbury)",
+      "country": "Canada",
+      "website": "https://www.glencore.com",
+      "production": "FY2023 from own sources (Integrated Nickel Operations, Sudbury, Canada): Rhodium 3,000 oz. Source: Glencore FY2023 Production Report (glencore.com, 1 Feb 2024).",
+      "ticker": "GLEN",
+      "exchange": "LSE (London Stock Exchange); JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "African Rainbow Minerals (ARM) — Two Rivers Platinum Mine",
+      "country": "South Africa",
+      "website": "https://www.arm.co.za",
+      "production": "Two Rivers Mine: Historical rhodium production (pre-2020): approximately 26,000 oz Rh/year (2019 data from miningdataonline.com). Post-2020 annual figures marked as not disclosed in third-party data. ARM's 2023 integrated report does not break out individual metal production figures for rhodium at Two Rivers. Source: African Rainbow Minerals Integrated Annual Report FY2023 (arm-ir-reports.co.za); miningdataonline.com.",
+      "ticker": "ARI",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Sibanye-Stillwater (US operations — Stillwater and East Boulder mines, Montana)",
+      "country": "United States",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "US PGM underground operations 2023: 427,272 2Eoz (Pt+Pd). Sibanye-Stillwater is described as the primary US producer of rhodium, mining the J-M Reef (highest-grade PGE deposit in the world). Individual US rhodium ounce figure not separately reported for 2023; US operations report 2E (Pt+Pd) only. Source: Sibanye-Stillwater 2023 Integrated Report; Stillwater Critical Minerals Corp. press release (criticalminerals.com, Nov 2024).",
+      "ticker": "SSW",
+      "exchange": "JSE (Johannesburg Stock Exchange); SWX (NYSE)"
+    }
+  ],
+  "iridium": [
+    {
+      "name": "Anglo American Platinum (Amplats / Valterra Platinum)",
+      "country": "South Africa",
+      "website": "https://www.angloamerican.com/our-business/platinum-group-metals",
+      "production": "Iridium is one of five elements in Amplats' 5E+Au basket (Pt+Pd+Rh+Ru+Ir+Au). No separate iridium production figure published for FY2023. Production report describes 'Other PGMs and gold' (Rh+Ru+Ir+Au) FY2023 refined aggregate: 557,300 oz. Iridium price realised Q4 2023: US$4,782/oz. Source: Anglo American Q4 2023 Production Report (angloamerican.com, 8 Feb 2024).",
+      "ticker": "AMS",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Impala Platinum Holdings (Implats)",
+      "country": "South Africa",
+      "website": "https://www.implats.co.za",
+      "production": "Production data not publicly disclosed for iridium separately. FY2023 gross refined 6E: 2,958,700 oz; iridium is included in the 6E basket. Individual iridium ounce figure not broken out in FY2023 annual results. Source: Implats Summarised Consolidated Annual Results FY2023 (sharenet.co.za, 31 Aug 2023).",
+      "ticker": "IMP",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "country": "South Africa",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "Sibanye 'produces and refines iridium and ruthenium' per 2023 Integrated Report. 2024 iridium production reported as 64,000 oz on company investor factsheet. 2023 specific iridium figure not separately disclosed in 2023 annual reports. Source: Sibanye-Stillwater Investor Factsheet (sibanyestillwater.com); Sibanye-Stillwater 2023 Integrated Report.",
+      "ticker": "SSW",
+      "exchange": "JSE (Johannesburg Stock Exchange); SWX (NYSE)"
+    },
+    {
+      "name": "Northam Platinum Holdings",
+      "country": "South Africa",
+      "website": "https://www.northam.co.za",
+      "production": "Production data not publicly disclosed for iridium separately. Northam reports production in 4E (Pt+Pd+Rh+Au) and 6E (4E + Ru + Ir) aggregate. FY2023 group 4E production: 892,876 oz. Iridium included in 6E but not separately reported. Source: Northam Platinum Holdings Annual Integrated Report FY2024 (northam.co.za).",
+      "ticker": "NPH",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Zimplats Holdings (Impala subsidiary)",
+      "country": "Zimbabwe",
+      "website": "https://www.zimplats.com",
+      "production": "Q2 FY2024 (quarter ended June 2023): Iridium 3,180 oz; Q1 FY2024 (quarter ended March 2023): Iridium 2,908 oz; Q2 FY2023 (quarter ended June 2022): Iridium 2,685 oz. FY2023 full-year iridium total not separately stated; quarterly run rate implies approximately 10,000–13,000 oz/year. Iridium revenue FY2023: US$25,054k. Source: Zimplats Quarterly Report for period ended 30 June 2023 (zimplats.com).",
+      "ticker": "ZIM",
+      "exchange": "ASX (Australian Securities Exchange)"
+    },
+    {
+      "name": "Nornickel (MMC Norilsk Nickel)",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Production data not publicly disclosed for iridium separately. Nornickel 2023 Annual Report and consolidated production results do not report iridium as a standalone figure. Nornickel produces iridium as part of its PGM suite. Source: Nornickel 2023 Annual Report (ar2023.nornickel.com); Nornickel consolidated production results 2023 (nornickel.com, 29 Jan 2024).",
+      "ticker": "GMKN",
+      "exchange": "MOEX (Moscow Exchange)"
+    },
+    {
+      "name": "Glencore (Integrated Nickel Operations, Sudbury)",
+      "country": "Canada",
+      "website": "https://www.glencore.com",
+      "production": "Production data not publicly disclosed for iridium separately. Glencore FY2023 production report only discloses platinum, palladium, and rhodium for its nickel operations; iridium not separately reported. Source: Glencore FY2023 Production Report (glencore.com, 1 Feb 2024).",
+      "ticker": "GLEN",
+      "exchange": "LSE (London Stock Exchange); JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "African Rainbow Minerals (ARM) — Two Rivers Platinum Mine",
+      "country": "South Africa",
+      "website": "https://www.arm.co.za",
+      "production": "Historical iridium production (pre-2020): approximately 10,126 oz/year (2019 data per miningdataonline.com). Post-2020 annual figures marked as not disclosed in third-party data. Individual metal breakdowns not published in ARM's FY2023 integrated report. Source: ARM Integrated Annual Report FY2023 (arm-ir-reports.co.za); miningdataonline.com historical data.",
+      "ticker": "ARI",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Mimosa Mine (50% Impala Platinum / 50% Sibanye-Stillwater JV)",
+      "country": "Zimbabwe",
+      "website": "https://www.implats.co.za",
+      "production": "Production data not publicly disclosed for iridium separately. FY2023 total 6E in concentrate: 245,000 oz. Iridium included in 6E basket but not individually broken out. Source: Implats Fact Sheet—Mimosa (implats.co.za).",
+      "ticker": "N/A (unlisted JV)",
+      "exchange": "N/A"
+    },
+    {
+      "name": "Sibanye-Stillwater (US operations — Stillwater and East Boulder mines, Montana)",
+      "country": "United States",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "US PGM underground operations 2023: 427,272 2Eoz (Pt+Pd). Iridium not reported as a separate figure for the US operations. Source: Sibanye-Stillwater 2023 Integrated Report (reports.sibanyestillwater.com); Sibanye-Stillwater Investor Factsheet.",
+      "ticker": "SSW",
+      "exchange": "JSE (Johannesburg Stock Exchange); SWX (NYSE)"
+    }
+  ],
+  "ruthenium": [
+    {
+      "name": "Anglo American Platinum (Amplats / Valterra Platinum)",
+      "country": "South Africa",
+      "website": "https://www.angloamerican.com/our-business/platinum-group-metals",
+      "production": "Ruthenium is one of five elements in Amplats' 5E+Au basket. No separate ruthenium production figure published for FY2023. 'Other PGMs and gold' (incl. Ru, Ir, Rh, Au) FY2023 refined aggregate: 557,300 oz. Ruthenium price down 16% in 2023 vs prior year per Anglo American Platinum Marketing Limited 2023 Annual Accounts. Source: Anglo American Q4 2023 Production Report (angloamerican.com, 8 Feb 2024); Anglo American Platinum Marketing Limited 2023 Annual Accounts (angloamerican.com).",
+      "ticker": "AMS",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Impala Platinum Holdings (Implats)",
+      "country": "South Africa",
+      "website": "https://www.implats.co.za",
+      "production": "Production data not publicly disclosed for ruthenium separately. FY2023 gross refined 6E: 2,958,700 oz; ruthenium included in 6E basket. Individual ruthenium ounce figure not broken out in FY2023 annual results. Source: Implats Summarised Consolidated Annual Results FY2023 (sharenet.co.za, 31 Aug 2023).",
+      "ticker": "IMP",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "country": "South Africa",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "Sibanye 'produces and refines iridium and ruthenium' per 2023 Integrated Report. 2024 ruthenium production reported as 266,000 oz on company investor factsheet. 2023 specific ruthenium figure not separately disclosed in 2023 annual reports. Source: Sibanye-Stillwater Investor Factsheet (sibanyestillwater.com); Sibanye-Stillwater 2023 Integrated Report.",
+      "ticker": "SSW",
+      "exchange": "JSE (Johannesburg Stock Exchange); SWX (NYSE)"
+    },
+    {
+      "name": "Northam Platinum Holdings",
+      "country": "South Africa",
+      "website": "https://www.northam.co.za",
+      "production": "Production data not publicly disclosed for ruthenium separately. Northam reports production in 4E and 6E aggregates. 6E includes ruthenium and iridium beyond 4E, but no separate ruthenium ounce figure published. FY2023 group 4E production: 892,876 oz. Source: Northam Platinum Holdings Annual Integrated Report FY2024 (northam.co.za).",
+      "ticker": "NPH",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Zimplats Holdings (Impala subsidiary)",
+      "country": "Zimbabwe",
+      "website": "https://www.zimplats.com",
+      "production": "Q2 FY2024 (quarter ended June 2023): Ruthenium 6,345 oz; Q1 FY2024 (quarter ended March 2023): Ruthenium 5,942 oz; Q2 FY2023 (quarter ended June 2022): Ruthenium 5,793 oz. FY2023 full-year ruthenium total not separately stated; quarterly run rate implies approximately 22,000–26,000 oz/year. Ruthenium revenue FY2023: US$5,309k. Source: Zimplats Quarterly Report for period ended 30 June 2023 (zimplats.com).",
+      "ticker": "ZIM",
+      "exchange": "ASX (Australian Securities Exchange)"
+    },
+    {
+      "name": "Nornickel (MMC Norilsk Nickel)",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Production data not publicly disclosed for ruthenium separately. Nornickel 2023 Annual Report and consolidated production results do not report ruthenium as a standalone figure. Nornickel produces ruthenium as part of its PGM suite. Source: Nornickel 2023 Annual Report (ar2023.nornickel.com); Nornickel consolidated production results 2023 (nornickel.com, 29 Jan 2024).",
+      "ticker": "GMKN",
+      "exchange": "MOEX (Moscow Exchange)"
+    },
+    {
+      "name": "Glencore (Integrated Nickel Operations, Sudbury)",
+      "country": "Canada",
+      "website": "https://www.glencore.com",
+      "production": "Production data not publicly disclosed for ruthenium separately. Glencore FY2023 production report discloses only platinum, palladium, and rhodium for nickel operations; ruthenium not separately reported. Source: Glencore FY2023 Production Report (glencore.com, 1 Feb 2024).",
+      "ticker": "GLEN",
+      "exchange": "LSE (London Stock Exchange); JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "African Rainbow Minerals (ARM) — Two Rivers Platinum Mine",
+      "country": "South Africa",
+      "website": "https://www.arm.co.za",
+      "production": "Historical ruthenium production (pre-2020): approximately 42,145 oz/year (2019 data per miningdataonline.com). Post-2020 annual figures marked as not disclosed in third-party data. Individual metal breakdowns not published in ARM's FY2023 integrated report. Source: ARM Integrated Annual Report FY2023 (arm-ir-reports.co.za); miningdataonline.com historical data.",
+      "ticker": "ARI",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Mimosa Mine (50% Impala Platinum / 50% Sibanye-Stillwater JV)",
+      "country": "Zimbabwe",
+      "website": "https://www.implats.co.za",
+      "production": "Production data not publicly disclosed for ruthenium separately. FY2023 total 6E in concentrate: 245,000 oz. Ruthenium included in 6E basket. Source: Implats Fact Sheet—Mimosa (implats.co.za).",
+      "ticker": "N/A (unlisted JV)",
+      "exchange": "N/A"
+    },
+    {
+      "name": "Sibanye-Stillwater (US operations — Stillwater and East Boulder mines, Montana)",
+      "country": "United States",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "US PGM underground operations 2023: 427,272 2Eoz (Pt+Pd). Ruthenium not reported as a separate figure for the US operations (US mines report 2E basket only). Source: Sibanye-Stillwater 2023 Integrated Report (reports.sibanyestillwater.com).",
+      "ticker": "SSW",
+      "exchange": "JSE (Johannesburg Stock Exchange); SWX (NYSE)"
+    }
+  ],
+  "osmium": [
+    {
+      "name": "Anglo American Platinum (Amplats / Valterra Platinum)",
+      "country": "South Africa",
+      "website": "https://www.angloamerican.com/our-business/platinum-group-metals",
+      "production": "Anglo American Platinum operates across the entire value chain to produce the complete range of PGMs including osmium per company description. Production data not publicly disclosed for osmium separately. Osmium is not broken out in any quarterly or annual production report reviewed. Source: Anglo American Platinum company description (angloamerican.com); Q4 2023 Production Report (angloamerican.com).",
+      "ticker": "AMS",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Impala Platinum Holdings (Implats)",
+      "country": "South Africa",
+      "website": "https://www.implats.co.za",
+      "production": "Production data not publicly disclosed for osmium. Osmium not mentioned or reported in FY2023 annual results or quarterly production reports. Source: Implats Summarised Consolidated Annual Results FY2023 (sharenet.co.za).",
+      "ticker": "IMP",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "country": "South Africa",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "Production data not publicly disclosed for osmium. Osmium not broken out in any Sibanye-Stillwater 2023 reports. Source: Sibanye-Stillwater 2023 Integrated Report (reports.sibanyestillwater.com); Sibanye-Stillwater Investor Factsheet (sibanyestillwater.com).",
+      "ticker": "SSW",
+      "exchange": "JSE (Johannesburg Stock Exchange); SWX (NYSE)"
+    },
+    {
+      "name": "Northam Platinum Holdings",
+      "country": "South Africa",
+      "website": "https://www.northam.co.za",
+      "production": "Production data not publicly disclosed for osmium. Osmium not mentioned in FY2023 or FY2024 annual integrated reports or production updates. Source: Northam Platinum Holdings Annual Integrated Report FY2024 (northam.co.za).",
+      "ticker": "NPH",
+      "exchange": "JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "Zimplats Holdings (Impala subsidiary)",
+      "country": "Zimbabwe",
+      "website": "https://www.zimplats.com",
+      "production": "Production data not publicly disclosed for osmium. Osmium not mentioned in FY2023 preliminary final report or quarterly production reports. Source: Zimplats ASX Preliminary Final Report FY2023 (zimplats.com).",
+      "ticker": "ZIM",
+      "exchange": "ASX (Australian Securities Exchange)"
+    },
+    {
+      "name": "Nornickel (MMC Norilsk Nickel)",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Production data not publicly disclosed for osmium. The six PGMs at Nornickel include osmium, but no osmium production figure is published in any available 2023 report. Source: Nornickel 2023 Annual Report (ar2023.nornickel.com).",
+      "ticker": "GMKN",
+      "exchange": "MOEX (Moscow Exchange)"
+    },
+    {
+      "name": "Royal Bafokeng Platinum (now Impala Bafokeng, Impala subsidiary from 2023)",
+      "country": "South Africa",
+      "website": "https://www.implats.co.za",
+      "production": "Production data not publicly disclosed for osmium. Royal Bafokeng Platinum (BRPM and Styldrift mines) produces the 6E basket including osmium, ruthenium, and iridium, but does not separately report osmium. Consolidated into Implats from June 2023. Source: Implats FY2023 Annual Integrated Report (implats.co.za).",
+      "ticker": "N/A (delisted; now Impala subsidiary)",
+      "exchange": "N/A"
+    },
+    {
+      "name": "Mimosa Mine (50% Impala Platinum / 50% Sibanye-Stillwater JV)",
+      "country": "Zimbabwe",
+      "website": "https://www.implats.co.za",
+      "production": "Production data not publicly disclosed for osmium. 6E basket (Pt+Pd+Rh+Au+Ru+Ir) reported; osmium not individually broken out. Source: Implats Fact Sheet—Mimosa (implats.co.za).",
+      "ticker": "N/A (unlisted JV)",
+      "exchange": "N/A"
+    },
+    {
+      "name": "Glencore (Integrated Nickel Operations, Sudbury)",
+      "country": "Canada",
+      "website": "https://www.glencore.com",
+      "production": "Production data not publicly disclosed for osmium. Glencore FY2023 production report does not mention osmium. Source: Glencore FY2023 Production Report (glencore.com, 1 Feb 2024).",
+      "ticker": "GLEN",
+      "exchange": "LSE (London Stock Exchange); JSE (Johannesburg Stock Exchange)"
+    },
+    {
+      "name": "USGS — United States (one operation in Montana, operator: Sibanye-Stillwater)",
+      "country": "United States",
+      "website": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-platinum-group.pdf",
+      "production": "USGS Mineral Commodity Summaries 2025 reports US osmium imports: 2021: 1 kg; 2022: 1 kg; 2023: 0 kg; 2024e: 1 kg. US domestic osmium mine production is listed as zero or negligible. USGS note: osmium figures marked with footnote indicating the figure is withheld or rounds to zero. Source: USGS Mineral Commodity Summaries 2025, Platinum-Group Metals chapter (pubs.usgs.gov/periodicals/mcs2025/mcs2025-platinum-group.pdf).",
+      "ticker": "N/A (government data)",
+      "exchange": "N/A"
+    }
+  ],
+  "antimony": [
+    {
+      "name": "Hsikwangshan Twinkling Star Co., Ltd.",
+      "country": "China",
+      "website": "https://www.hsk.com.cn",
+      "production": "Annual production capacity of 20,000 tonnes of refined antimony and 40,000 tonnes of antimony products; produced 24,000t in 2021 (source: St. Louis Group/Argus, June 2022)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Hunan Nonferrous Metals Corporation Limited",
+      "country": "China",
+      "website": "http://www.hnc2626.com",
+      "production": "Production data not publicly disclosed (company is a major antimony miner/smelter in Hunan Province; listed subsidiary Hunan Gold Corporation on SZSE: 002155)",
+      "ticker": "2626",
+      "exchange": "HKEX"
+    },
+    {
+      "name": "Hunan Huaxing Nonferrous Holdings Co., Ltd.",
+      "country": "China",
+      "website": "https://en.hxtyc.com",
+      "production": "Annual antimony series production capacity: 30,000 tonnes (as reported on company website)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Polyus PJSC (Olimpiada Mine)",
+      "country": "Russia",
+      "website": "https://www.polyus.com",
+      "production": "Olimpiada gold-antimony mine: produced 27,100 kg (27.1 kt) of antimony in concentrate in 2023; 2,500 t in 2021; 23,600 t in 2018 (source: company reports, RFC Ambrian Antimony Report, February 2025)",
+      "ticker": "PLZL",
+      "exchange": "MOEX"
+    },
+    {
+      "name": "Talco Gold (Tajik Aluminium Company / Tibet Huayu Mining JV)",
+      "country": "Tajikistan",
+      "website": "https://www.talco.com.tj",
+      "production": "Production capacity: 16,000 t/yr of antimony metal at full capacity; commenced production in 2020/2022 (source: Mining Technology, Argus Media, April 2022)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Mandalay Resources Corporation",
+      "country": "Canada",
+      "website": "https://www.mandalayresources.com",
+      "production": "2024 full-year antimony production: approximately 1,400 tonnes (at Costerfield mine, Victoria, Australia); 2025 guidance: 1,050–1,150 tonnes (source: Mandalay Resources press releases, December 2024 and April 2025)",
+      "ticker": "MND",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Perpetua Resources Corp.",
+      "country": "USA",
+      "website": "https://www.perpetuaresources.com",
+      "production": "Currently in development/early construction (Stibnite Gold Project, Idaho); not yet in production; project expected to supply up to 35% of U.S. antimony demand in first six years of operations (source: USGS 2025 Antimony Commodity Summary, Perpetua Resources press releases)",
+      "ticker": "PPTA",
+      "exchange": "NASDAQ"
+    },
+    {
+      "name": "Tri-Star Gold Inc. / GeoProMining (Nezhdaninskoe, Yakutia)",
+      "country": "Russia",
+      "website": "https://www.geopromining.com",
+      "production": "Production data not publicly disclosed (GeoProMining operates several gold-antimony mines in Yakutia; source: RFC Ambrian Antimony Report, February 2025)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Bolkar Madencilik (Turkish antimony operations)",
+      "country": "Turkey",
+      "website": "Production data not publicly disclosed",
+      "production": "Turkey national mine production: estimated 6,000 tonnes in 2023 (source: USGS Mineral Commodity Summaries 2024); individual company production data not publicly disclosed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Sun Metals Corp. / Mandalay (Costerfield, Australia)",
+      "country": "Australia",
+      "website": "https://www.mandalayresources.com",
+      "production": "Australia national mine production: approximately 2,300 tonnes in 2023 (source: USGS Mineral Commodity Summaries 2024); Costerfield is the primary Australian producer, operated by Mandalay Resources",
+      "ticker": "MND",
+      "exchange": "TSX"
+    }
+  ],
+  "gallium": [
+    {
+      "name": "Aluminum Corporation of China Ltd. (Chinalco)",
+      "country": "China",
+      "website": "https://www.chalco.com.cn",
+      "production": "3 gallium production facilities in Henan, Guangxi, and Guizhou provinces; production capacity: 200 tonnes/yr; produced 146 tonnes in 2022 (source: Reuters, July 2023)",
+      "ticker": "601600",
+      "exchange": "SSE"
+    },
+    {
+      "name": "Zhuhai SEZ Fangyuan Inc.",
+      "country": "China",
+      "website": "https://www.zh-fangyuan.com",
+      "production": "6 production bases with annual production capacity of 130 tonnes of 4N gallium metal (source: Asian Metal interview, 2019)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "East Hope Mianchi Gallium Industry Co., Ltd.",
+      "country": "China",
+      "website": "Production data not publicly disclosed",
+      "production": "Production capacity: 80 t/yr; production approximately 40 t/yr (source: BGR Supply and Demand of Lithium and Gallium report)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Nanjing Jinmei Gallium Co., Ltd.",
+      "country": "China",
+      "website": "http://www.njjmga.com",
+      "production": "Production data not publicly disclosed (leading Chinese high-purity gallium refiner; source: USGS Gallium MYB 2019)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Dowa Holdings Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.dowa.co.jp",
+      "production": "As of July 2023, the top producer worldwide of high-purity gallium (source: Wikipedia / Dowa Holdings); Japan national primary low-purity production: estimated 3,000 kg in 2023 (source: USGS MCS 2024)",
+      "ticker": "5714",
+      "exchange": "TSE"
+    },
+    {
+      "name": "Korea Zinc Co., Ltd.",
+      "country": "South Korea",
+      "website": "https://www.koreazinc.co.kr",
+      "production": "South Korea national primary low-purity gallium production: estimated 2,000 kg in 2023 (source: USGS MCS 2024); Korea Zinc is the primary South Korean producer",
+      "ticker": "010130",
+      "exchange": "KRX"
+    },
+    {
+      "name": "RUSAL (Ural Aluminium)",
+      "country": "Russia",
+      "website": "https://www.rusal.ru",
+      "production": "Russia national primary low-purity gallium production: estimated 5,000 kg in 2023 (source: USGS MCS 2024); RUSAL is the primary Russian gallium producer",
+      "ticker": "RUAL",
+      "exchange": "MOEX"
+    },
+    {
+      "name": "Ingal Stade (formerly Trimet Aluminium)",
+      "country": "Germany",
+      "website": "Production data not publicly disclosed",
+      "production": "Germany ceased primary gallium production in 2016 (source: USGS MCS 2024); high-purity refined gallium production continues",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shanxi Jiahua Tianhe Electronic Materials Co., Ltd.",
+      "country": "China",
+      "website": "Production data not publicly disclosed",
+      "production": "Production data not publicly disclosed (named as a major Chinese low-grade primary gallium producer; source: USGS Gallium MYB 2019)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "5N Plus Inc.",
+      "country": "Canada",
+      "website": "https://www.5nplus.com",
+      "production": "Recovers and refines high-purity gallium from imported primary low-purity gallium metal and new scrap at facility in New York (source: USGS MCS 2024); specific production volumes not publicly disclosed",
+      "ticker": "VNP",
+      "exchange": "TSX"
+    }
+  ],
+  "germanium": [
+    {
+      "name": "Yunnan Chihong Zinc & Germanium Co., Ltd.",
+      "country": "China",
+      "website": "http://www.chxz.com",
+      "production": "Produced 65,900 kg of germanium in germanium products in 2023, 18% more than in 2022, surpassing its capacity of 60,000 kg/yr; owns Huize and Yiliang lead-zinc-silver mines in Yunnan Province (source: USGS Germanium MYB 2023)",
+      "ticker": "600497",
+      "exchange": "SSE"
+    },
+    {
+      "name": "Yunnan Lincang Xinyuan Germanium Industry Co., Ltd.",
+      "country": "China",
+      "website": "https://www.sino-ge.com",
+      "production": "Produced 47,700 kg of germanium products in 2023; annual production capacity of 47,600 kg of germanium ingot; mines germanium from within the Lincang coal deposit (source: USGS Germanium MYB 2023)",
+      "ticker": "002428",
+      "exchange": "SZSE"
+    },
+    {
+      "name": "Umicore S.A.",
+      "country": "Belgium",
+      "website": "https://www.umicore.com",
+      "production": "Produces germanium compounds, germanium metal, single-crystal germanium, and germanium substrates and lenses at its refinery and recycling plant in Olen, Belgium, and at Umicore Optical Materials USA in Quapaw, OK; more than 50% of germanium supply from secondary/recycled sources; specific production volumes not publicly disclosed (source: USGS Germanium MYB 2023, Umicore annual report)",
+      "ticker": "UMI",
+      "exchange": "Euronext Brussels"
+    },
+    {
+      "name": "Teck Resources Limited",
+      "country": "Canada",
+      "website": "https://www.teck.com",
+      "production": "Germanium produced at Trail Operations, British Columbia, as a byproduct of zinc smelting; North America's largest germanium producer and fourth globally; most germanium exported to the United States (source: Reuters, June 2025; Teck Resources website)",
+      "ticker": "TECK.B",
+      "exchange": "TSX"
+    },
+    {
+      "name": "JSC Germanium (Germanium and Applications JSC)",
+      "country": "Russia",
+      "website": "Production data not publicly disclosed",
+      "production": "Production capacity of approximately 20,000 kg/yr; exported more than 80% of produced germanium; extracts germanium from coal fly ash at the Spetsugli Mine in the Russian Far East; coal production could yield up to 21,000 kg/yr of germanium (source: USGS Germanium MYB 2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "5N Plus Inc.",
+      "country": "Canada",
+      "website": "https://www.5nplus.com",
+      "production": "Produces germanium wafers at facility in St. George, Utah; sources germanium from Teck Resources (Canada), Umicore (Belgium), and Nyrstar (Belgium/Europe); US DoD awarded $18.1M in 2026 to significantly expand germanium refining capacity (source: Mining.com, February 2026)",
+      "ticker": "VNP",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Nyrstar NV",
+      "country": "Belgium",
+      "website": "https://www.nyrstar.com",
+      "production": "Produces and recycles germanium commercially at European smelters; supplies germanium to 5N Plus; specific production volumes not publicly disclosed (source: USGS MCS 2024, Mining.com 2026)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zinc Smelter (Clarksville, Tennessee) — Nyrstar",
+      "country": "USA",
+      "website": "https://www.nyrstar.com",
+      "production": "Produced germanium leach concentrates in 2023; some concentrates exported to refinery in Canada for further processing; specific production volumes not publicly disclosed (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "indium": [
+    {
+      "name": "Korea Zinc Co., Ltd.",
+      "country": "South Korea",
+      "website": "https://www.koreazinc.co.kr",
+      "production": "World's largest producer of refined indium; produces approximately 150 tonnes of indium annually, accounting for approximately 11% of global demand of ~1,400 tonnes; accounts for 29% of supply to the U.S. (source: Korea Zinc press release, February 2025; DBR/Donga Business Review, November 2025)",
+      "ticker": "010130",
+      "exchange": "KRX"
+    },
+    {
+      "name": "Various Chinese smelters (aggregate — China)",
+      "country": "China",
+      "website": "Production data not publicly disclosed",
+      "production": "China national refinery production: 670 tonnes in 2022; estimated 650 tonnes in 2023, approximately 65.7% of world total (source: USGS MCS 2024); major individual company production data not publicly disclosed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "JX Advanced Metals Corporation (formerly JX Nippon Mining & Metals)",
+      "country": "Japan",
+      "website": "https://www.jx-nmm.com",
+      "production": "Japan national refinery production: 66 tonnes in 2022; estimated 64 tonnes in 2023 (source: USGS MCS 2024); JX Advanced Metals is Japan's primary indium producer, manufactures indium with purity of 99.99% or higher",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Umicore S.A.",
+      "country": "Belgium",
+      "website": "https://www.umicore.com",
+      "production": "Belgium national refinery production: 19 tonnes in 2022; estimated 18 tonnes in 2023; Belgium accounted for approximately 2% of world indium output in 2020 (source: USGS MCS 2024; USGS Mineral Industry of Belgium 2020-21)",
+      "ticker": "UMI",
+      "exchange": "Euronext Brussels"
+    },
+    {
+      "name": "Nyrstar NV (Auby smelter, France)",
+      "country": "France",
+      "website": "https://www.nyrstar.com",
+      "production": "France national refinery production: 19 tonnes in 2022; estimated 12 tonnes in 2023 (source: USGS MCS 2024); Nyrstar Auby smelter has an indium refinery commissioned in May 2012 producing 99.998% pure indium; reopened March 2023 after care-and-maintenance",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Teck Resources Limited (Trail Operations)",
+      "country": "Canada",
+      "website": "https://www.teck.com",
+      "production": "Canada national refinery production: 39 tonnes in 2022; estimated 37 tonnes in 2023 (source: USGS MCS 2024); Trail Operations is one of Canada's primary indium producers from zinc smelting",
+      "ticker": "TECK.B",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Zhuzhou Keneng New Material Co., Ltd.",
+      "country": "China",
+      "website": "https://www.zzkeneng.com",
+      "production": "Production data not publicly disclosed (national high-tech firm producing 4N–7N indium metal; located in Zhuzhou, Hunan Province; source: Asian Metal interview, 2018)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Dowa Holdings Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.dowa.co.jp",
+      "production": "Production data not publicly disclosed (Dowa's non-ferrous materials segment recovers indium among other specialty metals; source: Dowa Holdings CSR report)",
+      "ticker": "5714",
+      "exchange": "TSE"
+    },
+    {
+      "name": "Kazzinc LLP",
+      "country": "Kazakhstan",
+      "website": "https://www.kazzinc.com",
+      "production": "Uzbekistan national production: 1 tonne in 2022–2023 (source: USGS MCS 2024); Kazakhstan's Kazzinc produces selenium, bismuth, tellurium, indium, and other by-products from lead and zinc smelting (source: Qazinform, 2024)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "tellurium": [
+    {
+      "name": "Various Chinese refineries (aggregate — China)",
+      "country": "China",
+      "website": "Production data not publicly disclosed",
+      "production": "China national refinery production: 380 tonnes in 2022; estimated 430 tonnes in 2023, approximately 67% of estimated global output; produced 750 tonnes in 2024 (approximately 76.53% of global output) (source: USGS MCS 2024; Dongguan Securities research report via PV Magazine, February 2025)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "JX Advanced Metals Corporation (formerly JX Nippon Mining & Metals)",
+      "country": "Japan",
+      "website": "https://www.jx-nmm.com",
+      "production": "Japan national refinery production: 68 tonnes in 2022; estimated 75 tonnes in 2023 (source: USGS MCS 2024); manufactures tellurium with purity of 99.99% or higher",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Various Russian refineries (aggregate — Russia)",
+      "country": "Russia",
+      "website": "Production data not publicly disclosed",
+      "production": "Russia national refinery production: 70 tonnes in 2022; estimated 75 tonnes in 2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "5N Plus Inc.",
+      "country": "Canada",
+      "website": "https://www.5nplus.com",
+      "production": "Canada national refinery production: 24 tonnes in 2022; estimated 27 tonnes in 2023 (source: USGS MCS 2024); has a minimum-volume contract with First Solar and partnership to refine tellurium byproduct from Rio Tinto's Kennecott mine; completed major expansion of tellurium recovery and production capacity in Montreal in 2024 (source: 5N Plus 2024 Annual Report; Argus Media, February 2025)",
+      "ticker": "VNP",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Boliden AB (Kankberg mine / Rönnskär smelter)",
+      "country": "Sweden",
+      "website": "https://www.boliden.com",
+      "production": "Sweden national refinery production: 9 tonnes in 2022; estimated 25 tonnes in 2023 (source: USGS MCS 2024); Kankberg mine holds 1,003 t Te in reserves and resources; tellurium sold as concentrate mainly to China (source: GTK Critical and Strategic Metals report, 2023; Boliden Kankberg Resources and Reserves 2023)",
+      "ticker": "BOL",
+      "exchange": "NASDAQ OMX Stockholm"
+    },
+    {
+      "name": "Aurubis AG",
+      "country": "Germany",
+      "website": "https://www.aurubis.com",
+      "production": "Germany included among additional countries that may have produced refined tellurium (source: USGS MCS 2024); by-elements including tellurium separated in lead refinery and sold as tellurium concentrates; specific volumes not publicly disclosed (source: Aurubis AG recycling technology page)",
+      "ticker": "NDA",
+      "exchange": "XETRA"
+    },
+    {
+      "name": "Korea Zinc Co., Ltd.",
+      "country": "South Korea",
+      "website": "https://www.koreazinc.co.kr",
+      "production": "Produces 100 to 200 tonnes of tellurium annually (source: Korea Zinc press release, February 2025; Yahoo Finance, February 2025)",
+      "ticker": "010130",
+      "exchange": "KRX"
+    },
+    {
+      "name": "Zhuzhou Keneng New Material Co., Ltd.",
+      "country": "China",
+      "website": "https://www.zzkeneng.com",
+      "production": "Production data not publicly disclosed (produces 4N–7N tellurium ingot; located in Zhuzhou, Hunan Province; source: Asian Metal interview, 2018; SkyQuest tellurium market report)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Two U.S. copper refineries (Texas and Utah — withheld)",
+      "country": "USA",
+      "website": "Production data not publicly disclosed",
+      "production": "U.S. refinery production withheld (W) for 2019–2023 to avoid disclosing company proprietary data; two electrolytic copper refineries (one in Texas, one in Utah) produced copper telluride from tellurium-bearing anode slimes in 2023; copper telluride exported for further processing (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "hafnium": [
+    {
+      "name": "ATI Inc. (ATI Wah Chang, Albany, Oregon)",
+      "country": "USA",
+      "website": "https://www.atimaterials.com",
+      "production": "Hafnium metal produced as a byproduct of hafnium-free zirconium metal at Albany, Oregon facility; first industrialized producer of high-purity zirconium and hafnium crystal bar; the only company in the world able to make hafnium at the purity needed for thin-film deposition on microchips (source: USGS Zirconium and Hafnium MYB 2018; ATI Hafnium YouTube video, July 2024); global primary hafnium production data not available (source: USGS MCS 2024)",
+      "ticker": "ATI",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Western Zirconium Inc. (subsidiary of Westinghouse Electric Co.), Ogden, Utah",
+      "country": "USA",
+      "website": "https://www.westinghousenuclear.com",
+      "production": "Hafnium metal produced as a byproduct of hafnium-free zirconium metal at Ogden, Utah facility (source: USGS Zirconium and Hafnium MYB 2018); specific production volumes not publicly disclosed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Framatome SAS (Jarrie site, France)",
+      "country": "France",
+      "website": "https://www.framatome.com",
+      "production": "Produces high-quality hafnium and zirconium alloys at its Jarrie site through a unique extractive separation process; announced investment in new separative capacity in November 2023 to reinforce hafnium production for nuclear, aerospace, defense, and space industries (source: Framatome press release, November 2023); specific production volumes not publicly disclosed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "China Nuclear Jinghuan Zirconium Industry Co. (CNNC subsidiary)",
+      "country": "China",
+      "website": "https://www.cnnc.com.cn",
+      "production": "The only company in China that has achieved an industrial production chain for the separation of zirconium and hafnium and hafnium preparation; nuclear-grade zirconium sponge products qualified in August 2019; first bulk export in August 2020 (source: CNNC official website, August 2020; World Nuclear News, August 2020); specific hafnium production volumes not publicly disclosed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Orano (formerly Areva/COGEMA, France)",
+      "country": "France",
+      "website": "https://www.orano.group",
+      "production": "Operates zirconium/hafnium processing at French industrial sites as part of nuclear fuel cycle; specific hafnium production volumes not publicly disclosed (source: Orano France operations page)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Various Chinese zirconium/hafnium processors",
+      "country": "China",
+      "website": "Production data not publicly disclosed",
+      "production": "China is among the leading global exporters of unwrought hafnium (21% of U.S. imports in 2024; source: USGS MCS 2025); global primary hafnium production data not available (source: USGS MCS 2024 and 2025)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "rhenium": [
+    {
+      "name": "Molibdenos y Metales S.A. (Molymet)",
+      "country": "Chile",
+      "website": "https://molymet.com",
+      "production": "Operates the largest rhenium recovery plant in the world, with an estimated capacity of 40,000 kg/yr of rhenium at its Molymet Nos and Molynor plants; increased rhenium output by 6% in 2023, reaching 30,200 kg (30.2 metric tonnes) due to expanded capacity at the Nos facility (source: USGS Rhenium MYB 2019; Market Reports World, March 2026); Chile national mine production: 29,000 kg in 2022; estimated 30,000 kg in 2023 (source: USGS MCS 2024)",
+      "ticker": "MOLYMETCHILE",
+      "exchange": "Santiago Stock Exchange"
+    },
+    {
+      "name": "KGHM Polska Miedź S.A. (KGHM Ecoren S.A.)",
+      "country": "Poland",
+      "website": "https://kghm.com",
+      "production": "Poland national mine production: 6,310 kg in 2022; estimated 6,300 kg in 2023 (source: USGS MCS 2024); rhenium (Re) listed as a produced by-product metal at KGHM's Polish smelters (source: KGHM Investor Presentation, December 2025)",
+      "ticker": "KGH",
+      "exchange": "WSE"
+    },
+    {
+      "name": "Freeport-McMoRan Inc. / Climax Molybdenum (Henderson and Climax mines, Colorado)",
+      "country": "USA",
+      "website": "https://www.fcx.com",
+      "production": "U.S. national mine production (total): 8,870 kg in 2022; estimated 9,100 kg in 2023, a 3% increase (source: USGS MCS 2024); rhenium produced as byproduct from porphyry copper-molybdenum deposits in Arizona and Montana; Henderson mine produces rhenium as a rare and highly valued metal (source: Freeport-McMoRan website)",
+      "ticker": "FCX",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Zhezkazgansirekmet Republican Copper Company (Kazakhstan)",
+      "country": "Kazakhstan",
+      "website": "Production data not publicly disclosed",
+      "production": "Kazakhstan national mine production: estimated 500 kg in 2022–2023 (source: USGS MCS 2024); Zhezkazgansirekmet is the producer of ammonium perrhenate with 69.2% rhenium content, listed as a top-10 global rhenium provider (source: Qazinform, January 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Navoi Mining and Metallurgical Company (Uzbekistan)",
+      "country": "Uzbekistan",
+      "website": "https://www.ngmk.uz",
+      "production": "Uzbekistan national mine production: 4,900 kg in 2022–2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Various Chinese producers",
+      "country": "China",
+      "website": "Production data not publicly disclosed",
+      "production": "China national mine production: 2,500 kg in 2022–2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Korea Resources Corporation / LS-Nikko Copper (South Korea)",
+      "country": "South Korea",
+      "website": "https://www.ls-nikko.com",
+      "production": "South Korea national mine production: 2,800 kg in 2022–2023 (source: USGS MCS 2024); rhenium recovered as byproduct of copper and molybdenum processing",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "GeoProMining / Armenia Copper Program (Armenia)",
+      "country": "Armenia",
+      "website": "https://www.geopromining.com",
+      "production": "Armenia national mine production: 260 kg in 2022; estimated 280 kg in 2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "H.C. Starck (secondary rhenium, Germany)",
+      "country": "Germany",
+      "website": "https://www.hcstarck.com",
+      "production": "Germany is a leading producer of secondary rhenium; recovered from nickel-base superalloy scrap, spent oil-refining catalysts, and foundry revert; U.S. and Germany are leading secondary rhenium producers worldwide with total estimated worldwide secondary production approximately 25,000 kg in 2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Codelco / Molyb (Chile secondary/byproduct)",
+      "country": "Chile",
+      "website": "https://www.codelco.com",
+      "production": "Codelco's Molyb sector produced rhenium since 2016, with capacity of up to 3 tonnes per year (source: CDMR.ch rhenium analysis, 2020); rhenium recovered from roaster residues from Belgium, Chile, Mexico, and Peru included in Chile production estimate (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "magnesium": [
+    {
+      "name": "Various Chinese producers (aggregate — China)",
+      "country": "China",
+      "website": "Production data not publicly disclosed",
+      "production": "China national smelter (primary) production: 793,000 tonnes in 2022; 830,000 tonnes in 2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shanxi Wenxi Yinguang Magnesium Industry (Group) Co., Ltd.",
+      "country": "China",
+      "website": "https://ygmg.foundry-suppliers.com",
+      "production": "Annual production capacity of 100,000 tonnes of raw magnesium, 30,000 tonnes of magnesium alloy, and 20,000 tonnes of magnesium deep processing products; comprehensive strength ranked first in the same industry in China (source: company website)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shanxi Yinguang Huasheng Magnesium Industry Co., Ltd.",
+      "country": "China",
+      "website": "http://en.sxyghs.cn",
+      "production": "Annual production capacity of 65,000 tonnes of raw magnesium, 30,000 tonnes of magnesium alloy, and 50,000 tonnes of deep-processed magnesium products (source: company website); production capacity for magnesium ingot: 35,000 t/yr (source: Asian Metal interview, 2022)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Dead Sea Magnesium Ltd. (DSM, a subsidiary of ICL Group)",
+      "country": "Israel",
+      "website": "https://www.icl-group.com",
+      "production": "Israel national production: 72,000 tonnes in 2022; 22,000 tonnes in 2023 (source: USGS MCS 2024); DSM operated a 24,000 t/yr capacity magnesium metal plant in Sodom; produced 18,500 t in 2020 and 21,350 t in 2019 via electrolysis of magnesium chloride from carnallite extracted from the Dead Sea (source: USGS Mineral Industry of Israel 2020-21)",
+      "ticker": "ICL",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "RIMA Industrial S/A",
+      "country": "Brazil",
+      "website": "https://www.rima.com.br",
+      "production": "Brazil national smelter production: 22,000 tonnes in 2022–2023 (source: USGS MCS 2024); RIMA is the only primary magnesium producer in the Southern Hemisphere; produces 15 tonnes of metallic magnesium annually at its Bocaíuva plant for automotive and steel industries (source: IBRAM; Foundry Gate)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Solikamsk Magnesium Plant (SMZ, a subsidiary of Rosatom)",
+      "country": "Russia",
+      "website": "https://www.solikamsk-mg.ru",
+      "production": "Russia national smelter production: 21,000 tonnes in 2022; 20,000 tonnes in 2023 (source: USGS MCS 2024); accounts for 75% of Russia's magnesium production capacity; production began in 1936; launched industrial production of rare earth magnesium alloys in 2026 (source: News.metal.com, March 2026; Rosatom press release, January 2025)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Kazakhstan Magnesium Plant / Ust-Kamenogorsk Titanium-Magnesium Combine (UKTMC)",
+      "country": "Kazakhstan",
+      "website": "Production data not publicly disclosed",
+      "production": "Kazakhstan national smelter production: 27,000 tonnes in 2022; 25,000 tonnes in 2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Türkiye Magnesium producers (Turkey)",
+      "country": "Turkey",
+      "website": "Production data not publicly disclosed",
+      "production": "Turkey national smelter production: 14,000 tonnes in 2022; 15,000 tonnes in 2023 (source: USGS MCS 2024)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "US Magnesium LLC (Rowley, Utah)",
+      "country": "USA",
+      "website": "Production data not publicly disclosed",
+      "production": "U.S. national production withheld (W) for 2019–2023 to avoid disclosing company proprietary data; US Magnesium stopped producing magnesium metal in late 2021 (declared bankruptcy); previously the only primary magnesium producer in the United States and one of the largest in the world, producing magnesium from Great Salt Lake brines (source: USGS MCS 2024; Grist, December 2025; KSL News, January 2026)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "ferrochrome": [
+    {
+      "name": "Glencore / Merafe Resources (Merafe Chrome Venture)",
+      "country": "South Africa",
+      "website": "https://www.glencore.com",
+      "production": "Attributable ferrochrome production 1,162 kt in 2023 (Glencore FY2023 Production Report). Merafe's attributable share: 300 kt in 2023 (Merafe IR 2023).",
+      "ticker": "GLEN",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Samancor Chrome",
+      "country": "South Africa",
+      "website": "https://samancorcr.com",
+      "production": "Annual production capacity approximately 1 million tonnes per year of ferrochrome (charge chrome); actual production varies according to market conditions. Specific actual production tonnage for 2023 not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Tharisa plc",
+      "country": "South Africa",
+      "website": "https://www.tharisa.com",
+      "production": "Chrome concentrates produced 1,580.1 kt in FY2023 (FY2022: 1,582.7 kt). Note: Tharisa is primarily a chrome ore/concentrates producer; ferrochrome smelting production not separately disclosed at scale.",
+      "ticker": "THS",
+      "exchange": "JSE / LSE"
+    },
+    {
+      "name": "Hernic Ferrochrome (Pty) Ltd",
+      "country": "South Africa",
+      "website": "https://www.hernic.co.za",
+      "production": "Annual ferrochrome capacity approximately 390,000 tonnes per year (four furnaces). Specific 2023 actual production not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "ASA Metals (Pty) Ltd / Dilokong Chrome Mine",
+      "country": "South Africa",
+      "website": "https://www.asametal.co.za",
+      "production": "Installed ferrochrome smelting capacity approximately 120,000 tonnes per year. Note: Company entered business rescue proceedings; current operational status uncertain. Specific production data not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "TNC Kazchrome JSC (subsidiary of Eurasian Resources Group – ERG)",
+      "country": "Kazakhstan",
+      "website": "https://www.eurasianresources.lu",
+      "production": "Total ferroalloy production over 1.85 million tonnes in 2024 (record annual output, 14% YoY increase). 2023 specific ferrochrome tonnage not separately disclosed; full ferroalloy output not itemised between ferrochrome grades.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Indian Metals & Ferro Alloys Ltd (IMFA)",
+      "country": "India",
+      "website": "https://www.imfa.in",
+      "production": "Annual ferrochrome production capacity 384,000 tonnes (10 furnaces, 256 MVA). Record ferrochrome output of 700,000 tonnes reported for FY2025. FY2023 specific tonnage not separately disclosed on official site.",
+      "ticker": "IMFA",
+      "exchange": "BSE / NSE"
+    },
+    {
+      "name": "Balasore Alloys Ltd",
+      "country": "India",
+      "website": "https://www.balasorealloys.com",
+      "production": "Ferrochrome production 33,049 MT in FY2022-23; 100,549 MT in FY2023-24 (Directors' Report). Installed capacity approximately 145,000–160,000 MTPA.",
+      "ticker": "BALASORE",
+      "exchange": "BSE / NSE"
+    },
+    {
+      "name": "Ferro Alloys Corporation Ltd (FACOR)",
+      "country": "India",
+      "website": "https://www.facorgroup.in",
+      "production": "Installed capacity 145 KTPA of Charge Chrome / Ferro Chrome. Actual 2023 production not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Eti Krom A.Ş. (subsidiary of Yildirim Group)",
+      "country": "Turkey",
+      "website": "https://www.yilmaden.com",
+      "production": "Ferrochrome production capacity 150,000–160,000 tonnes per year (four furnaces near Elazig). Only high-carbon ferrochrome producer in Turkey. Actual 2023 production not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zimbabwe Mining and Smelting Company (ZIMASCO)",
+      "country": "Zimbabwe",
+      "website": "https://zimasco.co.zw",
+      "production": "Annual ferrochrome production capacity 180,000 tonnes (five 18 MVA submerged electric arc furnaces at Kwekwe). Specific 2023 actual production not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Outokumpu Chrome Oy (subsidiary of Outokumpu Oyj)",
+      "country": "Finland",
+      "website": "https://www.outokumpu.com",
+      "production": "Ferrochrome production capacity 530,000 tonnes per annum at Tornio Ferrochrome Works (three smelting furnaces). Actual 2023 ferrochrome output not separately disclosed; ~5% of global capacity per company.",
+      "ticker": "OUT1V",
+      "exchange": "Nasdaq Helsinki"
+    }
+  ],
+  "ferrosilicon": [
+    {
+      "name": "Elkem ASA",
+      "country": "Norway",
+      "website": "https://www.elkem.com",
+      "production": "Silicon-based alloys (ferrosilicon) shipments 191,431 MT in 2023 (FY2023 Annual Results). Leading producer of ferrosilicon (grades STD 75, STD 50) and specialty alloys at plants in Norway, Iceland, and other locations.",
+      "ticker": "ELK",
+      "exchange": "Oslo Stock Exchange"
+    },
+    {
+      "name": "Finnfjord AS",
+      "country": "Norway",
+      "website": "https://finnfjord.no",
+      "production": "Total ferrosilicon production capacity 100,000 tonnes per year (three electrical reduction furnaces). Actual 2023 production not publicly disclosed; 2019 production 86,994 MT ferrosilicon.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ferroglobe PLC",
+      "country": "United Kingdom (operations in USA, Spain, France, South Africa)",
+      "website": "https://www.ferroglobe.com",
+      "production": "Silicon-based alloys (primarily ferrosilicon) shipments 191,431 MT in 2023 (FY2023 Annual Results). Annual capacity approximately 300,000 tonnes of silicon metal and silicon-based alloys combined.",
+      "ticker": "GSM",
+      "exchange": "NASDAQ"
+    },
+    {
+      "name": "Inner Mongolia Erdos Resources Co., Ltd.",
+      "country": "China",
+      "website": "https://www.erdos.com.cn",
+      "production": "World's largest ferrosilicon production base; annual ferrosilicon capacity of 800,000 metric tonnes (as of late 2025). Specific 2023 actual production not publicly disclosed in English.",
+      "ticker": "600295",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Hoshine Silicon Industry Co., Ltd.",
+      "country": "China",
+      "website": "https://www.hoshinesilicon.com",
+      "production": "Major Chinese producer of industrial silicon and silicon-based materials. Specific ferrosilicon production tonnage not separately disclosed; total silicon revenue (TTM) CNY 21.53 billion.",
+      "ticker": "603260",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "JSC Chelyabinsk Electrometallurgical Plant (ChEMK)",
+      "country": "Russia",
+      "website": "https://www.chemk.ru",
+      "production": "Largest ferroalloy producer in Russia. Ferrosilicon production capacity approximately 500,000 tonnes per year; ferrochrome capacity ~250,000 tonnes per year. Specific 2023 actual production not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Mechel PAO",
+      "country": "Russia",
+      "website": "https://mechel.com",
+      "production": "Ferrosilicon production at Bratsk Ferroalloy Plant. Quarterly ferrosilicon sales ~18,000 MT (Q1 2023). Specific 2023 full-year production not publicly disclosed in English.",
+      "ticker": "MTLR",
+      "exchange": "Moscow Exchange (MOEX)"
+    },
+    {
+      "name": "PCC BakkiSilicon hf.",
+      "country": "Iceland",
+      "website": "https://www.pcc.is",
+      "production": "Annual silicon metal production capacity 35,000 metric tonnes per year (plant commissioned 2018, Húsavík). Note: Primarily silicon metal, not ferrosilicon. Actual 2023 production not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Companhia de Ferro Ligas da Bahia – FERBASA",
+      "country": "Brazil",
+      "website": "https://www.ferbasa.com.br",
+      "production": "Producer of ferrosilicon 75% (FeSi 75%) and ferrochrome in Brazil. Specific 2023 ferrosilicon production tonnage not publicly disclosed in English.",
+      "ticker": "FESA3",
+      "exchange": "B3 (São Paulo)"
+    },
+    {
+      "name": "Samancor Chrome",
+      "country": "South Africa",
+      "website": "https://samancorcr.com",
+      "production": "Substantial producer of metallurgical ferrosilicon as a co-product of ferrochrome operations. Specific 2023 ferrosilicon production tonnage not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "OM Holdings Ltd",
+      "country": "Singapore (operations in Australia, China, Malaysia)",
+      "website": "https://www.omholdingsltd.com",
+      "production": "Ferrosilicon production at Samalaju Industrial Park, Malaysia. Specific 2023 ferrosilicon production tonnage not publicly disclosed.",
+      "ticker": "OMH",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Sinosteel Jilin Ferroalloy Co., Ltd.",
+      "country": "China",
+      "website": "https://www.sinosteeljlfa.com",
+      "production": "Major Chinese ferrosilicon producer. Specific 2023 production tonnage not publicly disclosed in English.",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "neodymium": [
+    {
+      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "http://www.northrareearth.com",
+      "production": "World's largest rare earth producer based on Bayan Obo deposit. Produces separated neodymium oxide as a primary product (light rare earth focus). Plans to produce 161.4 kt REO in 2023 (per Asian Metal industry report). Specific neodymium-only production tonnage not publicly disclosed.",
+      "ticker": "600111",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
+      "country": "China",
+      "website": "https://www.regcc.cn",
+      "production": "State-owned enterprise formed December 2021 controlling southern rare earth assets. Total 2023 first-batch smelting and separation quota 68,900 tonnes REO. Produces separated RE oxides including neodymium from ion-adsorption clay deposits; specific neodymium tonnage not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "production": "Produces and trades rare earth concentrates, oxides, metals including neodymium. Rare earth segment revenue grew 26.9% in 2023. Specific neodymium production tonnage not publicly disclosed.",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "production": "Produces separated rare earth oxides including neodymium via smelting and separation operations in Fujian Province. Specific neodymium-only production tonnage not publicly disclosed.",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "production": "Produced 41,557 MT of rare earth oxides (REO) in concentrate in 2023; produced 200 MT of separated NdPr oxide in 2023 (commenced separation in 2023). Mountain Pass, California is only rare earth mining and processing site of scale in North America.",
+      "ticker": "MP",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "production": "Total NdPr production 6,142 tonnes in FY2023 (FY2022: 5,880 tonnes); total REO production 16,780 tonnes in FY2023. Separation at Lynas Malaysia (Kuantan). Produces separated neodymium and praseodymium oxide.",
+      "ticker": "LYC",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com",
+      "production": "Operates rare earth separation at Silmet facility (Estonia) and previously at Jiangyin (China, sold 2024). Produces separated RE oxides including neodymium. Specific neodymium tonnage not publicly disclosed.",
+      "ticker": "NEO",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Iluka Resources Ltd.",
+      "country": "Australia",
+      "website": "https://www.iluka.com",
+      "production": "Building Australia's first fully integrated rare earth refinery at Eneabba, WA (expected operational ~2026; initial capacity 4,000 tpa REO, scaling to 5,500 tpa). Currently a monazite producer; separated neodymium production not yet at commercial scale.",
+      "ticker": "ILU",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.shinetsu.co.jp",
+      "production": "Produces sintered neodymium-iron-boron (NdFeB) rare earth magnets using neodymium. Conducts rare earth separation and refinement for magnet production in Japan and Vietnam. Specific neodymium metal/oxide production tonnage not publicly disclosed.",
+      "ticker": "4063",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    },
+    {
+      "name": "TDK Corporation",
+      "country": "Japan",
+      "website": "https://www.tdk.com",
+      "production": "Major NdFeB magnet manufacturer (NEOREC series); consumes neodymium (and praseodymium, dysprosium, terbium) in magnet production. Estimated NdFeB output in 8,000–12,000 tonne range. Specific neodymium consumption or separation not publicly disclosed.",
+      "ticker": "6762",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    }
+  ],
+  "praseodymium": [
+    {
+      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "http://www.northrareearth.com",
+      "production": "Produces separated praseodymium oxide as a primary product (light rare earth focus). Typically reported together with neodymium as NdPr. Specific praseodymium-only tonnage not publicly disclosed.",
+      "ticker": "600111",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "China Rare Earth Group Co., Ltd.",
+      "country": "China",
+      "website": "https://www.regcc.cn",
+      "production": "Produces separated RE oxides including praseodymium from ion-adsorption clay deposits in Jiangxi and Guangdong. Specific praseodymium tonnage not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "production": "Produces and trades rare earth products including praseodymium compounds and metals. Specific praseodymium production tonnage not publicly disclosed.",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "production": "Produces separated rare earth oxides including praseodymium. Specific praseodymium-only production tonnage not publicly disclosed.",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "production": "Produced 200 MT of separated NdPr oxide in 2023 (neodymium and praseodymium combined; not disclosed separately). Commenced NdPr separation in 2023.",
+      "ticker": "MP",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "production": "Total NdPr production 6,142 tonnes in FY2023 (neodymium and praseodymium combined; not disclosed separately). Separated at Lynas Malaysia.",
+      "ticker": "LYC",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com",
+      "production": "Produces separated RE oxides including praseodymium at Silmet (Estonia) and formerly Jiangyin (China). Specific praseodymium tonnage not publicly disclosed.",
+      "ticker": "NEO",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Iluka Resources Ltd.",
+      "country": "Australia",
+      "website": "https://www.iluka.com",
+      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated praseodymium among other RE oxides. Commercial-scale separated production not yet commenced.",
+      "ticker": "ILU",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.shinetsu.co.jp",
+      "production": "Produces sintered NdFeB magnets consuming praseodymium. Conducts integrated rare earth separation and refining for magnet manufacturing. Specific praseodymium production tonnage not publicly disclosed.",
+      "ticker": "4063",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    },
+    {
+      "name": "TDK Corporation",
+      "country": "Japan",
+      "website": "https://www.tdk.com",
+      "production": "Consumes praseodymium in NdFeB magnet manufacturing (NEOREC series). Specific praseodymium consumption or separation not publicly disclosed.",
+      "ticker": "6762",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    }
+  ],
+  "dysprosium": [
+    {
+      "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
+      "country": "China",
+      "website": "https://www.regcc.cn",
+      "production": "Controls the primary global source of dysprosium from Jiangxi and Guangdong ion-adsorption clay deposits. China controls approximately 95% of global separation capacity for dysprosium. Specific dysprosium tonnage not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "http://www.northrareearth.com",
+      "production": "Produces separated RE oxides including dysprosium, though primarily a light rare earth producer (Bayan Obo has limited heavy RE content). Specific dysprosium-only tonnage not publicly disclosed.",
+      "ticker": "600111",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "production": "Produces separated rare earth oxides including dysprosium from Fujian ion-adsorption clay operations. Specific dysprosium tonnage not publicly disclosed.",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "production": "Produces separated RE oxides including dysprosium. Specific dysprosium production tonnage not publicly disclosed.",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "production": "Commenced first production of separated dysprosium oxide at Lynas Malaysia in May 2025. As of FY2023, dysprosium separation was not yet operational. FY2023 dysprosium production: not applicable (pre-commissioning).",
+      "ticker": "LYC",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com",
+      "production": "Commissioned heavy rare earth (HREE) solvent extraction line at Silmet (Estonia) in April 2026, producing separated dysprosium and terbium oxides. As of 2023, dysprosium separation at Silmet was pre-commissioning; Jiangyin (China) facility also produced dysprosium. Specific 2023 dysprosium tonnage not publicly disclosed.",
+      "ticker": "NEO",
+      "exchange": "TSX"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "production": "Mountain Pass ore contains heavy rare earth elements including dysprosium, but separated dysprosium production not yet operational as of 2023. Specific dysprosium production: not applicable.",
+      "ticker": "MP",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.shinetsu.co.jp",
+      "production": "Consumes dysprosium in high-performance sintered NdFeB magnet manufacturing (for coercivity enhancement). Conducts rare earth separation and refining. Specific dysprosium production or consumption tonnage not publicly disclosed.",
+      "ticker": "4063",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    },
+    {
+      "name": "TDK Corporation",
+      "country": "Japan",
+      "website": "https://www.tdk.com",
+      "production": "Consumes dysprosium in NEOREC NdFeB magnets. Developing HAL technology to reduce dysprosium loading. Specific dysprosium consumption not publicly disclosed.",
+      "ticker": "6762",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    },
+    {
+      "name": "Iluka Resources Ltd.",
+      "country": "Australia",
+      "website": "https://www.iluka.com",
+      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated dysprosium. Commercial-scale separated production not yet commenced as of 2023.",
+      "ticker": "ILU",
+      "exchange": "ASX"
+    }
+  ],
+  "lanthanum": [
+    {
+      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "http://www.northrareearth.com",
+      "production": "Major producer of separated lanthanum oxide as a light rare earth from Bayan Obo. Plans to expand lanthanum and cerium production 25% by 2030. Specific 2023 lanthanum tonnage not publicly disclosed.",
+      "ticker": "600111",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "China Rare Earth Group Co., Ltd.",
+      "country": "China",
+      "website": "https://www.regcc.cn",
+      "production": "Produces separated RE oxides including lanthanum. Specific lanthanum tonnage not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "production": "Produces and trades rare earth products including lanthanum compounds. Specific lanthanum production tonnage not publicly disclosed.",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "production": "Produces separated rare earth oxides including lanthanum. Specific lanthanum tonnage not publicly disclosed.",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "production": "Produces lanthanum and cerium as co-products at Lynas Malaysia separation plant. FY2024 light rare earth sales approximately 8,500 t REO (lanthanum and cerium combined). FY2023 lanthanum-specific tonnage not separately disclosed; total REO production 16,780 t (FY2023).",
+      "ticker": "LYC",
+      "exchange": "ASX"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "production": "Produces lanthanum in rare earth concentrate (41,557 MT REO in 2023). Separated lanthanum oxide production not specifically disclosed; NdPr is primary separated product as of 2023.",
+      "ticker": "MP",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com",
+      "production": "Produces separated RE oxides including lanthanum at Silmet (Estonia) and through its chemicals & oxides segment. Specific lanthanum tonnage not publicly disclosed.",
+      "ticker": "NEO",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Iluka Resources Ltd.",
+      "country": "Australia",
+      "website": "https://www.iluka.com",
+      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated lanthanum among other RE oxides. Commercial-scale separated production not yet commenced as of 2023.",
+      "ticker": "ILU",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.shinetsu.co.jp",
+      "production": "Produces separated rare earth materials including lanthanum compounds for electronic and industrial applications via high-purification technology. Specific lanthanum production tonnage not publicly disclosed.",
+      "ticker": "4063",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    },
+    {
+      "name": "TDK Corporation",
+      "country": "Japan",
+      "website": "https://www.tdk.com",
+      "production": "Consumes lanthanum in specialty materials and electronic components. Specific lanthanum production or consumption tonnage not publicly disclosed.",
+      "ticker": "6762",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    }
+  ],
+  "terbium": [
+    {
+      "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
+      "country": "China",
+      "website": "https://www.regcc.cn",
+      "production": "Controls the primary global source of terbium from Jiangxi and Guangdong ion-adsorption clay deposits. China controls approximately 95% of global separation capacity for terbium. Specific terbium tonnage not publicly disclosed.",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "http://www.northrareearth.com",
+      "production": "Produces separated RE oxides including terbium; plans 40% expansion in dysprosium and terbium separation capacity through 2030. Primary production is light rare earths; terbium-specific tonnage not publicly disclosed.",
+      "ticker": "600111",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "production": "Produces separated rare earth oxides including terbium from Fujian operations. Specific terbium tonnage not publicly disclosed.",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "production": "Produces and trades rare earth products including terbium compounds. Specific terbium production tonnage not publicly disclosed.",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)"
+    },
+    {
+      "name": "Neo Performance Materials Inc. (Silmet, Estonia)",
+      "country": "Canada / Estonia",
+      "website": "https://www.neomaterials.com",
+      "production": "Commissioned heavy rare earth (HREE) solvent extraction line at Silmet facility (Estonia) in April 2026, producing separated terbium and dysprosium oxides at nameplate capacity. As of 2023, Silmet terbium separation was pre-commissioning; JAMR (China) also produced terbium. Specific 2023 terbium tonnage not publicly disclosed.",
+      "ticker": "NEO",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "production": "Commenced first production of separated terbium oxide at Lynas Malaysia in June 2025 (initial commissioning of HRE facility). As of FY2023, terbium separation was not yet operational. FY2023 terbium production: not applicable.",
+      "ticker": "LYC",
+      "exchange": "ASX"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "production": "Mountain Pass ore contains terbium, but separated terbium production not yet operational as of 2023. Specific terbium production: not applicable.",
+      "ticker": "MP",
+      "exchange": "NYSE"
+    },
+    {
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.shinetsu.co.jp",
+      "production": "Consumes terbium in high-performance sintered NdFeB magnet manufacturing (grain boundary diffusion for coercivity). Conducts integrated rare earth refining. Specific terbium production or consumption tonnage not publicly disclosed.",
+      "ticker": "4063",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    },
+    {
+      "name": "TDK Corporation",
+      "country": "Japan",
+      "website": "https://www.tdk.com",
+      "production": "Consumes terbium in NEOREC NdFeB magnets. Developing HAL technology to reduce heavy RE (Dy, Tb) loading. Specific terbium consumption not publicly disclosed.",
+      "ticker": "6762",
+      "exchange": "Tokyo Stock Exchange (TSE)"
+    },
+    {
+      "name": "Iluka Resources Ltd.",
+      "country": "Australia",
+      "website": "https://www.iluka.com",
+      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated terbium. Commercial-scale separated production not yet commenced as of 2023.",
+      "ticker": "ILU",
+      "exchange": "ASX"
     }
   ]
 }

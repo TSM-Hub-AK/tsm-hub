@@ -304,6 +304,114 @@
           "attribution": "Based on: ISO 14040 and ISO 14044 official documentation"
         }
       ]
+    },
+    {
+      "id": "battery-critical-minerals",
+      "name": "Battery & Critical Minerals",
+      "terms": [
+        {
+          "term": "NPI",
+          "full_name": "Nickel Pig Iron",
+          "definition": "Nickel Pig Iron (NPI) is a low-grade ferronickel product produced primarily in China and Indonesia, used predominantly in the production of stainless steel as a substitute for refined nickel. It is classified as a Class II nickel product and is smelted from laterite ore using blast or electric arc furnaces. NPI typically contains 1.5–15% nickel content, significantly lower than Class I refined nickel at 99.8% purity.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Nickel official documentation"
+        },
+        {
+          "term": "Spodumene",
+          "full_name": "Spodumene",
+          "definition": "Spodumene is a lithium aluminium inosilicate pyroxene mineral with the chemical composition LiAl(SiO₃)₂, found principally in lithium-rich granite pegmatites. It is a primary hard-rock source of lithium and serves as a key feedstock for the production of lithium carbonate and lithium hydroxide used in battery manufacturing. Spodumene concentrate is typically graded at approximately 6% lithium oxide (Li₂O) before further processing.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Lithium official documentation"
+        },
+        {
+          "term": "NdFeB",
+          "full_name": "Neodymium Iron Boron",
+          "definition": "Neodymium Iron Boron (NdFeB) magnets are rare earth permanent magnets composed of an alloy of neodymium, iron, and boron that forms the Nd₂Fe₁₄B tetragonal crystalline structure. They are the strongest permanent magnets commercially available and are critical components in electric vehicle traction motors and direct-drive wind turbine generators. The supply chain for sintered NdFeB magnets is geographically concentrated, with China dominant across all production stages from rare earth mining through final magnet manufacture.",
+          "attribution": "Based on: U.S. Department of Energy, Office of Manufacturing and Energy Supply Chains — Rare Earth Permanent Magnets: Supply Chain Deep Dive Assessment official documentation"
+        },
+        {
+          "term": "REE / REO",
+          "full_name": "Rare Earth Elements / Rare Earth Oxides",
+          "definition": "Rare Earth Elements (REE) is the collective designation for the 17 elements comprising the 15 lanthanides (lanthanum, cerium, praseodymium, neodymium, promethium, samarium, europium, gadolinium, terbium, dysprosium, holmium, erbium, thulium, ytterbium, and lutetium), plus scandium and yttrium. Rare Earth Oxides (REO) are the oxide form in which rare earth content is standardly measured and reported, expressed in metric ton REO equivalent. Despite the name, most rare earth elements are not geologically scarce but occur in low concentrations that make economic extraction challenging.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Rare Earths official documentation"
+        },
+        {
+          "term": "Yellowcake",
+          "full_name": "Yellowcake (U₃O₈)",
+          "definition": "Yellowcake is uranium oxide concentrate (U₃O₈), the standard intermediate product of uranium milling operations, containing approximately 85% uranium by mass. It is produced by processing uranium ore through crushing, leaching, and precipitation, then drying and roasting the resulting diuranate to yield U₃O₈. Yellowcake is the commercial form in which uranium is marketed, exported, and traded internationally, packed into sealed 200-litre steel drums for shipment.",
+          "attribution": "Based on: World Nuclear Association — Uranium Mining Overview official documentation"
+        },
+        {
+          "term": "Ferro-alloy",
+          "full_name": "Ferro-alloy",
+          "definition": "Ferro-alloys are a group of alloys of iron with a high proportion of one or more other elements—principally chromium, manganese, silicon, or vanadium—produced for addition to steel and cast iron melts during steelmaking. They serve as a primary means of introducing alloying and deoxidising elements into molten steel to achieve specified mechanical and chemical properties. Major ferro-alloy types include ferrochromium, ferromanganese, ferrosilicon, and ferrovanadium, each named for the dominant non-iron element.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Manganese and Vanadium official documentation"
+        },
+        {
+          "term": "CAM",
+          "full_name": "Cathode Active Material",
+          "definition": "Cathode Active Material (CAM) is the electrochemically active component of the positive electrode (cathode) in a lithium-ion battery cell, responsible for storing and releasing lithium ions during charge and discharge cycles. CAM accounts for approximately half of battery cell costs and its chemical composition determines the cell's energy density, thermal stability, cycle life, and cost profile. Principal commercial CAM chemistries include lithium iron phosphate (LFP) and lithium nickel manganese cobalt oxide (NMC).",
+          "attribution": "Based on: Faraday Institution — Faraday Insights: Developments in Lithium-Ion Battery Cathodes official documentation"
+        },
+        {
+          "term": "LFP",
+          "full_name": "Lithium Iron Phosphate",
+          "definition": "Lithium Iron Phosphate (LFP), with the formula LiFePO₄, is an iron-based olivine cathode active material used in lithium-ion batteries. LFP offers low cost, good thermal stability, superior cycle and calendar life, and excellent round-trip efficiency, and is cobalt-free; it is widely deployed in electric vehicles and battery energy storage systems. Its lower cell-level energy density compared to nickel-rich chemistries is a trade-off against its safety and longevity advantages.",
+          "attribution": "Based on: Faraday Institution — Faraday Insights: Developments in Lithium-Ion Battery Cathodes official documentation"
+        },
+        {
+          "term": "NMC",
+          "full_name": "Nickel Manganese Cobalt",
+          "definition": "Lithium Nickel Manganese Cobalt Oxide (NMC) is a class of layered oxide cathode active materials used in lithium-ion batteries, with the general formula LiNiₓMnᵧCo₁₋ₓ₋ᵧO₂. NMC offers high energy density and high power output and is commonly the battery chemistry of choice for high-performance electric vehicles; increasing the nickel content (e.g., NMC811) raises energy density but reduces thermal stability. Next-generation NMC-type cathodes include lithium and manganese-rich materials (LMR-NMC).",
+          "attribution": "Based on: Faraday Institution — Faraday Insights: Developments in Lithium-Ion Battery Cathodes official documentation"
+        },
+        {
+          "term": "Cobalt Sulphate",
+          "full_name": "Cobalt Sulphate",
+          "definition": "Cobalt sulphate (CoSO₄) is a water-soluble cobalt salt produced by dissolving cobalt in sulphuric acid, classified under tariff item 2833.29.1000. It is the primary cobalt chemical feedstock used in the synthesis of precursor cathode active materials for NMC and NCA lithium-ion battery cells. Battery-grade cobalt sulphate purity requirements are stringent, with metal impurity levels typically required below 10 ppm for use in electric vehicle battery supply chains.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Cobalt and USGS Minerals Yearbook 2022 — Cobalt official documentation"
+        },
+        {
+          "term": "Lithium Hydroxide",
+          "full_name": "Lithium Hydroxide",
+          "definition": "Lithium hydroxide (LiOH) is an inorganic lithium compound produced from lithium carbonate or directly from spodumene concentrate via an alkaline processing route. It is the preferred lithium feedstock for high-nickel cathode active materials such as NMC811 and NCA, where its reactivity at lower temperatures improves cathode synthesis quality compared to lithium carbonate. Lithium hydroxide is traded in anhydrous monohydrate form and classified under tariff item 2825.20.0000.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Lithium official documentation"
+        },
+        {
+          "term": "Lithium Carbonate",
+          "full_name": "Lithium Carbonate",
+          "definition": "Lithium carbonate (Li₂CO₃) is the most common commercial form of refined lithium, produced from lithium brine or hard-rock spodumene concentrate via carbonate precipitation. It is the standard feedstock for manufacturing lithium iron phosphate (LFP) cathode active material and serves as a precursor to lithium hydroxide production. Pharmaceutical-grade and battery-grade lithium carbonate are traded as distinct specifications under tariff item 2836.91.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Lithium official documentation"
+        },
+        {
+          "term": "PGM",
+          "full_name": "Platinum Group Metals",
+          "definition": "Platinum Group Metals (PGM) is the collective designation for six closely related noble metallic elements: platinum, palladium, iridium, osmium, rhodium, and ruthenium. These elements share similar physical and chemical properties, occur together in nature in sulphide copper-nickel ores and alluvial deposits, and are reported in trade and statistics on a PGM-content basis in kilograms. PGMs are critical for autocatalysts, fuel cells, jewellery, and industrial chemical applications.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Platinum-Group Metals official documentation"
+        },
+        {
+          "term": "Critical Minerals",
+          "full_name": "Critical Minerals",
+          "definition": "Under the U.S. Energy Act of 2020, a critical mineral is defined as any mineral, element, substance, or material designated as critical by the Secretary of the Interior, acting through the Director of the U.S. Geological Survey, on the basis that it is essential to economic and national security, has a supply chain vulnerable to disruption, and serves an essential function in manufacturing where its absence would have significant consequences. The European Union's Critical Raw Materials Act (CRMA) similarly identifies critical raw materials as those of high economic importance to the EU economy that are subject to high supply risk. The USGS published a list of 50 critical minerals in 2022, revised every three years pursuant to the Act.",
+          "attribution": "Based on: U.S. Department of Energy — What Are Critical Minerals and Materials official documentation; European Commission — Critical Raw Materials Act official documentation"
+        },
+        {
+          "term": "ASM",
+          "full_name": "Artisanal and Small-scale Mining",
+          "definition": "Artisanal and Small-scale Mining (ASM) refers to formal or informal mining operations characterised by predominantly simplified forms of exploration, extraction, processing, and transportation, typically low in capital intensity and high in labour intensity. ASM operations range from legally recognised cooperative associations to informal groups operating without authorisation, and their legal status varies by national jurisdiction. ASM is a significant source of production for cobalt in the Democratic Republic of Congo, as well as tantalum, gold, and tin globally, and is associated with elevated occupational health, safety, and human rights risks.",
+          "attribution": "Based on: Responsible Jewellery Council (RJC) — Standards Guidance: Artisanal and Small-Scale Mining official documentation; ICMM — Working Together: How Large-Scale Mining Can Engage with Artisanal and Small-Scale Miners official documentation"
+        },
+        {
+          "term": "DRC",
+          "full_name": "Democratic Republic of Congo",
+          "definition": "The Democratic Republic of Congo (DRC) is the world's leading producer of mined cobalt, accounting for approximately 74% of global cobalt mine production in 2023, with estimated output of 170,000 metric tons of cobalt content. The country's cobalt is produced primarily as a byproduct of copper mining from copper-cobalt ores in the Katanga (Lualaba) province. The DRC holds estimated cobalt reserves of 6,000,000 metric tons, representing the largest national cobalt reserve base in the world.",
+          "attribution": "Based on: U.S. Geological Survey (USGS) Mineral Commodity Summaries 2024 — Cobalt official documentation"
+        },
+        {
+          "term": "Benchmark Pricing",
+          "full_name": "Benchmark Pricing",
+          "definition": "Benchmark pricing for metals refers to independent price assessments published by specialist price reporting agencies (PRAs) such as Fastmarkets, Asian Metal, and S&P Global Commodity Insights (Platts), which establish the prevailing tradeable level at which a commodity of a stated specification has, or could be expected to have, transacted over a defined assessment period. These assessments are based on data collected from a broad sample of market participants—producers, consumers, traders, and intermediaries—through direct reporting rather than exchange-based trading. Benchmark prices serve as reference prices for physical contracts, financial instruments, and transfer pricing for metals that are not traded on formal exchanges such as the LME.",
+          "attribution": "Based on: Fastmarkets — Price Assessment Methodology official documentation"
+        }
+      ]
     }
   ]
 }
