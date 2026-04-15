@@ -606,6 +606,105 @@ html = html.replace('{{PRODUCERS_SECTION_HTML}}', producersSectionHTML);
 console.log(`News section: ${news ? news.article_count + ' articles' : 'empty'}`);
 console.log(`Producers section: ${producers ? Object.values(producers).reduce((sum, arr) => sum + arr.length, 0) + ' entries' : 'empty'}`);
 
+// ─── Hub Stats (dynamic from data) ───
+
+// Count prices
+const lmePriceCount = Object.keys(prices.lme).length;
+const preciousPriceCount = Object.keys(prices.precious).length;
+const shfePriceCount = shfe && shfe.metals ? Object.values(shfe.metals).filter(m => m.front_month && m.front_month.settlement_price > 0).length : 0;
+const maPriceCount = metalsApi ? Object.values(metalsApi.metals).filter(m => m.price !== null && m.price > 0).length : 0;
+const totalPrices = lmePriceCount + preciousPriceCount + shfePriceCount + maPriceCount;
+
+// Count producers
+const totalProducers = producers ? Object.values(producers).reduce((sum, arr) => sum + arr.length, 0) : 0;
+const totalMetalsP = producers ? Object.keys(producers).length : 0;
+
+// Count glossary
+const glossaryPath2 = path.join(__dirname, '..', 'data', 'glossary.json');
+let totalTerms = 0;
+if (fs.existsSync(glossaryPath2)) {
+  const g = JSON.parse(fs.readFileSync(glossaryPath2, 'utf8'));
+  totalTerms = g.categories.reduce((sum, c) => sum + c.terms.length, 0);
+}
+
+console.log(`Stats: ${totalPrices} prices, ${totalProducers} producers across ${totalMetalsP} metals, ${totalTerms} glossary terms`);
+
+// Stats counter bar HTML
+const statsHTML = `<div class="hub-stats">
+      <div class="hub-stat">
+        <div class="hub-stat__number">${totalPrices}</div>
+        <div class="hub-stat__label">Live Prices</div>
+      </div>
+      <div class="hub-stat">
+        <div class="hub-stat__number">${totalProducers}</div>
+        <div class="hub-stat__label">Producers</div>
+      </div>
+      <div class="hub-stat">
+        <div class="hub-stat__number">${totalMetalsP}</div>
+        <div class="hub-stat__label">Metals Covered</div>
+      </div>
+      <div class="hub-stat">
+        <div class="hub-stat__number">${totalTerms}</div>
+        <div class="hub-stat__label">Glossary Terms</div>
+      </div>
+    </div>`;
+
+html = html.replace('{{STATS_HTML}}', statsHTML);
+
+// Replace stats placeholders in meta tags
+html = html.replace(/\{\{TOTAL_PRICES\}\}/g, String(totalPrices));
+html = html.replace(/\{\{TOTAL_PRODUCERS\}\}/g, String(totalProducers));
+html = html.replace(/\{\{TOTAL_METALS_P\}\}/g, String(totalMetalsP));
+html = html.replace(/\{\{TOTAL_TERMS\}\}/g, String(totalTerms));
+
+// ─── JSON-LD Structured Data ───
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "TSM Hub — Metals Market Data",
+  "description": `${totalPrices} live prices across ${totalMetalsP} metals, ${totalProducers} global producers directory, ${totalTerms} glossary terms. Covers LME, LBMA, SHFE, rare earths, battery metals, PGMs, specialty metals. Updated twice daily.`,
+  "url": "https://hub.truesourcemetals.com",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "TrueSource Metals",
+    "url": "https://truesourcemetals.com"
+  },
+  "temporalCoverage": new Date().toISOString().split('T')[0] + "/..",
+  "spatialCoverage": "Global",
+  "variableMeasured": [
+    "Metal commodity prices (USD/t, USD/oz, RMB/t, USD/kg, USD/lb)",
+    "Global metals producers and production data",
+    "Industry glossary and terminology"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/html",
+    "contentUrl": "https://hub.truesourcemetals.com"
+  },
+  "keywords": [
+    "metals prices", "LME", "LBMA", "SHFE", "commodity data",
+    "rare earth prices", "battery metals", "PGM prices",
+    "metals producers", "critical minerals", "mining data"
+  ]
+};
+
+// Insert JSON-LD before closing </head>
+const jsonLdScript = `<script type="application/ld+json">${JSON.stringify(jsonLd)}<\/script>`;
+html = html.replace('</head>', jsonLdScript + '\n</head>');
+
+// Also add WebSite schema for sitelinks search box
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "TSM Hub",
+  "alternateName": "TrueSource Metals Hub",
+  "url": "https://hub.truesourcemetals.com"
+};
+const webSiteScript = `<script type="application/ld+json">${JSON.stringify(webSiteSchema)}<\/script>`;
+html = html.replace('</head>', webSiteScript + '\n</head>');
+
 // ─── Write Output ───
 
 const distDir = path.join(__dirname, '..', 'dist');
