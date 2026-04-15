@@ -121,7 +121,7 @@
         "country": "United States",
         "production_y1": "16,400",
         "production_y2": "8,000",
-        "reserves": "10,000"
+        "reserves": "310,000"
       },
       {
         "country": "Australia",
@@ -205,7 +205,7 @@
         "country": "Australia",
         "production_y1": "1,090",
         "production_y2": "1,100",
-        "reserves": "1,164,000"
+        "reserves": "64,000"
       },
       {
         "country": "Bolivia",
@@ -295,7 +295,7 @@
         "country": "Australia",
         "production_y1": "430",
         "production_y2": "430",
-        "reserves": "735,000"
+        "reserves": "35,000"
       },
       {
         "country": "Bolivia",
@@ -391,7 +391,7 @@
         "country": "Australia",
         "production_y1": "9,850",
         "production_y2": "9,900",
-        "reserves": "320,000"
+        "reserves": "620,000"
       },
       {
         "country": "Bolivia",
@@ -905,9 +905,9 @@
       },
       {
         "country": "Australia",
-        "production_y1": "16,000",
-        "production_y2": "13,000",
-        "reserves": "5,700,000"
+        "production_y1": "216,000",
+        "production_y2": "213,000",
+        "reserves": "135,700,000"
       },
       {
         "country": "Brazil",
@@ -917,8 +917,8 @@
       },
       {
         "country": "Burma",
-        "production_y1": "43,000",
-        "production_y2": "31,000",
+        "production_y1": "243,000",
+        "production_y2": "231,000",
         "reserves": "NA"
       },
       {
@@ -1127,13 +1127,13 @@
       },
       {
         "country": "China",
-        "production_y1": "70,000",
+        "production_y1": "e70,000",
         "production_y2": "70,000",
         "reserves": "4,100"
       },
       {
         "country": "Russia",
-        "production_y1": "20,000",
+        "production_y1": "e20,000",
         "production_y2": "21,000",
         "reserves": "5,000"
       },
@@ -1341,7 +1341,7 @@
       },
       {
         "country": "Armenia",
-        "production_y1": "7,600",
+        "production_y1": "e7,600",
         "production_y2": "8,000",
         "reserves": "150"
       },
@@ -1365,13 +1365,13 @@
       },
       {
         "country": "China",
-        "production_y1": "96,000",
+        "production_y1": "e96,000",
         "production_y2": "110,000",
         "reserves": "5,900"
       },
       {
         "country": "Iran",
-        "production_y1": "2,500",
+        "production_y1": "e2,500",
         "production_y2": "3,000",
         "reserves": "43"
       },
@@ -1383,7 +1383,7 @@
       },
       {
         "country": "Korea, North",
-        "production_y1": "400",
+        "production_y1": "e400",
         "production_y2": "700",
         "reserves": "NA"
       },
@@ -1413,13 +1413,13 @@
       },
       {
         "country": "Russia",
-        "production_y1": "1,700",
+        "production_y1": "e1,700",
         "production_y2": "1,700",
         "reserves": "1,100"
       },
       {
         "country": "Uzbekistan",
-        "production_y1": "1,700",
+        "production_y1": "e1,700",
         "production_y2": "1,700",
         "reserves": "21"
       },
@@ -1517,7 +1517,7 @@
         "country": "United States",
         "production_y1": "—",
         "production_y2": "—",
-        "reserves": "860,000"
+        "reserves": "60,000"
       },
       {
         "country": "Australia",
@@ -1533,7 +1533,7 @@
       },
       {
         "country": "Burma",
-        "production_y1": "4,500",
+        "production_y1": "e4,500",
         "production_y2": "4,500",
         "reserves": "140,000"
       },
@@ -1545,7 +1545,7 @@
       },
       {
         "country": "China",
-        "production_y1": "62,300",
+        "production_y1": "e62,300",
         "production_y2": "60,000",
         "reserves": "670,000"
       },
@@ -1557,13 +1557,13 @@
       },
       {
         "country": "Iran",
-        "production_y1": "500",
+        "production_y1": "e500",
         "production_y2": "500",
         "reserves": "NA"
       },
       {
         "country": "Kazakhstan",
-        "production_y1": "40",
+        "production_y1": "e40",
         "production_y2": "40",
         "reserves": "NA"
       },
@@ -1575,7 +1575,7 @@
       },
       {
         "country": "Laos",
-        "production_y1": "200",
+        "production_y1": "e200",
         "production_y2": "200",
         "reserves": "NA"
       },
@@ -1605,7 +1605,7 @@
       },
       {
         "country": "Turkey",
-        "production_y1": "1,600",
+        "production_y1": "e1,600",
         "production_y2": "1,600",
         "reserves": "99,000"
       },
