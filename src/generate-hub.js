@@ -851,6 +851,16 @@ if (fs.existsSync(glossaryPath2)) {
 
 console.log(`Stats: ${totalPrices} prices, ${totalProducers} producers across ${totalMetalsP} metals, ${totalTerms} glossary terms`);
 
+// Nav badge counts
+const reservesMetalCount = countryData ? Object.keys(countryData).filter(k => k !== '_metadata').length : 0;
+const newsCount = news ? news.article_count : 0;
+html = html.replace('{{NAV_COUNT_PRICES}}', totalPrices);
+html = html.replace('{{NAV_COUNT_NEWS}}', newsCount);
+html = html.replace('{{NAV_COUNT_RESERVES}}', reservesMetalCount);
+html = html.replace('{{NAV_COUNT_GLOSSARY}}', totalTerms);
+html = html.replace('{{NAV_COUNT_PRODUCERS}}', totalProducers);
+html = html.replace('{{NAV_COUNT_SOURCES}}', '7');
+
 // Stats counter bar HTML
 const statsHTML = `<div class="hub-stats">
       <div class="hub-stat">

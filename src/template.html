@@ -220,6 +220,21 @@
       background: rgba(201, 168, 76, 0.25);
     }
 
+    .nav-badge {
+      display: inline-block;
+      background: rgba(45, 212, 191, 0.15);
+      color: var(--color-primary);
+      font-size: 0.7em;
+      font-weight: 700;
+      padding: 1px 6px;
+      border-radius: 10px;
+      min-width: 18px;
+      text-align: center;
+      margin-left: 3px;
+      vertical-align: middle;
+      line-height: 1.4;
+    }
+
     .header__main-link {
       font-size: var(--text-sm);
       color: var(--color-text-muted);
@@ -1389,12 +1404,12 @@
         <span class="header__name">TSM<span class="header__hub">Hub</span></span>
       </a>
       <nav class="header__nav" aria-label="Hub sections">
-        <a href="#prices-section" class="header__nav-link">Prices</a>
-        <a href="#news-section" class="header__nav-link">News</a>
-        <a href="#reserves-section" class="header__nav-link">Reserves</a>
-        <a href="#glossary-section" class="header__nav-link">Glossary</a>
-        <a href="#producers-section" class="header__nav-link">Producers</a>
-        <a href="#sources-section" class="header__nav-link">Sources</a>
+        <a href="#prices-section" class="header__nav-link">Prices <span class="nav-badge">{{NAV_COUNT_PRICES}}</span></a>
+        <a href="#news-section" class="header__nav-link">News <span class="nav-badge">{{NAV_COUNT_NEWS}}</span></a>
+        <a href="#reserves-section" class="header__nav-link">Reserves <span class="nav-badge">{{NAV_COUNT_RESERVES}}</span></a>
+        <a href="#glossary-section" class="header__nav-link">Glossary <span class="nav-badge">{{NAV_COUNT_GLOSSARY}}</span></a>
+        <a href="#producers-section" class="header__nav-link">Producers <span class="nav-badge">{{NAV_COUNT_PRODUCERS}}</span></a>
+        <a href="#sources-section" class="header__nav-link">Sources <span class="nav-badge">{{NAV_COUNT_SOURCES}}</span></a>
       </nav>
       <div class="header__right">
         <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
