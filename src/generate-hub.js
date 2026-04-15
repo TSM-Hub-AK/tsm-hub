@@ -449,7 +449,7 @@ function generateReservesHTML(data) {
     }
 
     const sourceUrl = md.source_url || '';
-    const sourceText = md.source || (md.sub_tables && Object.values(md.sub_tables)[0].source) || 'USGS Mineral Commodity Summaries 2025';
+    const sourceText = md.source || (md.sub_tables && Object.values(md.sub_tables)[0].source) || 'USGS Mineral Commodity Summaries 2026';
     const sourceHtml = sourceUrl
       ? `<div class="reserves-meta" style="margin-top: var(--space-3);">Source: <a href="${sourceUrl}" target="_blank" rel="noopener" style="color: var(--color-primary);">${escapeHtml(sourceText)}</a></div>`
       : `<div class="reserves-meta" style="margin-top: var(--space-3);">Source: ${escapeHtml(sourceText)}</div>`;
@@ -473,7 +473,7 @@ function generateReservesHTML(data) {
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         Reserves &amp; Production by Country
       </h2>
-      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">Global reserves and mine production by country — primary data from USGS Mineral Commodity Summaries 2025. ${available.length} metals, ${totalCountries} country entries. All figures reported as published by original source — TrueSource does not modify, estimate, or interpret primary data. e = Estimated. W = Withheld. NA = Not available. \u2014 = Zero.</p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">Global reserves and mine production by country — primary data from USGS Mineral Commodity Summaries 2026. ${available.length} metals, ${totalCountries} country entries. All figures reported as published by original source — TrueSource does not modify, estimate, or interpret primary data. e = Estimated. W = Withheld. NA = Not available. \u2014 = Zero.</p>
       <div class="reserves-tabs">
         ${tabsHtml}
       </div>
@@ -788,6 +788,42 @@ const newsSectionHTML = generateNewsHTML(news);
 html = html.replace('{{NEWS_SECTION_HTML}}', newsSectionHTML);
 html = html.replace('{{GLOSSARY_SECTION_HTML}}', glossaryHTML);
 html = html.replace('{{PRODUCERS_SECTION_HTML}}', producersSectionHTML);
+
+// ─── Data Sources Section ───
+const dataSourcesHTML = `<div class="digest-section" id="sources-section">
+    <h2 class="digest-section__title">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Our Data Sources
+    </h2>
+    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">TrueSource Metals uses only primary, authoritative sources. We do not modify, estimate, or interpret data. All figures are reported exactly as published by the original source.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-4);">
+      <div style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);">
+        <h3 style="font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;">Production &amp; Reserves</h3>
+        <div style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;">
+          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://doi.org/10.5066/P1WKQ63T" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">USGS Mineral Commodity Summaries 2026</a><br>U.S. Geological Survey — the global standard for mineral production and reserves data. Covers 25 metals with country-level detail. Published annually.</p>
+          <p style="margin: 0;"><a href="https://world-nuclear.org/" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">World Nuclear Association</a><br>Uranium production and reserves data (OECD NEA/IAEA source). Complementary to USGS, which does not cover uranium.</p>
+        </div>
+      </div>
+      <div style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);">
+        <h3 style="font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;">Official Prices</h3>
+        <div style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;">
+          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://www.lme.com" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">London Metal Exchange (LME)</a><br>Official settlement prices for base metals (copper, aluminium, zinc, nickel, tin, lead, cobalt, molybdenum). Reported in USD/t.</p>
+          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://www.lbma.org.uk" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">London Bullion Market Association (LBMA)</a><br>Official fix prices for precious metals (gold, silver, platinum, palladium). Reported in USD/oz.</p>
+          <p style="margin: 0;"><a href="https://www.shfe.com.cn" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">Shanghai Futures Exchange (SHFE)</a><br>Official settlement prices for Chinese futures contracts. Reported in RMB/t.</p>
+        </div>
+      </div>
+      <div style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);">
+        <h3 style="font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;">Price Data Providers</h3>
+        <div style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;">
+          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://metals.dev" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">Metals.dev</a><br>API provider for LME and LBMA official price data. Delivers exchange-sourced settlement and fix prices.</p>
+          <p style="margin: 0;"><a href="https://metals-api.com" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">Metals-API.com</a><br>Supplementary API for 37+ metals spot prices including minor and specialty metals not covered by LME/LBMA.</p>
+        </div>
+      </div>
+    </div>
+    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); font-style: italic;">Prices are official settlement/fix values updated twice daily on business days — not real-time quotes. News articles are sourced from public feeds with full attribution to original publishers. For questions about our data methodology, contact <a href="mailto:info@truesourcemetals.com" style="color: var(--color-primary);">info@truesourcemetals.com</a></p>
+  </div>`;
+html = html.replace('{{DATA_SOURCES_SECTION_HTML}}', dataSourcesHTML);
+
 console.log(`News section: ${news ? news.article_count + ' articles' : 'empty'}`);
 console.log(`Producers section: ${producers ? Object.values(producers).reduce((sum, arr) => sum + arr.length, 0) + ' entries' : 'empty'}`);
 
@@ -860,7 +896,7 @@ const jsonLd = {
   "spatialCoverage": "Global",
   "variableMeasured": [
     "Metal commodity prices (USD/t, USD/oz, RMB/t, USD/kg, USD/lb)",
-    "Global reserves and mine production by country (USGS MCS 2025)",
+    "Global reserves and mine production by country (USGS MCS 2026)",
     "Global metals producers and production data",
     "Industry glossary and terminology"
   ],
