@@ -1410,6 +1410,7 @@
         <a href="#glossary-section" class="header__nav-link">Glossary <span class="nav-badge">{{NAV_COUNT_GLOSSARY}}</span></a>
         <a href="#producers-section" class="header__nav-link">Producers <span class="nav-badge">{{NAV_COUNT_PRODUCERS}}</span></a>
         <a href="#sources-section" class="header__nav-link">Sources <span class="nav-badge">{{NAV_COUNT_SOURCES}}</span></a>
+        <a href="#metals-section" class="header__nav-link">Metals <span class="nav-badge">25</span></a>
       </nav>
       <div class="header__right">
         <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
@@ -2014,6 +2015,15 @@
         <p class="hub-form-success__text">Your message has been received. We'll get back to you shortly.</p>
       </div>
     </div>
+  </div>
+
+  <!-- INDIVIDUAL METAL PAGES -->
+  <div id="metals-section" class="section" style="max-width:var(--content-default);margin:0 auto;padding:var(--space-12) var(--space-6)">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:var(--space-6);flex-wrap:wrap;gap:var(--space-4)">
+      <h2 style="font-family:var(--font-display);font-size:var(--text-lg);font-weight:700">Individual Metal Pages</h2>
+      <span style="font-size:var(--text-xs);color:var(--color-text-faint)">25 metals with detailed production, reserves &amp; producer data</span>
+    </div>
+    {{METALS_GRID_HTML}}
   </div>
 
   <!-- FOOTER -->

@@ -939,6 +939,48 @@ const webSiteSchema = {
 const webSiteScript = `<script type="application/ld+json">${JSON.stringify(webSiteSchema)}<\/script>`;
 html = html.replace('</head>', webSiteScript + '\n</head>');
 
+// ─── Metals Grid for Hub ───
+
+const metalsForGrid = [
+  { slug: 'copper', name: 'Copper', symbol: 'Cu', category: 'Base', critical: true },
+  { slug: 'aluminium', name: 'Aluminium', symbol: 'Al', category: 'Base', critical: true },
+  { slug: 'nickel', name: 'Nickel', symbol: 'Ni', category: 'Base', critical: true },
+  { slug: 'zinc', name: 'Zinc', symbol: 'Zn', category: 'Base', critical: true },
+  { slug: 'lead', name: 'Lead', symbol: 'Pb', category: 'Base', critical: false },
+  { slug: 'tin', name: 'Tin', symbol: 'Sn', category: 'Base', critical: true },
+  { slug: 'gold', name: 'Gold', symbol: 'Au', category: 'Precious', critical: false },
+  { slug: 'silver', name: 'Silver', symbol: 'Ag', category: 'Precious', critical: false },
+  { slug: 'pgm', name: 'PGM', symbol: 'Pt/Pd', category: 'Precious', critical: true },
+  { slug: 'lithium', name: 'Lithium', symbol: 'Li', category: 'Battery', critical: true },
+  { slug: 'cobalt', name: 'Cobalt', symbol: 'Co', category: 'Battery', critical: true },
+  { slug: 'rare-earths', name: 'Rare Earths', symbol: 'REE', category: 'Strategic', critical: true },
+  { slug: 'tungsten', name: 'Tungsten', symbol: 'W', category: 'Strategic', critical: true },
+  { slug: 'vanadium', name: 'Vanadium', symbol: 'V', category: 'Strategic', critical: true },
+  { slug: 'manganese', name: 'Manganese', symbol: 'Mn', category: 'Strategic', critical: true },
+  { slug: 'molybdenum', name: 'Molybdenum', symbol: 'Mo', category: 'Strategic', critical: true },
+  { slug: 'chromium', name: 'Chromium', symbol: 'Cr', category: 'Strategic', critical: true },
+  { slug: 'antimony', name: 'Antimony', symbol: 'Sb', category: 'Strategic', critical: true },
+  { slug: 'gallium', name: 'Gallium', symbol: 'Ga', category: 'Technology', critical: true },
+  { slug: 'germanium', name: 'Germanium', symbol: 'Ge', category: 'Technology', critical: true },
+  { slug: 'graphite', name: 'Graphite', symbol: 'C', category: 'Industrial', critical: true },
+  { slug: 'iron-ore', name: 'Iron Ore', symbol: 'Fe', category: 'Bulk', critical: false },
+  { slug: 'titanium', name: 'Titanium', symbol: 'Ti', category: 'Strategic', critical: true },
+  { slug: 'magnesium', name: 'Magnesium', symbol: 'Mg', category: 'Light', critical: true },
+  { slug: 'uranium', name: 'Uranium', symbol: 'U', category: 'Energy', critical: true },
+];
+
+const metalsGridHTML = `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:var(--space-3)">
+${metalsForGrid.map(m => {
+  const criticalDot = m.critical ? '<span style="color:var(--color-gold)" title="US Critical Mineral 2025">★</span> ' : '';
+  return `  <a href="metals/${m.slug}.html" style="display:flex;flex-direction:column;gap:var(--space-1);padding:var(--space-4);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;color:var(--color-text);transition:all var(--transition-interactive)" onmouseover="this.style.borderColor='var(--color-primary)'" onmouseout="this.style.borderColor='var(--color-border)'">
+    <span style="font-family:var(--font-display);font-weight:700;font-size:var(--text-sm)">${criticalDot}${m.name}</span>
+    <span style="font-size:var(--text-xs);color:var(--color-text-faint)">${m.symbol} · ${m.category}</span>
+  </a>`;
+}).join('\n')}
+</div>`;
+
+html = html.replace('{{METALS_GRID_HTML}}', metalsGridHTML);
+
 // ─── Write Output ───
 
 const distDir = path.join(__dirname, '..', 'dist');
@@ -949,8 +991,25 @@ if (!fs.existsSync(distDir)) {
 const outPath = path.join(distDir, 'index.html');
 fs.writeFileSync(outPath, html);
 
-// Generate sitemap.xml
+// Generate metal pages
+try {
+  require('./generate-metal-pages.js');
+  console.log('Metal pages generated successfully');
+} catch (e) {
+  console.error('WARNING: Metal pages generation failed:', e.message);
+}
+
+// Generate sitemap.xml with metal pages
 const today = new Date().toISOString().split('T')[0];
+const metalSlugs = ['copper','aluminium','nickel','zinc','lead','tin','gold','silver','pgm',
+  'lithium','cobalt','rare-earths','tungsten','vanadium','manganese','molybdenum',
+  'chromium','antimony','gallium','germanium','graphite','iron-ore','titanium','magnesium','uranium'];
+const metalUrls = metalSlugs.map(s => `  <url>
+    <loc>https://hub.truesourcemetals.com/metals/${s}.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>`).join('\n');
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -959,6 +1018,7 @@ const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+${metalUrls}
 </urlset>`;
 fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml);
 console.log('Sitemap generated: dist/sitemap.xml');
