@@ -544,6 +544,550 @@
           }
         }
       }
+    },
+    {
+      "timestamp": "2026-04-15T19:56:06.932Z",
+      "sources": {
+        "metals_dev": {
+          "timestamp": "2026-04-15T19:55:07.587Z",
+          "currency_timestamp": "2026-04-15T19:54:18.009Z",
+          "fetched_at": "2026-04-15T19:55:49.130Z",
+          "precious": {
+            "gold": {
+              "price": 4799.8,
+              "unit": "USD/oz",
+              "source": "Spot"
+            },
+            "silver": {
+              "price": 79.5025,
+              "unit": "USD/oz",
+              "source": "Spot"
+            },
+            "platinum": {
+              "price": 2130.486,
+              "unit": "USD/oz",
+              "source": "Spot"
+            },
+            "palladium": {
+              "price": 1577.725,
+              "unit": "USD/oz",
+              "source": "Spot"
+            },
+            "lbma_gold_am": {
+              "price": 4798.15,
+              "unit": "USD/oz",
+              "source": "LBMA AM Fix"
+            },
+            "lbma_gold_pm": {
+              "price": 4823.25,
+              "unit": "USD/oz",
+              "source": "LBMA PM Fix"
+            },
+            "lbma_silver": {
+              "price": 78.575,
+              "unit": "USD/oz",
+              "source": "LBMA Fix"
+            },
+            "lbma_platinum_am": {
+              "price": 2121,
+              "unit": "USD/oz",
+              "source": "LBMA AM Fix"
+            },
+            "lbma_platinum_pm": {
+              "price": 2109,
+              "unit": "USD/oz",
+              "source": "LBMA PM Fix"
+            },
+            "lbma_palladium_am": {
+              "price": 1592,
+              "unit": "USD/oz",
+              "source": "LBMA AM Fix"
+            },
+            "lbma_palladium_pm": {
+              "price": 1580,
+              "unit": "USD/oz",
+              "source": "LBMA PM Fix"
+            }
+          },
+          "lme": {
+            "copper": {
+              "price": 13141,
+              "unit": "USD/t",
+              "source": "LME"
+            },
+            "aluminum": {
+              "price": 3566,
+              "unit": "USD/t",
+              "source": "LME"
+            },
+            "nickel": {
+              "price": 17950,
+              "unit": "USD/t",
+              "source": "LME"
+            },
+            "zinc": {
+              "price": 3324,
+              "unit": "USD/t",
+              "source": "LME"
+            },
+            "lead": {
+              "price": 1929,
+              "unit": "USD/t",
+              "source": "LME"
+            }
+          },
+          "industrial_spot": {
+            "copper": {
+              "price": 13534,
+              "unit": "USD/t",
+              "source": "Spot"
+            },
+            "aluminum": {
+              "price": 3610,
+              "unit": "USD/t",
+              "source": "Spot"
+            },
+            "nickel": {
+              "price": 18168,
+              "unit": "USD/t",
+              "source": "Spot"
+            },
+            "zinc": {
+              "price": 3372,
+              "unit": "USD/t",
+              "source": "Spot"
+            },
+            "lead": {
+              "price": 1956,
+              "unit": "USD/t",
+              "source": "Spot"
+            }
+          }
+        },
+        "metals_api_com": {
+          "timestamp": "2026-04-15T19:55:50.366Z",
+          "date": "2026-04-15",
+          "source": "Metals-API.com",
+          "source_url": "https://metals-api.com",
+          "note": "Exchange-traded metals converted to standard industry units. OTC/rare earth/minor metal prices shown as provided by API — industry benchmark pricing (Fastmarkets, Asian Metal, SMM) may use different units.",
+          "metals": {
+            "cobalt": {
+              "name": "Cobalt",
+              "price": 45387,
+              "unit": "USD/t",
+              "group": "lme_cash",
+              "exchange": "LME",
+              "raw_usd": 1.4117,
+              "raw_unit": "troy oz",
+              "note": "LME cash-settled cobalt"
+            },
+            "lithium": {
+              "name": "Lithium",
+              "price": 27604,
+              "unit": "USD/t",
+              "group": "lme_cash",
+              "exchange": "LME",
+              "raw_usd": 0.7825,
+              "raw_unit": "oz",
+              "note": "LME cash-settled lithium hydroxide"
+            },
+            "molybdenum": {
+              "name": "Molybdenum",
+              "price": 36.26,
+              "unit": "USD/lb",
+              "group": "lme_cash",
+              "exchange": "LME",
+              "raw_usd": 2.4861,
+              "raw_unit": "troy oz",
+              "note": "LME cash-settled molybdenum (Platts)"
+            },
+            "aluminium_alloy": {
+              "name": "Aluminium Alloy",
+              "price": 3100,
+              "unit": "USD/t",
+              "group": "lme_cash",
+              "exchange": "LME",
+              "raw_usd": 3100,
+              "raw_unit": "tonne",
+              "note": "LME NASAAC"
+            },
+            "rhodium": {
+              "name": "Rhodium",
+              "price": 9950,
+              "unit": "USD/oz",
+              "group": "pgm",
+              "exchange": "LPPM/JM",
+              "raw_usd": 9950,
+              "raw_unit": "oz",
+              "note": "Johnson Matthey base price"
+            },
+            "iridium": {
+              "name": "Iridium",
+              "price": 7885.98,
+              "unit": "USD/oz",
+              "group": "pgm",
+              "exchange": "LPPM/JM",
+              "raw_usd": 7885.9783,
+              "raw_unit": "oz",
+              "note": "Johnson Matthey base price"
+            },
+            "ruthenium": {
+              "name": "Ruthenium",
+              "price": 1748,
+              "unit": "USD/oz",
+              "group": "pgm",
+              "exchange": "LPPM/JM",
+              "raw_usd": 1748,
+              "raw_unit": "oz",
+              "note": "Johnson Matthey base price"
+            },
+            "osmium": {
+              "name": "Osmium",
+              "price": 80347.24,
+              "unit": "USD/troy oz",
+              "group": "pgm",
+              "exchange": "OTC",
+              "raw_usd": 80347.2397,
+              "raw_unit": "troy oz",
+              "note": "Dealer price"
+            },
+            "uranium": {
+              "name": "Uranium (U₃O₈)",
+              "price": 85.45,
+              "unit": "USD/lb",
+              "group": "strategic",
+              "exchange": "UxC/TradeTech",
+              "raw_usd": 85.45,
+              "raw_unit": "lb",
+              "note": "Spot U₃O₈"
+            },
+            "vanadium": {
+              "name": "Vanadium Pentoxide",
+              "price": 4.6,
+              "unit": "USD/lb",
+              "group": "strategic",
+              "exchange": "OTC",
+              "raw_usd": 0.3154,
+              "raw_unit": "troy oz",
+              "note": "V₂O₅ (Fastmarkets)"
+            },
+            "ferrochrome": {
+              "name": "Ferro Chrome",
+              "price": 1.87,
+              "unit": "USD/lb",
+              "group": "strategic",
+              "exchange": "OTC",
+              "raw_usd": 0.128,
+              "raw_unit": "troy oz",
+              "note": "High-carbon FeCr (Cr basis)"
+            },
+            "ferrosilicon": {
+              "name": "Ferro Silicon",
+              "price": 0.03,
+              "unit": "USD/troy oz",
+              "group": "strategic",
+              "exchange": "OTC",
+              "raw_usd": 0.0257,
+              "raw_unit": "troy oz",
+              "note": "FeSi benchmark"
+            },
+            "neodymium": {
+              "name": "Neodymium",
+              "price": 29.66,
+              "unit": "USD/oz",
+              "group": "rare_earths",
+              "exchange": "OTC",
+              "raw_usd": 29.66,
+              "raw_unit": "oz",
+              "note": "Nd metal (Metals-API). Benchmark: Fastmarkets, Asian Metal, SMM in USD/kg oxide"
+            },
+            "praseodymium": {
+              "name": "Praseodymium",
+              "price": 6.03,
+              "unit": "USD/oz",
+              "group": "rare_earths",
+              "exchange": "OTC",
+              "raw_usd": 6.0271,
+              "raw_unit": "oz",
+              "note": "Pr metal (Metals-API). Benchmark: Fastmarkets, Asian Metal, SMM in USD/kg oxide"
+            },
+            "dysprosium": {
+              "name": "Dysprosium",
+              "price": 26.36,
+              "unit": "USD/oz",
+              "group": "rare_earths",
+              "exchange": "OTC",
+              "raw_usd": 26.36,
+              "raw_unit": "oz",
+              "note": "Dy metal (Metals-API). Benchmark: Fastmarkets, Asian Metal, SMM in USD/kg oxide"
+            },
+            "lanthanum": {
+              "name": "Lanthanum",
+              "price": 0.02,
+              "unit": "USD/oz",
+              "group": "rare_earths",
+              "exchange": "OTC",
+              "raw_usd": 0.0198,
+              "raw_unit": "oz",
+              "note": "La metal (Metals-API)"
+            },
+            "terbium": {
+              "name": "Terbium",
+              "price": 114,
+              "unit": "USD/oz",
+              "group": "rare_earths",
+              "exchange": "OTC",
+              "raw_usd": 114,
+              "raw_unit": "oz",
+              "note": "Tb metal (Metals-API)"
+            },
+            "tungsten": {
+              "name": "Tungsten APT",
+              "price": 10.9,
+              "unit": "USD/troy oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 10.9037,
+              "raw_unit": "troy oz",
+              "note": "APT (Metals-API). Benchmark: USD/mtu (Fastmarkets)"
+            },
+            "manganese": {
+              "name": "Manganese",
+              "price": 0,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 0.0001,
+              "raw_unit": "oz",
+              "note": "Mn (Metals-API). Benchmark: Mn ore USD/dmtu, EMM USD/t"
+            },
+            "titanium": {
+              "name": "Titanium Sponge",
+              "price": 48,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 48,
+              "raw_unit": "oz",
+              "note": "Ti sponge (Metals-API). Benchmark: USD/kg"
+            },
+            "antimony": {
+              "name": "Antimony",
+              "price": 0.69,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 0.6879,
+              "raw_unit": "oz",
+              "note": "Sb ingot (Metals-API)"
+            },
+            "gallium": {
+              "name": "Gallium",
+              "price": 8.84,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 8.8353,
+              "raw_unit": "oz",
+              "note": "Ga 99.99% (Metals-API)"
+            },
+            "germanium": {
+              "name": "Germanium",
+              "price": 243.73,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 243.7348,
+              "raw_unit": "oz",
+              "note": "Ge 99.999% (Metals-API)"
+            },
+            "hafnium": {
+              "name": "Hafnium",
+              "price": 354.6,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 354.6011,
+              "raw_unit": "oz",
+              "note": "Hf crystal bar (Metals-API)"
+            },
+            "indium": {
+              "name": "Indium",
+              "price": 17.67,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 17.6706,
+              "raw_unit": "oz",
+              "note": "In 99.99% (Metals-API)"
+            },
+            "magnesium": {
+              "name": "Magnesium",
+              "price": 0.09,
+              "unit": "USD/troy oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 0.0898,
+              "raw_unit": "troy oz",
+              "note": "Mg 99.9% (Metals-API)"
+            },
+            "rhenium": {
+              "name": "Rhenium",
+              "price": 198.73,
+              "unit": "USD/troy oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 198.7297,
+              "raw_unit": "troy oz",
+              "note": "Re pellets (Metals-API)"
+            },
+            "tellurium": {
+              "name": "Tellurium",
+              "price": 3.24,
+              "unit": "USD/oz",
+              "group": "minor",
+              "exchange": "OTC",
+              "raw_usd": 3.2431,
+              "raw_unit": "oz",
+              "note": "Te 99.99% (Metals-API)"
+            },
+            "cobalt_sulphate": {
+              "name": "Cobalt Sulphate",
+              "price": 13992,
+              "unit": "USD/t",
+              "group": "battery",
+              "exchange": "OTC",
+              "raw_usd": 13991.5454,
+              "raw_unit": "metric ton",
+              "note": "CoSO₄ (Fastmarkets/Asian Metal)"
+            },
+            "lithium_hydroxide": {
+              "name": "Lithium Hydroxide",
+              "price": 22293,
+              "unit": "USD/t",
+              "group": "battery",
+              "exchange": "OTC",
+              "raw_usd": 22292.6091,
+              "raw_unit": "metric ton",
+              "note": "LiOH·H₂O battery grade (Fastmarkets)"
+            },
+            "lithium_carbonate": {
+              "name": "Lithium Carbonate",
+              "price": 0.76,
+              "unit": "USD/troy oz",
+              "group": "battery",
+              "exchange": "OTC",
+              "raw_usd": 0.7572,
+              "raw_unit": "troy oz",
+              "note": "Li₂CO₃ battery grade (Metals-API)"
+            },
+            "spodumene": {
+              "name": "Spodumene Concentrate",
+              "price": 345,
+              "unit": "USD/t",
+              "group": "battery",
+              "exchange": "OTC",
+              "raw_usd": 344.6555,
+              "raw_unit": "metric ton",
+              "note": "SC6 spodumene CIF China (Fastmarkets)"
+            },
+            "manganese_sulphate": {
+              "name": "Manganese Sulphate",
+              "price": 1125,
+              "unit": "USD/t",
+              "group": "battery",
+              "exchange": "OTC",
+              "raw_usd": 1124.8968,
+              "raw_unit": "metric ton",
+              "note": "MnSO₄ battery grade"
+            },
+            "nickel_pig_iron": {
+              "name": "Nickel Pig Iron",
+              "price": 297,
+              "unit": "USD/t",
+              "group": "battery",
+              "exchange": "OTC",
+              "raw_usd": 297.137,
+              "raw_unit": "metric ton",
+              "note": "NPI (Indonesia/China)"
+            },
+            "iron_ore_62": {
+              "name": "Iron Ore 62% Fe",
+              "price": 106.75,
+              "unit": "USD/dmt",
+              "group": "iron_ore",
+              "exchange": "SGX/Platts",
+              "raw_usd": 106.75,
+              "raw_unit": "dmt",
+              "note": "CFR China (Platts IODEX)"
+            },
+            "iron_ore_58": {
+              "name": "Iron Ore 58% Fe",
+              "price": 2026,
+              "unit": "USD/dmt",
+              "group": "iron_ore",
+              "exchange": "OTC",
+              "raw_usd": 2026,
+              "raw_unit": "dmt",
+              "note": "CFR China"
+            },
+            "iron_ore_65": {
+              "name": "Iron Ore 65% Fe",
+              "price": 124.84,
+              "unit": "USD/dmt",
+              "group": "iron_ore",
+              "exchange": "OTC",
+              "raw_usd": 124.84,
+              "raw_unit": "dmt",
+              "note": "CFR China (65% Fe premium)"
+            }
+          }
+        },
+        "validation": {
+          "timestamp": "2026-04-15T19:55:55.947Z",
+          "primary_source": "Metals.dev",
+          "primary_timestamp": "2026-04-15T19:55:07.587Z",
+          "secondary_source": "Metals-API.com",
+          "secondary_timestamp": 1776282900,
+          "warn_threshold_pct": 1,
+          "error_threshold_pct": 5,
+          "results": [
+            {
+              "metal": "Gold",
+              "primary": 4799.8,
+              "secondary": 4803.8,
+              "diff_pct": 0.08,
+              "status": "✅ OK"
+            },
+            {
+              "metal": "Silver",
+              "primary": 79.5025,
+              "secondary": 79.49,
+              "diff_pct": 0.02,
+              "status": "✅ OK"
+            },
+            {
+              "metal": "Platinum",
+              "primary": 2130.486,
+              "secondary": 2123,
+              "diff_pct": 0.35,
+              "status": "✅ OK"
+            },
+            {
+              "metal": "Palladium",
+              "primary": 1577.725,
+              "secondary": 1555,
+              "diff_pct": 1.44,
+              "status": "⚠ WARN"
+            }
+          ],
+          "summary": {
+            "passed": 3,
+            "warnings": 1,
+            "errors": 0
+          }
+        }
+      }
     }
   ]
 }
