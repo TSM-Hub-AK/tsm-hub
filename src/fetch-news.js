@@ -17,14 +17,37 @@ const path = require('path');
 // ─── Configuration ───
 
 const NEWS_QUERIES = [
-  // ── Metals ──
+  // ── LME Base Metals ──
   { query: 'nickel market price Indonesia SHFE LME', category: 'nickel' },
   { query: 'copper market price LME supply demand', category: 'copper' },
   { query: 'aluminum aluminium market price smelter', category: 'aluminum' },
   { query: 'zinc lead market price LME', category: 'zinc' },
+  { query: 'tin market price LME supply', category: 'tin' },
+  // ── Precious Metals ──
   { query: 'gold price LBMA market central bank', category: 'gold' },
-  { query: 'silver platinum palladium precious metals', category: 'precious' },
+  { query: 'silver price market LBMA investment', category: 'silver' },
+  { query: 'platinum palladium PGM market price', category: 'pgm' },
+  { query: 'rhodium iridium ruthenium PGM market', category: 'pgm' },
+  // ── Battery & EV Materials ──
+  { query: 'cobalt market price battery supply DRC', category: 'cobalt' },
+  { query: 'lithium market price battery EV spodumene', category: 'lithium' },
+  { query: 'battery materials cathode anode EV supply chain', category: 'battery' },
+  { query: 'nickel sulphate cobalt sulphate lithium hydroxide battery', category: 'battery' },
+  // ── Rare Earths ──
+  { query: 'rare earth neodymium praseodymium dysprosium market', category: 'rare-earths' },
+  { query: 'rare earth magnets EV wind turbine supply chain', category: 'rare-earths' },
+  // ── Minor & Specialty Metals ──
+  { query: 'antimony gallium germanium critical minerals market', category: 'specialty' },
+  { query: 'tungsten vanadium titanium manganese market price', category: 'specialty' },
+  { query: 'indium tellurium rhenium hafnium specialty metals', category: 'specialty' },
+  // ── Energy & Strategic ──
+  { query: 'uranium nuclear energy market price supply', category: 'uranium' },
+  { query: 'ferrochrome ferrosilicon vanadium steel alloys market', category: 'ferro-alloys' },
+  // ── Iron Ore & Steel ──
+  { query: 'iron ore price market supply steel demand', category: 'iron-ore' },
+  // ── General Metals ──
   { query: 'metals commodities trade tariffs supply chain', category: 'general' },
+  { query: 'mining sector production metals global', category: 'general' },
   // ── RWA & Tokenization ──
   { query: 'RWA tokenization real world assets securities blockchain', category: 'rwa' },
   { query: 'tokenized bonds commodities assets regulation', category: 'rwa' },
@@ -43,7 +66,7 @@ const NEWS_QUERIES = [
   { query: 'OECD due diligence minerals WTO trade dispute metals', category: 'global-policy' },
 ];
 
-const MAX_TOTAL_ARTICLES = 50;  // More articles to support per-metal + topic filtering
+const MAX_TOTAL_ARTICLES = 80;  // More articles to support expanded metal + topic filtering
 const MAX_AGE_DAYS = 7;         // Max article age (7 days)
 
 // Trusted sources for metals/commodities (bonus in scoring)
@@ -57,6 +80,11 @@ const TIER2_SOURCES = [
   'investingnews.com', 'recyclingtoday.com', 'agmetalminer.com',
   'argusmedia.com', 'fortune.com', 'livemint.com', 'economictimes.com',
   'aljazeera.com', 'steelnews.biz',
+  // Battery, EV, rare earths sources
+  'benchmarkminerals.com', 'asianmetal.com', 'metalary.com',
+  'batterynews.com', 'miningweekly.com', 'mining-technology.com',
+  'world-nuclear-news.org', 'numerco.com', 'metal.com',
+  'rareearth.com', 'smm.cn', 'metalbulletin.com',
   // RWA & HK Regulatory sources
   'coindesk.com', 'theblock.co', 'ledgerinsights.com', 'rwa.io',
   'hkma.gov.hk', 'sfc.hk', 'gov.hk', 'info.gov.hk',
@@ -71,15 +99,32 @@ const TIER2_SOURCES = [
 
 // Keywords that boost relevance
 const STRONG_KEYWORDS = [
+  // LME base metals
   'copper', 'aluminum', 'aluminium', 'nickel', 'zinc', 'lead', 'tin',
-  'gold', 'silver', 'platinum', 'palladium',
-  'lme', 'lbma', 'shfe', 'comex',
+  // Precious
+  'gold', 'silver', 'platinum', 'palladium', 'rhodium', 'iridium', 'ruthenium',
+  // Battery & EV
+  'cobalt', 'lithium', 'spodumene', 'cathode', 'battery metal',
+  // Rare earths
+  'rare earth', 'neodymium', 'praseodymium', 'dysprosium', 'lanthanum', 'terbium',
+  // Minor & specialty
+  'antimony', 'gallium', 'germanium', 'tungsten', 'vanadium', 'titanium',
+  'manganese', 'indium', 'tellurium', 'rhenium', 'hafnium', 'magnesium',
+  // Energy & strategic
+  'uranium', 'ferrochrome', 'ferrosilicon', 'molybdenum',
+  // Iron ore
+  'iron ore',
+  // Exchanges
+  'lme', 'lbma', 'shfe', 'comex', 'fastmarkets',
 ];
 const WEAK_KEYWORDS = [
   'metal', 'metals', 'mining', 'smelter', 'refinery',
   'commodity', 'commodities', 'base metal', 'precious metal',
   'tariff', 'trade war', 'supply chain', 'shortage',
-  'iron ore', 'steel', 'stainless', 'ore',
+  'steel', 'stainless', 'ore', 'alloy',
+  'ev battery', 'electric vehicle', 'energy transition',
+  'critical mineral', 'strategic mineral', 'mineral security',
+  'pgm', 'ferro', 'concentrate', 'oxide', 'sulphate', 'hydroxide', 'carbonate',
 ];
 
 // Negative keywords — discard entirely
@@ -107,16 +152,44 @@ const TOPIC_TAGS = {
 
 // Metal tagging rules: map keywords in title to metal tags
 const METAL_TAGS = {
+  // LME base metals
   nickel: ['nickel', 'ni ', 'shfe ni', 'stainless steel', 'indonesia nickel', 'class 1 nickel', 'class 2 nickel', 'npi ', 'nickel pig iron', 'rkab'],
   copper: ['copper', 'cu ', 'red metal'],
   aluminum: ['aluminum', 'aluminium', 'alumina', 'bauxite'],
   zinc: ['zinc', 'zn ', 'galvaniz'],
   lead: ['lead', 'pb '],
   tin: ['tin ', 'tin,', 'solder'],
+  // Precious metals
   gold: ['gold', 'au ', 'bullion', 'lbma gold'],
   silver: ['silver', 'ag '],
-  platinum: ['platinum', 'pt ', 'pgm'],
+  platinum: ['platinum', 'pt '],
   palladium: ['palladium', 'pd '],
+  rhodium: ['rhodium'],
+  iridium: ['iridium'],
+  ruthenium: ['ruthenium'],
+  // Battery & EV
+  cobalt: ['cobalt', 'co ', 'drc cobalt', 'cobalt sulphate', 'cobalt sulfate'],
+  lithium: ['lithium', 'li ', 'spodumene', 'lithium hydroxide', 'lithium carbonate', 'brine'],
+  battery: ['battery', 'cathode', 'anode', 'ev battery', 'gigafactory', 'cell manufacturing'],
+  // Rare earths
+  'rare-earths': ['rare earth', 'neodymium', 'praseodymium', 'dysprosium', 'lanthanum', 'terbium', 'ndfeb', 'rare-earth', 'ree '],
+  // Minor & specialty metals
+  antimony: ['antimony'],
+  gallium: ['gallium'],
+  germanium: ['germanium'],
+  tungsten: ['tungsten', 'wolframite', 'scheelite'],
+  vanadium: ['vanadium', 'vrfb', 'vanadium redox'],
+  titanium: ['titanium', 'ilmenite', 'rutile', 'tio2'],
+  manganese: ['manganese', 'manganese ore'],
+  molybdenum: ['molybdenum', 'moly '],
+  indium: ['indium'],
+  tellurium: ['tellurium'],
+  magnesium: ['magnesium', 'mg '],
+  // Energy & strategic
+  uranium: ['uranium', 'u3o8', 'nuclear fuel', 'yellowcake'],
+  'ferro-alloys': ['ferrochrome', 'ferrosilicon', 'ferro-alloy', 'ferroalloy'],
+  // Iron ore
+  'iron-ore': ['iron ore', 'iron-ore', 'pellet', 'sinter', 'beneficiation'],
 };
 
 function tagMetals(title) {

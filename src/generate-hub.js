@@ -476,9 +476,26 @@ function generateNewsHTML(newsData) {
   newsData.articles.forEach(a => (a.topics || []).forEach(t => allTopicTags.add(t)));
 
   const metalNames = {
+    // LME base metals
     nickel: 'Nickel', copper: 'Copper', aluminum: 'Aluminium',
     zinc: 'Zinc', lead: 'Lead', tin: 'Tin',
+    // Precious
     gold: 'Gold', silver: 'Silver', platinum: 'Platinum', palladium: 'Palladium',
+    rhodium: 'Rhodium', iridium: 'Iridium', ruthenium: 'Ruthenium',
+    // Battery & EV
+    cobalt: 'Cobalt', lithium: 'Lithium', battery: 'Battery/EV',
+    // Rare earths
+    'rare-earths': 'Rare Earths',
+    // Minor & specialty
+    antimony: 'Antimony', gallium: 'Gallium', germanium: 'Germanium',
+    tungsten: 'Tungsten', vanadium: 'Vanadium', titanium: 'Titanium',
+    manganese: 'Manganese', molybdenum: 'Molybdenum',
+    indium: 'Indium', tellurium: 'Tellurium', magnesium: 'Magnesium',
+    // Energy & strategic
+    uranium: 'Uranium', 'ferro-alloys': 'Ferro-alloys',
+    // Iron ore
+    'iron-ore': 'Iron Ore',
+    // General
     general: 'General'
   };
   const topicNames = {
@@ -489,8 +506,18 @@ function generateNewsHTML(newsData) {
     'global-policy': 'Global Policy',
   };
 
-  // Order: base metals first, then precious, then general
-  const metalOrder = ['nickel','copper','aluminum','zinc','lead','tin','gold','silver','platinum','palladium','general'];
+  // Order: base metals, precious, battery/EV, rare earths, specialty, energy, iron ore, general
+  const metalOrder = [
+    'nickel','copper','aluminum','zinc','lead','tin',
+    'gold','silver','platinum','palladium','rhodium','iridium','ruthenium',
+    'cobalt','lithium','battery',
+    'rare-earths',
+    'antimony','gallium','germanium','tungsten','vanadium','titanium',
+    'manganese','molybdenum','indium','tellurium','magnesium',
+    'uranium','ferro-alloys',
+    'iron-ore',
+    'general'
+  ];
   const availableMetals = metalOrder.filter(m => allMetalTags.has(m));
   // Topic order
   const topicOrder = ['rwa', 'hk-regulatory', 'esg', 'china-policy', 'global-policy'];
