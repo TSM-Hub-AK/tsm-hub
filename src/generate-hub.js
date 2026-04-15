@@ -479,6 +479,15 @@ const robotsTxt = `User-agent: *\nAllow: /\nSitemap: https://hub.truesourcemetal
 fs.writeFileSync(path.join(distDir, 'robots.txt'), robotsTxt);
 console.log('Robots.txt generated: dist/robots.txt');
 
+// Copy static assets (favicons)
+const staticDir = path.join(__dirname, 'static');
+if (fs.existsSync(staticDir)) {
+  fs.readdirSync(staticDir).forEach(file => {
+    fs.copyFileSync(path.join(staticDir, file), path.join(distDir, file));
+  });
+  console.log('Static assets copied to dist/');
+}
+
 console.log(`Hub page generated: ${outPath}`);
 console.log(`Data date: ${dataDate}`);
 console.log(`Data timestamp: ${dataTime}`);
