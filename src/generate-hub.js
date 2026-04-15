@@ -480,7 +480,7 @@ function generateReservesHTML(data) {
       <div class="reserves-panels">
         ${panelsHtml}
       </div>
-      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); font-style: italic;">Data: U.S. Geological Survey, 2025, Mineral commodity summaries 2025 (ver. 1.2, March 2025). <a href="https://doi.org/10.3133/mcs2025" target="_blank" rel="noopener" style="color: var(--color-primary);">https://doi.org/10.3133/mcs2025</a>. Uranium data from World Nuclear Association. Production years 2023 (actual/estimated) and 2024e (estimated). Reserves as of publication date.</p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); font-style: italic;">Data: U.S. Geological Survey, 2026, Mineral commodity summaries 2026. <a href="https://doi.org/10.5066/P1WKQ63T" target="_blank" rel="noopener" style="color: var(--color-primary);">https://doi.org/10.5066/P1WKQ63T</a>. Uranium data from World Nuclear Association. Production years 2024 (actual/estimated) and 2025e (estimated). Reserves as of publication date.</p>
     </div>`;
 }
 
