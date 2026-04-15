@@ -303,6 +303,182 @@ if (shfe && shfe.metals && shfe.metals.ni) {
   html = html.replace('{{SHFE_TABLE_ROWS}}', '<tr><td colspan="2">Data not available</td></tr>');
 }
 
+// ─── Reserves & Production by Country Section ───
+
+const countryDataPath = path.join(__dirname, '..', 'data', 'country-data.json');
+let countryData = null;
+if (fs.existsSync(countryDataPath)) {
+  countryData = JSON.parse(fs.readFileSync(countryDataPath, 'utf8'));
+  const metals = Object.keys(countryData).filter(k => !k.startsWith('_'));
+  console.log(`Country data loaded: ${metals.length} metals`);
+} else {
+  console.log('WARNING: data/country-data.json not found — reserves section will be empty');
+}
+
+function generateReservesHTML(data) {
+  if (!data) return '';
+
+  const metalOrder = [
+    // Base metals
+    { key: 'copper', label: 'Copper' },
+    { key: 'aluminium', label: 'Aluminium' },
+    { key: 'nickel', label: 'Nickel' },
+    { key: 'zinc', label: 'Zinc' },
+    { key: 'lead', label: 'Lead' },
+    { key: 'tin', label: 'Tin' },
+    // Precious
+    { key: 'gold', label: 'Gold' },
+    { key: 'silver', label: 'Silver' },
+    { key: 'pgm', label: 'PGM' },
+    // Battery & EV
+    { key: 'lithium', label: 'Lithium' },
+    { key: 'cobalt', label: 'Cobalt' },
+    // Strategic
+    { key: 'rare_earths', label: 'Rare Earths' },
+    { key: 'tungsten', label: 'Tungsten' },
+    { key: 'vanadium', label: 'Vanadium' },
+    { key: 'manganese', label: 'Manganese' },
+    { key: 'chromium', label: 'Chromium' },
+    { key: 'molybdenum', label: 'Molybdenum' },
+    { key: 'antimony', label: 'Antimony' },
+    // Minor / Specialty
+    { key: 'gallium', label: 'Gallium' },
+    { key: 'germanium', label: 'Germanium' },
+    { key: 'graphite', label: 'Graphite' },
+    // Bulk / Industrial
+    { key: 'iron_ore', label: 'Iron Ore' },
+    { key: 'titanium', label: 'Titanium' },
+    { key: 'magnesium', label: 'Magnesium' },
+    { key: 'uranium', label: 'Uranium' },
+  ];
+
+  const available = metalOrder.filter(m => data[m.key]);
+
+  // Build tabs
+  const tabsHtml = available.map(m => {
+    const active = m.key === 'copper' ? ' reserves-tab--active' : '';
+    return `<button class="reserves-tab${active}" data-reserves-metal="${m.key}">${escapeHtml(m.label)}</button>`;
+  }).join('\n        ');
+
+  // Build table for a single data set (countries array)
+  function buildTable(tableData) {
+    const hasRes = tableData.has_reserves;
+    const resOnly = tableData.reserves_only;
+    const twoYears = tableData.has_two_years !== false && tableData.year2;
+    let thead = '';
+    if (resOnly) {
+      thead = `<tr><th>Country</th><th>Reserves</th></tr>`;
+    } else if (twoYears && hasRes) {
+      thead = `<tr><th>Country</th><th>${tableData.year1 || 'Production'}</th><th>${tableData.year2}</th><th>Reserves</th></tr>`;
+    } else if (twoYears) {
+      thead = `<tr><th>Country</th><th>${tableData.year1 || 'Production'}</th><th>${tableData.year2}</th></tr>`;
+    } else if (hasRes) {
+      thead = `<tr><th>Country</th><th>${tableData.year1 || 'Production'}</th><th>Reserves</th></tr>`;
+    } else {
+      thead = `<tr><th>Country</th><th>${tableData.year1 || 'Production'}</th></tr>`;
+    }
+
+    const rows = tableData.countries.map(c => {
+      const safe = (v) => escapeHtml(String(v || '—'));
+      if (resOnly) {
+        return `<tr><td>${safe(c.country)}</td><td>${safe(c.reserves)}</td></tr>`;
+      } else if (twoYears && hasRes) {
+        return `<tr><td>${safe(c.country)}</td><td>${safe(c.production_y1)}</td><td>${safe(c.production_y2)}</td><td>${safe(c.reserves)}</td></tr>`;
+      } else if (twoYears) {
+        return `<tr><td>${safe(c.country)}</td><td>${safe(c.production_y1)}</td><td>${safe(c.production_y2)}</td></tr>`;
+      } else if (hasRes) {
+        return `<tr><td>${safe(c.country)}</td><td>${safe(c.production_y1)}</td><td>${safe(c.reserves)}</td></tr>`;
+      } else {
+        return `<tr><td>${safe(c.country)}</td><td>${safe(c.production_y1)}</td></tr>`;
+      }
+    }).join('\n              ');
+
+    const pu = tableData.production_unit || '';
+    const ru = tableData.reserves_unit || '';
+    const unitLine = (pu ? `Production: ${escapeHtml(pu)}` : '') +
+      (ru ? (pu ? ' · ' : '') + `Reserves: ${escapeHtml(ru)}` : '');
+
+    return `${unitLine ? `<div class="reserves-meta">${unitLine}</div>` : ''}
+            <table class="reserves-table">
+              <thead>${thead}</thead>
+              <tbody>
+              ${rows}
+              </tbody>
+            </table>`;
+  }
+
+  // Build panels for each metal
+  const panelsHtml = available.map(m => {
+    const md = data[m.key];
+    const active = m.key === 'copper' ? ' reserves-metal-panel--active' : '';
+    let content = '';
+
+    if (md.type === 'multi_table') {
+      // Sub-tables with sub-tabs
+      const subKeys = Object.keys(md.sub_tables);
+      const subTabsHtml = subKeys.map((sk, i) => {
+        const st = md.sub_tables[sk];
+        const act = i === 0 ? ' reserves-tab--active' : '';
+        return `<button class="reserves-tab reserves-tab--sub${act}" data-reserves-sub="${m.key}-${sk}">${escapeHtml(st.label)}</button>`;
+      }).join('\n            ');
+
+      const subPanelsHtml = subKeys.map((sk, i) => {
+        const st = md.sub_tables[sk];
+        const act = i === 0 ? ' reserves-metal-panel--active' : '';
+        return `<div class="reserves-metal-panel reserves-sub-panel${act}" data-reserves-subpanel="${m.key}-${sk}">
+            ${buildTable(st)}
+          </div>`;
+      }).join('\n          ');
+
+      content = `<div class="reserves-sub-tabs">
+            ${subTabsHtml}
+          </div>
+          ${subPanelsHtml}`;
+    } else {
+      // Simple table
+      content = buildTable(md);
+    }
+
+    const sourceUrl = md.source_url || '';
+    const sourceText = md.source || (md.sub_tables && Object.values(md.sub_tables)[0].source) || 'USGS Mineral Commodity Summaries 2025';
+    const sourceHtml = sourceUrl
+      ? `<div class="reserves-meta" style="margin-top: var(--space-3);">Source: <a href="${sourceUrl}" target="_blank" rel="noopener" style="color: var(--color-primary);">${escapeHtml(sourceText)}</a></div>`
+      : `<div class="reserves-meta" style="margin-top: var(--space-3);">Source: ${escapeHtml(sourceText)}</div>`;
+
+    return `<div class="reserves-metal-panel${active}" data-reserves-panel="${m.key}">
+          ${content}
+          ${sourceHtml}
+        </div>`;
+  }).join('\n        ');
+
+  const totalCountries = Object.keys(data).filter(k => !k.startsWith('_')).reduce((sum, k) => {
+    const m = data[k];
+    if (m.type === 'multi_table') {
+      return sum + Object.values(m.sub_tables).reduce((s, st) => s + st.countries.length, 0);
+    }
+    return sum + m.countries.length;
+  }, 0);
+
+  return `<div class="digest-section reserves-section" id="reserves-section">
+      <h2 class="digest-section__title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        Reserves &amp; Production by Country
+      </h2>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">Global reserves and mine production by country — primary data from USGS Mineral Commodity Summaries 2025. ${available.length} metals, ${totalCountries} country entries. All figures reported as published by original source — TrueSource does not modify, estimate, or interpret primary data. e = Estimated. W = Withheld. NA = Not available. \u2014 = Zero.</p>
+      <div class="reserves-tabs">
+        ${tabsHtml}
+      </div>
+      <div class="reserves-panels">
+        ${panelsHtml}
+      </div>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); font-style: italic;">Data: U.S. Geological Survey, 2025, Mineral commodity summaries 2025 (ver. 1.2, March 2025). <a href="https://doi.org/10.3133/mcs2025" target="_blank" rel="noopener" style="color: var(--color-primary);">https://doi.org/10.3133/mcs2025</a>. Uranium data from World Nuclear Association. Production years 2023 (actual/estimated) and 2024e (estimated). Reserves as of publication date.</p>
+    </div>`;
+}
+
+const reservesSectionHTML = generateReservesHTML(countryData);
+html = html.replace('{{RESERVES_SECTION_HTML}}', reservesSectionHTML);
+console.log(`Reserves section: ${countryData ? Object.keys(countryData).filter(k => !k.startsWith('_')).length + ' metals' : 'empty'}`);
+
 // ─── Producers Section ───
 
 const producersPath = path.join(__dirname, '..', 'data', 'producers.json');
@@ -663,7 +839,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "TSM Hub — Metals Market Data",
-  "description": `${totalPrices} official prices across ${totalMetalsP} metals, ${totalProducers} global producers directory, ${totalTerms} glossary terms. Covers LME, LBMA, SHFE, rare earths, battery metals, PGMs, specialty metals. Updated twice daily.`,
+  "description": `${totalPrices} official prices across ${totalMetalsP} metals, ${totalProducers} global producers directory, reserves & production data for 25 metals by country, ${totalTerms} glossary terms. Covers LME, LBMA, SHFE, rare earths, battery metals, PGMs, specialty metals. Updated twice daily.`,
   "url": "https://hub.truesourcemetals.com",
   "license": "https://creativecommons.org/licenses/by-nc/4.0/",
   "creator": {
@@ -675,6 +851,7 @@ const jsonLd = {
   "spatialCoverage": "Global",
   "variableMeasured": [
     "Metal commodity prices (USD/t, USD/oz, RMB/t, USD/kg, USD/lb)",
+    "Global reserves and mine production by country (USGS MCS 2025)",
     "Global metals producers and production data",
     "Industry glossary and terminology"
   ],
@@ -686,7 +863,8 @@ const jsonLd = {
   "keywords": [
     "metals prices", "LME", "LBMA", "SHFE", "commodity data",
     "rare earth prices", "battery metals", "PGM prices",
-    "metals producers", "critical minerals", "mining data"
+    "metals producers", "critical minerals", "mining data",
+    "metal reserves by country", "mine production", "USGS mineral commodity summaries"
   ]
 };
 

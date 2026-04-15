@@ -1114,6 +1114,7 @@
     .hub-search-result__badge--news { color: var(--color-primary); border-color: rgba(45,157,165,0.3); }
     .hub-search-result__badge--glossary { color: var(--color-gold); border-color: rgba(201,168,76,0.3); }
     .hub-search-result__badge--producer { color: #a78bfa; border-color: rgba(167,139,250,0.3); }
+    .hub-search-result__badge--reserves { color: #34d399; border-color: rgba(52,211,153,0.3); }
 
     .hub-search-empty {
       padding: var(--space-6) var(--space-4);
@@ -1123,6 +1124,111 @@
     }
 
     /* === PRODUCERS DIRECTORY === */
+    /* === RESERVES & PRODUCTION BY COUNTRY === */
+    .reserves-section {
+      margin-bottom: var(--space-10);
+    }
+    .reserves-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-6);
+    }
+    .reserves-tab {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-full, 999px);
+      padding: var(--space-1) var(--space-4);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      color: var(--color-text-muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+    }
+    .reserves-tab:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+    }
+    .reserves-tab--active {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      color: var(--color-bg);
+    }
+    .reserves-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: var(--text-sm);
+      margin-bottom: var(--space-4);
+    }
+    .reserves-table th {
+      text-align: left;
+      padding: var(--space-2) var(--space-3);
+      font-weight: 600;
+      font-size: var(--text-xs);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-text-muted);
+      border-bottom: 2px solid var(--color-border);
+    }
+    .reserves-table th:not(:first-child) {
+      text-align: right;
+    }
+    .reserves-table td {
+      padding: var(--space-2) var(--space-3);
+      border-bottom: 1px solid var(--color-border-subtle);
+      color: var(--color-text);
+    }
+    .reserves-table td:not(:first-child) {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    .reserves-table tr:last-child td {
+      font-weight: 600;
+      border-top: 2px solid var(--color-border);
+      border-bottom: none;
+    }
+    .reserves-table tr:hover td {
+      background: var(--color-surface);
+    }
+    .reserves-metal-panel {
+      display: none;
+    }
+    .reserves-metal-panel--active {
+      display: block;
+    }
+    .reserves-meta {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-bottom: var(--space-4);
+    }
+    .reserves-sub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+    .reserves-tab--sub {
+      font-size: calc(var(--text-xs) - 0.05rem);
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-sm);
+    }
+    .reserves-sub-panel {
+      display: none;
+    }
+    .reserves-sub-panel.reserves-metal-panel--active {
+      display: block;
+    }
+    .reserves-bar {
+      display: inline-block;
+      height: 6px;
+      background: var(--color-primary);
+      border-radius: 3px;
+      margin-right: var(--space-2);
+      vertical-align: middle;
+      min-width: 2px;
+    }
+
     .producers-section {
       margin-bottom: var(--space-10);
     }
@@ -1285,6 +1391,7 @@
       <nav class="header__nav" aria-label="Hub sections">
         <a href="#prices-section" class="header__nav-link">Prices</a>
         <a href="#news-section" class="header__nav-link">News</a>
+        <a href="#reserves-section" class="header__nav-link">Reserves</a>
         <a href="#glossary-section" class="header__nav-link">Glossary</a>
         <a href="#producers-section" class="header__nav-link">Producers</a>
       </nav>
@@ -1835,6 +1942,9 @@
       </div>
     </div>
 
+    <!-- RESERVES & PRODUCTION BY COUNTRY -->
+    {{RESERVES_SECTION_HTML}}
+
     <!-- GLOSSARY -->
     {{GLOSSARY_SECTION_HTML}}
 
@@ -2086,14 +2196,45 @@
         });
       }
 
+      // ── Build reserves/country index from DOM ──
+      function buildReservesIndex() {
+        var items = [];
+        document.querySelectorAll('#reserves-section .reserves-metal-panel[data-reserves-panel]').forEach(function(panel) {
+          var metalKey = panel.getAttribute('data-reserves-panel');
+          panel.querySelectorAll('.reserves-table tbody tr').forEach(function(row) {
+            var cells = row.querySelectorAll('td');
+            if (cells.length < 2) return;
+            var country = cells[0].textContent.trim();
+            if (country.toLowerCase().indexOf('world total') !== -1 || country.toLowerCase().indexOf('other countries') !== -1) return;
+            var values = [];
+            for (var i = 1; i < cells.length; i++) values.push(cells[i].textContent.trim());
+            items.push({
+              title: country + ' — ' + metalKey.replace(/_/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); }),
+              sub: values.join(' | '),
+              metal: metalKey
+            });
+          });
+        });
+        // Deduplicate
+        var seen = {};
+        return items.filter(function(p) {
+          var k = p.title;
+          if (seen[k]) return false;
+          seen[k] = true;
+          return true;
+        });
+      }
+
       var newsIndex = null;
       var glossaryIndex = null;
       var producersIndex = null;
+      var reservesIndex = null;
 
       function getIndexes() {
         if (!newsIndex) newsIndex = buildNewsIndex();
         if (!glossaryIndex) glossaryIndex = buildGlossaryIndex();
         if (!producersIndex) producersIndex = buildProducersIndex();
+        if (!reservesIndex) reservesIndex = buildReservesIndex();
       }
 
       function matchItems(items, q) {
@@ -2129,6 +2270,10 @@
             // Scroll to producers section
             var prodEl = document.getElementById('producers-section');
             if (prodEl) { prodEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+          } else if (badgeClass === 'hub-search-result__badge--reserves') {
+            // Scroll to reserves section
+            var resEl = document.getElementById('reserves-section');
+            if (resEl) { resEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
           }
           closeResults();
         });
@@ -2154,7 +2299,8 @@
         var newsMatches = matchItems(newsIndex, q);
         var glossaryMatches = matchItems(glossaryIndex, q);
         var producerMatches = matchItems(producersIndex, q);
-        var total = newsMatches.length + glossaryMatches.length + producerMatches.length;
+        var reservesMatches = matchItems(reservesIndex, q);
+        var total = newsMatches.length + glossaryMatches.length + producerMatches.length + reservesMatches.length;
 
         results.innerHTML = '';
         if (total === 0) {
@@ -2166,7 +2312,9 @@
           var newsGroup = renderGroup('Prices & News', newsMatches, 'hub-search-result__badge--news', 'News');
           var glossGroup = renderGroup('Glossary', glossaryMatches, 'hub-search-result__badge--glossary', 'Glossary');
           var prodGroup = renderGroup('Producers', producerMatches, 'hub-search-result__badge--producer', 'Producer');
+          var resGroup = renderGroup('Reserves & Production', reservesMatches, 'hub-search-result__badge--reserves', 'Reserves');
           if (newsGroup) results.appendChild(newsGroup);
+          if (resGroup) results.appendChild(resGroup);
           if (glossGroup) results.appendChild(glossGroup);
           if (prodGroup) results.appendChild(prodGroup);
         }
@@ -2219,6 +2367,46 @@
           var focused = results.querySelector('.hub-search-result.is-focused');
           if (focused) focused.click();
         }
+      });
+    })();
+
+    // ─── Reserves & Production by Country ───
+    (function() {
+      var section = document.getElementById('reserves-section');
+      if (!section) return;
+
+      // Main metal tabs
+      var mainTabs = section.querySelectorAll('.reserves-tabs > .reserves-tab');
+      var mainPanels = section.querySelectorAll('.reserves-panels > .reserves-metal-panel');
+
+      mainTabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+          var metal = tab.getAttribute('data-reserves-metal');
+          mainTabs.forEach(function(t) { t.classList.remove('reserves-tab--active'); });
+          tab.classList.add('reserves-tab--active');
+          mainPanels.forEach(function(p) {
+            p.classList.toggle('reserves-metal-panel--active', p.getAttribute('data-reserves-panel') === metal);
+          });
+        });
+      });
+
+      // Sub-tabs (within multi-table metals like Aluminium, PGM, Titanium, etc.)
+      var subTabs = section.querySelectorAll('.reserves-tab--sub');
+      subTabs.forEach(function(tab) {
+        tab.addEventListener('click', function(e) {
+          e.stopPropagation();
+          var subKey = tab.getAttribute('data-reserves-sub');
+          var parentPanel = tab.closest('.reserves-metal-panel[data-reserves-panel]');
+          if (!parentPanel) return;
+          // Toggle sub-tabs within this parent
+          parentPanel.querySelectorAll('.reserves-tab--sub').forEach(function(t) {
+            t.classList.remove('reserves-tab--active');
+          });
+          tab.classList.add('reserves-tab--active');
+          parentPanel.querySelectorAll('.reserves-sub-panel').forEach(function(p) {
+            p.classList.toggle('reserves-metal-panel--active', p.getAttribute('data-reserves-subpanel') === subKey);
+          });
+        });
       });
     })();
 
