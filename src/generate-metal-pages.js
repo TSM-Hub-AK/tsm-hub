@@ -444,6 +444,75 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
   html = html.replace('{{DATA_SOURCES_HTML}}', generateDataSources(config));
   html = html.replace('{{ALL_METALS_NAV}}', generateAllMetalsNav(metalKey));
 
+  // ─── JSON-LD Structured Data for Metal Page ───
+  const metalJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": `${config.name} — Official Prices, Production & Reserves`,
+    "description": `${config.name} (${config.symbol}): official exchange prices${priceSources}, mine production data for ${productionCountries} countries, reserves by country, ${producerCount} major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.`,
+    "url": `https://hub.truesourcemetals.com/metals/${slug}.html`,
+    "keywords": [
+      `${config.name.toLowerCase()} price`, `${config.name.toLowerCase()} price today`,
+      `${config.symbol} price`, `${config.name.toLowerCase()} LME`,
+      `${config.name.toLowerCase()} producers`, `${config.name.toLowerCase()} production by country`,
+      `${config.name.toLowerCase()} reserves`, `${config.name.toLowerCase()} market data`,
+      `${config.category.toLowerCase()}`, "metals prices", "commodity data"
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "TrueSource Metals",
+      "url": "https://truesourcemetals.com"
+    },
+    "temporalCoverage": new Date().toISOString().split('T')[0] + "/..",
+    "spatialCoverage": "Global",
+    "isPartOf": {
+      "@type": "DataCatalog",
+      "name": "TSM Hub",
+      "url": "https://hub.truesourcemetals.com"
+    },
+    "variableMeasured": [
+      `${config.name} official settlement/fix prices`,
+      `${config.name} mine production by country (USGS MCS 2026)`,
+      `${config.name} reserves by country (USGS MCS 2026)`
+    ]
+  };
+
+  // Add price observations if available
+  if (metalPrices.length > 0) {
+    metalJsonLd.distribution = metalPrices.map(p => ({
+      "@type": "DataDownload",
+      "name": `${config.name} ${p.exchange} Price`,
+      "description": `${p.price} ${p.unit} (${p.date})`,
+      "encodingFormat": "text/html",
+      "contentUrl": `https://hub.truesourcemetals.com/metals/${slug}.html`
+    }));
+  }
+
+  const metalJsonLdScript = `<script type="application/ld+json">${JSON.stringify(metalJsonLd)}</script>`;
+  html = html.replace('</head>', metalJsonLdScript + '\n</head>');
+
+  // Add BreadcrumbList for navigation
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "TSM Hub",
+        "item": "https://hub.truesourcemetals.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": config.name,
+        "item": `https://hub.truesourcemetals.com/metals/${slug}.html`
+      }
+    ]
+  };
+  const breadcrumbScript = `<script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>`;
+  html = html.replace('</head>', breadcrumbScript + '\n</head>');
+
   const outPath = path.join(distDir, `${slug}.html`);
   fs.writeFileSync(outPath, html, 'utf8');
   generated++;
