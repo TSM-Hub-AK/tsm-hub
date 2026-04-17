@@ -1099,6 +1099,14 @@ indexNowReq.on('error', (e) => {
 indexNowReq.write(indexNowPayload);
 indexNowReq.end();
 
+// Ping Google about updated sitemap
+const googlePingUrl = 'https://www.google.com/ping?sitemap=https%3A%2F%2Fhub.truesourcemetals.com%2Fsitemap.xml';
+https.get(googlePingUrl, (res) => {
+  console.log(`Google Sitemap Ping: ${res.statusCode}`);
+}).on('error', (e) => {
+  console.log(`Google Sitemap Ping failed (non-blocking): ${e.message}`);
+});
+
 console.log(`Hub page generated: ${outPath}`);
 console.log(`Data date: ${dataDate}`);
 console.log(`Data timestamp: ${dataTime}`);
