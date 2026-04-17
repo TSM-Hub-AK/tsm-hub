@@ -901,7 +901,7 @@ const jsonLd = {
   "creator": {
     "@type": "Organization",
     "name": "TrueSource Metals",
-    "url": "https://truesourcemetals.com"
+    "url": "https://www.truesourcemetals.com"
   },
   "temporalCoverage": new Date().toISOString().split('T')[0] + "/..",
   "spatialCoverage": "Global",
@@ -945,8 +945,8 @@ const orgSchema = {
   "@type": "Organization",
   "name": "TrueSource Metals",
   "alternateName": "TSM",
-  "url": "https://truesourcemetals.com",
-  "logo": "https://truesourcemetals.com/tsm-logo.png",
+  "url": "https://www.truesourcemetals.com",
+  "logo": "https://www.truesourcemetals.com/tsm_logo.jpg",
   "description": "Metals market data platform providing official exchange prices, producer directories, reserves and production data. Your one True Source of metals market information.",
   "sameAs": [],
   "contactPoint": {
