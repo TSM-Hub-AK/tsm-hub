@@ -939,6 +939,33 @@ const webSiteSchema = {
 const webSiteScript = `<script type="application/ld+json">${JSON.stringify(webSiteSchema)}<\/script>`;
 html = html.replace('</head>', webSiteScript + '\n</head>');
 
+// Add Organization schema (standalone)
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TrueSource Metals",
+  "alternateName": "TSM",
+  "url": "https://truesourcemetals.com",
+  "logo": "https://truesourcemetals.com/tsm-logo.png",
+  "description": "Metals market data platform providing official exchange prices, producer directories, reserves and production data. Your one True Source of metals market information.",
+  "sameAs": [],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "info@truesourcemetals.com",
+    "contactType": "customer service"
+  },
+  "foundingDate": "2026-04-16",
+  "areaServed": "Global",
+  "knowsAbout": [
+    "LME metal prices", "LBMA gold and silver prices", "SHFE futures",
+    "base metals", "precious metals", "rare earth elements",
+    "battery metals", "critical minerals", "metals market news",
+    "mining producers", "mineral reserves", "mine production data"
+  ]
+};
+const orgScript = `<script type="application/ld+json">${JSON.stringify(orgSchema)}<\/script>`;
+html = html.replace('</head>', orgScript + '\n</head>');
+
 // ─── Metals Grid for Hub ───
 
 const metalsForGrid = [
