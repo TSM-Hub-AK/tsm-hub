@@ -954,7 +954,6 @@ const orgSchema = {
     "email": "info@truesourcemetals.com",
     "contactType": "customer service"
   },
-  "foundingDate": "2026-04-16",
   "areaServed": "Global",
   "knowsAbout": [
     "LME metal prices", "LBMA gold and silver prices", "SHFE futures",
