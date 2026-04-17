@@ -965,6 +965,36 @@ const orgSchema = {
 const orgScript = `<script type="application/ld+json">${JSON.stringify(orgSchema)}<\/script>`;
 html = html.replace('</head>', orgScript + '\n</head>');
 
+// Add FAQPage schema from glossary terms
+const glossaryPathFAQ = path.join(__dirname, '..', 'data', 'glossary.json');
+if (fs.existsSync(glossaryPathFAQ)) {
+  const glossaryFAQ = JSON.parse(fs.readFileSync(glossaryPathFAQ, 'utf8'));
+  const faqEntries = [];
+  for (const cat of glossaryFAQ.categories) {
+    for (const t of cat.terms) {
+      const question = t.full_name && t.full_name !== t.term
+        ? `What is ${t.full_name} (${t.term})?`
+        : `What is ${t.term}?`;
+      faqEntries.push({
+        "@type": "Question",
+        "name": question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": t.definition
+        }
+      });
+    }
+  }
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqEntries
+  };
+  const faqScript = `<script type="application/ld+json">${JSON.stringify(faqSchema)}<\/script>`;
+  html = html.replace('</head>', faqScript + '\n</head>');
+  console.log(`FAQPage JSON-LD: ${faqEntries.length} questions from glossary`);
+}
+
 // ─── Metals Grid for Hub ───
 
 const metalsForGrid = [
