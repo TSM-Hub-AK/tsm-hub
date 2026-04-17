@@ -1063,6 +1063,42 @@ if (fs.existsSync(staticDir)) {
   console.log('Static assets copied to dist/');
 }
 
+// ─── IndexNow: notify Bing/Yandex of updated pages ───
+const INDEXNOW_KEY = '915ac4d907504f8fb6fc514299dd9bb5';
+
+// Write key verification file
+fs.writeFileSync(path.join(distDir, `${INDEXNOW_KEY}.txt`), INDEXNOW_KEY);
+console.log('IndexNow key file written to dist/');
+
+// Ping IndexNow API with all updated URLs
+const indexNowUrls = [
+  'https://hub.truesourcemetals.com/',
+  ...metalSlugs.map(s => `https://hub.truesourcemetals.com/metals/${s}.html`)
+];
+
+const indexNowPayload = JSON.stringify({
+  host: 'hub.truesourcemetals.com',
+  key: INDEXNOW_KEY,
+  keyLocation: `https://hub.truesourcemetals.com/${INDEXNOW_KEY}.txt`,
+  urlList: indexNowUrls
+});
+
+// Fire and forget — don't block build if IndexNow is down
+const https = require('https');
+const indexNowReq = https.request({
+  hostname: 'api.indexnow.org',
+  path: '/indexnow',
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(indexNowPayload) }
+}, (res) => {
+  console.log(`IndexNow API response: ${res.statusCode} (${indexNowUrls.length} URLs submitted to Bing/Yandex)`);
+});
+indexNowReq.on('error', (e) => {
+  console.log(`IndexNow ping failed (non-blocking): ${e.message}`);
+});
+indexNowReq.write(indexNowPayload);
+indexNowReq.end();
+
 console.log(`Hub page generated: ${outPath}`);
 console.log(`Data date: ${dataDate}`);
 console.log(`Data timestamp: ${dataTime}`);
