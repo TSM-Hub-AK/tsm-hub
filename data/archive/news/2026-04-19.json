@@ -2115,6 +2115,18 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2026-04-19T09:12:35.528Z",
+      "article_count": 0,
+      "articles": {
+        "fetched_at": "2026-04-19T09:08:35.482Z",
+        "source": "Google News RSS",
+        "query_count": 37,
+        "total_scored": 0,
+        "article_count": 0,
+        "articles": []
+      }
     }
   ],
   "unique_articles_total": 85
