@@ -237,10 +237,41 @@
 
     .header__main-link {
       font-size: var(--text-sm);
-      color: var(--color-text-muted);
+      font-weight: 600;
+      color: var(--color-gold);
+      background: rgba(201, 168, 76, 0.12);
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-sm);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
     }
 
-    .header__main-link:hover { color: var(--color-primary); text-decoration: none; }
+    .header__main-link:hover {
+      background: var(--color-gold);
+      color: var(--color-bg);
+      text-decoration: none;
+    }
+
+    .header__cube-icon {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      margin-right: 4px;
+    }
+
+    .header__cube-icon span {
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+      background: var(--color-primary);
+    }
+
+    .header__cube-icon span:nth-child(2) { opacity: 0.7; }
+    .header__cube-icon span:nth-child(3) { opacity: 0.7; }
+    .header__cube-icon span:nth-child(4) { opacity: 0.5; }
 
     .data-policy-badge {
       background: var(--color-surface-2);
@@ -1484,8 +1515,8 @@
   <!-- HEADER -->
   <header class="header">
     <div class="header__inner">
-      <a href="https://truesourcemetals.com" class="header__brand">
-        <img src="https://truesourcemetals.com/tsm_logo.jpg" alt="TSM" class="header__logo" width="44" height="44">
+      <a href="/" class="header__brand">
+        <span class="header__cube-icon"><span></span><span></span><span></span><span></span></span>
         <span class="header__name">TSM<span class="header__hub">Hub</span></span>
       </a>
       <nav class="header__nav" aria-label="Hub sections">
@@ -1496,6 +1527,7 @@
         <a href="#producers-section" class="header__nav-link">Producers <span class="nav-badge">{{NAV_COUNT_PRODUCERS}}</span></a>
         <a href="#sources-section" class="header__nav-link">Sources <span class="nav-badge">{{NAV_COUNT_SOURCES}}</span></a>
         <a href="#metals-section" class="header__nav-link">Metals <span class="nav-badge">25</span></a>
+        <a href="https://www.truesourcemetals.com" class="header__main-link" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 12h18M12 3l9 9-9 9"/></svg>TrueSource Metals</a>
       </nav>
       <div class="header__right">
         <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
