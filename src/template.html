@@ -236,17 +236,19 @@
     }
 
     .header__main-link {
-      font-size: var(--text-sm);
+      font-size: var(--text-lg);
       font-weight: 600;
       color: var(--color-gold);
-      background: rgba(201, 168, 76, 0.12);
-      padding: var(--space-1) var(--space-3);
-      border-radius: var(--radius-sm);
+      background: var(--color-gold-muted);
+      padding: var(--space-2) var(--space-4);
+      border-radius: var(--radius-md);
       display: inline-flex;
       align-items: center;
-      gap: 5px;
-      transition: background 0.2s, color 0.2s;
+      gap: 6px;
+      transition: background var(--transition-interactive), color var(--transition-interactive);
       white-space: nowrap;
+      text-decoration: none;
+      letter-spacing: 0.02em;
     }
 
     .header__main-link:hover {
@@ -1554,7 +1556,7 @@
         <a href="#producers-section" class="header__nav-link">Producers <span class="nav-badge">{{NAV_COUNT_PRODUCERS}}</span></a>
         <a href="#sources-section" class="header__nav-link">Sources <span class="nav-badge">{{NAV_COUNT_SOURCES}}</span></a>
         <a href="#metals-section" class="header__nav-link">Metals <span class="nav-badge">25</span></a>
-        <a href="https://www.truesourcemetals.com" class="header__main-link" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 12h18M12 3l9 9-9 9"/></svg>TrueSource Metals</a>
+        <a href="https://www.truesourcemetals.com" class="header__main-link" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 20 20" fill="none"><rect x="1" y="1" width="7.5" height="7.5" rx="1.5" fill="#14B8A6"/><rect x="11.5" y="1" width="7.5" height="7.5" rx="1.5" fill="#D4A843"/><rect x="1" y="11.5" width="7.5" height="7.5" rx="1.5" fill="#D4A843"/><rect x="11.5" y="11.5" width="7.5" height="7.5" rx="1.5" fill="#14B8A6"/></svg>TrueSource Metals</a>
       </nav>
       <div class="header__right">
         <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
