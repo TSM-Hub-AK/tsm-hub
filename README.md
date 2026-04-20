@@ -27,7 +27,7 @@ Free, open metals data platform by [TrueSource Metals](https://truesourcemetals.
 
 ## Data Sources
 
-All data sourced from primary, official sources — no estimates, no editorial bias.
+All data sourced directly from official exchanges and institutions — no estimates, no editorial bias.
 
 - **LME** — London Metal Exchange official settlement prices
 - **LBMA** — London Bullion Market Association gold and silver prices
