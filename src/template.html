@@ -391,17 +391,19 @@
     }
 
     .digest-hero__title {
-      font-size: var(--text-2xl);
+      font-size: clamp(2.5rem, 1.5rem + 3vw, 4.6rem);
+      line-height: 1.1;
       font-weight: 800;
       margin-bottom: var(--space-4);
     }
 
     .digest-hero__tagline {
-      font-size: var(--text-base);
+      font-size: var(--text-lg);
       color: var(--color-text-muted);
       font-weight: 500;
       letter-spacing: 0.01em;
       margin-bottom: var(--space-4);
+      line-height: 1.65;
     }
 
     .digest-hero__tagline a {
