@@ -854,12 +854,12 @@ console.log(`Stats: ${totalPrices} prices, ${totalProducers} producers across ${
 // Nav badge counts
 const reservesMetalCount = countryData ? Object.keys(countryData).filter(k => k !== '_metadata').length : 0;
 const newsCount = news ? news.article_count : 0;
-html = html.replace('{{NAV_COUNT_PRICES}}', totalPrices);
-html = html.replace('{{NAV_COUNT_NEWS}}', newsCount);
-html = html.replace('{{NAV_COUNT_RESERVES}}', reservesMetalCount);
-html = html.replace('{{NAV_COUNT_GLOSSARY}}', totalTerms);
-html = html.replace('{{NAV_COUNT_PRODUCERS}}', totalProducers);
-html = html.replace('{{NAV_COUNT_SOURCES}}', '7');
+html = html.replaceAll('{{NAV_COUNT_PRICES}}', totalPrices);
+html = html.replaceAll('{{NAV_COUNT_NEWS}}', newsCount);
+html = html.replaceAll('{{NAV_COUNT_RESERVES}}', reservesMetalCount);
+html = html.replaceAll('{{NAV_COUNT_GLOSSARY}}', totalTerms);
+html = html.replaceAll('{{NAV_COUNT_PRODUCERS}}', totalProducers);
+html = html.replaceAll('{{NAV_COUNT_SOURCES}}', '7');
 
 // Stats counter bar HTML
 const statsHTML = `<div class="hub-stats">
@@ -901,7 +901,7 @@ const jsonLd = {
   "creator": {
     "@type": "Organization",
     "name": "TrueSource Metals",
-    "url": "https://www.truesourcemetals.com"
+    "url": "https://truesourcemetals.com"
   },
   "temporalCoverage": new Date().toISOString().split('T')[0] + "/..",
   "spatialCoverage": "Global",
@@ -938,62 +938,6 @@ const webSiteSchema = {
 };
 const webSiteScript = `<script type="application/ld+json">${JSON.stringify(webSiteSchema)}<\/script>`;
 html = html.replace('</head>', webSiteScript + '\n</head>');
-
-// Add Organization schema (standalone)
-const orgSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "TrueSource Metals",
-  "alternateName": "TSM",
-  "url": "https://www.truesourcemetals.com",
-  "logo": "https://www.truesourcemetals.com/tsm_logo.jpg",
-  "description": "Metals market data platform providing official exchange prices, producer directories, reserves and production data. Your one True Source of metals market information.",
-  "sameAs": [],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "info@truesourcemetals.com",
-    "contactType": "customer service"
-  },
-  "areaServed": "Global",
-  "knowsAbout": [
-    "LME metal prices", "LBMA gold and silver prices", "SHFE futures",
-    "base metals", "precious metals", "rare earth elements",
-    "battery metals", "critical minerals", "metals market news",
-    "mining producers", "mineral reserves", "mine production data"
-  ]
-};
-const orgScript = `<script type="application/ld+json">${JSON.stringify(orgSchema)}<\/script>`;
-html = html.replace('</head>', orgScript + '\n</head>');
-
-// Add FAQPage schema from glossary terms
-const glossaryPathFAQ = path.join(__dirname, '..', 'data', 'glossary.json');
-if (fs.existsSync(glossaryPathFAQ)) {
-  const glossaryFAQ = JSON.parse(fs.readFileSync(glossaryPathFAQ, 'utf8'));
-  const faqEntries = [];
-  for (const cat of glossaryFAQ.categories) {
-    for (const t of cat.terms) {
-      const question = t.full_name && t.full_name !== t.term
-        ? `What is ${t.full_name} (${t.term})?`
-        : `What is ${t.term}?`;
-      faqEntries.push({
-        "@type": "Question",
-        "name": question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": t.definition
-        }
-      });
-    }
-  }
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqEntries
-  };
-  const faqScript = `<script type="application/ld+json">${JSON.stringify(faqSchema)}<\/script>`;
-  html = html.replace('</head>', faqScript + '\n</head>');
-  console.log(`FAQPage JSON-LD: ${faqEntries.length} questions from glossary`);
-}
 
 // ─── Metals Grid for Hub ───
 
@@ -1092,50 +1036,6 @@ if (fs.existsSync(staticDir)) {
   });
   console.log('Static assets copied to dist/');
 }
-
-// ─── IndexNow: notify Bing/Yandex of updated pages ───
-const INDEXNOW_KEY = '915ac4d907504f8fb6fc514299dd9bb5';
-
-// Write key verification file
-fs.writeFileSync(path.join(distDir, `${INDEXNOW_KEY}.txt`), INDEXNOW_KEY);
-console.log('IndexNow key file written to dist/');
-
-// Ping IndexNow API with all updated URLs
-const indexNowUrls = [
-  'https://hub.truesourcemetals.com/',
-  ...metalSlugs.map(s => `https://hub.truesourcemetals.com/metals/${s}.html`)
-];
-
-const indexNowPayload = JSON.stringify({
-  host: 'hub.truesourcemetals.com',
-  key: INDEXNOW_KEY,
-  keyLocation: `https://hub.truesourcemetals.com/${INDEXNOW_KEY}.txt`,
-  urlList: indexNowUrls
-});
-
-// Fire and forget — don't block build if IndexNow is down
-const https = require('https');
-const indexNowReq = https.request({
-  hostname: 'api.indexnow.org',
-  path: '/indexnow',
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(indexNowPayload) }
-}, (res) => {
-  console.log(`IndexNow API response: ${res.statusCode} (${indexNowUrls.length} URLs submitted to Bing/Yandex)`);
-});
-indexNowReq.on('error', (e) => {
-  console.log(`IndexNow ping failed (non-blocking): ${e.message}`);
-});
-indexNowReq.write(indexNowPayload);
-indexNowReq.end();
-
-// Ping Google about updated sitemap
-const googlePingUrl = 'https://www.google.com/ping?sitemap=https%3A%2F%2Fhub.truesourcemetals.com%2Fsitemap.xml';
-https.get(googlePingUrl, (res) => {
-  console.log(`Google Sitemap Ping: ${res.statusCode}`);
-}).on('error', (e) => {
-  console.log(`Google Sitemap Ping failed (non-blocking): ${e.message}`);
-});
 
 console.log(`Hub page generated: ${outPath}`);
 console.log(`Data date: ${dataDate}`);
