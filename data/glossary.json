@@ -68,6 +68,322 @@
       ]
     },
     {
+      "id": "mining-exploration",
+      "name": "Mining & Exploration",
+      "icon": "pickaxe",
+      "terms": [
+        {
+          "term": "Ore",
+          "full_name": "Ore",
+          "definition": "Rock or material that contains an economically valuable concentration of a target mineral or metal. Under the JORC Code 2012, the term 'ore' implies that technical feasibility and economic viability have been established; it must not be applied to Mineral Resource estimates where Modifying Factors have not yet been assessed. The LBMA Responsible Gold Guidance describes 'gold ore' as rock or gravel containing an economically recoverable concentration, which may be as low as 1 gram of gold per tonne.",
+          "attribution": "Based on: JORC Code 2012 (Clause 28; Appendix 1); LBMA Responsible Gold Guidance v9, Definitions"
+        },
+        {
+          "term": "Ore Body",
+          "full_name": "Ore Body (Deposit)",
+          "definition": "A continuous geological mass or concentration of mineralisation of sufficient size, grade, and continuity to warrant detailed evaluation. The JORC Code 2012 (Appendix 1) treats an 'orebody' as synonymous with a mineral deposit, referring to 'type of deposit, orebody, style of mineralisation.' Under CIM Definition Standards (2014), a Mineral Resource is defined as 'a concentration or occurrence of solid material of economic interest in or on the earth's crust in such form, grade or quality and quantity that there are reasonable prospects for eventual economic extraction.'",
+          "attribution": "Based on: JORC Code 2012 (Appendix 1, Generic Terms); CIM Definition Standards for Mineral Resources and Mineral Reserves, 2014 Edition"
+        },
+        {
+          "term": "Grade",
+          "full_name": "Grade",
+          "definition": "The concentration of a target metal or mineral within a sample or ore body, expressed as a percentage (e.g., % Cu), grams per tonne (g/t Au), or other appropriate units. The JORC Code 2012 (Appendix 1) defines grade as 'any physical or chemical measurement of the characteristics of the material of interest in samples or product,' noting that the units of measurement must be stated when figures are reported. The term is interchangeable with 'quality' in the context of non-metallic commodities.",
+          "attribution": "Based on: JORC Code 2012 (Appendix 1, Generic Terms and Equivalents)"
+        },
+        {
+          "term": "Cut-off Grade",
+          "full_name": "Cut-off Grade",
+          "definition": "The minimum grade at which mineralised material is classified as economically mineable under prevailing conditions. The JORC Code 2012 (Appendix 1) defines it as 'the lowest grade, or quality, of mineralised material that qualifies as economically mineable and available in a given deposit,' which may be set on the basis of economic evaluation or on physical/chemical attributes that define an acceptable product specification. SEC Regulation S-K Item 1300 requires qualified persons to take cut-off grade into account when estimating mineral resources.",
+          "attribution": "Based on: JORC Code 2012 (Appendix 1, Generic Terms and Equivalents); SEC Regulation S-K Item 1300 (17 CFR §229.1300), as reproduced by Mine Technical Services (Searston & Gosson, 2020)"
+        },
+        {
+          "term": "Reserves vs Resources",
+          "full_name": "Mineral Reserves vs Mineral Resources",
+          "definition": "A Mineral Resource (JORC 2012, Clause 20) is 'a concentration or occurrence of solid material of economic interest … for which there are reasonable prospects for eventual economic extraction,' sub-divided into Inferred, Indicated, and Measured categories in order of increasing geological confidence. A Mineral Reserve (JORC 2012, Clause 29) is 'the economically mineable part of a Measured and/or Indicated Mineral Resource' confirmed by pre-feasibility or feasibility studies applying Modifying Factors, sub-divided into Probable and Proved categories. Reserves are a subset of Resources; the key distinction is that Reserves have been demonstrated to be economically extractable.",
+          "attribution": "Based on: JORC Code 2012 (Clauses 20–31); CIM Definition Standards, 2014 Edition; SEC Regulation S-K Item 1300 (17 CFR §229.1300)"
+        },
+        {
+          "term": "JORC Code",
+          "full_name": "Australasian Code for Reporting of Exploration Results, Mineral Resources and Ore Reserves (JORC Code)",
+          "definition": "The JORC Code is the Australasian professional standard for public reporting of exploration results, Mineral Resources, and Ore Reserves. It requires that all public reports be based on work by a Competent Person and that Mineral Resource and Ore Reserve classifications follow defined confidence levels (Inferred, Indicated, Measured; Probable, Proved). The 2012 edition requires Table 1 disclosure of the criteria used in each report. It is mandatory for ASX- and NZX-listed companies and widely referenced in Asia-Pacific jurisdictions.",
+          "attribution": "Based on: JORC Code 2012 Edition (The Joint Ore Reserves Committee of the Australasian Institute of Mining and Metallurgy, Australian Institute of Geoscientists and Minerals Council of Australia)"
+        },
+        {
+          "term": "NI 43-101",
+          "full_name": "National Instrument 43-101 — Standards of Disclosure for Mineral Projects",
+          "definition": "NI 43-101 is the Canadian securities regulation governing public disclosure of scientific and technical information about mineral projects by companies listed on Canadian exchanges. It requires that all material technical information be based on work by or supervised by a Qualified Person, and mandates a Technical Report for material properties. Mineral Resource and Mineral Reserve classifications under NI 43-101 must follow the CIM Definition Standards (2014), which align with the JORC Code framework of Inferred, Indicated, Measured resources and Probable, Proven reserves.",
+          "attribution": "Based on: CIM Definition Standards for Mineral Resources and Mineral Reserves, 2014 Edition (adopted under NI 43-101); Ontario Securities Commission NI 43-101 instrument page"
+        },
+        {
+          "term": "SK-1300",
+          "full_name": "SEC Regulation S-K Subpart 1300 — Mining Disclosure",
+          "definition": "SEC Regulation S-K Subpart 1300 (Item 1300) is the US securities disclosure standard for mining registrants, effective February 2019, replacing the former Industry Guide 7. It defines 'mineral resource' as 'a concentration or occurrence of material of economic interest in or on the Earth's crust in such form, grade or quality, and quantity that there are reasonable prospects for economic extraction' (17 CFR §229.1300). Disclosures must be prepared or supervised by a Qualified Person and sub-divide resources into Inferred, Indicated, and Measured categories and reserves into Probable and Proven.",
+          "attribution": "Based on: 17 CFR §229.1300 (SEC Regulation S-K Item 1300 Definitions); SEC Small Entity Compliance Guide — Modernization of Property Disclosures for Mining Registrants (2018)"
+        },
+        {
+          "term": "Open-pit Mining",
+          "full_name": "Open-pit Mining",
+          "definition": "A surface mining method in which ore is extracted from an open excavation by progressively removing overlying waste rock (overburden). The JORC Code 2012 (Table 1, Section 4) references the 'pit configuration, in the case of an open pit' as a key parameter for Modifying Factors in resource-to-reserve conversion. Open-pit methods are typically applied where ore bodies are broad, shallow, and of relatively lower grade, allowing bulk mining and mechanised loading. The economics are governed principally by the stripping ratio of waste to ore.",
+          "attribution": "Based on: JORC Code 2012 (Table 1, Section 4 — Mining factors or assumptions); SEC Regulation S-K Item 1300 guidance on modifying factors"
+        },
+        {
+          "term": "Underground Mining",
+          "full_name": "Underground Mining",
+          "definition": "Mining methods in which ore is extracted via subsurface excavations including shafts, declines, tunnels, and stopes, without removing large quantities of surface overburden. The JORC Code 2012 (Appendix 1) defines 'mining' as 'all activities related to extraction of metals, minerals and gemstones from the earth whether surface or underground,' and specifically references stope sizes and underground development as relevant Modifying Factors. Underground methods are favoured for deep, high-grade ore bodies where open-pit stripping ratios become uneconomic.",
+          "attribution": "Based on: JORC Code 2012 (Appendix 1, Generic Terms; Clause 46; Table 1, Section 4)"
+        },
+        {
+          "term": "Stripping Ratio",
+          "full_name": "Stripping Ratio",
+          "definition": "The ratio of waste rock (overburden) removed to ore extracted in open-pit mining operations, typically expressed as tonnes of waste per tonne of ore (t:t). A higher stripping ratio indicates that more waste must be moved per unit of ore, increasing mining costs and potentially affecting the economic viability of the deposit. The JORC Code 2012 (Table 1, Section 4) and SEC Regulation S-K Item 1300 both include open-pit stripping ratio among the Modifying Factors that a qualified person must consider when converting Mineral Resources to Ore Reserves.",
+          "attribution": "Based on: JORC Code 2012 (Table 1, Section 4 — Mining factors or assumptions); SEC Regulation S-K Item 1300 (17 CFR §229.1300), modifying factors guidance"
+        },
+        {
+          "term": "Tailings",
+          "full_name": "Tailings",
+          "definition": "The finely ground waste material remaining after economically valuable minerals have been extracted from ore during beneficiation or processing. The JORC Code 2012 (Clause 20) explicitly includes 'dumps and tailings' within the scope of potential Mineral Resources, noting they may contain recoverable mineralisation. SEC Regulation S-K Item 1300 (17 CFR §229.1300) similarly includes 'dumps and tailings' within the definition of 'material of economic interest' for mineral resource determination purposes.",
+          "attribution": "Based on: JORC Code 2012 (Clause 20; Clause 41; Table 1, Section 5); SEC Regulation S-K Item 1300 (17 CFR §229.1300, definition of 'Material of economic interest')"
+        }
+      ]
+    },
+    {
+      "id": "processing-metallurgy",
+      "name": "Processing & Metallurgy",
+      "icon": "flame",
+      "terms": [
+        {
+          "term": "Beneficiation",
+          "full_name": "Beneficiation",
+          "definition": "The physical and/or chemical separation of economically valuable constituents from a larger mass of mined material, producing a higher-grade concentrate suitable for further processing. The JORC Code 2012 (Appendix 1) lists beneficiation as a synonym for processing, metallurgy, and concentration, describing it as 'methods employed to prepare a final marketable product from material as mined,' including screening, flotation, magnetic separation, leaching, and washing. The USGS Mineral Commodity Summaries references beneficiation as the stage preceding smelting and refining at primary processing facilities.",
+          "attribution": "Based on: JORC Code 2012 (Appendix 1, Generic Terms and Equivalents — 'metallurgy/beneficiation'); USGS Mineral Commodity Summaries 2024 (pubs.usgs.gov)"
+        },
+        {
+          "term": "Concentrate",
+          "full_name": "Concentrate",
+          "definition": "An intermediate product produced by beneficiation of ore in which the valuable mineral content has been substantially upgraded from run-of-mine grades. Copper concentrates typically contain 25–30% Cu, compared with ore grades of 0.5–2% Cu. The LBMA Responsible Gold Guidance (v9, Definitions) defines 'gold concentrate' as 'an intermediate material produced from the processing of gold ore to achieve a higher concentration, but that still requires further intermediate processing to produce doré.' Concentrates are sold to smelters who apply Treatment Charges (TC) and Refining Charges (RC).",
+          "attribution": "Based on: LBMA Responsible Gold Guidance v9, Definitions ('Gold concentrate'); JORC Code 2012 (Appendix 1, Generic Terms — 'metallurgy/beneficiation'); USGS Mineral Commodity Summaries 2024"
+        },
+        {
+          "term": "Flotation",
+          "full_name": "Froth Flotation",
+          "definition": "A physico-chemical beneficiation process in which finely ground ore is agitated in water with chemical reagents; air bubbles selectively attach to hydrophobic mineral particles and carry them to the surface froth, where they are skimmed off as concentrate. The JORC Code 2012 (Appendix 1) identifies flotation as one of the standard methods of beneficiation/metallurgy used to 'prepare a final marketable product from material as mined.' Froth flotation is the dominant method for producing copper, lead, zinc, nickel, and molybdenum concentrates at operating mines worldwide.",
+          "attribution": "Based on: JORC Code 2012 (Appendix 1, Generic Terms and Equivalents — 'metallurgy/beneficiation')"
+        },
+        {
+          "term": "Smelting",
+          "full_name": "Smelting",
+          "definition": "A high-temperature pyrometallurgical process in which concentrate or ore is melted with flux in a furnace to chemically reduce and separate the target metal from slag and other impurities, producing crude or blister metal. The USGS Mineral Commodity Summaries 2024 reports that US copper is processed at two primary smelters that receive concentrate feed and produce copper anodes. The resulting crude metal (e.g., blister copper at ~99% purity) requires subsequent electrolytic refining to achieve LME-deliverable Grade A cathode quality.",
+          "attribution": "Based on: USGS Mineral Commodity Summaries 2024 (pubs.usgs.gov, copper section); LBMA Responsible Gold Guidance v9 ('Gold doré' — smelting produces doré from concentrate)"
+        },
+        {
+          "term": "Refining",
+          "full_name": "Refining",
+          "definition": "The final stage of metal purification following smelting, producing market-grade metal meeting the quality specifications of exchanges and industrial buyers. For copper, electrolytic refining at primary refineries yields Grade A cathode (≥99.9935% Cu per LME Special Contract Rules / BS EN 1978:2022). The USGS Mineral Commodity Summaries 2024 records that the US operates two primary electrolytic refineries and 14 electrowinning refineries, with refinery output classified as primary (from ore/concentrate) or secondary (from scrap).",
+          "attribution": "Based on: USGS Mineral Commodity Summaries 2024 (pubs.usgs.gov, copper section); LME Special Contract Rules for Copper Grade A (lme.com, Chemical Composition document)"
+        },
+        {
+          "term": "TC/RC",
+          "full_name": "Treatment Charges and Refining Charges",
+          "definition": "TC/RC are the fees paid by mining companies to custom smelters and refiners for converting copper concentrate into refined cathode. Treatment Charges (TC) are expressed in US dollars per dry metric tonne of concentrate processed at the smelter; Refining Charges (RC) are expressed in US cents per pound of payable copper refined by electrolysis. Together they represent the smelter's gross margin on processing. TC/RC levels are negotiated annually between major miners and smelters, and serve as a key indicator of concentrate market tightness.",
+          "attribution": "Based on: LME Special Contract Rules for Copper Grade A (lme.com); LME Insight — How Are LME Reference Prices Used in Physical Metals Contracts; Fastmarkets copper TC/RC methodology notes (fastmarkets.com)"
+        },
+        {
+          "term": "Cathode / Anode",
+          "full_name": "Cathode / Anode (Electrolytic Copper)",
+          "definition": "In copper electrorefining, an anode is the impure cast copper plate (typically ~99% purity from a smelter) that dissolves anodically in an electrolytic cell; a cathode is the pure copper plate deposited at the negative electrode, reaching 99.9935% Cu minimum purity. The LME Special Contract Rules specify that deliverable copper must conform to BS EN 1978:2022 (Cu-CATH-1), GB/T 467-2010, or ASTM B115-10(2021) cathode Grade 1. EN 1978:2022 defines a cathode as a 'flat, unwrought product made by electrolytic deposition.'",
+          "attribution": "Based on: LME Special Contract Rules for Copper Grade A (LME Chemical Composition document, lme.com); EN 1978:2022 standard description (CEN); USGS Mineral Commodity Summaries 2024"
+        },
+        {
+          "term": "Electrolysis / Electrorefining",
+          "full_name": "Electrolysis / Electrorefining",
+          "definition": "An electrochemical process in which an electric current is passed through an electrolyte solution between an impure metal anode and a pure cathode, dissolving the anode and depositing high-purity metal onto the cathode. Applied to copper, electrorefining produces LME-deliverable Grade A cathodes (Cu-CATH-1) with impurities totalling no more than 0.0065% by the limits specified in BS EN 1978:2022. The USGS Mineral Commodity Summaries 2024 records the US operates two primary electrolytic refineries producing cathode from copper anodes.",
+          "attribution": "Based on: LME Special Contract Rules for Copper Grade A (lme.com, Chemical Composition document — BS EN 1978:2022); USGS Mineral Commodity Summaries 2024 (copper section)"
+        },
+        {
+          "term": "Pyrometallurgy vs Hydrometallurgy",
+          "full_name": "Pyrometallurgy vs Hydrometallurgy",
+          "definition": "Pyrometallurgy uses high-temperature processes (roasting, smelting, converting, refining) to extract metals; it is the dominant route for sulphide ores such as copper concentrate and gold doré. Hydrometallurgy uses aqueous chemical solutions (acids, alkalis, cyanide) to leach, extract, and recover metals; it is applied to oxide ores and low-grade materials. The JORC Code 2012 (Appendix 1) lists both routes under 'metallurgy/beneficiation,' noting they encompass methods for preparing marketable products. The hydrometallurgical SX-EW route now accounts for approximately 20% of world copper production.",
+          "attribution": "Based on: JORC Code 2012 (Appendix 1, Generic Terms and Equivalents — 'metallurgy'); USGS Mineral Commodity Summaries 2024 (copper — electrowon refineries)"
+        },
+        {
+          "term": "Leaching (Heap Leach / SX-EW)",
+          "full_name": "Heap Leaching and Solvent Extraction–Electrowinning (SX-EW)",
+          "definition": "Heap leaching is a hydrometallurgical process in which a weak acid solution is percolated through a heap of crushed ore on an impermeable pad, dissolving copper (or gold) into a pregnant leach solution (PLS). The PLS is then processed by solvent extraction (SX) to purify and concentrate the copper, followed by electrowinning (EW) to deposit cathode copper directly—bypassing smelting entirely. The USGS Mineral Commodity Summaries 2024 reports that 14 electrowinning (electrowon) refineries operate in the US, reflecting the significance of the SX-EW route for oxide ore deposits.",
+          "attribution": "Based on: USGS Mineral Commodity Summaries 2024 (copper section — '14 electrowon refineries'); JORC Code 2012 (Appendix 1 — leaching listed under metallurgy/beneficiation methods)"
+        },
+        {
+          "term": "Doré",
+          "full_name": "Doré Bar",
+          "definition": "A semi-refined gold-silver alloy bar produced at a mine or processing facility following smelting of concentrate or bullion, typically 85–90% precious metal purity. The LBMA Responsible Gold Guidance v9 defines gold doré as 'a bar of newly Mined Gold metal alloy, generally originating from extensive processing of ores and smelting at mines to a high concentration (normally of 85%–90% purity),' noting it 'is not commercial quality and must then be transported to a refinery to be directly refined, without further intermediate processing.' Doré is the primary feedstock for LBMA-accredited refineries producing Good Delivery bars.",
+          "attribution": "Based on: LBMA Responsible Gold Guidance v9, Definitions ('Gold doré')"
+        },
+        {
+          "term": "LME Grade A",
+          "full_name": "LME Copper Grade A",
+          "definition": "The quality specification for copper deliverable against LME contracts. Per the LME Special Contract Rules for Copper (Chemical Composition document, lme.com), deliverable copper must conform to one of three equivalent standards: BS EN 1978:2022 (Cu-CATH-1), GB/T 467-2010 (Cu-CATH-1), or ASTM B115-10(2021) (Cathode Grade 1). The specification requires cathode shape, and limits total impurity elements to 0.0065% maximum (including Ag ≤0.0025%, Pb ≤0.0005%, S ≤0.0015%). All copper must also be of an LME-approved brand and delivered in 25-tonne lots (±2%).",
+          "attribution": "Based on: LME Special Contract Rules for Copper Grade A (LME Chemical Composition document, lme.com); LME Copper Contract Specifications (lme.com/en/metals/non-ferrous/lme-copper/contract-specifications)"
+        }
+      ]
+    },
+    {
+      "id": "warehousing-logistics",
+      "name": "Warehousing & Logistics",
+      "icon": "warehouse",
+      "terms": [
+        {
+          "term": "LME Warehouse",
+          "full_name": "LME Approved Warehouse",
+          "definition": "A storage facility formally approved by the London Metal Exchange to accept, store, and deliver physical metal against LME contracts. LME warehouses must comply with the LME Policy on the Approval and Operation of Warehouses, which sets minimum daily load-out rates, load-in/load-out (LILO) ratio requirements, and rent cap rules. As of 2024 the LME network spans over 400 warehouses in 33 locations globally. Only metal stored in an LME-approved warehouse may be warranted and used for physical settlement of LME futures contracts.",
+          "attribution": "Based on: LME Policy on the Approval and Operation of Warehouses (lme.com); LME Copper Contract Specifications (lme.com — '400 warehouses in 33 global locations')"
+        },
+        {
+          "term": "Warrant",
+          "full_name": "LME Warrant",
+          "definition": "An LME warrant is a document of title representing an entitlement to a specific lot of LME-approved metal stored in an LME-approved warehouse. Per the LME website, 'LME warrants are documents that represent an entitlement to a specific lot of LME-approved metal' and 'can only be issued if the underlying metal conforms to the quality requirements specified by the LME.' Since March 2021, all LME warrants are dematerialised and held digitally in the LMEsword system. Each copper warrant represents 25 tonnes (±2%) of an approved brand, shape, and grade.",
+          "attribution": "Based on: LME Warrants page (lme.com/sustainability-and-physical-markets/warehousing/lme-warrants); LME Rulebook Part 6 — Special Contract Rules for Copper (lme.com, Appendix 10 redline)"
+        },
+        {
+          "term": "Bonded Warehouse",
+          "full_name": "Bonded (Customs) Warehouse",
+          "definition": "A customs-controlled storage facility where imported goods may be held without payment of import duties, taxes, or VAT until the goods are either released into free circulation, re-exported, or assigned another approved customs procedure. Duties are deferred, not forgiven, and become payable upon release. Bonded warehouses enable traders to hold inventory in-country while deferring duty obligations, providing cash-flow advantages for commodity traders. The ICC Incoterms 2020 framework recognises bonded storage as relevant to delivery terms involving duty-unpaid goods.",
+          "attribution": "Based on: ICC Incoterms 2020 official publication (iccwbo.org); US CBP Bonded Warehouse program; EU Customs Warehouse regime (Council Regulation (EU) No 952/2013, Union Customs Code)"
+        },
+        {
+          "term": "Incoterms 2020",
+          "full_name": "Incoterms® 2020 — ICC International Commercial Terms",
+          "definition": "Incoterms® 2020 is the eighth edition of the International Chamber of Commerce's internationally recognised set of 11 standard trade terms defining the responsibilities of sellers and buyers in international goods transactions. Published by the ICC (Publication No. 723E), the rules allocate costs, risks, and obligations — including export/import clearance, transport, and insurance — between seller and buyer at each stage of delivery. The 2020 edition introduced changes including revised FCA rules for on-board bills of lading, a new DPU term replacing DAT, and differentiated insurance levels for CIF (Institute Cargo Clauses C) versus CIP (Institute Cargo Clauses A).",
+          "attribution": "Based on: ICC Incoterms® 2020 official publication and explanatory notes (iccwbo.org); International Trade Administration, US Department of Commerce (trade.gov/know-your-incoterms)"
+        },
+        {
+          "term": "FOB",
+          "full_name": "FOB — Free On Board (named port of shipment)",
+          "definition": "Under Incoterms 2020 FOB, the seller delivers by placing the goods on board the vessel nominated by the buyer at the named port of shipment; risk of loss or damage transfers to the buyer at that point. The seller is responsible for export clearance and all costs to the point of loading; the buyer contracts and pays for ocean freight and all subsequent costs. Per the ICC Incoterms 2020 Explanatory Notes, FOB is 'to be used only for sea or inland waterway transport where the parties intend to deliver the goods by placing the goods on board a vessel,' and is not appropriate for containerised shipments where FCA is preferred.",
+          "attribution": "Based on: ICC Incoterms® 2020 official publication (iccwbo.org); ICC Academy Incoterms 2020 — FAS or FOB? (academy.iccwbo.org)"
+        },
+        {
+          "term": "CIF",
+          "full_name": "CIF — Cost, Insurance and Freight (named port of destination)",
+          "definition": "Under Incoterms 2020 CIF, the seller delivers the goods on board the vessel, contracts and pays for freight to the named destination port, and procures minimum cargo insurance. Risk transfers to the buyer when goods are placed on board the vessel at the port of shipment — not at destination. Per the ICC Incoterms 2020 official publication, the CIF rule 'is reserved for use in maritime trade and often used in commodity trading'; the default insurance level is Institute Cargo Clauses (C), with parties free to agree higher cover. CIF is the standard pricing basis for bulk commodity shipments, including copper cathodes to Asian buyers.",
+          "attribution": "Based on: ICC Incoterms® 2020 official publication and explanatory notes (iccwbo.org); Trade Risk Guaranty Incoterms Desk Reference (ICC official definition quoted)"
+        },
+        {
+          "term": "EXW",
+          "full_name": "EXW — Ex Works (named place of delivery)",
+          "definition": "Under Incoterms 2020 EXW, the seller fulfils its obligation by making the goods available at its own premises (factory, warehouse, or other named place) ready for collection by the buyer; the seller is not required to load the goods. Risk and all costs — including loading, export clearance, freight, and import duties — transfer to the buyer from the moment the goods are made available. Per ICC Incoterms 2020, EXW 'represents minimal obligations for the seller and maximum responsibilities for the buyer' and is most suitable for domestic trade or situations where the buyer can manage all export formalities.",
+          "attribution": "Based on: ICC Incoterms® 2020 official publication (iccwbo.org); ICC Academy — Incoterms 2020: EXW or FCA? (academy.iccwbo.org); Trade Finance Global EXW guide (ICC definition quoted)"
+        },
+        {
+          "term": "DAP",
+          "full_name": "DAP — Delivered At Place (named place of destination)",
+          "definition": "Under Incoterms 2020 DAP, the seller delivers when the goods are placed at the disposal of the buyer on the arriving means of transport, ready for unloading at the named place of destination. The seller bears all risks and costs of bringing the goods to the destination, including freight, but does not unload the goods — unloading is the buyer's responsibility and expense. Per the ICC Incoterms 2020 official publication, 'under DAP the seller does not unload the goods,' distinguishing it from DPU where the seller must also unload.",
+          "attribution": "Based on: ICC Incoterms® 2020 official publication and explanatory notes (iccwbo.org); Trade Risk Guaranty Incoterms Desk Reference (ICC official definition quoted)"
+        },
+        {
+          "term": "Bill of Lading",
+          "full_name": "Bill of Lading",
+          "definition": "A bill of lading is a transport document issued by or on behalf of a carrier evidencing receipt of goods for carriage by sea, which also functions as a document of title and constitutes the contract of carriage. Under Incoterms 2020, the bill of lading is the standard transport document for FOB, CFR, and CIF transactions; the ICC Incoterms 2020 publication (FCA rule) specifically addresses the 'on-board bill of lading' requirement, noting a carrier may issue a bill of lading with an on-board notation once goods are loaded on the vessel. The negotiable bill of lading allows transfer of title by endorsement, making it critical to documentary credit transactions.",
+          "attribution": "Based on: ICC Incoterms® 2020 official publication (iccwbo.org, FCA and FOB rules); ICC Incoterms 2020 publication No. 723E"
+        },
+        {
+          "term": "Warehouse Receipt",
+          "full_name": "Warehouse Receipt",
+          "definition": "A warehouse receipt is a document issued by a warehouse operator acknowledging receipt of specified goods held in storage and confirming the depositor's entitlement to those goods. In commodities markets, warehouse receipts (or their exchange equivalents such as LME warrants) serve as negotiable documents of title enabling financing and physical delivery against futures contracts. The LME's warrant system is the exchange's specific form of warehouse receipt, with each warrant representing a specific lot of approved metal and serving as both a quality certificate and a delivery instrument.",
+          "attribution": "Based on: LME Warrants page (lme.com/sustainability-and-physical-markets/warehousing/lme-warrants); LME Rulebook Part 6, Warrant provisions (lme.com, Appendix 10)"
+        },
+        {
+          "term": "Demurrage",
+          "full_name": "Demurrage",
+          "definition": "Demurrage is a charge levied on a cargo owner or charterer for detaining a vessel, container, or transport unit beyond the agreed free time stipulated in the charter party or contract of carriage. In maritime commodity trade, demurrage accrues when a bulk vessel is not loaded or discharged within the agreed laytime; the daily rate is set in the charter party. In containerised trade, demurrage is charged per container per day when boxes are held at a terminal beyond the carrier's free-use period. Prompt payment or avoidance of demurrage is a critical operational concern in physical commodity contracts.",
+          "attribution": "Based on: ICC Incoterms® 2020 context (charter party references in FOB/CFR/CIF rules); Clarksons Glossary — Demurrage definition (clarksons.com)"
+        },
+        {
+          "term": "Queue / Load-out",
+          "full_name": "LME Warehouse Queue and Load-out Rules",
+          "definition": "When warrant holders cancel LME warrants to take physical delivery, the metal enters a load-out queue at the relevant LME-approved warehouse. The LME Policy on the Approval and Operation of Warehouses mandates minimum daily load-out tonnages scaled by stored inventory: 2,000 t/day (150,000–299,999 t stored), rising to 4,000 t/day (900,000+ t stored). A 'Delivery Point (DP) Warehouse' with a queue exceeding 50 calendar days also becomes subject to the Linked Load-In and Load-Out (LILO) Rule, requiring additional load-out relative to new load-ins. Queue lengths directly affect physical premiums and rent-cap charges.",
+          "attribution": "Based on: LME Policy on the Approval and Operation of Warehouses (lme.com, Sections C and E); LME Rulebook Part 6 — Special Contract Rules (Appendix 10, lme.com)"
+        }
+      ]
+    },
+    {
+      "id": "trading-pricing",
+      "name": "Trading & Pricing",
+      "icon": "scale",
+      "terms": [
+        {
+          "term": "Benchmark Price",
+          "full_name": "Benchmark Price (LME Official Settlement Price)",
+          "definition": "A benchmark price is a widely accepted reference price used to price physical contracts, financial derivatives, and inventory valuations across an industry. The LME Official Settlement Price — defined in the LME Benchmark Statement as 'the offer price of the Cash Prompt Date determined as the Official Price' — is the primary global benchmark for base metals including copper, aluminium, nickel, zinc, lead, and tin. Per the LME Benchmark Administration Definitions document, the Official Settlement Price 'reflects the USD value of one metric tonne of the relevant metal for the relevant Prompt Date, where the metal must comply with the requirements of the applicable LME contract specification.'",
+          "attribution": "Based on: LME Official Prices Benchmark Statement (lme.com); LME Benchmark Administration — Definitions document (lme.com); LME Insight — How Are LME Reference Prices Used in Physical Metals Contracts (lme.com)"
+        },
+        {
+          "term": "Physical Premium",
+          "full_name": "Physical Premium",
+          "definition": "A physical premium is the differential paid above (or below) the LME benchmark price for physical metal delivered to a specific location, in a specific form, and at a specific time. Premiums reflect regional supply-demand balance, freight costs, duty, and local market conditions. The LME has formalised certain premiums as exchange-traded contracts (e.g., LME Aluminium US Premium, LME Aluminium West-Europe Premium), which are listed as part of the LME Official Prices Benchmark Family. Physical copper premiums are typically quoted as '$/tonne CIF [destination] over LME cash.'",
+          "attribution": "Based on: LME Official Prices Benchmark Statement (lme.com — aluminium premium contracts listed); LME Insight — How Are LME Reference Prices Used in Physical Metals Contracts; Fastmarkets copper premium assessment specifications (fastmarkets.com)"
+        },
+        {
+          "term": "Discount",
+          "full_name": "Discount (below benchmark)",
+          "definition": "A discount is a negative price differential whereby physical metal trades below the LME benchmark price, reflecting inferior quality, inconvenient location, off-specification chemistry, or market oversupply. Off-warrant metal (not held in an LME-approved warehouse) or metal from non-LME-approved brands may trade at a discount, as buyers require compensation for the additional cost or uncertainty of verifying quality. The LME Special Contract Rules define the minimum quality standard above which no discount is applied; material failing to meet Grade A specification is excluded from warranting and subject to negotiated discounts.",
+          "attribution": "Based on: LME Special Contract Rules for Copper Grade A (lme.com); LME Warrants page (lme.com — quality guarantee function of warrants); LME Insight — Physical Metals Contracts"
+        },
+        {
+          "term": "Offtake Agreement",
+          "full_name": "Offtake Agreement",
+          "definition": "A long-term contract between a mining producer and a buyer (offtaker) committing the buyer to purchase a specified volume or percentage of future production at agreed pricing terms. Offtake agreements are typically negotiated before or during mine construction to secure revenue certainty and facilitate project financing. Pricing is usually expressed as a formula referencing the LME benchmark price (or LBMA Gold Price for gold) plus or minus negotiated premiums and TC/RC deductions. Offtake terms covering concentrate, cathode, or doré are central to the commercial structure of most large mining projects.",
+          "attribution": "Based on: LME Insight — How Are LME Reference Prices Used in Physical Metals Contracts (lme.com — concentrate and cathode contract pricing structures); SEC Regulation S-K Item 1300 guidance (marketing modifying factors)"
+        },
+        {
+          "term": "Hedging",
+          "full_name": "Hedging",
+          "definition": "The use of derivative instruments — primarily futures and options — to offset the price risk inherent in physical commodity positions. A copper miner with future production sells LME copper futures to lock in a sale price; a consumer with future requirements buys futures to cap purchase costs. The LME provides standardised, exchange-traded futures and options for base metals; the COMEX division of CME Group provides futures contracts for copper in the US. Hedge accounting treatment under IFRS 9 and US GAAP requires formal documentation of hedge relationships and effectiveness testing.",
+          "attribution": "Based on: LME Copper Contract Specifications (lme.com — physically-settled futures with daily settlement); CME Group COMEX Copper Futures product information (cmegroup.com); LME Benchmark Statement — Official Settlement Prices used in OTC physical contract settlement"
+        },
+        {
+          "term": "Basis",
+          "full_name": "Basis (Spot vs Futures Price Differential)",
+          "definition": "Basis is the difference between the spot (cash) price and the futures price for a commodity at a given point in time, reflecting cost of carry (storage, insurance, and financing) and supply-demand conditions in physical markets. In LME metals terminology, the spread between the Cash and 3-Month prompt prices is a primary market indicator: a 'contango' (cash below 3-month) reflects normal carrying costs, while 'backwardation' (cash above 3-month) signals near-term physical tightness. The LME Official Prices Benchmark Methodology publishes bid and offer Official Prices for multiple Prompt Dates, enabling direct observation of the basis structure.",
+          "attribution": "Based on: LME Official Prices Benchmark Methodology (lme.com); LME Benchmark Administration — Definitions ('Prompt Date' definition, lme.com)"
+        },
+        {
+          "term": "Shanghai Premium",
+          "full_name": "Shanghai Physical Premium (CIF Copper Cathode)",
+          "definition": "The Shanghai premium is the differential paid above the LME Official Settlement Price for Grade A copper cathode delivered CIF (Cost, Insurance and Freight) to Shanghai, China, reflecting import duty, VAT, freight, and the tightness of China's physical copper market. It is one of the most widely tracked physical copper premiums globally and is assessed and published daily by price reporting agencies. Fastmarkets specifies the quality basis as 'Grade A cathode 99.9935% min copper conforming to LME specifications BS EN 1978:1998–Cu-CATH-1' for its Shanghai CIF premium assessment (MB-CU-0405).",
+          "attribution": "Based on: Fastmarkets copper premium assessment specifications (fastmarkets.com, MB-CU-0405 and related assessments); LME Copper Contract Specifications (lme.com)"
+        },
+        {
+          "term": "Rotterdam Premium",
+          "full_name": "Rotterdam Physical Premium (Copper ex-Warehouse)",
+          "definition": "The Rotterdam premium is the differential above the LME Official Settlement Price for Grade A copper cathode held in-warehouse or delivered to Rotterdam, a major European metals distribution hub. It reflects European supply-demand dynamics, LME warehouse queue conditions, and regional freight costs. Rotterdam is one of the most liquid locations in the LME warehouse network; physical copper premiums there are assessed by Fastmarkets and other price reporting agencies on a daily basis for in-warehouse Rotterdam material conforming to LME Grade A specifications.",
+          "attribution": "Based on: Fastmarkets copper premium assessment specifications (fastmarkets.com); LME Copper Contract Specifications (lme.com — warehouse network); LME Policy on the Approval and Operation of Warehouses (lme.com)"
+        },
+        {
+          "term": "Mill Test Certificate",
+          "full_name": "Mill Test Certificate (MTC)",
+          "definition": "A Mill Test Certificate is a quality assurance document issued by a metal manufacturer or mill confirming that a delivered product meets specified chemical composition and mechanical property requirements, with results traceable to a specific production batch (heat number). The LBMA Sampling and Assaying chapter notes that assay companies issue a 'certificate of analysis' detailing the purity and composition of a precious metal sample, which is 'essential for ensuring transparency and accuracy in transactions.' EN 10204 Type 3.1 MTCs, validated by the manufacturer's own inspection authority, are the standard form required for most LME-warranted and exchange-deliverable metals.",
+          "attribution": "Based on: LBMA — Chapter 4: Sampling and Assaying (lbma.org.uk); LME Rulebook Part 6 — Certificate of Analysis (eCOA) requirements for warranting (lme.com, Appendix 10); EN 1978:2022 (CEN) — cathode inspection documentation provisions"
+        },
+        {
+          "term": "Long-term Contract vs Spot",
+          "full_name": "Long-term Contract vs Spot Transaction",
+          "definition": "A long-term (annual or multi-year) supply contract commits buyer and seller to defined delivery volumes over an extended period, with pricing typically referenced to a benchmark (e.g., LME Official Settlement Price) plus negotiated TC/RC and premiums, renegotiated periodically. A spot transaction is a single, immediate purchase or sale for prompt delivery at the prevailing market price. LME futures prices serve as the reference benchmark for both types under the pricing mechanism described in the LME Insight note on physical metals contracts, which shows how LME prices are embedded throughout the concentrate-to-cathode value chain.",
+          "attribution": "Based on: LME Insight — How Are LME Reference Prices Used in Physical Metals Contracts (lme.com); LME Official Prices Benchmark Statement (lme.com)"
+        },
+        {
+          "term": "LBMA Gold Price / Silver Price",
+          "full_name": "LBMA Gold Price and LBMA Silver Price",
+          "definition": "The LBMA Gold Price and LBMA Silver Price are the global benchmark prices for unallocated gold and silver delivered in London, administered independently by ICE Benchmark Administration (IBA). Each price is determined twice daily (gold: 10:30 and 15:00 London time; silver: 12:00) via an electronic auction on IBA's platform, running in 30-second rounds until buy and sell orders are balanced within an imbalance threshold (normally 10,000 oz for gold). The final price is published in USD per troy ounce and is the standard reference for LBMA Good Delivery bar transactions, mine offtake agreements, and precious metals derivatives globally.",
+          "attribution": "Based on: LBMA Gold Price page (lbma.org.uk); LBMA Silver Price FAQ (lbma.org.uk); ICE Benchmark Administration — LBMA Gold and Silver Price description (theice.com/iba/lbma-gold-price)"
+        },
+        {
+          "term": "Assay",
+          "full_name": "Assay",
+          "definition": "An assay is the chemical or fire analysis of a metal sample to determine its precise elemental composition and purity. In mining, assay results expressed in g/t or % are used to establish ore grade and resource estimates. In refining and trading, assay certificates confirm that metal meets required specifications; for example, LBMA Good Delivery gold bars must meet a minimum fineness of 995 parts per thousand. The LBMA Sampling and Assaying guidance describes fire assay as the classical technique used to determine precious metal content of gold and silver ore, noting it remains the most accurate standard in the industry.",
+          "attribution": "Based on: LBMA — Chapter 4: Sampling and Assaying (lbma.org.uk); LBMA Good Delivery — bar requirements overview (lbma.org.uk/good-delivery); JORC Code 2012 (Appendix 1 — 'grade: quality, assay, analysis')"
+        }
+      ]
+    },
+    {
       "id": "rwa-tokenization",
       "name": "RWA & Tokenization",
       "icon": "link",
