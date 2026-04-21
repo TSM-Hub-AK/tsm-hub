@@ -14,7 +14,7 @@ permissions:
 jobs:
   update-prices:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,6 +23,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Setup Python (for og-image generation)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Pillow
+        run: pip install Pillow==10.4.0
 
       - name: Fetch LME/LBMA prices (Metals.dev)
         env:
@@ -62,6 +70,9 @@ jobs:
         run: |
           cp src/tsm_logo.jpg dist/ 2>/dev/null || true
           cp src/favicon.ico dist/ 2>/dev/null || true
+
+      - name: Generate OG image (dynamic metrics)
+        run: python3 src/generate-og-image.py
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
