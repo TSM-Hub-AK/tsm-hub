@@ -28,42 +28,48 @@ def load_json(p):
     except Exception:
         return None
 
-prices     = load_json(DATA / "prices.json")      or {}
-shfe       = load_json(DATA / "shfe.json")        or {}
-metals_api = load_json(DATA / "metals-api.json")  or {}
-producers  = load_json(DATA / "producers.json")   or {}
-news       = load_json(DATA / "news.json")        or {}
+# Authoritative source: the just-generated dist/index.html carries final metrics
+# in its <meta property="og:title"> tag (set by generate-hub.js).
+# Pattern example:
+#   og:title content="TSM Hub — 51 Prices · 765 Producers · 41 Metals · 80 News"
+import re
+total_prices = total_producers = total_metals = news_count = 0
 
-# Price counts — mirror logic in generate-hub.js
-def count_prices():
-    lme = 0; prec = 0; shf = 0; ma = 0
-    if prices:
-        lme  = len((prices.get("lme")  or {}).get("metals", {}) if isinstance(prices.get("lme"), dict)  else prices.get("lme", []))
-        prec = len((prices.get("lbma") or {}).get("metals", {}) if isinstance(prices.get("lbma"), dict) else prices.get("lbma", []))
-        # fallback — use any top-level metals dicts
-        if lme == 0 and "metals" in prices:
-            lme = len(prices["metals"])
-    if shfe:
-        shf = len(shfe.get("metals", shfe if isinstance(shfe, list) else []))
-    if metals_api:
-        ma = len(metals_api.get("metals", metals_api if isinstance(metals_api, dict) else {}))
-    return lme + prec + shf + ma
+idx = DIST / "index.html"
+if idx.exists():
+    html = idx.read_text()
+    m = re.search(
+        r'og:title"\s*content="TSM Hub\s*\u2014\s*(\d+)\s*Prices[^"]*?(\d+)\s*Producers[^"]*?(\d+)\s*Metals[^"]*?(\d+)\s*News',
+        html,
+    )
+    if m:
+        total_prices, total_producers, total_metals, news_count = map(int, m.groups())
+    else:
+        # Looser fallback — individual patterns
+        for key, pat in [
+            ("total_prices",    r'(\d+)\s*Prices'),
+            ("total_producers", r'(\d+)\s*Producers'),
+            ("total_metals",    r'(\d+)\s*Metals'),
+            ("news_count",      r'(\d+)\s*News'),
+        ]:
+            mm = re.search(pat, html)
+            if mm:
+                locals()[key]  # noqa
+                if key == "total_prices":    total_prices    = int(mm.group(1))
+                if key == "total_producers": total_producers = int(mm.group(1))
+                if key == "total_metals":    total_metals    = int(mm.group(1))
+                if key == "news_count":      news_count      = int(mm.group(1))
 
-# Simpler & robust: if env PRICES_COUNT provided by workflow, use it
-total_prices = int(os.environ.get("TOTAL_PRICES") or count_prices() or 0)
-if total_prices == 0:
-    # fallback — parse generated index.html if exists
-    idx = DIST / "index.html"
-    if idx.exists():
-        import re
-        m = re.search(r'og:title" content="TSM Hub — (\d+) Prices', idx.read_text())
-        if m: total_prices = int(m.group(1))
+# Secondary fallback: raw JSON data
+if total_producers == 0:
+    producers = load_json(DATA / "producers.json") or {}
+    total_producers = sum(len(v) for v in producers.values()) if isinstance(producers, dict) else 0
+    total_metals    = len(producers) if isinstance(producers, dict) else 0
+if news_count == 0:
+    news = load_json(DATA / "news.json") or {}
+    news_count = int(news.get("article_count", 0)) if isinstance(news, dict) else 0
 
-total_producers = sum(len(v) for v in producers.values()) if isinstance(producers, dict) else 0
-total_metals    = len(producers) if isinstance(producers, dict) else 0
-news_count      = int(news.get("article_count", 0)) if isinstance(news, dict) else 0
-
-# Allow env overrides (workflow can pass authoritative numbers)
+# Environment overrides (local testing)
 total_prices    = int(os.environ.get("OG_TOTAL_PRICES",    total_prices))
 total_producers = int(os.environ.get("OG_TOTAL_PRODUCERS", total_producers))
 total_metals    = int(os.environ.get("OG_TOTAL_METALS",    total_metals))
