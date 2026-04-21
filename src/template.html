@@ -168,14 +168,14 @@
     .header__brand:hover { text-decoration: none; }
 
     .header__logo {
-      width: 44px;
-      height: 44px;
+      width: 56px;
+      height: 56px;
       border-radius: var(--radius-sm);
     }
 
     .header__name {
       font-family: var(--font-display);
-      font-size: var(--text-xl);
+      font-size: clamp(1.75rem, 1.2rem + 1.75vw, 2.5rem);
       font-weight: 700;
       letter-spacing: -0.02em;
     }
@@ -260,14 +260,14 @@
     .header__cube-icon {
       display: inline-grid;
       grid-template-columns: 1fr 1fr;
-      gap: 3px;
-      margin-right: 6px;
+      gap: 4px;
+      margin-right: 10px;
     }
 
     .header__cube-icon span {
-      width: 11px;
-      height: 11px;
-      border-radius: 2.5px;
+      width: 24px;
+      height: 24px;
+      border-radius: 5px;
     }
 
     .header__cube-icon span:nth-child(1) { background: var(--color-primary); }
@@ -1434,7 +1434,10 @@
       .exchange-cards { grid-template-columns: 1fr; }
       .price-card__grid { grid-template-columns: 1fr 1fr; }
       .key-figures { grid-template-columns: 1fr 1fr; }
-      .header__name { font-size: var(--text-base); }
+      .header__logo { width: 44px; height: 44px; }
+      .header__cube-icon { gap: 3px; margin-right: 6px; }
+      .header__cube-icon span { width: 16px; height: 16px; border-radius: 3.5px; }
+      .header__name { font-size: var(--text-lg); }
       .data-table { font-size: var(--text-xs); }
       .data-table th, .data-table td { padding: var(--space-1) var(--space-2); }
       .producers-grid { grid-template-columns: 1fr; }
