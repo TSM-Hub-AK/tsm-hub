@@ -64,6 +64,188 @@
           "full_name": "Open Outcry Trading",
           "definition": "Open outcry is a traditional method of communicating trade orders on an exchange floor through a combination of verbal bids and offers and standardised hand signals. On the LME, Ring trading — a form of open outcry — takes place in a circular arrangement where members trade in five-minute sessions for each metal, and this session produces the LME's Official Prices.",
           "attribution": "Based on: LME official documentation"
+        },
+        {
+          "term": "SGE",
+          "full_name": "Shanghai Gold Exchange",
+          "definition": "Established in October 2002 by the People's Bank of China, the SGE is the world's largest physical gold exchange by trading volume. It operates spot contracts such as Au99.99 and Au99.95, with physical delivery to certified vaults. Since April 2016 it has published the Shanghai Gold Benchmark Price (SHAU) twice daily at 10:15 and 14:15 Beijing time, quoted in RMB per gram.",
+          "attribution": "https://en.sge.com.cn/eng_about_Overview"
+        },
+        {
+          "term": "GFEX",
+          "full_name": "Guangzhou Futures Exchange",
+          "definition": "Founded in April 2021, GFEX is China's fifth commodity futures exchange and the first focused on green-economy and new-energy commodities. It lists futures and options on industrial silicon (December 2022), lithium carbonate (July 2023), and polysilicon (December 2024), providing hedging and price-discovery tools for EV battery and photovoltaic supply chains.",
+          "attribution": "http://www.gfex.com.cn/en/LithiumCarbonate/LithiumCarbonate.shtml"
+        },
+        {
+          "term": "INE",
+          "full_name": "Shanghai International Energy Exchange",
+          "definition": "A wholly owned subsidiary of the Shanghai Futures Exchange (SHFE), INE lists futures products open to overseas investors, including RMB-denominated crude oil (SC, listed March 2018, the first Chinese commodity futures open to foreign participants), bonded copper (BC), low-sulfur fuel oil, and TSR 20 rubber. All products are accessible to qualified foreign investors.",
+          "attribution": "https://www.ine.cn/eng/about/overview/"
+        },
+        {
+          "term": "TOCOM",
+          "full_name": "Tokyo Commodity Exchange",
+          "definition": "Founded in 1984 and acquired by Japan Exchange Group (JPX) in October 2019, TOCOM transferred its precious metals (gold, silver, platinum, palladium) and agricultural derivatives to the Osaka Exchange (OSE) in July 2020. TOCOM now operates solely as Japan's energy derivatives exchange, listing crude oil, gasoline, kerosene, gas oil, LNG, and electricity futures.",
+          "attribution": "https://www.jpx.co.jp/english/corporate/about-jpx/history/05.html"
+        },
+        {
+          "term": "DGCX",
+          "full_name": "Dubai Gold & Commodities Exchange",
+          "definition": "Launched in November 2005, DGCX is the largest derivatives exchange in the Middle East. It offers futures contracts across four asset classes — currencies, metals (including gold and silver), hydrocarbons, and equities — serving producers, manufacturers, and financial institutions seeking commodity and currency risk management in the region.",
+          "attribution": "https://www.dgcx.ae/"
+        },
+        {
+          "term": "MCX",
+          "full_name": "Multi Commodity Exchange of India",
+          "definition": "Established in November 2003 and regulated by the Securities and Exchange Board of India (SEBI), MCX is India's largest commodity derivatives exchange and the world's sixth-largest by number of contracts traded (FIA, 2024). It offers futures and options on bullion (gold, silver), base metals (copper, zinc, aluminium, nickel, lead), energy, and agricultural commodities.",
+          "attribution": "https://www.mcxindia.com/about-us"
+        },
+        {
+          "term": "CME Group",
+          "full_name": "CME Group",
+          "definition": "The world's leading derivatives marketplace, CME Group operates four designated contract markets: CME, CBOT, NYMEX, and COMEX. It offers global benchmark products across interest rates, equity indices, foreign exchange, energy, agricultural commodities, and metals. NYMEX and COMEX were acquired in August 2008 for approximately $8.9 billion.",
+          "attribution": "https://www.cmegroup.com/company/nymex.html"
+        },
+        {
+          "term": "NYMEX",
+          "full_name": "New York Mercantile Exchange",
+          "definition": "A CME Group designated contract market since 2008, NYMEX is the world's premier exchange for energy futures (crude oil, natural gas, gasoline) and hosts platinum and palladium futures, complementing COMEX's gold, silver, and copper contracts within the CME Group metals complex. It merged with COMEX in 1994 before both joined CME Group.",
+          "attribution": "https://www.cmegroup.com/company/nymex.html"
+        },
+        {
+          "term": "ICE",
+          "full_name": "Intercontinental Exchange",
+          "definition": "Founded in 2000, ICE is a global network of exchanges and clearing houses covering energy, agricultural commodities, credit derivatives, equities, and foreign exchange. It acquired NYSE Euronext for approximately $11 billion in November 2013, making it parent of the New York Stock Exchange. ICE Futures Europe lists Brent crude and select soft commodities.",
+          "attribution": "https://ir.theice.com/press/news-details/2013/IntercontinentalExchange-Completes-Acquisition-of-NYSE-Euronext/default.aspx"
+        },
+        {
+          "term": "LPPM",
+          "full_name": "London Platinum and Palladium Market",
+          "definition": "Formalised via a Deed of Establishment in 1987, the LPPM governs the OTC wholesale market for platinum and palladium in London, setting Good Delivery standards for bars accepted in London, Zurich, and other international centres. It oversees the LBMA Platinum and Palladium Prices, which are daily electronic benchmark auctions currently administered by the London Metal Exchange (transitioning to ICE Benchmark Administration in Q3 2026).",
+          "attribution": "https://www.lppm.com/about-the-lppm"
+        },
+        {
+          "term": "SGX",
+          "full_name": "Singapore Exchange",
+          "definition": "SGX is Asia's leading derivatives exchange and the global benchmark hub for seaborne iron ore. It lists the SGX TSI Iron Ore CFR China (62% Fe Fines) Index Futures and SGX MB Iron Ore CFR China (65% Fe Fines) Index Futures, alongside swaps and options. In December 2018, SGX launched the world's first high-grade (65% Fe) iron ore derivatives.",
+          "attribution": "https://www.sgx.com/derivatives/products/iron-ore"
+        },
+        {
+          "term": "LME Ring",
+          "full_name": "LME Ring",
+          "definition": "The LME Ring is the world's last open-outcry trading floor for industrial metals, operating five-minute Ring sessions for each metal between 11:40 and 17:00 London time. Only Category 1 members may trade in the Ring. The LME Official Prices — the global settlement and reference prices for aluminium, copper, zinc, lead, tin, and nickel — are discovered exclusively through Ring trading.",
+          "attribution": "https://www.lme.com/Trading/Trading-venues/The-Ring"
+        }
+      ]
+    },
+    {
+      "id": "price-reporting-agencies",
+      "name": "Price Reporting & Benchmarks",
+      "icon_hint": "chart-line",
+      "terms": [
+        {
+          "term": "PRA",
+          "full_name": "Price Reporting Agency",
+          "definition": "A Price Reporting Agency (PRA) is a commercial entity that publishes benchmark price assessments for physical commodity markets by collecting transaction data, bids, and offers from market participants on a voluntary basis. IOSCO issued its Principles for Oil Price Reporting Agencies in October 2012, establishing a global framework for methodology transparency, data integrity, and independent auditing; PRAs are encouraged to apply these principles across all commodity derivatives markets.",
+          "attribution": "https://www.iosco.org/library/pubdocs/pdf/ioscopd391.pdf"
+        },
+        {
+          "term": "Platts (S&P Global Commodity Insights)",
+          "full_name": "Platts (S&P Global Commodity Insights)",
+          "definition": "Part of S&P Global, Platts is a leading price reporting agency publishing daily benchmark assessments for energy, metals, and agricultural markets. Its flagship metals benchmark, the IODEX (IODBZ00), is a spot assessment of iron ore fines delivered into China, assessed at 17:30 Singapore time. Platts also publishes assessments for alumina, steel HRC, and other metals across global markets.",
+          "attribution": "https://www.spglobal.com/energy/en/pricing-benchmarks/assessments/metals/iron-ore-index-iodex-price-explained"
+        },
+        {
+          "term": "Argus Media",
+          "full_name": "Argus Media",
+          "definition": "Founded in 1970 and headquartered in London, Argus Media is an independent price reporting agency covering energy and commodity markets in 160 countries. Its Argus Battery Materials service publishes over 200 price assessments for lithium, cobalt, nickel sulphate, graphite, and other battery metals, and the company declares IOSCO compliance across its price assessment methodologies.",
+          "attribution": "https://www.argusmedia.com/en/about-us"
+        },
+        {
+          "term": "Fastmarkets (formerly Metal Bulletin)",
+          "full_name": "Fastmarkets (formerly Metal Bulletin)",
+          "definition": "Fastmarkets is a cross-commodity price reporting agency with more than 150 years of history, combining Metal Bulletin, American Metal Market, Scrap Price Bulletin, Industrial Minerals, and other brands. It publishes benchmark indices for base metals, steel scrap, lithium, cobalt, rare earths, and carbon markets. Its European benchmark subsidiary, Fastmarkets Benchmark Administration Oy, is regulated by the Finnish Financial Supervisory Authority under the EU Benchmarks Regulation.",
+          "attribution": "https://www.fastmarkets.com/about-us/"
+        },
+        {
+          "term": "SMM",
+          "full_name": "Shanghai Metal Market",
+          "definition": "Founded in 1999, Shanghai Metal Market (SMM) is China's leading integrated price reporting platform for metals, publishing over 15,000 spot price assessments covering base metals, minor metals, precious metals, battery materials, rare earths, and ferrous metals. SMM explicitly adheres to IOSCO Principles for Price Reporting Agencies and is widely used as a contract pricing reference by domestic and international industrial buyers.",
+          "attribution": "https://www.metal.com/methodology"
+        },
+        {
+          "term": "Asian Metal",
+          "full_name": "Asian Metal",
+          "definition": "Asian Metal (asianmetal.com) is a specialist price reporting and market intelligence platform covering minor metals, ferro-alloys, rare earths, base metals, steel products, and refractories, with a focus on Chinese market conditions. It publishes daily spot prices and market news widely used by traders and industrial consumers for non-LME and China-domestic metals where mainstream PRA coverage is limited.",
+          "attribution": "https://www.asianmetal.com/"
+        }
+      ]
+    },
+    {
+      "id": "geology-deposits",
+      "name": "Geology & Deposits",
+      "icon": "layers",
+      "terms": [
+        {
+          "term": "Porphyry Deposit",
+          "full_name": "Porphyry Copper (±Mo±Au) Deposit",
+          "definition": "Large, low-grade magmatic-hydrothermal deposit genetically associated with porphyritic intrusions, typically containing 0.3–1% Cu with by-product molybdenum, gold, and silver. They are the world's largest source of copper (~60% of global production) and molybdenum, with individual deposits commonly containing hundreds of millions to billions of metric tonnes of ore and mine lives measured in decades.",
+          "attribution": "USGS Scientific Investigations Report 2010–5070–B, 'Porphyry Copper Deposit Model' (John et al., 2010), pubs.usgs.gov/sir/2010/5070/b/"
+        },
+        {
+          "term": "Laterite Deposit",
+          "full_name": "Nickel-Cobalt Laterite Deposit",
+          "definition": "Supergene ore deposit formed by intense chemical weathering of ultramafic parent rocks (peridotite, dunite) in tropical to subtropical climates, producing a layered regolith profile of limonite (Ni-bearing goethite) over saprolite (Ni-bearing hydrous Mg-silicates). Typical deposits range from 2.5 to 400 million tonnes at 0.66–2.4% Ni and form within 26° of the equator, requiring as little as one million years to develop.",
+          "attribution": "USGS Scientific Investigations Report 2010–5070–H, 'Nickel-Cobalt Laterites—A Deposit Model' (Marsh, Anderson & Gray), pubs.usgs.gov/sir/2010/5070/h/"
+        },
+        {
+          "term": "VMS Deposit",
+          "full_name": "Volcanogenic Massive Sulphide Deposit",
+          "definition": "Seafloor polymetallic deposit formed where circulating hydrothermal fluids driven by magmatic heat are quenched through mixing with bottom waters, precipitating massive sulphide lenses (>40% sulphide minerals) rich in Cu, Zn, Pb, Au, and Ag. Deposits are generally stratiform and range in age from 3.55 billion years to actively forming on modern mid-ocean ridges and island arc back-arcs; they include supergiant accumulations such as the 1.5-billion-tonne Rio Tinto deposit in Spain.",
+          "attribution": "USGS Scientific Investigations Report 2010–5070–C, 'Volcanogenic Massive Sulfide Occurrence Model' (Shanks & Thurston, 2012), pubs.usgs.gov/sir/2010/5070/c/"
+        },
+        {
+          "term": "Sediment-Hosted Copper",
+          "full_name": "Sediment-Hosted Stratabound Copper (SSC) Deposit",
+          "definition": "The second most important class of copper deposits globally (~20% of world Cu production), comprising stratiform to stratabound Cu±Co±Ag mineralisation hosted in continental rift-related sedimentary sequences such as the Kupferschiefer of Poland and the Central African Copperbelt of the DRC and Zambia. SSC deposits form by basin-brine migration through reduced sedimentary host rocks and are the world's most important source of cobalt.",
+          "attribution": "USGS Scientific Investigations Report 2010–5070–M, 'Sediment-Hosted Stratabound Copper Deposit Model' (Hayes et al., 2015), pubs.usgs.gov/sir/2010/5070/m/"
+        },
+        {
+          "term": "Placer Deposit",
+          "full_name": "Alluvial Placer Gold and PGE Deposit",
+          "definition": "Concentration of dense, chemically resistant minerals—principally native gold and platinum-group element alloys—accumulated in gravels, sands, and silts by mechanical sorting in alluvial, beach, eolian, or glacial environments. Economic grades concentrate at natural traps such as river bends, bedrock riffles, and structures transverse to flow, with source material typically derived from lode deposits (gold-bearing quartz veins) or porphyry copper systems.",
+          "attribution": "USGS Bulletin 1693, 'Descriptive Model of Placer Au-PGE' (Model 39a), pubs.usgs.gov/bul/b1693/html/bull6945.htm"
+        },
+        {
+          "term": "Lode / Vein Deposit",
+          "full_name": "Lode Gold / Low-Sulfide Quartz-Gold Vein Deposit",
+          "definition": "Hard-rock gold deposit consisting of quartz veins, stockworks, and disseminations hosted along major crustal fault zones in granite-greenstone terranes, formed from low-salinity, CO₂-rich hydrothermal fluids at 300–400°C and 4–12 km depth. Also termed orogenic gold deposits, they are the dominant lode source of gold and silver globally, with mineralisation controlled by second-order extensional structures and ductile shear zones along regional transcurrent faults.",
+          "attribution": "USGS Open-File Report 2021–1041, 'GIS-Based Identification of Areas that have Resource Potential for Lode Gold in Alaska' (Karl et al., 2021), pubs.usgs.gov/of/2021/1041/; USGS Open-File Report 2003–077, 'Low-Sulfide Quartz Gold Model' (Drew, 2003)"
+        },
+        {
+          "term": "Pegmatite",
+          "full_name": "Lithium-Cesium-Tantalum (LCT) Rare-Element Pegmatite",
+          "definition": "Extremely coarse-grained granitic igneous body—characterised by anomalous enrichment in Li, Cs, and Ta—formed by extreme fractional crystallisation of peraluminous S-type granites in orogenic hinterlands. LCT pegmatites account for roughly one-quarter of world lithium production, most of the tantalum, and all of the cesium; giant examples include Greenbushes (Australia, 70 Mt at 2.6% Li₂O) and Tanco (Canada, 2.1 Mt at 0.215% Ta₂O₅).",
+          "attribution": "USGS Scientific Investigations Report 2010–5070–O, 'Mineral-Deposit Model for Lithium-Cesium-Tantalum Pegmatites' (Bradley, McCauley & Stillings, 2017), pubs.usgs.gov/sir/2010/5070/o/sir20105070o.pdf"
+        },
+        {
+          "term": "BIF",
+          "full_name": "Banded Iron Formation (Superior-Type)",
+          "definition": "Precambrian chemical sedimentary rock consisting of alternating millimetre-to-centimetre-scale bands of iron-rich minerals (hematite, magnetite, siderite) and siliceous chert, deposited in stable shallow-marine environments mostly during the Early Proterozoic (~2.0 Ga). Superior-type BIFs are the primary source of the world's iron ore; individual deposits exceed one billion tonnes (median ~170 Mt) at around 30% Fe, with high-grade supergene ores formed by lateritic weathering.",
+          "attribution": "USGS Bulletin 1693, 'Descriptive Model of Superior Fe' (Model 34a, Cannon), pubs.usgs.gov/bul/b1693/Md34a.pdf; USGS Open-File Report 1995-0831, Chapter 32"
+        },
+        {
+          "term": "Greenfield vs Brownfield Exploration",
+          "full_name": "Greenfield vs Brownfield Mineral Exploration",
+          "definition": "Greenfield exploration targets areas with no known mineral deposits, requiring extensive geological, geochemical, and geophysical surveys to identify new mineralised systems. Brownfield exploration is conducted in proximity to known deposits or existing mine infrastructure, leveraging established geological models and existing data to extend resources or discover satellite deposits; both concepts underpin the confidence categories (Inferred, Indicated, Measured) and the Exploration Target disclosure requirements of the JORC Code 2012.",
+          "attribution": "JORC Code 2012, 'Australasian Code for Reporting of Exploration Results, Mineral Resources and Ore Reserves' (Joint Ore Reserves Committee, 2012), Clauses 17, 20, 29, jorc.org/docs/jorc_code2012.pdf"
+        },
+        {
+          "term": "Mineral Province / Belt",
+          "full_name": "Metallogenic Province / Metallogenic Belt",
+          "definition": "A metallogenic belt is a geologic unit (area) that either contains or is favourable for a group of coeval and genetically related, significant lode and placer deposit models, typically 150–1,000 × 10³ km² in extent. This spatial and genetic association with a specific geodynamic event (collision, arc, rifting) gives each belt predictive power for undiscovered deposits; a planetary metallogenic province encompasses multiple belts across ≥1,000 × 10³ km².",
+          "attribution": "USGS Open-File Report 2004–1252, 'Descriptions of Metallogenic Belts, Methodology, and Definitions' (Nokleberg et al., 2004), pubs.usgs.gov/of/2004/1252/; USGS SIM 3022, 'Metallogenic Belt and Mineral Deposit Maps of Northeast Asia'"
         }
       ]
     },
@@ -226,6 +408,152 @@
       ]
     },
     {
+      "id": "metal-forms-packaging",
+      "name": "Metal Forms & Packaging",
+      "icon": "package",
+      "terms": [
+        {
+          "term": "Ingot",
+          "full_name": "Cast Metal Ingot",
+          "definition": "A block of primary metal cast in a mould for subsequent remelting, rolling, or forging; the term covers a wide range of sizes and alloys. For LME aluminium, deliverable shapes include ingots, T-bars, and sows conforming to minimum 99.70% Al purity (P1020A designation under the International Designations standard or GB/T 1196-2017) in 25-tonne lots; LME copper is delivered as cathode rather than ingot form.",
+          "attribution": "LME Aluminium Contract Specifications (Shape: ingots, t-bars, sows; Quality: P1020A), lme.com/en/metals/non-ferrous/lme-aluminium/contract-specifications"
+        },
+        {
+          "term": "Billet",
+          "full_name": "Billet (Semi-Finished Cast Product)",
+          "definition": "A semi-finished cast or continuously cast product with a square or circular cross-section (typically ≤155 mm²) intended for further hot rolling, extrusion, or forging into rod, bar, wire, or tube. In copper and aluminium processing, billets are extruded into profiles and tube; in steelmaking, billets are rolled into long products. Dimensional and compositional standards for steel billets are covered under EN 10060 and related ISO standards.",
+          "attribution": "World Steel Association, Steel Statistical Yearbook definitions; BS EN / ISO long-product standards (e.g., EN 10060 for round steel bars)"
+        },
+        {
+          "term": "Slab",
+          "full_name": "Steel / Aluminium Slab",
+          "definition": "A large, flat semi-finished cast or rolled product with width substantially greater than thickness, used as feedstock for hot strip mills producing sheet, coil, and plate. Steel slabs (typically 150–350 mm thick, 600–2,500 mm wide) are the principal intermediate product of basic oxygen furnace and electric arc furnace steelmaking before hot rolling. Aluminium slabs (rolling ingots) serve the same function in aluminium flat-rolled products manufacturing.",
+          "attribution": "World Steel Association, Steelmaking process and product definitions, worldsteel.org"
+        },
+        {
+          "term": "Bloom",
+          "full_name": "Steel Bloom (Semi-Finished Long Product)",
+          "definition": "A large square or rectangular semi-finished steel casting with cross-sectional area exceeding 230 cm², intermediate between a billet and a slab, produced by continuous casting or ingot rolling and used as feedstock for heavy section mills producing structural beams, rails, and large bar. Blooms are distinguished from billets principally by their larger cross-section and are covered under World Steel Association product classification frameworks.",
+          "attribution": "World Steel Association, product classification; industry standard steelmaking definitions"
+        },
+        {
+          "term": "Sow",
+          "full_name": "Aluminium Sow (Large Remelt Ingot)",
+          "definition": "A large-format primary aluminium ingot, typically weighing approximately 750 kg, cast in a floor mould and intended for remelting in secondary smelters and foundries. Under LME Aluminium contract specifications, sows are one of the three approved delivery shapes (alongside ingots and T-bars) and must conform to P1020A or equivalent purity standards; the 25-tonne lot consists of multiple sows, T-bars, or ingots.",
+          "attribution": "LME Aluminium Contract Specifications (Shape: ingots, t-bars, sows), lme.com/en/metals/non-ferrous/lme-aluminium/contract-specifications"
+        },
+        {
+          "term": "T-bar / Jumbo",
+          "full_name": "T-bar and Jumbo Aluminium Ingot",
+          "definition": "Large-format primary aluminium cast forms approved for LME delivery alongside sows and standard ingots. A T-bar is a T-shaped aluminium ingot (~750 kg) designed for ease of handling and stacking; a jumbo ingot (also termed large ingot) refers generically to high-mass aluminium ingots above standard notch-bar size. All must meet LME aluminium quality specifications (P1020A designation, minimum 99.70% Al) and be of an LME-approved brand.",
+          "attribution": "LME Aluminium Contract Specifications, lme.com/en/metals/non-ferrous/lme-aluminium/contract-specifications"
+        },
+        {
+          "term": "Pig",
+          "full_name": "Pig Iron / Pig (Small Cast Ingot)",
+          "definition": "A small, standardised cast ingot typically weighing 3–10 kg, formed by pouring molten metal into sand or iron mould rows (resembling a sow with piglets). Pig iron is the direct product of a blast furnace (~92–94% Fe, ~4.5% C) and serves as the primary feedstock for steelmaking; pig lead, tin pig, and copper pig follow the same physical format. The World Steel Association classifies pig iron as a basic intermediate steel input.",
+          "attribution": "World Steel Association, definitions and statistics on pig iron; industry standard cast-iron mould nomenclature"
+        },
+        {
+          "term": "Cathode (full vs cut)",
+          "full_name": "Copper Cathode – Full vs Cut Sheet",
+          "definition": "A refined copper product obtained by electrolytic refining or electrowinning, conforming to Grade A copper specifications (BS EN 1978:2022 Cu-CATH-1, ASTM B115-10 Grade 1, or GB/T 467-2010 Cu-CATH-1) and deliverable under LME Copper contracts in 25-tonne lots. Full cathodes are produced at standard dimensions (~1 m × 1 m); cut cathodes are trimmed from full sheets and bundled for physical delivery, with both forms acceptable provided they meet purity and brand requirements.",
+          "attribution": "LME Copper Contract Specifications (Quality: BS EN 1978:2022 Cu-CATH-1; Shape: cathodes; Lot: 25t), lme.com/en/metals/non-ferrous/lme-copper/contract-specifications"
+        },
+        {
+          "term": "Bundle",
+          "full_name": "Strapped Bundle (LME Delivery Unit)",
+          "definition": "A group of cathode sheets, ingots, or other metal products strapped or banded together to form a physically manageable delivery unit for LME warehouse storage and warrant issuance. LME-approved warehouses require bundled material to meet specifications for stacking, weight, and identification marking in accordance with LME warehousing rules; each warrant (electronic entitlement to a 25-tonne lot) covers metal stored as one or more bundles in an approved location.",
+          "attribution": "LME Warehousing Regulations and Delivery Rules, lme.com; LME Aluminium and Copper Contract Specifications"
+        },
+        {
+          "term": "Coil / Sheet / Plate / Strip",
+          "full_name": "Rolled Metal Forms",
+          "definition": "Flat-rolled products produced by hot or cold rolling slabs or ingots: coil is flat-rolled metal wound into a cylinder for shipping and processing (typically 0.5–25 mm gauge); sheet is a flat cut length from coil; plate is a thicker flat-rolled product (generally >6 mm, used in heavy structural and pressure vessel applications); strip is a narrow-width coil typically used in stamping and tubing. Dimensional and property standards are defined by World Steel Association for steel and Aluminum Association for aluminium.",
+          "attribution": "World Steel Association, flat-rolled product definitions; Aluminum Association, standard wrought product definitions"
+        },
+        {
+          "term": "Rod / Bar / Wire",
+          "full_name": "Drawn and Extruded Long Products",
+          "definition": "Rod is a continuously cast or hot-rolled long product of circular cross-section used as feedstock for drawing into wire (copper rod ~8 mm for electrical wire applications); bar encompasses a range of solid long profiles (round, square, hexagonal) used in engineering; wire is rod or bar reduced by cold-drawing through dies to smaller diameters. LBMA Good Delivery Rules historically referenced wire bar as a 99.0%+ copper form; ISO standards govern dimensional tolerances for drawn wire.",
+          "attribution": "LBMA OTC Guide, London Good Delivery – Gold and Silver; World Steel Association, Aluminum Association product definitions"
+        },
+        {
+          "term": "Doré Bar",
+          "full_name": "Doré Bar (Gold-Silver Semi-Refined Bar)",
+          "definition": "A semi-refined alloy bar containing gold and silver (and minor impurities) produced at mine sites or smelters as an intermediate product before final refinery purification. Doré bars do not meet LBMA Good Delivery specifications (minimum 995‰ fineness for gold; 999‰ for silver) and must be further refined before acceptance into the London Bullion Market; the LBMA Responsible Gold Guidance and associated chain-of-custody requirements apply to doré sourcing and refining.",
+          "attribution": "LBMA Good Delivery Rules, Technical Specifications section; LBMA Good Delivery Rules for Gold Bars (minimum fineness 995.0 parts per thousand), lbma.org.uk/publications/good-delivery-rules/technical-specifications"
+        },
+        {
+          "term": "Granules / Shot / Powder",
+          "full_name": "Atomised Particulate Metal",
+          "definition": "Sub-forms of refined metals produced by rapid solidification of molten metal streams: granules and shot are rounded particles (2–20 mm) made by pouring molten metal into water or by centrifugal atomisation; powder is finer particulate material (<1 mm) used in metallurgy, electronics, and additive manufacturing. These forms do not qualify as LBMA Good Delivery; they are traded on a per-kg basis and must meet assay and provenance requirements of the relevant refinery or exchange.",
+          "attribution": "LBMA Good Delivery Rules (non-Good Delivery forms); general refinery production standards"
+        },
+        {
+          "term": "Briquette / Pellet",
+          "full_name": "Agglomerated Fines (Briquette and Iron Ore Pellet)",
+          "definition": "Agglomerated forms of fine metallic or ore particles bound with binders under pressure (briquettes) or by disc or drum balling followed by firing in a furnace (pellets). Iron ore pellets (typically 10–16 mm diameter, 60–67% Fe) are produced for direct use in blast furnaces or DRI plants as an alternative to lump ore or sinter; sampling and size analysis are governed by ISO 3082 (iron ore) and related ISO standards. Briquettes are also used for recycled metal fines (copper, zinc, aluminium).",
+          "attribution": "ISO 3082:2017, 'Iron ores – Sampling and sample preparation procedures'; World Steel Association, iron ore product definitions"
+        },
+        {
+          "term": "Drum / IBC / Super-sack / Pallet / Crate",
+          "full_name": "Standard Industrial Packaging Forms",
+          "definition": "Common packaging formats for metals and chemical products: drums (UN-specification steel or plastic cylinders, typically 200 L) and Intermediate Bulk Containers (IBCs, 500–3,000 L rigid or flexible tanks) are governed by the UN Recommendations on the Transport of Dangerous Goods (Model Regulations) and must carry UN marking for hazardous contents. Super-sacks (FIBCs – Flexible Intermediate Bulk Containers) hold 0.5–2 t of granular or powder materials; pallets provide unit load platforms for cartons, bags, or ingots; wooden crates are used for heavy or irregular items.",
+          "attribution": "UN Recommendations on the Transport of Dangerous Goods – Model Regulations (UN Orange Book), 23rd revised edition; UN Packaging Group classifications"
+        }
+      ]
+    },
+    {
+      "id": "inspection-assay",
+      "name": "Inspection & Assay",
+      "icon": "magnifier",
+      "terms": [
+        {
+          "term": "Independent Surveyor",
+          "full_name": "Independent Third-Party Surveyor",
+          "definition": "A neutral expert engaged by one or both parties to inspect, weigh, sample, or certify cargo at loadport or discharge. Independence requires no commercial interest in the outcome. The LBMA Good Delivery Rules provide for independent inspectors to examine bars and express opinions on whether they meet Good Delivery standards; IMSBC Code section 4 similarly references competent-authority-recognised entities for cargo certification.",
+          "attribution": "LBMA Good Delivery Rules (2025 edition), Section 2.4 Independent Inspection; IMO IMSBC Code 2022, Section 4.2 (cargo information obligations)"
+        },
+        {
+          "term": "Draft Survey",
+          "full_name": "Draught Displacement Survey",
+          "definition": "A method of determining bulk cargo weight by measuring a vessel's displacement before and after loading or discharge via its waterline draught marks. The difference in net displacement equals the cargo quantity. Formal documentation standards are referenced by IMO and UN ECE; accuracy under good conditions is approximately ±0.5%.",
+          "attribution": "IMO IMSBC Code 2022 (references draft survey in cargo quantity determination context); UN ECE guidelines on draught survey documentation (referenced in IMO MSC circular practices)"
+        },
+        {
+          "term": "Weighbridge",
+          "full_name": "Non-Automatic Weighing Instrument (Static Weighbridge)",
+          "definition": "A static platform scale used to weigh road vehicles or railcars for cargo quantity determination. International metrological requirements for accuracy classes are specified in OIML Recommendation R 76, which defines maximum permissible errors and calibration requirements for non-automatic weighing instruments including platform scales used in trade.",
+          "attribution": "OIML International Recommendation R 76-1 (2006): Non-automatic weighing instruments — Part 1: Metrological and technical requirements"
+        },
+        {
+          "term": "Certificate of Analysis",
+          "full_name": "Certificate of Analysis (CoA) / Assay Certificate",
+          "definition": "A laboratory document certifying the chemical composition and fineness of a metal consignment. For LBMA Good Delivery bars, assay values must be reported to four significant figures of fineness using corrected fire assay or spectrographic analysis; gold bars must meet minimum fineness of 995.0 parts per thousand, silver 999.0. The refiner stamps fineness and serial number on each bar.",
+          "attribution": "LBMA Good Delivery Rules (2025 edition), Section 2.1.7 Specifications and Section 4.1 Testing the Applicant's Assaying Capability"
+        },
+        {
+          "term": "Umpire Assay",
+          "full_name": "Umpire / Referee Assay",
+          "definition": "An independent third-party analytical determination conducted when a buyer's and seller's assays of a metal consignment disagree beyond the agreed tolerance. The LBMA Good Delivery Rules provide for LBMA-appointed referees who independently examine bars using corrected fire assay or spectrographic analysis; assays of 999.5 and above must agree within ±0.05 parts per thousand, and below 999.5 within ±0.15.",
+          "attribution": "LBMA Good Delivery Rules (2025 edition), Section 4.1 Testing the Applicant's Assaying Capability; LBMA Referee procedures (Annex C)"
+        },
+        {
+          "term": "TML",
+          "full_name": "Transportable Moisture Limit",
+          "definition": "The maximum moisture content of a Group A bulk cargo (one that may liquefy) that is considered safe for carriage by sea in ships not specially constructed for the purpose. Per IMO IMSBC Code Section 7.3.1, a cargo shall only be accepted for loading when its actual moisture content is less than the TML. The TML is derived from the Flow Moisture Point (generally TML = 90% of FMP) and must be certified not more than six months before loading.",
+          "attribution": "IMO IMSBC Code 2022, Sections 1 (definitions) and 7 (cargoes that may liquefy); IMO Resolution MSC.500(105) (adopted 28 April 2022) amending TML definition"
+        },
+        {
+          "term": "Weight Franchise",
+          "full_name": "Weight Tolerance / Weight Franchise",
+          "definition": "A contractual allowance for the difference in measured weight between the load-port and discharge-port surveys, expressed as a percentage of the bill-of-lading weight. Differences within the franchise are absorbed without price adjustment; differences exceeding it trigger a settlement. For LBMA Good Delivery silver bars, the specified weight tolerance is ±10% of 1,000 troy ounces gross weight.",
+          "attribution": "LBMA Good Delivery Rules (2025 edition), Section 2.1.7 Silver Bars weight specification (1000 troy ounces ±10% tolerance); physical commodity contract market practice"
+        }
+      ]
+    },
+    {
       "id": "warehousing-logistics",
       "name": "Warehousing & Logistics",
       "icon": "warehouse",
@@ -301,6 +629,195 @@
           "full_name": "LME Warehouse Queue and Load-out Rules",
           "definition": "When warrant holders cancel LME warrants to take physical delivery, the metal enters a load-out queue at the relevant LME-approved warehouse. The LME Policy on the Approval and Operation of Warehouses mandates minimum daily load-out tonnages scaled by stored inventory: 2,000 t/day (150,000–299,999 t stored), rising to 4,000 t/day (900,000+ t stored). A 'Delivery Point (DP) Warehouse' with a queue exceeding 50 calendar days also becomes subject to the Linked Load-In and Load-Out (LILO) Rule, requiring additional load-out relative to new load-ins. Queue lengths directly affect physical premiums and rent-cap charges.",
           "attribution": "Based on: LME Policy on the Approval and Operation of Warehouses (lme.com, Sections C and E); LME Rulebook Part 6 — Special Contract Rules (Appendix 10, lme.com)"
+        }
+      ]
+    },
+    {
+      "id": "transport-freight",
+      "name": "Transport & Freight",
+      "icon": "truck",
+      "terms": [
+        {
+          "term": "Bulk Carrier",
+          "full_name": "Dry Bulk Carrier",
+          "definition": "A ship constructed generally with a single deck, top-side tanks, and hopper-side tanks in cargo spaces, intended primarily to carry dry cargo in bulk, including ore carriers and combination carriers (SOLAS IX/1.6). Gearless bulk carriers rely on shore equipment for cargo handling, while geared vessels carry their own cranes or grabs; they transport commodities such as iron ore, coal, grain, and fertilisers in lots of thousands to hundreds of thousands of tonnes.",
+          "attribution": "IMO, SOLAS Convention Regulation IX/1.6 and XII/1.1; IMO Resolution MSC.170(79), 9 December 2004; IMO Bulk Carrier Safety page, imo.org/en/OurWork/Safety/Pages/BulkCarriers.aspx"
+        },
+        {
+          "term": "Capesize / Panamax / Handysize",
+          "full_name": "Bulk Carrier Size Classifications",
+          "definition": "Industry size classifications for dry bulk vessels defined by beam and draught relative to canal and port constraints: Capesize vessels (~100,000–400,000 DWT) are too large for the Panama Canal and must round Cape Horn or the Cape of Good Hope; Panamax (~60,000–80,000 DWT) are the largest vessels fitting original Panama Canal locks; Handysize (~15,000–35,000 DWT) are versatile smaller vessels serving minor ports. BIMCO's standard form NYPE 2015 time charter and voyage charter GENCON 2022 are typically used across these segments.",
+          "attribution": "BIMCO contract descriptions, bimco.org/contracts-and-clauses/bimco-contracts; IMO SOLAS bulk carrier safety framework"
+        },
+        {
+          "term": "Break-bulk",
+          "full_name": "Break-Bulk (General) Cargo",
+          "definition": "Non-containerised general cargo loaded and discharged as individual units, packages, or quantities directly into the vessel's hold—such as steel coils, bagged concentrates, project equipment, or bagged metals—as opposed to cargo loaded in a standardised freight container or conveyed as a solid bulk commodity. Break-bulk handling requires vessel crane or shore gear and significantly longer port time than containerised or bulk operations.",
+          "attribution": "BIMCO contract and clause library, bimco.org; IMO SOLAS Chapter VI (Carriage of Cargoes)"
+        },
+        {
+          "term": "TEU / FEU",
+          "full_name": "Twenty-Foot / Forty-Foot Equivalent Unit",
+          "definition": "Standardised volumetric units used to measure container capacity and port throughput: one TEU equals one standard 20-foot intermodal freight container (external dimensions 6,058 × 2,438 mm); one FEU equals one standard 40-foot container and is equivalent to 2 TEU. ISO 668:2020 classifies Series 1 freight containers by external dimensions and ratings for intercontinental traffic, with the 20-foot and 40-foot types being the dominant global standard.",
+          "attribution": "ISO 668:2020, 'Series 1 Freight Containers – Classification, Dimensions and Ratings', iso.org/standard/76912.html; ANSI Blog summary of ISO 668:2020, blog.ansi.org"
+        },
+        {
+          "term": "Reefer / Flat Rack / Open-top / Tank Container",
+          "full_name": "Specialised ISO Container Types",
+          "definition": "ISO-standardised Series 1 container variants defined in ISO 668:2020 and ISO 1496: reefer containers incorporate refrigeration systems for temperature-sensitive cargo; flat-rack containers have collapsible end walls for oversized or heavy cargo; open-top containers have removable roof structures for top-loading; tank containers (ISO 1496-3) are frame-mounted pressure vessels for bulk liquids, gases, or hazardous materials. All share uniform 2,438 mm width and standard corner fittings for intermodal transfer.",
+          "attribution": "ISO 668:2020, 'Series 1 Freight Containers – Classification, Dimensions and Ratings'; ISO 1496, 'Series 1 Freight Containers – Specification and Testing', iso.org/standard/76912.html"
+        },
+        {
+          "term": "Charter Party",
+          "full_name": "Charter Party (Voyage and Time)",
+          "definition": "A contract between a shipowner and a charterer for the hire of a vessel or its cargo-carrying capacity. A voyage charter party (e.g., BIMCO GENCON 2022) is a general-purpose agreement for a specific voyage in exchange for freight; a time charter party (e.g., NYPE 2015, the most widely used standard in dry cargo) hires the vessel for a period during which the charterer directs its commercial employment while the owner maintains crew and technical management.",
+          "attribution": "BIMCO, GENCON 2022 and NYPE 2015 contract descriptions, bimco.org/contracts-and-clauses/bimco-contracts/gencon; bimco.org/contracts-and-clauses/bimco-contracts"
+        },
+        {
+          "term": "Laytime",
+          "full_name": "Laytime (Charter Party)",
+          "definition": "The period of time agreed between the parties during which the shipowner will make and keep the vessel available for loading or discharging without payment additional to the freight (BIMCO Laytime Definitions for Charter Parties 2013, Definition 5). Laytime begins upon valid tender of the Notice of Readiness and is counted in working or weather working days as stipulated in the charter party; its accurate calculation is critical to determining demurrage or despatch liability.",
+          "attribution": "BIMCO, 'Laytime Definitions for Charter Parties 2013', Definition 5, bimco.org/media/qy2neqim/laytime-definitions-for-charter-parties-2013-v2.pdf"
+        },
+        {
+          "term": "Demurrage / Despatch",
+          "full_name": "Demurrage and Despatch Money",
+          "definition": "Demurrage is an agreed amount payable to the shipowner in respect of delay to the vessel once the laytime has expired, for which the owner is not responsible; it runs continuously ('once on demurrage, always on demurrage') unless the charter party specifies exceptions. Despatch money (or Despatch) is an agreed amount payable by the owner if the vessel completes loading or discharging before the laytime has expired, typically at half the demurrage rate, incentivising efficient port operations.",
+          "attribution": "BIMCO, 'Laytime Definitions for Charter Parties 2013', Definitions 30 and 31, bimco.org/media/qy2neqim/laytime-definitions-for-charter-parties-2013-v2.pdf"
+        },
+        {
+          "term": "Stowage Plan / Lashing",
+          "full_name": "Cargo Stowage Plan and Lashing Arrangement",
+          "definition": "A stowage plan is a diagram showing the planned or actual placement of cargo in each hold or container bay of a vessel, used to ensure structural integrity, stability, and compliance with weight limits. Lashing refers to the securing arrangements (wires, chains, webbing, twist-locks) used to prevent cargo movement in accordance with the IMO Code of Safe Practice for Cargo Stowage and Securing (CSS Code, MSC/Circ.1353) and the IMO/ILO/UNECE CTU Code 2014 for cargo transport units.",
+          "attribution": "IMO Code of Safe Practice for Cargo Stowage and Securing (CSS Code), MSC/Circ.1353; IMO/ILO/UNECE Code of Practice for Packing of Cargo Transport Units (CTU Code), 2014, imo.org"
+        },
+        {
+          "term": "Bill of Lading (B/L)",
+          "full_name": "Bill of Lading – Charter vs Liner B/L Distinction",
+          "definition": "A bill of lading is a transport document issued by or on behalf of a carrier that serves as a receipt for cargo, evidence of the contract of carriage, and (for an order B/L) a negotiable document of title. Under a charter party, a CONGENBILL or similar charter B/L is issued subject to the terms of the underlying charter; under liner transport the B/L incorporates the carrier's standard terms and conditions. The sea waybill is a non-negotiable alternative that evidences a contract of carriage but does not confer title.",
+          "attribution": "BIMCO CONGENBILL 2022 (accompanying GENCON), bimco.org; ICC Rules for Documentary Credits UCP 600 Articles 19–22 (transport documents)"
+        },
+        {
+          "term": "Air Waybill (AWB)",
+          "full_name": "Air Waybill (Non-Negotiable Air Cargo Document)",
+          "definition": "A non-negotiable transport document issued by or on behalf of an air carrier that evidences the contract for carriage of cargo by air, serves as a receipt for goods, and contains shipping instructions. Under Article 11 of the Montreal Convention 1999, the air waybill constitutes prima facie evidence of the contract of carriage, receipt of cargo, and conditions of carriage; IATA Resolution 600a governs its format and data content across member airlines.",
+          "attribution": "IATA Resolution 600a (Air Waybill format and requirements); Convention for the Unification of Certain Rules for International Carriage by Air (Montreal Convention 1999), Article 11"
+        },
+        {
+          "term": "ULD",
+          "full_name": "Unit Load Device (Aircraft Container or Pallet)",
+          "definition": "A standardised aircraft container, pallet, or pallet-net combination used to consolidate air cargo into units that fit specific aircraft fuselage contours, enabling rapid loading, unloading, and transfer between aircraft. ULD types and specifications (dimensions, tare weight, maximum gross weight, contour codes) are defined by IATA's ULD Technical Manual and IATA TACT (The Air Cargo Tariff) Regulations, and are subject to airworthiness requirements under ICAO Annex 8.",
+          "attribution": "IATA ULD Technical Manual and IATA TACT Regulations; ICAO Annex 8 (Airworthiness of Aircraft)"
+        },
+        {
+          "term": "FTL / LTL",
+          "full_name": "Full Truckload / Less-than-Truckload",
+          "definition": "FTL (Full Truckload) describes a shipment that occupies an entire road vehicle and moves directly from shipper to consignee, providing faster transit and lower handling risk. LTL (Less-than-Truckload) consolidates smaller shipments from multiple shippers into a single vehicle, with goods typically passing through freight hubs; both modes are governed by road transport regulations within the UN ECE framework (e.g., CMR Convention for international road transport).",
+          "attribution": "UNECE Road Transport Conventions; Convention on the Contract for the International Carriage of Goods by Road (CMR), 1956 (UN ECE framework), unece.org/transport/road-transport"
+        },
+        {
+          "term": "TIR Carnet",
+          "full_name": "Transports Internationaux Routiers Carnet",
+          "definition": "An internationally recognised customs transit document issued under the UN TIR Convention 1975 (as amended) that allows road freight to cross multiple national borders under customs seals without being inspected or liable for import duties at each frontier, provided cargo is transported in approved secure vehicles or containers. The TIR Carnet is guaranteed by a chain of national guaranteeing associations, covering customs duties and taxes up to fixed limits if goods are not re-exported.",
+          "attribution": "UN TIR Convention 1975 (Customs Convention on the International Transport of Goods under Cover of TIR Carnets), as administered by UNECE; unece.org/transport/road-transport/tir-convention"
+        },
+        {
+          "term": "Intermodal Transport",
+          "full_name": "Intermodal / Multimodal Freight Transport",
+          "definition": "The movement of goods in a single loading unit (container, swap body, or semi-trailer) that uses two or more modes of transport (ship, rail, road, air) in sequence without handling the cargo itself at modal interchange points. The UN ECE and UNCTAD framework distinguishes intermodal transport (single transport document) from multimodal transport (covered by a single multimodal transport document issued by a multimodal transport operator under the UNCTAD/ICC Rules for Multimodal Transport Documents).",
+          "attribution": "UNECE Terminology on Combined Transport (2001); UNCTAD/ICC Rules for Multimodal Transport Documents; UN ECE transport framework, unece.org"
+        }
+      ]
+    },
+    {
+      "id": "dangerous-goods",
+      "name": "Dangerous Goods / Hazmat",
+      "icon": "triangle-exclamation",
+      "terms": [
+        {
+          "term": "IMDG Code",
+          "full_name": "International Maritime Dangerous Goods Code",
+          "definition": "The mandatory international standard for the safe carriage of dangerous goods by sea, published by the International Maritime Organization and made legally binding under SOLAS Chapter VII. It classifies dangerous goods into nine classes, assigns UN numbers and proper shipping names, and specifies packaging, labelling, stowage, and segregation requirements. The current consolidated edition is the IMDG Code Amendment 41-22.",
+          "attribution": "IMO International Maritime Dangerous Goods Code (IMDG Code), adopted under SOLAS 1974 Chapter VII; IMO Resolution MSC.122(75) and subsequent amendments"
+        },
+        {
+          "term": "UN Number",
+          "full_name": "UN Number — United Nations Dangerous Goods Identification Number",
+          "definition": "A four-digit code assigned by the UN Committee of Experts on the Transport of Dangerous Goods to identify specific dangerous substances or articles in the transport of dangerous goods. UN numbers are prefixed 'UN' (e.g., UN 1098 for allyl alcohol, UN 3077 for environmentally hazardous substances). They are listed in the UN Model Regulations (Orange Book) and replicated in IMDG, ADR, and other modal regulations.",
+          "attribution": "UN Recommendations on the Transport of Dangerous Goods — Model Regulations, 22nd Revised Edition (2021), Chapter 3.1 and Dangerous Goods List (Chapter 3.2); unece.org"
+        },
+        {
+          "term": "Packing Group",
+          "full_name": "Packing Group I / II / III — Degree of Hazard",
+          "definition": "A classification assigned to dangerous goods (other than Class 1, 2, 4.1, 5.2, 6.2, and 7) indicating the degree of danger: Packing Group I = high danger; Packing Group II = medium danger; Packing Group III = low danger. Packing groups determine minimum packaging strength requirements, testing protocols, and may influence labelling and placarding requirements under the UN Model Regulations and IMDG Code.",
+          "attribution": "UN Model Regulations (Orange Book) 22nd Revised Edition (2021), Section 2.1.1.3 (Packing groups); IMDG Code, Part 2 Classification"
+        },
+        {
+          "term": "SDS",
+          "full_name": "Safety Data Sheet (16-Section Format)",
+          "definition": "A standardised 16-section hazard communication document required by OSHA Hazard Communication Standard 29 CFR 1910.1200(g) (HazCom 2012, aligned to UN GHS Rev.7) and REACH Article 31 for chemical substances and mixtures. Sections 1–11 and 16 contain OSHA-enforceable information; Sections 12–15 (ecological, disposal, transport, regulatory) align with GHS but are non-mandatory under OSHA. SDSs must be in English for US workplaces.",
+          "attribution": "OSHA HazCom Standard 29 CFR 1910.1200(g) and Appendix D; OSHA Publication 3514 'Hazard Communication Standard: Safety Data Sheets'; REACH Regulation (EC) 1907/2006 Article 31"
+        },
+        {
+          "term": "ADR",
+          "full_name": "ADR — European Agreement on International Carriage of Dangerous Goods by Road",
+          "definition": "A United Nations Economic Commission for Europe (UNECE) treaty governing the international road transport of dangerous goods between and through signatory states in Europe and beyond. ADR is updated biennially; the 2023 edition applies. It prescribes classification, packaging, labelling, vehicle requirements, and training obligations aligned with the UN Model Regulations.",
+          "attribution": "UN ECE European Agreement concerning the International Carriage of Dangerous Goods by Road (ADR), 1957 (as amended 2023); unece.org"
+        }
+      ]
+    },
+    {
+      "id": "market-participants",
+      "name": "Market Participants & Roles",
+      "icon": "users",
+      "terms": [
+        {
+          "term": "Producer/Miner",
+          "full_name": "Metal Producer / Mining Company",
+          "definition": "An upstream entity that extracts metal-bearing ore or mineral from the earth through mining operations and typically sells raw ore, concentrate, or unrefined metal to smelters or refiners. Producers are the primary originators of the physical metal supply chain and bear exploration, development, and operating risk. They are classified in responsible-sourcing frameworks as the first point of origin.",
+          "attribution": "OECD Due Diligence Guidance 3rd Edition (2016), definitions; USGS Mineral Resources Program; RMI RMAP smelter/refiner classification (upstream of mine)"
+        },
+        {
+          "term": "Smelter/Refiner",
+          "full_name": "Smelter / Metal Refiner",
+          "definition": "A mid-stream processing entity that transforms ore, concentrate, or scrap into refined metal of specified purity. In LBMA terminology, a refiner producing Good Delivery gold bars must achieve minimum 995.0 parts per thousand fineness. The RMI RMAP assessment targets smelters and refiners as the 'chokepoint' in responsible sourcing due diligence, since they are positioned between miners and manufacturers.",
+          "attribution": "LBMA Good Delivery Rules (2025 edition), Section 2.1.7 (refiner fineness requirements); RMI RMAP Overview, responsibleminerals.org"
+        },
+        {
+          "term": "Merchant/Physical Trader",
+          "full_name": "Commodity Merchant / Physical Metal Trader",
+          "definition": "A firm that takes principal positions in physical metal—buying, storing, financing, transporting, and selling commodities across geographies and time periods, earning a margin on the physical arbitrage and services. Merchants typically operate along the entire supply chain, providing market liquidity and logistics. Major commodity merchants describe themselves as 'integrated physical commodity traders' in annual reports.",
+          "attribution": "Industry practice; Trafigura Annual Report 2023 (self-described 'physical commodity trader'); Glencore Annual Report 2023 (self-described 'integrated producer and marketer of commodities')"
+        },
+        {
+          "term": "Fabricator",
+          "full_name": "Metal Fabricator / Semi-Fabricator",
+          "definition": "A downstream manufacturer that converts refined metal into semi-fabricated or fabricated products such as wire rod, sheet, tube, ingot, or billet for industrial end-users. Fabricators typically purchase refined metal from traders or refiners and transform it using rolling, extrusion, drawing, or casting processes.",
+          "attribution": "World Steel Association definitions; International Copper Study Group (ICSG) 'Fabricated Products' classification; industry standard supply chain terminology"
+        },
+        {
+          "term": "End-User/Consumer",
+          "full_name": "Industrial End-User / Final Consumer",
+          "definition": "An entity that consumes refined or fabricated metal as an input to its own manufacturing process or as a final product, with no intention of reselling the metal as a commodity. Examples include electronics manufacturers, automotive producers, and jewellery makers. End-users are not market makers and typically hedge price exposure through exchange-traded or OTC instruments.",
+          "attribution": "LME membership structure (Category 5 trade members as non-issuing participants); industry supply chain definitions"
+        },
+        {
+          "term": "LME Member Categories",
+          "full_name": "LME Membership Categories 1–5 (LME Rulebook Part 1 Definitions)",
+          "definition": "The LME Rulebook defines five membership categories. Category 1 (Ring Dealing Member): authorised to trade in the Ring, a member of LME Clear, authorised to clear and issue Client LME Base Contracts. Category 2: not authorised for Ring trading but is an LME Clear member and can issue Client Contracts. Category 3: LME Clear member, can clear but cannot issue Client Contracts. Category 4: not an LME Clear member, authorised to issue Client Contracts. Category 5: no Ring trading, no clearing, no contract issuance rights.",
+          "attribution": "LME Rulebook (30 March 2026 release), Part 1 Definitions: 'Category 1 Member' through 'Category 5 Member'; lme.com"
+        },
+        {
+          "term": "Ring Dealing Member",
+          "full_name": "Ring Dealing Member (LME Category 1)",
+          "definition": "An LME Category 1 Member authorised to trade by open-outcry in the LME Ring—the exchange's iconic circular trading venue—as well as on LMEselect and the telephone market. Ring trading sessions set the Official Prices that underpin global physical metal contracts. Only Ring Dealing Members may participate in Ring sessions; a minimum of five Category 1 firms must be present for Official Prices to be determined.",
+          "attribution": "LME Rulebook (30 March 2026 release), Part 1 Definitions: 'Category 1 Member'; LME Member Notice 21/160 (Ring re-opening, 1 September 2021)"
+        },
+        {
+          "term": "Clearing Member",
+          "full_name": "LME Clearing Member (LME Clear)",
+          "definition": "A member of LME Clear—the LME's central counterparty—that is permitted to clear Cleared Contracts. For the LME Base Service, Clearing Members are Category 1, 2, or 3 Members. Clearing Members stand between the exchange and their clients in the clearing chain, posting margin and guaranteeing settlement of cleared trades under the LME Clear Rulebook.",
+          "attribution": "LME Rulebook (30 March 2026 release), Part 1 Definitions: 'Clearing Member'; LME membership structure criteria and capabilities (March 2025)"
         }
       ]
     },
@@ -384,6 +901,122 @@
       ]
     },
     {
+      "id": "financial-instruments",
+      "name": "Financial Instruments",
+      "icon": "chart-line",
+      "terms": [
+        {
+          "term": "Option (Call/Put)",
+          "full_name": "Metal Option — Call Option / Put Option",
+          "definition": "An option grants the buyer the right, but not the obligation, to buy (call) or sell (put) a specified quantity of a metal at a fixed strike price on or before the expiry date, in exchange for a premium paid upfront. CME/COMEX Gold options are American-style (exercisable any time before expiry) on 100-troy-ounce Gold futures. LME options on metals futures are traded on the exchange.",
+          "attribution": "CME Group COMEX Gold Option contract specifications (Chapter 1008 COMEX Rulebook); LME traded options product specifications; 2005 ISDA Commodity Definitions (option definitions)"
+        },
+        {
+          "term": "Asian Option (APO)",
+          "full_name": "Asian Option / Average Price Option (APO) — LME TAPO",
+          "definition": "An option whose payoff is based on the average of the underlying price over a specified period rather than the spot price at expiry, which better matches the pricing exposure of physical metal traders who transact at monthly average prices. The LME offers Traded Average Price Options (TAPOs), which are monthly Asian-style options cash-settled against the monthly average of Official Settlement Prices.",
+          "attribution": "LME Traded Average Price Options (TAPO) product specifications; LME Rulebook Part 1 definition of 'Client Traded Average Price Option'"
+        },
+        {
+          "term": "Commodity Swap",
+          "full_name": "Commodity Swap (Fixed-for-Floating)",
+          "definition": "An OTC derivative in which one party pays a fixed price per unit of a commodity and receives a floating price (typically a commodity reference price index) over a specified calculation period, with net cash settlement on each payment date. The 2005 ISDA Commodity Definitions govern the terms of privately negotiated commodity swaps, basis swaps, caps, floors, and swaptions.",
+          "attribution": "2005 ISDA Commodity Definitions (International Swaps and Derivatives Association, Inc.), Section 6.1 (Floating Amount calculation); isda.org"
+        },
+        {
+          "term": "CFD",
+          "full_name": "Contract for Difference",
+          "definition": "An OTC derivative under which two parties agree to exchange the difference between the opening and closing price of an underlying asset (e.g., a metal price index) over the contract period, without physical delivery. CFDs are classified as financial instruments under MiFID II (Annex I, Section C(9)). IOSCO has issued guidance on retail CFD product risks.",
+          "attribution": "EU MiFID II Directive 2014/65/EU, Annex I Section C(9) (list of financial instruments); FCA COBS rules; IOSCO Final Report on Retail OTC Leveraged Products (2018)"
+        },
+        {
+          "term": "Structured Trade Finance",
+          "full_name": "Structured Trade Finance — Pre-Export Finance / Borrowing Base",
+          "definition": "Commodity-backed lending structures in which financing is secured against physical inventories or future receivables from commodity sales. Pre-export finance (PXF) involves a lender advancing funds against a borrower's contractual obligation to deliver and receive payment for future commodity exports. A borrowing base facility is revolving credit secured against a constantly changing pool of commodity inventories and receivables.",
+          "attribution": "ICC Banking Commission Guidelines on Trade Finance; BAFT Master Participation Agreement; ICC Uniform Rules for Demand Guarantees (URDG 758)"
+        },
+        {
+          "term": "Metal Leasing / GOFO",
+          "full_name": "Metal Leasing / Gold Forward Offered Rate (GOFO)",
+          "definition": "Physical metal leasing involves lending gold or silver from a central bank or bullion bank to a borrower (typically a refiner or mine) in exchange for a lease rate (the return on lending metal). GOFO (Gold Forward Offered Rate) was the benchmark annualised interest rate at which LBMA market-making members were willing to lend gold on a swap against US dollars. GOFO was discontinued on 30 January 2015 following benchmark reform.",
+          "attribution": "LBMA GOFO historical data and market notices; LBMA announcement of GOFO discontinuation (30 January 2015); lbma.org.uk"
+        }
+      ]
+    },
+    {
+      "id": "insurance-tradefinance",
+      "name": "Insurance & Trade Finance",
+      "icon": "shield",
+      "terms": [
+        {
+          "term": "Institute Cargo Clauses A / B / C",
+          "full_name": "Institute Cargo Clauses (ICC-A, ICC-B, ICC-C) – 2009 Edition",
+          "definition": "Three standard sets of marine cargo insurance clauses drafted by the Joint Cargo Committee (Lloyd's Market Association / International Underwriting Association) on 1 January 2009: Clauses A provide the broadest 'all risks' cover (subject to named exclusions); Clauses B cover a defined list of named perils including fire, stranding, collision, and earthquake; Clauses C cover the most limited range of major casualties only. All three include the Transit Clause (Clause 8) extending cover warehouse-to-warehouse.",
+          "attribution": "Institute Cargo Clauses A, B, C (1/1/09), Lloyd's Market Association (LMA) / International Underwriting Association (IUA) Joint Cargo Committee; referenced in LME trade documentation"
+        },
+        {
+          "term": "Marine Cargo Insurance",
+          "full_name": "Marine Cargo Insurance",
+          "definition": "Insurance covering physical loss or damage to goods in transit by sea (and typically air and land legs of the same journey), underwritten under Institute Cargo Clauses (A, B, or C) or equivalent policy forms. The International Union of Marine Insurance (IUMI) represents marine cargo underwriters globally; cover attaches from the time goods leave the warehouse at origin and terminates on delivery to the final warehouse at destination, subject to the Transit Clause.",
+          "attribution": "IUMI (International Union of Marine Insurance) position papers on cargo insurance; Institute Cargo Clauses (1/1/09)"
+        },
+        {
+          "term": "Warehouse-to-Warehouse Clause",
+          "full_name": "Transit (Warehouse-to-Warehouse) Clause",
+          "definition": "Clause 8 of the Institute Cargo Clauses A, B, and C (1/1/09) which extends marine cargo cover from the time goods leave the warehouse or place of storage at the origin named in the certificate, throughout the ordinary course of transit, until delivered to the consignee's warehouse or final place of storage at the destination named. Cover terminates on expiry of 60 days after discharge of goods from the overseas vessel at the final port of discharge, whichever occurs first.",
+          "attribution": "Institute Cargo Clauses A, B, C (1/1/09), Clause 8 – Transit Clause; LMA/IUA Joint Cargo Committee"
+        },
+        {
+          "term": "Letter of Credit (L/C)",
+          "full_name": "Documentary Letter of Credit (UCP 600)",
+          "definition": "An irrevocable undertaking by an issuing bank, made at the request of a buyer (applicant), to pay the seller (beneficiary) a specified sum against presentation of stipulated documents within a defined time, regardless of the underlying commercial contract. Letters of credit are governed by ICC Uniform Customs and Practice for Documentary Credits, Publication No. 600 (UCP 600, 2007), which defines the roles of issuing, confirming, and nominated banks, and the strict compliance standard for document examination.",
+          "attribution": "ICC UCP 600 (Uniform Customs and Practice for Documentary Credits, ICC Publication No. 600, 2007), iccwbo.org"
+        },
+        {
+          "term": "Standby Letter of Credit (SBLC)",
+          "full_name": "Standby Letter of Credit",
+          "definition": "A bank undertaking to pay a beneficiary if the applicant fails to perform a contractual or financial obligation, functioning as a performance or payment guarantee rather than a primary payment mechanism. SBLCs may be subject to either ICC UCP 600 or, more specifically, the ICC International Standby Practices (ISP98, ICC Publication No. 590), which defines the rules for standby letters of credit including presentation, honour, and transfer; they are also sometimes governed by URDG 758 when structured as demand guarantees.",
+          "attribution": "ICC ISP98 (International Standby Practices, ICC Publication No. 590, 1998); ICC UCP 600 Article 1"
+        },
+        {
+          "term": "Documentary Collection",
+          "full_name": "Documentary Collection (URC 522)",
+          "definition": "A bank-intermediated payment mechanism in which a seller's bank (remitting bank) forwards shipping documents and a collection instruction to the buyer's bank (presenting bank) with directions to release documents either against payment (D/P – documents against payment) or against acceptance of a bill of exchange (D/A – documents against acceptance). Documentary collections are governed by the ICC Uniform Rules for Collections, Publication No. 522 (URC 522, 1995), and carry more risk than a letter of credit since the bank does not guarantee payment.",
+          "attribution": "ICC URC 522 (Uniform Rules for Collections, ICC Publication No. 522, 1995), iccwbo.org"
+        },
+        {
+          "term": "Bank Guarantee / URDG 758",
+          "full_name": "Independent Demand Guarantee (URDG 758)",
+          "definition": "An irrevocable and independent written undertaking by a guarantor bank to pay the beneficiary a stated sum upon presentation of a complying demand, without requiring the guarantor to investigate whether the underlying obligation has actually been breached. Demand guarantees are governed by the ICC Uniform Rules for Demand Guarantees, Publication No. 758 (URDG 758, 2010), which establishes rules on issuance, presentation, extend-or-pay demands, and counter-guarantees for international trade transactions including commodity contracts.",
+          "attribution": "ICC URDG 758 (Uniform Rules for Demand Guarantees, ICC Publication No. 758, 2010), iccwbo.org"
+        },
+        {
+          "term": "Performance Bond",
+          "full_name": "Performance Bond / Guarantee",
+          "definition": "A bond or guarantee issued by a bank or surety in favour of a contract owner (obligee) requiring the guarantor to pay a specified sum if the principal (contractor or seller) fails to perform contractual obligations. In international commodity trade, performance bonds are typically structured as independent demand guarantees subject to URDG 758, enabling the beneficiary to call the guarantee upon presentation of a complying demand without proving the underlying default; under English law, performance bonds may be conditional (requiring proof of breach) or on-demand (unconditional).",
+          "attribution": "ICC URDG 758, Articles 2 and 15; English law on demand guarantees (Meritz Fire & Marine Insurance Co Ltd v Jan de Nul NV [2011] EWCA Civ 827)"
+        },
+        {
+          "term": "Escrow Account",
+          "full_name": "Escrow Account (Third-Party Holding)",
+          "definition": "A bank or trust account held by a neutral third party (escrow agent) on behalf of two contracting parties, with funds released only upon satisfaction of agreed contractual conditions (e.g., delivery of title documents, passage of quality inspection, or fulfilment of regulatory approvals). Escrow arrangements in commodity trade are based on common-law trust principles and are typically documented under a tripartite escrow agreement; ICC provides guidance on escrow structures in its Model Contracts and Standard Clauses.",
+          "attribution": "Common-law trust and escrow principles; ICC Standard Contracts and Clauses guidance, iccwbo.org"
+        },
+        {
+          "term": "Open Account vs CAD",
+          "full_name": "Open Account vs Cash Against Documents",
+          "definition": "Open account (O/A) is a settlement method where the exporter ships goods and invoices the buyer, who pays after an agreed credit period (e.g., 30–90 days), placing maximum risk on the seller. Cash against documents (CAD / D/P) requires the buyer to pay before the presenting bank releases title documents, offering moderate seller protection without a bank payment guarantee. ICC places both methods on the trade-finance risk spectrum between open account (highest seller risk) and confirmed L/C (lowest).",
+          "attribution": "ICC Trade Finance for SMEs guide; ICC URC 522 (documentary collections), iccwbo.org"
+        },
+        {
+          "term": "Institute Strikes Clauses (Cargo)",
+          "full_name": "Institute Strikes Clauses (Cargo) — CL 386 / formerly CL 258",
+          "definition": "Standard IUA/LMA cargo insurance clauses providing coverage for loss or damage to cargo caused by strikers, locked-out workmen, persons taking part in labour disturbances, riots, or civil commotions, and acts of terrorism. This cover is ordinarily excluded from Institute Cargo Clauses A, B, and C (which contain a general strikes exclusion) and must be added separately. The current edition is CL 386 (1/1/2009); the earlier edition was CL 258 (1/1/1982).",
+          "attribution": "Institute Strikes Clauses (Cargo) CL 386 (1 January 2009), Clause 1.1 (Risks Covered), issued by the International Underwriting Association (IUA) / Lloyd's Market Association (LMA); Institute Cargo Clauses (A) CL 382, Clause 7 (General Exclusions — strikes)"
+        }
+      ]
+    },
+    {
       "id": "rwa-tokenization",
       "name": "RWA & Tokenization",
       "icon": "link",
@@ -447,6 +1080,116 @@
           "full_name": "Security Token Offering",
           "definition": "A Security Token Offering (STO) is a regulated method of raising capital in which a company issues digital tokens on a blockchain that are classified as securities and represent ownership rights, profit participation, or other investment interests. Unlike unregulated token sales, STOs are subject to applicable securities laws in each jurisdiction, including disclosure, registration, and investor eligibility requirements.",
           "attribution": "Based on: SEC and ESMA official documentation"
+        },
+        {
+          "term": "Oracle",
+          "full_name": "Blockchain Oracle — Off-Chain Data Provider",
+          "definition": "A system or service that delivers external (off-chain) data to a smart contract on a blockchain, bridging the gap between on-chain logic and real-world information. Chainlink's decentralised oracle network aggregates data from multiple independent node operators and publishes it on-chain via aggregator contracts, reducing single-point-of-failure risk. Oracles are essential for RWA tokenisation as they relay asset prices, reserve balances, and compliance attestations.",
+          "attribution": "Chainlink Data Feeds Documentation (docs.chain.link/data-feeds); Chainlink Proof of Reserve Documentation (docs.chain.link/data-feeds/proof-of-reserve)"
+        },
+        {
+          "term": "Proof of Reserve",
+          "full_name": "Proof of Reserve (PoR) — Cryptographic Reserve Attestation",
+          "definition": "A mechanism by which on-chain verifiable proof is provided that a tokenised asset is fully backed by off-chain reserves. Chainlink Proof of Reserve Feeds provide the status of reserves for assets including cross-chain and off-chain holdings, sourced via third-party auditors, direct custodian data feeds, or (with additional risk) issuer self-reporting. Smart contracts implement PoR using the AggregatorV3Interface.",
+          "attribution": "Chainlink Proof of Reserve Documentation (docs.chain.link/data-feeds/proof-of-reserve), including feed types: Third-party, Custodian, Self-reported, Wallet address manager"
+        },
+        {
+          "term": "Data Feed / Price Oracle",
+          "full_name": "Chainlink Data Feed / On-Chain Price Oracle",
+          "definition": "A continuously updated on-chain data stream providing real-world asset prices or other reference data to smart contracts. Chainlink Data Feeds aggregate data from multiple sources using a decentralised oracle network and Offchain Reporting protocol, publishing updates on-chain when the price deviates beyond a threshold or the heartbeat interval expires. Consuming contracts query the aggregator via the AggregatorV3Interface latestRoundData() function.",
+          "attribution": "Chainlink Data Feeds Documentation (docs.chain.link/data-feeds): 'Chainlink Data Feeds are the quickest way to connect your smart contracts to real-world data such as asset prices, reserve balances, and L2 sequencer health.'"
+        },
+        {
+          "term": "Attestation",
+          "full_name": "Verifiable Attestation / Digitally Signed Credential",
+          "definition": "A tamper-evident, cryptographically signed statement by an issuer asserting one or more facts about a subject—such as reserve balances, identity, or compliance status. The W3C Verifiable Credentials Data Model 1.1 defines a verifiable credential as 'a tamper-evident credential whose authorship can be cryptographically verified.' In the context of tokenised metals, attestations from auditors or custodians may be encoded as Verifiable Credentials or relayed on-chain via oracles.",
+          "attribution": "W3C Verifiable Credentials Data Model 1.1 (W3C Recommendation, 3 March 2022), Section 2 Terminology (definition of 'verifiable credential'); w3.org/TR/vc-data-model"
+        }
+      ]
+    },
+    {
+      "id": "data-standards",
+      "name": "Data Standards & Reporting",
+      "icon": "database",
+      "terms": [
+        {
+          "term": "EMIR",
+          "full_name": "European Market Infrastructure Regulation — OTC Derivative Trade Reporting",
+          "definition": "EU Regulation 648/2012 (EMIR) requires counterparties and CCPs to report details of any derivative contract (conclusion, modification, or termination) to a registered trade repository by the following working day. It also mandates central clearing for standardised OTC derivatives through an authorised CCP and bilateral risk mitigation for non-centrally cleared trades. CFTC Part 43/45 rules impose analogous real-time and regulatory reporting obligations in the US under Dodd-Frank Title VII.",
+          "attribution": "EU Regulation 648/2012 (EMIR), Articles 2(7), 4, 9; CFTC Rules 17 CFR Parts 43 and 45 (Dodd-Frank Title VII swap reporting)"
+        },
+        {
+          "term": "MiFID II",
+          "full_name": "Markets in Financial Instruments Directive II",
+          "definition": "EU Directive 2014/65/EU and its accompanying regulation MiFIR (Regulation 600/2014) establish the regulatory framework for investment services across EU financial markets. Key provisions include authorisation requirements for investment firms, pre- and post-trade transparency obligations, best execution duties (Article 27), systematic internaliser regime, position limits for commodity derivatives (Article 57), and weekly position reporting.",
+          "attribution": "EU Directive 2014/65/EU (MiFID II), Articles 4(1), 27, 57, 58; EU Regulation 600/2014 (MiFIR), Articles 20–21; europa.eu"
+        },
+        {
+          "term": "LEI",
+          "full_name": "Legal Entity Identifier (ISO 17442)",
+          "definition": "A unique 20-character alphanumeric code that unambiguously identifies a legal entity engaging in financial transactions globally, based on ISO 17442 standard managed by GLEIF (Global Legal Entity Identifier Foundation). Each LEI is linked to verified reference data (Level 1: 'who is who'; Level 2: 'who owns whom'). LEIs are mandatory for derivative reporting under EMIR, MiFIR, and Dodd-Frank.",
+          "attribution": "ISO 17442 Parts 1 and 2; GLEIF 'Introducing the Legal Entity Identifier', gleif.org; EU EMIR Article 9 and MiFIR Article 26 (LEI requirement)"
+        },
+        {
+          "term": "ISO 20022",
+          "full_name": "ISO 20022 — Universal Financial Industry Message Scheme",
+          "definition": "An international standard published by ISO Technical Committee TC68 (Financial Services) providing a common platform and methodology for developing financial messaging. It uses a business-modelling approach to produce XML and ASN.1-based message formats for payments, securities, trade services, and derivatives. SWIFT is migrating cross-border payments messaging (CBPR+) to ISO 20022, with the transition period through 2025.",
+          "attribution": "ISO 20022 (Financial Services — Universal financial industry message scheme), TC68; iso20022.org; SWIFT ISO 20022 migration programme"
+        }
+      ]
+    },
+    {
+      "id": "taxation-customs",
+      "name": "Taxation & Customs",
+      "icon": "building-columns",
+      "terms": [
+        {
+          "term": "HS Code",
+          "full_name": "Harmonized System / Harmonized Tariff Schedule Code",
+          "definition": "A six-digit international product classification code under the Harmonized Commodity Description and Coding System developed by the World Customs Organization. The HS comprises over 5,000 commodity groups used by more than 200 countries as the basis for customs tariffs and trade statistics; over 98% of world merchandise trade is classified in HS terms. Countries may extend beyond six digits for national tariff purposes.",
+          "attribution": "WCO International Convention on the Harmonized Commodity Description and Coding System; wcoomd.org, 'What is the Harmonized System?'"
+        },
+        {
+          "term": "VAT/GST on Metals",
+          "full_name": "Value Added Tax / Goods and Services Tax on Metal Trades",
+          "definition": "Indirect tax levied on the supply of goods and services. Under EU VAT Directive 2006/112/EC Article 344, investment-grade gold (minimum 995 fineness for bars, 900 for coins) is VAT-exempt. The UK VAT Terminal Markets Order extends relief to transactions on LBMA-listed and LME markets. GST treatment varies by jurisdiction and metal type.",
+          "attribution": "EU Council Directive 2006/112/EC (VAT Directive), Articles 344–356 (special scheme for investment gold); UK VAT Act 1994 and Terminal Markets Order (SI 1973/173 as amended)"
+        },
+        {
+          "term": "Import/Export Duty",
+          "full_name": "Customs Import and Export Duty",
+          "definition": "Taxes levied by national customs authorities on goods crossing international borders. Import duties are bound in each WTO Member's Schedule of Concessions under GATT Article II; Members may not apply rates above bound levels. Export duties are generally not prohibited by WTO law but are subject to some free-trade agreement disciplines.",
+          "attribution": "WTO General Agreement on Tariffs and Trade (GATT 1994), Article II (Schedules of Concessions); WCO International Convention on the Harmonized System"
+        },
+        {
+          "term": "Duty Drawback",
+          "full_name": "Duty Drawback / Relief from Import Duties",
+          "definition": "A refund or remission of customs duties paid on imported goods that are subsequently re-exported, used in the manufacture of exported products, or entered into a free zone. The WCO Revised Kyoto Convention Specific Annex F Chapter 1 defines drawback as 'the amount of import duties and taxes repaid under the drawback procedure.'",
+          "attribution": "WCO Revised Kyoto Convention (1999), Specific Annex F, Chapter 1: Relief from Import Duties and Taxes on Goods for Subsequent Exportation"
+        },
+        {
+          "term": "Free Trade Zone",
+          "full_name": "Free Trade Zone / Bonded Warehouse / Customs-Controlled Area",
+          "definition": "A designated geographic area—such as a free port, bonded warehouse, or special economic zone—where goods may be stored, processed, or transshipped without payment of customs duties pending re-export or customs clearance. The WCO Revised Kyoto Convention Specific Annex D defines free zones as 'parts of the territory of a Contracting Party where any goods introduced are generally regarded, insofar as import duties and taxes are concerned, as being outside the Customs territory.'",
+          "attribution": "WCO Revised Kyoto Convention (1999), Specific Annex D, Chapter 2: Free Zones; UNCTAD Free Trade Zones guidelines"
+        },
+        {
+          "term": "Rules of Origin",
+          "full_name": "Rules of Origin (Preferential and Non-Preferential)",
+          "definition": "Criteria used to determine the country of origin of a product for purposes of applying trade policy measures including tariff preferences, quotas, anti-dumping duties, and countervailing duties. The WTO Agreement on Rules of Origin (Annex 1A to the WTO Agreement) governs non-preferential rules and established a harmonisation work programme; preferential rules are agreed in FTAs.",
+          "attribution": "WTO Agreement on Rules of Origin (Marrakesh Agreement Annex 1A, 1994); WCO Revised Kyoto Convention Specific Annex K; wto.org trade topics"
+        },
+        {
+          "term": "WTO Customs Valuation",
+          "full_name": "WTO Agreement on Customs Valuation (Article VII GATT Implementation)",
+          "definition": "The WTO Agreement on Implementation of Article VII of GATT 1994 establishes a fair, uniform, and neutral system for valuing imported goods for customs duty purposes. The primary method is transaction value (price actually paid or payable); five fallback methods apply sequentially. The Agreement prohibits arbitrary or fictitious customs values.",
+          "attribution": "WTO Agreement on Implementation of Article VII of the General Agreement on Tariffs and Trade 1994 (Customs Valuation Agreement), Articles 1–7; wto.org"
+        },
+        {
+          "term": "Transfer Pricing",
+          "full_name": "Transfer Pricing (OECD BEPS Actions 8–10 and 13)",
+          "definition": "The prices charged between associated enterprises (affiliates of a multinational group) for goods, services, or intangibles. The OECD arm's length principle—codified in OECD Transfer Pricing Guidelines 2022—requires that these prices reflect what independent parties would agree. BEPS Actions 8–10 aligned transfer pricing outcomes with value creation; Action 13 introduced country-by-country reporting (CbCR).",
+          "attribution": "OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations 2022; OECD BEPS Action Plan Actions 8–10 (2015 Final Reports) and Action 13 (CbCR); oecd.org"
         }
       ]
     },
@@ -563,6 +1306,49 @@
           "full_name": "Inflation Reduction Act",
           "definition": "The Inflation Reduction Act (IRA) is a U.S. federal law enacted in 2022 that includes significant provisions for clean energy manufacturing and critical minerals. Among its key mechanisms is a tax credit under Section 45X for domestic producers of critical minerals, and eligibility requirements for electric vehicle tax credits that mandate a specified percentage of battery critical minerals be extracted or processed in the United States or countries with a U.S. free trade agreement.",
           "attribution": "Based on: U.S. Department of the Treasury and IRS official documentation"
+        }
+      ]
+    },
+    {
+      "id": "responsible-sourcing",
+      "name": "Responsible Sourcing & Chain of Custody",
+      "icon": "leaf",
+      "terms": [
+        {
+          "term": "OECD DDG",
+          "full_name": "OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas",
+          "definition": "A step-by-step management framework endorsed by OECD governments providing five steps for responsible mineral supply chains: (1) establish management systems; (2) identify and assess risks; (3) design and implement a risk-management strategy; (4) obtain independent third-party assurance; (5) report on due diligence. The Guidance and its Supplements on 3T and Gold define conflict-affected and high-risk areas (CAHRAs) by reference to Annex II red-flag risks.",
+          "attribution": "OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas, 3rd Edition (Paris: OECD Publishing, 2016); oecd.org"
+        },
+        {
+          "term": "Conflict Minerals (3TG)",
+          "full_name": "Conflict Minerals — Tin, Tantalum, Tungsten, Gold",
+          "definition": "Under Dodd-Frank Act Section 1502 and SEC Rule 13p-1, issuers must disclose whether tin, tantalum, tungsten, or gold (3TG) in their products originated from the Democratic Republic of the Congo or adjoining countries and financed armed groups. Covered issuers file Form SD annually. The SEC defines 'conflict minerals' as cassiterite (tin ore), coltan (tantalum ore), wolframite (tungsten ore), and gold.",
+          "attribution": "Dodd-Frank Wall Street Reform and Consumer Protection Act (2010), Section 1502; SEC Rule 13p-1 and Form SD (17 CFR Part 249b)"
+        },
+        {
+          "term": "RMI",
+          "full_name": "Responsible Minerals Initiative / Responsible Minerals Assurance Process (RMAP)",
+          "definition": "The Responsible Minerals Initiative (RMI), a program of the Responsible Business Alliance, runs the Responsible Minerals Assurance Process (RMAP)—an independent third-party audit program for smelters and refiners. RMAP Standards are aligned with OECD Due Diligence Guidance, EU Regulation 2017/821, and Dodd-Frank Section 1502. EU recognition of RMAP by the European Commission was achieved in 2025.",
+          "attribution": "Responsible Minerals Initiative, RMAP Overview and Standards pages; responsibleminerals.org; EU Regulation 2017/821 (EU Conflict Minerals Regulation)"
+        },
+        {
+          "term": "Chain of Custody",
+          "full_name": "Chain of Custody (CoC) — Mineral Supply Chain Traceability",
+          "definition": "The documented and verifiable sequence of custody, ownership, and handling of mineral material from extraction through processing to end-use, designed to prevent adulteration with non-compliant material. The OECD DDG Annex II identifies falsification of chain-of-custody as a red-flag risk. LBMA Responsible Gold Guidance V9 Step 1.3 requires refiners to establish a gold traceability system.",
+          "attribution": "OECD Due Diligence Guidance, 3rd Edition (2016), Annex II; LBMA Responsible Gold Guidance V9 (2021), Section 1.3 'Establish a gold traceability system'"
+        },
+        {
+          "term": "Mass Balance vs Segregated",
+          "full_name": "Mass Balance versus Segregated Chain-of-Custody Models",
+          "definition": "Two approaches to tracking certified material through supply chains. In the segregated (identity-preserved) model, certified material is kept physically separate from non-certified material at all stages. In the mass balance model, certified and non-certified inputs are commingled but certified volumes are tracked administratively; a certified volume claim is made against documented inputs. Both are recognised in industry standards including ISEAL Alliance guidance.",
+          "attribution": "ISEAL Alliance Chain of Custody Models & Definitions Guidance v1.0; LBMA Responsible Gold Guidance V9 (2021) — references to different material types and traceability approaches"
+        },
+        {
+          "term": "LBMA Responsible Gold Guidance",
+          "full_name": "LBMA Responsible Gold Guidance V9 / Responsible Silver Guidance",
+          "definition": "The mandatory responsible sourcing standard for all LBMA Good Delivery List gold and silver refiners, finalised in November 2021. Based on the OECD Five-Step Due Diligence Framework, it requires KYC on gold-supplying counterparties, supply chain risk assessment against OECD Annex II risks (including AML/CTF and ESG factors), and annual independent assurance. Failure to comply may result in removal from the Good Delivery List.",
+          "attribution": "LBMA Responsible Gold Guidance V9 (November 2021), Introduction and Five-Step Due Diligence Framework; lbma.org.uk"
         }
       ]
     },
@@ -726,6 +1512,170 @@
           "full_name": "Benchmark Pricing",
           "definition": "Benchmark pricing for metals refers to independent price assessments published by specialist price reporting agencies (PRAs) such as Fastmarkets, Asian Metal, and S&P Global Commodity Insights (Platts), which establish the prevailing tradeable level at which a commodity of a stated specification has, or could be expected to have, transacted over a defined assessment period. These assessments are based on data collected from a broad sample of market participants—producers, consumers, traders, and intermediaries—through direct reporting rather than exchange-based trading. Benchmark prices serve as reference prices for physical contracts, financial instruments, and transfer pricing for metals that are not traded on formal exchanges such as the LME.",
           "attribution": "Based on: Fastmarkets — Price Assessment Methodology official documentation"
+        }
+      ]
+    },
+    {
+      "id": "arbitration-dispute",
+      "name": "Arbitration & Dispute Resolution",
+      "icon": "gavel",
+      "terms": [
+        {
+          "term": "LCIA",
+          "full_name": "London Court of International Arbitration",
+          "definition": "One of the world's leading international arbitration institutions, administering disputes under the LCIA Arbitration Rules 2020 (in force 1 October 2020). The LCIA Court oversees case administration, appoints and challenges arbitrators, and sets procedural timetables. Rules permit an Emergency Arbitrator application before or concurrent with the Request for Arbitration.",
+          "attribution": "LCIA Arbitration Rules 2020, effective 1 October 2020 (Articles 1, 5, 9B)"
+        },
+        {
+          "term": "LME Arbitration",
+          "full_name": "London Metal Exchange Arbitration (Part 8 LME Rulebook)",
+          "definition": "A mandatory dispute-resolution procedure under the LME Rulebook for disputes between Members arising out of LME contracts. Part 8 of the LME Rulebook establishes the arbitration framework, appointing an arbitral tribunal whose award is binding on the parties; disputes may also be referred to an Appeal Arbitration Panel.",
+          "attribution": "LME Rulebook (30 March 2026 release), Part 8: Arbitration and Appeals"
+        },
+        {
+          "term": "ICC Arbitration",
+          "full_name": "International Chamber of Commerce Arbitration",
+          "definition": "Arbitration administered by the ICC International Court of Arbitration under the ICC Arbitration Rules 2021 (in force 1 January 2021). The ICC Court does not itself resolve disputes but scrutinises and approves all awards rendered. The date of commencement is when the Secretariat receives the Request; the arbitral tribunal draws up Terms of Reference under Article 23.",
+          "attribution": "ICC Rules of Arbitration 2021, Articles 1, 4(2), 23; iccwbo.org"
+        },
+        {
+          "term": "HKIAC",
+          "full_name": "Hong Kong International Arbitration Centre",
+          "definition": "A leading Asian arbitration institution administering disputes under the HKIAC Administered Arbitration Rules 2018 (in force 1 November 2018). The 2018 Rules introduced shortened emergency arbitrator time limits (appointment within 24 hours), an early-determination procedure, and third-party funding provisions. The default seat is Hong Kong absent party agreement.",
+          "attribution": "HKIAC Administered Arbitration Rules 2018, Schedule 4 (Emergency Arbitrator Procedure), paragraphs 4 and 9; hkiac.org"
+        },
+        {
+          "term": "SIAC",
+          "full_name": "Singapore International Arbitration Centre",
+          "definition": "A leading Asian arbitration institution administering disputes under the SIAC Rules 2016 (6th Edition, in force 1 August 2016). Key features include an expedited procedure (Rule 5) with a six-month award deadline, an emergency arbitrator procedure requiring appointment within one business day (Schedule 1), and an early dismissal procedure (Rule 29).",
+          "attribution": "SIAC Arbitration Rules 2016, Rules 1.3, 5.1, 5.2, 29, Schedule 1 paragraphs 3 and 8; siac.org.sg"
+        },
+        {
+          "term": "SCC",
+          "full_name": "Stockholm Chamber of Commerce Arbitration Institute",
+          "definition": "The Arbitration Institute of the Stockholm Chamber of Commerce administers international commercial and investment arbitrations. The SCC Board (not a court of arbitration) administers cases and may refer disputes to a sole arbitrator or tribunal; the SCC also has an emergency arbitrator procedure. Stockholm is a frequently chosen neutral seat for East-West and energy disputes.",
+          "attribution": "SCC Arbitration Rules (2017 edition); sccinstitute.com"
+        },
+        {
+          "term": "Ad Hoc vs Institutional Arbitration",
+          "full_name": "Ad Hoc Arbitration versus Institutional Arbitration",
+          "definition": "In ad hoc arbitration, parties manage the procedure themselves without an administering institution, often using the UNCITRAL Arbitration Rules as a procedural framework. In institutional arbitration, a designated institution (LCIA, ICC, HKIAC, SIAC, etc.) administers the case, appoints arbitrators, and reviews awards. The UNCITRAL Rules 2013 are used in both modes.",
+          "attribution": "UNCITRAL Arbitration Rules 2013 (UN General Assembly Resolution 68/109): Article 1, paragraph 4; uncitral.un.org"
+        },
+        {
+          "term": "UNCITRAL Arbitration Rules",
+          "full_name": "UNCITRAL Arbitration Rules (2013 Revision)",
+          "definition": "A comprehensive set of procedural rules for international arbitration published by the UN Commission on International Trade Law, widely used in ad hoc and institutionally administered arbitrations. The 2013 revision added Article 1(4) incorporating the UNCITRAL Transparency Rules for treaty-based investor-State arbitrations commenced under investment treaties on or after 1 April 2014.",
+          "attribution": "UNCITRAL Arbitration Rules (with Article 1(4) as adopted in 2013), UN General Assembly Resolution 68/109; uncitral.un.org"
+        },
+        {
+          "term": "New York Convention",
+          "full_name": "Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York, 1958)",
+          "definition": "The principal multilateral treaty governing the enforcement of foreign arbitral awards, adopted by the United Nations on 10 June 1958 and entered into force 7 June 1959. Contracting States must recognise and enforce arbitral awards made in other Contracting States as if they were domestic awards, and must give effect to arbitration agreements by staying court proceedings. Refusal grounds are limited (Article V).",
+          "attribution": "UN Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York, 1958), Articles I, II, V, XII; uncitral.un.org"
+        },
+        {
+          "term": "Seat of Arbitration",
+          "full_name": "Juridical Seat of Arbitration",
+          "definition": "The legal domicile of an arbitration, determining the applicable curial (procedural) law, the supervisory courts, and the nationality of the award for enforcement purposes. The seat is distinct from the physical venue of hearings. Under ICC Rules 2021 Article 18(1), the ICC Court fixes the seat absent party agreement; under SIAC Rules 2016 Rule 21.1, the Tribunal determines it absent agreement.",
+          "attribution": "ICC Arbitration Rules 2021, Article 18(1), Article 32(3); SIAC Rules 2016, Rule 21.1; HKIAC Rules 2018, Schedule 4 paragraph 9"
+        },
+        {
+          "term": "Mediation",
+          "full_name": "International Commercial Mediation",
+          "definition": "A consensual, confidential process in which a neutral mediator facilitates negotiated settlement between disputing parties without imposing a binding decision. The ICC Mediation Rules 2021 (successor to the 2014 Rules) provide an institutional framework; parties may request mediation before or during arbitration. HKIAC also administers mediation proceedings.",
+          "attribution": "ICC Mediation Rules 2021 (updated from ICC Mediation Rules 2014), Article 1; iccwbo.org"
+        },
+        {
+          "term": "Expert Determination",
+          "full_name": "Expert Determination / Technical Expert Referee",
+          "definition": "A binding resolution procedure where a qualified independent expert (rather than an arbitral tribunal) determines a specific technical or factual issue—such as an assay dispute—and the decision is contractually final. The LBMA Good Delivery Rules use LBMA-appointed referees to resolve conflicting assays; LME contracts may refer quality disputes to an expert rather than full arbitration.",
+          "attribution": "LBMA Good Delivery Rules (2025 edition), Section 4.1 and Annex C (Referee procedures); LME Rulebook Part 8 (arbitration) and market practice for technical quality disputes"
+        }
+      ]
+    },
+    {
+      "id": "risk-management",
+      "name": "Risk Management",
+      "icon": "alert-triangle",
+      "terms": [
+        {
+          "term": "Counterparty Risk",
+          "full_name": "Counterparty Credit Risk",
+          "definition": "The risk that a counterparty to a financial transaction or commodity contract could default before the final settlement of the transaction's cash flows, resulting in an economic loss if the portfolio or transaction has a positive economic value at the time of default. Unlike credit risk on a loan (which is unilateral), counterparty credit risk is bilateral—the market value of the transaction can be positive or negative to either party—and is addressed by netting agreements, collateral, and central clearing (Basel Committee, Basel II/III framework).",
+          "attribution": "Basel Committee on Banking Supervision, 'International Convergence of Capital Measurement and Capital Standards: A Revised Framework' (Basel II, BCBS128, June 2006), Part 2, Section II.A, bis.org/publ/bcbs128.pdf"
+        },
+        {
+          "term": "Default / Breach of Contract",
+          "full_name": "Default and Breach of Contract",
+          "definition": "A default occurs when a party fails to fulfil one or more of its contractual obligations—such as failure to deliver metal, make payment, or meet quality specifications—giving rise to a breach of contract under applicable law. Under LME Rulebook Part 9, a member's default triggers suspension, appointment of a default committee, close-out netting of open positions, and use of the LME's default fund and guarantees to ensure market continuity; damages for breach follow common-law principles of expectation loss.",
+          "attribution": "LME Rulebook, Part 9 (Default Procedures); general commercial law on breach of contract"
+        },
+        {
+          "term": "Force Majeure",
+          "full_name": "Force Majeure (ICC Clause 2020)",
+          "definition": "Under the ICC Force Majeure Clause 2020, 'Force Majeure' means an event or circumstance that prevents or impedes a party from performing contractual obligations, provided the affected party proves: (a) the impediment is beyond its reasonable control; (b) it could not reasonably have been foreseen at contract conclusion; and (c) its effects could not reasonably be avoided or overcome. A party successfully invoking the clause is relieved from performance and from liability in damages from the time of the impediment, subject to timely notification.",
+          "attribution": "ICC Force Majeure Clause 2020 (Long Form), Paragraph 1, iccwbo.org/wp-content/uploads/sites/3/2020/03/icc-forcemajeure-hardship-clauses-march2020.pdf"
+        },
+        {
+          "term": "Hardship Clause",
+          "full_name": "ICC Hardship Clause 2020",
+          "definition": "The ICC Hardship Clause 2020 applies where a party proves continued performance has become excessively onerous due to an event beyond its reasonable control that was unforeseeable at contract conclusion and whose consequences could not be avoided. Unlike force majeure (which excuses performance), hardship triggers an obligation on both parties to renegotiate terms; if renegotiation fails, parties may choose between party-initiated termination, court/arbitral adaptation, or court/arbitral termination depending on the option elected.",
+          "attribution": "ICC Hardship Clause 2020, Paragraphs 1–3, iccwbo.org/wp-content/uploads/sites/3/2020/03/icc-forcemajeure-hardship-clauses-march2020.pdf"
+        },
+        {
+          "term": "Political Risk / Sovereign Risk",
+          "full_name": "Political Risk and Sovereign Risk",
+          "definition": "Political risk encompasses the probability that government actions or political events—including expropriation, nationalisation, currency inconvertibility, sanctions, civil unrest, and regulatory change—will adversely affect the value of a cross-border commercial or investment position. Sovereign risk is the related credit risk that a national government will default on its obligations. The Multilateral Investment Guarantee Agency (MIGA) and OECD Country Risk Classifications provide frameworks for assessing and pricing these risks in trade finance and investment insurance.",
+          "attribution": "MIGA (World Bank Group Multilateral Investment Guarantee Agency), Political Risk Insurance; OECD Arrangement on Officially Supported Export Credits and Country Risk Classification methodology, oecd.org"
+        },
+        {
+          "term": "Basis Risk",
+          "full_name": "Basis Risk (Hedge-Physical Mismatch)",
+          "definition": "The risk that the price of a hedging instrument (e.g., an LME futures contract for Grade A copper) does not move in perfect correlation with the price of the physical commodity being hedged (e.g., a specific copper concentrate grade or delivery location), resulting in residual P&L exposure even after hedging. Basis risk arises from differences in grade, location, timing (contango/backwardation), and quality between the hedge and the physical position, and cannot be eliminated by standard exchange-traded hedges.",
+          "attribution": "LME Insight publications on hedging and basis risk; CME Group education resources on commodity hedging"
+        },
+        {
+          "term": "Settlement Risk (Herstatt Risk)",
+          "full_name": "Settlement Risk / Herstatt Risk (FX Transactions)",
+          "definition": "Settlement risk is the risk that a party to a transaction delivers its obligation (securities or currency) but does not receive the corresponding payment or delivery from its counterparty; in foreign exchange this is known as Herstatt risk, named after the 1974 collapse of Bankhaus Herstatt which failed between European and US dollar settlement legs. The BIS CPSS/CPMI has extensively studied FX settlement risk since 1996 and promotes payment-versus-payment (PvP) mechanisms to eliminate principal risk in FX settlement.",
+          "attribution": "BIS CPSS, 'Settlement Risk in Foreign Exchange Transactions' (March 1996), bis.org/cpmi/publ/d17.htm; BIS/BCBS128, Annex 3 (Settlement Risk in Failed Trades), bis.org/publ/bcbs128.pdf"
+        },
+        {
+          "term": "Liquidity Risk",
+          "full_name": "Liquidity Risk (Basel III LCR / NSFR Framework)",
+          "definition": "The risk that an institution cannot meet its financial obligations as they fall due without incurring unacceptable losses. Basel III addresses short-term liquidity risk through the Liquidity Coverage Ratio (LCR), which requires banks to hold sufficient unencumbered high-quality liquid assets (HQLA) to survive a 30-day stress scenario; the Net Stable Funding Ratio (NSFR) addresses structural funding risk over a one-year horizon. The LCR became a minimum 100% requirement from 1 January 2019.",
+          "attribution": "Basel Committee on Banking Supervision, 'Basel III: The Liquidity Coverage Ratio and Liquidity Risk Monitoring Tools' (BCBS238, January 2013), bis.org/publ/bcbs238.htm"
+        },
+        {
+          "term": "Operational Risk",
+          "full_name": "Operational Risk (Basel Committee Definition)",
+          "definition": "Operational risk is defined by the Basel Committee as the risk of loss resulting from inadequate or failed internal processes, people and systems or from external events; it includes legal risk but excludes strategic and reputational risk. The Basel Committee's 'Principles for the Sound Management of Operational Risk' (BCBS195, June 2011) establishes governance and management principles; operational risk is inherent in all banking products, activities, processes, and systems.",
+          "attribution": "Basel Committee on Banking Supervision, 'International Convergence of Capital Measurement and Capital Standards' (BCBS128, 2006), Part 2 Section V.A, bis.org/publ/bcbs128.pdf; 'Principles for the Sound Management of Operational Risk' (BCBS195, 2011), bis.org/publ/bcbs195.htm"
+        },
+        {
+          "term": "Warehouse / Collateral Fraud Risk",
+          "full_name": "Warehouse Receipt and Collateral Fraud Risk",
+          "definition": "The risk that warehouse receipts or warrants are used as collateral for multiple simultaneous loans against the same physical metal (double- or multiple-pledging), or that fraudulent receipts are issued for non-existent inventory. The 2014 Qingdao metals financing scandal—in which warehouse receipts for copper and aluminium were allegedly pledged multiple times to different banks—highlighted this risk in non-LME warehouses; the LME subsequently strengthened its warehouse approval and collateral management policies requiring electronic warrant tracking via the LMEshield platform.",
+          "attribution": "LME Warehousing Regulations and LMEshield electronic warrant system, lme.com; Reuters, 'Two years after Qingdao scandal, LME bets on electronic tracking of metal' (June 2016)"
+        },
+        {
+          "term": "Arbitration",
+          "full_name": "International Commercial Arbitration",
+          "definition": "A private, binding dispute resolution procedure in which parties submit their dispute to an arbitral tribunal whose final award is enforceable in over 170 states under the 1958 New York Convention. ICC Arbitration under the Rules of Arbitration (effective 1 January 2021) is described as 'a formal procedure leading to a binding decision from a neutral arbitral tribunal'; the ICC International Court of Arbitration administers the proceedings, provides scrutiny of draft awards, and is the most widely used international arbitral institution for commodity and trade disputes.",
+          "attribution": "ICC Rules of Arbitration 2021 (effective 1 January 2021), Foreword and Article 1, iccwbo.org/wp-content/uploads/sites/3/2020/12/icc-2021-arbitration-rules-2014-mediation-rules-english-version.pdf; LME Rulebook (arbitration under LME Rules)"
+        },
+        {
+          "term": "Dispute Resolution / Governing Law",
+          "full_name": "Dispute Resolution Clause and Governing Law",
+          "definition": "Contract clauses specifying (a) the forum for resolving disputes—typically arbitration under ICC, LCIA, LMAA, or SIAC rules, or litigation in a named court—and (b) the law governing the substantive rights and obligations of the parties (e.g., English law, New York law, or Swiss law). The ICC Arbitration Rules 2021 allow parties to agree on the rules of law to be applied; in the absence of agreement, the tribunal applies the rules it determines appropriate, taking into account the contract and relevant trade usages.",
+          "attribution": "ICC Rules of Arbitration 2021, Article 21 (Applicable Rules of Law), iccwbo.org; ICC Standard Contracts and Clauses"
+        },
+        {
+          "term": "Strike Risk",
+          "full_name": "Strike Risk / Labour Industrial Action Risk",
+          "definition": "The risk that production, transportation, or delivery of a commodity is disrupted by strike, lock-out, go-slow, or other collective labour action, potentially causing non-performance of contractual obligations. Under the ICC Force Majeure Clause 2020 paragraph 3(g), 'general labour disturbance such as boycott, strike and lock-out, go-slow, occupation of factories and premises' is a presumed force majeure event, meaning the affected party need not prove the event was beyond control or unforeseeable.",
+          "attribution": "ICC Force Majeure Clause 2020, paragraph 3(g): Presumed Force Majeure Events; iccwbo.org (published March 2020)"
         }
       ]
     }
