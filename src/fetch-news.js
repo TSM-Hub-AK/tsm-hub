@@ -69,7 +69,7 @@ const NEWS_QUERIES = [
   { query: 'OECD due diligence minerals WTO trade dispute metals', category: 'global-policy' },
 ];
 
-const MAX_TOTAL_ARTICLES = 80;  // More articles to support expanded metal + topic filtering
+const MAX_TOTAL_ARTICLES = 100;  // 100-article ceiling — cleaner marketing number, supports expanded metal + topic filtering
 const MAX_AGE_DAYS = 7;         // Max article age (7 days)
 
 // Trusted sources for metals/commodities (bonus in scoring)
