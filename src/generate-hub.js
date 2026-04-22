@@ -794,38 +794,77 @@ html = html.replace('{{GLOSSARY_SECTION_HTML}}', glossaryHTML);
 html = html.replace('{{PRODUCERS_SECTION_HTML}}', producersSectionHTML);
 
 // ─── Data Sources Section ───
+const srcCardStyle = 'background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);';
+const srcHeadStyle = 'font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;';
+const srcBodyStyle = 'font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;';
+const srcLinkStyle = 'color: var(--color-primary); font-weight: 500;';
+const srcPara = (href, title, desc, last) => `<p style="margin: 0 0 ${last ? '0' : 'var(--space-2)'} 0;"><a href="${href}" target="_blank" rel="noopener" style="${srcLinkStyle}">${title}</a><br>${desc}</p>`;
 const dataSourcesHTML = `<div class="digest-section" id="sources-section">
     <h2 class="digest-section__title">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
       Our Data Sources
     </h2>
-    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">TrueSource Metals uses only primary, authoritative sources. We do not modify, estimate, or interpret data. All figures are reported exactly as published by the original source.</p>
-    <style>.sources-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); } @media (max-width: 700px) { .sources-grid { grid-template-columns: 1fr; } }</style>
+    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-bottom: var(--space-5);">TrueSource Metals uses only primary, authoritative sources — exchanges, regulators, statistical agencies, and technical standards bodies. We do not modify, estimate, or interpret data. All figures are reported exactly as published by the original source.</p>
+    <style>.sources-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); } @media (max-width: 900px) { .sources-grid { grid-template-columns: repeat(2, 1fr); } } @media (max-width: 600px) { .sources-grid { grid-template-columns: 1fr; } }</style>
     <div class="sources-grid">
-      <div style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);">
-        <h3 style="font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;">Production &amp; Reserves</h3>
-        <div style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;">
-          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://doi.org/10.5066/P1WKQ63T" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">USGS Mineral Commodity Summaries 2026</a><br>U.S. Geological Survey — the global standard for mineral production and reserves data. Covers 25 metals with country-level detail. Published annually.</p>
-          <p style="margin: 0;"><a href="https://world-nuclear.org/" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">World Nuclear Association</a><br>Uranium production and reserves data (OECD NEA/IAEA source). Complementary to USGS, which does not cover uranium.</p>
+      <div style="${srcCardStyle}">
+        <h3 style="${srcHeadStyle}">Production &amp; Reserves</h3>
+        <div style="${srcBodyStyle}">
+          ${srcPara('https://doi.org/10.5066/P1WKQ63T', 'USGS Mineral Commodity Summaries 2026', 'U.S. Geological Survey — the global standard for mineral production and reserves data. Covers 25 metals with country-level detail. Published annually.')}
+          ${srcPara('https://world-nuclear.org/', 'World Nuclear Association', 'Uranium production and reserves data (OECD NEA/IAEA source). Complementary to USGS, which does not cover uranium.')}
+          ${srcPara('https://www.doi.gov/pressreleases/interior-department-releases-2025-list-critical-minerals', 'US DOI Critical Minerals List 2025', 'Official US Department of the Interior list of 50 critical minerals. Source of the ★ critical-mineral badges on metal pages.', true)}
         </div>
       </div>
-      <div style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);">
-        <h3 style="font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;">Official Prices</h3>
-        <div style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;">
-          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://www.lme.com" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">London Metal Exchange (LME)</a><br>Official settlement prices for base metals (copper, aluminium, zinc, nickel, tin, lead, cobalt, molybdenum). Reported in USD/t.</p>
-          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://www.lbma.org.uk" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">London Bullion Market Association (LBMA)</a><br>Official fix prices for precious metals (gold, silver, platinum, palladium). Reported in USD/oz.</p>
-          <p style="margin: 0;"><a href="https://www.shfe.com.cn" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">Shanghai Futures Exchange (SHFE)</a><br>Official settlement prices for Chinese futures contracts. Reported in RMB/t.</p>
+      <div style="${srcCardStyle}">
+        <h3 style="${srcHeadStyle}">Official Exchange Prices</h3>
+        <div style="${srcBodyStyle}">
+          ${srcPara('https://www.lme.com', 'London Metal Exchange (LME)', 'Official settlement prices for base metals (copper, aluminium, zinc, nickel, tin, lead, cobalt, molybdenum). Reported in USD/t.')}
+          ${srcPara('https://www.lbma.org.uk', 'London Bullion Market Association (LBMA)', 'Official fix prices for precious metals (gold, silver, platinum, palladium). Reported in USD/oz.')}
+          ${srcPara('https://www.shfe.com.cn', 'Shanghai Futures Exchange (SHFE)', 'Official settlement prices for Chinese futures contracts. Reported in RMB/t.')}
+          ${srcPara('https://www.hkex.com.hk', 'HKEX (Hong Kong Exchanges and Clearing)', 'Parent company of LME since 2012. Regulatory context for Hong Kong metal trading.', true)}
         </div>
       </div>
-      <div style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-4);">
-        <h3 style="font-size: var(--text-sm); font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2) 0;">Price Data Providers</h3>
-        <div style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.6;">
-          <p style="margin: 0 0 var(--space-2) 0;"><a href="https://metals.dev" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">Metals.dev</a><br>API provider for LME and LBMA official price data. Delivers exchange-sourced settlement and fix prices.</p>
-          <p style="margin: 0;"><a href="https://metals-api.com" target="_blank" rel="noopener" style="color: var(--color-primary); font-weight: 500;">Metals-API.com</a><br>Supplementary API for 37+ metals spot prices including minor and specialty metals not covered by LME/LBMA.</p>
+      <div style="${srcCardStyle}">
+        <h3 style="${srcHeadStyle}">Price Data Providers</h3>
+        <div style="${srcBodyStyle}">
+          ${srcPara('https://metals.dev', 'Metals.dev', 'API provider for LME and LBMA official price data. Delivers exchange-sourced settlement and fix prices.')}
+          ${srcPara('https://metals-api.com', 'Metals-API.com', 'Supplementary API for 37+ metals spot prices including minor and specialty metals not covered by LME/LBMA.', true)}
+        </div>
+      </div>
+      <div style="${srcCardStyle}">
+        <h3 style="${srcHeadStyle}">News &amp; Market Digest</h3>
+        <div style="${srcBodyStyle}">
+          ${srcPara('https://news.google.com', 'Google News RSS', 'Aggregator of global metals and commodities news. All articles link directly to original publishers (Reuters, Bloomberg, Mining.com, S&amp;P Global, Fastmarkets, etc.) with full attribution.', true)}
+        </div>
+      </div>
+      <div style="${srcCardStyle}">
+        <h3 style="${srcHeadStyle}">HK &amp; Asia Regulators</h3>
+        <div style="${srcBodyStyle}">
+          ${srcPara('https://www.hkma.gov.hk', 'HKMA — Hong Kong Monetary Authority', 'Stablecoins Ordinance (Cap. 656, in force 1 Aug 2025). Project Ensemble (wholesale CBDC). Regulatory framework for tokenized assets in HK.')}
+          ${srcPara('https://www.sfc.hk', 'SFC — Securities and Futures Commission HK', 'Virtual Asset Service Provider (VASP) regime. Tokenized securities framework. Primary HK regulator for digital assets.')}
+          ${srcPara('https://www.mas.gov.sg', 'MAS — Monetary Authority of Singapore', 'Payment Services Act 2019. Project Guardian (tokenization pilots). Complementary APAC regulatory framework.', true)}
+        </div>
+      </div>
+      <div style="${srcCardStyle}">
+        <h3 style="${srcHeadStyle}">Global Regulators &amp; Standards</h3>
+        <div style="${srcBodyStyle}">
+          ${srcPara('https://eur-lex.europa.eu/eli/reg/2023/1114/oj', 'EUR-Lex — MiCA Regulation (EU 2023/1114)', 'EU Markets in Crypto-Assets Regulation. Global benchmark for crypto-asset rules. In force since 30 Dec 2024 (ART/EMT) and 30 Jun 2024 (CASPs).')}
+          ${srcPara('https://www.sec.gov', 'SEC — U.S. Securities and Exchange Commission', 'Howey test framework. Key enforcement decisions defining token classification. Primary US regulator for securities tokenization.')}
+          ${srcPara('https://www.fatf-gafi.org', 'FATF — Financial Action Task Force', 'Recommendation 15 (VASPs) and Travel Rule. Global AML/CFT standards adopted by 200+ jurisdictions.')}
+          ${srcPara('https://www.fsb.org', 'FSB — Financial Stability Board', 'Global Regulatory Framework for Crypto-Asset Activities (July 2023). G20-endorsed high-level recommendations.')}
+          ${srcPara('https://www.bis.org', 'BIS / BCBS — Bank for International Settlements', 'Basel Committee SCO60 standard on cryptoasset exposures. Working papers on tokenization (WP 1066). Central-bank standards body.')}
+          ${srcPara('https://www.iosco.org', 'IOSCO — International Organization of Securities Commissions', 'Policy Recommendations for Crypto and Digital Asset Markets (PD734, Nov 2023). Global coordinator for securities regulators.', true)}
+        </div>
+      </div>
+      <div style="${srcCardStyle}">
+        <h3 style="${srcHeadStyle}">Technical Standards</h3>
+        <div style="${srcBodyStyle}">
+          ${srcPara('https://eips.ethereum.org', 'Ethereum Improvement Proposals (EIPs)', 'Official repository for Ethereum token standards: ERC-20, ERC-721, ERC-1155, ERC-3643 (permissioned), ERC-4626 (tokenized vaults).')}
+          ${srcPara('https://csrc.nist.gov/publications', 'NIST — National Institute of Standards and Technology', 'FIPS 180-4 (SHA-256) and NIST IR 8202 (Blockchain Technology Overview). Foundational cryptographic standards.', true)}
         </div>
       </div>
     </div>
-    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); font-style: italic;">Prices are official settlement/fix values updated twice daily on business days — not real-time quotes. News articles are sourced from public feeds with full attribution to original publishers. For questions about our data methodology, contact <a href="mailto:info@truesourcemetals.com" style="color: var(--color-primary);">info@truesourcemetals.com</a></p>
+    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); font-style: italic;">Prices are official settlement/fix values updated twice daily on business days — not real-time quotes. News articles are sourced from public feeds with full attribution to original publishers. Regulatory and standards sources are cited throughout the Glossary (252 terms). For questions about our data methodology, contact <a href="mailto:info@truesourcemetals.com" style="color: var(--color-primary);">info@truesourcemetals.com</a></p>
   </div>`;
 html = html.replace('{{DATA_SOURCES_SECTION_HTML}}', dataSourcesHTML);
 
@@ -863,7 +902,7 @@ html = html.replaceAll('{{NAV_COUNT_NEWS}}', newsCount);
 html = html.replaceAll('{{NAV_COUNT_RESERVES}}', reservesMetalCount);
 html = html.replaceAll('{{NAV_COUNT_GLOSSARY}}', totalTerms);
 html = html.replaceAll('{{NAV_COUNT_PRODUCERS}}', totalProducers);
-html = html.replaceAll('{{NAV_COUNT_SOURCES}}', '7');
+html = html.replaceAll('{{NAV_COUNT_SOURCES}}', '18');
 
 // Stats counter bar HTML
 const statsHTML = `<div class="hub-stats">
