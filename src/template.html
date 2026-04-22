@@ -177,7 +177,9 @@
     .header__bottom {
       grid-column: 1 / -1;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-2);
     }
 
     .header__brand {
@@ -1595,10 +1597,12 @@
         </button>
       </div>
       <div class="header__bottom">
-        <nav class="header__nav" aria-label="Hub sections">
+        <nav class="header__nav header__nav--row1" aria-label="Live sections">
           <a href="#metals-section" class="header__nav-link">Metals <span class="nav-badge">25</span></a>
           <a href="#prices-section" class="header__nav-link">Prices <span class="nav-badge">{{NAV_COUNT_PRICES}}</span></a>
           <a href="#news-section" class="header__nav-link">News <span class="nav-badge">{{NAV_COUNT_NEWS}}</span></a>
+        </nav>
+        <nav class="header__nav header__nav--row2" aria-label="Reference sections">
           <a href="#reserves-section" class="header__nav-link">Reserves <span class="nav-badge">{{NAV_COUNT_RESERVES}}</span></a>
           <a href="#producers-section" class="header__nav-link">Producers <span class="nav-badge">{{NAV_COUNT_PRODUCERS}}</span></a>
           <a href="#glossary-section" class="header__nav-link">Glossary <span class="nav-badge">{{NAV_COUNT_GLOSSARY}}</span></a>
