@@ -360,7 +360,7 @@ function generateAllMetalsNav(currentSlug) {
   return Object.entries(METAL_CONFIG).map(([key, cfg]) => {
     const slug = slugify(key);
     const isActive = key === currentSlug ? ' metals-nav__link--active' : '';
-    return `<a href="${slug}.html" class="metals-nav__link${isActive}">${cfg.name}</a>`;
+    return `<a href="${slug}" class="metals-nav__link${isActive}">${cfg.name}</a>`;
   }).join('\n        ');
 }
 
@@ -450,7 +450,7 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
     "@type": "Dataset",
     "name": `${config.name} — Official Prices, Production & Reserves`,
     "description": `${config.name} (${config.symbol}): official exchange prices${priceSources}, mine production data for ${productionCountries} countries, reserves by country, ${producerCount} major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.`,
-    "url": `https://hub.truesourcemetals.com/metals/${slug}.html`,
+    "url": `https://hub.truesourcemetals.com/metals/${slug}`,
     "keywords": [
       `${config.name.toLowerCase()} price`, `${config.name.toLowerCase()} price today`,
       `${config.symbol} price`, `${config.name.toLowerCase()} LME`,
@@ -484,7 +484,7 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
       "name": `${config.name} ${p.exchange} Price`,
       "description": `${p.price} ${p.unit} (${p.date})`,
       "encodingFormat": "text/html",
-      "contentUrl": `https://hub.truesourcemetals.com/metals/${slug}.html`
+      "contentUrl": `https://hub.truesourcemetals.com/metals/${slug}`
     }));
   }
 
@@ -506,7 +506,7 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
         "@type": "ListItem",
         "position": 2,
         "name": config.name,
-        "item": `https://hub.truesourcemetals.com/metals/${slug}.html`
+        "item": `https://hub.truesourcemetals.com/metals/${slug}`
       }
     ]
   };

@@ -87,10 +87,14 @@ jobs:
       - name: Generate Hub page
         run: node src/generate-hub.js
 
+      - name: Generate per-metal pages
+        run: node src/generate-metal-pages.js
+
       - name: Copy static assets to dist
         run: |
-          cp src/tsm_logo.jpg dist/ 2>/dev/null || true
-          cp src/favicon.ico dist/ 2>/dev/null || true
+          cp -v src/static/* dist/ 2>/dev/null || true
+          # Ensure sitemap and robots from generate-hub are present
+          ls -la dist/ | head -40
 
       - name: Generate OG image (dynamic metrics)
         run: python3 src/generate-og-image.py

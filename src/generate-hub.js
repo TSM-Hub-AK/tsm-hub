@@ -1015,7 +1015,7 @@ const metalsForGrid = [
 const metalsGridHTML = `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:var(--space-3)">
 ${metalsForGrid.map(m => {
   const criticalDot = m.critical ? '<span style="color:var(--color-gold)" title="US Critical Mineral 2025">★</span> ' : '';
-  return `  <a href="metals/${m.slug}.html" style="display:flex;flex-direction:column;gap:var(--space-1);padding:var(--space-4);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;color:var(--color-text);transition:all var(--transition-interactive)" onmouseover="this.style.borderColor='var(--color-primary)'" onmouseout="this.style.borderColor='var(--color-border)'">
+  return `  <a href="metals/${m.slug}" style="display:flex;flex-direction:column;gap:var(--space-1);padding:var(--space-4);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;color:var(--color-text);transition:all var(--transition-interactive)" onmouseover="this.style.borderColor='var(--color-primary)'" onmouseout="this.style.borderColor='var(--color-border)'">
     <span style="font-family:var(--font-display);font-weight:700;font-size:var(--text-sm)">${criticalDot}${m.name}</span>
     <span style="font-size:var(--text-xs);color:var(--color-text-faint)">${m.symbol} · ${m.category}</span>
   </a>`;
@@ -1048,7 +1048,7 @@ const metalSlugs = ['copper','aluminium','nickel','zinc','lead','tin','gold','si
   'lithium','cobalt','rare-earths','tungsten','vanadium','manganese','molybdenum',
   'chromium','antimony','gallium','germanium','graphite','iron-ore','titanium','magnesium','uranium'];
 const metalUrls = metalSlugs.map(s => `  <url>
-    <loc>https://hub.truesourcemetals.com/metals/${s}.html</loc>
+    <loc>https://hub.truesourcemetals.com/metals/${s}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
