@@ -982,6 +982,70 @@ const webSiteSchema = {
 const webSiteScript = `<script type="application/ld+json">${JSON.stringify(webSiteSchema)}<\/script>`;
 html = html.replace('</head>', webSiteScript + '\n</head>');
 
+// ─── DefinedTermSet JSON-LD (Glossary) ───
+
+if (fs.existsSync(glossaryPath)) {
+  const glossaryForLd = JSON.parse(fs.readFileSync(glossaryPath, 'utf8'));
+  const hubUrl = 'https://hub.truesourcemetals.com';
+  const glossaryUrl = `${hubUrl}/#glossary-section`;
+
+  // Split single attribution string into individual source objects where possible.
+  function parseAttribution(attr) {
+    if (!attr || typeof attr !== 'string') return [];
+    // Sources in data/glossary.json are separated by "; " and typically end with a URL or a bare domain path.
+    const parts = attr.split(/;\s+(?=[A-Z0-9])/);
+    return parts.map(p => {
+      const urlMatch = p.match(/(https?:\/\/[^\s,;]+|[a-z0-9.-]+\.[a-z]{2,}\/[^\s,;]*)/i);
+      const url = urlMatch ? (urlMatch[1].startsWith('http') ? urlMatch[1] : 'https://' + urlMatch[1]) : undefined;
+      const name = p.replace(urlMatch ? urlMatch[0] : '', '').replace(/[,;\s]+$/, '').trim();
+      const item = { '@type': 'CreativeWork', 'name': name || p.trim() };
+      if (url) item.url = url;
+      return item;
+    }).filter(x => x.name);
+  }
+
+  const definedTerms = [];
+  for (const cat of glossaryForLd.categories) {
+    for (const t of cat.terms) {
+      const termCode = `${cat.id}--${t.term.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
+      const term = {
+        '@type': 'DefinedTerm',
+        '@id': `${glossaryUrl}-${termCode}`,
+        'name': t.term,
+        'description': t.definition,
+        'inDefinedTermSet': glossaryUrl,
+        'termCode': termCode,
+      };
+      if (t.full_name && t.full_name !== t.term) term.alternateName = t.full_name;
+      const sources = parseAttribution(t.attribution);
+      if (sources.length === 1) term.isBasedOn = sources[0];
+      else if (sources.length > 1) term.isBasedOn = sources;
+      definedTerms.push(term);
+    }
+  }
+
+  const definedTermSet = {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    '@id': glossaryUrl,
+    'name': 'TSM Hub Metals & Tokenization Glossary',
+    'description': `Authoritative glossary of ${definedTerms.length} terms across ${glossaryForLd.categories.length} categories: metals exchanges, mining, processing, warehousing, trading, RWA tokenization, regulation, ESG, battery & critical minerals. Definitions based on official documentation from USGS, LME, LBMA, SHFE, BIS, IOSCO, FSB, HKMA, SFC, EU (MiCA), and ICE Futures.`,
+    'url': glossaryUrl,
+    'inLanguage': 'en',
+    'license': 'https://creativecommons.org/licenses/by-nc/4.0/',
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'TrueSource Metals',
+      'url': 'https://www.truesourcemetals.com',
+    },
+    'hasDefinedTerm': definedTerms,
+  };
+
+  const definedTermSetScript = `<script type="application/ld+json">${JSON.stringify(definedTermSet)}<\/script>`;
+  html = html.replace('</head>', definedTermSetScript + '\n</head>');
+  console.log(`DefinedTermSet JSON-LD injected: ${definedTerms.length} terms across ${glossaryForLd.categories.length} categories`);
+}
+
 // ─── Metals Grid for Hub ───
 
 const metalsForGrid = [
