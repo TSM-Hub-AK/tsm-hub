@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battery Materials — Chemical Forms, Battery Types, Roles | TSM Hub</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6GM0RTLSJ9');
+  </script>
+
+  <meta name="description" content="Battery materials reference: chemical compounds (Li₂CO₃, CoSO₄, LiFePO₄, NMC), battery types (Li-ion, Lead-acid, NiMH, flow), roles (cathode precursor, anode, electrolyte). Metals and non-metals. Sourced from USGS, IEA, primary chemistry references.">
+  <meta name="keywords" content="battery materials, lithium carbonate, cobalt sulfate, nickel sulfate, LFP cathode, NMC cathode, graphite anode, vanadium flow battery, lead-acid, NiMH, Li-ion chemistry, battery precursor">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/battery-materials/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Battery Materials — Chemical Forms & Battery Types | TSM Hub">
+  <meta property="og:description" content="Comprehensive reference of battery materials: what chemical compounds actually go into Li-ion, Lead-acid, NiMH, and flow batteries. Metals and non-metals, with sources.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/battery-materials/">
+  <meta property="og:site_name" content="TrueSource Metals">
+  <meta name="twitter:card" content="summary">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="192x192" href="../icon-192.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; scroll-behavior: smooth; }
+
+    :root {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+      --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem;
+      --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem;
+      --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem;
+      --space-16: 4rem; --space-20: 5rem;
+      --font-display: 'Cabinet Grotesk', 'Helvetica Neue', sans-serif;
+      --font-body: 'Satoshi', 'Inter', sans-serif;
+      --radius-sm: 0.375rem; --radius-md: 0.5rem; --radius-lg: 0.75rem; --radius-xl: 1rem;
+      --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+      --content-default: 1120px;
+    }
+
+    [data-theme="dark"] {
+      --color-bg: #0f1419; --color-surface: #161c22; --color-surface-2: #1c2430;
+      --color-surface-elevated: #212b38; --color-border: #2a3544; --color-border-subtle: #1e2836;
+      --color-text: #e0ddd8; --color-text-muted: #8a9aac; --color-text-faint: #566578;
+      --color-primary: #2d9da5; --color-primary-hover: #38b8c2;
+      --color-gold: #c9a84c; --color-gold-muted: rgba(201, 168, 76, 0.12);
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.3); --shadow-md: 0 4px 16px rgba(0,0,0,0.35);
+    }
+    [data-theme="light"] {
+      --color-bg: #f5f4f0; --color-surface: #ffffff; --color-surface-2: #f9f8f5;
+      --color-surface-elevated: #ffffff; --color-border: #d4d1ca; --color-border-subtle: #e8e6e0;
+      --color-text: #1a1d24; --color-text-muted: #5a6370; --color-text-faint: #8a8f98;
+      --color-primary: #1a7d85; --color-primary-hover: #15656c;
+      --color-gold: #9a7b2e; --color-gold-muted: rgba(154, 123, 46, 0.08);
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06); --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+    }
+
+    body { background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); font-size: var(--text-base); line-height: 1.6; }
+    a { color: var(--color-primary); text-decoration: none; transition: color var(--transition-interactive); }
+    a:hover { color: var(--color-primary-hover); text-decoration: underline; }
+
+    .header { position: sticky; top: 0; z-index: 40; background: color-mix(in oklab, var(--color-bg) 92%, transparent); backdrop-filter: saturate(1.2) blur(10px); border-bottom: 1px solid var(--color-border-subtle); }
+    .header__inner { max-width: var(--content-default); margin: 0 auto; padding: var(--space-4) var(--space-5); display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); }
+    .header__brand { display: flex; align-items: center; gap: var(--space-3); color: var(--color-text); }
+    .header__brand:hover { text-decoration: none; }
+    .header__logo { width: 28px; height: 28px; }
+    .header__title { font-family: var(--font-display); font-weight: 700; font-size: var(--text-lg); letter-spacing: -0.01em; }
+    .header__title span { color: var(--color-gold); }
+    .header__controls { display: flex; align-items: center; gap: var(--space-3); }
+    .header__back { display: inline-flex; align-items: center; gap: var(--space-2); padding: var(--space-2) var(--space-3); border: 1px solid var(--color-border); border-radius: var(--radius-sm); color: var(--color-text-muted); font-size: var(--text-sm); }
+    .header__back:hover { color: var(--color-text); border-color: var(--color-primary); text-decoration: none; }
+    .theme-toggle { background: transparent; border: 1px solid var(--color-border); color: var(--color-text-muted); width: 36px; height: 36px; border-radius: var(--radius-sm); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+    .theme-toggle:hover { color: var(--color-primary); border-color: var(--color-primary); }
+
+    .hero { max-width: var(--content-default); margin: 0 auto; padding: var(--space-12) var(--space-5) var(--space-8); }
+    .hero__breadcrumb { color: var(--color-text-faint); font-size: var(--text-sm); margin-bottom: var(--space-3); }
+    .hero__breadcrumb a { color: var(--color-text-muted); }
+    .hero h1 { font-family: var(--font-display); font-size: var(--text-2xl); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: var(--space-4); }
+    .hero__sub { color: var(--color-text-muted); font-size: var(--text-base); max-width: 800px; }
+
+    main { max-width: var(--content-default); margin: 0 auto; padding: var(--space-8) var(--space-5) var(--space-16); }
+
+    .intro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-10); }
+    .intro-card { background: var(--color-surface); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); padding: var(--space-5); }
+    .intro-card__label { color: var(--color-text-faint); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-2); }
+    .intro-card__value { font-family: var(--font-display); font-size: var(--text-xl); font-weight: 700; color: var(--color-primary); }
+    .intro-card__note { color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-2); }
+
+    .section { margin-bottom: var(--space-12); }
+    .section__title { font-family: var(--font-display); font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-3); display: flex; align-items: center; gap: var(--space-2); }
+    .section__title svg { color: var(--color-primary); }
+    .section__desc { color: var(--color-text-muted); font-size: var(--text-sm); margin-bottom: var(--space-5); max-width: 800px; }
+
+    .table-wrap { overflow-x: auto; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); }
+    table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+    thead { background: var(--color-surface-2); }
+    th { text-align: left; padding: var(--space-3) var(--space-4); font-weight: 600; color: var(--color-text); border-bottom: 1px solid var(--color-border); white-space: nowrap; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-text-muted); }
+    td { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--color-border-subtle); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: color-mix(in oklab, var(--color-surface-2) 60%, transparent); }
+    td.name { font-weight: 600; white-space: nowrap; }
+    td.name a { color: var(--color-primary); }
+    td .formula { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: var(--text-xs); background: var(--color-surface-2); padding: 0.15em 0.4em; border-radius: var(--radius-sm); color: var(--color-gold); white-space: nowrap; display: inline-block; margin: 0.1em 0.15em 0.1em 0; }
+    td .tag { display: inline-block; padding: 0.1em 0.55em; border-radius: 999px; font-size: calc(var(--text-xs) * 0.9); font-weight: 500; margin: 0.1em 0.2em 0.1em 0; border: 1px solid var(--color-border); color: var(--color-text-muted); white-space: nowrap; }
+    td .tag--cathode { border-color: rgba(201, 168, 76, 0.35); color: var(--color-gold); background: var(--color-gold-muted); }
+    td .tag--anode { border-color: rgba(45, 157, 165, 0.35); color: var(--color-primary); background: color-mix(in oklab, var(--color-primary) 10%, transparent); }
+    td .tag--electrolyte { border-color: rgba(150, 120, 180, 0.35); color: #a89aca; background: rgba(150, 120, 180, 0.08); }
+    td .tag--non-metal { border-color: rgba(180, 80, 80, 0.35); color: #d78a8a; background: rgba(180, 80, 80, 0.08); }
+
+    .note-box { background: var(--color-gold-muted); border-left: 3px solid var(--color-gold); padding: var(--space-4) var(--space-5); border-radius: var(--radius-sm); color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-5); }
+    .note-box strong { color: var(--color-text); }
+
+    .sources { background: var(--color-surface); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); padding: var(--space-6); margin-top: var(--space-8); }
+    .sources h3 { font-family: var(--font-display); font-size: var(--text-lg); margin-bottom: var(--space-3); }
+    .sources ul { list-style: none; padding: 0; }
+    .sources li { padding: var(--space-2) 0; border-bottom: 1px solid var(--color-border-subtle); font-size: var(--text-sm); color: var(--color-text-muted); }
+    .sources li:last-child { border: none; }
+
+    .footer { max-width: var(--content-default); margin: var(--space-12) auto 0; padding: var(--space-8) var(--space-5); border-top: 1px solid var(--color-border-subtle); color: var(--color-text-faint); font-size: var(--text-xs); text-align: center; }
+    .footer a { color: var(--color-text-muted); }
+
+    @media (max-width: 640px) {
+      .hero { padding: var(--space-8) var(--space-4) var(--space-5); }
+      main { padding: var(--space-5) var(--space-4) var(--space-10); }
+      th, td { padding: var(--space-2) var(--space-3); font-size: var(--text-xs); }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="../" class="header__brand">
+        <svg class="header__logo" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="20" y="20" width="70" height="70" rx="8" fill="var(--color-primary)"/>
+          <rect x="110" y="20" width="70" height="70" rx="8" fill="var(--color-gold)"/>
+          <rect x="20" y="110" width="70" height="70" rx="8" fill="var(--color-gold)"/>
+          <rect x="110" y="110" width="70" height="70" rx="8" fill="var(--color-primary)"/>
+        </svg>
+        <span class="header__title">True<span>Source</span> Metals</span>
+      </a>
+      <div class="header__controls">
+        <a href="../" class="header__back">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 12L6 8l4-4"/></svg>
+          Hub
+        </a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__breadcrumb"><a href="../">TSM Hub</a> → Battery Materials</div>
+    <h1>Battery Materials</h1>
+    <p class="hero__sub">Which chemical compounds actually go into batteries — not just "lithium" or "cobalt", but the specific precursors (Li₂CO₃, CoSO₄, NiSO₄), cathode chemistries (NMC, LFP, NCA), and non-metal components (graphite, phosphorus). Covers Li-ion, Lead-acid, NiMH, and flow batteries. Each material links to the underlying metal page in the Hub where available. Primary sources below.</p>
+  </section>
+
+  <main>
+
+    <section class="section">
+      <div class="intro-grid">
+        <div class="intro-card">
+          <div class="intro-card__label">Dominant chemistry</div>
+          <div class="intro-card__value">Lithium-ion</div>
+          <div class="intro-card__note">EV, grid storage, portable electronics, power tools</div>
+        </div>
+        <div class="intro-card">
+          <div class="intro-card__label">Oldest chemistry</div>
+          <div class="intro-card__value">Lead-acid</div>
+          <div class="intro-card__note">Automotive starter batteries, UPS, backup power</div>
+        </div>
+        <div class="intro-card">
+          <div class="intro-card__label">Hybrid vehicles</div>
+          <div class="intro-card__value">NiMH</div>
+          <div class="intro-card__note">Toyota Prius, power tools, low-cost electronics</div>
+        </div>
+        <div class="intro-card">
+          <div class="intro-card__label">Grid-scale storage</div>
+          <div class="intro-card__value">Vanadium flow</div>
+          <div class="intro-card__note">Long-duration (4–12 h) stationary storage</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="18" height="10" rx="2" ry="2"/><line x1="22" y1="11" x2="22" y2="13"/><line x1="6" y1="11" x2="6" y2="13"/><line x1="10" y1="11" x2="10" y2="13"/><line x1="14" y1="11" x2="14" y2="13"/></svg>
+        Lithium-ion Battery Materials
+      </h2>
+      <p class="section__desc">
+        The dominant battery chemistry today. Cathode composition varies (NMC, NCA, LFP, LCO, LMO), but anode is almost always graphite with small additions of silicon. Electrolyte is a lithium salt dissolved in organic solvents.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Material</th>
+              <th>Chemical form</th>
+              <th>Role</th>
+              <th>Used in</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="name"><a href="../metals/lithium">Lithium</a></td>
+              <td>
+                <span class="formula">Li₂CO₃</span> lithium carbonate<br>
+                <span class="formula">LiOH·H₂O</span> lithium hydroxide monohydrate<br>
+                <span class="formula">LiPF₆</span> in electrolyte salt
+              </td>
+              <td><span class="tag tag--cathode">cathode precursor</span><span class="tag tag--electrolyte">electrolyte</span></td>
+              <td>All Li-ion (NMC, NCA, LFP, LCO, LMO)</td>
+            </tr>
+            <tr>
+              <td class="name"><a href="../metals/cobalt">Cobalt</a></td>
+              <td><span class="formula">CoSO₄·7H₂O</span> cobalt sulfate heptahydrate</td>
+              <td><span class="tag tag--cathode">cathode precursor</span></td>
+              <td>NMC, NCA, LCO</td>
+            </tr>
+            <tr>
+              <td class="name"><a href="../metals/nickel">Nickel</a></td>
+              <td><span class="formula">NiSO₄·6H₂O</span> nickel sulfate hexahydrate (Class 1 Ni)</td>
+              <td><span class="tag tag--cathode">cathode precursor</span></td>
+              <td>NMC, NCA (high-Ni cathodes: NMC 811, 622)</td>
+            </tr>
+            <tr>
+              <td class="name">Manganese</td>
+              <td><span class="formula">MnSO₄·H₂O</span> manganese sulfate monohydrate</td>
+              <td><span class="tag tag--cathode">cathode precursor</span></td>
+              <td>NMC, LMO, Na-ion (emerging)</td>
+            </tr>
+            <tr>
+              <td class="name"><a href="../metals/aluminium">Aluminium</a></td>
+              <td>
+                <span class="formula">Al</span> metal (0.3–6% doping in NCA)<br>
+                <span class="formula">Al</span> foil (cathode current collector)
+              </td>
+              <td><span class="tag tag--cathode">cathode dopant</span><span class="tag">current collector</span></td>
+              <td>NCA (LiNi₀.₈Co₀.₁₅Al₀.₀₅O₂), all Li-ion (foil)</td>
+            </tr>
+            <tr>
+              <td class="name"><a href="../metals/copper">Copper</a></td>
+              <td><span class="formula">Cu</span> high-purity foil (6–12 μm)</td>
+              <td><span class="tag tag--anode">anode current collector</span></td>
+              <td>All Li-ion (anode side)</td>
+            </tr>
+            <tr>
+              <td class="name"><a href="../metals/iron-ore">Iron</a></td>
+              <td><span class="formula">LiFePO₄</span> (LFP, iron phosphate cathode)</td>
+              <td><span class="tag tag--cathode">cathode</span></td>
+              <td>LFP — fastest-growing chemistry (China EV, grid storage)</td>
+            </tr>
+            <tr>
+              <td class="name">Phosphorus <span class="tag tag--non-metal">non-metal</span></td>
+              <td><span class="formula">LiFePO₄</span> as phosphate group<br><span class="formula">LiPF₆</span> as hexafluorophosphate (electrolyte salt)</td>
+              <td><span class="tag tag--cathode">cathode (LFP)</span><span class="tag tag--electrolyte">electrolyte</span></td>
+              <td>LFP cathodes, all Li-ion electrolyte</td>
+            </tr>
+            <tr>
+              <td class="name">Graphite <span class="tag tag--non-metal">non-metal</span></td>
+              <td><span class="formula">C</span> natural or synthetic graphite (spherical, coated)</td>
+              <td><span class="tag tag--anode">anode (active material)</span></td>
+              <td>All Li-ion (&gt;90% by mass of the anode)</td>
+            </tr>
+            <tr>
+              <td class="name">Silicon <span class="tag tag--non-metal">non-metal</span></td>
+              <td><span class="formula">SiO</span> silicon monoxide, <span class="formula">Si</span> metallic (nanostructured)</td>
+              <td><span class="tag tag--anode">anode additive</span></td>
+              <td>High-energy Li-ion (5–15% Si blend with graphite)</td>
+            </tr>
+            <tr>
+              <td class="name">Fluorine <span class="tag tag--non-metal">non-metal</span></td>
+              <td><span class="formula">LiPF₆</span>, <span class="formula">PVDF</span> binder</td>
+              <td><span class="tag tag--electrolyte">electrolyte salt</span><span class="tag">binder</span></td>
+              <td>All Li-ion</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note-box">
+        <strong>Note on precursor vs battery grade:</strong> Cobalt and nickel sulfates must be "battery grade" — far higher purity (typically ≥99.9%, with strict trace-metal limits) than chemical-grade commodity sulfate. This is why Class 1 nickel (refined cathode, briquettes, powder) commands a premium over Class 2 (ferronickel, nickel pig iron).
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        Lead-acid Batteries
+      </h2>
+      <p class="section__desc">
+        The oldest rechargeable chemistry, still dominant in automotive starter batteries, uninterruptible power supplies, and backup power. Global lead demand is roughly 80% driven by this chemistry.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Material</th>
+              <th>Chemical form</th>
+              <th>Role</th>
+              <th>Used in</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="name"><a href="../metals/lead">Lead</a></td>
+              <td>
+                <span class="formula">Pb</span> metallic (grid, negative plate)<br>
+                <span class="formula">PbO₂</span> lead dioxide (positive plate)<br>
+                <span class="formula">PbSO₄</span> lead sulfate (discharged state)
+              </td>
+              <td><span class="tag tag--cathode">positive plate</span><span class="tag tag--anode">negative plate</span></td>
+              <td>SLI (starter/lighting/ignition), UPS, traction, stationary</td>
+            </tr>
+            <tr>
+              <td class="name">Sulfuric acid <span class="tag tag--non-metal">non-metal</span></td>
+              <td><span class="formula">H₂SO₄</span> 30–40% in water</td>
+              <td><span class="tag tag--electrolyte">electrolyte</span></td>
+              <td>All lead-acid batteries</td>
+            </tr>
+            <tr>
+              <td class="name">Antimony / Calcium</td>
+              <td><span class="formula">Sb</span> ~2% in Pb alloy (older), <span class="formula">Ca</span> in maintenance-free</td>
+              <td><span class="tag">alloying element (grid)</span></td>
+              <td>Pb-Sb (flooded), Pb-Ca (VRLA/AGM)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 8.5 22 9.3 17 14 18.2 21 12 17.8 5.8 21 7 14 2 9.3 9 8.5 12 2"/></svg>
+        Nickel-metal Hydride (NiMH)
+      </h2>
+      <p class="section__desc">
+        Dominant in hybrid vehicles (Toyota Prius), power tools, and consumer electronics before Li-ion took over. Still used where cost matters more than energy density.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Material</th><th>Chemical form</th><th>Role</th><th>Used in</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="name"><a href="../metals/nickel">Nickel</a></td>
+              <td><span class="formula">NiOOH</span> / <span class="formula">Ni(OH)₂</span></td>
+              <td><span class="tag tag--cathode">positive electrode</span></td>
+              <td>All NiMH</td>
+            </tr>
+            <tr>
+              <td class="name"><a href="../metals/rare-earths">Rare Earths</a></td>
+              <td><span class="formula">LaNi₅</span> / <span class="formula">AB₅</span> alloys (La, Ce, Pr, Nd + Ni, Co, Mn)</td>
+              <td><span class="tag tag--anode">negative electrode (hydrogen storage)</span></td>
+              <td>Hybrid vehicle batteries, consumer NiMH</td>
+            </tr>
+            <tr>
+              <td class="name">Potassium <span class="tag tag--non-metal">non-metal (alkali)</span></td>
+              <td><span class="formula">KOH</span> potassium hydroxide, 30% aqueous</td>
+              <td><span class="tag tag--electrolyte">electrolyte</span></td>
+              <td>All NiMH and NiCd</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        Flow Batteries (grid-scale storage)
+      </h2>
+      <p class="section__desc">
+        Long-duration stationary storage. Energy is stored in liquid electrolytes in external tanks, not in solid electrodes — so power and energy capacity scale independently. Most commercially deployed chemistry is vanadium redox.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Material</th><th>Chemical form</th><th>Role</th><th>Used in</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="name">Vanadium</td>
+              <td><span class="formula">VOSO₄</span> vanadyl sulfate (V⁴⁺/V⁵⁺)<br><span class="formula">V₂(SO₄)₃</span> (V²⁺/V³⁺)</td>
+              <td><span class="tag tag--electrolyte">both half-cells (redox couple)</span></td>
+              <td>Vanadium redox flow batteries (VRFB)</td>
+            </tr>
+            <tr>
+              <td class="name"><a href="../metals/zinc">Zinc</a></td>
+              <td><span class="formula">Zn</span> metal, <span class="formula">ZnBr₂</span> bromide, <span class="formula">Zn(OH)₄²⁻</span> zincate</td>
+              <td><span class="tag tag--anode">negative half-cell</span></td>
+              <td>Zn-Br, Zn-Fe, Zn-air flow batteries</td>
+            </tr>
+            <tr>
+              <td class="name">Sulfuric acid <span class="tag tag--non-metal">non-metal</span></td>
+              <td><span class="formula">H₂SO₄</span> 1.5–3 M</td>
+              <td><span class="tag tag--electrolyte">electrolyte solvent</span></td>
+              <td>All VRFB</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Emerging chemistries (Na-ion and beyond)
+      </h2>
+      <p class="section__desc">
+        Sodium-ion batteries are now commercially produced by CATL, BYD, and others. They use abundant materials (Na replaces Li) and are cheaper, with lower energy density. Typical cathode is a Prussian-blue analog or layered oxide.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Material</th><th>Chemical form</th><th>Role</th><th>Used in</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="name">Sodium <span class="tag tag--non-metal">alkali metal</span></td>
+              <td><span class="formula">Na₃V₂(PO₄)₃</span>, <span class="formula">NaNi₁/₃Mn₁/₃Fe₁/₃O₂</span>, Prussian-blue <span class="formula">Na₂MnFe(CN)₆</span></td>
+              <td><span class="tag tag--cathode">cathode active material</span></td>
+              <td>Na-ion (stationary storage, low-end EVs)</td>
+            </tr>
+            <tr>
+              <td class="name">Hard carbon <span class="tag tag--non-metal">non-metal</span></td>
+              <td><span class="formula">C</span> non-graphitizable carbon</td>
+              <td><span class="tag tag--anode">anode (Na-ion cannot intercalate graphite efficiently)</span></td>
+              <td>Na-ion</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="sources">
+      <h3>Sources</h3>
+      <ul>
+        <li><a href="https://pubs.usgs.gov/periodicals/mcs2026/" target="_blank" rel="noopener">USGS — Mineral Commodity Summaries 2026</a> — reserves, production, end-use data for lithium, cobalt, nickel, graphite, manganese, vanadium, lead, zinc, rare earths.</li>
+        <li><a href="https://www.iea.org/reports/global-critical-minerals-outlook-2024" target="_blank" rel="noopener">IEA — Global Critical Minerals Outlook 2024</a> — battery chemistry market shares, demand forecasts, cathode/anode material breakdown.</li>
+        <li><a href="https://www.iea.org/reports/global-ev-outlook-2024" target="_blank" rel="noopener">IEA — Global EV Outlook 2024</a> — EV battery chemistry split (NMC vs LFP), supply chain.</li>
+        <li><a href="https://www.lme.com/en/metals/ev" target="_blank" rel="noopener">LME — EV metals contract specifications</a> — lithium hydroxide, cobalt metal standard & alloy-grade, nickel sulfate contract specs.</li>
+        <li><a href="https://www.sciencedirect.com/topics/materials-science/lithium-ion-battery" target="_blank" rel="noopener">ScienceDirect — Lithium-ion Battery reference topics</a> — cathode/anode chemistry, electrolyte composition (peer-reviewed).</li>
+      </ul>
+      <p style="margin-top: var(--space-4); font-size: var(--text-xs); color: var(--color-text-faint);">This page is a reference, not investment advice. Chemistry details are simplified for readability; commercial formulations vary by manufacturer. MVP version — more materials and forms (Li-S, solid-state, Zn-air) will be added.</p>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Battery materials reference. Data for informational purposes only.</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('tsm-theme', next);
+    }
+    (function() {
+      var saved = localStorage.getItem('tsm-theme');
+      if (saved) document.documentElement.setAttribute('data-theme', saved);
+    })();
+  </script>
+</body>
+</html>

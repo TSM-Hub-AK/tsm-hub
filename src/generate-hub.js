@@ -1115,6 +1115,19 @@ try {
   console.error('WARNING: Metal pages generation failed:', e.message);
 }
 
+// Generate Battery Materials reference page
+try {
+  const batteryPageSrc = path.join(__dirname, 'battery-materials.html');
+  if (fs.existsSync(batteryPageSrc)) {
+    const batteryDir = path.join(distDir, 'battery-materials');
+    fs.mkdirSync(batteryDir, { recursive: true });
+    fs.copyFileSync(batteryPageSrc, path.join(batteryDir, 'index.html'));
+    console.log('Battery Materials page written: dist/battery-materials/index.html');
+  }
+} catch (e) {
+  console.error('WARNING: Battery Materials page copy failed:', e.message);
+}
+
 // Generate sitemap.xml with metal pages
 const today = new Date().toISOString().split('T')[0];
 const metalSlugs = ['copper','aluminium','nickel','zinc','lead','tin','gold','silver','pgm',
@@ -1135,6 +1148,12 @@ const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>1.0</priority>
   </url>
 ${metalUrls}
+  <url>
+    <loc>https://hub.truesourcemetals.com/battery-materials/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>`;
 fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml);
 console.log('Sitemap generated: dist/sitemap.xml');
