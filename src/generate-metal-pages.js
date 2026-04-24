@@ -71,6 +71,11 @@ const METAL_CONFIG = {
   titanium:     { name: 'Titanium', symbol: 'Ti', critical: true, exchanges: ['Metals-API'], metals_api_key: 'titanium', category: 'Strategic Metal' },
   magnesium:    { name: 'Magnesium', symbol: 'Mg', critical: true, exchanges: ['Metals-API'], metals_api_key: 'magnesium', category: 'Light Metal' },
   uranium:      { name: 'Uranium', symbol: 'U', critical: true, exchanges: ['Metals-API'], metals_api_key: 'uranium', category: 'Energy Metal' },
+  neodymium:    { name: 'Neodymium', symbol: 'Nd', critical: true, exchanges: [], category: 'Rare Earth Element' },
+  praseodymium: { name: 'Praseodymium', symbol: 'Pr', critical: true, exchanges: [], category: 'Rare Earth Element' },
+  dysprosium:   { name: 'Dysprosium', symbol: 'Dy', critical: true, exchanges: [], category: 'Rare Earth Element' },
+  terbium:      { name: 'Terbium', symbol: 'Tb', critical: true, exchanges: [], category: 'Rare Earth Element' },
+  lanthanum:    { name: 'Lanthanum', symbol: 'La', critical: true, exchanges: [], category: 'Rare Earth Element' },
 };
 
 // ─── Helpers ───
@@ -675,6 +680,11 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
   const NO_DATA_REASONS = {
     gallium: 'Primary-source production tonnage is not disclosed for any major producer. Approximately 98% of global gallium output is a Chinese by-product of the Bayer alumina process; China withholds primary disclosure (USGS Mineral Commodity Summaries 2026). The handful of Western producers — Nyrstar (Auby Ge/Ga), Indium Corporation, Recapture Metals, neo Performance Materials — do not publish gallium-specific tonnage in annual reports.',
     germanium: 'Primary-source production tonnage is not disclosed for any major producer. Roughly 70% of global germanium output is recovered as a by-product from zinc-smelter residues (most prominently in China and the DRC); China withholds primary disclosure (USGS Mineral Commodity Summaries 2026). Western producers — Teck Resources (Trail), Nyrstar (Auby), Umicore, Korea Zinc — report only at metal-stream or segment level without germanium-specific tonnage.',
+    neodymium:    'No producer discloses element-specific neodymium tonnage. Chinese producers operate under aggregate REO quotas without elemental breakdown; Western producers (Lynas, MP Materials, Iluka, Energy Fuels) report on a combined NdPr or aggregate REO basis. Consolidated REO production figures appear on the <a href="rare-earths">Rare Earths page</a>. The 10 companies below are the major world producers of separated neodymium oxide by capacity and market presence.',
+    praseodymium: 'No producer discloses element-specific praseodymium tonnage. Praseodymium is almost always reported together with neodymium as "NdPr" because the two elements co-occur in bastnäsite and monazite and are used in identical magnetic applications. Consolidated REO production figures appear on the <a href="rare-earths">Rare Earths page</a>. The 10 companies below are the major world producers of separated praseodymium oxide.',
+    dysprosium:   'No producer discloses element-specific dysprosium tonnage. Dysprosium is a heavy rare earth recovered almost entirely from Chinese ion-adsorption clay deposits (~95% of global separation capacity); Chinese producers operate under aggregate quotas without elemental breakdown. Consolidated REO production figures appear on the <a href="rare-earths">Rare Earths page</a>. The 10 companies below are the major world producers of separated dysprosium oxide.',
+    terbium:      'No producer discloses element-specific terbium tonnage. Terbium is a heavy rare earth recovered almost entirely from Chinese ion-adsorption clay deposits (~95% of global separation capacity); Chinese producers operate under aggregate quotas without elemental breakdown. Consolidated REO production figures appear on the <a href="rare-earths">Rare Earths page</a>. The 10 companies below are the major world producers of separated terbium oxide.',
+    lanthanum:    'No producer discloses element-specific lanthanum tonnage. Lanthanum is a light rare earth produced alongside cerium, neodymium, and praseodymium; producers report on a combined or aggregate REO basis. Consolidated REO production figures appear on the <a href="rare-earths">Rare Earths page</a>. The 10 companies below are the major world producers of separated lanthanum oxide.',
   };
   const noDataReason = NO_DATA_REASONS[metalKey];
 

@@ -8121,20 +8121,6 @@
       "notes": "Pidgeon process from dolomite at 15 kt/y Eskisehir smelter."
     },
     {
-      "name": "US Magnesium LLC (Rowley, Utah)",
-      "country": "USA",
-      "website": "Production data not publicly disclosed",
-      "production": "U.S. national production withheld (W) for 2019–2023 to avoid disclosing company proprietary data; US Magnesium stopped producing magnesium metal in late 2021 (declared bankruptcy); previously the only primary magnesium producer in the United States and one of the largest in the world, producing magnesium from Great Salt Lake brines (source: USGS MCS 2024; Grist, December 2025; KSL News, January 2026)",
-      "ticker": "",
-      "exchange": "",
-      "production_kt_mg": 0.0,
-      "data_confidence": "Primary disclosure",
-      "production_year": "FY2025",
-      "source_url": "[US Magnesium About](https://usmagnesium.com/about-us-mag/)",
-      "source_name": "US Magnesium About",
-      "notes": "Electrolytic process from Great Salt Lake brines; production ceased late 2021."
-    },
-    {
       "name": "Kazakhstan Magnesium Plant / Ust-Kamenogorsk Titanium-Magnesium Combine (UKTMC)",
       "country": "Kazakhstan",
       "website": "Production data not publicly disclosed",
@@ -8198,6 +8184,19 @@
       "source_url": "[SMZ Website](https://www.smw.ru/)",
       "source_name": "SMZ Website",
       "notes": "Electrolysis of carnallite; capacity ~16 kt; plan met 101% in 2024 per news"
+    },
+    {
+      "name": "US Magnesium LLC (Rowley, Utah)",
+      "country": "USA",
+      "website": "Production data not publicly disclosed",
+      "production": "U.S. national production withheld (W) for 2019–2023 to avoid disclosing company proprietary data; US Magnesium stopped producing magnesium metal in late 2021 (declared bankruptcy); previously the only primary magnesium producer in the United States and one of the largest in the world, producing magnesium from Great Salt Lake brines (source: USGS MCS 2024; Grist, December 2025; KSL News, January 2026)",
+      "ticker": "",
+      "exchange": "",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2025",
+      "source_url": "[US Magnesium About](https://usmagnesium.com/about-us-mag/)",
+      "source_name": "US Magnesium About",
+      "notes": "Electrolytic process from Great Salt Lake brines; production ceased late 2021. Production suspended in FY2025 (force majeure declared at Rowley, Utah; legacy operations halted pending environmental review)."
     }
   ],
   "ferrochrome": [
@@ -8401,81 +8400,89 @@
       "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
       "country": "China",
       "website": "http://www.northrareearth.com",
-      "production": "World's largest rare earth producer based on Bayan Obo deposit. Produces separated neodymium oxide as a primary product (light rare earth focus). Plans to produce 161.4 kt REO in 2023 (per Asian Metal industry report). Specific neodymium-only production tonnage not publicly disclosed.",
       "ticker": "600111",
-      "exchange": "Shanghai Stock Exchange (SSE)"
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "World's largest rare earth producer based on Bayan Obo deposit. Produces separated neodymium oxide as a primary product (light rare earth focus). Plans to produce 161.4 kt REO in 2023 (per Asian Metal industry report). Specific neodymium-only production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
       "country": "China",
       "website": "https://www.regcc.cn",
-      "production": "State-owned enterprise formed December 2021 controlling southern rare earth assets. Total 2023 first-batch smelting and separation quota 68,900 tonnes REO. Produces separated RE oxides including neodymium from ion-adsorption clay deposits; specific neodymium tonnage not publicly disclosed.",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Shenghe Resources Holding Co., Ltd.",
-      "country": "China",
-      "website": "http://en.shengheholding.com",
-      "production": "Produces and trades rare earth concentrates, oxides, metals including neodymium. Rare earth segment revenue grew 26.9% in 2023. Specific neodymium production tonnage not publicly disclosed.",
-      "ticker": "600392",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
-      "country": "China",
-      "website": "http://en.xmjinwu.com",
-      "production": "Produces separated rare earth oxides including neodymium via smelting and separation operations in Fujian Province. Specific neodymium-only production tonnage not publicly disclosed.",
-      "ticker": "600549",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "MP Materials Corp.",
-      "country": "USA",
-      "website": "https://www.mpmaterials.com",
-      "production": "Produced 41,557 MT of rare earth oxides (REO) in concentrate in 2023; produced 200 MT of separated NdPr oxide in 2023 (commenced separation in 2023). Mountain Pass, California is only rare earth mining and processing site of scale in North America.",
-      "ticker": "MP",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Lynas Rare Earths Ltd.",
-      "country": "Australia",
-      "website": "https://www.lynasrareearths.com",
-      "production": "Total NdPr production 6,142 tonnes in FY2023 (FY2022: 5,880 tonnes); total REO production 16,780 tonnes in FY2023. Separation at Lynas Malaysia (Kuantan). Produces separated neodymium and praseodymium oxide.",
-      "ticker": "LYC",
-      "exchange": "ASX"
-    },
-    {
-      "name": "Neo Performance Materials Inc.",
-      "country": "Canada",
-      "website": "https://www.neomaterials.com",
-      "production": "Operates rare earth separation at Silmet facility (Estonia) and previously at Jiangyin (China, sold 2024). Produces separated RE oxides including neodymium. Specific neodymium tonnage not publicly disclosed.",
-      "ticker": "NEO",
-      "exchange": "TSX"
+      "notes": "State-owned enterprise formed December 2021 controlling southern rare earth assets. Total 2023 first-batch smelting and separation quota 68,900 tonnes REO. Produces separated RE oxides including neodymium from ion-adsorption clay deposits; specific neodymium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Iluka Resources Ltd.",
       "country": "Australia",
       "website": "https://www.iluka.com",
-      "production": "Building Australia's first fully integrated rare earth refinery at Eneabba, WA (expected operational ~2026; initial capacity 4,000 tpa REO, scaling to 5,500 tpa). Currently a monazite producer; separated neodymium production not yet at commercial scale.",
       "ticker": "ILU",
-      "exchange": "ASX"
+      "exchange": "ASX",
+      "notes": "Building Australia's first fully integrated rare earth refinery at Eneabba, WA (expected operational ~2026; initial capacity 4,000 tpa REO, scaling to 5,500 tpa). Currently a monazite producer; separated neodymium production not yet at commercial scale.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "ticker": "LYC",
+      "exchange": "ASX",
+      "notes": "Total NdPr production 6,142 tonnes in FY2023 (FY2022: 5,880 tonnes); total REO production 16,780 tonnes in FY2023. Separation at Lynas Malaysia (Kuantan). Produces separated neodymium and praseodymium oxide.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "ticker": "MP",
+      "exchange": "NYSE",
+      "notes": "Produced 41,557 MT of rare earth oxides (REO) in concentrate in 2023; produced 200 MT of separated NdPr oxide in 2023 (commenced separation in 2023). Mountain Pass, California is only rare earth mining and processing site of scale in North America.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com",
+      "ticker": "NEO",
+      "exchange": "TSX",
+      "notes": "Operates rare earth separation at Silmet facility (Estonia) and previously at Jiangyin (China, sold 2024). Produces separated RE oxides including neodymium. Specific neodymium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces and trades rare earth concentrates, oxides, metals including neodymium. Rare earth segment revenue grew 26.9% in 2023. Specific neodymium production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Shin-Etsu Chemical Co., Ltd.",
       "country": "Japan",
       "website": "https://www.shinetsu.co.jp",
-      "production": "Produces sintered neodymium-iron-boron (NdFeB) rare earth magnets using neodymium. Conducts rare earth separation and refinement for magnet production in Japan and Vietnam. Specific neodymium metal/oxide production tonnage not publicly disclosed.",
       "ticker": "4063",
-      "exchange": "Tokyo Stock Exchange (TSE)"
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Produces sintered neodymium-iron-boron (NdFeB) rare earth magnets using neodymium. Conducts rare earth separation and refinement for magnet production in Japan and Vietnam. Specific neodymium metal/oxide production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "TDK Corporation",
       "country": "Japan",
       "website": "https://www.tdk.com",
-      "production": "Major NdFeB magnet manufacturer (NEOREC series); consumes neodymium (and praseodymium, dysprosium, terbium) in magnet production. Estimated NdFeB output in 8,000–12,000 tonne range. Specific neodymium consumption or separation not publicly disclosed.",
       "ticker": "6762",
-      "exchange": "Tokyo Stock Exchange (TSE)"
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Major NdFeB magnet manufacturer (NEOREC series); consumes neodymium (and praseodymium, dysprosium, terbium) in magnet production. Estimated NdFeB output in 8,000–12,000 tonne range. Specific neodymium consumption or separation not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated rare earth oxides including neodymium via smelting and separation operations in Fujian Province. Specific neodymium-only production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     }
   ],
   "praseodymium": [
@@ -8483,163 +8490,179 @@
       "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
       "country": "China",
       "website": "http://www.northrareearth.com",
-      "production": "Produces separated praseodymium oxide as a primary product (light rare earth focus). Typically reported together with neodymium as NdPr. Specific praseodymium-only tonnage not publicly disclosed.",
       "ticker": "600111",
-      "exchange": "Shanghai Stock Exchange (SSE)"
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated praseodymium oxide as a primary product (light rare earth focus). Typically reported together with neodymium as NdPr. Specific praseodymium-only tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "China Rare Earth Group Co., Ltd.",
       "country": "China",
       "website": "https://www.regcc.cn",
-      "production": "Produces separated RE oxides including praseodymium from ion-adsorption clay deposits in Jiangxi and Guangdong. Specific praseodymium tonnage not publicly disclosed.",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Shenghe Resources Holding Co., Ltd.",
-      "country": "China",
-      "website": "http://en.shengheholding.com",
-      "production": "Produces and trades rare earth products including praseodymium compounds and metals. Specific praseodymium production tonnage not publicly disclosed.",
-      "ticker": "600392",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
-      "country": "China",
-      "website": "http://en.xmjinwu.com",
-      "production": "Produces separated rare earth oxides including praseodymium. Specific praseodymium-only production tonnage not publicly disclosed.",
-      "ticker": "600549",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "MP Materials Corp.",
-      "country": "USA",
-      "website": "https://www.mpmaterials.com",
-      "production": "Produced 200 MT of separated NdPr oxide in 2023 (neodymium and praseodymium combined; not disclosed separately). Commenced NdPr separation in 2023.",
-      "ticker": "MP",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Lynas Rare Earths Ltd.",
-      "country": "Australia",
-      "website": "https://www.lynasrareearths.com",
-      "production": "Total NdPr production 6,142 tonnes in FY2023 (neodymium and praseodymium combined; not disclosed separately). Separated at Lynas Malaysia.",
-      "ticker": "LYC",
-      "exchange": "ASX"
-    },
-    {
-      "name": "Neo Performance Materials Inc.",
-      "country": "Canada",
-      "website": "https://www.neomaterials.com",
-      "production": "Produces separated RE oxides including praseodymium at Silmet (Estonia) and formerly Jiangyin (China). Specific praseodymium tonnage not publicly disclosed.",
-      "ticker": "NEO",
-      "exchange": "TSX"
+      "notes": "Produces separated RE oxides including praseodymium from ion-adsorption clay deposits in Jiangxi and Guangdong. Specific praseodymium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Iluka Resources Ltd.",
       "country": "Australia",
       "website": "https://www.iluka.com",
-      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated praseodymium among other RE oxides. Commercial-scale separated production not yet commenced.",
       "ticker": "ILU",
-      "exchange": "ASX"
+      "exchange": "ASX",
+      "notes": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated praseodymium among other RE oxides. Commercial-scale separated production not yet commenced.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "ticker": "LYC",
+      "exchange": "ASX",
+      "notes": "Total NdPr production 6,142 tonnes in FY2023 (neodymium and praseodymium combined; not disclosed separately). Separated at Lynas Malaysia.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "ticker": "MP",
+      "exchange": "NYSE",
+      "notes": "Produced 200 MT of separated NdPr oxide in 2023 (neodymium and praseodymium combined; not disclosed separately). Commenced NdPr separation in 2023.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com",
+      "ticker": "NEO",
+      "exchange": "TSX",
+      "notes": "Produces separated RE oxides including praseodymium at Silmet (Estonia) and formerly Jiangyin (China). Specific praseodymium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces and trades rare earth products including praseodymium compounds and metals. Specific praseodymium production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Shin-Etsu Chemical Co., Ltd.",
       "country": "Japan",
       "website": "https://www.shinetsu.co.jp",
-      "production": "Produces sintered NdFeB magnets consuming praseodymium. Conducts integrated rare earth separation and refining for magnet manufacturing. Specific praseodymium production tonnage not publicly disclosed.",
       "ticker": "4063",
-      "exchange": "Tokyo Stock Exchange (TSE)"
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Produces sintered NdFeB magnets consuming praseodymium. Conducts integrated rare earth separation and refining for magnet manufacturing. Specific praseodymium production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "TDK Corporation",
       "country": "Japan",
       "website": "https://www.tdk.com",
-      "production": "Consumes praseodymium in NdFeB magnet manufacturing (NEOREC series). Specific praseodymium consumption or separation not publicly disclosed.",
       "ticker": "6762",
-      "exchange": "Tokyo Stock Exchange (TSE)"
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Consumes praseodymium in NdFeB magnet manufacturing (NEOREC series). Specific praseodymium consumption or separation not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated rare earth oxides including praseodymium. Specific praseodymium-only production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     }
   ],
   "dysprosium": [
     {
-      "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
-      "country": "China",
-      "website": "https://www.regcc.cn",
-      "production": "Controls the primary global source of dysprosium from Jiangxi and Guangdong ion-adsorption clay deposits. China controls approximately 95% of global separation capacity for dysprosium. Specific dysprosium tonnage not publicly disclosed.",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
       "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
       "country": "China",
       "website": "http://www.northrareearth.com",
-      "production": "Produces separated RE oxides including dysprosium, though primarily a light rare earth producer (Bayan Obo has limited heavy RE content). Specific dysprosium-only tonnage not publicly disclosed.",
       "ticker": "600111",
-      "exchange": "Shanghai Stock Exchange (SSE)"
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated RE oxides including dysprosium, though primarily a light rare earth producer (Bayan Obo has limited heavy RE content). Specific dysprosium-only tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
-      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
       "country": "China",
-      "website": "http://en.xmjinwu.com",
-      "production": "Produces separated rare earth oxides including dysprosium from Fujian ion-adsorption clay operations. Specific dysprosium tonnage not publicly disclosed.",
-      "ticker": "600549",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "Shenghe Resources Holding Co., Ltd.",
-      "country": "China",
-      "website": "http://en.shengheholding.com",
-      "production": "Produces separated RE oxides including dysprosium. Specific dysprosium production tonnage not publicly disclosed.",
-      "ticker": "600392",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "Lynas Rare Earths Ltd.",
-      "country": "Australia",
-      "website": "https://www.lynasrareearths.com",
-      "production": "Commenced first production of separated dysprosium oxide at Lynas Malaysia in May 2025. As of FY2023, dysprosium separation was not yet operational. FY2023 dysprosium production: not applicable (pre-commissioning).",
-      "ticker": "LYC",
-      "exchange": "ASX"
-    },
-    {
-      "name": "Neo Performance Materials Inc.",
-      "country": "Canada",
-      "website": "https://www.neomaterials.com",
-      "production": "Commissioned heavy rare earth (HREE) solvent extraction line at Silmet (Estonia) in April 2026, producing separated dysprosium and terbium oxides. As of 2023, dysprosium separation at Silmet was pre-commissioning; Jiangyin (China) facility also produced dysprosium. Specific 2023 dysprosium tonnage not publicly disclosed.",
-      "ticker": "NEO",
-      "exchange": "TSX"
-    },
-    {
-      "name": "MP Materials Corp.",
-      "country": "USA",
-      "website": "https://www.mpmaterials.com",
-      "production": "Mountain Pass ore contains heavy rare earth elements including dysprosium, but separated dysprosium production not yet operational as of 2023. Specific dysprosium production: not applicable.",
-      "ticker": "MP",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Shin-Etsu Chemical Co., Ltd.",
-      "country": "Japan",
-      "website": "https://www.shinetsu.co.jp",
-      "production": "Consumes dysprosium in high-performance sintered NdFeB magnet manufacturing (for coercivity enhancement). Conducts rare earth separation and refining. Specific dysprosium production or consumption tonnage not publicly disclosed.",
-      "ticker": "4063",
-      "exchange": "Tokyo Stock Exchange (TSE)"
-    },
-    {
-      "name": "TDK Corporation",
-      "country": "Japan",
-      "website": "https://www.tdk.com",
-      "production": "Consumes dysprosium in NEOREC NdFeB magnets. Developing HAL technology to reduce dysprosium loading. Specific dysprosium consumption not publicly disclosed.",
-      "ticker": "6762",
-      "exchange": "Tokyo Stock Exchange (TSE)"
+      "website": "https://www.regcc.cn",
+      "notes": "Controls the primary global source of dysprosium from Jiangxi and Guangdong ion-adsorption clay deposits. China controls approximately 95% of global separation capacity for dysprosium. Specific dysprosium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Iluka Resources Ltd.",
       "country": "Australia",
       "website": "https://www.iluka.com",
-      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated dysprosium. Commercial-scale separated production not yet commenced as of 2023.",
       "ticker": "ILU",
-      "exchange": "ASX"
+      "exchange": "ASX",
+      "notes": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated dysprosium. Commercial-scale separated production not yet commenced as of 2023.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "ticker": "LYC",
+      "exchange": "ASX",
+      "notes": "Commenced first production of separated dysprosium oxide at Lynas Malaysia in May 2025. As of FY2023, dysprosium separation was not yet operational. FY2023 dysprosium production: not applicable (pre-commissioning).",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "ticker": "MP",
+      "exchange": "NYSE",
+      "notes": "Mountain Pass ore contains heavy rare earth elements including dysprosium, but separated dysprosium production not yet operational as of 2023. Specific dysprosium production: not applicable.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Neo Performance Materials Inc.",
+      "country": "Canada",
+      "website": "https://www.neomaterials.com",
+      "ticker": "NEO",
+      "exchange": "TSX",
+      "notes": "Commissioned heavy rare earth (HREE) solvent extraction line at Silmet (Estonia) in April 2026, producing separated dysprosium and terbium oxides. As of 2023, dysprosium separation at Silmet was pre-commissioning; Jiangyin (China) facility also produced dysprosium. Specific 2023 dysprosium tonnage n",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated RE oxides including dysprosium. Specific dysprosium production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.shinetsu.co.jp",
+      "ticker": "4063",
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Consumes dysprosium in high-performance sintered NdFeB magnet manufacturing (for coercivity enhancement). Conducts rare earth separation and refining. Specific dysprosium production or consumption tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "TDK Corporation",
+      "country": "Japan",
+      "website": "https://www.tdk.com",
+      "ticker": "6762",
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Consumes dysprosium in NEOREC NdFeB magnets. Developing HAL technology to reduce dysprosium loading. Specific dysprosium consumption not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated rare earth oxides including dysprosium from Fujian ion-adsorption clay operations. Specific dysprosium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     }
   ],
   "lanthanum": [
@@ -8647,163 +8670,179 @@
       "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
       "country": "China",
       "website": "http://www.northrareearth.com",
-      "production": "Major producer of separated lanthanum oxide as a light rare earth from Bayan Obo. Plans to expand lanthanum and cerium production 25% by 2030. Specific 2023 lanthanum tonnage not publicly disclosed.",
       "ticker": "600111",
-      "exchange": "Shanghai Stock Exchange (SSE)"
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Major producer of separated lanthanum oxide as a light rare earth from Bayan Obo. Plans to expand lanthanum and cerium production 25% by 2030. Specific 2023 lanthanum tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "China Rare Earth Group Co., Ltd.",
       "country": "China",
       "website": "https://www.regcc.cn",
-      "production": "Produces separated RE oxides including lanthanum. Specific lanthanum tonnage not publicly disclosed.",
-      "ticker": "",
-      "exchange": ""
+      "notes": "Produces separated RE oxides including lanthanum. Specific lanthanum tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
-      "name": "Shenghe Resources Holding Co., Ltd.",
-      "country": "China",
-      "website": "http://en.shengheholding.com",
-      "production": "Produces and trades rare earth products including lanthanum compounds. Specific lanthanum production tonnage not publicly disclosed.",
-      "ticker": "600392",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
-      "country": "China",
-      "website": "http://en.xmjinwu.com",
-      "production": "Produces separated rare earth oxides including lanthanum. Specific lanthanum tonnage not publicly disclosed.",
-      "ticker": "600549",
-      "exchange": "Shanghai Stock Exchange (SSE)"
+      "name": "Iluka Resources Ltd.",
+      "country": "Australia",
+      "website": "https://www.iluka.com",
+      "ticker": "ILU",
+      "exchange": "ASX",
+      "notes": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated lanthanum among other RE oxides. Commercial-scale separated production not yet commenced as of 2023.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Lynas Rare Earths Ltd.",
       "country": "Australia",
       "website": "https://www.lynasrareearths.com",
-      "production": "Produces lanthanum and cerium as co-products at Lynas Malaysia separation plant. FY2024 light rare earth sales approximately 8,500 t REO (lanthanum and cerium combined). FY2023 lanthanum-specific tonnage not separately disclosed; total REO production 16,780 t (FY2023).",
       "ticker": "LYC",
-      "exchange": "ASX"
+      "exchange": "ASX",
+      "notes": "Produces lanthanum and cerium as co-products at Lynas Malaysia separation plant. FY2024 light rare earth sales approximately 8,500 t REO (lanthanum and cerium combined). FY2023 lanthanum-specific tonnage not separately disclosed; total REO production 16,780 t (FY2023).",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "MP Materials Corp.",
       "country": "USA",
       "website": "https://www.mpmaterials.com",
-      "production": "Produces lanthanum in rare earth concentrate (41,557 MT REO in 2023). Separated lanthanum oxide production not specifically disclosed; NdPr is primary separated product as of 2023.",
       "ticker": "MP",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "notes": "Produces lanthanum in rare earth concentrate (41,557 MT REO in 2023). Separated lanthanum oxide production not specifically disclosed; NdPr is primary separated product as of 2023.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Neo Performance Materials Inc.",
       "country": "Canada",
       "website": "https://www.neomaterials.com",
-      "production": "Produces separated RE oxides including lanthanum at Silmet (Estonia) and through its chemicals & oxides segment. Specific lanthanum tonnage not publicly disclosed.",
       "ticker": "NEO",
-      "exchange": "TSX"
-    },
-    {
-      "name": "Iluka Resources Ltd.",
-      "country": "Australia",
-      "website": "https://www.iluka.com",
-      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated lanthanum among other RE oxides. Commercial-scale separated production not yet commenced as of 2023.",
-      "ticker": "ILU",
-      "exchange": "ASX"
-    },
-    {
-      "name": "Shin-Etsu Chemical Co., Ltd.",
-      "country": "Japan",
-      "website": "https://www.shinetsu.co.jp",
-      "production": "Produces separated rare earth materials including lanthanum compounds for electronic and industrial applications via high-purification technology. Specific lanthanum production tonnage not publicly disclosed.",
-      "ticker": "4063",
-      "exchange": "Tokyo Stock Exchange (TSE)"
-    },
-    {
-      "name": "TDK Corporation",
-      "country": "Japan",
-      "website": "https://www.tdk.com",
-      "production": "Consumes lanthanum in specialty materials and electronic components. Specific lanthanum production or consumption tonnage not publicly disclosed.",
-      "ticker": "6762",
-      "exchange": "Tokyo Stock Exchange (TSE)"
-    }
-  ],
-  "terbium": [
-    {
-      "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
-      "country": "China",
-      "website": "https://www.regcc.cn",
-      "production": "Controls the primary global source of terbium from Jiangxi and Guangdong ion-adsorption clay deposits. China controls approximately 95% of global separation capacity for terbium. Specific terbium tonnage not publicly disclosed.",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
-      "country": "China",
-      "website": "http://www.northrareearth.com",
-      "production": "Produces separated RE oxides including terbium; plans 40% expansion in dysprosium and terbium separation capacity through 2030. Primary production is light rare earths; terbium-specific tonnage not publicly disclosed.",
-      "ticker": "600111",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
-      "country": "China",
-      "website": "http://en.xmjinwu.com",
-      "production": "Produces separated rare earth oxides including terbium from Fujian operations. Specific terbium tonnage not publicly disclosed.",
-      "ticker": "600549",
-      "exchange": "Shanghai Stock Exchange (SSE)"
+      "exchange": "TSX",
+      "notes": "Produces separated RE oxides including lanthanum at Silmet (Estonia) and through its chemicals & oxides segment. Specific lanthanum tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Shenghe Resources Holding Co., Ltd.",
       "country": "China",
       "website": "http://en.shengheholding.com",
-      "production": "Produces and trades rare earth products including terbium compounds. Specific terbium production tonnage not publicly disclosed.",
       "ticker": "600392",
-      "exchange": "Shanghai Stock Exchange (SSE)"
-    },
-    {
-      "name": "Neo Performance Materials Inc. (Silmet, Estonia)",
-      "country": "Canada / Estonia",
-      "website": "https://www.neomaterials.com",
-      "production": "Commissioned heavy rare earth (HREE) solvent extraction line at Silmet facility (Estonia) in April 2026, producing separated terbium and dysprosium oxides at nameplate capacity. As of 2023, Silmet terbium separation was pre-commissioning; JAMR (China) also produced terbium. Specific 2023 terbium tonnage not publicly disclosed.",
-      "ticker": "NEO",
-      "exchange": "TSX"
-    },
-    {
-      "name": "Lynas Rare Earths Ltd.",
-      "country": "Australia",
-      "website": "https://www.lynasrareearths.com",
-      "production": "Commenced first production of separated terbium oxide at Lynas Malaysia in June 2025 (initial commissioning of HRE facility). As of FY2023, terbium separation was not yet operational. FY2023 terbium production: not applicable.",
-      "ticker": "LYC",
-      "exchange": "ASX"
-    },
-    {
-      "name": "MP Materials Corp.",
-      "country": "USA",
-      "website": "https://www.mpmaterials.com",
-      "production": "Mountain Pass ore contains terbium, but separated terbium production not yet operational as of 2023. Specific terbium production: not applicable.",
-      "ticker": "MP",
-      "exchange": "NYSE"
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces and trades rare earth products including lanthanum compounds. Specific lanthanum production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Shin-Etsu Chemical Co., Ltd.",
       "country": "Japan",
       "website": "https://www.shinetsu.co.jp",
-      "production": "Consumes terbium in high-performance sintered NdFeB magnet manufacturing (grain boundary diffusion for coercivity). Conducts integrated rare earth refining. Specific terbium production or consumption tonnage not publicly disclosed.",
       "ticker": "4063",
-      "exchange": "Tokyo Stock Exchange (TSE)"
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Produces separated rare earth materials including lanthanum compounds for electronic and industrial applications via high-purification technology. Specific lanthanum production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "TDK Corporation",
       "country": "Japan",
       "website": "https://www.tdk.com",
-      "production": "Consumes terbium in NEOREC NdFeB magnets. Developing HAL technology to reduce heavy RE (Dy, Tb) loading. Specific terbium consumption not publicly disclosed.",
       "ticker": "6762",
-      "exchange": "Tokyo Stock Exchange (TSE)"
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Consumes lanthanum in specialty materials and electronic components. Specific lanthanum production or consumption tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated rare earth oxides including lanthanum. Specific lanthanum tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    }
+  ],
+  "terbium": [
+    {
+      "name": "China Northern Rare Earth (Group) High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "http://www.northrareearth.com",
+      "ticker": "600111",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated RE oxides including terbium; plans 40% expansion in dysprosium and terbium separation capacity through 2030. Primary production is light rare earths; terbium-specific tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "China Rare Earth Group Co., Ltd. (incl. China Southern Rare Earth Group)",
+      "country": "China",
+      "website": "https://www.regcc.cn",
+      "notes": "Controls the primary global source of terbium from Jiangxi and Guangdong ion-adsorption clay deposits. China controls approximately 95% of global separation capacity for terbium. Specific terbium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     },
     {
       "name": "Iluka Resources Ltd.",
       "country": "Australia",
       "website": "https://www.iluka.com",
-      "production": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated terbium. Commercial-scale separated production not yet commenced as of 2023.",
       "ticker": "ILU",
-      "exchange": "ASX"
+      "exchange": "ASX",
+      "notes": "Eneabba rare earth refinery (under construction, expected ~2026) will produce separated terbium. Commercial-scale separated production not yet commenced as of 2023.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Lynas Rare Earths Ltd.",
+      "country": "Australia",
+      "website": "https://www.lynasrareearths.com",
+      "ticker": "LYC",
+      "exchange": "ASX",
+      "notes": "Commenced first production of separated terbium oxide at Lynas Malaysia in June 2025 (initial commissioning of HRE facility). As of FY2023, terbium separation was not yet operational. FY2023 terbium production: not applicable.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "country": "USA",
+      "website": "https://www.mpmaterials.com",
+      "ticker": "MP",
+      "exchange": "NYSE",
+      "notes": "Mountain Pass ore contains terbium, but separated terbium production not yet operational as of 2023. Specific terbium production: not applicable.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Neo Performance Materials Inc. (Silmet, Estonia)",
+      "country": "Canada / Estonia",
+      "website": "https://www.neomaterials.com",
+      "ticker": "NEO",
+      "exchange": "TSX",
+      "notes": "Commissioned heavy rare earth (HREE) solvent extraction line at Silmet facility (Estonia) in April 2026, producing separated terbium and dysprosium oxides at nameplate capacity. As of 2023, Silmet terbium separation was pre-commissioning; JAMR (China) also produced terbium. Specific 2023 terbium ton",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Shenghe Resources Holding Co., Ltd.",
+      "country": "China",
+      "website": "http://en.shengheholding.com",
+      "ticker": "600392",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces and trades rare earth products including terbium compounds. Specific terbium production tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country": "Japan",
+      "website": "https://www.shinetsu.co.jp",
+      "ticker": "4063",
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Consumes terbium in high-performance sintered NdFeB magnet manufacturing (grain boundary diffusion for coercivity). Conducts integrated rare earth refining. Specific terbium production or consumption tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "TDK Corporation",
+      "country": "Japan",
+      "website": "https://www.tdk.com",
+      "ticker": "6762",
+      "exchange": "Tokyo Stock Exchange (TSE)",
+      "notes": "Consumes terbium in NEOREC NdFeB magnets. Developing HAL technology to reduce heavy RE (Dy, Tb) loading. Specific terbium consumption not publicly disclosed.",
+      "data_confidence": "Undisclosed"
+    },
+    {
+      "name": "Xiamen Tungsten Co., Ltd. (XTC)",
+      "country": "China",
+      "website": "http://en.xmjinwu.com",
+      "ticker": "600549",
+      "exchange": "Shanghai Stock Exchange (SSE)",
+      "notes": "Produces separated rare earth oxides including terbium from Fujian operations. Specific terbium tonnage not publicly disclosed.",
+      "data_confidence": "Undisclosed"
     }
   ],
   "graphite": [
