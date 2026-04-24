@@ -1883,12 +1883,18 @@
   ],
   "zinc": [
     {
-      "name": "Hindustan Zinc",
-      "country": "India",
-      "website": "https://www.hzlindia.com",
-      "production": "1,114,000 t (FY2026)",
-      "ticker": "HINDZINC",
-      "exchange": "NSE"
+      "name": "Vedanta",
+      "country": "UK/India",
+      "website": "https://www.vedanta.co.in",
+      "production": "~300,000 t (2024)",
+      "ticker": "VED",
+      "exchange": "LSE",
+      "production_kt_zn": 1273.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[Q4 FY25 Results](https://www.vedantalimited.com/public/uploads/11429/VEDL_PressRelease_Q4FY25_30April2025.pdf)",
+      "source_name": "Q4 FY25 Results",
+      "notes": "Total mined metal from Zinc India (1095 kt, key assets Rampura Agucha etc.) and Zinc International (178 kt, Gamsberg etc.)."
     },
     {
       "name": "Glencore",
@@ -1896,7 +1902,13 @@
       "website": "https://www.glencore.com",
       "production": "969,000 t (2025)",
       "ticker": "GLEN",
-      "exchange": "LSE"
+      "exchange": "LSE",
+      "production_kt_zn": 969.4,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[2025 Full Year Production Report](https://www.glencore.com/.rest/api/v1/documents/static/a8114247-02e8-4bd8-bc04-81f411ba631c/GLEN_2025-FY-Production-Report.pdf)",
+      "source_name": "2025 Full Year Production Report",
+      "notes": "Own-sourced contained zinc from assets including Antamina, McArthur River, Kazzinc; up 7% from FY2024's 905 kt."
     },
     {
       "name": "Teck Resources",
@@ -1904,7 +1916,13 @@
       "website": "https://www.teck.com",
       "production": "556,000 t (2024)",
       "ticker": "TECK",
-      "exchange": "TSX/NYSE"
+      "exchange": "TSX/NYSE",
+      "production_kt_zn": 616.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[2024 Production Update](https://www.teck.com/news/news-releases/2025/teck-announces-2024-production-and-2025-guidance-update)",
+      "source_name": "2024 Production Update",
+      "notes": "Primarily from Red Dog mine (556 kt), world's largest zinc mine, plus 22.5% Antamina share (60 kt)."
     },
     {
       "name": "Zijin Mining",
@@ -1912,15 +1930,13 @@
       "website": "https://www.zijinmining.com",
       "production": "~500,000 t capacity",
       "ticker": "2899",
-      "exchange": "HKEX"
-    },
-    {
-      "name": "Volcan Compañía Minera",
-      "country": "Peru",
-      "website": "https://www.volcan.com.pe",
-      "production": "~400,000 t capacity",
-      "ticker": "VOLCANC1",
-      "exchange": "BVL"
+      "exchange": "HKEX",
+      "production_kt_zn": 407.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Annual Results Announcement 2024](https://www.zijinmining.com/upload/file/2025/03/23/fe0519070ce84ef7992dfb7c03b40bc5.pdf)",
+      "source_name": "Annual Results Announcement 2024",
+      "notes": "Mine-produced zinc in concentrate; key assets: Zijin Zinc (Wulagen), Bisha (Eritrea), Longxing (Russia)."
     },
     {
       "name": "Nexa Resources",
@@ -1928,15 +1944,13 @@
       "website": "https://www.nexaresources.com",
       "production": "327,000 t (2024)",
       "ticker": "NEXA",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Vedanta",
-      "country": "UK/India",
-      "website": "https://www.vedanta.co.in",
-      "production": "~300,000 t (2024)",
-      "ticker": "VED",
-      "exchange": "LSE"
+      "exchange": "NYSE",
+      "production_kt_zn": 327.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[4Q24 & FY2024 Earnings Release](https://www.newsfilecorp.com/release/241717/Nexa-Resources-Reports-Strong-2024-Results-with-a-76-Increase-in-Annual-Adjusted-EBITDA)",
+      "source_name": "4Q24 & FY2024 Earnings Release",
+      "notes": "Polymetallic producer; consolidated mining output from key assets incl. Cerro Lindo, Aripuanã, Vazante."
     },
     {
       "name": "Industrias Peñoles",
@@ -1944,87 +1958,13 @@
       "website": "https://www.penoles.com.mx",
       "production": "270,000 t refined (2024)",
       "ticker": "PE&OLES",
-      "exchange": "BMV"
-    },
-    {
-      "name": "Boliden",
-      "country": "Sweden",
-      "website": "https://www.boliden.com",
-      "production": "~240,000 t",
-      "ticker": "BOL",
-      "exchange": "NASDAQ Stockholm"
-    },
-    {
-      "name": "MMG Limited",
-      "country": "Hong Kong",
-      "website": "https://www.mmg.com",
-      "production": "232,000 t (2025)",
-      "ticker": "1208",
-      "exchange": "HKEX"
-    },
-    {
-      "name": "Korea Zinc",
-      "country": "South Korea",
-      "website": "https://www.koreazinc.co.kr/en/",
-      "production": "Annual production capacity of 650,000 tonnes of zinc (Onsan smelter, Ulsan); world's largest non-ferrous smelting complex by single-site capacity",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Nyrstar",
-      "country": "Netherlands",
-      "website": "https://www.nyrstar.com",
-      "production": "Nyrstar Hobart smelter produces approximately 60% of Australia's refined zinc exports; Nyrstar Port Pirie produces 188,000 tonnes of lead (annualised FY25 figure); total zinc smelting capacity across Europe and Australia exceeds 1 million tonnes per year",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Ivanhoe Mines",
-      "country": "Canada",
-      "website": "https://www.ivanhoemines.com",
-      "production": "Kipushi Mine (DRC): 203,168 tonnes of zinc in concentrate in 2025 (first full year of production); 2026 guidance 240,000–290,000 tonnes",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Sibanye-Stillwater (Century Operation)",
-      "country": "South Africa",
-      "website": "https://www.sibanyestillwater.com",
-      "production": "76 kt of zinc metal (payable) from the Century zinc tailings retreatment operation in Queensland, Australia in 2023",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Minera San Cristobal S.A. (Sumitomo)",
-      "country": "Bolivia",
-      "website": "https://www.minerasancristobal.com",
-      "production": "Approximately 184,000 tonnes of zinc and 50,000 tonnes of lead in 2025 (from company website); in 2023, zinc-silver concentrate production decreased 15% and lead-silver increased 15% year-on-year per 2023 Sustainability Report",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Lundin Mining (Neves-Corvo & Zinkgruvan)",
-      "country": "Canada",
-      "website": "https://www.lundinmining.com",
-      "production": "Consolidated zinc production of 185,161 tonnes in 2023 (Neves-Corvo: 108,812 t; Zinkgruvan: 76,349 t)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Kazzinc",
-      "country": "Kazakhstan",
-      "website": "https://www.kazzinc.com",
-      "production": "293,000 tonnes of zinc in 2019 (most recent publicly stated annual figure on company website); production capacity of 167,000 tpa refined zinc at Ust-Kamenogorsk Metallurgical Complex plus 36,000 tpa Zn-Al alloy",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Hudbay Minerals",
-      "country": "Canada",
-      "website": "https://www.hudbayminerals.com",
-      "production": "Consolidated zinc production of approximately 36,541 tonnes in 2023 (full year, all operations including Manitoba's Lalor mine)",
-      "ticker": "",
-      "exchange": ""
+      "exchange": "BMV",
+      "production_kt_zn": 271.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Directors Report 4Q24](https://www.penoles.com.mx/assets/files/reportes/BMV/informe/en/Informe_Director_4T24_Eng.pdf)",
+      "source_name": "Directors Report 4Q24",
+      "notes": "Mining zinc production (contained metal, 100% attributable including Fresnillo plc and Juanicipio); key assets include Sabinas, Fresnillo, San Julián."
     },
     {
       "name": "Compañía Minera Antamina S.A.",
@@ -2032,13 +1972,195 @@
       "website": "https://www.antamina.com",
       "production": "527,979 tonnes of zinc in 2023 (Peru's Ministry of Mines data, representing 36% of Peru's total zinc output); in 2021, Antamina produced 462,200 tonnes of zinc",
       "ticker": "",
-      "exchange": ""
+      "exchange": "",
+      "production_kt_zn": 268.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Antamina Sustainability Report 2024](https://www.antamina.com/wp-content/uploads/2025/11/sustainability-report-antamina-2024.pdf)",
+      "source_name": "Antamina Sustainability Report 2024",
+      "notes": "Key polymetallic asset (Cu/Zn) owned by BHP (33.75%), Glencore (33.75%), Teck (22.5%), Mitsubishi (10%); contained Zn confirmed via owner reports (Teck: 268 kt 100%)."
+    },
+    {
+      "name": "Volcan Compañía Minera",
+      "country": "Peru",
+      "website": "https://www.volcan.com.pe",
+      "production": "~400,000 t capacity",
+      "ticker": "VOLCANC1",
+      "exchange": "BVL",
+      "production_kt_zn": 235.5,
+      "data_confidence": "Primary disclosure",
+      "production_year": "CY2025",
+      "source_url": "[Memoria Anual 2025](https://www.volcan.com.pe/wp-content/uploads/2026/03/Memoria-Anual-Volcan-2025-vF.pdf)",
+      "source_name": "Memoria Anual 2025",
+      "notes": "Polymetallic producer (zinc primary); key units: Yauli, Chungar, Cerro de Pasco Sulfuros, Alpamarca."
+    },
+    {
+      "name": "MMG Limited",
+      "country": "Hong Kong",
+      "website": "https://www.mmg.com",
+      "production": "232,000 t (2025)",
+      "ticker": "1208",
+      "exchange": "HKEX",
+      "production_kt_zn": 220.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[4Q24 Production Report](https://www.mmg.com/wp-content/uploads/2025/01/e_2025-01-23_4QTR-Production-Report.pdf)",
+      "source_name": "4Q24 Production Report",
+      "notes": "Total contained zinc from Dugald River (164 kt) and Rosebery (56 kt); primarily copper producer (Las Bambas) but strong zinc assets in Australia."
+    },
+    {
+      "name": "Lundin Mining (Neves-Corvo & Zinkgruvan)",
+      "country": "Canada",
+      "website": "https://www.lundinmining.com",
+      "production": "Consolidated zinc production of 185,161 tonnes in 2023 (Neves-Corvo: 108,812 t; Zinkgruvan: 76,349 t)",
+      "ticker": "LUN",
+      "exchange": "TSX",
+      "production_kt_zn": 192.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Lundin Mining FY2024 MD&A](https://lundinmining.com/_resources/financials/annual_financial_statements_-_q4_2024_final_-_combined.pdf?v=032611)",
+      "source_name": "Lundin Mining FY2024 MD&A",
+      "notes": "Neves-Corvo 110 kt + Zinkgruvan 82 kt contained Zn; sold to Boliden in 2025."
     },
     {
       "name": "Votorantim Metais (Nexa Resources Brazil operations)",
       "country": "Brazil",
       "website": "https://www.votorantim.com.br",
       "production": "Vazante Mine: estimated 145,700 tonnes of zinc in 2023 (GlobalData estimate cited by Mining Technology)",
+      "ticker": "NEXA",
+      "exchange": "NYSE",
+      "production_kt_zn": 180.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Nexa 4Q24 & FY2024 Earnings Release](https://api.mziq.com/mzfilemanager/v2/d/fe910899-6ec8-4afe-a772-1e96c9351084/7f085cd3-057d-f5e4-8f51-fb3d5ac483b0?origin=1)",
+      "source_name": "Nexa 4Q24 & FY2024 Earnings Release",
+      "notes": "Brazil mines: Vazante (141 kt), Aripuanã (32 kt), Morro Agudo (7 kt, Jan-Apr only); consolidated group 327 kt."
+    },
+    {
+      "name": "Boliden",
+      "country": "Sweden",
+      "website": "https://www.boliden.com",
+      "production": "~240,000 t",
+      "ticker": "BOL",
+      "exchange": "NASDAQ Stockholm",
+      "production_kt_zn": 164.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Year-end Report 2024](https://investors.boliden.com/sites/boliden-ir/files/pr/202502052475-1.pdf)",
+      "source_name": "Year-end Report 2024",
+      "notes": "Contained zinc in concentrate from Mines unit (Garpenberg, Boliden Area, Tara); primary zinc mines."
+    },
+    {
+      "name": "Sibanye-Stillwater (Century Operation)",
+      "country": "South Africa",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "76 kt of zinc metal (payable) from the Century zinc tailings retreatment operation in Queensland, Australia in 2023",
+      "ticker": "SSW",
+      "exchange": "JSE",
+      "production_kt_zn": 82.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Combined Integrated Report 2024 Operational Excellence](https://reports.sibanyestillwater.com/2024/download/SSW-CIR24-operational-excellence.pdf)",
+      "source_name": "Combined Integrated Report 2024 Operational Excellence",
+      "notes": "Century zinc tailings retreatment operation in Queensland, Australia; 82 kt payable zinc metal produced."
+    },
+    {
+      "name": "Hudbay Minerals",
+      "country": "Canada",
+      "website": "https://www.hudbayminerals.com",
+      "production": "Consolidated zinc production of approximately 36,541 tonnes in 2023 (full year, all operations including Manitoba's Lalor mine)",
+      "ticker": "HBM",
+      "exchange": "TSX/NYSE",
+      "production_kt_zn": 33.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Hudbay Q4/FY2024 Results](https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results-Achieves-2024-Consolidated-Production-and-Cost-Guidance-and-Provides-2025-Annual-Guidance/default.aspx)",
+      "source_name": "Hudbay Q4/FY2024 Results",
+      "notes": "By-product Zn from Lalor mine (Manitoba); exact kt confirmed in secondary source citing company data, consistent with Q4 figure and 4% decline noted in primary press release."
+    },
+    {
+      "name": "Hindustan Zinc",
+      "country": "India",
+      "website": "https://www.hzlindia.com",
+      "production": "1,114,000 t (FY2026)",
+      "ticker": "HINDZINC",
+      "exchange": "NSE",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2025",
+      "source_url": "[Integrated Annual Report FY2024/25](https://integratedreport.hzlindia.com/annual-integrated-report-fy-2024-25/)",
+      "source_name": "Integrated Annual Report FY2024/25",
+      "notes": "World's second largest integrated zinc producer; key asset Rampura Agucha mine; reports total mined metal but no contained Zn breakdown."
+    },
+    {
+      "name": "Ivanhoe Mines",
+      "country": "Canada",
+      "website": "https://www.ivanhoemines.com",
+      "production": "Kipushi Mine (DRC): 203,168 tonnes of zinc in concentrate in 2025 (first full year of production); 2026 guidance 240,000–290,000 tonnes",
+      "ticker": "IVN",
+      "exchange": "TSX",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[2024 Production Results](https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-provides-2024-production-results-2025-production-guidance/)",
+      "source_name": "2024 Production Results",
+      "notes": "Secondary zinc output from Kipushi mine (62% owned); 50 kt zinc in concentrate produced during inaugural ramp-up year."
+    },
+    {
+      "name": "Kazzinc",
+      "country": "Kazakhstan",
+      "website": "https://www.kazzinc.com",
+      "production": "293,000 tonnes of zinc in 2019 (most recent publicly stated annual figure on company website); production capacity of 167,000 tpa refined zinc at Ust-Kamenogorsk Metallurgical Complex plus 36,000 tpa Zn-Al alloy",
+      "ticker": "",
+      "exchange": "",
+      "data_confidence": "Undisclosed",
+      "production_year": "CY2024",
+      "source_url": "[Glencore FY2024 Production Report](https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf)",
+      "source_name": "Glencore FY2024 Production Report",
+      "notes": "Private company (Glencore ~70% owner); no contained Zn production disclosed in own sources, reports own-sourced Zn metal 128 kt + concentrate 99 kt (CY2024), key assets include Zhairem mine."
+    },
+    {
+      "name": "Korea Zinc",
+      "country": "South Korea",
+      "website": "https://www.koreazinc.co.kr/en/",
+      "production": "Annual production capacity of 650,000 tonnes of zinc (Onsan smelter, Ulsan); world's largest non-ferrous smelting complex by single-site capacity",
+      "ticker": "010130",
+      "exchange": "KRX",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[2024 Sustainability Report](https://www.koreazinc.co.kr/wp-content/uploads/2025/07/2024_%EA%B3%A0%EB%A0%A4%EC%95%84%EC%97%B0-%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EA%B2%BD%EC%98%81%EB%B3%B4%EA%B3%A0%EC%84%9CKOR.pdf)",
+      "source_name": "2024 Sustainability Report",
+      "notes": "World's largest zinc smelter (Onsan); actual contained Zn production not found in accessible reports, check DART 사업보고서 for details."
+    },
+    {
+      "name": "Minera San Cristobal S.A. (Sumitomo)",
+      "country": "Bolivia",
+      "website": "https://www.minerasancristobal.com",
+      "production": "Approximately 184,000 tonnes of zinc and 50,000 tonnes of lead in 2025 (from company website); in 2023, zinc-silver concentrate production decreased 15% and lead-silver increased 15% year-on-year per 2023 Sustainability Report",
+      "ticker": "Private (San Cristobal Mining Inc. SCMIF",
+      "exchange": "OTC)",
+      "data_confidence": "Undisclosed",
+      "production_year": "CY2023",
+      "source_url": "[2023 Sustainability Report](https://www.minerasancristobal.com/reportesostenibilidad2023/english/home.html)",
+      "source_name": "2023 Sustainability Report",
+      "notes": "World-class open-pit zinc-silver-lead mine in Potosí, Bolivia; reports 278 kt wet zinc-silver concentrate produced in 2023, no contained Zn disclosed."
+    },
+    {
+      "name": "Nyrstar",
+      "country": "Netherlands",
+      "website": "https://www.nyrstar.com",
+      "production": "Nyrstar Hobart smelter produces approximately 60% of Australia's refined zinc exports; Nyrstar Port Pirie produces 188,000 tonnes of lead (annualised FY25 figure); total zinc smelting capacity across Europe and Australia exceeds 1 million tonnes per year",
+      "ticker": "NYR",
+      "exchange": "Euronext Brussels",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[Nyrstar NV 2024 Annual Report](https://www.nyrstarnv.be/~/media/Files/N/Nyrstar-IR/results-reports-and-presentations/english/2025/nyrstar-nv-2024-annual-report-english.pdf)",
+      "source_name": "Nyrstar NV 2024 Annual Report",
+      "notes": "Nyrstar NV is a holding shell post-2019 restructuring; operational zinc smelting business (smelters in Netherlands, Belgium, Australia) wholly owned by Trafigura with no contained Zn production disclosed in primary sources."
+    },
+    {
+      "name": "BHP (Olympic Dam & Cannington zinc contribution)",
+      "country": "Australia",
+      "website": "https://www.bhp.com",
+      "production": "BHP is listed among major lead producing companies; South32's Cannington mine (spun off from BHP) produced an estimated 59,200 tonnes of zinc in 2023",
       "ticker": "",
       "exchange": ""
     },
@@ -2051,90 +2173,10 @@
       "exchange": ""
     },
     {
-      "name": "Zhongjin Lingnan Nonfemet (Shenzhen Zhongjin Lingnan)",
-      "country": "China",
-      "website": "https://www.nonfemet.com.cn",
-      "production": "In 2023, the company's mines produced approximately 1.05 million tonnes of zinc-lead concentrate; smelters produced approximately 92,000 tonnes of refined zinc in 2023",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Silvercorp Metals",
-      "country": "Canada",
-      "website": "https://www.silvercorpmetals.com",
-      "production": "Fiscal year 2023 (ended March 31, 2023): 23.5 million pounds (approximately 10,660 tonnes) of zinc and 68.1 million pounds (approximately 30,890 tonnes) of lead from mines in China",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Vedanta Zinc International (Gamsberg)",
-      "country": "South Africa",
-      "website": "https://www.vedantalimited.com/eng/businesses-zinc-lead-silver.php",
-      "production": "Gamsberg Project (Northern Cape, South Africa): estimated 225,000 tonnes of zinc in 2023 (GlobalData estimate)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Galena Mining (Abra Mine)",
-      "country": "Australia",
-      "website": "https://www.galenamining.com.au",
-      "production": "Annual design capacity approximately 95,000 tonnes of lead per year after ramp-up; commenced first production January 2023",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "BHP (Olympic Dam & Cannington zinc contribution)",
-      "country": "Australia",
-      "website": "https://www.bhp.com",
-      "production": "BHP is listed among major lead producing companies; South32's Cannington mine (spun off from BHP) produced an estimated 59,200 tonnes of zinc in 2023",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Yunnan Chihong Zinc & Germanium",
-      "country": "China",
-      "website": "https://www.chihong.com.cn",
-      "production": "One of China's largest zinc producers; accounted for more than 52% of germanium output in China in 2023 (USGS); specific zinc production figures not publicly disaggregated",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
       "name": "DOWA Holdings (Akita Zinc)",
       "country": "Japan",
       "website": "https://hd.dowa.co.jp/en/",
       "production": "Akita Zinc Co., Ltd. (DOWA subsidiary): approximately 200,000 tonnes of electrolytic zinc per year (the largest zinc smelter in Japan)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Mitsubishi Materials Corporation",
-      "country": "Japan",
-      "website": "https://www.mmc.co.jp/corporate/en/",
-      "production": "Zinc smelting capacity at Naoshima (electrolytic zinc); zinc, lead, and tin smelting operations across multiple facilities; specific annual zinc production tonnages not publicly disclosed in English-language sources",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Grupo México (ASARCO / Southern Copper zinc by-product)",
-      "country": "Mexico",
-      "website": "https://www.gmexico.com",
-      "production": "Mexico is a significant zinc-producing country (744,000 tonnes mine production in 2022; 690,000 tonnes estimated in 2023 per USGS); Grupo México is among the major producers in the country through its mining subsidiaries",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Ozernoye Mining Company",
-      "country": "Russia",
-      "website": "https://ozernoye.ru",
-      "production": "Ozernoye zinc-lead mine (Buryatia, Russia): 320,000 tonnes/year zinc capacity; opened September 2024 per ILZSG New Mine and Smelter Report",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Tara Mine / Boliden Tara Mines",
-      "country": "Ireland",
-      "website": "https://www.boliden.com/operations/mines/boliden-tara/",
-      "production": "Tara Mine produced approximately 103,000 metric tonnes of zinc concentrate in 2022 (before suspension); mine suspended June 2023 due to financial losses; reopened October 2024 with 130,000 t/y capacity per ILZSG",
       "ticker": "",
       "exchange": ""
     },
@@ -2147,6 +2189,62 @@
       "exchange": ""
     },
     {
+      "name": "Foran Mining",
+      "country": "Canada",
+      "website": "https://foranmining.com",
+      "production": "McIlvenna Bay project (Saskatchewan): 30,000 t/y zinc capacity; first commercial production expected mid-2026; indicated resource of 1.86 billion pounds of zinc at 2.18% grade",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Galena Mining (Abra Mine)",
+      "country": "Australia",
+      "website": "https://www.galenamining.com.au",
+      "production": "Annual design capacity approximately 95,000 tonnes of lead per year after ramp-up; commenced first production January 2023",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Grupo México (ASARCO / Southern Copper zinc by-product)",
+      "country": "Mexico",
+      "website": "https://www.gmexico.com",
+      "production": "Mexico is a significant zinc-producing country (744,000 tonnes mine production in 2022; 690,000 tonnes estimated in 2023 per USGS); Grupo México is among the major producers in the country through its mining subsidiaries",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Mitsubishi Materials Corporation",
+      "country": "Japan",
+      "website": "https://www.mmc.co.jp/corporate/en/",
+      "production": "Zinc smelting capacity at Naoshima (electrolytic zinc); zinc, lead, and tin smelting operations across multiple facilities; specific annual zinc production tonnages not publicly disclosed in English-language sources",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Ozernoye Mining Company",
+      "country": "Russia",
+      "website": "https://ozernoye.ru",
+      "production": "Ozernoye zinc-lead mine (Buryatia, Russia): 320,000 tonnes/year zinc capacity; opened September 2024 per ILZSG New Mine and Smelter Report",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Silvercorp Metals",
+      "country": "Canada",
+      "website": "https://www.silvercorpmetals.com",
+      "production": "Fiscal year 2023 (ended March 31, 2023): 23.5 million pounds (approximately 10,660 tonnes) of zinc and 68.1 million pounds (approximately 30,890 tonnes) of lead from mines in China",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Tara Mine / Boliden Tara Mines",
+      "country": "Ireland",
+      "website": "https://www.boliden.com/operations/mines/boliden-tara/",
+      "production": "Tara Mine produced approximately 103,000 metric tonnes of zinc concentrate in 2022 (before suspension); mine suspended June 2023 due to financial losses; reopened October 2024 with 130,000 t/y capacity per ILZSG",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
       "name": "Vares Silver (Adriatic Metals)",
       "country": "Bosnia and Herzegovina",
       "website": "https://adriaticmetals.com",
@@ -2155,10 +2253,26 @@
       "exchange": ""
     },
     {
-      "name": "Foran Mining",
-      "country": "Canada",
-      "website": "https://foranmining.com",
-      "production": "McIlvenna Bay project (Saskatchewan): 30,000 t/y zinc capacity; first commercial production expected mid-2026; indicated resource of 1.86 billion pounds of zinc at 2.18% grade",
+      "name": "Vedanta Zinc International (Gamsberg)",
+      "country": "South Africa",
+      "website": "https://www.vedantalimited.com/eng/businesses-zinc-lead-silver.php",
+      "production": "Gamsberg Project (Northern Cape, South Africa): estimated 225,000 tonnes of zinc in 2023 (GlobalData estimate)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Yunnan Chihong Zinc & Germanium",
+      "country": "China",
+      "website": "https://www.chihong.com.cn",
+      "production": "One of China's largest zinc producers; accounted for more than 52% of germanium output in China in 2023 (USGS); specific zinc production figures not publicly disaggregated",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zhongjin Lingnan Nonfemet (Shenzhen Zhongjin Lingnan)",
+      "country": "China",
+      "website": "https://www.nonfemet.com.cn",
+      "production": "In 2023, the company's mines produced approximately 1.05 million tonnes of zinc-lead concentrate; smelters produced approximately 92,000 tonnes of refined zinc in 2023",
       "ticker": "",
       "exchange": ""
     }
@@ -2639,7 +2753,13 @@
       "website": "https://www.newmont.com",
       "production": "213 t (2024)",
       "ticker": "NEM",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_t_au": 213.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Newmont 2024 10-K](https://www.sec.gov/Archives/edgar/data/1164727/000116472725000011/nem-20241231.htm)",
+      "source_name": "Newmont 2024 10-K",
+      "notes": "Attributable gold production 6,849 thousand troy oz produced (consolidated 6,545 koz). FY ends Dec 31. 1 t = 32,150.7 tr oz: 6,849,000 / 32,150.7 ≈ 213.0 t."
     },
     {
       "name": "Barrick Gold",
@@ -2647,7 +2767,13 @@
       "website": "https://www.barrick.com",
       "production": "122 t (2024)",
       "ticker": "GOLD",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_t_au": 122.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Q4 2024 Results](https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx)",
+      "source_name": "Q4 2024 Results",
+      "notes": "Attributable gold eq production 3.91 Moz per primary sources, converted using 1 t = 32,150.7 oz (3,910,000 / 32,150.7 ≈ 121.65 t rounded to 122 t). Calendar FY end Dec 2024. Exact tonnes not stated; oz standard."
     },
     {
       "name": "Agnico Eagle Mines",
@@ -2655,7 +2781,13 @@
       "website": "https://www.agnicoeagle.com",
       "production": "108 t (2024)",
       "ticker": "AEM",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_t_au": 108.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Q4 &amp; FY2024 Results](https://www.agnicoeagle.com/English/news-and-media/news-releases/news-details/2025/AGNICO-EAGLE-REPORTS-FOURTH-QUARTER-AND-FULL-YEAR-2024-RESULTS---RECORD-ANNUAL-GOLD-PRODUCTION-AND-FREE-CASH-FLOW-BALANCE-SHEET-STRENGTHENED-BY-FURTHER-DEBT-REDUCTION-UPDATED-THREE-YEAR-GUIDANCE/default.aspx)",
+      "source_name": "Q4 &amp; FY2024 Results",
+      "notes": "Payable gold production 3,485,336 oz converted (1 t = 32,150.7 oz). Calendar FY ends Dec 31. Production from official results press release (primary operating disclosure); financials confirm FY."
     },
     {
       "name": "Navoi Mining and Metallurgy",
@@ -2663,7 +2795,13 @@
       "website": "https://www.ngmk.uz",
       "production": "96 t (2024)",
       "ticker": "State-owned",
-      "exchange": ""
+      "exchange": "",
+      "production_t_au": 96.4,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[NMMC FY2024 IFRS Financial Results](https://www.ngmk.uz/wp-content/uploads/2025/04/NMMC-FY-2024-IFRS-final.pdf)",
+      "source_name": "NMMC FY2024 IFRS Financial Results",
+      "notes": "Production 3.10 Moz (IFRS press release); 3,091 koz (sustainability report). 3.10M oz ≈ 96.4 t (1 t = 32,150.7 oz). Not publicly listed for equity (IPO planned); Eurobonds traded on LSE (e.g. ISIN XS2911115645)."
     },
     {
       "name": "Polyus",
@@ -2671,7 +2809,13 @@
       "website": "https://polyus.com",
       "production": "93 t (2024)",
       "ticker": "PLZL",
-      "exchange": "MOEX"
+      "exchange": "MOEX",
+      "production_t_au": 93.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Polyus Financial Results 2H & FY2024](https://polyus.com/en/media/press-releases/financial-results-for-the-second-half-of-2024-and-full-year-2024/)",
+      "source_name": "Polyus Financial Results 2H & FY2024",
+      "notes": "Production 3,002 koz Au from official press releases (primary sources). Converted using 1 t = 32,150.7 oz. Annual Review 2024 PDF available on site but no direct link fetched."
     },
     {
       "name": "AngloGold Ashanti",
@@ -2679,23 +2823,13 @@
       "website": "https://www.anglogoldashanti.com",
       "production": "82 t (2024)",
       "ticker": "AU",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Kinross Gold",
-      "country": "Canada",
-      "website": "https://www.kinross.com",
-      "production": "66 t (2024)",
-      "ticker": "KGC",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Gold Fields",
-      "country": "South Africa",
-      "website": "https://www.goldfields.com",
-      "production": "64 t (2024)",
-      "ticker": "GFI",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_t_au": 83.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[FY2024 Results Investor Presentation](https://www.sec.gov/Archives/edgar/data/1973832/000162828025006210/aga_fy2024resultsxinvestor.pdf)",
+      "source_name": "FY2024 Results Investor Presentation",
+      "notes": "Group production 2.661 Moz (2,661 koz); converted using 1 t = 32,150.7 oz (82.8 t rounded to 83 t). HQ registered UK, operational Denver USA. Also listed ANG · JSE."
     },
     {
       "name": "Zijin Mining Group",
@@ -2703,7 +2837,27 @@
       "website": "https://www.zijinmining.com",
       "production": "62 t (2024)",
       "ticker": "2899",
-      "exchange": "HKEX"
+      "exchange": "HKEX",
+      "production_t_au": 73.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Annual Results Announcement for the Year Ended 31 December 2024](https://ru.zijinmining.com/upload/file/2025/03/25/0c4d55bdb3ac419ea7792571d6008267.pdf)",
+      "source_name": "Annual Results Announcement for the Year Ended 31 December 2024",
+      "notes": "Mine-produced gold: 72.938 t total (62.205 t attributable). Rounded to 73 t per company estimates elsewhere. FY ends Dec 31."
+    },
+    {
+      "name": "Gold Fields",
+      "country": "South Africa",
+      "website": "https://www.goldfields.com",
+      "production": "64 t (2024)",
+      "ticker": "GFI",
+      "exchange": "NYSE",
+      "production_t_au": 64.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Gold Fields Integrated Annual Report 2024](https://www.goldfields.com/reports/annual-report-2024/production-and-cost-performance.php)",
+      "source_name": "Gold Fields Integrated Annual Report 2024",
+      "notes": "Attributable gold-equivalent production 2.071 Moz converted (1 t = 32,150.7 oz). PDF reports inaccessible; official HTML report page used. South Deep mine in South Africa."
     },
     {
       "name": "Freeport-McMoRan",
@@ -2711,7 +2865,13 @@
       "website": "https://www.fcx.com",
       "production": "59 t (est 2024)",
       "ticker": "FCX",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_t_au": 59.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Q4 2024 Earnings Release](https://mms.businesswire.com/media/20250122679192/en/2360933/1/FCX_250123_4Q_2024_Earnings_Release.pdf)",
+      "source_name": "Q4 2024 Earnings Release",
+      "notes": "Consolidated production 1,880,000 troy oz (1.88M oz) = 58.46 t, rounded to 59 t. 1 t = 32,150.7 oz. Net/attributable ~29 t. Uses production (not sales 1.84M oz). Official investor presentation."
     },
     {
       "name": "Northern Star Resources",
@@ -2719,15 +2879,13 @@
       "website": "https://www.nsrltd.com",
       "production": "50 t (est 2024)",
       "ticker": "NST",
-      "exchange": "ASX"
-    },
-    {
-      "name": "Harmony Gold",
-      "country": "South Africa",
-      "website": "https://www.harmony.co.za",
-      "production": "48 t (2024)",
-      "ticker": "HMY",
-      "exchange": "NYSE"
+      "exchange": "ASX",
+      "production_t_au": 50.5,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY24",
+      "source_url": "[FY24 Financial Results Summary](https://www.nsrltd.com/media/yevbgtwl/5-fy24-financial-results-summary-22-08-2024.pdf)",
+      "source_name": "FY24 Financial Results Summary",
+      "notes": "1,621 koz Au sold = 50.5 metric tonnes (1 t = 32,150.7 tr oz). Most recent full-year primary source available (ended 30 Jun 2024). FY25: 1.63 Moz sold per results."
     },
     {
       "name": "Shandong Gold",
@@ -2735,7 +2893,41 @@
       "website": "https://www.sdgold.com.cn",
       "production": "45 t (est 2024)",
       "ticker": "600547",
-      "exchange": "SSE"
+      "exchange": "SSE",
+      "production_t_au": 46.17,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[2024 Annual Report Summary (SSE)](http://notice.10jqka.com.cn/api/pdf/8bd60791c498e602.pdf)",
+      "source_name": "2024 Annual Report Summary (SSE)",
+      "notes": "Mineral gold output (矿产金产量); full annual report linked from official site but PDF not directly fetched."
+    },
+    {
+      "name": "Harmony Gold",
+      "country": "South Africa",
+      "website": "https://www.harmony.co.za",
+      "production": "48 t (2024)",
+      "ticker": "HMY",
+      "exchange": "NYSE",
+      "production_t_au": 46.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[FY25 Results (JSE SENS PDF)](https://senspdf.jse.co.za/documents/2025/jse/isse/HARE/FY25result.pdf)",
+      "source_name": "FY25 Results (JSE SENS PDF)",
+      "notes": "Production: 46 023 kg Au = 46 tonnes. FY ends 30 June."
+    },
+    {
+      "name": "Endeavour Mining",
+      "country": "United Kingdom",
+      "website": "https://www.endeavourmining.com",
+      "production": "1,072,000 oz gold (FY 2023, continuing operations)",
+      "ticker": "EDV",
+      "exchange": "LSE/TSX",
+      "production_t_au": 38.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[FY-2025 Results Announcement](https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-fy-2025-results/)",
+      "source_name": "FY-2025 Results Announcement",
+      "notes": "1,209 koz Au converted (1 t = 32,150.7 oz); continuing ops, year ended 31 Dec 2025. Audited MD&A/financials filed on SEDAR+/NSM, referenced in announcement. No direct PDF link found."
     },
     {
       "name": "B2Gold",
@@ -2743,7 +2935,41 @@
       "website": "https://b2gold.com",
       "production": "30 t (est 2024)",
       "ticker": "BTG",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_t_au": 25.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[B2Gold FY2024 Production Release](https://www.b2gold.com/news-media/news-releases/news-details/2025/B2Gold-Announces-Total-Consolidated-Gold-Production-for-2024-of-804778-ozWithin-the-Revised-2024-Guidance-Range-Total-Gold-Production-for-2025-Anticipated-to-be-Between-970000-and-1075000-oz-Goose-Project-Remains-On-Track-for-First-Gold-in-Q2-2025-an/default.aspx)",
+      "source_name": "B2Gold FY2024 Production Release",
+      "notes": "804,778 troy oz total consolidated production on 100% project basis (calendar FY Dec 31 2024). Converted using 1 t = 32,150.7 oz (rounded to 1 decimal). Press release cites AIF for ownership details. Annual MD&A/40-F expected to confirm."
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "country": "South Africa",
+      "website": "https://www.sibanyestillwater.com",
+      "production": "810,584 oz gold (FY 2023, SA gold operations including DRDGOLD)",
+      "ticker": "SSW",
+      "exchange": "JSE",
+      "production_t_au": 21.9,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[2024 Group Annual Financial Report](https://reports.sibanyestillwater.com/2024/download/SSW-AFR24.pdf)",
+      "source_name": "2024 Group Annual Financial Report",
+      "notes": "SA gold operations production (including DRDGOLD); 21,915 kg = 21.915 tonnes. Company is a top tier gold producer per report. No total group gold ex-SA specified."
+    },
+    {
+      "name": "Alamos Gold",
+      "country": "Canada",
+      "website": "https://www.alamosgold.com",
+      "production": "529,300 oz gold (FY 2023, record annual production)",
+      "ticker": "AGI",
+      "exchange": "TSX",
+      "production_t_au": 17.6,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Alamos Gold Q4 & Year-End 2024 Results](https://alamosgold.com/news-and-events/news/news-details/2025/Alamos-Gold-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx)",
+      "source_name": "Alamos Gold Q4 & Year-End 2024 Results",
+      "notes": "567,000 oz Au converted (567000/32150.7≈17.6 t); from official press release w/ unaudited statements. Form 40-F filed 2025-03-31 on EDGAR/SEDAR+."
     },
     {
       "name": "Eldorado Gold",
@@ -2751,181 +2977,60 @@
       "website": "https://www.eldoradogold.com",
       "production": "25 t (est 2024)",
       "ticker": "ELD",
-      "exchange": "TSX"
-    },
-    {
-      "name": "Endeavour Mining",
-      "country": "United Kingdom",
-      "website": "https://www.endeavourmining.com",
-      "production": "1,072,000 oz gold (FY 2023, continuing operations)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Alamos Gold",
-      "country": "Canada",
-      "website": "https://www.alamosgold.com",
-      "production": "529,300 oz gold (FY 2023, record annual production)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Sibanye-Stillwater",
-      "country": "South Africa",
-      "website": "https://www.sibanyestillwater.com",
-      "production": "810,584 oz gold (FY 2023, SA gold operations including DRDGOLD)",
-      "ticker": "",
-      "exchange": ""
+      "exchange": "TSX",
+      "production_t_au": 16.2,
+      "data_confidence": "Primary disclosure",
+      "production_year": "calendar 2024",
+      "source_url": "[Q4 2024 MD&A](https://www.eldoradogold.com/sites/eldorado-gold/files/2025-04/Q4%202024%20Annual%20MDA%20Final.pdf)",
+      "source_name": "Q4 2024 MD&A",
+      "notes": "520,293 troy oz total gold produced from continuing operations, converted using 1 t = 32,150.7 oz (520293 / 32150.7 ≈ 16.19)"
     },
     {
       "name": "OceanaGold",
       "country": "Canada",
       "website": "https://www.oceanagold.com",
       "production": "477,313 oz gold and 14,172 tonnes copper (FY 2023)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "OGC",
+      "exchange": "TSX",
+      "production_t_au": 15.2,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[OceanaGold Q4 & FY2024 Results](https://www.prnewswire.com/news-releases/oceanagold-reports-fourth-quarter-and-full-year-2024-operating-and-financial-results-302380738.html)",
+      "source_name": "OceanaGold Q4 & FY2024 Results",
+      "notes": "Calendar year ended Dec 31, 2024. 488,800 troy oz Au = 15.2 tonnes (1 t = 32,150.7 oz). Primary source press release; full MD&A at oceanagold.com (link not directly fetched)."
     },
     {
       "name": "Centerra Gold",
       "country": "Canada",
       "website": "https://www.centerragold.com",
       "production": "368,104 oz gold (FY 2024); 2023 production not reported in available reviewed sources",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "CG",
+      "exchange": "TSX",
+      "production_t_au": 8.56,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[Q4 & FY2025 Results Press Release](https://www.globenewswire.com/news-release/2026/02/19/3241598/0/en/Centerra-Gold-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Delivered-Robust-Annual-Production-and-Beat-Cost-Guidance-2026-Outlook-Remains-Strong-as-Centerra-Executes-its-Self-.html)",
+      "source_name": "Q4 & FY2025 Results Press Release",
+      "notes": "Production from official press release citing 275,316 oz Au consolidated (100% basis); converted using 1 t = 32,150.7 oz. Primary MD&A/FS on SEDAR+ www.sedarplus.ca (search Centerra Gold 2025 annual)."
     },
     {
-      "name": "Perseus Mining",
-      "country": "Australia",
-      "website": "https://perseusmining.com",
-      "production": "528,486 oz gold (Calendar Year 2023)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "IAMGOLD",
+      "name": "Kinross Gold",
       "country": "Canada",
-      "website": "https://www.iamgold.com",
-      "production": "465,000 oz gold (FY 2023, attributable, continuing operations)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Torex Gold Resources",
-      "country": "Canada",
-      "website": "https://torexgold.com",
-      "production": "453,778 oz gold (FY 2023)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Resolute Mining",
-      "country": "Australia",
-      "website": "https://www.rml.com.au",
-      "production": "330,992 oz gold (FY 2023)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "West African Resources",
-      "country": "Australia",
-      "website": "https://www.westafricanresources.com",
-      "production": "2023 guidance range: 210,000–230,000 oz gold (Sanbrado Gold Operation, Burkina Faso)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Dundee Precious Metals",
-      "country": "Canada",
-      "website": "https://www.dundeeprecious.com",
-      "production": "296,100 oz gold (FY 2023, metals contained in concentrate produced; Chelopech + Ada Tepe mines, Bulgaria)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "DRDGOLD",
-      "country": "South Africa",
-      "website": "https://www.drdgold.com",
-      "production": "163,904 oz gold (FY 2023, financial year ending June 30, 2023)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Solidcore Resources (formerly Polymetal International)",
-      "country": "Kazakhstan",
-      "website": "https://www.solidcore-resources.com",
-      "production": "1,492,000 oz gold and 17,700,000 oz silver (FY 2023; gold equivalent: 1,714,000 oz)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Shandong Gold Mining",
-      "country": "China",
-      "website": "https://www.sdjgold.com",
-      "production": "41.78 tonnes gold (FY 2023, including Yintai Gold consolidation)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Zhaojin Mining Industry",
-      "country": "China",
-      "website": "https://en.zhaojin.com.cn",
-      "production": "24,684.76 kg (approximately 793,633 oz) gold (FY 2023)",
-      "ticker": "",
-      "exchange": ""
+      "website": "https://www.kinross.com",
+      "production": "66 t (2024)",
+      "ticker": "KGC",
+      "exchange": "NYSE",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[Annual Information Form](https://www.sec.gov/Archives/edgar/data/701818/000110465925028819/kgc-20241231xex99d1.htm)",
+      "source_name": "Annual Information Form",
+      "notes": "No total Au (pure gold) production found in primary sources (AIF, annual report, MD&A); all report Au eq ~2.17M oz total / 2.13M attributable. Gold sales 2.1M oz Au. Paracatu >500koz Au equiv. Cannot convert reliably due to unknown silver contribution."
     },
     {
       "name": "Almalyk Mining and Metallurgical Combine (AGMK)",
       "country": "Uzbekistan",
       "website": "https://agmk.uz",
       "production": "Estimated 1,114,000 oz gold (FY 2024; Almalyk Complex, one of world's top 5 gold-producing mines)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Kyrgyzaltyn OJSC",
-      "country": "Kyrgyzstan",
-      "website": "https://www.kyrgyzaltyn.kg",
-      "production": "Estimated 592,142 oz gold (FY 2024, Kumtor mine)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "PT Amman Mineral Nusa Tenggara",
-      "country": "Indonesia",
-      "website": "https://www.amman.co.id",
-      "production": "Estimated 1,009,000 oz gold (FY 2024, Batu Hijau mine)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Kazzinc",
-      "country": "Kazakhstan",
-      "website": "https://www.kazzinc.com",
-      "production": "1,000,000 oz gold (FY 2024, Kazzinc Consolidated complex)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Glencore (gold by-product)",
-      "country": "Switzerland",
-      "website": "https://www.glencore.com",
-      "production": "747,000 oz gold (FY 2023, from own sources)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Hochschild Mining",
-      "country": "United Kingdom",
-      "website": "https://www.hochschildmining.com",
-      "production": "186,091 oz gold and 9,517,000 oz silver (FY 2023, attributable)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Evolution Mining",
-      "country": "Australia",
-      "website": "https://evolutionmining.com.au",
-      "production": "717,000 oz gold (FY 2024, year ending June 30, 2024); approximately 667,000 oz gold (FY 2023)",
       "ticker": "",
       "exchange": ""
     },
@@ -2946,6 +3051,70 @@
       "exchange": ""
     },
     {
+      "name": "DRDGOLD",
+      "country": "South Africa",
+      "website": "https://www.drdgold.com",
+      "production": "163,904 oz gold (FY 2023, financial year ending June 30, 2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Dundee Precious Metals",
+      "country": "Canada",
+      "website": "https://www.dundeeprecious.com",
+      "production": "296,100 oz gold (FY 2023, metals contained in concentrate produced; Chelopech + Ada Tepe mines, Bulgaria)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Evolution Mining",
+      "country": "Australia",
+      "website": "https://evolutionmining.com.au",
+      "production": "717,000 oz gold (FY 2024, year ending June 30, 2024); approximately 667,000 oz gold (FY 2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Glencore (gold by-product)",
+      "country": "Switzerland",
+      "website": "https://www.glencore.com",
+      "production": "747,000 oz gold (FY 2023, from own sources)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Hochschild Mining",
+      "country": "United Kingdom",
+      "website": "https://www.hochschildmining.com",
+      "production": "186,091 oz gold and 9,517,000 oz silver (FY 2023, attributable)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "IAMGOLD",
+      "country": "Canada",
+      "website": "https://www.iamgold.com",
+      "production": "465,000 oz gold (FY 2023, attributable, continuing operations)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Kazzinc",
+      "country": "Kazakhstan",
+      "website": "https://www.kazzinc.com",
+      "production": "1,000,000 oz gold (FY 2024, Kazzinc Consolidated complex)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Kyrgyzaltyn OJSC",
+      "country": "Kyrgyzstan",
+      "website": "https://www.kyrgyzaltyn.kg",
+      "production": "Estimated 592,142 oz gold (FY 2024, Kumtor mine)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
       "name": "McEwen Mining",
       "country": "Canada",
       "website": "https://www.mcewenmining.com",
@@ -2960,118 +3129,36 @@
       "production": "2,100,000 oz gold and 133,000 tonnes copper (FY 2023, year ending June 30, 2023)",
       "ticker": "",
       "exchange": ""
-    }
-  ],
-  "silver": [
-    {
-      "name": "Fresnillo",
-      "country": "Mexico",
-      "website": "https://www.fresnilloplc.com",
-      "production": "56 Moz (2024)",
-      "ticker": "FRES",
-      "exchange": "LSE"
     },
     {
-      "name": "Industrias Peñoles",
-      "country": "Mexico",
-      "website": "https://www.penoles.com.mx",
-      "production": "~40 Moz (est 2024)",
-      "ticker": "PE&OLES",
-      "exchange": "BMV"
-    },
-    {
-      "name": "Pan American Silver",
-      "country": "Canada",
-      "website": "https://panamericansilver.com",
-      "production": "21 Moz (2024)",
-      "ticker": "PAAS",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Hecla Mining",
-      "country": "USA",
-      "website": "https://www.hecla.com",
-      "production": "17 Moz (2025)",
-      "ticker": "HL",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Buenaventura",
-      "country": "Peru",
-      "website": "https://www.buenaventura.com",
-      "production": "~11 Moz (est)",
-      "ticker": "BVN",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Coeur Mining",
-      "country": "USA",
-      "website": "https://www.coeur.com",
-      "production": "11.4 Moz (2024)",
-      "ticker": "CDE",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "SilverCrest Metals",
-      "country": "Canada",
-      "website": "https://silvercrestmetals.com",
-      "production": "~10 Moz (est)",
-      "ticker": "SILV",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "First Majestic Silver",
-      "country": "Canada",
-      "website": "https://www.firstmajestic.com",
-      "production": "8.4 Moz (2024)",
-      "ticker": "AG",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Fortuna Silver Mines",
-      "country": "Canada",
-      "website": "https://www.fortunasilver.com",
-      "production": "~7 Moz (est)",
-      "ticker": "FSM",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Endeavour Silver",
-      "country": "Canada",
-      "website": "https://edrsilver.com",
-      "production": "~5-6 Moz (est)",
-      "ticker": "EXK",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "KGHM Polska Miedź",
-      "country": "Poland",
-      "website": "https://kghm.com",
-      "production": "1,428.3 tonnes payable silver (FY 2023, KGHM Group full year)",
+      "name": "Perseus Mining",
+      "country": "Australia",
+      "website": "https://perseusmining.com",
+      "production": "528,486 oz gold (Calendar Year 2023)",
       "ticker": "",
       "exchange": ""
     },
     {
-      "name": "Hochschild Mining",
-      "country": "United Kingdom",
-      "website": "https://www.hochschildmining.com",
-      "production": "9,517,000 oz silver and 186,091 oz gold (FY 2023, attributable)",
+      "name": "PT Amman Mineral Nusa Tenggara",
+      "country": "Indonesia",
+      "website": "https://www.amman.co.id",
+      "production": "Estimated 1,009,000 oz gold (FY 2024, Batu Hijau mine)",
       "ticker": "",
       "exchange": ""
     },
     {
-      "name": "MAG Silver",
-      "country": "Canada",
-      "website": "https://www.magsilver.com",
-      "production": "16,813,000 oz silver and 36,732 oz gold (FY 2023, 100% Juanicipio JV basis; MAG holds 44%)",
+      "name": "Resolute Mining",
+      "country": "Australia",
+      "website": "https://www.rml.com.au",
+      "production": "330,992 oz gold (FY 2023)",
       "ticker": "",
       "exchange": ""
     },
     {
-      "name": "Silvercorp Metals",
-      "country": "Canada",
-      "website": "https://silvercorpmetals.com",
-      "production": "6,600,000 oz silver (Fiscal Year 2023, ended March 31, 2023)",
+      "name": "Shandong Gold Mining",
+      "country": "China",
+      "website": "https://www.sdjgold.com",
+      "production": "41.78 tonnes gold (FY 2023, including Yintai Gold consolidation)",
       "ticker": "",
       "exchange": ""
     },
@@ -3079,47 +3166,320 @@
       "name": "Solidcore Resources (formerly Polymetal International)",
       "country": "Kazakhstan",
       "website": "https://www.solidcore-resources.com",
-      "production": "17,700,000 oz silver (FY 2023)",
+      "production": "1,492,000 oz gold and 17,700,000 oz silver (FY 2023; gold equivalent: 1,714,000 oz)",
       "ticker": "",
       "exchange": ""
+    },
+    {
+      "name": "Torex Gold Resources",
+      "country": "Canada",
+      "website": "https://torexgold.com",
+      "production": "453,778 oz gold (FY 2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "West African Resources",
+      "country": "Australia",
+      "website": "https://www.westafricanresources.com",
+      "production": "2023 guidance range: 210,000–230,000 oz gold (Sanbrado Gold Operation, Burkina Faso)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zhaojin Mining Industry",
+      "country": "China",
+      "website": "https://en.zhaojin.com.cn",
+      "production": "24,684.76 kg (approximately 793,633 oz) gold (FY 2023)",
+      "ticker": "",
+      "exchange": ""
+    }
+  ],
+  "silver": [
+    {
+      "name": "Industrias Peñoles",
+      "country": "Mexico",
+      "website": "https://www.penoles.com.mx",
+      "production": "~40 Moz (est 2024)",
+      "ticker": "PE&OLES",
+      "exchange": "BMV",
+      "production_moz_ag": 70.6,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[4Q24 Earnings Report](https://www.penoles.com.mx/assets/files/reportes/BMV/informe/en/Informe_Director_4T24_Eng.pdf)",
+      "source_name": "4Q24 Earnings Report",
+      "notes": "Refined silver: 76.3 Moz (FY2024). World's largest refined silver producer per company docs. Peñoles owns ~60% Fresnillo plc (world #1 silver miner); figures include 100% Fresnillo payable production."
+    },
+    {
+      "name": "Fresnillo",
+      "country": "Mexico",
+      "website": "https://www.fresnilloplc.com",
+      "production": "56 Moz (2024)",
+      "ticker": "FRES",
+      "exchange": "LSE",
+      "production_moz_ag": 56.3,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Fresnillo plc FY2024 Preliminary Results](https://www.fresnilloplc.com/media/xrfjufma/040325-fres-fy24-prelim-report.pdf)",
+      "source_name": "Fresnillo plc FY2024 Preliminary Results",
+      "notes": "Attributable production including Silverstream contract (56,307 kOz). World's largest primary silver producer."
+    },
+    {
+      "name": "KGHM Polska Miedź",
+      "country": "Poland",
+      "website": "https://kghm.com",
+      "production": "1,428.3 tonnes payable silver (FY 2023, KGHM Group full year)",
+      "ticker": "KGH",
+      "exchange": "WSE",
+      "production_moz_ag": 23.5,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[KGHM Q4 2024 IR Release](https://kghm.com/sites/default/files/KGHM%20IR%20release%20Q4%202024.pdf)",
+      "source_name": "KGHM Q4 2024 IR Release",
+      "notes": "Payable silver production 730 tonnes (23.5 Moz) from IR release; total production ~1316 tonnes from financials. Copper is primary product (730 kt)."
     },
     {
       "name": "Hindustan Zinc (Vedanta)",
       "country": "India",
       "website": "https://www.hzlindia.com",
       "production": "714 tonnes silver (FY 2023, year ending March 31, 2023; record production)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "HINDZINC",
+      "exchange": "NSE",
+      "production_moz_ag": 21.4,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[HZL Integrated Annual Report FY2024-25](https://integratedreport.hzlindia.com/annual-integrated-report-fy-2024-25/)",
+      "source_name": "HZL Integrated Annual Report FY2024-25",
+      "notes": "687 MT silver sold/produced; India's only primary silver producer per report (from Zn/Pb smelter recovery). 1 MT Ag = 32.1507 koz."
     },
     {
-      "name": "South32 (Cannington mine)",
-      "country": "Australia",
-      "website": "https://www.south32.net",
-      "production": "Approximately 10,740,000 oz payable silver (FY 2023, based on South32 quarterly data for July 2022–June 2023); approximately 334 tonnes in calendar year 2023",
-      "ticker": "",
-      "exchange": ""
+      "name": "Pan American Silver",
+      "country": "Canada",
+      "website": "https://panamericansilver.com",
+      "production": "21 Moz (2024)",
+      "ticker": "PAAS",
+      "exchange": "NYSE",
+      "production_moz_ag": 21.1,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Q4 2024 and FY2024 Financial Report (MD&A)](https://panamericansilver.com/wp-content/uploads/2025/01/Q4-2024-Financial-Report.pdf)",
+      "source_name": "Q4 2024 and FY2024 Financial Report (MD&A)",
+      "notes": "Calendar year FY ending Dec 31; audited results; silver segment mines contribute majority of Ag production"
     },
     {
       "name": "Glencore (silver by-product)",
       "country": "Switzerland",
       "website": "https://www.glencore.com",
       "production": "20,011,000 oz silver (FY 2023, from own sources)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "GLEN",
+      "exchange": "LSE",
+      "production_moz_ag": 19.3,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Full Year 2024 Production Report](https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf)",
+      "source_name": "Full Year 2024 Production Report",
+      "notes": "Own sources total 19.3 Moz (rounded from 19,286 koz). Silver produced as by-product from Cu/Zn/Ni operations (e.g., Antamina, Collahuasi, Kazzinc)."
+    },
+    {
+      "name": "MAG Silver",
+      "country": "Canada",
+      "website": "https://www.magsilver.com",
+      "production": "16,813,000 oz silver and 36,732 oz gold (FY 2023, 100% Juanicipio JV basis; MAG holds 44%)",
+      "ticker": "MAG",
+      "exchange": "TSX",
+      "production_moz_ag": 18.6,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[MAG Silver 2024 Annual Financial Results PR](https://minedocs.com/28/MAG-Silver-Corp-PR-03242025.pdf)",
+      "source_name": "MAG Silver 2024 Annual Financial Results PR",
+      "notes": "44% JV interest in Juanicipio silver mine (operator: Fresnillo plc). Production is 100% mine basis (standard reporting). Attributable ~8.2 Moz. Acquired by Pan American Silver Sep 2025. PR links to full audited statements/MD&A on SEDAR+/EDGAR."
+    },
+    {
+      "name": "Coeur Mining",
+      "country": "USA",
+      "website": "https://www.coeur.com",
+      "production": "11.4 Moz (2024)",
+      "ticker": "CDE",
+      "exchange": "NYSE",
+      "production_moz_ag": 17.9,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[Q4 & FY2025 Results Press Release (SEC Exhibit 99.1)](https://www.sec.gov/Archives/edgar/data/215466/000114036126006019/ef20065606_ex99-1.htm)",
+      "source_name": "Q4 & FY2025 Results Press Release (SEC Exhibit 99.1)",
+      "notes": "Matches FY24/25 period; calendar year FY ends Dec 31. Silver from Rochester, Palmarejo, Las Chispas (co-/primary), minor Wharf by-product."
+    },
+    {
+      "name": "Hecla Mining",
+      "country": "USA",
+      "website": "https://www.hecla.com",
+      "production": "17 Moz (2025)",
+      "ticker": "HL",
+      "exchange": "NYSE",
+      "production_moz_ag": 17.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "calendar 2025",
+      "source_url": "[April 2026 Investor Update](https://www.hecla.com/wp-content/uploads/Hecla-Mining_April-Update_FINAL.pdf)",
+      "source_name": "April 2026 Investor Update",
+      "notes": "Total from Greens Creek (8.7 Moz), Lucky Friday (5.3 Moz), Keno Hill (3.0 Moz). Matches multiple press releases on 2025 production."
+    },
+    {
+      "name": "Buenaventura",
+      "country": "Peru",
+      "website": "https://www.buenaventura.com",
+      "production": "~11 Moz (est)",
+      "ticker": "BVN",
+      "exchange": "NYSE",
+      "production_moz_ag": 14.8,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Integrated Annual Report 2024](https://buenaventura.com/wp-content/uploads/2025/03/Memoria-Anual-Integrada-BVN-2024_vf-ingles.pdf)",
+      "source_name": "Integrated Annual Report 2024",
+      "notes": "Attributable consolidated Ag production 14.754 Moz; primarily byproduct from polymetallic mines (Zn, Pb, Cu, Au). Gold is also significant."
     },
     {
       "name": "Volcan Compañía Minera",
       "country": "Peru",
       "website": "https://www.volcan.com.pe",
       "production": "15,200,000 oz silver (FY 2023; increased 6.2% from 14.3 million oz in 2022)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "VOLB",
+      "exchange": "BVL",
+      "production_moz_ag": 13.9,
+      "data_confidence": "Primary disclosure",
+      "production_year": "calendar 2024",
+      "source_url": "[4Q 2024 Results Presentation](https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc=%7B801F1995-0000-CC3D-821E-64B618C3D381%7D)",
+      "source_name": "4Q 2024 Results Presentation",
+      "notes": "Polymetallic producer (zinc primary); silver from polymetallic ore and oxides plant. Filed with SMV (Peru SEC)."
     },
     {
       "name": "Nexa Resources",
       "country": "Luxembourg",
       "website": "https://www.nexaresources.com",
       "production": "Approximately 12,000,000 oz silver (FY 2023, consolidated mining operations in Peru and Brazil)",
+      "ticker": "NEXA",
+      "exchange": "NYSE",
+      "production_moz_ag": 12.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Nexa Resources 4Q & FY2024 Earnings Release](https://www.sec.gov/Archives/edgar/data/1713930/000129281425000272/ex99-1.htm)",
+      "source_name": "Nexa Resources 4Q & FY2024 Earnings Release",
+      "notes": "Silver production confirmed as 12 MMoz in FY2024 (calendar year ended Dec 31, 2024) from multiple press releases; zinc is primary metal."
+    },
+    {
+      "name": "South32 (Cannington mine)",
+      "country": "Australia",
+      "website": "https://www.south32.net",
+      "production": "Approximately 10,740,000 oz payable silver (FY 2023, based on South32 quarterly data for July 2022–June 2023); approximately 334 tonnes in calendar year 2023",
+      "ticker": "S32",
+      "exchange": "ASX",
+      "production_moz_ag": 10.3,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[South32 Quarterly Report June 2025](https://www.south32.net/docs/default-source/all-financial-results/quarterly-report-june-2025.pdf?sfvrsn=6edf80_1)",
+      "source_name": "South32 Quarterly Report June 2025",
+      "notes": "Cannington payable silver production 10,292 koz (10.3 Moz). Reported as part of zinc-lead-silver mine using ZnEq metric; silver is by-product from Zn/Pb mining."
+    },
+    {
+      "name": "Hochschild Mining",
+      "country": "United Kingdom",
+      "website": "https://www.hochschildmining.com",
+      "production": "9,517,000 oz silver and 186,091 oz gold (FY 2023, attributable)",
+      "ticker": "HOC",
+      "exchange": "LSE",
+      "production_moz_ag": 8.5,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[2024 Full Year Results Announcement](https://www.hochschildmining.com/media/ercjrkn4/1e_annual-results_-final.pdf)",
+      "source_name": "2024 Full Year Results Announcement",
+      "notes": "Attributable production 8.496 Moz Ag. FY = Dec 31 year-end. FY2025 data in secondary sources only (~7.5 Moz)."
+    },
+    {
+      "name": "First Majestic Silver",
+      "country": "Canada",
+      "website": "https://www.firstmajestic.com",
+      "production": "8.4 Moz (2024)",
+      "ticker": "AG",
+      "exchange": "NYSE",
+      "production_moz_ag": 8.4,
+      "data_confidence": "Primary disclosure",
+      "production_year": "calendar 2024",
+      "source_url": "[First Majestic Q4/FY2024 Production Release](https://www.firstmajestic.com/investors/news-releases/first-majestic-produces-5-point-7-million-ageq-oz-in-q4-2024-consisting-of-2-point-4-million-silver-ounces-and-39506-gold-ounces-and-21-point-7-million-ageq-oz-in-2024)",
+      "source_name": "First Majestic Q4/FY2024 Production Release",
+      "notes": "Production from official company press release (primary source per task). Annual report PDF unavailable via fetch; figure consistent across multiple company releases. FY ends Dec 31."
+    },
+    {
+      "name": "Silvercorp Metals",
+      "country": "Canada",
+      "website": "https://silvercorpmetals.com",
+      "production": "6,600,000 oz silver (Fiscal Year 2023, ended March 31, 2023)",
+      "ticker": "SVM",
+      "exchange": "TSX",
+      "production_moz_ag": 6.9,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[Fiscal 2025 Production News Release](https://silvercorpmetals.com/wp-content/uploads/2025/04/20250415-SVM-Fiscal-2025-Production-and-Fiscal-2026-Guidance-News-Release-1.pdf)",
+      "source_name": "Fiscal 2025 Production News Release",
+      "notes": "Record production; 6,948 Koz total (Ying: 6,431 Koz, GC: 517 Koz). FY ends March 31."
+    },
+    {
+      "name": "SilverCrest Metals",
+      "country": "Canada",
+      "website": "https://silvercrestmetals.com",
+      "production": "~10 Moz (est)",
+      "ticker": "SILV",
+      "exchange": "NYSE",
+      "production_moz_ag": 5.66,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[SilverCrest Q4/FY2024 Operational Results](https://www.prnewswire.com/news-releases/silvercrest-provides-2024-fourth-quarter-and-annual-operational-results-302351141.html)",
+      "source_name": "SilverCrest Q4/FY2024 Operational Results",
+      "notes": "Recovered silver; company website unavailable post-Coeur acquisition Feb 2025; no full annual report PDF located; operational press release qualifies as primary investor presentation equivalent."
+    },
+    {
+      "name": "Endeavour Silver",
+      "country": "Canada",
+      "website": "https://edrsilver.com",
+      "production": "~5-6 Moz (est)",
+      "ticker": "EXK",
+      "exchange": "NYSE",
+      "production_moz_ag": 4.47,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[2024 Year-End MD&A](https://edrsilver.com/site/assets/files/14053/2024-edr-ye-mda.pdf)",
+      "source_name": "2024 Year-End MD&A",
+      "notes": "Silver production: 4,471,824 oz. Calendar year end Dec 31."
+    },
+    {
+      "name": "Fortuna Silver Mines",
+      "country": "Canada",
+      "website": "https://www.fortunasilver.com",
+      "production": "~7 Moz (est)",
+      "ticker": "FSM",
+      "exchange": "NYSE",
+      "production_moz_ag": 3.72,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Fortuna Mining Corp. MD&A for year ended Dec 31, 2024](https://fortunamining.com/wp-content/uploads/2025/03/fsm_Q4-2024-MDA_FILING.pdf)",
+      "source_name": "Fortuna Mining Corp. MD&A for year ended Dec 31, 2024",
+      "notes": "Formerly Fortuna Silver Mines Inc.; silver production from San Jose (silver-gold) and Caylloma (silver-lead-zinc) mines; total 3,724,945 oz (page 5)."
+    },
+    {
+      "name": "Solidcore Resources (formerly Polymetal International)",
+      "country": "Kazakhstan",
+      "website": "https://www.solidcore-resources.com",
+      "production": "17,700,000 oz silver (FY 2023)",
+      "ticker": "CORE",
+      "exchange": "AIX",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[FY2024 Preliminary Results](https://www.solidcore-resources.com/upload/ib/696278/2025_03_31_Preliminary_results_FY2024_eng_final.pdf)",
+      "source_name": "FY2024 Preliminary Results",
+      "notes": "Silver sales reported as 76 Koz shipped / 73 Koz payable (FY2024) but no production figure disclosed in primary sources (annual report, prelim results, production releases). Silver is byproduct at Varvara (gold/copper primary); Kyzyl is refractory gold (minimal silver). GE production excludes base metals."
+    },
+    {
+      "name": "Antofagasta plc (gold and silver by-product)",
+      "country": "Chile",
+      "website": "https://www.antofagasta.co.uk",
+      "production": "209,100 oz gold (FY 2023, by-product); silver production not separately quantified in reviewed sources",
       "ticker": "",
       "exchange": ""
     },
@@ -3132,34 +3492,10 @@
       "exchange": ""
     },
     {
-      "name": "Teck Resources (silver by-product)",
-      "country": "Canada",
-      "website": "https://www.teck.com",
-      "production": "10,600,000 oz silver (FY 2023)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
       "name": "Compañía Minera Antamina",
       "country": "Peru",
       "website": "https://www.antamina.com",
       "production": "Approximately 12,630,000 oz silver (2023, #9 largest silver mine globally per GlobalData)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "McEwen Mining",
-      "country": "Canada",
-      "website": "https://www.mcewenmining.com",
-      "production": "2,166,850 oz silver (FY 2023; primarily from San José mine, 49% interest)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Zijin Mining Group (silver by-product)",
-      "country": "China",
-      "website": "https://www.zijinmining.com",
-      "production": "412 tonnes silver (approx. 13,250,000 oz) (FY 2023)",
       "ticker": "",
       "exchange": ""
     },
@@ -3172,14 +3508,6 @@
       "exchange": ""
     },
     {
-      "name": "Newmont Corporation (silver by-product)",
-      "country": "United States",
-      "website": "https://www.newmont.com",
-      "production": "Approximately 31,000,000 oz silver (FY 2023, by-product at Peñasquito, Ahafo, and other operations); Peñasquito alone: approximately 20,680,000 oz silver (2023, #2 globally)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
       "name": "Gümüşköy Mine (Eti Gümüş A.Ş.)",
       "country": "Turkey",
       "website": "https://www.etigold.com.tr",
@@ -3188,10 +3516,34 @@
       "exchange": ""
     },
     {
-      "name": "Antofagasta plc (gold and silver by-product)",
-      "country": "Chile",
-      "website": "https://www.antofagasta.co.uk",
-      "production": "209,100 oz gold (FY 2023, by-product); silver production not separately quantified in reviewed sources",
+      "name": "McEwen Mining",
+      "country": "Canada",
+      "website": "https://www.mcewenmining.com",
+      "production": "2,166,850 oz silver (FY 2023; primarily from San José mine, 49% interest)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Newmont Corporation (silver by-product)",
+      "country": "United States",
+      "website": "https://www.newmont.com",
+      "production": "Approximately 31,000,000 oz silver (FY 2023, by-product at Peñasquito, Ahafo, and other operations); Peñasquito alone: approximately 20,680,000 oz silver (2023, #2 globally)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Teck Resources (silver by-product)",
+      "country": "Canada",
+      "website": "https://www.teck.com",
+      "production": "10,600,000 oz silver (FY 2023)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Zijin Mining Group (silver by-product)",
+      "country": "China",
+      "website": "https://www.zijinmining.com",
+      "production": "412 tonnes silver (approx. 13,250,000 oz) (FY 2023)",
       "ticker": "",
       "exchange": ""
     }
@@ -3932,20 +4284,34 @@
   ],
   "iron_ore": [
     {
-      "name": "Vale",
-      "country": "Brazil",
-      "website": "https://vale.com",
-      "production": "328 Mt (2024)",
-      "ticker": "VALE",
-      "exchange": "NYSE"
-    },
-    {
       "name": "Rio Tinto",
       "country": "UK/Australia",
       "website": "https://www.riotinto.com",
       "production": "328 Mt (2024, Pilbara)",
       "ticker": "RIO",
-      "exchange": "LSE/ASX"
+      "exchange": "LSE/ASX",
+      "production_mt_feore": 328.6,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Q4 2024 Operations Review](https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results)",
+      "source_name": "Q4 2024 Operations Review",
+      "notes": "Pilbara operations, key assets include Gudai-Darri and Western Range.",
+      "product_grade": "Pilbara Blend (62% Fe) + SP10"
+    },
+    {
+      "name": "Vale",
+      "country": "Brazil",
+      "website": "https://vale.com",
+      "production": "328 Mt (2024)",
+      "ticker": "VALE",
+      "exchange": "NYSE",
+      "production_mt_feore": 328.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Vale Production Report 4Q24/2024](https://vale.com/w/vales-production-and-sales-in-4q24-and-2024)",
+      "source_name": "Vale Production Report 4Q24/2024",
+      "notes": "Key asset: S11D in Carajás; highest production since 2018, surpassing guidance of 310-320 Mt.",
+      "product_grade": "Fines + Pellets"
     },
     {
       "name": "BHP",
@@ -3953,7 +4319,14 @@
       "website": "https://www.bhp.com",
       "production": "260 Mt (2024)",
       "ticker": "BHP",
-      "exchange": "ASX/NYSE"
+      "exchange": "ASX/NYSE",
+      "production_mt_feore": 263.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[BHP Operational Review FY25](https://www.bhp.com/-/media/documents/media/reports-and-presentations/2025/250718_bhpoperationalreviewfortheyearended30june2025.pdf)",
+      "source_name": "BHP Operational Review FY25",
+      "notes": "WAIO (Pilbara) record 257 Mt (BHP share), total incl. Samarco; primary iron ore from Western Australia Iron Ore operations.",
+      "product_grade": "Fines + Lump (not specified % Fe)"
     },
     {
       "name": "Fortescue",
@@ -3961,31 +4334,14 @@
       "website": "https://www.fmgl.com.au",
       "production": "192 Mt (2024)",
       "ticker": "FMG",
-      "exchange": "ASX"
-    },
-    {
-      "name": "ArcelorMittal",
-      "country": "Luxembourg",
-      "website": "https://corporate.arcelormittal.com",
-      "production": "50 Mt (est)",
-      "ticker": "MT",
-      "exchange": "NYSE"
-    },
-    {
-      "name": "Anglo American (Kumba)",
-      "country": "South Africa",
-      "website": "https://www.angloamerican.com",
-      "production": "40 Mt (est)",
-      "ticker": "AAL",
-      "exchange": "LSE"
-    },
-    {
-      "name": "Metalloinvest",
-      "country": "Russia",
-      "website": "https://metalloinvest.com",
-      "production": "40 Mt (est)",
-      "ticker": "Private",
-      "exchange": ""
+      "exchange": "ASX",
+      "production_mt_feore": 198.4,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY25",
+      "source_url": "[Investor Centre](https://investors.fortescue.com)",
+      "source_name": "Investor Centre",
+      "notes": "Pilbara region operations including Chichester, Solomon Hubs, and Iron Bridge.",
+      "product_grade": "Hematite Fines + Lump (58% Fe), Iron Bridge Concentrate (67% Fe)"
     },
     {
       "name": "NMDC",
@@ -3993,15 +4349,59 @@
       "website": "https://www.nmdc.co.in",
       "production": "40 Mt (est)",
       "ticker": "NMDC",
-      "exchange": "NSE"
+      "exchange": "NSE",
+      "production_mt_feore": 45.02,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[NMDC FY24 Annual Report](https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/15dad218dabe421f8de41a8be637d7e3_20240911170110292.pdf)",
+      "source_name": "NMDC FY24 Annual Report",
+      "notes": "Record production from Kirandul/Bacheli (Chhattisgarh) and Donimalai (Karnataka) mines.",
+      "product_grade": "Lumps + Fines (high-grade)"
     },
     {
-      "name": "Cleveland-Cliffs",
-      "country": "USA",
-      "website": "https://www.clevelandcliffs.com",
+      "name": "ArcelorMittal",
+      "country": "Luxembourg",
+      "website": "https://corporate.arcelormittal.com",
+      "production": "50 Mt (est)",
+      "ticker": "MT",
+      "exchange": "NYSE",
+      "production_mt_feore": 42.4,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[FY2024 Results](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-fourth-quarter-and-full-year-2024-results)",
+      "source_name": "FY2024 Results",
+      "notes": "Key assets: ArcelorMittal Mines Canada (AMMC) and Liberia; total group production includes equity share from JVs.",
+      "product_grade": "Undisclosed"
+    },
+    {
+      "name": "Metalloinvest",
+      "country": "Russia",
+      "website": "https://metalloinvest.com",
       "production": "40 Mt (est)",
-      "ticker": "CLF",
-      "exchange": "NYSE"
+      "ticker": "Private",
+      "exchange": "",
+      "production_mt_feore": 36.2,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Metalloinvest.com Homepage](https://www.metalloinvest.com)",
+      "source_name": "Metalloinvest.com Homepage",
+      "notes": "Key assets: Lebedinsky GOK and Mikhailovsky GOK; figure from company website production stats for 2024 (железная руда 36.2 млн тонн), consistent with annual report citations of 35.9 Mt.",
+      "product_grade": "Concentrate + Pellets"
+    },
+    {
+      "name": "Anglo American (Kumba)",
+      "country": "South Africa",
+      "website": "https://www.angloamerican.com",
+      "production": "40 Mt (est)",
+      "ticker": "AAL",
+      "exchange": "LSE",
+      "production_mt_feore": 36.1,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[Q4 & FY2025 Production Report](https://www.angloamericankumba.com/~/media/Files/A/Anglo-American-Group-v9/Kumba/press-releases/2025/kumba-production-and-sales-report-q4-2025.pdf)",
+      "source_name": "Q4 & FY2025 Production Report",
+      "notes": "Key assets: Sishen and Kolomela mines in Northern Cape; reports production as primary volume metric (sales 37.0 Mt).",
+      "product_grade": "Lump + Fines (64% Fe)"
     },
     {
       "name": "LKAB",
@@ -4009,23 +4409,44 @@
       "website": "https://www.lkab.com",
       "production": "28 Mt",
       "ticker": "State-owned",
-      "exchange": ""
+      "exchange": "",
+      "production_mt_feore": 25.9,
+      "data_confidence": "Primary disclosure",
+      "production_year": "2025",
+      "source_url": "[Year-end Report 2025 Press Release](https://lkab.com/en/press/year-end-report-2025-lower-earnings-in-the-quarter-despite-stable-underlying-operations/)",
+      "source_name": "Year-end Report 2025 Press Release",
+      "notes": "Operates Kiruna and Malmberget mines, primary iron ore production (not shipments).",
+      "product_grade": "Pellets (67% Fe) + Fines (&gt;70% Fe)"
+    },
+    {
+      "name": "Samarco Mineração S.A.",
+      "country": "Brazil",
+      "website": "https://www.samarco.com",
+      "production": "9.4 million tonnes of iron ore pellets and fines (2023)",
+      "ticker": "",
+      "exchange": "",
+      "production_mt_feore": 15.1,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[2025 Annual Report](https://www.samarco.com/wp-content/uploads/2026/03/samarco-rad-e-dfs-2025-eng.pdf)",
+      "source_name": "2025 Annual Report",
+      "notes": "Joint venture of BHP and Vale; operates Germano (MG) and Ubu (ES) complexes; 60% of ~26 Mt/y capacity post-2015 dam disaster restart.",
+      "product_grade": "Pellets + Fines (67% Fe concentrate)"
     },
     {
       "name": "Champion Iron Limited",
       "country": "Canada",
       "website": "https://www.championiron.com",
       "production": "11.2 million wmt of high-grade 66.1% Fe concentrate (FY2023, April 2022 – March 2023)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Ferrexpo plc",
-      "country": "Ukraine",
-      "website": "https://www.ferrexpo.com",
-      "production": "4.15 million tonnes total iron ore products (2023), including 3.845 million tonnes of iron ore pellets (65% Fe), down 36% year-on-year due to war-related logistics constraints",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "CIA",
+      "exchange": "TSX/ASX",
+      "production_mt_feore": 14.2,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Q3 FY2024 MD&A](https://www.championiron.com/wp-content/uploads/2024/01/2024-01-31-mda-q3fy2024-sedar.pdf)",
+      "source_name": "Q3 FY2024 MD&A",
+      "notes": "Bloom Lake Mine in Labrador Trough, Quebec; FY ends March 31; production summed from quarterly reports as annual total not explicitly stated in Q4 results.",
+      "product_grade": "Concentrate (66.2% Fe)"
     },
     {
       "name": "SNIM (Société Nationale Industrielle et Minière)",
@@ -4033,21 +4454,64 @@
       "website": "https://www.snim.com",
       "production": "Targeted exports of 14 million metric tonnes for 2023; 13.35 million metric tonnes (2022 record); 14.3 million tonnes in 2024 (record)",
       "ticker": "",
-      "exchange": ""
+      "exchange": "",
+      "production_mt_feore": 14.2,
+      "data_confidence": "Primary disclosure",
+      "production_year": "2024",
+      "source_url": "[SNIM Website](https://snim.com)",
+      "source_name": "SNIM Website",
+      "notes": "State-owned iron ore producer operating Guelbs mines in Zouerate, Tiris Zemmour region; reports sales as primary KPI with record 14.226 Mt shipped in 2024.",
+      "product_grade": "Fines (65% Fe), Concentrate (66% Fe)"
+    },
+    {
+      "name": "Ferrexpo plc",
+      "country": "Ukraine",
+      "website": "https://www.ferrexpo.com",
+      "production": "4.15 million tonnes total iron ore products (2023), including 3.845 million tonnes of iron ore pellets (65% Fe), down 36% year-on-year due to war-related logistics constraints",
+      "ticker": "FXPO",
+      "exchange": "LSE",
+      "production_mt_feore": 6.1,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2025",
+      "source_url": "[Production Report 4Q 2025](https://www.ferrexpo.com/media/nrdj2bny/ferrexpo-production-report-4q-2025.pdf)",
+      "source_name": "Production Report 4Q 2025",
+      "notes": "Swiss HQ with primary operations at Poltava Mining (FPM) in Ukraine's Kremenchuk Magnetic Anomaly.",
+      "product_grade": "Pellets (65-67% Fe) + Concentrate (67% Fe)"
     },
     {
       "name": "Grange Resources Limited",
       "country": "Australia",
       "website": "https://www.grangeresources.com.au",
       "production": "Approximately 2.64 million tonnes of iron ore pellets (FY2023-24); design capacity approximately 2.5 million tonnes per annum",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "GRR",
+      "exchange": "ASX",
+      "production_mt_feore": 2.47,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Annual Report 2024](https://grange.blob.core.windows.net/public/add44af0-77c1-4ee3-a252-00aa0d76a9c7.pdf)",
+      "source_name": "Annual Report 2024",
+      "notes": "Savage River mine and Port Latta pellet plant in Tasmania.",
+      "product_grade": "Pellets (~70% Fe)"
     },
     {
-      "name": "Samarco Mineração S.A.",
-      "country": "Brazil",
-      "website": "https://www.samarco.com",
-      "production": "9.4 million tonnes of iron ore pellets and fines (2023)",
+      "name": "Cleveland-Cliffs",
+      "country": "USA",
+      "website": "https://www.clevelandcliffs.com",
+      "production": "40 Mt (est)",
+      "ticker": "CLF",
+      "exchange": "NYSE",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[FY2024 Earnings Release](https://www.clevelandcliffs.com/news/news-releases/detail/670/cleveland-cliffs-reports-full-year-and-fourth-quarter-2024)",
+      "source_name": "FY2024 Earnings Release",
+      "notes": "Vertically integrated US iron ore pellet producer with mines in Michigan/Minnesota (Tilden, Hibbing Taconite, Northshore, United Taconite); no explicit FY24/25 production volume found in accessible primary sources.",
+      "product_grade": "Pellets (65% Fe)"
+    },
+    {
+      "name": "Evraz plc (EVRAZ KGOK)",
+      "country": "Russia",
+      "website": "Website unavailable",
+      "production": "EVRAZ KGOK (Kachkanarsky GOK): estimated 10.78 million tonnes iron ore (2023 estimate); Evraz also produces approximately 4.8 million tonnes per annum at Sheregesh",
       "ticker": "",
       "exchange": ""
     },
@@ -4076,18 +4540,10 @@
       "exchange": ""
     },
     {
-      "name": "Evraz plc (EVRAZ KGOK)",
-      "country": "Russia",
-      "website": "Website unavailable",
-      "production": "EVRAZ KGOK (Kachkanarsky GOK): estimated 10.78 million tonnes iron ore (2023 estimate); Evraz also produces approximately 4.8 million tonnes per annum at Sheregesh",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Usiminas (Mineração Usiminas)",
-      "country": "Brazil",
-      "website": "https://www.usiminas.com",
-      "production": "8.8 million mt iron ore production (2023, stable versus 8.9 million mt in 2022)",
+      "name": "Tata Steel Limited (Iron Ore Mines)",
+      "country": "India",
+      "website": "https://www.tatasteel.com",
+      "production": "Captive iron ore mines (Noamundi, Joda, Katamati) producing approximately 40 million tonnes annually (current capacity); planned expansion to 55 million tonnes",
       "ticker": "",
       "exchange": ""
     },
@@ -4100,18 +4556,18 @@
       "exchange": ""
     },
     {
-      "name": "Vedanta Limited (Sesa Goa / Karnataka)",
-      "country": "India",
-      "website": "https://www.vedantalimited.com",
-      "production": "6.2 million DMT saleable production (FY2024-25, combined Goa and Karnataka); Karnataka: 5.3 million dmt; Goa (Bicholim): 0.9 million dmt (FY2024-25)",
+      "name": "Usiminas (Mineração Usiminas)",
+      "country": "Brazil",
+      "website": "https://www.usiminas.com",
+      "production": "8.8 million mt iron ore production (2023, stable versus 8.9 million mt in 2022)",
       "ticker": "",
       "exchange": ""
     },
     {
-      "name": "Tata Steel Limited (Iron Ore Mines)",
+      "name": "Vedanta Limited (Sesa Goa / Karnataka)",
       "country": "India",
-      "website": "https://www.tatasteel.com",
-      "production": "Captive iron ore mines (Noamundi, Joda, Katamati) producing approximately 40 million tonnes annually (current capacity); planned expansion to 55 million tonnes",
+      "website": "https://www.vedantalimited.com",
+      "production": "6.2 million DMT saleable production (FY2024-25, combined Goa and Karnataka); Karnataka: 5.3 million dmt; Goa (Bicholim): 0.9 million dmt (FY2024-25)",
       "ticker": "",
       "exchange": ""
     }
@@ -4453,16 +4909,42 @@
       "country": "China",
       "website": "https://en.cmoc.com",
       "production": "55,526 tonnes of cobalt (2023, metal content), up 173.71% year-over-year; of which Kisanfu (KFM) produced 33,900 t cobalt in hydroxide and Tenke Fungurume (TFM) produced 21,700 t cobalt in hydroxide (USGS Yearbook figures); CMOC announced world's No. 1 cobalt producer in 2023",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "603993",
+      "exchange": "SSE",
+      "production_t_co": 114165.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[HKEX Annual Results Announcement 2024](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf)",
+      "source_name": "HKEX Annual Results Announcement 2024",
+      "notes": "Cobalt metal production; FY ends Dec 31"
+    },
+    {
+      "name": "Zhejiang Huayou Cobalt Co., Ltd.",
+      "country": "China",
+      "website": "https://www.huayou.com",
+      "production": "Cobalt products production: 40,645.56 tonnes (2023, metal quantity), up 5.58% year-over-year; cobalt products sales: 41,382.61 tonnes",
+      "ticker": "603799",
+      "exchange": "SSE",
+      "production_t_co": 46800.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[2024 Annual Report](https://www.huayou.com/Public/Uploads/uploadfile2/files/20250418/2024AnnualReportofHuayouCobalt.pdf)",
+      "source_name": "2024 Annual Report",
+      "notes": "Primary source reports \"shipment of cobalt products ... 46,800 metal tons (including internal supply)\"; production may be similar/higher. No explicit \"production\" figure found in accessible excerpts."
     },
     {
       "name": "Glencore plc",
       "country": "Switzerland",
       "website": "https://www.glencore.com",
       "production": "41,300 tonnes of cobalt (own sourced, 2023), 6% lower than 2022 (43,800 t); of which KCC (Kamoto Copper Company, DRC) produced approximately 28,000 t cobalt in concentrates/hydroxides and Mutanda (DRC) produced approximately 11,200 t cobalt in concentrates/hydroxides; Murrin Murrin (Australia) refined cobalt: 2,400 t",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "GLEN",
+      "exchange": "LSE",
+      "production_t_co": 38200.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Glencore Full Year 2024 Production Report](https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf)",
+      "source_name": "Glencore Full Year 2024 Production Report",
+      "notes": "Own sourced cobalt production (metric tonnes contained metal); calendar year ended Dec 31, 2024. Most recent available as of Apr 2026 (2025 report not yet confirmed published)."
     },
     {
       "name": "Eurasian Resources Group S.à r.l. (ERG)",
@@ -4470,79 +4952,159 @@
       "website": "https://www.eurasianresources.lu",
       "production": "Information not available — Boss Mining (DRC) was suspended May 2023 following flooding after restart in November 2022; Metalkol Roan Tailings Reclamation (RTR, DRC) reprocessed 7.9 million tonnes of historic tailings in 2023; specific cobalt production volume in metric tons not confirmed in primary sources reviewed",
       "ticker": "",
-      "exchange": ""
+      "exchange": "",
+      "production_t_co": 19000.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "calendar 2024",
+      "source_url": "[ERG Sustainable Development Review 2024](https://www.erg.kz/files/redesign/report_cards/1449079069696dfe26422c14.24787907/file/SD%20review%202024_final%20(ENG)",
+      "source_name": "ERG Sustainable Development Review 2024",
+      "notes": "Saleable cobalt hydroxide (not contained Co metal). Reports 19kt hydroxide, down 5% from 20kt in 2023. No contained Co figure found in primary sources."
     },
     {
-      "name": "Vale S.A.",
-      "country": "Brazil",
-      "website": "https://www.vale.com",
-      "production": "Refined cobalt: 1,959 tonnes (2023, metal at Long Harbour and Port Colborne refineries), a decrease from 2,434 t in 2022; mine cobalt from Voisey's Bay: 637 t, Sudbury: 365 t, Thompson: 94 t; total finished cobalt production on 100% basis via 50/50 JV: 2,876 t (Cobalt Refinery Company, Fort Saskatchewan, Alberta)",
-      "ticker": "",
-      "exchange": ""
+      "name": "Nanjing Hanrui Cobalt Co., Ltd.",
+      "country": "China",
+      "website": "https://www.hanruicobalt.com",
+      "production": "Annual production capacity increased to 5,000 t/yr cobalt metal powder (expanded in 2022); specific 2023 production volume not confirmed in primary sources reviewed",
+      "ticker": "300618",
+      "exchange": "SZSE",
+      "production_t_co": 16169.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[2024 年年度报告](http://pdf.dfcfw.com/pdf/H2_AN202504171657968385_1.pdf)",
+      "source_name": "2024 年年度报告",
+      "notes": "Cobalt metal production (金属吨); electrolytic cobalt project expansion drove 95% YoY growth. Sales 15,401 t."
     },
     {
       "name": "Sherritt International Corporation",
       "country": "Canada",
       "website": "https://www.sherritt.com",
       "production": "Finished cobalt production: 2,876 tonnes (2023, 100% Moa JV basis); Sherritt's 50% share: approximately 1,438 t; finished nickel (100% basis): 28,672 tonnes; cobalt produced at Fort Saskatchewan, Alberta refinery from Moa Nickel S.A. (Cuba) feed",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "S",
+      "exchange": "TSX",
+      "production_t_co": 3206.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[Q4 2024 Financial Report](https://sherritt.com/wp-content/uploads/2025/04/Q4-2024-Financial-Report.pdf)",
+      "source_name": "Q4 2024 Financial Report",
+      "notes": "Sherritt's share is 50% of Moa JV (1,603 t). Production is finished cobalt (metric tonnes contained Co metal)."
     },
     {
-      "name": "PJSC MMC Norilsk Nickel (Nornickel)",
-      "country": "Russia",
-      "website": "https://www.nornickel.com",
-      "production": "Mined cobalt: estimated 8,700 tonnes (2023, per USGS); refined cobalt metal: approximately 1,000 tonnes (2023, per USGS); note: Kola Division fire in September 2022 reduced subsequent cobalt output",
-      "ticker": "",
-      "exchange": ""
+      "name": "MMG Limited (Kinsevere mine)",
+      "country": "China (Hong Kong listed; subsidiary of China Minmetals Corp.)",
+      "website": "https://www.mmg.com",
+      "production": "Cobalt plant commissioned September 2023; first cobalt production in second half of 2023; specific 2023 cobalt volume not confirmed (plant in initial ramp-up at year-end 2023); copper cathode production at Kinsevere: approximately 44,000 tonnes in 2023",
+      "ticker": "1208",
+      "exchange": "HKEX",
+      "production_t_co": 2926.0,
+      "data_confidence": "Primary disclosure",
+      "production_year": "FY2024",
+      "source_url": "[MMG Annual Report 2024 - Kinsevere MDA](https://www.mmg.com/wp-content/uploads/2025/04/MMG_AR24_MDA_KIN.pdf)",
+      "source_name": "MMG Annual Report 2024 - Kinsevere MDA",
+      "notes": "Kinsevere cobalt production. Figure from production table (tonnes); payable sold 1,617 t. Kinsevere is 100% owned by MMG."
     },
     {
-      "name": "Zhejiang Huayou Cobalt Co., Ltd.",
-      "country": "China",
-      "website": "https://www.huayou.com",
-      "production": "Cobalt products production: 40,645.56 tonnes (2023, metal quantity), up 5.58% year-over-year; cobalt products sales: 41,382.61 tonnes",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Terrafame Ltd.",
-      "country": "Finland",
-      "website": "https://www.terrafame.com",
-      "production": "Information not available — Sotkamo bioleaching mine and cobalt sulfate refinery operations were interrupted by May–July 2023 shutdown due to low nickel prices; design capacity: 7,400 t/yr cobalt sulfate; specific 2023 cobalt sulfate production volume not confirmed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
+      "name": "Vale S.A.",
+      "country": "Brazil",
+      "website": "https://www.vale.com",
+      "production": "Refined cobalt: 1,959 tonnes (2023, metal at Long Harbour and Port Colborne refineries), a decrease from 2,434 t in 2022; mine cobalt from Voisey's Bay: 637 t, Sudbury: 365 t, Thompson: 94 t; total finished cobalt production on 100% basis via 50/50 JV: 2,876 t (Cobalt Refinery Company, Fort Saskatchewan, Alberta)",
+      "ticker": "INCO",
+      "exchange": "IDX",
+      "data_confidence": "Primary disclosure",
+      "production_year": "calendar 2024",
+      "source_url": "[Vale's Production and Sales in 4Q24 and 2024](https://api.mziq.com/mzfilemanager/v2/d/53207d1c-63b4-48f1-96b7-19869fae19fe/4588c428-e2bc-d57a-9544-935f8716805c?origin=1)",
+      "source_name": "Vale's Production and Sales in 4Q24 and 2024",
+      "notes": "Cobalt finished production (by-product from nickel); assumed metric tonnes contained Co metal per task convention. From official company production report.",
+      "production_t_co": 2079.0
     },
     {
       "name": "Boliden AB",
       "country": "Sweden",
       "website": "https://www.boliden.com",
       "production": "Cobalt in nickel concentrate: 513 tonnes (2023, from Kevitsa mine, Sodankylä, Finland), down from 624 t in 2022; Harjavalta smelter (Finland) also processes cobalt-bearing materials",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "BOL",
+      "exchange": "Nasdaq Stockholm",
+      "data_confidence": "Undisclosed",
+      "production_year": "Calendar 2024",
+      "source_url": "[Boliden Q4 2024 Year-end Presentation](https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_Q4_2024_presentation_0.pdf)",
+      "source_name": "Boliden Q4 2024 Year-end Presentation",
+      "notes": "Primary sources confirm nickel production from Kevitsa (6% of mines sales FY2024) but no separate cobalt disclosure despite low Co grades in reserves."
+    },
+    {
+      "name": "CNGR Advanced Material Co., Ltd.",
+      "country": "China",
+      "website": "https://www.cngr.cn",
+      "production": "Third-largest refined cobalt producer in China in 2023 per USGS; specific production volume not confirmed in primary sources reviewed",
+      "ticker": "300919",
+      "exchange": "SZSE",
+      "data_confidence": "Undisclosed",
+      "production_year": "N/A",
+      "source_url": "[2024 Annual Report Summary](https://static.cninfo.com.cn/finalpage/2025-04-12/1223071459.PDF)",
+      "source_name": "2024 Annual Report Summary",
+      "notes": "No cobalt (Co metal) production in tonnes disclosed in primary filings; company produces cobalt-based precursors/tetroxide (market share 28% Co3O4), sales aggregate >300kt Ni-Co products (secondary source). Likely no primary Co production or not disclosed separately."
     },
     {
       "name": "Compagnie de Tifnout Tighanimine (CTT) – subsidiary of Groupe Managem",
       "country": "Morocco",
       "website": "https://www.managemgroup.com",
       "production": "Mine and refinery combined: 1,506 tonnes of refined cobalt metal (2023), an 11% decrease from 2022, intentionally reduced due to low cobalt prices; primary cobalt mine at Bou-Azzer; refinery at Guemassa",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "N/A (Managem: MNG",
+      "exchange": "CSE)",
+      "data_confidence": "Undisclosed",
+      "production_year": "N/A",
+      "source_url": "[Managem H1 2024 Report](https://www.managemgroup.com/sites/default/files/2024-09/RFS%202024%20MANAGEM_%20(002)",
+      "source_name": "Managem H1 2024 Report",
+      "notes": "Subsidiary of Managem (99.77%). Reduced production in 2024 due to low Co prices (preserve resource), no tonnes disclosed in accessible primary reports. Capacity ~2,400 tpy metal (secondary sources). FY calendar."
+    },
+    {
+      "name": "Ganzhou Tengyuan Cobalt New Materials Co., Ltd. (Tengyuan Cobalt)",
+      "country": "China",
+      "website": "Information not available",
+      "production": "Added 13,500 t/yr electrowinning cobalt refining capacity in 2023; specific 2023 production volume not confirmed in primary sources reviewed",
+      "ticker": "301219",
+      "exchange": "SZSE",
+      "data_confidence": "Undisclosed",
+      "production_year": "Calendar",
+      "source_url": "[2025 Annual Report Summary](http://static.cninfo.com.cn/finalpage/2026-04-21/1225128064.PDF)",
+      "source_name": "2025 Annual Report Summary",
+      "notes": "No Co production (t Co) in primary annual report summaries or performance filings reviewed; only qualitative growth mentions. Secondary sources report ~20,500 t (FY2024) but not primary."
     },
     {
       "name": "Lundin Mining Corporation (Eagle Mine)",
       "country": "Canada",
       "website": "https://www.lundinmining.com",
       "production": "Eagle Mine (100% owned, Michigan, USA): produced cobalt-bearing nickel-copper sulfide concentrates in 2023; mine life extended to 2029; specific cobalt production volume not stated separately in primary sources reviewed; nickel production approximately 15,000–18,000 t/yr range",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "LUN",
+      "exchange": "TSX",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2025",
+      "source_url": "[2025 Q4 MD&A](https://lundinmining.com/_resources/financials/2025-q4.pdf)",
+      "source_name": "2025 Q4 MD&A",
+      "notes": "Eagle Mine produced 9,907 t Ni and 8,906 t Cu in FY2025 (calendar 2025); cobalt mentioned as minor by-product but no production tonnage disclosed in annual MD&A or results."
+    },
+    {
+      "name": "PJSC MMC Norilsk Nickel (Nornickel)",
+      "country": "Russia",
+      "website": "https://www.nornickel.com",
+      "production": "Mined cobalt: estimated 8,700 tonnes (2023, per USGS); refined cobalt metal: approximately 1,000 tonnes (2023, per USGS); note: Kola Division fire in September 2022 reduced subsequent cobalt output",
+      "ticker": "GMKN",
+      "exchange": "MOEX",
+      "data_confidence": "Undisclosed",
+      "production_year": "Calendar",
+      "source_url": "No primary source discloses annual cobalt production in tonnes for FY24/25; production reports list Ni",
+      "notes": "Cobalt produced at Kola MMC; fire in 2022 reduced capacity to ~1,000 t, new facility launched 2025 with 3,000 t capacity, but actual FY24/25 output not reported in primary docs."
     },
     {
       "name": "PT Halmahera Persada Lygend (JV: Lygend Resources & PT Trimegah Bangun Persada Tbk / Harita Nickel)",
       "country": "Indonesia",
       "website": "https://www.haritanickel.com",
       "production": "Design capacity: 4,500 + 2,250 t/yr cobalt in MHP (mixed hydroxide precipitate); cobalt sulfate production commenced July 2023; specific 2023 cobalt production volume not confirmed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "NCKL",
+      "exchange": "IDX (JV partner PT Trimegah Bangun Persada Tbk)",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[Lygend Resources 2024 Annual Report](https://www.hkexnews.hk/listedco/listconews/sehk/2025/0328/2025032802876.pdf)",
+      "source_name": "Lygend Resources 2024 Annual Report",
+      "notes": "JV Harita Nickel (NCKL 63.1%)/Lygend Resources (36.9%). Produces Ni-Co MHP, sulfates. Actual Ni production disclosed (e.g. HPL H1: 33k t Ni cont. MHP), but no Co."
     },
     {
       "name": "PT Huayue Nickel Cobalt (Zhejiang Huayou Cobalt)",
@@ -4550,15 +5112,38 @@
       "website": "https://www.huayou.com",
       "production": "HPAL mixed hydroxide precipitate (MHP) production commenced 2021; specific 2023 cobalt production volume not confirmed in primary sources reviewed; part of Indonesia's ~19,000 t mined cobalt total in 2023",
       "ticker": "",
-      "exchange": ""
+      "exchange": "",
+      "data_confidence": "Undisclosed",
+      "production_year": "N/A",
+      "source_url": "[Zhejiang Huayou Cobalt 2024 Annual Report](https://www.huayou.com/Public/Uploads/uploadfile2/files/20250418/2024AnnualReportofHuayouCobalt.pdf)",
+      "source_name": "Zhejiang Huayou Cobalt 2024 Annual Report",
+      "notes": "Private Indonesian JV of Zhejiang Huayou Cobalt (603799 · SSE). No specific annual Co production (t Co contained) in primary filings; only aggregate nickel intermediates (230kt Ni) and quarterly from minority owner reports. Design capacity ~7,800 t Co/year."
     },
     {
-      "name": "PT Vale Indonesia Tbk",
-      "country": "Indonesia",
-      "website": "https://www.vale.com/indonesia",
-      "production": "Information not available — produces cobalt-bearing nickel matte from laterite ores at Sorowako integrated mining and smelting operation in South Sulawesi; specific 2023 cobalt volume not confirmed in primary sources reviewed",
+      "name": "Shenzhen GEM High-Tech Co., Ltd.",
+      "country": "China",
+      "website": "https://www.gem.com.cn",
+      "production": "Second-largest refined cobalt producer in China in 2023 per USGS; specific production volume not confirmed in primary sources reviewed",
+      "ticker": "002340",
+      "exchange": "SZSE",
+      "data_confidence": "Undisclosed",
+      "production_year": "FY2024",
+      "source_url": "[2024 Annual Report Summary (cninfo.com.cn)](https://static.cninfo.com.cn/finalpage/2025-04-26/1223332823.PDF)",
+      "source_name": "2024 Annual Report Summary (cninfo.com.cn)",
+      "notes": "Primary source discloses cobalt product sales: 20,664 t Co3O4 (product weight, FY2024), 12,557 t other Co products (product weight, FY2024). No contained cobalt metal production figure found."
+    },
+    {
+      "name": "Terrafame Ltd.",
+      "country": "Finland",
+      "website": "https://www.terrafame.com",
+      "production": "Information not available — Sotkamo bioleaching mine and cobalt sulfate refinery operations were interrupted by May–July 2023 shutdown due to low nickel prices; design capacity: 7,400 t/yr cobalt sulfate; specific 2023 cobalt sulfate production volume not confirmed in primary sources reviewed",
       "ticker": "",
-      "exchange": ""
+      "exchange": "",
+      "data_confidence": "Undisclosed",
+      "production_year": "calendar 2024",
+      "source_url": "[Financial Review 2024](https://www.terrafame.com/media/mediamateriaali/raportointi/taloudelliset-katsaukset/2024/terrafame_financial_review_2024.pdf)",
+      "source_name": "Financial Review 2024",
+      "notes": "Privately held (56.1% Finnish Minerals Group); reports battery chemicals sales EUR 196.7M FY2024 but no volume breakdown by metal"
     },
     {
       "name": "Wanbao Mining (subsidiary of Norinco / China North Industries Group)",
@@ -4566,71 +5151,11 @@
       "website": "Information not available",
       "production": "Pumpi copper-cobalt project (DRC): approximately 4,000 tonnes of cobalt estimated output in 2023 (designed capacity: 5,000 t/yr cobalt hydroxide); commenced cobalt hydroxide production in 2021",
       "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "MMG Limited (Kinsevere mine)",
-      "country": "China (Hong Kong listed; subsidiary of China Minmetals Corp.)",
-      "website": "https://www.mmg.com",
-      "production": "Cobalt plant commissioned September 2023; first cobalt production in second half of 2023; specific 2023 cobalt volume not confirmed (plant in initial ramp-up at year-end 2023); copper cathode production at Kinsevere: approximately 44,000 tonnes in 2023",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Nanjing Hanrui Cobalt Co., Ltd.",
-      "country": "China",
-      "website": "https://www.hanruicobalt.com",
-      "production": "Annual production capacity increased to 5,000 t/yr cobalt metal powder (expanded in 2022); specific 2023 production volume not confirmed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Ganzhou Tengyuan Cobalt New Materials Co., Ltd. (Tengyuan Cobalt)",
-      "country": "China",
-      "website": "Information not available",
-      "production": "Added 13,500 t/yr electrowinning cobalt refining capacity in 2023; specific 2023 production volume not confirmed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Shenzhen GEM High-Tech Co., Ltd.",
-      "country": "China",
-      "website": "https://www.gem.com.cn",
-      "production": "Second-largest refined cobalt producer in China in 2023 per USGS; specific production volume not confirmed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "CNGR Advanced Material Co., Ltd.",
-      "country": "China",
-      "website": "https://www.cngr.cn",
-      "production": "Third-largest refined cobalt producer in China in 2023 per USGS; specific production volume not confirmed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Umicore NV",
-      "country": "Belgium",
-      "website": "https://www.umicore.com",
-      "production": "Belgium refined cobalt production (metal powder, oxide, and hydroxide): estimated 700 tonnes in 2023 per USGS; Umicore is a key processor of cobalt from secondary/recycled materials",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "Jervois Global Limited (Idaho Cobalt Operations)",
-      "country": "Australia",
-      "website": "https://www.jervoisglobal.com",
-      "production": "Information not available — Idaho Cobalt Operations (ICO) suspended construction in March 2023 due to low cobalt prices; had stockpiled >27,000 t ore for future processing; prior production guidance was 1,500–1,700 t cobalt in concentrate for 2023 (guidance not achieved)",
-      "ticker": "",
-      "exchange": ""
-    },
-    {
-      "name": "First Quantum Minerals Ltd. (Ravensthorpe Nickel)",
-      "country": "Canada",
-      "website": "https://www.first-quantum.com",
-      "production": "Australia cobalt mine production: part of Australia total of 5,222 t (2023); Ravensthorpe nickel-cobalt operation (Western Australia) production slowed in 2023; mining suspended January 2024 due to weak nickel prices (stockpile processing continued)",
-      "ticker": "",
-      "exchange": ""
+      "exchange": "",
+      "data_confidence": "Undisclosed",
+      "production_year": "N/A",
+      "source_url": "No primary source (annual report",
+      "notes": "Cobalt resources: 55万 t (2010s data [51job Norinco page](http://campus.51job.com/norinco2021/company2.html)). Sales: 7,000 t Co (pre-2018 [BUAA](https://sem.buaa.edu.cn/info/1039/10140.htm)). Pumpi mine design: 5,000 t Co hydroxide/year (2021 [Copperbelt](https://copperbeltkatangamining.com/chinas-wanbao-mining-produces-first-cobalt-hydroxide-in-congo/)). Wikipedia est. 4,000 t (2023). No recent primary production data."
     },
     {
       "name": "Ambatovy Nickel (Sherritt 12%, Korea Resources Corp 27.5%, SNC-Lavalin 5%, Sumitomo Corp 54.167%)",
@@ -4649,10 +5174,42 @@
       "exchange": ""
     },
     {
+      "name": "First Quantum Minerals Ltd. (Ravensthorpe Nickel)",
+      "country": "Canada",
+      "website": "https://www.first-quantum.com",
+      "production": "Australia cobalt mine production: part of Australia total of 5,222 t (2023); Ravensthorpe nickel-cobalt operation (Western Australia) production slowed in 2023; mining suspended January 2024 due to weak nickel prices (stockpile processing continued)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Jervois Global Limited (Idaho Cobalt Operations)",
+      "country": "Australia",
+      "website": "https://www.jervoisglobal.com",
+      "production": "Information not available — Idaho Cobalt Operations (ICO) suspended construction in March 2023 due to low cobalt prices; had stockpiled >27,000 t ore for future processing; prior production guidance was 1,500–1,700 t cobalt in concentrate for 2023 (guidance not achieved)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
       "name": "Norilsk Nickel / Kola MMC (cobalt refinery)",
       "country": "Russia",
       "website": "https://www.nornickel.com",
       "production": "Refined cobalt metal: approximately 1,000 tonnes (2023e, per USGS)",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "PT Vale Indonesia Tbk",
+      "country": "Indonesia",
+      "website": "https://www.vale.com/indonesia",
+      "production": "Information not available — produces cobalt-bearing nickel matte from laterite ores at Sorowako integrated mining and smelting operation in South Sulawesi; specific 2023 cobalt volume not confirmed in primary sources reviewed",
+      "ticker": "",
+      "exchange": ""
+    },
+    {
+      "name": "Umicore NV",
+      "country": "Belgium",
+      "website": "https://www.umicore.com",
+      "production": "Belgium refined cobalt production (metal powder, oxide, and hydroxide): estimated 700 tonnes in 2023 per USGS; Umicore is a key processor of cobalt from secondary/recycled materials",
       "ticker": "",
       "exchange": ""
     }

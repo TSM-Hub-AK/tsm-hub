@@ -357,11 +357,16 @@ function generateProducersHTML(metalKey, config) {
 
   // Determine unit/field based on metal
   const KT_FIELDS = {
-    nickel: { field: 'production_kt_ni', unit: 'kt Ni' },
-    copper: { field: 'production_kt_cu', unit: 'kt Cu' },
-    aluminium: { field: 'production_kt_al', unit: 'kt Al' },
-    aluminum: { field: 'production_kt_al', unit: 'kt Al' },
-    lithium: { field: 'production_kt_lce', unit: 'kt LCE' },
+    nickel:   { field: 'production_kt_ni',    unit: 'kt Ni' },
+    copper:   { field: 'production_kt_cu',    unit: 'kt Cu' },
+    aluminium:{ field: 'production_kt_al',    unit: 'kt Al' },
+    aluminum: { field: 'production_kt_al',    unit: 'kt Al' },
+    lithium:  { field: 'production_kt_lce',   unit: 'kt LCE' },
+    zinc:     { field: 'production_kt_zn',    unit: 'kt Zn' },
+    gold:     { field: 'production_t_au',     unit: 't Au' },
+    silver:   { field: 'production_moz_ag',   unit: 'Moz Ag' },
+    cobalt:   { field: 'production_t_co',     unit: 't Co' },
+    iron_ore: { field: 'production_mt_feore', unit: 'Mt Fe ore' },
   };
   const ktCfg = KT_FIELDS[metalKey] || { field: 'production_kt', unit: 'kt' };
   const getKt = (p) => {
@@ -370,11 +375,16 @@ function generateProducersHTML(metalKey, config) {
     if (p.production_kt_cu !== undefined) return p.production_kt_cu;
     if (p.production_kt_al !== undefined) return p.production_kt_al;
     if (p.production_kt_lce !== undefined) return p.production_kt_lce;
+    if (p.production_kt_zn !== undefined) return p.production_kt_zn;
+    if (p.production_t_au !== undefined) return p.production_t_au;
+    if (p.production_moz_ag !== undefined) return p.production_moz_ag;
+    if (p.production_t_co !== undefined) return p.production_t_co;
+    if (p.production_mt_feore !== undefined) return p.production_mt_feore;
     if (p.production_kt !== undefined) return p.production_kt;
     return null;
   };
 
-  const hasProductionData = metalProducers.some(p => getKt(p) !== null || p.data_confidence === 'Undisclosed');
+  const hasProductionData = metalProducers.some(p => getKt(p) !== null || (p.data_confidence && p.data_confidence.toLowerCase().includes('undisclos')));
 
   return metalProducers.slice(0, 20).map((p, idx) => {
     const kt = getKt(p);
@@ -580,9 +590,25 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
     aluminium: { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
     aluminum:  { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
     lithium:   { subhead: 'Ranked by latest disclosed lithium production (LCE)', metric: 'lithium production (kilotonnes LCE)' },
+    zinc:      { subhead: 'Ranked by latest disclosed contained Zn production', metric: 'zinc production (Zn-contained, kilotonnes)' },
+    gold:      { subhead: 'Ranked by latest disclosed gold production', metric: 'gold production (Au, tonnes)' },
+    silver:    { subhead: 'Ranked by latest disclosed silver production', metric: 'silver production (Ag, million troy ounces)' },
+    cobalt:    { subhead: 'Ranked by latest disclosed cobalt production', metric: 'cobalt production (Co, tonnes)' },
+    iron_ore:  { subhead: 'Ranked by latest disclosed iron ore production or shipments', metric: 'iron ore production (Mt)' },
   };
   const prodMeta = PROD_META[metalKey] || { subhead: 'Ranked by latest disclosed production', metric: 'production (kilotonnes)' };
-  const hasProdData = allProd.some(p => p.production_kt_ni !== undefined || p.production_kt_cu !== undefined || p.production_kt_al !== undefined || p.production_kt_lce !== undefined || p.production_kt !== undefined);
+  const hasProdData = allProd.some(p =>
+    p.production_kt_ni !== undefined ||
+    p.production_kt_cu !== undefined ||
+    p.production_kt_al !== undefined ||
+    p.production_kt_lce !== undefined ||
+    p.production_kt_zn !== undefined ||
+    p.production_t_au !== undefined ||
+    p.production_moz_ag !== undefined ||
+    p.production_t_co !== undefined ||
+    p.production_mt_feore !== undefined ||
+    p.production_kt !== undefined
+  );
   html = html.replace('{{PRODUCERS_SUBHEAD}}', hasProdData ? `<span class="section__source">${prodMeta.subhead}</span>` : '');
   html = html.replace('{{PRODUCERS_INTRO}}', hasProdData
     ? `<p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual ${prodMeta.metric}. Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>`
