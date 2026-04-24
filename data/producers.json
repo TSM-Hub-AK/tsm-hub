@@ -8805,5 +8805,184 @@
       "ticker": "ILU",
       "exchange": "ASX"
     }
+  ],
+  "graphite": [
+    {
+      "name": "Syrah Resources Limited",
+      "country": "Australia",
+      "production_year": "2025",
+      "production_kt_graphite": 67.0,
+      "data_confidence": "Primary disclosure",
+      "source_url": "[2025 Annual Report](https://announcements.asx.com.au/asxpdf/20260326/pdf/06xv29j0wp3tr8.pdf)",
+      "source_name": "2025 Annual Report",
+      "notes": "Balama Mine, Mozambique (sole operation). 67 kt natural graphite concentrate produced in campaign mode after suspension/ non-operating period early 2025; 55 kt sold mainly ex-China. FY = calendar year ending Dec 2025. kt = kilotonnes.",
+      "production_type": "natural flake",
+      "ticker": "SYR",
+      "exchange": "ASX"
+    },
+    {
+      "name": "Northern Graphite Corporation",
+      "country": "Canada",
+      "production_year": "2024",
+      "production_kt_graphite": 11.7,
+      "data_confidence": "Primary disclosure",
+      "source_url": "[MD&A 2024](https://www.northerngraphite.com/wp-content/uploads/2025/05/NGC-MDA-2024.12.31.pdf)",
+      "source_name": "MD&A 2024",
+      "notes": "Lac des Iles mine (LDI), Quebec. 11,697 tonnes graphite concentrate produced (sum: Q1 2574t, Q2 4082t, Q3 3630t, Q4 1411t); from 168,795t ore at 6.8% grade, 88% recovery. Operations had temporary shutdowns for cash preservation and maintenance (Nov 2024-Jan 2025). Other assets (Okanjande, Bissett Creek) no production (care & maintenance / development stage).",
+      "production_type": "natural flake",
+      "ticker": "NGC",
+      "exchange": "TSX-V"
+    },
+    {
+      "name": "Tirupati Graphite plc",
+      "country": "UK",
+      "production_year": "2024",
+      "production_kt_graphite": 7.1,
+      "data_confidence": "Primary disclosure",
+      "source_url": "[FY24 Annual Report](https://tirupatigraphite.co.uk/wp-content/uploads/2025/07/FY24-Annual-Report-1.pdf)",
+      "source_name": "FY24 Annual Report",
+      "notes": "Consolidated production from Madagascar projects (primarily Vatomina 12ktpa nameplate, intermittent Sahamamy); flake graphite concentrate; 7,096 MT total. FY25 (ended Mar 2025) reported 2,169 MT via RNS [Investegate announcement](https://www.investegate.co.uk/index.php/announcement/rns/tirupati-graphite--tgr/final-results-for-year-ended-31-march-2025/9473950) (Vatomina intermittent due to weather/ore/equipment, Sahamamy care & maintenance), but full FY25 annual report PDF not located on site.",
+      "production_type": "natural flake",
+      "ticker": "TGR",
+      "exchange": "LSE"
+    },
+    {
+      "name": "AMG Mining AG / Graphit Kropfmühl GmbH",
+      "country": "Germany",
+      "production_year": "FY2025",
+      "data_confidence": "Undisclosed",
+      "source_url": "[AMG 2025 Annual Report](https://reports.amg-nv.com/2025/)",
+      "source_name": "AMG 2025 Annual Report",
+      "notes": "Mines in Germany (Kropfmühl) and Sri Lanka; consolidated in AMG Technologies segment (adj. EBITDA $164M FY25, no volume breakdown). No production tonnage in latest annual reports or earnings releases despite operational activity (revenue $65M TTM Aug 2025). Sold Oct 2025; historical processing >25ktpa (2012).",
+      "production_type": "natural (flake/vein)",
+      "ticker": "AMG",
+      "exchange": "Euronext Amsterdam (sold to Asbury Carbons 2025)"
+    },
+    {
+      "name": "BTR New Material Group Co., Ltd.",
+      "country": "China",
+      "production_year": "2024",
+      "data_confidence": "Undisclosed",
+      "source_url": "[2024 Annual Report (Sina Finance)](http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=835185&id=10880465)",
+      "source_name": "2024 Annual Report (Sina Finance)",
+      "notes": "FY2024 annual report discloses natural flake graphite revenue (38.9M RMB) via Jixi Changyuan Mining subsidiary but no production tonnage (mined ore or concentrate). Anode material sales ~430kt (third-party est.), but raw graphite mining production undisclosed in primary filings. Small-scale relative to integrated anode ops (575kt capacity).",
+      "production_type": "natural flake",
+      "ticker": "920185",
+      "exchange": "BJSE"
+    },
+    {
+      "name": "Heilongjiang Aoyu Energy Technology Co., Ltd.",
+      "country": "China",
+      "production_year": "",
+      "data_confidence": "Undisclosed",
+      "source_url": "[Made-in-China profile](https://www.made-in-china.com/showroom/aoyugraphite/)",
+      "source_name": "Made-in-China profile",
+      "notes": "Private company based in Jixi City, Heilongjiang. Produces natural crystalline flake graphite. No primary annual report, production report, or stock exchange filing found disclosing FY24/25 graphite production tonnage after extensive searches. Company profile confirms mining operations but no quantitative figures. Listed in market reports as producer but no company disclosures available.",
+      "production_type": "natural flake"
+    },
+    {
+      "name": "Imerys Graphite & Carbon (Imerys S.A.)",
+      "country": "France",
+      "production_year": "FY2024",
+      "data_confidence": "Undisclosed",
+      "source_url": "[Imerys 2023 Universal Registration Document](https://splann.org/wp-content/uploads/2024/11/1_-rapport-annuel-imerys_2023.pdf)",
+      "source_name": "Imerys 2023 Universal Registration Document",
+      "notes": "No graphite production tonnage disclosed in primary sources (annual/integrated reports). Graphite & Carbon segment revenue €224m (FY2023), €215m (FY2024). Synthetic graphite and carbon black produced at sites in Switzerland (Bodio), Belgium (Willebroek); capacity expansions announced but no kt figures. Private-like reporting; only revenue/EBITDA reported for segment.",
+      "production_type": "synthetic",
+      "ticker": "NK",
+      "exchange": "Euronext Paris"
+    },
+    {
+      "name": "Mason Resources Inc. (formerly Mason Graphite Inc.)",
+      "country": "Canada",
+      "production_year": "FY2024",
+      "data_confidence": "Undisclosed",
+      "source_url": "[Mason Resources FY2024 MD&A](https://masonresourcesinc.com/wp-content/uploads/2024/10/Q4-MDNA_June-30-2024.pdf)",
+      "source_name": "Mason Resources FY2024 MD&A",
+      "notes": "Lac Guéret Project (Quebec) - pre-production exploration/development stage, no operational production reported. Sold 100% to Nouveau Monde Graphite Inc. on Jan 31, 2024 (closed during FY2024 ended June 30, 2024). Planned capacity in studies: up to 500ktpa concentrate (Uatnan PEA), but no actual mined ore, concentrate, or refined graphite produced by Mason.",
+      "production_type": "natural flake",
+      "ticker": "LLG",
+      "exchange": "TSX-V"
+    },
+    {
+      "name": "NextSource Materials Inc.",
+      "country": "Canada",
+      "production_year": "FY2025",
+      "data_confidence": "Undisclosed",
+      "source_url": "[FY2025 MD&A](https://www.nextsourcematerials.com/wp-content/uploads/2025/09/09292025_NextSource-Consolidated-2025-YE-MDA_FINAL.pdf)",
+      "source_name": "FY2025 MD&A",
+      "notes": "Molo Mine (Madagascar), Phase 1 ramp-up/commissioning. >3kt SuperFlake graphite concentrate produced during commissioning (no exact FY total); 787t shipped/sold. No commercial production declared; shifted to campaign production Q4 FY2025. Capacity 17ktpa concentrate.",
+      "production_type": "natural flake",
+      "ticker": "NEXT",
+      "exchange": "TSX"
+    },
+    {
+      "name": "Ningbo Shanshan Co., Ltd.",
+      "country": "China",
+      "production_year": "2024",
+      "data_confidence": "Undisclosed",
+      "source_url": "[2024 Annual Report](https://www.ssgf.net/uploads/20250426/950736172a5c525ca0917e86bc29d90f.pdf)",
+      "source_name": "2024 Annual Report",
+      "notes": "Reports 28.44% YoY growth in anode materials sales volume but no absolute production tonnage disclosed. Industry total anode production 2167 kt (not company-specific). ESG report mentions 700kt artificial graphite capacity layout (capacity, not production). Refined synthetic graphite for LiB anodes, operations in Ningbo, Yunnan etc. active.",
+      "production_type": "synthetic (artificial graphite anode material)",
+      "ticker": "600884",
+      "exchange": "SSE"
+    },
+    {
+      "name": "Nouveau Monde Graphite Inc.",
+      "country": "Canada",
+      "production_year": "FY2025",
+      "data_confidence": "Undisclosed",
+      "source_url": "[2025 Annual Report MD&A](https://nmg.com/wp-content/uploads/2026/03/NMG-2025-Annual-Report.pdf)",
+      "source_name": "2025 Annual Report MD&A",
+      "notes": "Matawinie Mine, Quebec. Pre-production (Phase-2 toward FID); Phase-1 demonstration plants (concentrator, shaping, coating) operational for sampling/qualification but no production tonnage disclosed in primary filings. Planned Phase-2: ~106 ktpa graphite concentrate.",
+      "production_type": "natural flake"
+    },
+    {
+      "name": "Qingdao Black Dragon Graphite Co., Ltd.",
+      "country": "China",
+      "production_year": "",
+      "data_confidence": "Undisclosed",
+      "source_url": "[Global Mining Review](https://www.globalminingreview.com/finance-business/19012018/battery-minerals-signs-offtake-agreement-with-qingdao-black-dragon/)",
+      "source_name": "Global Mining Review",
+      "notes": "Private company. No primary disclosure of recent (FY24/25) graphite production found in company's website (bd-graphite.com) or public searches for annual reports. 2018 third-party report cited ~50ktpa concentrate capacity across 4 mines, but not recent actual production from company source. Qichacha lists 2024 annual report existence but no public PDF or production data accessible. Natural flake graphite producer with own mines in Shandong and Heilongjiang.",
+      "production_type": "natural flake"
+    },
+    {
+      "name": "SGL Carbon SE",
+      "country": "Germany",
+      "production_year": "FY2025",
+      "data_confidence": "Undisclosed",
+      "source_url": "[Annual Report 2025](https://www.sglcarbon.com/news/user-upload/SGL_Carbon_Annual_Report_2025_EN_s.pdf)",
+      "source_name": "Annual Report 2025",
+      "notes": "Manufacturer of synthetic graphite products (isostatic graphite, specialty graphite components) via Graphite Solutions business unit. No production tonnage (kt) disclosed in latest annual reports (FY2025, FY2024); only sales (€442m FY25, €539m FY24) and EBITDA reported. Capacity expansions mentioned (€40m investment FY24) but no volumes.",
+      "production_type": "synthetic",
+      "ticker": "SGL",
+      "exchange": "XETRA"
+    },
+    {
+      "name": "Shanghai Putailai New Energy Technology Co., Ltd.",
+      "country": "China",
+      "production_year": "2024",
+      "data_confidence": "Undisclosed",
+      "source_url": "[2024 Annual Report Summary](https://www.putailai.com/Public/Uploads/uploadfile2/files/20250606/2024AnnualReportSummary.docx)",
+      "source_name": "2024 Annual Report Summary",
+      "notes": "Processor of synthetic (artificial) graphite for anode materials; no raw graphite (natural/synthetic concentrate or mined ore) production tonnage disclosed. Anode material shipments: 132 kt. Graphitization/carbonization processing capacity: 150 kt each (supporting anode production). No mining operations; focuses on refined anode materials.",
+      "production_type": "synthetic",
+      "ticker": "603659",
+      "exchange": "SSE"
+    },
+    {
+      "name": "Talga Group Ltd.",
+      "country": "Australia",
+      "production_year": "FY2025",
+      "data_confidence": "Undisclosed",
+      "source_url": "[FY2024 Annual Report](https://talgagroup.eu-central-1.linodeobjects.com/app/uploads/2024/09/27151734/Talga_AnnualReport2024_ASX.pdf)",
+      "source_name": "FY2024 Annual Report",
+      "notes": "Vittangi Anode Project (Nunasvaara South mine), pre-production/FID pending as of FY24 (ended 30Jun2024); permits advanced in FY25 but no commercial mining/refining output reported. Prior trial: 25kt ore (pre-FY24). Pilot anode (Talnode-C) sales but no kt disclosed. No production tonnage in primary disclosures.",
+      "production_type": "natural flake",
+      "ticker": "TLG",
+      "exchange": "ASX"
+    }
   ]
 }

@@ -383,6 +383,7 @@ function generateProducersHTML(metalKey, config) {
     vanadium:   { field: 'production_kt_v',    unit: 'kt V2O5' },
     titanium:   { field: 'production_kt_ti',   unit: 'kt Ti' },
     magnesium:  { field: 'production_kt_mg',   unit: 'kt Mg' },
+    graphite:   { field: 'production_kt_graphite', unit: 'kt' },
   };
   const ktCfg = KT_FIELDS[metalKey] || { field: 'production_kt', unit: 'kt' };
   const getKt = (p) => {
@@ -409,6 +410,7 @@ function generateProducersHTML(metalKey, config) {
     if (p.production_kt_v !== undefined) return p.production_kt_v;
     if (p.production_kt_ti !== undefined) return p.production_kt_ti;
     if (p.production_kt_mg !== undefined) return p.production_kt_mg;
+    if (p.production_kt_graphite !== undefined) return p.production_kt_graphite;
     if (p.production_kt !== undefined) return p.production_kt;
     return null;
   };
@@ -640,6 +642,7 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
     vanadium:   { subhead: 'Ranked by latest disclosed V production', metric: 'vanadium production (kilotonnes V2O5 equivalent)' },
     titanium:   { subhead: 'Ranked by latest disclosed Ti-mineral or sponge production', metric: 'titanium production (kilotonnes)' },
     magnesium:  { subhead: 'Ranked by latest disclosed primary Mg metal production', metric: 'primary magnesium production (kilotonnes)' },
+    graphite:   { subhead: 'Ranked by latest disclosed graphite concentrate or anode-material production', metric: 'graphite production (kilotonnes)' },
   };
   const prodMeta = PROD_META[metalKey] || { subhead: 'Ranked by latest disclosed production', metric: 'production (kilotonnes)' };
   const hasProdData = allProd.some(p =>
@@ -665,12 +668,22 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
     p.production_kt_v !== undefined ||
     p.production_kt_ti !== undefined ||
     p.production_kt_mg !== undefined ||
+    p.production_kt_graphite !== undefined ||
     p.production_kt !== undefined
   );
-  html = html.replace('{{PRODUCERS_SUBHEAD}}', hasProdData ? `<span class="section__source">${prodMeta.subhead}</span>` : '');
+  // Special metals where primary disclosure is structurally unavailable
+  const NO_DATA_REASONS = {
+    gallium: 'Primary-source production tonnage is not disclosed for any major producer. Approximately 98% of global gallium output is a Chinese by-product of the Bayer alumina process; China withholds primary disclosure (USGS Mineral Commodity Summaries 2026). The handful of Western producers — Nyrstar (Auby Ge/Ga), Indium Corporation, Recapture Metals, neo Performance Materials — do not publish gallium-specific tonnage in annual reports.',
+    germanium: 'Primary-source production tonnage is not disclosed for any major producer. Roughly 70% of global germanium output is recovered as a by-product from zinc-smelter residues (most prominently in China and the DRC); China withholds primary disclosure (USGS Mineral Commodity Summaries 2026). Western producers — Teck Resources (Trail), Nyrstar (Auby), Umicore, Korea Zinc — report only at metal-stream or segment level without germanium-specific tonnage.',
+  };
+  const noDataReason = NO_DATA_REASONS[metalKey];
+
+  html = html.replace('{{PRODUCERS_SUBHEAD}}', hasProdData ? `<span class="section__source">${prodMeta.subhead}</span>` : (noDataReason ? '<span class="section__source">Primary disclosure unavailable</span>' : ''));
   html = html.replace('{{PRODUCERS_INTRO}}', hasProdData
     ? `<p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual ${prodMeta.metric}. Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>`
-    : '');
+    : (noDataReason
+        ? `<p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);background:var(--color-bg-elevated);padding:var(--space-3) var(--space-4);border-left:2px solid var(--color-accent);border-radius:4px;"><strong style="color:var(--color-text-default);">Why no producer rankings?</strong> ${noDataReason} Country-level estimates are available in the <a href="#production">USGS production table above</a>.</p>`
+        : ''));
   html = html.replace('{{PRODUCERS_HTML}}', generateProducersHTML(metalKey, config));
   html = html.replace('{{NEWS_HTML}}', generateNewsHTML(config.name));
   html = html.replace('{{DATA_SOURCES_HTML}}', generateDataSources(config));
