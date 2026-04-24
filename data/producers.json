@@ -6,15 +6,29 @@
       "website": "https://www.bhp.com",
       "production": "1,500,000 t (2024)",
       "ticker": "BHP",
-      "exchange": "ASX/NYSE"
+      "exchange": "ASX/NYSE",
+      "production_kt_cu": 2017.0,
+      "production_year": "FY2025",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Record group copper production of 2,017 kt, up 8% from FY2024 (1,865 kt). Includes Escondida, Spence, Copper SA (316 kt), Antamina (119 kt), others. Primarily copper contained in concentrate from mining operations; some cathode/refined noted at assets like Olympic Dam.",
+      "source_url": "[BHP Operational Review for the year ended 30 June 2025](https://www.bhp.com/news/media-centre/releases/2025/07/bhp-operational-review-for-the-year-ended-30-june-2025)",
+      "source_name": "BHP Operational Review for the year ended 30 June 2025"
     },
     {
       "name": "Codelco",
       "country": "Chile",
       "website": "https://www.codelco.com",
       "production": "1,440,000 t (2024)",
-      "ticker": "State-owned",
-      "exchange": ""
+      "ticker": "N/A",
+      "exchange": "",
+      "production_kt_cu": 1440.0,
+      "production_year": "FY2025",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Own production: 1,334 kt fine copper. Total includes Codelco's stakes in El Abra (49%), Anglo American Sur (20%), Quebrada Blanca (10%). Matches guidance for state-owned Codelco to report own-mined + associates (Anglo Sur). Fine copper equivalent.",
+      "source_url": "[Codelco Operational and Financial Report December 31, 2025](https://www.codelco.com/sites/site/docs/20250428/20250428185356/operational_and_financial_report_december_31_2025.pdf)",
+      "source_name": "Codelco Operational and Financial Report December 31, 2025"
     },
     {
       "name": "Freeport-McMoRan",
@@ -22,7 +36,14 @@
       "website": "https://www.fcx.com",
       "production": "1,260,000 t (2024)",
       "ticker": "FCX",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_kt_cu": 1910.0,
+      "production_year": "2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "4.2 billion pounds recoverable copper mined production (exact: 4,214 million pounds per operating data table). Sales: 4.1 billion pounds. No consolidated refined production reported (PT-FI smelter start-up mid-2025). Calendar year ended Dec 31, 2024. kt calculated as (4.214e9 lbs / 2204.62 lbs/mt) / 1000 = 1910 kt Cu contained (rounded).",
+      "source_url": "[Freeport-McMoRan Q4 & FY2024 Earnings Release](https://mms.businesswire.com/media/20250122679192/en/2360933/1/FCX_250123_4Q_2024_Earnings_Release.pdf)",
+      "source_name": "Freeport-McMoRan Fourth Quarter and Year Ended 2024 Results"
     },
     {
       "name": "Glencore",
@@ -30,7 +51,14 @@
       "website": "https://www.glencore.com",
       "production": "951,600 t (2024)",
       "ticker": "GLEN",
-      "exchange": "LSE"
+      "exchange": "LSE",
+      "production_kt_cu": 951.6,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Own sourced copper production (copper metal and copper in concentrates from mining operations and JVs). Excludes custom smelters/refineries (copper anode 440.8 kt, copper metal 463.6 kt). 4% below prior year like-for-like.",
+      "source_url": "[Glencore Full Year 2024 Production Report](https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf)",
+      "source_name": "Glencore Full Year 2024 Production Report"
     },
     {
       "name": "Southern Copper",
@@ -38,15 +66,29 @@
       "website": "https://www.southerncoppercorp.com",
       "production": "883,462 t (2024)",
       "ticker": "SCCO",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_kt_cu": 974.0,
+      "production_year": "2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Total mined copper production (concentrates + SX/EW): 973,851 metric tons. Smelter/refinery production: 611 kt (noted but mined preferred per instructions). CY2024 aligns with FY2024 as calendar year reporter.",
+      "source_url": "[Southern Copper Annual Report 2024](https://southerncoppercorp.com/wp-content/uploads/2025/06/m2024.pdf)",
+      "source_name": "Southern Copper Annual Report 2024"
     },
     {
       "name": "Anglo American",
       "country": "UK",
       "website": "https://www.angloamerican.com",
       "production": "772,700 t (2024)",
-      "ticker": "AAL",
-      "exchange": "LSE"
+      "ticker": "LSE:AAL",
+      "exchange": "LSE",
+      "production_kt_cu": 773.0,
+      "production_year": "2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Contained metal basis from Copper operations in Chile (Los Bronces, Collahuasi 44%, El Soldado) and Peru (Quellaveco). Within 2024 guidance of 730-790 kt. Down 6% from 826 kt in 2023. Excludes copper from PGM business.",
+      "source_url": "[Anglo American Q4 2024 Production Report](https://www.angloamerican.com/media/press-releases/2025/06-02-2025)",
+      "source_name": "Anglo American Q4 2024 Production Report"
     },
     {
       "name": "KGHM Polska Miedź",
@@ -54,23 +96,44 @@
       "website": "https://kghm.com",
       "production": "729,700 t (2024)",
       "ticker": "KGH",
-      "exchange": "WSE"
+      "exchange": "WSE",
+      "production_kt_cu": 730.0,
+      "production_year": "2024",
+      "production_type": "Mined + Refined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Payable copper production for the KGHM Group (consolidated, includes mined copper in concentrate from Polish assets ~400 kt, refined electrolytic copper ~589 kt from KGHM Polska Miedź S.A., and contributions from Sierra Gorda and KGHM International; exact 729.7 kt in preliminary Dec 2024 report, rounded to 730 kt in Q4 IR release. CY2024.",
+      "source_url": "[KGHM Q4 2024 IR Release](https://kghm.com/sites/default/files/KGHM%20IR%20release%20Q4%202024.pdf), [KGHM Dec 2024 Production Report](https://kghm.com/sites/default/files/2025-01/Production-Sales%20report_KGHM_%20December_2024.pdf), [KGHM Results Center](https://kghm.com/en/investors/results-center)",
+      "source_name": "KGHM Q4 and FY2024 IR Release & Production Reports"
     },
     {
       "name": "CMOC Group",
       "country": "China",
       "website": "https://en.cmoc.com",
       "production": "502,600 t (2024)",
-      "ticker": "3993",
-      "exchange": "HKEX"
+      "ticker": "3993.HK, 603993.SS",
+      "exchange": "HKEX",
+      "production_kt_cu": 650.2,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Primarily from DRC operations (TFM 80% owned, KFM 71.25% owned); copper cathode/metal production; group total self-produced mine output. Capacity post-expansion: TFM 450kt, KFM 150kt.",
+      "source_url": "[CMOC 2024 Annual Results Announcement](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf)",
+      "source_name": "CMOC Group Limited Annual Results Announcement for the year ended 31 December 2024"
     },
     {
       "name": "Antofagasta",
       "country": "UK",
       "website": "https://www.antofagasta.co.uk",
       "production": "448,800 t (2024)",
-      "ticker": "ANTO",
-      "exchange": "LSE"
+      "ticker": "ANTO.L",
+      "exchange": "LSE",
+      "production_kt_cu": 664.0,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Contained copper from concentrate and cathodes across Los Pelambres (319.6 kt), Centinela (223.8 kt), Antucoya (80.4 kt), Zaldívar (40.1 kt attributable). Chile-based operations.",
+      "source_url": "[Antofagasta Annual Report 2024](https://www.antofagasta.co.uk/media/4803/antofagasta-annual-report-2024-web-version-26-march-compressed_1.pdf)",
+      "source_name": "Antofagasta Annual Report 2024"
     },
     {
       "name": "Teck Resources",
@@ -78,7 +141,14 @@
       "website": "https://www.teck.com",
       "production": "358,910 t (2024)",
       "ticker": "TECK",
-      "exchange": "TSX/NYSE"
+      "exchange": "TSX/NYSE",
+      "production_kt_cu": 446.0,
+      "production_year": "2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Copper in concentrate from Quebrada Blanca (208 kt), Highland Valley Copper (102 kt), Antamina 22.5% share (96 kt), Carmen de Andacollo (40 kt). Record production, up 50% from 2023. No refined copper reported as primary output.",
+      "source_url": "[Teck 2024 Annual Report](https://www.teck.com/media/2024-Annual-Report.pdf)",
+      "source_name": "Teck 2024 Annual Report"
     },
     {
       "name": "Rio Tinto plc",
@@ -96,8 +166,15 @@
       ],
       "description": "Global diversified miner with copper operations at Kennecott (Utah, USA), a 30% stake in Escondida (Chile, operated by BHP), and the Oyu Tolgoi copper-gold underground mine (Mongolia, 66% stake) which ramped up significantly in 2024. Copper is Rio Tinto's fastest-growing commodity.",
       "source": "Rio Tinto Q4 2024 Production Results press release, January 16, 2025 — https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "RIO",
+      "exchange": "",
+      "production_kt_cu": 697.0,
+      "production_year": "2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Consolidated basis mined copper (copper in concentrate). Rio Tinto share: 624 kt mined, 248 kt refined. Calendar year. Increased due to Oyu Tolgoi ramp-up and higher Escondida grades, offset by Kennecott geotech issues.",
+      "source_url": "[Rio Tinto Q4 2024 Production Results](https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results)",
+      "source_name": "Rio Tinto Fourth Quarter Operations Review 2024"
     },
     {
       "name": "Ivanhoe Mines Ltd.",
@@ -113,8 +190,15 @@
       ],
       "description": "Canadian mining company (TSX: IVN) operating the Kamoa-Kakula copper complex in the DRC — the world's largest high-grade copper discovery — as a joint venture with Zijin Mining (39.6%) and the DRC government. Also operates the Kipushi zinc-silver mine in the DRC. Phase 3 concentrator ramp-up drove record Q4 2024 output of 133,819 t.",
       "source": "Ivanhoe Mines 2024 Production Results and 2025 Guidance press release, January 8, 2025 — https://www.ivanhoemines.com",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "IVN",
+      "exchange": "",
+      "production_kt_cu": 437.0,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Kamoa-Kakula Copper Complex (100% project basis; Ivanhoe 39.6% ownership). Copper in concentrate produced by Phase 1, 2 & 3 concentrators. Record production, +11% YoY.",
+      "source_url": "[Ivanhoe Mines Q4 2024 and Annual Financial Results](https://www.ivanhoemines.com/wp-content/uploads/20250219-Ivanhoe-Mines-Q4-2024-and-Annual-Financials-ReleaseVF.pdf)",
+      "source_name": "Ivanhoe Mines Q4 2024 and Annual Financial Results"
     },
     {
       "name": "First Quantum Minerals Ltd.",
@@ -130,8 +214,15 @@
       ],
       "description": "Major Canadian copper miner (TSX: FM) with flagship operations at Kansanshi (Zambia, 200,000–230,000 t Cu/yr guidance 2025) and Sentinel / Trident complex (Zambia). Cobre Panamá operations remain suspended since late 2023 following government order. The Kansanshi S3 expansion was nearing completion at mid-2025.",
       "source": "First Quantum Minerals Q4 2024 Results press release, February 11, 2025 — https://www.first-quantum.com/news/first-quantum-minerals-reports-fourth-quarter-2024-results/",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "FM",
+      "exchange": "",
+      "production_kt_cu": 396.0,
+      "production_year": "2025",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Excludes Cobre Panamá (suspended); primarily copper in concentrate from Kansanshi (181kt), Sentinel (189kt), other sites (26kt). Contained basis, prior to Kansanshi smelter.",
+      "source_url": "[First Quantum Minerals Q4 2025 Management's Discussion and Analysis](https://www.first-quantum.com/wp-content/uploads/2026/02/Q4-2025-FQM-Managements-Discussion-Analysis-FINAL.pdf)",
+      "source_name": "First Quantum Minerals Q4 2025 Management's Discussion and Analysis"
     },
     {
       "name": "Zijin Mining Group Co., Ltd.",
@@ -150,8 +241,15 @@
       ],
       "description": "China's largest diversified miner (HKEX: 2899; SHSE: 601899) with major copper assets including Kamoa-Kakula (DRC, 39.6% JV stake), Čukaru Peki and Bor complex (Serbia), and the Julong copper mine (Tibet). Five-year mined copper CAGR of 24%. Also holds a 10% stake in Ivanhoe Mines.",
       "source": "Zijin Mining 2024 Annual Results announcement, March 21, 2025 — https://www.zijinmining.com/investor/2024-newyeji.htm",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "601899.SH / 2899.HK",
+      "exchange": "",
+      "production_kt_cu": 1068.0,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Consolidated mine-produced copper 1,068,455 t (management discussion rounds to 1.07 million t, +6% YoY from 1.007 million t in 2023). Attributable to Zijin: 876 kt. Refined copper (consolidated): 748 kt (note in refined).",
+      "source_url": "[Annual Results Announcement for the Year Ended 31 December 2024](https://www.zijinmining.com/upload/file/2025/03/23/fe0519070ce84ef7992dfb7c03b40bc5.pdf)",
+      "source_name": "Annual Results Announcement for the Year Ended 31 December 2024"
     },
     {
       "name": "MMG Limited",
@@ -169,8 +267,15 @@
       ],
       "description": "Hong Kong-listed base metals miner (HKEX: 1208) majority-owned by China Minmetals Corporation. Operates Las Bambas (Peru, 323 kt Cu in 2024), Kinsevere (DRC, 45 kt Cu cathode), Khoemacau (Botswana, acquired March 2024, 31 kt Cu in 9 months), and Dugald River / Rosebery zinc-lead mines (Australia).",
       "source": "MMG 2024 Annual Results announcement, March 4, 2025 — https://www.mmg.com/wp-content/uploads/2025/03/e_2025-03-04_2024-Annual-Results.pdf",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "1208.HK",
+      "exchange": "",
+      "production_kt_cu": 399.8,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Total contained Cu: 399,758 tonnes (Las Bambas 322.9 kt concentrate, Kinsevere 45 kt cathode, Khoemacau 31 kt concentrate, Rosebery 1.3 kt). 15% increase from 2023.",
+      "source_url": "[MMG Annual Report 2024](https://www.mmg.com/wp-content/uploads/2025/04/MMG_Annual-Report-2024.pdf)",
+      "source_name": "MMG Annual Report 2024"
     },
     {
       "name": "Lundin Mining Corporation",
@@ -188,8 +293,15 @@
       ],
       "description": "Diversified Canadian base metals miner (TSX: LUN; OM: LUMI) with operations in Chile (Candelaria, Caserones 70%), Argentina (Josemaría), Brazil (Chapada), and the USA (Eagle nickel-copper). Record copper production in 2024 driven by Candelaria H2 strong performance and increased Caserones ownership from 51% to 70%.",
       "source": "Lundin Mining 2024 Production Results press release, January 16, 2025 — https://www.lundinmining.com/news/lundin-mining-announces-record-production-results-for-2024-and-provides-2025-guidance",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "LUN.TO",
+      "exchange": "",
+      "production_kt_cu": 369.0,
+      "production_year": "2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Record consolidated copper production of 369,067 tonnes contained metal on 100% basis across all operations (continuing + discontinued: Candelaria 162kt, Caserones 125kt, Chapada 43kt, Eagle 6kt, Neves-Corvo 28kt, Zinkgruvan 4kt). CY2024 aligns with FY2024 for Dec year-end company.",
+      "source_url": "[Lundin Mining 2024 Annual MD&A](https://lundinmining.com/_resources/financials/annual_financial_statements_-_q4_2024_final_-_combined.pdf?v=032611), [2024 Production Results NR](https://www.lundinmining.com/news/2025/lundin-mining-announces-record-production-results-for-2024-and-provides-2025-guidance), [Q4/FY2024 Results NR](https://www.lundinmining.com/news/lundin-mining-fourth-quarter-and-full-year-2024-results)",
+      "source_name": "Lundin Mining 2024 Annual MD&A and Financial Statements, Production Results News Releases"
     },
     {
       "name": "Vale S.A.",
@@ -208,8 +320,15 @@
       ],
       "description": "Brazilian multinational and world's largest iron ore producer, also a significant copper and nickel miner. Copper operations managed through Vale Base Metals: Salobo complex (Brazil, ~200 kt Cu record in 2024, with Salobo 3 ramp-up completed), Sossego (Brazil), Sudbury (Canada), and Voisey's Bay (Canada, VBME ramp-up).",
       "source": "Vale Production and Sales Report Q4 2024, January 28, 2025 — https://vale.com/w/vales-production-and-sales-in-4q24-and-2024; Vale Base Metals 2024 Integrated Report",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "VALE",
+      "exchange": "",
+      "production_kt_cu": 348.2,
+      "production_year": "2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Contained copper in concentrate (\"finished production\"); record production at Salobo (199.8 kt). Sales were 327.2 kt payable Cu.",
+      "source_url": "[Vale's Production and Sales in 4Q24 and 2024](https://api.mziq.com/mzfilemanager/v2/d/53207d1c-63b4-48f1-96b7-19869fae19fe/4588c428-e2bc-d57a-9544-935f8716805c?origin=1)",
+      "source_name": "Vale's Production and Sales in 4Q24 and 2024"
     },
     {
       "name": "KAZ Minerals (KAZ Minerals Holdings Ltd.)",
@@ -226,8 +345,15 @@
       ],
       "description": "Leading copper producer in Kazakhstan (formerly LSE-listed, delisted 2021, now privately held). Operates three major open-pit mines: Aktogay (228.8 kt Cu in 2024), Bozshakol (104.7 kt), and East Region & Bozymchak (46.4 kt). Production decreased year-on-year due to expected decline in ore grades as ore bodies mature.",
       "source": "KAZ Minerals Q4 2024 Production and Sales Report, February 10, 2025 — https://www.kazminerals.com/q4-2024-production-report/",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "KAZ (delisted)",
+      "exchange": "",
+      "production_kt_cu": 380.0,
+      "production_year": "CY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Payable metal in concentrate and copper cathode from oxide ore. Production declined from 403 kt in 2023 due to lower grades despite record ore throughput of 96.5 Mt. Private since 2021 (delisted LSE). Breakdown: Aktogay 229 kt, Bozshakol 105 kt, East Region & Bozymchak 46 kt.",
+      "source_url": "[KAZ Minerals Production and Sales Report for Twelve Months Ended 31 December 2024](https://www.kazminerals.com/q4-2024-production-report/)",
+      "source_name": "KAZ Minerals Production and Sales Report for Twelve Months Ended 31 December 2024"
     },
     {
       "name": "Capstone Copper Corp.",
@@ -243,8 +369,15 @@
       ],
       "description": "Canada-based copper miner (TSX: CS; ASX: CSC) with four operations: Pinto Valley (Arizona, USA), Cozamin (Mexico), Mantos Blancos and Mantoverde (Chile). The Mantoverde Development Project (MVDP) produced first copper concentrate in June 2024 and achieved commercial production in September 2024, driving the +12% growth. 2025 guidance 220,000–255,000 t.",
       "source": "Capstone Copper 2024 Production Results press release, January 20, 2025 — https://capstonecopper.com/news/capstone-copper-announces-2024-production-results-and-provides-2025-guidance/",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "TSX:CS",
+      "exchange": "",
+      "production_kt_cu": 184.0,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Consolidated contained copper: 142 kt in sulphide concentrates + 43 kt cathodes. Mantoverde reported on 100% basis (Capstone 70% ownership). Calendar year aligns with FY.",
+      "source_url": "[Capstone Copper 2024 Year-end Report to Shareholders](https://capstonecopper.com/wp-content/uploads/2025/02/2024-Capstone-Copper-Corp-Year-end-Report-to-Shareholders.pdf)",
+      "source_name": "Capstone Copper 2024 Year-end Report to Shareholders (MD&A)"
     },
     {
       "name": "Hudbay Minerals Inc.",
@@ -261,8 +394,15 @@
       ],
       "description": "Canadian base metals miner (TSX; NYSE: HBM) with three operating mines: Constancia (Peru), Copper Mountain (British Columbia, 75% interest), and Lalor/New Britannia (Manitoba). Achieved record free cash flows in 2024. Consolidated 100% of Copper Mountain in March 2025. Copper World project in Arizona received all major state permits.",
       "source": "Hudbay Q4 and Full Year 2024 Results press release, February 19, 2025 — https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results/",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "HBM",
+      "exchange": "",
+      "production_kt_cu": 138.0,
+      "production_year": "FY2024",
+      "production_type": "Mined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Copper contained in concentrate produced. Operations: Constancia (Peru), Snow Lake (Manitoba), Copper Mountain (BC, 100% basis, Hudbay 75% ownership). Breakdown: Peru 99 kt, BC 26 kt, Manitoba ~13 kt (inferred).",
+      "source_url": "[Hudbay Q4 and FY2024 Results Press Release](https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results-Achieves-2024-Consolidated-Production-and-Cost-Guidance-and-Provides-2025-Annual-Guidance/default.aspx)",
+      "source_name": "Hudbay Q4 and FY2024 Results Press Release"
     },
     {
       "name": "Barrick Mining Corporation",
@@ -692,32 +832,60 @@
       "country": "China",
       "website": "http://en.hongqiaochina.com",
       "production": "6,000,000 t",
-      "ticker": "1378",
-      "exchange": "HKEX"
+      "ticker": "1378.HK",
+      "exchange": "HKEX",
+      "production_kt_al": 5837,
+      "production_year": "FY2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Primary aluminium sales volume 5.837 Mt in FY2024, +1.5% YoY. Sales used as production proxy per 2024 Annual Results Presentation. Aluminium fabrication products: 766 kt (+32.1% YoY).",
+      "source_url": "[Hongqiao 2024 Annual Results](http://en.hongqiaochina.com/Uploads/File/2025/04/07/China%20Hongqiao%202024AR%20PPT%20Eng%20Final(2).20250407090628.pdf)",
+      "source_name": "China Hongqiao 2024 Annual Results Presentation"
     },
     {
       "name": "Chinalco (Chalco)",
       "country": "China",
       "website": "https://www.chalco.com.cn",
       "production": "4,000,000 t",
-      "ticker": "2600",
-      "exchange": "HKEX"
+      "ticker": "HKEX:2600, SSE:601600",
+      "exchange": "HKEX",
+      "production_kt_al": 7600,
+      "production_year": "FY2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Approximately 7.6 Mt primary aluminium + 22 Mt alumina in 2024; also produced 6.79 Mt primary aluminium in 2023 per Chalco annual report. Full 2024 breakdown in 2024 Annual Results Announcement (HKEX/SSE).",
+      "source_url": "[Chalco 2024 Annual Results Announcement](https://www.chalco.com.cn/en/tzzgxen/tzggen/202503/P020250327350567356452.pdf)",
+      "source_name": "Aluminum Corporation of China 2024 Annual Results Announcement"
     },
     {
       "name": "Rusal",
       "country": "Russia",
       "website": "https://www.rusal.ru",
       "production": "3,900,000 t",
-      "ticker": "RUAL",
-      "exchange": "MOEX"
+      "ticker": "0486",
+      "exchange": "MOEX",
+      "production_kt_al": 3992.0,
+      "production_year": "2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Alumina production also 6430 kt. Figures from key operating data table.",
+      "source_url": "[RUSAL 2024 Annual Results Announcement](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0314/2025031400039.pdf)",
+      "source_name": "RUSAL 2024 Annual Results Announcement"
     },
     {
       "name": "Rio Tinto",
       "country": "UK/Australia",
       "website": "https://www.riotinto.com",
       "production": "3,400,000 t",
-      "ticker": "RIO",
-      "exchange": "LSE/ASX"
+      "ticker": "RIO, RIO.L",
+      "exchange": "LSE/ASX",
+      "production_kt_al": 3296.0,
+      "production_year": "2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Rio Tinto share; rounded to 3,296 kt in report summary, exact 3296 kt from production tables. Includes ownership increase in Boyne (to 73.5%) and NZAS (to 100%) from Nov 2024. Ramp-up at Kitimat; closures at Arvida.",
+      "source_url": "[Rio Tinto Fourth Quarter Operations Review 2024](https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results, https://www.riotinto.com/-/media/content/documents/invest/financial-news-and-performance/production/2024/2024-4qor-xlsx.xlsx?rev=0c324bd86aaa4a75b3262f41c8345b47)",
+      "source_name": "Rio Tinto Fourth Quarter Operations Review 2024"
     },
     {
       "name": "Emirates Global Aluminium (EGA)",
@@ -725,7 +893,14 @@
       "website": "https://www.ega.ae",
       "production": "2,800,000 t",
       "ticker": "Private",
-      "exchange": ""
+      "exchange": "",
+      "production_kt_al": 2690.0,
+      "production_year": "FY2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Hot metal production (smelter output). Most recent year with disclosed primary smelter figure. Cast metal production FY2025: 2840 kt (includes recycling). Alumina FY2025: 2400 kt.",
+      "source_url": "[EGA 2024 Results](https://media.ega.ae/ega-delivers-strong-financial-results-and-low-carbon-growth-in-2024/)",
+      "source_name": "EGA delivers strong financial results and low-carbon growth in 2024"
     },
     {
       "name": "Alcoa",
@@ -733,15 +908,28 @@
       "website": "https://www.alcoa.com",
       "production": "2,300,000 t",
       "ticker": "AA",
-      "exchange": "NYSE"
+      "exchange": "NYSE",
+      "production_kt_al": 2215.0,
+      "production_year": "FY2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Consolidated aluminum production from smelters. Produced aluminum shipments: 2277 kmt. Some smelters hit production records.",
+      "source_url": "[Alcoa Corporation Reports Fourth Quarter and Full Year 2024 Results](https://news.alcoa.com/press-releases/press-release-details/2025/Alcoa-Corporation-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx)",
+      "source_name": "Alcoa Corporation Reports Fourth Quarter and Full Year 2024 Results"
     },
     {
       "name": "Xinfa Group",
       "country": "China",
       "website": "https://xinfaalum.com",
       "production": "1,800,000 t",
-      "ticker": "Private",
-      "exchange": ""
+      "ticker": "None",
+      "exchange": "",
+      "production_year": "N/A",
+      "production_type": "Primary smelter",
+      "data_confidence": "Undisclosed",
+      "notes": "Private Chinese conglomerate. No consolidated primary aluminum production disclosed in official reports. Capacity ~3600 kt, est. production ~3700 kt (2024) per secondary sources. Alumina 10290 kt (2023). New projects in Indonesia/Kazakhstan.",
+      "source_url": "[[Xinfa Group Co., Ltd. website](https://xinfagroup.goldsupplier.com)](https://xinfagroup.goldsupplier.com)",
+      "source_name": "[Xinfa Group Co., Ltd. website](https://xinfagroup.goldsupplier.com)"
     },
     {
       "name": "Aluminium Bahrain (Alba)",
@@ -749,23 +937,44 @@
       "website": "https://www.albasmelter.com",
       "production": "1,600,000 t",
       "ticker": "ALBH",
-      "exchange": "BSE"
+      "exchange": "BSE",
+      "production_kt_al": 1623.0,
+      "production_year": "2025",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Net Finished Production; most recent disclosed",
+      "source_url": "[Alba Q4 & FY 2025 Financial Results](https://www.albasmelter.com/uploads/Alba_Reports_its_FY_and_Q4_2025_Results.pdf)",
+      "source_name": "Alba Q4 & FY 2025 Financial Results"
     },
     {
       "name": "Hindalco Industries",
       "country": "India",
       "website": "https://www.hindalco.com",
       "production": "1,300,000 t",
-      "ticker": "HINDALCO",
-      "exchange": "NSE"
+      "ticker": "NSE: HINDALCO",
+      "exchange": "NSE",
+      "production_kt_al": 1331.0,
+      "production_year": "FY2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "India Aluminium Upstream primary metal production. Highest ever. Note: Consolidated aluminium metal sales 1372 kt (includes downstream and possibly Novelis? but primary smelter is upstream).",
+      "source_url": "[Hindalco Annual Report 2023-24](https://www.hindalco.com/upload/pdf/hindalco-annual-report-2023-24.pdf)",
+      "source_name": "Hindalco Integrated Annual Report 2023-24"
     },
     {
       "name": "Norsk Hydro",
       "country": "Norway",
       "website": "https://www.hydro.com",
       "production": "1,300,000 t",
-      "ticker": "NHY",
-      "exchange": "OSE"
+      "ticker": "NHY.OL",
+      "exchange": "OSE",
+      "production_kt_al": 2038.0,
+      "production_year": "2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Primary aluminium production from Hydro Aluminium Metal business area, includes proportionate share from equity-accounted plants.",
+      "source_url": "[Norsk Hydro Integrated Annual Report 2024](https://www.hydro.com/globalassets/06-investors/reports-and-presentations/annual-report/nhy-2024/integrated-annual-report-2024-en.pdf)",
+      "source_name": "Norsk Hydro Integrated Annual Report 2024"
     },
     {
       "name": "South32",
@@ -773,7 +982,14 @@
       "website": "https://www.south32.net",
       "production": "600,000 t",
       "ticker": "S32",
-      "exchange": "ASX"
+      "exchange": "ASX",
+      "production_kt_al": 1211.0,
+      "production_year": "FY25",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "South32 share: Hillside (100%): 718kt; Mozal (63.7%): 355kt; Brazil Alu (40%): 138kt. 6% YoY increase. Alumina separate: ~5,067kt (not primary).",
+      "source_url": "[Quarterly Report June 2025](https://www.south32.net/docs/default-source/all-financial-results/quarterly-report-june-2025.pdf?sfvrsn=6edf80_1)",
+      "source_name": "South32 Quarterly Report June 2025"
     },
     {
       "name": "Century Aluminum",
@@ -781,71 +997,132 @@
       "website": "https://www.centuryaluminum.com",
       "production": "500,000 t",
       "ticker": "CENX",
-      "exchange": "NASDAQ"
+      "exchange": "NASDAQ",
+      "production_kt_al": 690.0,
+      "production_year": "FY2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Production approximately 690 kt; shipments 678 kt. US ops shipped 389 kt, Iceland remainder. Hawesville curtailed.",
+      "source_url": "[Century Aluminum 2024 10-K](https://www.sec.gov/Archives/edgar/data/949157/0000949157-25-000024-index.htm)",
+      "source_name": "Century Aluminum 2024 Form 10-K"
     },
     {
       "name": "Vedanta Aluminium",
       "country": "India",
       "website": "https://vedantaaluminium.com",
       "production": "2.37 Mt primary aluminium (FY2024); 2.29 Mt (FY2023)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "NSE:VEDL",
+      "exchange": "",
+      "production_kt_al": 2422.0,
+      "production_year": "FY25",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Cast metal aluminium production from Jharsuguda and BALCO smelters. Highest ever annual production.",
+      "source_url": "[Vedanta Limited Q4FY25 Earnings Presentation](https://www.vedantalimited.com/uploads/investor-overview/financial-results/Q4FY25_EarningsPresentation_vFinal3.pdf)",
+      "source_name": "Vedanta Limited Q4FY25 Earnings Presentation"
     },
     {
       "name": "Press Metal Aluminium Holdings Berhad",
       "country": "Malaysia",
       "website": "https://www.pressmetal.com",
       "production": "Smelting capacity 1.08 Mt per annum (as of 2023); additional extrusion capacity 230,000 tpa",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "KLSE:8869",
+      "exchange": "",
+      "production_year": "FY2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Undisclosed",
+      "notes": "Capacity 1080 ktpa; fire incident impacted ~3% of annual production. No actual production volume disclosed in annual report or results announcements.",
+      "source_url": "[Press Metal Integrated Annual Report 2024](https://www.insage.com.my/interactiveAR/PMETAL/interactiveAR2024/)",
+      "source_name": "Press Metal Aluminium Holdings Berhad Integrated Annual Report 2024"
     },
     {
       "name": "Yunnan Aluminium Co., Ltd.",
       "country": "China",
       "website": "https://www.ynlys.com",
       "production": "3.23 Mt aluminium products (2024); primary aluminium capacity 3.08 Mt per annum",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "SSE 000807",
+      "exchange": "",
+      "production_kt_al": 2938.0,
+      "production_year": "2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "原铝 (primary aluminum) production 293.83 万吨 = 2938 kt. Alumina also reported at 1409 kt. Quarterly breakdown: Q1 637, Q2 714, Q3 797, Q4 790 kt.",
+      "source_url": "[Sina Finance 2024 Annual Results](https://finance.sina.com.cn/stock/relnews/cn/2025-03-31/doc-inerpuqn7080868.shtml)",
+      "source_name": "Yunnan Aluminium 2024 Annual Report (via Sina)"
     },
     {
       "name": "Aluminerie Alouette",
       "country": "Canada",
       "website": "https://www.alouette.com",
       "production": "Annual capacity approximately 630,000 tonnes primary aluminium",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "None",
+      "exchange": "",
+      "production_kt_al": 632.0,
+      "production_year": "2023",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Record production of 632,274 tonnes; closest to FY2024 request but most recent disclosed. Capacity ~630 kt.",
+      "source_url": "[Aluminerie Alouette 2023 Sustainable Development Report](https://www.alouette.com/data/63-aalv2/ressources/documents/sys_docs/rdd_aluminerie_alouette_2023.pdf)",
+      "source_name": "Aluminerie Alouette 2023 Sustainable Development Report"
     },
     {
       "name": "Companhia Brasileira de Alumínio (CBA)",
       "country": "Brazil",
       "website": "https://ri.cba.com.br",
       "production": "Approximately 480,000 tonnes per annum primary aluminium (integrated capacity); listed on B3 as CBAV3",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "CBAV3",
+      "exchange": "",
+      "production_year": "2024",
+      "production_type": "Primary smelter",
+      "data_confidence": "Undisclosed",
+      "notes": "Annual primary aluminium smelter production not disclosed in 2024 Annual Report; primary products sales 271 kt (capacity 380 kt). Alumina self-sufficient.",
+      "source_url": "[CBA 2024 Relatório da Administração](https://vipfiles.valor.com.br/BDEmpresas/184e78fe-38a7-4143-b620-71e892fd7f91.pdf)",
+      "source_name": "CBA 2024 Relatório da Administração"
     },
     {
       "name": "Ma'aden Aluminium (Saudi Arabian Mining Company)",
       "country": "Saudi Arabia",
       "website": "https://www.maaden.com.sa",
       "production": "780,000 tonnes primary aluminium per annum (Maaden Aluminium Company smelter); total aluminium products over 1 Mt per annum",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "1211.SR",
+      "exchange": "",
+      "production_kt_al": 999.0,
+      "production_year": "FY2025",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Primary aluminium smelter production from Ma'aden Aluminium segment (Ras Al-Khair). Alumina production FY2025: 1891 kt. FRP (flat rolled products, likely secondary): 311 kt.",
+      "source_url": "[Ma'aden Fourth Quarter and Full Year 2025 Results](https://www.saudiexchange.sa/Resources/fsPdf/31073_370_2026-03-05_15-41-48_en.pdf)",
+      "source_name": "Ma'aden Fourth Quarter and Full Year 2025 Results"
     },
     {
       "name": "Sohar Aluminium",
       "country": "Oman",
       "website": "https://www.sohar-aluminium.com",
       "production": "Annual production capacity 395,000 tonnes; recorded 396,929 tonnes in one published year",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "Private",
+      "exchange": "",
+      "production_kt_al": 398.0,
+      "production_year": "2023",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Hot metal production 397,529 tonnes (398 kt). Finished goods 396,630 tonnes. Design capacity 390 kt, actual ~398 kt at 399 kA. Most recent disclosed year; no FY2024/2025 found in official reports.",
+      "source_url": "[Sohar Aluminium ESG Report 2023](https://www.sohar-aluminium.com/sites/default/files/2025-02/ESG%20Report%202023%20%20-%20English.pdf)",
+      "source_name": "Sohar Aluminium ESG Report 2023"
     },
     {
       "name": "Qatalum (Qatar Aluminium Manufacturing Company joint venture)",
       "country": "Qatar",
       "website": "https://www.qamco.com.qa",
       "production": "687,000 tonnes primary aluminium (2025); nameplate capacity 648,000 tonnes per annum",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "QAMC.QA",
+      "exchange": "",
+      "production_kt_al": 687.0,
+      "production_year": "2025",
+      "production_type": "Primary smelter",
+      "data_confidence": "Primary disclosure",
+      "notes": "Qatalum is 50/50 JV between QAMCO (QatarEnergy sub) and Norsk Hydro. Figure is 100% JV primary aluminium production. Capacity ~648 kt. Most recent disclosed FY.",
+      "source_url": "[QAMCO 2025 Press Release & Annual Report](https://www.qamco.com.qa/media/2kvlsdcg/qamco-press-release-2025-eng-final.pdf, https://www.qamco.com.qa/media/pquj3g0g/qe_qamco_annual-report-2025_book_20260104_eng_2nd_v8.pdf)",
+      "source_name": "QAMCO 2025 Press Release & Annual Report"
     },
     {
       "name": "Aluminium Company of Egypt (Egyptalum)",
@@ -3845,160 +4122,297 @@
       "country": "United States",
       "website": "https://www.albemarle.com",
       "production": "Energy Storage segment volumes up 35% year-over-year in 2023; full-year 2023 net sales of $9.6 billion (volume growth 21%); production withheld at company level — USGS withholds U.S. domestic production figures (W) to avoid disclosing proprietary data",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ALB",
+      "exchange": "",
+      "production_year": "FY2024",
+      "production_type": "Integrated",
+      "data_confidence": "Primary (qualitative)",
+      "notes": "Albemarle reports Energy Storage net sales +26% YoY in FY2024 ($3.0B); does not disclose absolute kt LCE. Segment mix: lithium carbonate, hydroxide, spodumene (chemical grade). Kemerton Plant FY2024 LiOH output: 6,718 t (primary).",
+      "source_url": "[Albemarle Q4/FY2024 Results](https://investors.albemarle.com/news-and-events/news/news-details/2025/Albemarle-Reports-Fourth-Quarter-and-Full-Year-2024-Results/)",
+      "source_name": "Albemarle Q4 and Full Year 2024 Results Release"
     },
     {
       "name": "Sociedad Química y Minera de Chile S.A. (SQM)",
       "country": "Chile",
       "website": "https://www.sqm.com",
       "production": "Lithium and Derivatives sales volumes: 170,000 metric tons (2023), a record high; first production of spodumene concentrate commenced at Mt. Holland (Australia) in Q4 2023",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "SQM",
+      "exchange": "",
+      "production_kt_lce": 205.0,
+      "production_year": "FY2024",
+      "production_type": "Brine",
+      "data_confidence": "Primary disclosure",
+      "notes": "Sales volume (proxy for production) from Nova Andino Litio/Chile division; total ~205 kt consistent with guidance and earnings summaries. International Lithium minimal in 2024.",
+      "source_url": "[SQM Q4 2025 Earnings Release (SEC 6-K)](https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm), [SQM Q3 2024 Earnings Release (SEC 6-K)](https://www.sec.gov/Archives/edgar/data/909037/000090903724000068/a6-k_3q2024earningsrelease.htm)",
+      "source_name": "SQM Q4 2025 Earnings Release, SQM Q3 2024 Earnings Release"
     },
     {
       "name": "Ganfeng Lithium Group Co., Ltd.",
       "country": "China",
       "website": "https://www.ganfenglithium.com",
       "production": "Information not available — specific 2023 production volume in metric tons not disclosed at company level in primary sources reviewed; GHG Scope I emissions 400,800 t CO2e and Scope II 639,200 t CO2e in 2023",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "SZSE:002460, HKEX:1772",
+      "exchange": "",
+      "production_kt_lce": 129.7,
+      "production_year": "FY2024",
+      "production_type": "Integrated",
+      "data_confidence": "Primary disclosure",
+      "notes": "Lithium product sales volume 129,700 tonnes in 2024, up from 108,000 t in 2023. World's largest lithium metal producer and China's largest lithium compound supplier. 2025 sales guided at 184,800 t (+42.5%).",
+      "source_url": "[Ganfeng Lithium 2024 Annual Results Announcement](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0328/2025032803330.pdf)",
+      "source_name": "Ganfeng Lithium 2024 Annual Results Announcement (HKEX)"
     },
     {
       "name": "Tianqi Lithium Corporation",
       "country": "China",
       "website": "https://en.tianqilithium.com",
       "production": "Full-year 2023 operating revenue: RMB 40.503 billion; net profit attributable to shareholders: RMB 7.297 billion; specific 2023 production volume in metric tons not disclosed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "HKEX:9696 / SZSE:002466",
+      "exchange": "",
+      "production_kt_lce": 192.0,
+      "production_year": "FY2025",
+      "production_type": "Integrated",
+      "data_confidence": "Primary disclosure",
+      "notes": "Primary production from Greenbushes (51.6% attributable share): 1,300 kt chemical-grade spodumene concentrate (SC6.0 equiv.) × 0.148 = 192 kt LCE. Own lithium chemicals production: 88 kt products (not converted here). Greenbushes total 1,350 kt concentrate.",
+      "source_url": "[Tianqi Lithium 2025 Annual Report via Sina Finance](http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002466&id=12032546)",
+      "source_name": "Tianqi Lithium 2025 Annual Report"
     },
     {
       "name": "Pilbara Minerals Ltd.",
       "country": "Australia",
       "website": "https://www.pilbaraminerals.com.au",
       "production": "631,045 tonnes of spodumene concentrate in 2023 (calendar year), a 22% increase from 517,923 t in 2022; also produced 18 t of tantalite concentrate as byproduct",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ASX:PLS",
+      "exchange": "",
+      "production_kt_lce": 112.0,
+      "production_year": "FY2025",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "Annual production 754.6 kt spodumene concentrate (~5.2% Li2O). Converted to LCE using 1 t SC6.0 ≈ 0.148 t LCE factor as per instructions (no explicit SC6.0 stated, avg grade 5.2%).",
+      "source_url": "[[Pilbara Minerals Q4 FY25 Activities Report](https://announcements.asx.com.au/asxpdf/20250730/pdf/06m8x0wx5j7r91.pdf)](https://announcements.asx.com.au/asxpdf/20250730/pdf/06m8x0wx5j7r91.pdf)",
+      "source_name": "[Pilbara Minerals Q4 FY25 Activities Report](https://announcements.asx.com.au/asxpdf/20250730/pdf/06m8x0wx5j7r91.pdf)"
     },
     {
       "name": "Mineral Resources Limited (MinRes)",
       "country": "Australia",
       "website": "https://www.mineralresources.com.au",
       "production": "Information not available — specific consolidated 2023 spodumene production volumes in metric tons not separately disclosed at company level in primary sources reviewed; Wodgina Train 2 commenced production in FY23 and Train 3 reached practical completion; Mt Marion expansion construction completed FY23",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ASX:MIN",
+      "exchange": "",
+      "production_kt_lce": 71.9,
+      "production_year": "FY2024",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "Attributable shipments 486kt SC6 (Mt Marion 218kt, Wodgina 201kt, Bald Hill 67kt). Converted using 1t SC6 ≈ 0.148t LCE (71.9kt). Uses shipments as annual production proxy per industry practice for hard-rock miners.",
+      "source_url": "[2024 Financial Report](https://clients3.weblink.com.au/pdf/MIN/02844979.pdf)",
+      "source_name": "Mineral Resources 2024 Financial Report"
     },
     {
       "name": "IGO Limited / Tianqi Lithium Energy Australia (TLEA JV)",
       "country": "Australia",
       "website": "https://www.igo.com.au",
       "production": "Greenbushes annual spodumene production: 1,491,000 tonnes in FY23 (year ended June 30, 2023), exceeding guidance; Kwinana Lithium Hydroxide Refinery Train 1 produced 1,884 t of lithium hydroxide for full year FY23 (including 1,542 t battery grade)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ASX:IGO / HKEX:9696",
+      "exchange": "",
+      "production_kt_lce": 219.0,
+      "production_year": "FY2025",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "Greenbushes mine (100% basis, TLEA JV: Tianqi 51%, IGO 49%). 1,479 kt SC6.0 spodumene concentrate converted at 1 t SC6.0 ≈ 0.148 t LCE. Kwinana refinery produced 6.8 kt LiOH H2O (negligible ~8 kt LCE).",
+      "source_url": "[IGO FY25 Financial Results](https://www.igo.com.au/site/PDF/ce39be7c-a80e-420a-84ea-8aad6fd29531/FY25FinancialResults)",
+      "source_name": "IGO FY25 Financial Results"
     },
     {
       "name": "Arcadium Lithium (now Rio Tinto Lithium)",
       "country": "Ireland (registered); operational HQ in Philadelphia, USA and Brisbane, Australia",
       "website": "https://www.riotinto.com",
       "production": "Allkem (pre-merger): Olaroz Lithium Facility (Argentina) – full year FY2023 (ended June 30, 2023) production: ~14,900 tonnes lithium carbonate; Mt Cattlin (Australia) full year FY23 production approximately 175,000 dmt spodumene concentrate. Livent (pre-merger, calendar year 2023): volumes roughly flat vs 2022 baseline of ~20,500 MT LCE from Argentina brine operations",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "NYSE:ALTM",
+      "exchange": "",
+      "production_kt_lce": 44.0,
+      "production_year": "FY2024",
+      "production_type": "Refined",
+      "data_confidence": "Primary disclosure",
+      "notes": "Sales volumes FY2024: 42.3kt product MT LiOH/Li2CO3 (~42kt LCE), 1.9kt LCE specialties, 140kt dmt 5.4% spodumene (~21kt LCE equiv using 0.148 factor). Reduced spodumene prod at Mt Cattlin. Now Rio Tinto Lithium. Volumes from earnings summary; assumed product MT = LCE tonnes.",
+      "source_url": "[PRNewswire Q4 FY2024 Earnings](https://www.prnewswire.com/news-releases/arcadium-lithium-releases-fourth-quarter-and-full-year-2024-results-302387891.html), [Quartr ALTM IR](https://quartr.com/companies/arcadium-lithium-plc_11768)",
+      "source_name": "Arcadium Lithium Q4 & FY2024 Earnings Release"
     },
     {
       "name": "Sigma Lithium Corporation",
       "country": "Canada (TSX/Nasdaq listed)",
       "website": "https://www.sigmalithiumcorp.com",
       "production": "FY2023 (first operational year): Q3 2023 production 38,800 tonnes; Q4 2023 production 59,900 tonnes; full year 2023 unaudited production approximately 98,700 tonnes of spodumene concentrate (5.5% Li2O 'Triple Zero Green Lithium'); 2023 guidance target was 130,000 tonnes (plant ramping through year)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "NASDAQ:SGML",
+      "exchange": "",
+      "production_kt_lce": 35.6,
+      "production_year": "FY2024",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "240,828 t lithium oxide concentrate (Li2O); converted to LCE using 0.148 factor per task instructions (1 t SC6.0 ≈ 0.148 t LCE). Capacity ~270kt Li2O ≈ 38-40kt LCE per company docs.",
+      "source_url": "[Sigma Lithium 4Q24 and FY24 Results Press Release](https://www.nasdaq.com/press-release/sigma-lithium-reports-4q24-and-fy24-results-strong-margin-generation-record)",
+      "source_name": "Sigma Lithium 4Q24 and FY24 Results Press Release"
     },
     {
       "name": "Core Lithium Ltd.",
       "country": "Australia",
       "website": "https://www.corelithium.com.au",
       "production": "FY23 (year ended June 30, 2023): 18,274 tonnes of spodumene concentrate produced; spodumene concentrate sales: 5,423 tonnes in FY23; FY24 production guidance: 80,000–90,000 tonnes (subsequently idled operations in early 2024 due to lower lithium prices)",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ASX:CXO",
+      "exchange": "",
+      "production_kt_lce": 14.1,
+      "production_year": "FY2024",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "95,020 dmt SC produced (year ended 30 Jun 2024); mining suspended Jan 2024, processing completed Jun 2024. Converted using 1 t SC ≈ 0.148 t LCE (95 kt * 0.148 = 14.1 kt). No FY2025 production (restart H1 CY2026).",
+      "source_url": "[Core Lithium 2024 Annual Report to Shareholders](https://www.datocms-assets.com/106701/1727402206-cxo-core_lithium-2024-annual-report-to-shareholders.pdf)",
+      "source_name": "Core Lithium 2024 Annual Report to Shareholders"
     },
     {
       "name": "Piedmont Lithium Inc.",
       "country": "United States",
       "website": "https://www.piedmontlithium.com",
       "production": "2023 full year revenue: $39.8 million on sales of 43,200 dmt of spodumene concentrate (via 25% ownership in North American Lithium / NAL JV with Sayona Mining); NAL 2023 full year production: 98,800 dmt (100% basis); NAL Q4 2023 production: 34,200 dmt",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "PLL",
+      "exchange": "",
+      "production_kt_lce": 17.3,
+      "production_year": "FY2024",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "Shipments of 116,700 dmt (~5.4% Li2O) spodumene concentrate from NAL JV offtake converted to LCE using 1 t SC6.0 ≈ 0.148 t LCE (116.7 kt * 0.148 = 17.27 kt LCE rounded). Piedmont does not mine; resells offtake as supplier.",
+      "source_url": "[Piedmont Lithium Q4 & Full Year 2024 Results](https://www.businesswire.com/news/home/20250220124515/en/Piedmont-Lithium-Reports-Q4-Full-Year-2024-Results)",
+      "source_name": "Piedmont Lithium Q4 & Full Year 2024 Results"
     },
     {
       "name": "Sayona Mining Limited",
       "country": "Australia (ASX listed; operations in Canada)",
       "website": "https://www.sayonamining.com.au",
       "production": "NAL (North American Lithium, Sayona 75%, Piedmont 25%) full year 2023 production: 98,800 dmt of spodumene concentrate (100% basis); FY July 2023–June 2024 production guidance: 140,000–160,000 dmt",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ASX:SYA",
+      "exchange": "",
+      "production_kt_lce": 23.1,
+      "production_year": "FY2024",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "100% NAL (Sayona 75% owned); 155,822 dmt SC 5.4% ≈ 23.1 kt LCE (using 1 t SC6.0 ≈ 0.148 t LCE)",
+      "source_url": "[Sayona Mining FY24 Full Year Results](https://api.investi.com.au/api/announcements/sya/b703cf8e-6e4.pdf), [Sayona Mining FY24 Modern Slavery Statement](https://clients3.weblink.com.au/pdf/SYA/02896975.pdf)",
+      "source_name": "Sayona Mining FY24 Full Year Results, Sayona Mining FY24 Modern Slavery Statement"
     },
     {
       "name": "Lithium Americas Corp.",
       "country": "Canada",
       "website": "https://lithiumamericas.com",
       "production": "Information not available — no commercial production in 2023; Thacker Pass (Nevada, USA) was in construction/permitting phase in 2023; targeting nameplate capacity of 40,000 tpa of battery-quality lithium carbonate",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "LAC",
+      "exchange": "",
+      "production_kt_lce": 0.0,
+      "production_year": "FY2024",
+      "production_type": "Brine",
+      "data_confidence": "Primary disclosure",
+      "notes": "Thacker Pass pre-production; construction ongoing, mechanical completion targeted late 2027, first output 2028. No commercial production history.",
+      "source_url": "[Lithium Americas 2024 10-K](https://www.sec.gov/Archives/edgar/data/1966983/000095017025046424/lac-20241231.htm), [2024 Full Year Results](https://s203.q4cdn.com/835901927/files/doc_news/Lithium-Americas-Reports-2024-Full-Year-Results-2025.pdf)",
+      "source_name": "Lithium Americas 2024 10-K, Lithium Americas Reports 2024 Full Year Results"
     },
     {
       "name": "Zijin Mining Group Co., Ltd.",
       "country": "China",
       "website": "https://www.zijinmining.com",
       "production": "Information not available for lithium in 2023 — lithium commercial production not yet commenced in 2023; company held 13.46 million tonnes LCE of lithium resources as of December 31, 2023; 2024 guidance: 25,000 tonnes LCE",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "2899.HK",
+      "exchange": "",
+      "production_year": "FY2024",
+      "production_type": "Brine / Spodumene",
+      "data_confidence": "Undisclosed",
+      "notes": "No lithium production reported in FY2024 (year ended Dec 31, 2024); all projects pre-production or commissioning late 2025. Targeted ~25kt LCE but missed per secondary reports. First outputs in Q4 2025 or later.",
+      "source_url": "[2024 Annual Results Announcement](https://ru.zijinmining.com/upload/file/2025/03/25/0c4d55bdb3ac419ea7792571d6008267.pdf), [2024 Results Presentation](https://www.zijinmining.com/investor/2024-newyeji.htm)",
+      "source_name": "Zijin Mining 2024 Annual Results Announcement, Zijin Mining 2024 Results"
     },
     {
       "name": "POSCO Holdings (POSCO International – POSCO Pilbara Lithium Solution)",
       "country": "South Korea",
       "website": "https://www.posco.com",
       "production": "Information not available — POSCO's lithium hydroxide plant in Gwangyang, South Korea (targeting 43,000 t/yr capacity) was in ramp-up phase in 2023; specific 2023 production volumes not confirmed in primary sources reviewed",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "PKX",
+      "exchange": "",
+      "production_year": "FY2024",
+      "production_type": "Refined",
+      "data_confidence": "Undisclosed",
+      "notes": "POSCO Pilbara Lithium Solution (PPLS, 82% owned): Train 1 ramp-up in 2024 produced 1.965 kt LiOH Jun-Sep 2024 (~2.32 kt LCE); full year not disclosed. Argentina brine plant commercial start 2024 (25 kt capacity), no annual figure. No full FY production in primary reports.",
+      "source_url": "[POSCO Holdings IR](http://www.posco-inc.com/poscoinc/v3/eng/investor/s91e3000510c.jsp), [Pilbara Minerals Q Report Oct 2024](https://www.fastmarkets.com/insights/poscos-complete-construction-lithium-hydroxide-conversion-facility/)",
+      "source_name": "POSCO Holdings 2024 Form 20-F page; Pilbara Minerals Quarterly Report (cited in Fastmarkets)"
     },
     {
       "name": "Codelco (Corporación Nacional del Cobre de Chile)",
       "country": "Chile",
       "website": "https://www.codelco.com",
       "production": "Information not available — Codelco holds large lithium resources in Chile (Maricunga and Pedernales salars) but was not a commercial lithium producer in 2023; government agreements to develop lithium assets with SQM framework announced in 2023",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "N/A (state-owned)",
+      "exchange": "",
+      "production_kt_lce": 0.0,
+      "production_year": "FY2024",
+      "production_type": "Brine",
+      "data_confidence": "Undisclosed",
+      "notes": "Pre-commercial production stage. Acquired Lithium Power International for Maricunga salar (brine) in 2024; SQM JV signed May 2024, production starts 2025 in Atacama. No lithium output reported in official FY2024 annual operational/financial report. Future targets: Maricunga 55kt LCE by 2033 (w/ Rio Tinto); SQM JV 280-300kt LCE from 2031.",
+      "source_url": "[Codelco 2024 Annual Operational and Financial Report](https://www.codelco.com/sites/site/docs/20240426/20240426181050/operational_and_financial_report_december_31_2024.pdf)",
+      "source_name": "Codelco 2024 Annual Operational and Financial Report"
     },
     {
       "name": "Allkem Limited (now part of Arcadium Lithium)",
       "country": "Australia",
       "website": "https://www.allkem.co",
       "production": "Olaroz Lithium Facility (Argentina): Q3 FY2024 (Sept qtr 2023) production 4,453 t lithium carbonate (+35% YoY); Mt Cattlin (WA, Australia): Q3 FY2024 record quarterly production 72,549 dmt spodumene; Naraha (Japan) LiOH refinery: 526 t LiOH sold in Sept qtr 2023; merged with Livent effective January 4, 2024",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ASX:AKE (historical); NYSE:ALTM",
+      "exchange": "",
+      "production_kt_lce": 16.7,
+      "production_year": "FY2023",
+      "production_type": "Mixed",
+      "data_confidence": "Primary disclosure",
+      "notes": "Olaroz brine refined 16.7kt LCE; Mt Cattlin spod ~19kt LCE (130.98kt @5.3% Li2O x 0.148). Most recent full FY for standalone Allkem (ended June 30, 2023). Sep Q23 adds ~6.1kt LCE but incomplete FY24. No full FY24 disclosed pre-merger.",
+      "source_url": "[Allkem FY23 Full Year Results](https://www.globenewswire.com/news-release/2023/08/22/2729093/0/en/FY23-full-year-results-deliver-record-profit-of-US-524-6-million.html)",
+      "source_name": "Allkem FY23 Full Year Results"
     },
     {
       "name": "Talison Lithium Pty Ltd (operated by TLEA – Tianqi Lithium Energy Australia, Greenbushes)",
       "country": "Australia",
       "website": "https://www.talisonlithium.com",
       "production": "Greenbushes mine spodumene production: 1,491,000 tonnes in FY23 (year ended June 30, 2023), exceeding guidance; owned 51% by TLEA (Tianqi 51% + IGO 24.99%) and 49% by Albemarle",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "Private (TLEA)",
+      "exchange": "",
+      "production_kt_lce": 219.0,
+      "production_year": "FY25",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "Talison Lithium (Greenbushes operator, TLEA 51% Tianqi/IGO JV + 49% Albemarle). FY25 (ended 30 Jun 2025) SC6.0 production 1,479 ktpa (100% basis), converted at 1t SC6.0 ≈ 0.148 t LCE.",
+      "source_url": "[IGO June 2025 Quarterly Activities Report](https://www.igo.com.au/site/pdf/7aa9280a-4c3d-4d6a-a323-f59d9ef2425a/June-2025-Quarterly-Activities-Report.pdf?Platform=ListPage), [IGO FY25 Results Presentation](https://www.igo.com.au/site/pdf/4ae41094-c6c9-4e36-b4e1-1b11dfbde208/FY25-Results-Presentation.pdf?Platform=ListPage)",
+      "source_name": "IGO Limited Quarterly Activities Report &amp; FY25 Results"
     },
     {
       "name": "Liontown Resources Limited",
       "country": "Australia",
       "website": "https://www.ltresources.com.au",
       "production": "Information not available — Kathleen Valley lithium project (WA) was in construction in 2023; first ore was mined and first spodumene concentrate was expected Q2 2024; no commercial production in 2023",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "ASX:LTR",
+      "exchange": "",
+      "production_kt_lce": 43.7,
+      "production_year": "FY2025",
+      "production_type": "Spodumene",
+      "data_confidence": "Primary disclosure",
+      "notes": "294.5 kt dry metric tonnes of ~SC5.2% (5.2% Li2O) spodumene concentrate produced in first year of operations (Jul 2024-Jun 2025). Converted to LCE using factor 0.148 (industry standard for SC6.0, applied conservatively).",
+      "source_url": "[Liontown Resources FY25 Full Year Financial Results](https://announcements.asx.com.au/asxpdf/20250925/pdf/06pndk4l8xmrtm.pdf)",
+      "source_name": "Liontown Resources FY25 Full Year Financial Results"
     },
     {
       "name": "Compass Minerals International",
       "country": "United States",
       "website": "https://www.compassminerals.com",
       "production": "Information not available — Lithium Americas divested Pastos Grandes lithium project (Argentina) interest; Compass Minerals' own Ogden, Utah lithium brine project was in feasibility stage in 2023; no commercial lithium production in 2023",
-      "ticker": "",
-      "exchange": ""
+      "ticker": "CMP",
+      "exchange": "",
+      "production_kt_lce": 0.0,
+      "production_year": "FY2024",
+      "production_type": "Brine",
+      "data_confidence": "Undisclosed",
+      "notes": "Lithium project (Great Salt Lake salt development) terminated during FY2024 (ended Sep 30, 2024). No commercial production achieved; $20.2M capex spent, significant impairments recorded on lithium assets. Pre-commercial / development stage only.",
+      "source_url": "[Q4 FY2024 Earnings Release](https://investors.compassminerals.com/investors-relations/investor-news/press-release-details/2024/Compass-Minerals-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx), [10-K FY2024](https://www.sec.gov/Archives/edgar/data/1227654/000122765424000230/cmp-20240930.htm)",
+      "source_name": "Compass Minerals FY2024 Q4 Earnings Release and 10-K"
     },
     {
       "name": "Patriot Battery Metals Inc.",

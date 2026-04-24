@@ -302,9 +302,14 @@ function generateReservesSection(metalData) {
 
 function formatKt(n) {
   if (n === null || n === undefined) return null;
-  if (n >= 100) return Number(n).toFixed(0);
-  if (n >= 10) return Number(n).toFixed(1);
-  return Number(n).toFixed(2);
+  let num;
+  if (n >= 100) num = Number(n).toFixed(0);
+  else if (n >= 10) num = Number(n).toFixed(1);
+  else num = Number(n).toFixed(2);
+  // Add thousands separator for numbers >= 1000
+  const parts = num.split('.');
+  parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return parts.join('.');
 }
 
 function extractHostname(url) {
@@ -350,10 +355,29 @@ function generateProducersHTML(metalKey, config) {
     return '<p style="color:var(--color-text-muted)">No producer data available for this metal.</p>';
   }
 
-  const hasProductionData = metalProducers.some(p => p.production_kt_ni !== undefined || p.production_kt !== undefined);
+  // Determine unit/field based on metal
+  const KT_FIELDS = {
+    nickel: { field: 'production_kt_ni', unit: 'kt Ni' },
+    copper: { field: 'production_kt_cu', unit: 'kt Cu' },
+    aluminium: { field: 'production_kt_al', unit: 'kt Al' },
+    aluminum: { field: 'production_kt_al', unit: 'kt Al' },
+    lithium: { field: 'production_kt_lce', unit: 'kt LCE' },
+  };
+  const ktCfg = KT_FIELDS[metalKey] || { field: 'production_kt', unit: 'kt' };
+  const getKt = (p) => {
+    if (p[ktCfg.field] !== undefined && p[ktCfg.field] !== null) return p[ktCfg.field];
+    if (p.production_kt_ni !== undefined) return p.production_kt_ni;
+    if (p.production_kt_cu !== undefined) return p.production_kt_cu;
+    if (p.production_kt_al !== undefined) return p.production_kt_al;
+    if (p.production_kt_lce !== undefined) return p.production_kt_lce;
+    if (p.production_kt !== undefined) return p.production_kt;
+    return null;
+  };
+
+  const hasProductionData = metalProducers.some(p => getKt(p) !== null || p.data_confidence === 'Undisclosed');
 
   return metalProducers.slice(0, 20).map((p, idx) => {
-    const kt = p.production_kt_ni !== undefined ? p.production_kt_ni : p.production_kt;
+    const kt = getKt(p);
     const hasKt = kt !== null && kt !== undefined;
     const ktFormatted = hasKt ? formatKt(kt) : null;
     const fy = p.production_year || '';
@@ -370,7 +394,7 @@ function generateProducersHTML(metalKey, config) {
         productionBlock = `
           <div class="producer-card__production">
             <span class="producer-card__kt">${ktFormatted}</span>
-            <span class="producer-card__kt-unit">kt Ni</span>
+            <span class="producer-card__kt-unit">${ktCfg.unit}</span>
             ${fy ? `<span class="producer-card__fy">${fy}</span>` : ''}
           </div>
           ${(klass || prodType) ? `<div class="producer-card__class">${[prodType, klass].filter(Boolean).join(' · ')}</div>` : ''}
@@ -550,10 +574,18 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
   html = html.replace('{{NAV_PRODUCT_FORMS_LINK}}', hasProductForms ? '<a href="#product-forms" class="section-nav__link">Product Forms</a>' : '');
   const producersKeysList = metalKey === 'pgm' ? [metalKey,'platinum','palladium'] : [metalKey];
   const allProd = producersKeysList.flatMap(k => producers[k] || []);
-  const hasProdData = allProd.some(p => p.production_kt_ni !== undefined || p.production_kt !== undefined);
-  html = html.replace('{{PRODUCERS_SUBHEAD}}', hasProdData ? '<span class="section__source">Ranked by latest disclosed Ni-contained production</span>' : '');
+  const PROD_META = {
+    nickel:    { subhead: 'Ranked by latest disclosed Ni-contained production', metric: 'nickel production (Ni-contained, kilotonnes)' },
+    copper:    { subhead: 'Ranked by latest disclosed copper production', metric: 'copper production (Cu-contained, kilotonnes)' },
+    aluminium: { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
+    aluminum:  { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
+    lithium:   { subhead: 'Ranked by latest disclosed lithium production (LCE)', metric: 'lithium production (kilotonnes LCE)' },
+  };
+  const prodMeta = PROD_META[metalKey] || { subhead: 'Ranked by latest disclosed production', metric: 'production (kilotonnes)' };
+  const hasProdData = allProd.some(p => p.production_kt_ni !== undefined || p.production_kt_cu !== undefined || p.production_kt_al !== undefined || p.production_kt_lce !== undefined || p.production_kt !== undefined);
+  html = html.replace('{{PRODUCERS_SUBHEAD}}', hasProdData ? `<span class="section__source">${prodMeta.subhead}</span>` : '');
   html = html.replace('{{PRODUCERS_INTRO}}', hasProdData
-    ? '<p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual nickel production (Ni-contained, kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish Ni-specific tonnage — common for private Chinese and Indonesian groups.</p>'
+    ? `<p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual ${prodMeta.metric}. Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>`
     : '');
   html = html.replace('{{PRODUCERS_HTML}}', generateProducersHTML(metalKey, config));
   html = html.replace('{{NEWS_HTML}}', generateNewsHTML(config.name));
