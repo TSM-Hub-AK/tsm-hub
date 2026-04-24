@@ -688,60 +688,69 @@ function generateNewsHTML(newsData) {
   const allTopicTags = new Set();
   newsData.articles.forEach(a => (a.topics || []).forEach(t => allTopicTags.add(t)));
 
+  // Display names for metal filters (tag id -> human label)
+  // NOTE: 'battery' and 'general' metal tags are intentionally excluded from display:
+  //   - 'battery' duplicates topics:'battery-ev' (all battery articles carry both tags)
+  //   - 'general' is shown at the end of topic bar instead
   const metalNames = {
-    // LME base metals
-    nickel: 'Nickel', copper: 'Copper', aluminum: 'Aluminium',
-    zinc: 'Zinc', lead: 'Lead', tin: 'Tin',
+    // Base metals (LME non-ferrous)
+    aluminum: 'Aluminium', copper: 'Copper', lead: 'Lead',
+    nickel: 'Nickel', tin: 'Tin', zinc: 'Zinc',
     // Precious
-    gold: 'Gold', silver: 'Silver', platinum: 'Platinum', palladium: 'Palladium',
-    rhodium: 'Rhodium', iridium: 'Iridium', ruthenium: 'Ruthenium',
-    // Battery & EV
-    cobalt: 'Cobalt', lithium: 'Lithium', battery: 'Battery/EV',
-    // Rare earths
-    'rare-earths': 'Rare Earths',
-    // Minor & specialty
-    antimony: 'Antimony', gallium: 'Gallium', germanium: 'Germanium',
-    tungsten: 'Tungsten', vanadium: 'Vanadium', titanium: 'Titanium',
-    manganese: 'Manganese', molybdenum: 'Molybdenum',
-    indium: 'Indium', tellurium: 'Tellurium', magnesium: 'Magnesium',
-    // Energy & strategic
-    uranium: 'Uranium', 'ferro-alloys': 'Ferro-alloys',
-    // Iron ore
-    'iron-ore': 'Iron Ore',
-    // General
-    general: 'General'
+    gold: 'Gold', palladium: 'Palladium', platinum: 'Platinum',
+    rhodium: 'Rhodium', silver: 'Silver',
+    iridium: 'Iridium', ruthenium: 'Ruthenium',
+    // Battery metals
+    cobalt: 'Cobalt', lithium: 'Lithium',
+    // Critical / specialty
+    antimony: 'Antimony', 'ferro-alloys': 'Ferro-alloys',
+    gallium: 'Gallium', germanium: 'Germanium', indium: 'Indium',
+    'iron-ore': 'Iron Ore', magnesium: 'Magnesium', manganese: 'Manganese',
+    molybdenum: 'Molybdenum', 'rare-earths': 'Rare Earths',
+    tellurium: 'Tellurium', titanium: 'Titanium', tungsten: 'Tungsten',
+    uranium: 'Uranium', vanadium: 'Vanadium'
   };
+  // Display names for topic filters
+  // 'battery-ev' -> 'Battery' (broader term; batteries are not only in EVs)
   const topicNames = {
-    'battery-ev': 'Battery & EV',
-    'rwa': 'RWA / Tokenization',
-    'hk-regulatory': 'HK Regulatory',
-    'esg': 'ESG',
+    'battery-ev': 'Battery',
     'china-policy': 'China Policy',
+    'esg': 'ESG',
     'global-policy': 'Global Policy',
+    'hk-regulatory': 'HK Regulatory',
+    'rwa': 'RWA / Tokenization',
+    'general': 'General'
   };
 
-  // Order: base metals, precious, battery/EV, rare earths, specialty, energy, iron ore, general
+  // Metal filter order: base metals -> precious -> battery metals -> critical/specialty (alphabetical within groups)
+  // Excludes 'battery' (duplicates topic:battery-ev) and 'general' (shown as topic filter at end)
   const metalOrder = [
-    'nickel','copper','aluminum','zinc','lead','tin',
-    'gold','silver','platinum','palladium','rhodium','iridium','ruthenium',
-    'cobalt','lithium','battery',
-    'rare-earths',
-    'antimony','gallium','germanium','tungsten','vanadium','titanium',
-    'manganese','molybdenum','indium','tellurium','magnesium',
-    'uranium','ferro-alloys',
-    'iron-ore',
-    'general'
+    // Base metals (LME non-ferrous)
+    'aluminum','copper','lead','nickel','tin','zinc',
+    // Precious
+    'gold','palladium','platinum','rhodium','silver',
+    'iridium','ruthenium',
+    // Battery metals
+    'cobalt','lithium',
+    // Critical / specialty (alphabetical)
+    'antimony','ferro-alloys','gallium','germanium','indium',
+    'iron-ore','magnesium','manganese','molybdenum','rare-earths',
+    'tellurium','titanium','tungsten','uranium','vanadium'
   ];
   const availableMetals = metalOrder.filter(m => allMetalTags.has(m));
-  // Topic order
-  const topicOrder = ['battery-ev', 'rwa', 'hk-regulatory', 'esg', 'china-policy', 'global-policy'];
+  // Topic filter order: Battery first, then alphabetical regular topics, General last.
+  // Note: 'general' is stored in article.metals (not article.topics) so we inject it here manually.
+  const topicOrder = ['battery-ev', 'china-policy', 'esg', 'global-policy', 'hk-regulatory', 'rwa'];
   const availableTopics = topicOrder.filter(t => allTopicTags.has(t));
   
   const metalFilterOptions = availableMetals
     .map(m => `<button class="news-filter-btn" data-filter="${m}">${metalNames[m] || m}</button>`)
     .join('\n            ');
+  // Append 'general' at the very end of topic bar (sourced from metals tag, styled as topic)
+  const hasGeneral = allMetalTags.has('general');
   const topicFilterOptions = availableTopics
     .map(t => `<button class="news-filter-btn news-filter-btn--topic" data-filter="${t}" data-filter-type="topic">${topicNames[t] || t}</button>`)
+    .concat(hasGeneral ? [`<button class="news-filter-btn news-filter-btn--topic" data-filter="general">${topicNames['general']}</button>`] : [])
     .join('\n            ');
   const topicSeparator = availableTopics.length > 0 && availableMetals.length > 0
     ? '\n            <span class="news-filter-divider"></span>\n            '
