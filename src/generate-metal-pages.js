@@ -300,6 +300,32 @@ function generateReservesSection(metalData) {
   `;
 }
 
+function formatKt(n) {
+  if (n === null || n === undefined) return null;
+  if (n >= 100) return Number(n).toFixed(0);
+  if (n >= 10) return Number(n).toFixed(1);
+  return Number(n).toFixed(2);
+}
+
+function extractHostname(url) {
+  if (!url) return '';
+  const m = url.match(/\[([^\]]+)\]/);
+  if (m) return m[1];
+  try {
+    const u = new URL(url);
+    return u.hostname.replace(/^www\./, '');
+  } catch { return 'Source'; }
+}
+
+function firstUrl(urlField) {
+  if (!urlField) return '';
+  // If markdown link: [name](url)
+  const md = urlField.match(/\]\(([^)]+)\)/);
+  if (md) return md[1];
+  // If comma-separated list: take first
+  return urlField.split(/[,\s]/)[0].trim();
+}
+
 function generateProducersHTML(metalKey, config) {
   // Try exact key first, then variations
   const keys = [metalKey];
@@ -324,13 +350,53 @@ function generateProducersHTML(metalKey, config) {
     return '<p style="color:var(--color-text-muted)">No producer data available for this metal.</p>';
   }
 
-  return metalProducers.slice(0, 20).map(p => `
+  const hasProductionData = metalProducers.some(p => p.production_kt_ni !== undefined || p.production_kt !== undefined);
+
+  return metalProducers.slice(0, 20).map((p, idx) => {
+    const kt = p.production_kt_ni !== undefined ? p.production_kt_ni : p.production_kt;
+    const hasKt = kt !== null && kt !== undefined;
+    const ktFormatted = hasKt ? formatKt(kt) : null;
+    const fy = p.production_year || '';
+    const klass = p.class || '';
+    const prodType = p.production_type || '';
+    const confidence = p.data_confidence || '';
+    const sourceUrl = firstUrl(p.source_url);
+    const sourceName = p.source_name || extractHostname(p.source_url);
+    const notes = p.notes || '';
+
+    let productionBlock = '';
+    if (hasProductionData) {
+      if (hasKt) {
+        productionBlock = `
+          <div class="producer-card__production">
+            <span class="producer-card__kt">${ktFormatted}</span>
+            <span class="producer-card__kt-unit">kt Ni</span>
+            ${fy ? `<span class="producer-card__fy">${fy}</span>` : ''}
+          </div>
+          ${(klass || prodType) ? `<div class="producer-card__class">${[prodType, klass].filter(Boolean).join(' · ')}</div>` : ''}
+          ${sourceUrl ? `<div class="producer-card__source"><a href="${sourceUrl}" target="_blank" rel="noopener" title="${notes.replace(/"/g,'&quot;')}">${sourceName}</a></div>` : ''}
+        `;
+      } else if (confidence === 'Undisclosed' || confidence.toLowerCase().includes('undisclos')) {
+        productionBlock = `
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            ${fy ? `<span class="producer-card__fy">${fy}</span>` : ''}
+          </div>
+          ${notes ? `<div class="producer-card__class" style="font-style:italic;">${notes.length > 140 ? notes.slice(0, 140) + '…' : notes}</div>` : ''}
+          ${sourceUrl ? `<div class="producer-card__source"><a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a></div>` : ''}
+        `;
+      }
+    }
+
+    return `
     <div class="producer-card">
-      <div class="producer-card__name">${p.name}</div>
+      <div class="producer-card__name">${hasProductionData ? `<span class="producer-card__rank">#${idx + 1}</span>` : ''}${p.name}</div>
       <div class="producer-card__country">${p.country || ''}</div>
       ${p.type ? `<div class="producer-card__type">${p.type}</div>` : ''}
+      ${productionBlock}
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
 
 function generateNewsHTML(metalName) {
@@ -482,6 +548,13 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
   const hasProductForms = productForms && productForms[metalKey] && productForms[metalKey].length > 0;
   html = html.replace('{{PRODUCT_FORMS_SECTION_HTML}}', hasProductForms ? generateProductFormsSection(metalKey) : '');
   html = html.replace('{{NAV_PRODUCT_FORMS_LINK}}', hasProductForms ? '<a href="#product-forms" class="section-nav__link">Product Forms</a>' : '');
+  const producersKeysList = metalKey === 'pgm' ? [metalKey,'platinum','palladium'] : [metalKey];
+  const allProd = producersKeysList.flatMap(k => producers[k] || []);
+  const hasProdData = allProd.some(p => p.production_kt_ni !== undefined || p.production_kt !== undefined);
+  html = html.replace('{{PRODUCERS_SUBHEAD}}', hasProdData ? '<span class="section__source">Ranked by latest disclosed Ni-contained production</span>' : '');
+  html = html.replace('{{PRODUCERS_INTRO}}', hasProdData
+    ? '<p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual nickel production (Ni-contained, kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish Ni-specific tonnage — common for private Chinese and Indonesian groups.</p>'
+    : '');
   html = html.replace('{{PRODUCERS_HTML}}', generateProducersHTML(metalKey, config));
   html = html.replace('{{NEWS_HTML}}', generateNewsHTML(config.name));
   html = html.replace('{{DATA_SOURCES_HTML}}', generateDataSources(config));

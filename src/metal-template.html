@@ -558,6 +558,72 @@
       color: var(--color-text-faint);
     }
 
+    .producer-card__production {
+      margin-top: var(--space-3);
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--color-border);
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+    }
+
+    .producer-card__kt {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: var(--text-lg);
+      color: var(--color-primary);
+    }
+
+    .producer-card__kt--undisclosed {
+      font-family: var(--font-display);
+      font-weight: 500;
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      font-style: italic;
+    }
+
+    .producer-card__kt-unit {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+    }
+
+    .producer-card__fy {
+      margin-left: auto;
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    .producer-card__class {
+      margin-top: var(--space-2);
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+    }
+
+    .producer-card__source {
+      margin-top: var(--space-2);
+      font-size: var(--text-xs);
+    }
+
+    .producer-card__source a {
+      color: var(--color-text-faint);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--color-text-faint);
+    }
+
+    .producer-card__source a:hover {
+      color: var(--color-primary);
+      border-bottom-color: var(--color-primary);
+    }
+
+    .producer-card__rank {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-right: var(--space-2);
+    }
+
     /* === NEWS === */
     .news-list {
       display: flex;
@@ -858,7 +924,9 @@
     <section id="producers" class="section">
       <div class="section__header">
         <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
+        {{PRODUCERS_SUBHEAD}}
       </div>
+      {{PRODUCERS_INTRO}}
       <div class="producers-grid">
         {{PRODUCERS_HTML}}
       </div>
