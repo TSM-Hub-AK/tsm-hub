@@ -16,6 +16,11 @@ const dataDir = path.join(__dirname, '..', 'data');
 const countryData = JSON.parse(fs.readFileSync(path.join(dataDir, 'country-data.json'), 'utf8'));
 const producers = JSON.parse(fs.readFileSync(path.join(dataDir, 'producers.json'), 'utf8'));
 
+let productForms = null;
+if (fs.existsSync(path.join(dataDir, 'product-forms.json'))) {
+  productForms = JSON.parse(fs.readFileSync(path.join(dataDir, 'product-forms.json'), 'utf8'));
+}
+
 let prices = null;
 if (fs.existsSync(path.join(dataDir, 'prices.json'))) {
   prices = JSON.parse(fs.readFileSync(path.join(dataDir, 'prices.json'), 'utf8'));
@@ -364,6 +369,41 @@ function generateAllMetalsNav(currentSlug) {
   }).join('\n        ');
 }
 
+function generateProductFormsSection(metalKey) {
+  if (!productForms || !productForms[metalKey]) return '';
+  const forms = productForms[metalKey];
+  if (!forms || forms.length === 0) return '';
+
+  const rows = forms.map(f => {
+    const lmeBadge = f.lme_deliverable
+      ? '<span class="badge badge--critical" style="font-size:var(--text-xs);padding:2px 6px;">LME</span>'
+      : '<span style="color:var(--color-text-faint);font-size:var(--text-xs);">—</span>';
+    const note = f.note ? `<div class="note" style="margin-top:4px;color:var(--color-text-faint);font-size:var(--text-xs);">${f.note}</div>` : '';
+    return `
+      <tr>
+        <td><strong>${f.name}</strong>${note}</td>
+        <td><code style="background:transparent;color:var(--color-text-muted);">${f.chemical_form}</code></td>
+        <td>${f.typical_grade}</td>
+        <td>${f.primary_end_use}</td>
+        <td style="text-align:center;">${lmeBadge}</td>
+      </tr>`;
+  }).join('');
+
+  return `
+    <section id="product-forms" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Commercial Product Forms</h2>
+        <span class="section__source">Sources: <a href="https://www.lme.com">LME contract specs</a>, <a href="https://doi.org/10.5066/P1WKQ63T">USGS MCS 2026</a></span>
+      </div>
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-4);">Major commercial forms in which this metal is refined, traded and delivered. "LME" indicates the form is deliverable against an LME physical contract.</p>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Form</th><th>Chemical form</th><th>Typical grade / spec</th><th>Primary end use</th><th style="text-align:center;">LME</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </section>
+  `;
+}
+
 function generateDataSources(config) {
   const sources = ['Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a>'];
   
@@ -439,6 +479,9 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
   html = html.replace('{{PRODUCTION_TABLE_HTML}}', generateProductionTable(metalData));
   html = html.replace('{{RESERVES_SECTION_HTML}}', hasReserves ? generateReservesSection(metalData) : '');
   html = html.replace('{{NAV_RESERVES_LINK}}', hasReserves ? '<a href="#reserves" class="section-nav__link">Reserves</a>' : '');
+  const hasProductForms = productForms && productForms[metalKey] && productForms[metalKey].length > 0;
+  html = html.replace('{{PRODUCT_FORMS_SECTION_HTML}}', hasProductForms ? generateProductFormsSection(metalKey) : '');
+  html = html.replace('{{NAV_PRODUCT_FORMS_LINK}}', hasProductForms ? '<a href="#product-forms" class="section-nav__link">Product Forms</a>' : '');
   html = html.replace('{{PRODUCERS_HTML}}', generateProducersHTML(metalKey, config));
   html = html.replace('{{NEWS_HTML}}', generateNewsHTML(config.name));
   html = html.replace('{{DATA_SOURCES_HTML}}', generateDataSources(config));

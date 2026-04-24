@@ -1,0 +1,192 @@
+{
+  "_meta": {
+    "title": "Commercial product forms by metal",
+    "description": "Major commercial forms in which refined and intermediate metal products are traded. Compiled from LME contract specifications, USGS Mineral Commodity Summaries 2026, and industry practice.",
+    "sources": [
+      {"name": "LME Copper contract (Grade A, BS EN 1978:1998)", "url": "https://www.lme.com/en/metals/non-ferrous/lme-copper"},
+      {"name": "LME Primary Aluminium contract (P1020A)", "url": "https://www.lme.com/en/metals/non-ferrous/lme-aluminium"},
+      {"name": "LME Nickel contract (99.80% min, full plate / cut cathodes, briquettes, pellets)", "url": "https://www.lme.com/en/metals/non-ferrous/lme-nickel"},
+      {"name": "LME Lithium Hydroxide CIF (Fastmarkets MB) — cash-settled", "url": "https://www.lme.com/metals/ev/lme-lithium-hydroxide-cif-fastmarkets-mb"},
+      {"name": "USGS Mineral Commodity Summaries 2026 (DOI: 10.5066/P1WKQ63T)", "url": "https://doi.org/10.5066/P1WKQ63T"}
+    ]
+  },
+  "copper": [
+    {
+      "name": "Cathode (LME Grade A)",
+      "chemical_form": "Cu, ≥99.9935%",
+      "typical_grade": "BS EN 1978:1998 Cu-CATH-1",
+      "primary_end_use": "Wire rod feedstock, electrical conductors",
+      "lme_deliverable": true,
+      "note": "LME-deliverable cathode; 25 t lots"
+    },
+    {
+      "name": "Wire rod",
+      "chemical_form": "Cu, ≥99.95%",
+      "typical_grade": "8 mm continuous cast (ASTM B49)",
+      "primary_end_use": "Power cables, building wire, magnet wire",
+      "lme_deliverable": false
+    },
+    {
+      "name": "Billets",
+      "chemical_form": "Cu or Cu-alloy (C11000, C12200)",
+      "typical_grade": "ETP / DHP copper",
+      "primary_end_use": "Extrusion into tubes, plumbing, HVAC",
+      "lme_deliverable": false
+    },
+    {
+      "name": "Concentrate",
+      "chemical_form": "CuFeS₂-bearing (chalcopyrite)",
+      "typical_grade": "25–30% Cu",
+      "primary_end_use": "Smelter feedstock (flash / TSL)",
+      "lme_deliverable": false,
+      "note": "Main traded form from mine to smelter"
+    },
+    {
+      "name": "Scrap No.1 / No.2",
+      "chemical_form": "Cu (recycled)",
+      "typical_grade": "No.1: ≥99%; No.2: 94–96%",
+      "primary_end_use": "Secondary smelter / refiner feed",
+      "lme_deliverable": false
+    }
+  ],
+  "nickel": [
+    {
+      "name": "Class 1 Cathode (full plate / cut)",
+      "chemical_form": "Ni, ≥99.80%",
+      "typical_grade": "LME Nickel contract spec",
+      "primary_end_use": "Stainless steel, super-alloys, Ni sulfate precursor",
+      "lme_deliverable": true,
+      "note": "Standard LME-deliverable form"
+    },
+    {
+      "name": "Class 1 Briquettes",
+      "chemical_form": "Ni, ≥99.80%",
+      "typical_grade": "Compacted powder briquettes",
+      "primary_end_use": "Plating, alloys, sulfate feed",
+      "lme_deliverable": true
+    },
+    {
+      "name": "Class 1 Powder / Pellets",
+      "chemical_form": "Ni, 99.80–99.99%",
+      "typical_grade": "Carbonyl or electrolytic",
+      "primary_end_use": "Metal injection molding, batteries, catalysts",
+      "lme_deliverable": false,
+      "note": "Pellets can meet LME spec if sized"
+    },
+    {
+      "name": "Nickel Sulfate (NiSO₄·6H₂O)",
+      "chemical_form": "NiSO₄·6H₂O",
+      "typical_grade": "22% Ni contained",
+      "primary_end_use": "NMC / NCA cathode precursor",
+      "lme_deliverable": false,
+      "note": "Key battery-grade intermediate"
+    },
+    {
+      "name": "Class 2 Ferronickel (FeNi)",
+      "chemical_form": "Fe-Ni alloy",
+      "typical_grade": "20–38% Ni",
+      "primary_end_use": "Stainless steel (300-series)",
+      "lme_deliverable": false
+    },
+    {
+      "name": "Class 2 Nickel Pig Iron (NPI)",
+      "chemical_form": "Fe-Ni-C",
+      "typical_grade": "4–15% Ni",
+      "primary_end_use": "Chinese / Indonesian stainless",
+      "lme_deliverable": false
+    },
+    {
+      "name": "Nickel Matte (high-grade)",
+      "chemical_form": "Ni₃S₂ / FeS matte",
+      "typical_grade": "~75% Ni",
+      "primary_end_use": "Refinery intermediate",
+      "lme_deliverable": false
+    },
+    {
+      "name": "MHP (Mixed Hydroxide Precipitate)",
+      "chemical_form": "Ni(OH)₂-Co(OH)₂",
+      "typical_grade": "~40% Ni contained",
+      "primary_end_use": "HPAL → sulfate → battery cathode",
+      "lme_deliverable": false
+    }
+  ],
+  "aluminium": [
+    {
+      "name": "P1020A Ingot",
+      "chemical_form": "Al, ≥99.70%",
+      "typical_grade": "LME Primary Aluminium spec (P1020A)",
+      "primary_end_use": "Remelt feedstock; global benchmark",
+      "lme_deliverable": true,
+      "note": "Standard LME-deliverable form"
+    },
+    {
+      "name": "T-bar / Sow",
+      "chemical_form": "Al, ≥99.70%",
+      "typical_grade": "Remelt-grade",
+      "primary_end_use": "Secondary smelter / caster feed",
+      "lme_deliverable": false
+    },
+    {
+      "name": "Extrusion billet",
+      "chemical_form": "6063 / 6061 (Al-Mg-Si)",
+      "typical_grade": "178–250 mm log diameter",
+      "primary_end_use": "Architectural extrusions, automotive",
+      "lme_deliverable": false,
+      "note": "Value-Added Product (VAP)"
+    },
+    {
+      "name": "Rolling slab",
+      "chemical_form": "1xxx / 3xxx / 5xxx series",
+      "typical_grade": "500–700 mm thickness as-cast",
+      "primary_end_use": "Sheet, plate, foil, can-body",
+      "lme_deliverable": false,
+      "note": "Value-Added Product (VAP)"
+    },
+    {
+      "name": "Wire rod (EC-grade)",
+      "chemical_form": "Al, 1350 (≥99.5%)",
+      "typical_grade": "9.5 mm continuous cast",
+      "primary_end_use": "Overhead power conductors (ACSR)",
+      "lme_deliverable": false
+    }
+  ],
+  "lithium": [
+    {
+      "name": "Battery-grade Lithium Carbonate",
+      "chemical_form": "Li₂CO₃, ≥99.5%",
+      "typical_grade": "Li₂CO₃ BG (Fe, Na, K, Cl < ppm limits)",
+      "primary_end_use": "LFP and LCO cathodes; lower-Ni NMC",
+      "lme_deliverable": false
+    },
+    {
+      "name": "Battery-grade Lithium Hydroxide Monohydrate",
+      "chemical_form": "LiOH·H₂O, ≥99.5%",
+      "typical_grade": "LiOH·H₂O BG, low Ca/Mg/SO₄",
+      "primary_end_use": "High-Ni NMC 811 / NCA cathodes",
+      "lme_deliverable": false,
+      "note": "Underlies LME Lithium Hydroxide CIF (Fastmarkets MB) cash-settled contract"
+    },
+    {
+      "name": "Spodumene concentrate (SC6)",
+      "chemical_form": "LiAl(SiO₃)₂",
+      "typical_grade": "6.0% Li₂O (SC6 benchmark)",
+      "primary_end_use": "Hard-rock feedstock for converters (Li₂CO₃/LiOH)",
+      "lme_deliverable": false,
+      "note": "Main hard-rock lithium traded form"
+    },
+    {
+      "name": "Technical-grade Lithium Carbonate",
+      "chemical_form": "Li₂CO₃, 99.0–99.5%",
+      "typical_grade": "Industrial grade",
+      "primary_end_use": "Glass, ceramics, flux",
+      "lme_deliverable": false
+    },
+    {
+      "name": "Lithium metal",
+      "chemical_form": "Li, ≥99.9%",
+      "typical_grade": "Ingot, ribbon, foil",
+      "primary_end_use": "Primary (non-rechargeable) batteries, aerospace alloys, specialty anodes",
+      "lme_deliverable": false
+    }
+  ]
+}
