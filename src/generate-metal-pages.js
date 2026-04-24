@@ -334,7 +334,7 @@ function firstUrl(urlField) {
 function generateProducersHTML(metalKey, config) {
   // Try exact key first, then variations
   const keys = [metalKey];
-  if (metalKey === 'pgm') keys.push('platinum', 'palladium');
+  if (metalKey === 'pgm') keys.push('platinum', 'palladium', 'rhodium');
 
   let metalProducers = [];
   for (const k of keys) {
@@ -357,16 +357,32 @@ function generateProducersHTML(metalKey, config) {
 
   // Determine unit/field based on metal
   const KT_FIELDS = {
-    nickel:   { field: 'production_kt_ni',    unit: 'kt Ni' },
-    copper:   { field: 'production_kt_cu',    unit: 'kt Cu' },
-    aluminium:{ field: 'production_kt_al',    unit: 'kt Al' },
-    aluminum: { field: 'production_kt_al',    unit: 'kt Al' },
-    lithium:  { field: 'production_kt_lce',   unit: 'kt LCE' },
-    zinc:     { field: 'production_kt_zn',    unit: 'kt Zn' },
-    gold:     { field: 'production_t_au',     unit: 't Au' },
-    silver:   { field: 'production_moz_ag',   unit: 'Moz Ag' },
-    cobalt:   { field: 'production_t_co',     unit: 't Co' },
-    iron_ore: { field: 'production_mt_feore', unit: 'Mt Fe ore' },
+    nickel:    { field: 'production_kt_ni',    unit: 'kt Ni' },
+    copper:    { field: 'production_kt_cu',    unit: 'kt Cu' },
+    aluminium: { field: 'production_kt_al',    unit: 'kt Al' },
+    aluminum:  { field: 'production_kt_al',    unit: 'kt Al' },
+    lithium:   { field: 'production_kt_lce',   unit: 'kt LCE' },
+    zinc:      { field: 'production_kt_zn',    unit: 'kt Zn' },
+    gold:      { field: 'production_t_au',     unit: 't Au' },
+    silver:    { field: 'production_moz_ag',   unit: 'Moz Ag' },
+    cobalt:    { field: 'production_t_co',     unit: 't Co' },
+    iron_ore:  { field: 'production_mt_feore', unit: 'Mt Fe ore' },
+    tin:        { field: 'production_kt_sn',   unit: 'kt Sn' },
+    lead:       { field: 'production_kt_pb',   unit: 'kt Pb' },
+    molybdenum: { field: 'production_kt_mo',   unit: 'kt Mo' },
+    platinum:   { field: 'production_koz_pgm', unit: 'koz PGM' },
+    palladium:  { field: 'production_koz_pgm', unit: 'koz PGM' },
+    rhodium:    { field: 'production_koz_pgm', unit: 'koz PGM' },
+    pgm:        { field: 'production_koz_pgm', unit: 'koz PGM' },
+    uranium:    { field: 'production_t_u',     unit: 'tU' },
+    rare_earths:{ field: 'production_kt_reo',  unit: 'kt REO' },
+    tungsten:   { field: 'production_t_w',     unit: 't W' },
+    manganese:  { field: 'production_kt_mn',   unit: 'kt ore' },
+    antimony:   { field: 'production_t_sb',    unit: 't Sb' },
+    chromium:   { field: 'production_kt_cr',   unit: 'kt Cr' },
+    vanadium:   { field: 'production_kt_v',    unit: 'kt V2O5' },
+    titanium:   { field: 'production_kt_ti',   unit: 'kt Ti' },
+    magnesium:  { field: 'production_kt_mg',   unit: 'kt Mg' },
   };
   const ktCfg = KT_FIELDS[metalKey] || { field: 'production_kt', unit: 'kt' };
   const getKt = (p) => {
@@ -380,6 +396,19 @@ function generateProducersHTML(metalKey, config) {
     if (p.production_moz_ag !== undefined) return p.production_moz_ag;
     if (p.production_t_co !== undefined) return p.production_t_co;
     if (p.production_mt_feore !== undefined) return p.production_mt_feore;
+    if (p.production_kt_sn !== undefined) return p.production_kt_sn;
+    if (p.production_kt_pb !== undefined) return p.production_kt_pb;
+    if (p.production_kt_mo !== undefined) return p.production_kt_mo;
+    if (p.production_koz_pgm !== undefined) return p.production_koz_pgm;
+    if (p.production_t_u !== undefined) return p.production_t_u;
+    if (p.production_kt_reo !== undefined) return p.production_kt_reo;
+    if (p.production_t_w !== undefined) return p.production_t_w;
+    if (p.production_kt_mn !== undefined) return p.production_kt_mn;
+    if (p.production_t_sb !== undefined) return p.production_t_sb;
+    if (p.production_kt_cr !== undefined) return p.production_kt_cr;
+    if (p.production_kt_v !== undefined) return p.production_kt_v;
+    if (p.production_kt_ti !== undefined) return p.production_kt_ti;
+    if (p.production_kt_mg !== undefined) return p.production_kt_mg;
     if (p.production_kt !== undefined) return p.production_kt;
     return null;
   };
@@ -538,7 +567,7 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
   const metalPrices = getMetalPrices(metalKey, config);
   const producerCount = (() => {
     const keys = [metalKey];
-    if (metalKey === 'pgm') keys.push('platinum', 'palladium');
+    if (metalKey === 'pgm') keys.push('platinum', 'palladium', 'rhodium');
     const seen = new Set();
     let count = 0;
     for (const k of keys) {
@@ -582,19 +611,35 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
   const hasProductForms = productForms && productForms[metalKey] && productForms[metalKey].length > 0;
   html = html.replace('{{PRODUCT_FORMS_SECTION_HTML}}', hasProductForms ? generateProductFormsSection(metalKey) : '');
   html = html.replace('{{NAV_PRODUCT_FORMS_LINK}}', hasProductForms ? '<a href="#product-forms" class="section-nav__link">Product Forms</a>' : '');
-  const producersKeysList = metalKey === 'pgm' ? [metalKey,'platinum','palladium'] : [metalKey];
+  const producersKeysList = metalKey === 'pgm' ? [metalKey,'platinum','palladium','rhodium'] : [metalKey];
   const allProd = producersKeysList.flatMap(k => producers[k] || []);
   const PROD_META = {
-    nickel:    { subhead: 'Ranked by latest disclosed Ni-contained production', metric: 'nickel production (Ni-contained, kilotonnes)' },
-    copper:    { subhead: 'Ranked by latest disclosed copper production', metric: 'copper production (Cu-contained, kilotonnes)' },
-    aluminium: { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
-    aluminum:  { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
-    lithium:   { subhead: 'Ranked by latest disclosed lithium production (LCE)', metric: 'lithium production (kilotonnes LCE)' },
-    zinc:      { subhead: 'Ranked by latest disclosed contained Zn production', metric: 'zinc production (Zn-contained, kilotonnes)' },
-    gold:      { subhead: 'Ranked by latest disclosed gold production', metric: 'gold production (Au, tonnes)' },
-    silver:    { subhead: 'Ranked by latest disclosed silver production', metric: 'silver production (Ag, million troy ounces)' },
-    cobalt:    { subhead: 'Ranked by latest disclosed cobalt production', metric: 'cobalt production (Co, tonnes)' },
-    iron_ore:  { subhead: 'Ranked by latest disclosed iron ore production or shipments', metric: 'iron ore production (Mt)' },
+    nickel:     { subhead: 'Ranked by latest disclosed Ni-contained production', metric: 'nickel production (Ni-contained, kilotonnes)' },
+    copper:     { subhead: 'Ranked by latest disclosed copper production', metric: 'copper production (Cu-contained, kilotonnes)' },
+    aluminium:  { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
+    aluminum:   { subhead: 'Ranked by latest disclosed primary aluminium production', metric: 'primary aluminium production (kilotonnes)' },
+    lithium:    { subhead: 'Ranked by latest disclosed lithium production (LCE)', metric: 'lithium production (kilotonnes LCE)' },
+    zinc:       { subhead: 'Ranked by latest disclosed contained Zn production', metric: 'zinc production (Zn-contained, kilotonnes)' },
+    gold:       { subhead: 'Ranked by latest disclosed gold production', metric: 'gold production (Au, tonnes)' },
+    silver:     { subhead: 'Ranked by latest disclosed silver production', metric: 'silver production (Ag, million troy ounces)' },
+    cobalt:     { subhead: 'Ranked by latest disclosed cobalt production', metric: 'cobalt production (Co, tonnes)' },
+    iron_ore:   { subhead: 'Ranked by latest disclosed iron ore production or shipments', metric: 'iron ore production (Mt)' },
+    tin:        { subhead: 'Ranked by latest disclosed Sn-contained or refined tin production', metric: 'tin production (Sn, kilotonnes)' },
+    lead:       { subhead: 'Ranked by latest disclosed Pb-contained production', metric: 'lead production (Pb-contained, kilotonnes)' },
+    molybdenum: { subhead: 'Ranked by latest disclosed Mo-contained production', metric: 'molybdenum production (Mo-contained, kilotonnes)' },
+    platinum:   { subhead: 'Ranked by latest disclosed total PGM production (4E or 6E basis)', metric: 'platinum-group metals production (thousand troy ounces)' },
+    palladium:  { subhead: 'Ranked by latest disclosed total PGM production (4E or 6E basis)', metric: 'platinum-group metals production (thousand troy ounces)' },
+    rhodium:    { subhead: 'Ranked by latest disclosed total PGM production (4E or 6E basis)', metric: 'platinum-group metals production (thousand troy ounces)' },
+    pgm:        { subhead: 'Ranked by latest disclosed total PGM production (4E or 6E basis)', metric: 'platinum-group metals production (thousand troy ounces)' },
+    uranium:    { subhead: 'Ranked by latest disclosed U production', metric: 'uranium production (tU)' },
+    rare_earths:{ subhead: 'Ranked by latest disclosed REO production', metric: 'rare-earth-oxide production (kilotonnes REO)' },
+    tungsten:   { subhead: 'Ranked by latest disclosed W-contained production', metric: 'tungsten production (W-contained, tonnes)' },
+    manganese:  { subhead: 'Ranked by latest disclosed Mn ore production', metric: 'manganese ore production (kilotonnes)' },
+    antimony:   { subhead: 'Ranked by latest disclosed Sb-contained production', metric: 'antimony production (Sb-contained, tonnes)' },
+    chromium:   { subhead: 'Ranked by latest disclosed chromite/chrome production', metric: 'chromium production (kilotonnes)' },
+    vanadium:   { subhead: 'Ranked by latest disclosed V production', metric: 'vanadium production (kilotonnes V2O5 equivalent)' },
+    titanium:   { subhead: 'Ranked by latest disclosed Ti-mineral or sponge production', metric: 'titanium production (kilotonnes)' },
+    magnesium:  { subhead: 'Ranked by latest disclosed primary Mg metal production', metric: 'primary magnesium production (kilotonnes)' },
   };
   const prodMeta = PROD_META[metalKey] || { subhead: 'Ranked by latest disclosed production', metric: 'production (kilotonnes)' };
   const hasProdData = allProd.some(p =>
@@ -607,6 +652,19 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
     p.production_moz_ag !== undefined ||
     p.production_t_co !== undefined ||
     p.production_mt_feore !== undefined ||
+    p.production_kt_sn !== undefined ||
+    p.production_kt_pb !== undefined ||
+    p.production_kt_mo !== undefined ||
+    p.production_koz_pgm !== undefined ||
+    p.production_t_u !== undefined ||
+    p.production_kt_reo !== undefined ||
+    p.production_t_w !== undefined ||
+    p.production_kt_mn !== undefined ||
+    p.production_t_sb !== undefined ||
+    p.production_kt_cr !== undefined ||
+    p.production_kt_v !== undefined ||
+    p.production_kt_ti !== undefined ||
+    p.production_kt_mg !== undefined ||
     p.production_kt !== undefined
   );
   html = html.replace('{{PRODUCERS_SUBHEAD}}', hasProdData ? `<span class="section__source">${prodMeta.subhead}</span>` : '');
