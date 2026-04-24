@@ -126,6 +126,29 @@
     .note-box { background: var(--color-gold-muted); border-left: 3px solid var(--color-gold); padding: var(--space-4) var(--space-5); border-radius: var(--radius-sm); color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-5); }
     .note-box strong { color: var(--color-text); }
 
+    /* Comparison grid (Li carbonate vs hydroxide, Ni Class 1 vs 2) */
+    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); margin-top: var(--space-4); }
+    @media (max-width: 640px) { .compare-grid { grid-template-columns: 1fr; } }
+    .compare-card { background: var(--color-surface); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); padding: var(--space-5); }
+    .compare-card__head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-3); padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-border-subtle); }
+    .compare-card__title { font-family: var(--font-display); font-size: var(--text-lg); font-weight: 700; color: var(--color-text); }
+    .compare-card__formula { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: var(--text-sm); color: var(--color-gold); background: var(--color-surface-2); padding: 0.15em 0.5em; border-radius: var(--radius-sm); }
+    .compare-card__list { list-style: none; padding: 0; margin: 0; }
+    .compare-card__list li { padding: var(--space-2) 0; border-bottom: 1px solid var(--color-border-subtle); font-size: var(--text-sm); color: var(--color-text-muted); display: grid; grid-template-columns: 140px 1fr; gap: var(--space-3); }
+    .compare-card__list li:last-child { border-bottom: none; }
+    .compare-card__list li strong { color: var(--color-text); font-weight: 600; }
+
+    /* Chain diagram (From Ore to Battery) */
+    .chain-list { margin-top: var(--space-4); display: grid; gap: var(--space-4); }
+    .chain-row { background: var(--color-surface); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); padding: var(--space-5); }
+    .chain-row__metal { font-family: var(--font-display); font-size: var(--text-lg); font-weight: 700; color: var(--color-primary); margin-bottom: var(--space-3); }
+    .chain-row__metal a { color: var(--color-primary); }
+    .chain-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--space-3); }
+    .chain-step { padding: var(--space-3); background: var(--color-surface-2); border-radius: var(--radius-sm); border-left: 3px solid var(--color-gold); }
+    .chain-step__label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-text-faint); margin-bottom: var(--space-1); }
+    .chain-step__value { font-size: var(--text-sm); color: var(--color-text); font-weight: 500; }
+    .chain-step__pct { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: var(--text-xs); color: var(--color-gold); margin-top: var(--space-1); }
+
     .sources { background: var(--color-surface); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); padding: var(--space-6); margin-top: var(--space-8); }
     .sources h3 { font-family: var(--font-display); font-size: var(--text-lg); margin-bottom: var(--space-3); }
     .sources ul { list-style: none; padding: 0; }
@@ -328,6 +351,94 @@
 
     <section class="section">
       <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg>
+        Li₂CO₃ vs LiOH — which cathode needs which
+      </h2>
+      <p class="section__desc">
+        Both are lithium salts used as cathode precursors. The choice is dictated by the target cathode chemistry: high-nickel cathodes (NMC 811, NCA) need lithium hydroxide because it reacts at lower temperatures and avoids nickel oxidation. Lower-nickel and LFP cathodes can use cheaper lithium carbonate.
+      </p>
+      <div class="compare-grid">
+        <div class="compare-card">
+          <div class="compare-card__head">
+            <div class="compare-card__title">Lithium carbonate</div>
+            <div class="compare-card__formula">Li₂CO₃</div>
+          </div>
+          <ul class="compare-card__list">
+            <li><strong>Li content</strong><span>~18.8% by mass</span></li>
+            <li><strong>Calcination</strong><span>~900 °C (higher)</span></li>
+            <li><strong>Cathodes</strong><span>LFP, LCO, LMO, NMC 111 / 532</span></li>
+            <li><strong>Solubility</strong><span>Low in water (~13 g/L)</span></li>
+            <li><strong>Source</strong><span>Brine (direct), spodumene (via sulfate)</span></li>
+            <li><strong>Price tier</strong><span>Lower (~30% cheaper per kg Li)</span></li>
+            <li><strong>Storage</strong><span>Easier — not hygroscopic, not caustic</span></li>
+          </ul>
+        </div>
+        <div class="compare-card">
+          <div class="compare-card__head">
+            <div class="compare-card__title">Lithium hydroxide</div>
+            <div class="compare-card__formula">LiOH·H₂O</div>
+          </div>
+          <ul class="compare-card__list">
+            <li><strong>Li content</strong><span>~16.5% by mass (monohydrate)</span></li>
+            <li><strong>Calcination</strong><span>~700 °C (lower — key for high-Ni)</span></li>
+            <li><strong>Cathodes</strong><span>NMC 622 / 811 / 9.5.5, NCA, LMFP</span></li>
+            <li><strong>Solubility</strong><span>High (~128 g/L)</span></li>
+            <li><strong>Source</strong><span>Spodumene (direct), brine (via Li₂CO₃ conversion)</span></li>
+            <li><strong>Price tier</strong><span>Higher (premium for high-Ni chemistry)</span></li>
+            <li><strong>Storage</strong><span>Hygroscopic, caustic — stricter handling</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="note-box">
+        <strong>LME contract:</strong> The LME lists <em>Lithium Hydroxide CIF (Fastmarkets)</em> — not Li₂CO₃ — because LiOH is the dominant feedstock for EV-grade high-Ni cathodes, which drive the marginal ton of lithium demand. (<a href="https://www.lme.com/metals/ev/lme-lithium-hydroxide-cif-fastmarkets-mb" target="_blank" rel="noopener">LME lithium hydroxide contract specs</a>)
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg>
+        Nickel Class 1 vs Class 2 — why it matters for batteries
+      </h2>
+      <p class="section__desc">
+        "Nickel" as a commodity is not one product. The LME-deliverable cathode, briquettes, and powder (Class 1) are battery-suitable after dissolution to sulfate. Nickel pig iron, ferronickel, and matte (Class 2) go almost entirely to stainless steel. The distinction drives a persistent price premium.
+      </p>
+      <div class="compare-grid">
+        <div class="compare-card">
+          <div class="compare-card__head">
+            <div class="compare-card__title">Class 1 nickel</div>
+            <div class="compare-card__formula">≥99.8% Ni</div>
+          </div>
+          <ul class="compare-card__list">
+            <li><strong>Forms</strong><span>Cathode (full plate, cut), briquettes, powder, pellets</span></li>
+            <li><strong>Route</strong><span>Sulfide ore → concentrate → smelt → refine (electrowinning or carbonyl)</span></li>
+            <li><strong>End use</strong><span>Plating, specialty alloys, superalloys, batteries (dissolved to NiSO₄)</span></li>
+            <li><strong>Battery path</strong><span>Dissolve in H₂SO₄ → crystallise NiSO₄·6H₂O (battery-grade)</span></li>
+            <li><strong>LME deliverable?</strong><span>Yes (LME cathode, briquettes, powder)</span></li>
+            <li><strong>Major producers</strong><span>Norilsk, Vale, BHP, Sumitomo, Jinchuan</span></li>
+          </ul>
+        </div>
+        <div class="compare-card">
+          <div class="compare-card__head">
+            <div class="compare-card__title">Class 2 nickel</div>
+            <div class="compare-card__formula">~1.5–38% Ni</div>
+          </div>
+          <ul class="compare-card__list">
+            <li><strong>Forms</strong><span>Ferronickel (20–38% Ni), Nickel Pig Iron (4–15% Ni), matte (~75%), MHP, MSP</span></li>
+            <li><strong>Route</strong><span>Laterite ore → rotary kiln / electric furnace (RKEF) or HPAL</span></li>
+            <li><strong>End use</strong><span>Stainless steel (~95% of Class 2)</span></li>
+            <li><strong>Battery path</strong><span>MHP/MSP (mixed hydroxide / sulfide precipitate) → leach → NiSO₄ (emerging HPAL route, Indonesia)</span></li>
+            <li><strong>LME deliverable?</strong><span>No (stainless-grade only)</span></li>
+            <li><strong>Major producers</strong><span>Tsingshan (Indonesia), PT Vale Indonesia, Eramet, Antam</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="note-box">
+        <strong>The Indonesia shift:</strong> Historically batteries used Class 1 nickel (sulfide ore). Tsingshan's 2021 breakthrough converting HPAL laterite intermediates (MHP) into battery-grade sulfate collapsed the Class 1/Class 2 wall and pushed Indonesian laterite supply into the EV supply chain. This is the single biggest structural shift in the nickel market this decade. (<a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf" target="_blank" rel="noopener">USGS MCS 2026 — Nickel</a>)
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
         Lead-acid Batteries
       </h2>
@@ -415,7 +526,7 @@
         Flow Batteries (grid-scale storage)
       </h2>
       <p class="section__desc">
-        Long-duration stationary storage. Energy is stored in liquid electrolytes in external tanks, not in solid electrodes — so power and energy capacity scale independently. Most commercially deployed chemistry is vanadium redox.
+        Long-duration stationary storage (4–12 hour discharge). Energy is stored in liquid electrolytes in external tanks, not solid electrodes — so power and energy scale independently. Vanadium redox (VRFB) is the dominant commercial chemistry; Zn-Br and Fe-flow are emerging.
       </p>
       <div class="table-wrap">
         <table>
@@ -425,8 +536,14 @@
           <tbody>
             <tr>
               <td class="name">Vanadium</td>
-              <td><span class="formula">VOSO₄</span> vanadyl sulfate (V⁴⁺/V⁵⁺)<br><span class="formula">V₂(SO₄)₃</span> (V²⁺/V³⁺)</td>
-              <td><span class="tag tag--electrolyte">both half-cells (redox couple)</span></td>
+              <td>
+                <span class="formula">VOSO₄</span> vanadyl sulfate<br>
+                <span class="formula">VO₂⁺</span> (V⁵⁺, charged — positive half-cell)<br>
+                <span class="formula">VO²⁺</span> (V⁴⁺, discharged)<br>
+                <span class="formula">V³⁺</span> (discharged — negative half-cell)<br>
+                <span class="formula">V²⁺</span> (charged)
+              </td>
+              <td><span class="tag tag--electrolyte">both half-cells (single-element redox)</span></td>
               <td>Vanadium redox flow batteries (VRFB)</td>
             </tr>
             <tr>
@@ -436,6 +553,18 @@
               <td>Zn-Br, Zn-Fe, Zn-air flow batteries</td>
             </tr>
             <tr>
+              <td class="name"><a href="../metals/iron-ore">Iron</a></td>
+              <td><span class="formula">Fe²⁺/Fe³⁺</span> in citrate or chloride complex</td>
+              <td><span class="tag tag--electrolyte">both half-cells (Fe-Fe flow) or one (Zn-Fe)</span></td>
+              <td>All-iron flow (ESS Inc.), Zn-Fe (ViZn)</td>
+            </tr>
+            <tr>
+              <td class="name">Bromine <span class="tag tag--non-metal">non-metal (halogen)</span></td>
+              <td><span class="formula">Br₂ / Br⁻</span>, polybromide complexes</td>
+              <td><span class="tag tag--electrolyte">positive half-cell</span></td>
+              <td>Zn-Br flow (Redflow, Primus Power)</td>
+            </tr>
+            <tr>
               <td class="name">Sulfuric acid <span class="tag tag--non-metal">non-metal</span></td>
               <td><span class="formula">H₂SO₄</span> 1.5–3 M</td>
               <td><span class="tag tag--electrolyte">electrolyte solvent</span></td>
@@ -443,6 +572,12 @@
             </tr>
           </tbody>
         </table>
+      </div>
+      <div class="note-box">
+        <strong>Why vanadium works uniquely well:</strong> Vanadium has four stable oxidation states in aqueous solution (V²⁺, V³⁺, V⁴⁺, V⁵⁺), so a single element can serve both half-cells. This eliminates cross-contamination problems that plague two-element redox couples — if membrane crossover occurs, the electrolyte can be fully recovered by rebalancing. Expected service life 20+ years with minimal degradation. Main drawbacks: low energy density (~25–35 Wh/L vs. ~250 Wh/L Li-ion), vanadium price volatility, and the cost of large electrolyte tanks. (<a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-vanadium.pdf" target="_blank" rel="noopener">USGS MCS 2026 — Vanadium</a>; <a href="https://www.iea.org/reports/batteries-and-secure-energy-transitions" target="_blank" rel="noopener">IEA — Batteries and Secure Energy Transitions 2024</a>)
+      </div>
+      <div class="note-box" style="margin-top: var(--space-3);">
+        <strong>Notable projects:</strong> The 100 MW / 400 MWh Dalian VRFB in China (Rongke Power, phase 1 commissioned 2022) is the world's largest flow battery by capacity. Hubei Zaoyang 100 MW / 500 MWh and Xinjiang Urumqi 100 MW / 500 MWh follow. Western deployments are smaller: Invinity's EnerVenue and Sumitomo Electric projects in the US and Japan are in the 10–50 MWh range. (<a href="https://www.iea.org/reports/batteries-and-secure-energy-transitions" target="_blank" rel="noopener">IEA Batteries Report</a>)
       </div>
     </section>
 
@@ -477,6 +612,102 @@
       </div>
     </section>
 
+    <section class="section">
+      <h2 class="section__title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22l10-10M12 2l10 10M2 2h8v8M14 14h8v8"/></svg>
+        From Ore to Battery — typical concentrations along the chain
+      </h2>
+      <p class="section__desc">
+        Battery metals start in the ground at very low concentrations. Mining, beneficiation, smelting, and refining progressively upgrade the material to the purity required by the cathode or anode plant. Numbers below are typical ranges from primary sources — individual deposits vary widely.
+      </p>
+      <div class="chain-list">
+
+        <div class="chain-row">
+          <div class="chain-row__metal"><a href="../metals/lithium">Lithium</a> — from spodumene pegmatite</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Run-of-mine ore</div><div class="chain-step__value">Spodumene pegmatite</div><div class="chain-step__pct">1.0–2.0% Li₂O</div></div>
+            <div class="chain-step"><div class="chain-step__label">Concentrate (flotation)</div><div class="chain-step__value">Spodumene concentrate</div><div class="chain-step__pct">6.0–7.0% Li₂O</div></div>
+            <div class="chain-step"><div class="chain-step__label">Intermediate salt</div><div class="chain-step__value">Li₂SO₄ (after acid roast/leach)</div><div class="chain-step__pct">—</div></div>
+            <div class="chain-step"><div class="chain-step__label">Battery precursor</div><div class="chain-step__value">Li₂CO₃ or LiOH·H₂O</div><div class="chain-step__pct">≥99.5% Li₂CO₃</div></div>
+          </div>
+        </div>
+
+        <div class="chain-row">
+          <div class="chain-row__metal"><a href="../metals/lithium">Lithium</a> — from brine (Chile, Argentina)</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Raw brine</div><div class="chain-step__value">Salar (Atacama)</div><div class="chain-step__pct">200–1,500 ppm Li</div></div>
+            <div class="chain-step"><div class="chain-step__label">Concentrated brine</div><div class="chain-step__value">After solar evaporation (12–18 mo)</div><div class="chain-step__pct">~6% Li (~60,000 ppm)</div></div>
+            <div class="chain-step"><div class="chain-step__label">Battery precursor</div><div class="chain-step__value">Li₂CO₃ (direct precipitation)</div><div class="chain-step__pct">≥99.5%</div></div>
+          </div>
+        </div>
+
+        <div class="chain-row">
+          <div class="chain-row__metal"><a href="../metals/nickel">Nickel</a> — sulfide route (Class 1)</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Run-of-mine ore</div><div class="chain-step__value">Pentlandite / pyrrhotite</div><div class="chain-step__pct">1.5–3% Ni</div></div>
+            <div class="chain-step"><div class="chain-step__label">Concentrate (flotation)</div><div class="chain-step__value">Nickel sulfide concentrate</div><div class="chain-step__pct">10–20% Ni</div></div>
+            <div class="chain-step"><div class="chain-step__label">Matte (smelt)</div><div class="chain-step__value">Ni₃S₂ matte</div><div class="chain-step__pct">~75% Ni</div></div>
+            <div class="chain-step"><div class="chain-step__label">Refined (LME)</div><div class="chain-step__value">Cathode / briquettes</div><div class="chain-step__pct">≥99.8% Ni</div></div>
+            <div class="chain-step"><div class="chain-step__label">Battery precursor</div><div class="chain-step__value">NiSO₄·6H₂O</div><div class="chain-step__pct">~22% Ni</div></div>
+          </div>
+        </div>
+
+        <div class="chain-row">
+          <div class="chain-row__metal"><a href="../metals/nickel">Nickel</a> — laterite route (Class 2 → batteries, HPAL)</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Run-of-mine ore</div><div class="chain-step__value">Limonite / saprolite (laterite)</div><div class="chain-step__pct">0.8–2.5% Ni</div></div>
+            <div class="chain-step"><div class="chain-step__label">HPAL leachate</div><div class="chain-step__value">Ni-Co pregnant liquor</div><div class="chain-step__pct">—</div></div>
+            <div class="chain-step"><div class="chain-step__label">Intermediate</div><div class="chain-step__value">MHP (Mixed Hydroxide Precipitate)</div><div class="chain-step__pct">~35–40% Ni</div></div>
+            <div class="chain-step"><div class="chain-step__label">Battery precursor</div><div class="chain-step__value">NiSO₄·6H₂O (re-leach)</div><div class="chain-step__pct">~22% Ni</div></div>
+          </div>
+        </div>
+
+        <div class="chain-row">
+          <div class="chain-row__metal"><a href="../metals/cobalt">Cobalt</a> — DRC copper-cobalt belt (dominant source)</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Run-of-mine ore</div><div class="chain-step__value">Heterogenite (oxide) / carrollite (sulfide)</div><div class="chain-step__pct">0.3–1.0% Co (DRC)</div></div>
+            <div class="chain-step"><div class="chain-step__label">Concentrate</div><div class="chain-step__value">Cu-Co concentrate (co-product)</div><div class="chain-step__pct">—</div></div>
+            <div class="chain-step"><div class="chain-step__label">Intermediate</div><div class="chain-step__value">Cobalt hydroxide (from SX-EW tailings)</div><div class="chain-step__pct">~30–40% Co</div></div>
+            <div class="chain-step"><div class="chain-step__label">Battery precursor</div><div class="chain-step__value">CoSO₄·7H₂O</div><div class="chain-step__pct">~21% Co</div></div>
+          </div>
+        </div>
+
+        <div class="chain-row">
+          <div class="chain-row__metal"><a href="../metals/copper">Copper</a> — porphyry (dominant source)</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Run-of-mine ore</div><div class="chain-step__value">Porphyry (chalcopyrite)</div><div class="chain-step__pct">0.3–1.0% Cu</div></div>
+            <div class="chain-step"><div class="chain-step__label">Concentrate (flotation)</div><div class="chain-step__value">Copper concentrate</div><div class="chain-step__pct">~25–30% Cu</div></div>
+            <div class="chain-step"><div class="chain-step__label">Refined (LME)</div><div class="chain-step__value">Cathode, Grade A</div><div class="chain-step__pct">≥99.9935% Cu</div></div>
+            <div class="chain-step"><div class="chain-step__label">Battery form</div><div class="chain-step__value">Rolled Cu foil, 6–12 μm</div><div class="chain-step__pct">≥99.99% Cu</div></div>
+          </div>
+        </div>
+
+        <div class="chain-row">
+          <div class="chain-row__metal">Vanadium — titaniferous magnetite (85% of supply)</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Run-of-mine ore</div><div class="chain-step__value">Titaniferous magnetite</div><div class="chain-step__pct">0.3–2.0% V₂O₅</div></div>
+            <div class="chain-step"><div class="chain-step__label">Steel slag co-product</div><div class="chain-step__value">Vanadium-bearing slag (BOF)</div><div class="chain-step__pct">~0.9% V₂O₅</div></div>
+            <div class="chain-step"><div class="chain-step__label">Intermediate</div><div class="chain-step__value">V₂O₅ flake (salt roast / leach)</div><div class="chain-step__pct">≥98% V₂O₅</div></div>
+            <div class="chain-step"><div class="chain-step__label">Flow-battery form</div><div class="chain-step__value">VOSO₄ electrolyte (1.6 M V in H₂SO₄)</div><div class="chain-step__pct">—</div></div>
+          </div>
+        </div>
+
+        <div class="chain-row">
+          <div class="chain-row__metal">Graphite — natural flake route (anode)</div>
+          <div class="chain-steps">
+            <div class="chain-step"><div class="chain-step__label">Run-of-mine ore</div><div class="chain-step__value">Graphitic schist</div><div class="chain-step__pct">5–20% C</div></div>
+            <div class="chain-step"><div class="chain-step__label">Concentrate (flotation)</div><div class="chain-step__value">Flake graphite concentrate</div><div class="chain-step__pct">94–98% C</div></div>
+            <div class="chain-step"><div class="chain-step__label">Purification</div><div class="chain-step__value">Thermal or acid-leach</div><div class="chain-step__pct">≥99.95% C (battery grade)</div></div>
+            <div class="chain-step"><div class="chain-step__label">Anode form</div><div class="chain-step__value">Spheroidised, coated (CSPG)</div><div class="chain-step__pct">≥99.95% C</div></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="note-box">
+        <strong>Concentration factors (intuition):</strong> Lithium from spodumene → Li₂CO₃ is a ~50× upgrade. Copper from porphyry ore → cathode is ~333×. Cobalt from African copperbelt ore → CoSO₄ is ~50×. Vanadium from titanomagnetite → V₂O₅ is ~100×. Each step in the chain carries energy, reagent, waste, and royalty costs — which is why "raw tonnes mined" looks nothing like "tonnes delivered to the cathode plant."
+      </div>
+    </section>
+
     <div class="sources">
       <h3>Sources</h3>
       <ul>
@@ -485,8 +716,12 @@
         <li><a href="https://www.iea.org/reports/global-ev-outlook-2024" target="_blank" rel="noopener">IEA — Global EV Outlook 2024</a> — EV battery chemistry split (NMC vs LFP), supply chain.</li>
         <li><a href="https://www.lme.com/en/metals/ev" target="_blank" rel="noopener">LME — EV metals contract specifications</a> — lithium hydroxide, cobalt metal standard & alloy-grade, nickel sulfate contract specs.</li>
         <li><a href="https://www.sciencedirect.com/topics/materials-science/lithium-ion-battery" target="_blank" rel="noopener">ScienceDirect — Lithium-ion Battery reference topics</a> — cathode/anode chemistry, electrolyte composition (peer-reviewed).</li>
+        <li><a href="https://www.iea.org/reports/batteries-and-secure-energy-transitions" target="_blank" rel="noopener">IEA — Batteries and Secure Energy Transitions 2024</a> — flow battery deployment, grid storage project pipeline.</li>
+        <li><a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf" target="_blank" rel="noopener">USGS MCS 2026 — Nickel</a> and <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-vanadium.pdf" target="_blank" rel="noopener">Vanadium</a> — Class 1/Class 2 definitions, HPAL and titanomagnetite processing routes.</li>
+        <li><a href="https://vanitec.org/vanadium/making-vanadium" target="_blank" rel="noopener">Vanitec — Making Vanadium</a> — titaniferous magnetite ore grades, steel-slag coproduct route.</li>
+        <li><a href="https://docs.nrel.gov/docs/fy21osti/79178.pdf" target="_blank" rel="noopener">NREL — Techno-Economic Analysis of Lithium Extraction</a> (2021) — spodumene ore vs. concentrate grades.</li>
       </ul>
-      <p style="margin-top: var(--space-4); font-size: var(--text-xs); color: var(--color-text-faint);">This page is a reference, not investment advice. Chemistry details are simplified for readability; commercial formulations vary by manufacturer. MVP version — more materials and forms (Li-S, solid-state, Zn-air) will be added.</p>
+      <p style="margin-top: var(--space-4); font-size: var(--text-xs); color: var(--color-text-faint);">This page is a reference, not investment advice. Chemistry details are simplified for readability; commercial formulations vary by manufacturer. Concentrations are typical industry ranges — individual deposits and refineries vary. More materials (Li-S, solid-state, Zn-air) will be added in future revisions.</p>
     </div>
 
   </main>
