@@ -157,6 +157,8 @@
 
     .footer { max-width: var(--content-default); margin: var(--space-12) auto 0; padding: var(--space-8) var(--space-5); border-top: 1px solid var(--color-border-subtle); color: var(--color-text-faint); font-size: var(--text-xs); text-align: center; }
     .footer a { color: var(--color-text-muted); }
+    .footer__cta { display: inline-block; margin-top: var(--space-3); color: var(--color-primary) !important; text-decoration: none; transition: opacity 0.2s ease; }
+    .footer__cta:hover { opacity: 0.75; }
 
     @media (max-width: 640px) {
       .hero { padding: var(--space-8) var(--space-4) var(--space-5); }
@@ -727,8 +729,9 @@
   </main>
 
   <footer class="footer">
-    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
-    <p style="margin-top: var(--space-2);">Battery materials reference. Data for informational purposes only.</p>
+    <p>&copy; 2025–2026 TrueSource Metals. All rights reserved.</p>
+    <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
+    <p style="margin-top: var(--space-3);">Battery materials reference. Data for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->
