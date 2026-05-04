@@ -5241,7 +5241,1306 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2026-05-04T14:24:54.809Z",
+      "article_count": 100,
+      "articles": {
+        "fetched_at": "2026-05-04T14:24:54.758Z",
+        "source": "Google News RSS",
+        "query_count": 37,
+        "total_scored": 264,
+        "article_count": 100,
+        "articles": [
+          {
+            "title": "Zinc Steadies As Garpenberg Restart Plan Eases Near Term Market Supply Concerns By Kedia Advisory - Investing.com India",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcTBKbllNTVhPU3NNOUlESmhFLU5yXzkyajFVeDdBbUxvekttN2J1XzhlM2ZOR2hNbDlCZXJDMG80ODZxSzdqWDBpSHhzcGtwTEtUcTI4OERKWEdyeHdXZGRmaERDNkFNM1REZTFSbFRSNHpHb0w0dmVRZzdVQUJzOWx4REN4bTZnaDRNSExfS29mT3JhT090QXFjRFJNb3A0Rk81S1Y1R1cwSlkzenRzeVZrVi1STnh5RjJsWGdhT3EzeUlKWFZHd04wcVJZZWc?oc=5",
+            "source": "Investing.com India",
+            "sourceUrl": "https://in.investing.com",
+            "pubDate": "2026-05-04T09:00:00.000Z",
+            "category": "zinc",
+            "metals": [
+              "zinc"
+            ],
+            "topics": []
+          },
+          {
+            "title": "[SMM Analysis] The April turn: how Chinese stainless mills came around to higher NPI prices - Shanghai Metals Market",
+            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdHBrQUVWMDFnai0yUEw3UHdQQVl6WW11OHZ6alNHU1VNbGVDYXpXbWhJYjE3UUlBLUVHRnBobExfNnVtWkZTYThtZkRlaTJMOVVQYy1rNU1IR0JjWld1QktrRlZndDVJZkRqb254ckd0aWNOTTFPeGhvRzBaQm02V2tkWmFfa1dFRVZfNXpUeDg4blRXYzN5ZXFEZGkweWQtQm4zZjM0clQ1OGxtWk5QWlZKUko0UnBkSXBmekVYOEszODdQbG9lSnpZcE9nRnFzcmc?oc=5",
+            "source": "Shanghai Metals Market",
+            "sourceUrl": "https://news.metal.com",
+            "pubDate": "2026-05-04T09:09:16.000Z",
+            "category": "nickel",
+            "metals": [
+              "nickel"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Gold rises after soft jobs data weighs on dollar; Spot gold set for weekly loss - Investing.com",
+            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcGo5M0NPMkpoWVFHSTVCSUNjam9MNlotdUdMNkNla0YxNlVmeVkyTVZ0bTJoLVQtaERtcmgyWmhEOWJ6ZHNnZ1BmNHRpTEdsZkxIUUZYdU1EZDZMbmt1cmVMUkw2VWlsVVN1WTY2ZFBSOWFuUEtCSmhOZUF0WEVZVmI1VGdSdGNvdmppN1dnNV82cHppd3VrcVZYeDFRLWJKa0xHLXpsTEdMWXlaVEU3dkNkc01FZ1ZLenlHWmEzUVFiQ1dETk9jclYyMm1VZw?oc=5",
+            "source": "Investing.com",
+            "sourceUrl": "https://www.investing.com",
+            "pubDate": "2026-05-04T07:43:26.000Z",
+            "category": "copper",
+            "metals": [
+              "gold"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Hydrogen Mobility and Platinum Group Metals Reshaping North West Province - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdFpUV2UyVnRfcUoyV2d0UjR0eWFrV0lMVFE1Ynd1R2swOUNzSmJaeFAwd0ZyakVSdFpjRExnRjJKMnJYWTY5b3dCZFBYMlNla0tqU19TNDdfOS1Zd2R4bTlhdm1TWndaUU1zVjIwdDJobERlQjk2bkE4ZHJGZERsZHB5Ni1ta2ZiR245eXJR?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T12:56:15.000Z",
+            "category": "general",
+            "metals": [
+              "platinum"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Earnings call transcript: Capstone Copper Q1 2026 sees record EBITDA and net income - Investing.com UK",
+            "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUkVhTTI3eDZMdnEwRmR0SjZPU3BQVDMta2J2SDVVRDBmQ2VGNWNXRzYwUDI3bEZzRTdoeGQ2cEQ3RFcyMlhBeUtCWElFVHc1elhyREJIQXRTamhRSTRpY1pYaHZtQUxLTDk1cUgyVmRGVUhjZExsV1VxSzV3UFZQOUZBbUpod05kb3lxSG1OaHI2V09zUHRPSXJ1X3p1SE9QOF9zbXcxTUZOM21fRTUwX2NEeFYtSzQ5QnhzdWRhV3dXdlE4T2xZLWR5VGRGdTNnYnZnVE56MzVVWmc?oc=5",
+            "source": "Investing.com UK",
+            "sourceUrl": "https://uk.investing.com",
+            "pubDate": "2026-05-03T15:10:00.000Z",
+            "category": "copper",
+            "metals": [
+              "copper"
+            ],
+            "topics": []
+          },
+          {
+            "title": "State-owned miner NMDC reported a robust 16% year-on-year increase in - Shanghai Metals Market",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbnhQa1pJcnBubW9xdWVhcnF5ZGpkaS1DRF9zOTJJYkxqaFczdFUzQ1FOQ1VHRDMzd2ZVOWh1cDB1NHRLRzVRdVRqSW5ud2d2Y1NLQ3ZNMXFXb3QyenFITlpLeGpXRTNDdWhlaE80THZzWURLaFF6WlNGMXJfRkwxenBtODRiSy1pOExQQXJrUzdUUEpyVUlCUXZZYVNHdkMyVEY5ZVpPSFlaamJRa25CZm9MeXo1RDl0TXJER1Z2QW5zZw?oc=5",
+            "source": "Shanghai Metals Market",
+            "sourceUrl": "https://news.metal.com",
+            "pubDate": "2026-05-04T06:49:04.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Two worlds collide: the regulatory battlefield hanging over EU-China ties - South China Morning Post",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc2xFNG9rdGp4bnBHNS04dVppS180Rl84V1hYZUd0alJGTGxEMEw1UC1GNWRTYldJMmdFV0tfVzF6LV9yVF9CUEZETlNSYnN5QVd1a3Q1N2NfN0h6ek9qYlp2MVhLdVd1YVMxRW81TWotY0pRSWRMVkF5M3lnSXZNci1HSmhQdnpISGNYVlN6WGxPMUUtenp1UXpzTG5SVks0ZVNDQ25NLUhRN3NjNzF0Z1VjQnQ2Q3pIU240T0I5Rmt5aWR2MXfSAcYBQVVfeXFMTnNsRTRva3RqeG5wRzUtOHVaaUtfNEZfOFdYWGVHdGpSRkxsRDBMNVAtRjVkU2JXSTJnRVdLX1cxei1fclRfQlBGRE5TUmJzeUFXdWt0NTdjXzdIenpPamJadjFYS3VXdWFTMUVvNU1qLWNKUUlkTFZBeTN5Z0l2TXItR0poUHZ6SEhjWFZTelhsTzFFLXp6dVF6c0xuUlZLNGVTQ0NuTS1IUTdzYzcxdGdVY0J0NkN6SFNuNE9COUZreWlkdjF3?oc=5",
+            "source": "South China Morning Post",
+            "sourceUrl": "https://amp.scmp.com",
+            "pubDate": "2026-05-04T10:00:26.000Z",
+            "category": "china-policy",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Global High-Purity Dysprosium Market Report 2026: Rare Earth Demand Surge Fuels Growth Through 2032 - openPR.com",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUld3VURlY1ZQNkJwdGk2RnJ3Y3c2YnVfZE01YWhjQ28tM0FVTXRoNXZ4R3lfSWh2VDV2dG9xdFpOWDQwMWNLTUdSTXhUQ0tMLTNGTi1VMzhRWGZxVHJEbEpVSnhCb1dOeDl4NlpWMi1LQnRIQTBuV0VGZWxHY2tETFBldlUwaHBqN1ZJWUo2YWFvTUluV1NuVEhrcw?oc=5",
+            "source": "openPR.com",
+            "sourceUrl": "https://www.openpr.com",
+            "pubDate": "2026-05-04T09:09:04.000Z",
+            "category": "rare-earths",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Medical Biodegradable Magnesium Alloy Market Forecast to 2035: Growth Driven by Orthopedic and Cardiovascular Applications - News and Statistics - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVjU3NkRJUVUxb0Q5YmlSSDY1bjFrVVRRd0Jxa3dYb3BFU0tIbXlabUZ6RGJsQXBQZjBscktYRFBpQVljU241Njd4M29TclQzNnpWdVZXZjljS0hKUVl5bFpNN1hOekJXWFd1Zi02VDFzdEszeFMyWXhRZC00YlFlM0tfZmRnVU1wMnlrQWNWanhIVTNpcUJ1WEpzemlKY3U3QUY0dTFUdXhXeThJY0g0M29Uai1uMmdCZnNDZWNMLXEyNTZmbVpoX2pZSnVpaUlrcXRFZ05LMU9Pa0ZYdmc5OWNFb2c0VU1SdUpvZEZ2TGZaeU1MYTVnZ2F4ZGJLUWYxMlE?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-04T13:46:04.000Z",
+            "category": "specialty",
+            "metals": [
+              "magnesium"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Australia Copper Alloys Market 2026 | Surge to USD 2,776.9 Million by 2034 - openPR.com",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaGxRdjFCQXdyZzBFSUFUWUFKQUlWaVpHR08xdnZnY0IySm1HQlc2Y0haWl9HU2EyR3JIYi1SLWFaUHctd2YzNnI0OXdMT0dDeVdLUjB3LVBBX3Jadk9oY0tzNXZIMVhlMTVMM1ZuM0dDMldNZmRvRjZCU2NMQlJ1RUhTVmJvMGpqa3I3Rm10RHEzMFozT2Y0?oc=5",
+            "source": "openPR.com",
+            "sourceUrl": "https://www.openpr.com",
+            "pubDate": "2026-05-04T12:43:00.000Z",
+            "category": "copper",
+            "metals": [
+              "copper"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Tsingshan plans $3bn Indonesia aluminium smelter as Middle East disruptions drive premiums and bullish outlook - alcircle",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEpnQjROR3MxR2FiR2c4MlNvRV9ldkt4SHo2ejlLaFQ5b01VUV9RQlBTb0hUSmlRamVtRDJPUENNWHhnUzZxb1gybEF1Nk1ySnFkWDVmV09QaVE5Q3dlb3hPSE9kQm52Q2tidXBSQ1BVaHo5bmlNa09WSHlnVkduQWhzUDFMeW5FZ2diQ2pZbm9WRjhYc0gtSWVyTVJwOGt0STA5Qk9wUjVmTndIMDk0cTRTclYxdHVQS2N1aVZPQm9HVHZjc3V3VlptZkVyVEFxUDlwamZrbjd6dWxHRmt3?oc=5",
+            "source": "alcircle",
+            "sourceUrl": "https://www.alcircle.com",
+            "pubDate": "2026-05-04T08:39:33.000Z",
+            "category": "aluminum",
+            "metals": [
+              "aluminum"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Investing in a Critical Minerals Private Equity Fund in Brazil - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRE5PeFZ2SEduTVB2YlJDZUQ4bEVNSW9welJPYlM4TFpPTDlYYTItWFdldTZwYkxaQVFRN19Ga21ROVVadkFhZDVkWjM0NDlCMjN3NnRiVDFDdkM5bDl1ckZ0OXhyUHFiUlFCa1otWWZ0TnNfRzFZX1NWaW1ZY1pUZTd0OXBicHZQbVNmel9GTHZCQlE?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T10:48:46.000Z",
+            "category": "rare-earths",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Victory Metals North Stanmore PFS Testwork Unlocks Superior Project Economics - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMG94UEd0TjlLdGd3Wl9FbG84dzdBMFdHMVB4SHpxWkttZ0RpeUU2UzU4UHptRXI4aXNkZ01QZjlNSkhSdU1LMzBueEJPMElNWHpzX2xVUmdVMDhremR1MWZ3dUR5dEFodFJqSVZUaG5tdGdjaFRDQWVQYnZhT2p2bksxTnBoeWN0dDlnTDlFWW1WUnM?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T10:41:15.000Z",
+            "category": "china-policy",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Up, Up, Down, Down: Lithium top dog again in April as sentiment turns for battery metals - Stockhead",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPajZ4U3UzbVFPcG1nV0lSbk1fclk5Nk9ybklWTm1IZUZGajhON1NjcGZuWVVBZmtDWTA1Ym12a0VwY3RmWjJMdENFMHV1TVdMUFdUa1lGX3BVUkhXdEZtUVJtNVFwZkxGbWlTRkRSUUUxaVpwVXFJUzdQODNaN3BVQVNYUGw4MVV3SWJNMTZZdWNOVTdBRC1CeC1DbmZKclN0MlVqaDRHczQ1MGV2Q0FVSjFNNXdiM0ZiNnpvbw?oc=5",
+            "source": "Stockhead",
+            "sourceUrl": "https://stockhead.com.au",
+            "pubDate": "2026-05-03T20:45:00.000Z",
+            "category": "lithium",
+            "metals": [
+              "lithium",
+              "battery"
+            ],
+            "topics": [
+              "battery-ev"
+            ]
+          },
+          {
+            "title": "Quarterly wrap: Strong production lift for Australian Strategic Materials - Australian Mining",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYWU4Y25kc1BuYUFlV2VETnN3Y1k4UUs1Ql9hR1ZESFlzZjE2ZmpieEwwYU1FQzVrblBDcEE4TmEyMnJkYzJKRThYWWZ4Q3RZNXhkUFhUbEpGdnYxWXVtbHY2T0F6c2thS3hIcDJVNW9ZSkhScnVSSW1RbmhEMzBIMUtWVVlRR1JCclo5MDU1NDdPYXdUVTlRQTNGc0dVclV3QVB1ZXhVZ3lJVjJzblE?oc=5",
+            "source": "Australian Mining",
+            "sourceUrl": "https://www.australianmining.com.au",
+            "pubDate": "2026-05-04T01:57:44.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Port Pirie Smelter: China Undermining Australia's Metals - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMUJncWo2Sl9PQTRUbFpSQnNESTg3T3lXd3ZHMWRtbmxoMlpBdjUwR1htT2RBa2N6Mnc2RTJ4SjZMTUxmYmlheEs2S0lJSGtCZHp4aWUtZHBldnZwX3hmdW02dUhvMFJVWmtDWHlqa3JxLUNCX1NwUmNKdGRtOUFHNFpnWjQ1MEh6ek9FanlsYw?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T02:26:22.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Gold Demand Trends: Q1 2026 - Seeking Alpha",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3UmYycHVROWQwWEotTUJ0N3JQT2dxck1iMDdxRnNaTVhQOW5ZcXZGZVdZSUdLLUpUQUZoU3ZzVDQxSFZIRjRYak5yT3BhQ0Rjb1E2Y2VSaHM2dzlBemNJaExsd3NUN1hDdDdCLUlOeXZwQnNtNmc?oc=5",
+            "source": "Seeking Alpha",
+            "sourceUrl": "https://seekingalpha.com",
+            "pubDate": "2026-05-04T08:35:00.000Z",
+            "category": "gold",
+            "metals": [
+              "gold"
+            ],
+            "topics": []
+          },
+          {
+            "title": "The Magnet Gambit: India’s Cerium Play - Rare Earth Exchanges",
+            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43alktWnNXRXg3eml5QVRUdm9jQ3hNc1N0Q2pOWkk4Zml0aWNvNmFUZmlfVHdPTVJfVkJ0QWw2UTQ4eUtONXMzb1ZhWExITEx2Ymlfb002Y0VCMW5DYjgzX0FrMXhIanQzblY2TmtGQmw1b0xsNi01TmtTbUNsdw?oc=5",
+            "source": "Rare Earth Exchanges",
+            "sourceUrl": "https://rareearthexchanges.com",
+            "pubDate": "2026-05-04T11:01:02.000Z",
+            "category": "rare-earths",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Tungsten Up 900% in 12 Months Meets a U.S. Defense Procurement Cliff: How One Junior Is Pricing Into the Reshoring Trade - Quantisnow",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX21ueGdWYU5XZVBySGVPVDNILUhnRHdET3hsRm9DTWxLOHZ0ZGwweVlSUlFLODN1X0dGYm9OX0pxMnFLWnltWUVZdjJMMXNtZG5zbzZoWUZ5ZmozMlVFd3QzMXB3cEVWSWNXTThNTF9jVkdaTGNqOFhhMURTa2Mwa1dVQ0RDaTZKY01ZSkJCWQ?oc=5",
+            "source": "Quantisnow",
+            "sourceUrl": "https://quantisnow.com",
+            "pubDate": "2026-05-04T14:04:47.000Z",
+            "category": "specialty",
+            "metals": [
+              "tungsten"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Nuclear Vision Limited Announces Name Change to Union Power Metals Corporation Effective May 4, 2026 and Launch of New Corporate Website - markets.businessinsider.com",
+            "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQb0N6Q2JOU2hwM2JlcFI0aFhaa3JSSmNsSmVXam1hVWtsNzJfa0duVzNycFJRR2FlYnBmeDN2ZWtxNFhsYmxBZVRIOWpDWHpwN0p5NTBPa3lWakJrV0FBQzhOVGZWbHNWZXJPSnFuY0Jic2hTUVZNTFZmMkdPN3BkVGF5Y3FBTVFlNm1DM1Y4b1BVamlMX2daQm5ESHJfUVg2amkxdjZudVVWMmhlbFgxSkNabW5wOGFEcDBqb2FVekdQdUhSRDFVRFBQNE9lSkwwX3loNVJ2SFRjVTU4MjdSVUwyMEY3bjVRT0lTVlRHc0R0RlVOLUZ2NlBHTS02QXZoNHFYXzA5X1o4bWVVVlRVZzNQUnZvUVhvclRCcXlaYw?oc=5",
+            "source": "markets.businessinsider.com",
+            "sourceUrl": "https://markets.businessinsider.com",
+            "pubDate": "2026-05-04T11:52:17.000Z",
+            "category": "uranium",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "BMI raises 2026 coking coal price forecast to above $200/mt despite weak demand outlook - SteelOrbis",
+            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdVhxNDhId241TmVwTVlwNUh1SW1pa0JQLXlwakhqMnNubHZQekFSUVZid0JYSVFjOFN3WG9QSm5OVWswNEFaTmdJQ05fTVVGSVRNczRqMGt5dVNJWjBVaGtaUkNNMUo4ZDgyTlJFTG5OQ1JmRjdVaTd4WnhKQ3VvRVhoY1FPcmp2TGpVWkdtYjl6S285ZlR3T3hFOV9RUDFCSF95bXVGZjlNdVJ2UUFZVUkyTlBNLTEtRWJmU0RKYW4yTl9LNl8yam1vLVhqelNDZHNmejVJem1RWnd5MXZ0MQ?oc=5",
+            "source": "SteelOrbis",
+            "sourceUrl": "https://www.steelorbis.com",
+            "pubDate": "2026-05-04T09:32:29.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Is Rio Tinto Driving FTSE 100 Gains Amid Valuation Debate? - Kalkine Media",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTTdvcjdka2ZrVk1TSDkyeVZxeWtINzlDMmk5eUk0NDR6Tl85d0liYm9KbzRHLWhjTmlvdXZrSTl0ODdEdm5lYTdUN0lDTEJ5TTNYc21EdEdhX0hXakJjcmFqcHlVOFFLV0p5WEk5OVJlWk5qS2RWWWxIUlJBRVBwNXVlWllYNmNGal8wUFNXcEZZaGdpVDMySmVrdUhxeDFoSzVNRmpPejZjSXZxZUI0?oc=5",
+            "source": "Kalkine Media",
+            "sourceUrl": "https://kalkinemedia.com",
+            "pubDate": "2026-05-04T10:21:00.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ASX 300 Gold Sector Focus as Pacgold Reaches Milestone - Kalkine Media",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUDQzcEgtTmlCdEJUTExFbGtHTXdfTGZiZEdQTGV1UU8xSWYxcHMxQjJUZkhEUjJhb3l3Tmo3dDhrbGE0d3ZNWXJJeWd6UTR2eDJ3dlNXdURLa3J1LXVxbG96dnhESHpmTnRvTjA4ZVRUTUk4cVM5d3cyOF9JM3VJdG9ONzBVRTlUeUNPeWU1RVRWWkpWaG9jbzln?oc=5",
+            "source": "Kalkine Media",
+            "sourceUrl": "https://kalkinemedia.com",
+            "pubDate": "2026-05-04T09:52:00.000Z",
+            "category": "general",
+            "metals": [
+              "gold"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Tsodilo UCT Rare Earth Skarn Exploration Advances in Botswana - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTkxBSWVScHF1NGxMNzlBUjl1d1NEUC1fcUVsVmp1dndjRzU4TlozYlFaMEkyQlRTeS1DQ0JpM2lRbi1lT0UzTUM3NE5kUHZiaElnd3llcWotbDVGZi1Wczg2ZmxPZjJEblc2Z2pXNjc3YTlUbWozR201YmFvcXY3YmlMV0NzT3I5QXRwazlBM3ZjWHc?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T12:59:12.000Z",
+            "category": "china-policy",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Platinum Rally Faces Critical Test After Mining Giant Posts $3.6 Billion Loss - AOL.com",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5MQVRXZ0t5OV8yNk1VOGswTkJyeHg2aHREY0tJN1BpRXhXenNhSmc3U09oQWI0OElIRS0zaFRuNWNKZnZPMmJRWmNNSjFucms2WS1Pc3E4Rm1wN2F4RXNWM0RlM0x0R2c3RWg1NXNET1h2U09RZmQyQQ?oc=5",
+            "source": "AOL.com",
+            "sourceUrl": "https://www.aol.com",
+            "pubDate": "2026-05-03T17:21:24.000Z",
+            "category": "uranium",
+            "metals": [
+              "platinum"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Column: Study group shines some light on Doctor Copper’s confusion - Mining.com",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR2VsX1RYQnFoQWN6NWxXeGVESlZtOUVSdlJsa0s4OEJSUlB3cWpqc3JRaTRCVW53M0xEUUlkcEpzNVdJb3IxZWgxNTZXaHRCU0NDSjZFTnBtWkU1Tm8yX09KY2F0LWVGeWdMZmVMcFJGd1dJQTFYcVgtenlaQW0yX2hUdXdXVUVWYV9ldDJLS2RYYUVEYUhj?oc=5",
+            "source": "Mining.com",
+            "sourceUrl": "https://www.mining.com",
+            "pubDate": "2026-05-02T20:37:48.000Z",
+            "category": "copper",
+            "metals": [
+              "copper"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Lithium Metal Market, Global Market Analysis Report - 2036 - Fact.MR",
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hanR2X3Axb0FGeXVsczVaTnVFZFNLUlZWWTFRMGJPMzhkT3VURnE4UFdWQkdlU3BEbjY1enE4YnVpalFUZWlsV0lRS3EzLVJWc3Q2dFJtRTdRTjZaRjNn?oc=5",
+            "source": "Fact.MR",
+            "sourceUrl": "https://www.factmr.com",
+            "pubDate": "2026-05-04T06:45:06.000Z",
+            "category": "battery",
+            "metals": [
+              "lithium"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Newmont Mining Stock Volatility and Gold Price Exposure Analysis - News and Statistics - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0xFdEw4N2F2QWtoSUpTXy0wRFZ5QW01U3hiTG9la2Z2N3AtbHdxcUZ5VTRhb0hzWlpLZGxWdGlFZFg2VXI2TV94dHc2Q2p3d2dHR0JlbFc3Z2E2emt4dU1Cd0ZMUmlIcW1abU1TOTFzMlkyd0c5empqVVdSWDJhNkxfbE5QSXQyR2Rrd1ktVjZBMXN0bERxa2lBMTR4b1lzd1JPSFF0VQ?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-04T03:00:00.000Z",
+            "category": "general",
+            "metals": [
+              "gold"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ASX 300 Gold Sector Shift: Mining Acquisition Expands Operations - Kalkine Media",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM3gxRHp1T2RwTlZzRi02UmttQjNxcjZnSnRfem1janJWNncyT3JnXzhlSVJkaVNSMjJPVG9ITFUtazAtb3F5b0FrTlYtbmRuaFRsU3R4RnBobGpjUVBCUVJPLVhNWGhKdmJNaG9YYTh0cVhXT0ZITnViaWlIVkxZRXYzSmU1OGktX25yaTB5VmRPamVYYUdHYUZNaEhTNTQxMGJnb1ctVS0xUTRiaS1wRmZWZlVlUQ?oc=5",
+            "source": "Kalkine Media",
+            "sourceUrl": "https://kalkinemedia.com",
+            "pubDate": "2026-05-04T05:36:00.000Z",
+            "category": "general",
+            "metals": [
+              "gold"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Canadian Mint to disclose sourcing data after report on cartel gold ties - Mining.com",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGc0Y2tVUzdZT2xxTW5zNjdYNjZNTHlwaFhsOV9Ca2Z3ZnpRaHN2MDhOX1F2Y2dySE12Mnp6cW43RGJyMDdORlZDSURXUExtZExEeGNncWV5bmxTU1IyTENPSlExWjV6OG45TW5UMy1IMEEwSkFSQ3M1WnpfYVdNeFUwMkJyRFNWLXFLRDR5Qm5CV3VmSjF6LXNIYjg?oc=5",
+            "source": "Mining.com",
+            "sourceUrl": "https://www.mining.com",
+            "pubDate": "2026-05-02T20:22:51.000Z",
+            "category": "esg",
+            "metals": [
+              "gold"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ADB Critical Minerals Financing Facility: Asia-Pacific’s Industrial Strategy - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUJkeTNaMWk4SnB3WlhhcjhQWDltaVlvblpJSTJydm9fVXVsVG9wWklkMnVXYUZKRWVZdDdWbkhWVVBGUFpjVGsySW9OX2tBMElldXRzN0JKRVY0S3BwZ2pTU2FtVHVQaUlFS0djblJ1Mm8wQy1jNElrNkhQRHluX3dXdWlSendwTW5vNldnTUpNWG5ZN1NjUEZabi1Gem1CaE1V?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T08:40:06.000Z",
+            "category": "rare-earths",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Australia-Japan Critical Minerals Partnership: A$1.67 Billion 2026 Deal - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZHV6UTAxcUlZczdwbGhaaDdmX1NUbHhYbjhZT3c0bEJDRk0wVE0taE9yTWpObUNFamoxNGV1Zml4YU51RzRpWlVWclBhZ1B0YjlrSkcxR1BXTE1Qcmhnc0JiM29kNmdwQlZLUUIzRl9xNUl2bmNaU2k1b1N5QkN6NlNvTXhFR0lUN3ZR?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T12:56:15.000Z",
+            "category": "specialty",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Jindal Steel Q4 FY26: Steel Giant Stages Dramatic Turnaround with 448% Profit Surge - Markets Mojo",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUkxkc3pmcTdNWWNrU0E4cEJUT1ZlOFhYdi03U2h5a2I1TnBqU1p2akJLb1VJbDdHRDZvNUMwRmtXUG9WdWJrZVIyZnVqWWJIeHBmNGw0U2FuV25fUVFPdlpVeEQ2U2hnM1ZiWDlsdk13Ykx6dXJ5Q3VlMDhKNk9lOElJTkZlblFqbGtGZ25STEVrOGEwUTh4TnNrbnlRZUZQYWIwalBFd2xzS1F1c3VNcFgyN2ZlM0dYTFJlQ1lzaW9JVE9OeThVX3Q4LVhqTWIwR1FCdA?oc=5",
+            "source": "Markets Mojo",
+            "sourceUrl": "https://www.marketsmojo.com",
+            "pubDate": "2026-05-04T10:16:39.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ASX 200 Mining Focus as Sector Stocks Gain Attention - Kalkine Media",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeU0tNzlzLVFteDNFcEJyNWl3SVltaEJmS29kRFYxY1Y1NTZsOVpUYkY1LWNiNkVNRzlHbmRLRm5sVW1PUHp3akUwNmhnS2g5eFF2dmw1aEpBMWhoVXdIdGh2aUhUOFZ4VTA1NUVrTG1zSGgwWTFTbFl5SXZZb2t5Mnc3RnZIbERxTEVjcUNkcGpGejU3RUJUU0dXQ0ZBOS1RNG8ybGwwNA?oc=5",
+            "source": "Kalkine Media",
+            "sourceUrl": "https://kalkinemedia.com",
+            "pubDate": "2026-05-04T09:27:00.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Opinion: Kazakhstan’s Critical Minerals Promise Is Running Out of Time - The Times Of Central Asia",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZkg3c2puLUExTWZpeFppZXZHOUhDUTktSmVrTHN4UlU3VHNZSTNhdTU3SlRNVXFuVkZSLUpXbjJTWXRqOEZOdVVZZ3RrVm9xOXhLb3FFWVR0RXhPTVVySlc1QlVUYm9zRS05azhhZnJDTzBkRkxNSHVFMFdFZkxscGpsdFR5bnBCUUdhd2dacDFRREU?oc=5",
+            "source": "The Times Of Central Asia",
+            "sourceUrl": "https://timesca.com",
+            "pubDate": "2026-05-04T10:09:59.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Saudi mining licenses jump 220% as investments hit $11.7bn in 2025 - Arab News",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55bjRxUThHQnpXVm9YbEc1S2xkOTh1dVdmazBWbjhYOTY1QVVFd3U1UGxkMllYbGk5U2RjOUx3NXd4RGFhZ2MxRkF5SS03a3JaRDBR?oc=5",
+            "source": "Arab News",
+            "sourceUrl": "https://www.arabnews.com",
+            "pubDate": "2026-05-04T08:59:23.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ADB Launches New Financing Facility to Power Asia’s Critical Minerals Revolution - Devdiscourse",
+            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUTdMRFBwdEpTd19qTjFMSnJRUDBjVjA3Sm91cTZiaUtHS3E5aXhaMkhYZWVCa18xNm9rVTdXZzJfaW8xQjRILVdjZWtJdjB6dzYxQU85Uk5td0RSUXRWYmxPY2NuZU5vU04wdUI5bmRtQlJ2VVFwZnU4UWdLNEN5cDlXelB6NjlTb0VkV3hUcTdPZGVNblJOeHBhZ3NwaDhXaVhWS3B0bzN4RkpfYW9BZTMzaVFfdlhQVDQyblp3cXVEak0tdWhQVHpQWURBUdIB0wFBVV95cUxNYnZEVkJSTUF6YkxDQ2RPSHBZRF9GQkk1N2gwdHRzTDI2LXNLU1pENUpHUGd3LURIQ1R3eE5ZT3lmQjJDckljekJWWTJneDhydzBGcmtBaU9RUjhiVzVOclNlbVBhU1RBZkhxQ2sxWUNfN0JVekUyUFh2R3I1cmZab3NJeXpkNndiQkR4NEFlYTFWNm5pcVB4WU5OTTJfbnZTRUNDd25nRmlLUm5xc1ZLR2VneWs2bjk5dEtiSjYzNWxOMUdCTlVER0F1bEM4Q2dpU2ZB?oc=5",
+            "source": "Devdiscourse",
+            "sourceUrl": "https://www.devdiscourse.com",
+            "pubDate": "2026-05-04T08:39:44.000Z",
+            "category": "esg",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Japan and Australia agree to deepen cooperation on energy, defense and critical minerals - washingtonpost.com",
+            "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOYzdGdE9BRTEtS2NRVU05MW90MEhWM3JGcFpINTlNdE42emphaDJlMFdKVXctdFI2amg5cmRVV2tiY2ZDdTd2dFFDWjRLVzZxUk9URVd0QzhaYzFnR2hycmVXZXRuRnNlMGJ2QjBZV1dvYjcyMlFPQTBhWU5KTTllMzktMldzZHdTZDBMN21faFQ3VEdzRmZMMjNBMk11elBoQV95S0ppbFRqMHhwSGFmNU5STEhubVU3Wll0RVdhX0RPV3BUYkdSVTNWMGNMLUFNaVE0REl5d2NtMDRuNlpEVzZzQ3djS3lVZXhCQ1hmOWNTZVdU?oc=5",
+            "source": "washingtonpost.com",
+            "sourceUrl": "https://www.washingtonpost.com",
+            "pubDate": "2026-05-04T13:56:18.000Z",
+            "category": "china-policy",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "India is likely to witness a 4–6x increase in critical mineral consumption by 2040 - alcircle",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTVFoYzJOeC1ZVDhzZnJVZzNpcTBCSU1XWTk4dTI4Y3lWdWFpWGlrMFBlaFVXNjdzUWthN2ZwRi1KWklvLThrUjZVTHI1SkV4VVozaEVSSFRIckpZZ3l1MEFURkpZc0NqQVhsc1MyZzRNT0xhMWRTODBLcFB4ZkRxS2lLTGpoYW5Tam9OUlZlQmN0RXVvbHh3dFVNNDhsUEp3ODZRQWhMcjBLN1JHTElXS09CeGRzdktyUnIzd2FCV2RiYzJaa1FSVWszOA?oc=5",
+            "source": "alcircle",
+            "sourceUrl": "https://www.alcircle.com",
+            "pubDate": "2026-05-04T11:02:59.000Z",
+            "category": "china-policy",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Trump’s high-stakes China visit: Can he strike a deal with Xi before the next global shock? - Latest news from Azerbaijan",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0daQU5xcW1EQXpDeXN5U2NXRTlDbWtkWjZma0g2eDVfdVVRWXdmRE5TdnBKTUNueVR3NXpFX1diakFTOV84MlphVENYRHQ3R0oxM0c0MTBrckpfZUh6U0xrNG5aby1KaW9EbW9Zb2tldzdwbmlOdHRPb1ZTd0xyV2ZabG9sTDVhUEdfSkF1b3EtQUlfdTV4UFJkWktISUV2RC1VbTdqa3hiVWt4Qnc?oc=5",
+            "source": "Latest news from Azerbaijan",
+            "sourceUrl": "https://news.az",
+            "pubDate": "2026-05-04T10:21:22.000Z",
+            "category": "china-policy",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Government rules out TerraBras, mandates local processing of critical minerals: Brazil Minister - ANI News",
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYlZtRUhBb2k5b2xVRWRvM2dyTjR6RjdWY0hkb3hISTZocS03VnhYeEJRNnZYUzFaSGUtd1hhcE40TVhOSG85Z3VaWDJnWTRnRHhyZmxBOUpaZ3k1NDY5NmU4ZG1aNW8yOVlrU1ZzYWZSV29rOGlmbXc2U094aGVYNDRxaW81NV9nY1k0d0xhY0dRUXE1WmM4U21jenp2eld0TjNKeElkdVUwX0FsTzhsMnB3aUx0b1BvYzdtNUdJQW54RXZTUFVDVThQUTZqbEw3Qk1ocWtJUW9oM1NoQnpTSVJn?oc=5",
+            "source": "ANI News",
+            "sourceUrl": "https://www.aninews.in",
+            "pubDate": "2026-05-04T12:35:00.000Z",
+            "category": "china-policy",
+            "metals": [
+              "nickel"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "America Relies on China for 100% of 15 Critical Minerals - One Man Says That’s About to Change - The Manila Times",
+            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPa1VmcjQ1ODdXU2tEcHNZUlpBZjZZX012UUFlV2tlR0NvcUFMMWZwTFptcGk5Sk9OeC1iM3ZMTVRsQktUamY2SkpuZVEzajlQWHloNGFHaTFGSDZGaWl0bFJaUVBPYjc2bkl1RlhWRkpTb2R5MXdmYkRtbHdyc3BZMW4xa2s3SEU5S0JrejVkeml1SFBVbEZ0QUhwQ2pDLVM2VnZpc2lfMk9VMndBYjdYb29ONkg3WEVnTVZMR3pLbG9paXBZajJuNjhqVFJGa0Vxb3Fsam1lZXVKTGgyVXZLcVhKQi03amEyaGV1OVpvNTNNYmFlQk5F0gH8AUFVX3lxTE91VGN2aHctTnZ6eTE1ZlF2VkE3QlU2NVAtcm5xQV9hc25fMzZvQW44MDZQRXdoa0xtcEtkNThEY0V0TV90RUFBSmNlRGVIa2JNMWFqRk4yV2JNTEZEV0xTcHlSVkhBamIwVjRlZ2p0M0c1VFJVSUFPdU91Y01BZ3luSGU0TVVfU2JCaHo3Wk43c0dBVVZ4QlVnQWU0bEtfNy1ETkd6a2tRUnIzbVVfbTdreXVpRW9qdGlIZXBYQ1RWVE9wY0V4ZWhzbVZXRWpGOVNJZThYUDRWbm92UzRSai1XWWEta2U0cU52TmNJTW51M3p2Z002di1UeE9GNQ?oc=5",
+            "source": "The Manila Times",
+            "sourceUrl": "https://www.manilatimes.net",
+            "pubDate": "2026-05-04T10:37:02.000Z",
+            "category": "china-policy",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Green Mining Market is expected to Hit US$ 17.9 billion by 2030 | - openPR.com",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmJnUmlBbnVfcGx3WnE5SlF5Yk9SWVNZbml2WHY5SUprdUk1RER6N2d5c1pHQVpqWWtheG1WY3ZmaDg0clNwN3h0WjN3UmMwaWE4andndlQ3WE5NZFVxWENqVjFaZ3VndHlLLUgtQU93VGswR2c5OWMyNUUydzhZQTl5TVRwQ3hnYmhyZEZEVjV6R1E2VURmS2ZDTDNSMmc?oc=5",
+            "source": "openPR.com",
+            "sourceUrl": "https://www.openpr.com",
+            "pubDate": "2026-05-04T13:17:42.000Z",
+            "category": "china-policy",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "esg"
+            ]
+          },
+          {
+            "title": "Gold, Oil Prices Getting Set In UK, Not Middle East, Is Odd - Free Press Journal",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdm1xRFNsZlV3UnhhUVBfajFkRm5PckVibTRfbUJsM0lsR1VQTTlTLXQ0bmtEajNFUlZWUXZfNjNZVDdPSnkwSl91d2tJYlJMZ0pGd2VIb0VtTDM4a0tLblNwU0xtamNHZWlQOGNuVmVLQkcza0lwX2g4aWpra19zRWo3dXhucTRoNDVMQ3E2WVdnN2FhT0wtaFhqa0toZ9IBowFBVV95cUxPNEdzZlVMUWFGc3FmMks0bTlhN2ZsQ3d3OTRFT0R4S3Q1YVAyUjcwczA0MWFSNW5lem40Q0JkdzlBb1RMOHVCMkgzU3BFZ2ctUU02TFVZMTUyR3N1TDF3SXViQXlXR3lkVWtncG1MSTlOeUoyYzA2TzBXNXR0REdFZkU4NTg5dE9reV9PNm41bzd5bGFiNVZlT2xZZVVWV1NHNjJF?oc=5",
+            "source": "Free Press Journal",
+            "sourceUrl": "https://www.freepressjournal.in",
+            "pubDate": "2026-05-03T16:57:25.000Z",
+            "category": "gold",
+            "metals": [
+              "gold",
+              "rare-earths"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Rare Earth Metals Market Projected to Reach USD 21.03 Billion by 2035, Fueled by Rising Demand from Clean Energy and EV Technologies | Report by SNS Insider - Business Upturn",
+            "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPUmt5Zl9FQU1HbUtNVlJfMnlsVzRtSzVkRmhVekxSSTZtLUhEUFlXd3FjdW40T0FzLVlpNzBhVXFNeU1yM2o5QU16LWVDZndfZ0Z2NldyeFd5b09aVGVOX2xDOXVxTXVGaVR1MHdzRlhaclhWUVpvMU5pb0lVZXRKbHBZb29yS29zZ1dFdWs4aW5JMHFEZnB6Y1dmeXE1TWtjemlJUU4tX0NDQ1BXaFRhSEhLdmRBYTRRa1RfVU1ZOThDeFhCUUtQT0toM2tDTUJBa3FhWjBjTGVVUHl3SzJBY1lrRlpKeTNWaVVyUkFzb2hZR2hRXzdNX1N2cG1ZTlNZQ0NnR3lQNXI0cFc1TmtjUzJzVXJaRk1qc3QtWk9MNFFNQQ?oc=5",
+            "source": "Business Upturn",
+            "sourceUrl": "https://www.businessupturn.com",
+            "pubDate": "2026-05-04T00:00:00.000Z",
+            "category": "rare-earths",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "esg",
+              "china-policy",
+              "battery-ev"
+            ]
+          },
+          {
+            "title": "Mild Steel Market Forecast Points Higher Toward 2035, Driven by Infrastructure Renewal and Automotive Lightweighting - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2M4Z29YQ29DUWlZWUpZTzZlYnFOdGxpZDNMeHRsU2JDeTBJeDFpRjVIZGQxVTBjQndYb3JqemVpWExZaTI2dnROcjhNWUN0TzQ4cGxKaDNPaklxcm51VTVzUEM0YVJjYVRZREFhNTZ2ZFlhYWk3dnBRRXhpTVU1TkNfSGFEa0ZCSW00SzgxaV8xVzhLQTd6V1l0YVQyazhtODFBbV9JbXhMRmNZSDdpaG1sYlNxQ1NGaHQtNGxwYlVhZXlyWG90NmNhOGpFNnltVXkyQnFLMEJTN3k2MUE?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-03T15:31:05.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Europe Aluminium Billet Premium Surges Amid Iran Conflict - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUC02WWpXamN0b1lMY212SktvcU8yU1I2anFPdmx0Y1N1QVA3TmZDLWE3UTVfejZvUXQ5dEwzVF8zQzI3OTVxNDlESTFWRDVZeThPUlRtaERNQlhPNHNmQ1ZxLXRMdDI5Z0VJc3IzeWJ3YU5iMXVodmotN3g0OHFaeEhMc05yR3YxdmM1TkttMTF3cnM?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T05:57:58.000Z",
+            "category": "copper",
+            "metals": [
+              "aluminum"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Aluminium trading range for the day is 365.6-371.4 - Kedia Advisory - Investment Guru India",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcFJCa3FNWmw2Y204NEhpd0x3MVBhYjRHT2JGMnNja0M1VEFRVTRfNXVvcnliYnVsWGpGd0dFZzVBSUxQbUpzcXQ2c2JsUjlaRWVOcUtxa2dTYnktbWlrYXNQV19ZSE04X2JrWGQ2Y21MR1R4cGNIMTJicFVXM0pQTTNlX1g1aUtvMU92N2JERFNveWYtVnUycnFUY01JODZKZEpqOVZ0T3ZQR2dSWlZkaEEyUFV3Y1U?oc=5",
+            "source": "Investment Guru India",
+            "sourceUrl": "https://investmentguruindia.com",
+            "pubDate": "2026-05-04T06:05:50.000Z",
+            "category": "copper",
+            "metals": [
+              "aluminum"
+            ],
+            "topics": []
+          },
+          {
+            "title": "DR Congo’s cobalt quotas force miners to stockpile, pivot, or pause - Semafor",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdU9tX1J5MlcyUXdmdXpNeWViczI3WlFyUy0tTnh0bXRtNTRRR09GMlF4X2hsMTI0NmFHYkFmQno0cElpWE1CQlpvQnpESDhJcWtvZFoySy1HRjU5bG1CcG10TW80MTBWOXNwelFmWU1aNFp4aWE4R2xsRzlUbmMwbFlIMHNtTGlPZi1ycVJJQUNJb2xmd3I2Vm5iQ0tuazc3bjJjeU03d0RXYnc?oc=5",
+            "source": "Semafor",
+            "sourceUrl": "https://www.semafor.com",
+            "pubDate": "2026-05-04T11:44:00.000Z",
+            "category": "cobalt",
+            "metals": [
+              "cobalt"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ADB’s Critical Mineral Supply Chain Finance Scheme Explained - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmtoRjVKemdQMXY3bjN6anNGbUlhMUZXS2R4b3MwVl90cVk2V0dIcENGNmtySnI5cGR5ZjlTWmxIYVE2SWp1V1hSY2FQaVhfUFFnbmduSTFxeGR3TUVONkxZN2t1VE10d1hjc3hFWDhhbVFXV0cxMDdxOFl3dnFEbDJwTEFtV2liNGJEYTFHeExuM1E2?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T07:10:17.000Z",
+            "category": "battery",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Tungsten Supply Deficit: Causes, Prices & Outlook - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMElaYjctaWJSWGFIWkx4dW5NWFRMOG9WT18wWnNxWTVtYjFhWlN6ZGgyT19XTC1aVFcxd1NMVkluRnRpSldQVHY5a2RqOGtTdHhwS1p4UFZ1QkNJaDF2c0FBRU10c1J6Y3Rwd1BfQjVHUzh5aTB6QjhkVkpWTHI2WDUyRGFxUzVZRWp0dWNTYkZDSU1TTllN?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T06:27:19.000Z",
+            "category": "specialty",
+            "metals": [
+              "tungsten"
+            ],
+            "topics": []
+          },
+          {
+            "title": "As the United States Looks to Firm Up Energy Security, Is U.S.-Based Uranium Miner Energy Fuels (UUUU) a Buy? - AOL.com",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLWxmY1otZFR6LUdtWmxBOG02VndQeFFwOVBOdzVqV1R2RW5QSHJVLXVSZEdmTEpmdUFYLVg1ZlRrU0ZKTV9kQ1BZeUloTkRvUUhxUzBlTFNIMGNqWUM0OUdFTjQ1T3JsUGozQ0pvRVZPREtuUzdFYmJXWmpIYmg3Uw?oc=5",
+            "source": "AOL.com",
+            "sourceUrl": "https://www.aol.com",
+            "pubDate": "2026-05-04T06:02:58.000Z",
+            "category": "uranium",
+            "metals": [
+              "uranium"
+            ],
+            "topics": []
+          },
+          {
+            "title": "World Large Diameter Steel Pipes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPODV3cmg5Mk1LTWdzTW9uRlY4Q0tsMXV0aHlha083MGdvLXltcEl3NGM0MEVacFBMQ0s4UHB0ak1wdDBfZkUyMzdEQXJxV0xaTXJlb2VIRmw0XzN6YTNuckl6MU1kS0xOeDBqcjBlYWx4Vm55ZV92RkRMZE1DUnhJLTBveWZFU21nSFd1bVZnREZmdzgzakRiR3NzOERxd0hmNW5DY08wY0hFRll6V25MMENGbVF5MkVScHdGTGNiV0RpRGtROVBmNUdEeUtOMVk1VUV5MzFqeHJuekFBeEVLcnd6ckowalVEVmJvTUJn?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-04T05:46:04.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Alcoa, Strategic Resources, and Glencore: War and the Energy Transition Are Driving Business! - news.financial",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1lJYy0tRVZZdkpwZnV4Z0l6TDJCUVZPZ045QnFsdWRlNXJvRHBDem5EYWdZQUVqekZ5S1pfNjFhZUVfN1BjQ0N3cm1FTnExM28zWXJWMm1mMFJlRkV4aDNTc2tLdHNVYkNuR2d5UDdMVEE4UXJVTlVhVnhXVWpiUElTOEZSV1FNT0lvcC1LYU14OGVMMVVEUGxrVTJLaXprSWdsR3lTcjFhQXUta3VzVE56NHcxR1phWHRuOHlR?oc=5",
+            "source": "news.financial",
+            "sourceUrl": "https://news.financial",
+            "pubDate": "2026-05-04T05:30:00.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Lloyds Metals commissions 4 MTPA pellet plant at Konsari, doubles capacity to 8 MTPA - ET Manufacturing",
+            "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSVN6RFI2Mlp5aXBrQldpQzZWMWFXbWZLVTBfZ1lGT0h5dTlwSmxERVNpMkF0Q1NOdGVNWFJKUFluOHExLXZ5SGJVUDdzRk93ZEk3Zms4cm1yQ2g0VGlMM3VGZko4T0t6UmJ1c0FlYllVTW43TEw1WXVhTlVXZXYzaXAzNnlBb0MxRzVrUkR1cXZydWJ5aE8yUmZVQ3huSWxwb3NQbUFOQS1nR3hGM1ViZTVJa1dBSUxVR1lNRDR0Z24wMFNkWGN3WnpFTnFDSi1IMU1pZU5IYTNITmVSZU5SRVFscjI3TG45aUJEcV9vSTF4MkZu0gH0AUFVX3lxTFBJU3pEUjYyWnlpcGtCV2lDNlYxYVdtZktVMF9nWUZPSHl1OXBKbERFU2kyQXRDU050ZU1YUkpQWW44cTEtdnlIYlVQN3NGT3dkSTdmazhybXJDaDRUaUwzdUZmSjhPS3pSYnVzQWViWVVNbjdMTDVZdWFOVVdldjNpcDM2eUFvQzFHNWtSRHVxdnJ1YnloTzJSZlVDeG5JbHBvc1BtQU5BLWdHeEYzVWJlNUlrV0FJTFVHWU1ENHRnbjAwU2RYY3daekVOcUNKLUgxTWllTkhhM0hOZVJlTlJFUWxyMjdMbjlpQkRxX29JMXgyRm4?oc=5",
+            "source": "ET Manufacturing",
+            "sourceUrl": "https://manufacturing.economictimes.indiatimes.com",
+            "pubDate": "2026-05-04T06:13:20.000Z",
+            "category": "general",
+            "metals": [
+              "iron-ore"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ADB launches financing push to move Asia-Pacific up minerals value chain - Manila Bulletin",
+            "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1TYnh0UXlXVDBpOFZLUEt0bHR3VHlLakVTX0RBR1NpTUxOZmp6N2JNWWFQQnN5T0RnbE0yMU5oSG9hMlliRVdXQkhR?oc=5",
+            "source": "Manila Bulletin",
+            "sourceUrl": "https://mb.com.ph",
+            "pubDate": "2026-05-04T05:01:49.000Z",
+            "category": "general",
+            "metals": [
+              "tin"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Domestic US Solid-State Batteries Coming in 2026? Inside Greater Bay's A-Sample Manufacturing Milestone - Intelligent Living",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYUtWTmFsMXlVVmxrOUR1ZU9hRmw4cTdRMW9qVE85N3NWaXdRbFM0WWlycFU4d0JFTzk4ZXM0b2hRaF9MdkNzWmcxRU50SjQ4Mzk2Q0pLWklONUtpQW9VYktXOUc1NWptR0k5M0FyYkRUaWVrdlR6ZHJwazZMdG9wMw?oc=5",
+            "source": "Intelligent Living",
+            "sourceUrl": "https://www.intelligentliving.co",
+            "pubDate": "2026-05-04T09:51:46.000Z",
+            "category": "battery",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Measuring America’s Chokepoints - ChinaTalk | Jordan Schneider",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91LUJyNVdXSzFaMlM0UUh4bnNWSHJsazU1R09jdmNPaWFpM25wa09BMF94VzdOM0JYUHlNSDZkcG5ZdE1YNklacjN4aWJPbEdrZXBIZUlNanR1a0lCQ1A0UVN6NUE4Y3lpaEhHUg?oc=5",
+            "source": "ChinaTalk | Jordan Schneider",
+            "sourceUrl": "https://www.chinatalk.media",
+            "pubDate": "2026-05-04T09:49:51.000Z",
+            "category": "specialty",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Industry Update—May 2026 - American Nuclear Society -- ANS",
+            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wY1NhcjBab1hsTEhOTVhXV25oY0h1eElEcGNNSVBEdEpsV3RRT2JRTmc4LUlRMGFXcWNNem5WTFFoRHR3X1dRSXhSUWk3Z1lQZllRek9VTm5TZERBc0YxTnZZUTgxNUZaOTRUTHk1cw?oc=5",
+            "source": "American Nuclear Society -- ANS",
+            "sourceUrl": "https://www.ans.org",
+            "pubDate": "2026-05-04T12:32:37.000Z",
+            "category": "uranium",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Ondo Finance Jumps 13% While Real-World Asset Tokens Regain Momentum - Yellow.com",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zOWhQRTMyeE1jdWtjWFd5bWJJQlRXa1VoZVlhNFZmMDVWc1puU3JNUUlzQVpBRnR5dmk2WFpQVjktcnVCZXRKc0ludWU2UWNPR2p4d0ZFcVBFVFFsTGpRT1JaQWUxaFpFZnNBSnUxR0hSVjdlQU4xVXdR?oc=5",
+            "source": "Yellow.com",
+            "sourceUrl": "https://yellow.com",
+            "pubDate": "2026-05-04T10:04:18.000Z",
+            "category": "rwa",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "rwa"
+            ]
+          },
+          {
+            "title": "Santacruz Bolivia unit details $12.8M environmental spend, 24,528 aided - Stock Titan",
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONFI0MjNmdjdIZkdSTW9Ya2p6SmFFT0pPU1REdTVwRlRReDR5dzFjYzlMMlRhYXdwX3hNVVhnc25LdXRRaUtJSWFrZENrMWRScDJrTmFJTWtkNlVyX2pMX3BycjBtVl9xRU1ydEN4UHBMSzhRTTEzY0pqVEI5R0p2MUtlR29IOGRrMTZVQnVSX3Y5SEVHSmE2ZWlUZWd1SWlPZm9Xd0JaSHVVcHhKdHZWcmt0U3E0aXZNMmpJY2tHc0w?oc=5",
+            "source": "Stock Titan",
+            "sourceUrl": "https://www.stocktitan.net",
+            "pubDate": "2026-05-04T11:00:00.000Z",
+            "category": "esg",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "esg"
+            ]
+          },
+          {
+            "title": "Smelter bailouts about price, not emissions: Rio aluminium boss - The Australian",
+            "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPU0x0YlRZWVoxYTctNXR4cXNwVGlUXzV2dW93UXlXOVkyYmxyWDRGa3dBNE56WFFub2pWbHVxOW9EOGYwbndRdWVOalEtTUEwVWRFamozdU54T3ctcmpxS2Myek1LcDZZTm1wQk50MklXMlk3bTQ4UDFITWhBeXEwY1pCaFRaWXhzeVFNUjU0akdBcFRxRTA5ZXM0b2RPY1lPc3BLYlhVMEpVdDJCY2dYREJZZVBCWkYyWTFvMW5Nc0lTRlpSVEZWVnF5RDVrQUdLUmEyN0xUbE5YSFF4dmJIaV9Bd2hYM1ZObnZUUFFwcXFIRUpCa0thNjZDbk9TTm1KQ2ZKUmxJQ20xaXlwczVn0gGPAkFVX3lxTE9TTHRiVFlZWjFhNy01dHhxc3BUaVRfNXZ1b3dReVc5WTJibHJYNEZrd0E0TnpYUW5valZsdXE5b0Q4ZjBud1F1ZU5qUS1NQTBVZEVqajN1TnhPdy1yanFLYzJ6TUtwNllObXBCTnQySVcyWTdtNDhQMUhNaEF5cTBjWkJoVFpZeHN5UU1SNTRqR0FwVHFFMDllczRvZE9jWU9zcEtiWFUwSlV0MkJjZ1hEQlllUEJaRjJZMW8xbk1zSVNGWlJURlZWcXlENWtBR0tSYTI3TFRsTlhIUXh2YkhpX0F3aFgzVk5udlRQUXBxcUhFSkJrS2E2NkNuT1NObUpDZkpSbElDbTFpeXBzNWc?oc=5",
+            "source": "The Australian",
+            "sourceUrl": "https://www.theaustralian.com.au",
+            "pubDate": "2026-05-03T19:00:00.000Z",
+            "category": "aluminum",
+            "metals": [
+              "aluminum"
+            ],
+            "topics": [
+              "esg"
+            ]
+          },
+          {
+            "title": "Global Demand for Rare Earth Minerals Is Intensifying Criminal Threats in the Amazon Rainforest - The New York Times",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVl9HNGktRlFfVmRZZTJIdVhTc3hWQlZ1dHhXMVBHQTFqaDQ1NHJKYldZZTgwTWZidm1IQnVkRTBhUWxuZ1pEaENhd0VTQUpIMF9TRFJhTFBHRS12Tkp1eGJwaW5yOEFsQkd5b1VrbmFNRXdFX1c2QUlGeUNjNTZRSFh6ekRhREdLaW12Q0FsWElwYXJOejJMamhyTjVWT2l1TDR1RkNvRjQ?oc=5",
+            "source": "The New York Times",
+            "sourceUrl": "https://www.nytimes.com",
+            "pubDate": "2026-05-03T21:22:55.000Z",
+            "category": "china-policy",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Rare Earth Revolution of India: How Rs. 44,000 crore project is set to break 30 year Chinese monopoly - Organiser",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZFd4ZUYxLV94bmpKamhaX1hEbzA0c0x4WGdNRHZKMzBwczJsck9OZElkR1lxTHBaQ04xXzVGMkE1R2Rzb2EyUHo3SWs1WlFGYkZHbzIyYkN5c2FyT2pSYU5RVW1UaXlnUXpLeXFrZmFvTEVUMzZQVFlrTUlqR3FnOVZiWDcwTmhVaE9hTXNrbXUxeUxRa0JIMmVjUFc1MFR6YkRfeExhMm9SRXdycWhtN2h6R0JLZmRwVDBycWlUZzMxODhlOFE?oc=5",
+            "source": "Organiser",
+            "sourceUrl": "https://organiser.org",
+            "pubDate": "2026-05-03T16:13:37.000Z",
+            "category": "china-policy",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "LME zinc prices decline w-o-w amid profit booking; inventories continue downtrend - BigMint",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYUdMSUdtVEZnTVhCdjlhVXJXV25zM0kxS1B1RUJFYUhFdTR1VTRTMV9kcWJrOHV1dUFhU3hycExxQ194N0JFd3RPRUhWcko1b2ltZWUxdk0wMTQwd25iU2NaRGFtYXN4UFFuWWdvX1ZsTWNqUGUwX215aEFQMl9vcGRzTFhzd0gtM3pqb0lkNDEwODdCVE5nMXlvQU95MldpNXBfZm9kelFsYUJJa1l5dnFUeThSdGRfODBPdWRGemc3UGdx?oc=5",
+            "source": "BigMint",
+            "sourceUrl": "https://www.bigmint.co",
+            "pubDate": "2026-05-02T16:19:51.000Z",
+            "category": "zinc",
+            "metals": [
+              "zinc"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Mexico Food Minerals - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS1kxaTgyWEZFdnROV0d5VjVndVJGSzJBS2dtZGlkdEE1VE5fVDBORjhTQmVhVUw2dkt2WWpJX3l3VVhWdGQ5QUZEYlhOdFZxdGo2UkxvOHBBaDFzd0Fkd2NibWRrVmZZWTdzNkdvQ3Z4cTVUT0FBQnhjR2RMaGhJR2NNSU5xQWZTd0NDYmFTeHpqR1Rya0U5UmNacHpNRnhpTklj?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-04T02:38:22.000Z",
+            "category": "specialty",
+            "metals": [
+              "cobalt"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Analysts say China's zero-tariff treatment to boost Africa's industrialization, value-chain integration - Big News Network.com",
+            "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdEQ1eFJ6TzFtb1FqelpBZy14SmUwZGZSdHZDd08xQW0xTG52UnNjcC1ZMWZPTHZ2andOUHZPVFBwMjlRelAzNll2cUM5S0llSWpPd0JHT1duSUhrVEl0bXdQZHVIcDFQeFRDOFZnRDFvVVJGMzhNUDNva2xYd05rZUFTWnhGUlQ4blNCMkdWZ0UxVDNYR2s0bUN4LTBlMWo3dTNUTGM1bWtnTWtYSXNUWllGSy1ZQzVXdnhFVXd0Rm5sZkM3T09aUXZlci1MdEltd2huXzFNZnQzcnZr?oc=5",
+            "source": "Big News Network.com",
+            "sourceUrl": "https://www.bignewsnetwork.com",
+            "pubDate": "2026-05-04T04:45:00.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Top 50 Mining Technology Companies: 2026 Rankings - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbTBxRFBNczF6Q0hKUklma0FRLUs5MTBfTlhpbkhmWFdibnFUN0syR3BSY3NrRU5ZUExUQ29pR0FHbVc3anBVclI0VTVmb2dMcC1URW1XcE1UWUM0Z1RVUFRTYkNiM2VmQkxPbjRpc1dOaDB0WTZyZTZMcmZ2d3NnMThqejgyejlxWERRTmF0TzBOcFNX?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T04:23:27.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "ADB launches minerals-to-manufacturing financing partnership facility to secure Asia's critical mineral supp.. - ET Manufacturing",
+            "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPVXE3YWpYc2lpM1Atd3NjcVhNM19MZ1B4U0VPeVNTd0tJSkhZWF9JUVEycjJYOU5qX1lNcDNXSWo2TnN2VjYwcWpwc2huclpNalZtbnNfZkRraWRJUnk4SDJ4MWxzaHg2OHF1dTgxYi14MnJrUlgwTEtSYnNwTm8tbDE1bWJEWXREYWFTUVd2bFZ3a2U4SXUxOHNXSm5ETVphVnRKaF9mbUI3Q2RrMFdtajhLbmdJT0loMElsNnZVVGFueU8yX3BuMHU0UVVsMG5rcmN5dFdGQmotV0hrdVpwUVFiWGFRT0NFX1FaR0JhcWZSbUtJcm5jeWhnQ05lVUZyRjA5YWVVM1JnazkwY2R6MThWTEJjMkUyWVZsYUtrMkPSAaACQVVfeXFMT1VxN2FqWHNpaTNQLXdzY3FYTTNfTGdQeFNFT3lTU3dLSUpIWVhfSVFRMnIyWDlOal9ZTXAzV0lqNk5zdlY2MHFqcHNobnJaTWpWbW5zX2ZEa2lkSVJ5OEgyeDFsc2h4NjhxdXU4MWIteDJya1JYMExLUmJzcE5vLWwxNW1iRFl0RGFhU1FXdmxWd2tlOEl1MThzV0puRE1aYVZ0SmhfZm1CN0NkazBXbWo4S25nSU9JaDBJbDZ2VVRhbnlPMl9wbjB1NFFVbDBua3JjeXRXRkJqLVdIa3VacFFRYlhhUU9DRV9RWkdCYXFmUm1LSXJuY3loZ0NOZVVGckYwOWFlVTNSZ2s5MGNkejE4VkxCYzJFMllWbGFLazJD?oc=5",
+            "source": "ET Manufacturing",
+            "sourceUrl": "https://manufacturing.economictimes.indiatimes.com",
+            "pubDate": "2026-05-04T07:55:15.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Best Copper ETFs for 2026 and How to Invest - The Motley Fool",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSHpCMG1GQ3pyS3Etb1lMWEd4S25sZkltQ0RpX0kyN0x3SGN6ckdDaTdUWjVKZ2owZUMwcDRqSWUzckN2dWlGcmVjZGR6TWtuS0s1azh4WXNWUVJoVzU4QlMtWVRDZGo5VXB4UUQxbHRWUURXbUZSVTFQQzFWc21tUlhIYUEzXzEzLUNrYlB6eko0N0drRmwxUjc5VE5XRjJ4eEQwNlpmME5MUHBP?oc=5",
+            "source": "The Motley Fool",
+            "sourceUrl": "https://www.fool.com",
+            "pubDate": "2026-05-03T17:57:00.000Z",
+            "category": "copper",
+            "metals": [
+              "copper"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Gold Behaving Like a Risk Asset: What It Means - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVmFNcjJPSFpmdVlpR3VaTlNaSmtvTmR3R3pwLWlJM3pxSXluSk1DZ2JtVGtOdjFHQW5iRnBZaFAtbVdXQW83UjZVSWw5SEhUOUZSOEM2eklzOEItWWFyOWR4Z1p3dzUzTk1oMGc2MEVrYzhUei1nNENvZnZHLVpCVVVDR3AwNW40WmtKemlSdTFxT3d6YjlF?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-03T15:46:02.000Z",
+            "category": "gold",
+            "metals": [
+              "gold"
+            ],
+            "topics": []
+          },
+          {
+            "title": "MinRes & POSCO Lithium Joint Venture: LithCo Deal - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN2JTVVF6RkFFNUNkNlBsOFRRcGxLeU1kVWs3d1VaNkNLbWhKbURfNHliYzBPZkJUWWowUlFVc2VyWEFWbnV5N2c3YXg4TkRONnhoX2JJc2RpcXlSd1ZyRHYwUUFvRTRYRmZXQVdtcmRtbWxlNEMyZXE0UGlvRkMzcUM1X1dvUQ?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T06:08:58.000Z",
+            "category": "lithium",
+            "metals": [
+              "cobalt",
+              "lithium"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Asian Development Bank’s Critical Mineral Supply Chain Finance Scheme Explained - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVTl2Mzh0b0s3T2NfTTNDZDlOcC04eG9rbVRRQTlZUTdnT1hVQnVaRlZQdmpxbVhQVTZTbjNPcmZVUkhzSDc5dmE0ZFl1ZzZST0JSUF9KY3FOZWhRdENIQk9jWm1FZmhTVjFIcWtkSzRRb1cwMmlzeG5zdG5WTWRsYS13NlV3MUhrVUZVRHQtbw?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-03T17:29:02.000Z",
+            "category": "battery",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Tungsten Surges Past USD 3,000/tn as Supply Tightens; Rwanda Emerges as Key Beneficiary - Trendsnafrica",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdzlQTW45aUZEckozaVNSVktJbENxVTdDdzZHV2ZQck1wOG1iTmk0bFBWNlNzVXFpLW00cHFfRVV4RU0xaFp6OG15QUhvckJSV0pWUTc1R180ZWJHNkh5OGRjNTA5VXdNOVAxcDFvbmtwXzFwRk1haU9EcHd6Y0lPYnJqU2MweFoyaGR2M09jMmQzTFBmVlFvT3ZYbzBlSFJTYlZCTUtUWXBxTG1LdXpBTENaSml1YXZ1ZFHSAboBQVVfeXFMTXc5UE1uOWlGRHJKM2lTUlZLSWxDcVU3Q3c2R1dmUHJNcDhtYk5pNGxQVjZTc1VxaS1tNHBxX0VVeEVNMWhaejhteUFIb3JCUldKVlE3NUdfNGViRzZIeThkYzUwOVV3TTlQMXAxb25rcF8xcEZNYWlPRHB3emNJT2JyalNjMHhaMmhkdjNPYzJkM0xQZlZRb092WG8wZUhSU2JWQk1LVFlwcUxtS3V6QUxDWkppdWF2dWRR?oc=5",
+            "source": "Trendsnafrica",
+            "sourceUrl": "https://trendsnafrica.com",
+            "pubDate": "2026-05-03T16:33:30.000Z",
+            "category": "specialty",
+            "metals": [
+              "tungsten"
+            ],
+            "topics": [
+              "rwa"
+            ]
+          },
+          {
+            "title": "What Uranium Energy (UEC) capital allocation tells us | Uranium Energy posts 25.7% EPS beat with narrower loss - Trending Entry Points - Newser",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeXBmYUtHeVd5WjFzMVY3WE5GWnpFZ3BXMDlCcE1XYTE3bnpWcjRpYnVfMlI5eDFxOFZtZ2dNSzhKZkpUNUwteHdtY0hSZzNMdHhFMzdRRDlaNTRTc0RfdEo4TlJWUkRUbnBHOGVYdmRUYmZvaXdlZTFuQ2RlM1d2dW5uNktSajVWaHFsTWNPdGlFSWlCaGNGaHVYVVAyTVFNYWM5VUFNeGVnSVJtQU5HMGpaaVhVQ2RLZ21faDE2MHh3SjNXbTFtVmFjVGlqM3AxVGNLS2Q5U0hzU2RhSTRJ?oc=5",
+            "source": "Newser",
+            "sourceUrl": "http://www.newser.com",
+            "pubDate": "2026-05-04T00:25:50.000Z",
+            "category": "uranium",
+            "metals": [
+              "uranium"
+            ],
+            "topics": []
+          },
+          {
+            "title": "What Iran war means for Vedanta, Tata Steel and other metal stocks? CLSA analysts explain - MSN",
+            "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxNVE1KRU5ZZDZ4eFM0N09KWXY1QkZmNThkRHNHVUNiR2hwYlhRVDVPZ2dhSWZQczFOQjhpNll4YkVleXU4ZFc5QWNHandLR3Bsc0xsc2kwSG94azVfdGFtX1V6aXdYX2VPSnJqS1BPMUduNE1nSkdWQmRoM09mSXI0YjA2SDF5cGpTTEFIZ0NKZDhSckNSWEQ0aUoweE9taVR2S3FoaF9ubEtTZUlVS3RySG5WRWdCZG1HUXNSVkRYVlFFZFJXbWJzeENfVXRLYWhoNG9BczRGV0FhTENjM0xRLVB1SU56dGloMVAwM1JWblRKNU5hcTA3YmxlWWZlX3g1ZUx4bm1OemZ3Z19mQ3N3eGkxLW9DTGdZNG5RLUNqcjd6d19RQ2dMZ3pqRUhUQkI5VzR1YTA5QWN0dWFDV1NFb3hMUHUzN2xnaEp3SUZDZmNGNkx1NFJwYlJlTWI4Q0h5X1R6cWVSRUZmaHlTeW5lbzVrSExrdVdXWUdOb09EdE9fS1ZGV1luRFRB?oc=5",
+            "source": "MSN",
+            "sourceUrl": "https://www.msn.com",
+            "pubDate": "2026-05-03T19:19:14.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Supply Chain Challenges Faced by Metal Forging Suppliers - vocal.media",
+            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRnliZ3lZNUhhUzFmRFdFVktmd0NmSXJhcDN1YTB0b3RTMU5DNUtpR09SRG5CSkxsN0xyamxQeWZ5V1hGcml2MFMxMmdjUjRmM3hkVUpHQ2JQN21ubkotLWRQbFN5RmRfNHVzUHBWcUZfaEdfUjJXbWRGa0VhbWFEUjl2ZkNPYkFidEpV?oc=5",
+            "source": "vocal.media",
+            "sourceUrl": "https://vocal.media",
+            "pubDate": "2026-05-04T05:58:02.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Leafy Vegetables for Metal Mining: How Plants Extract Thallium - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYXpPQi1FeUc1cUQ3elBGSjNJcC1nRk1neXNiRUZnR0tKd0x6Y081N3NwTkJzQ3BhQzdhMWczLW9wT21la2E1dHltMkNLNG45MklkT1pIanRtZ2lrd1JJVFFDSV9QRnNwTE43ckU3SXNEbUgzTU9oMHVNMm80MWp6NGE4eEZCMm1GMk9QM2s0VUJMSkpJQkE?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T00:26:02.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Norway’s rare earth deposit among the world’s biggest, new research shows - TVP World",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc085ekFQcm5vTjZ6MWZtM0FfaGd5cUNYU3dVU2VRNWtrd09kSEp6dzkxdHVwWkpkbUxfTm1MMnkzNC1jOWF5cWlqS0x2Zk9URHN0cjI4aDNDZkVKMFU2RmlOM0NtdGEzUnUyZXJqZDRPRUwyWXRFU05hdkV6QzBpRFM2NXZHZnh1NGFRby0tZlFyZw?oc=5",
+            "source": "TVP World",
+            "sourceUrl": "https://tvpworld.com",
+            "pubDate": "2026-05-03T22:20:24.000Z",
+            "category": "general",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "rwa",
+              "china-policy"
+            ]
+          },
+          {
+            "title": "ARM’s Nkomati Nickel Mine Restart: 2026 Reopening Plans - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdzhMazdtaER0UjJKZUJPSVE2bUd4WTE1Rklud1N1aTFGVVJXd0VqbTB4UnBtRlB4NFdGR21mVGxUUXBpTG9oY0FBWlE2NGZ3bi03TEJ6dXIzVEtQWWtMa09MYVFQZnpqaHhsVHFLVlBHUld3M0huVUV4aWJBVHp3bTVhdVhyNEJVQkNlZ2U1Ri1mZFp2?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-03T17:09:00.000Z",
+            "category": "esg",
+            "metals": [
+              "nickel"
+            ],
+            "topics": []
+          },
+          {
+            "title": "USA Rare Earth Just Made a $2.8 Billion Strategic Acquisition That Sent the Stock Soaring. Time to Buy? - AOL.com",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1RXFsZF9va0U2MXI3cXd3bjkxekZyWEdYQzRQUnpFNkdKTG9OWHVsaTVoUnkzMEEwd3FiTFRRZVdkQmFud2Z5UDFCakpnRnFJV1VqTThiazBHbzB5TzduRjZZWTFUa1JkckZ0QUlZWFJTNXBDV2c?oc=5",
+            "source": "AOL.com",
+            "sourceUrl": "https://www.aol.com",
+            "pubDate": "2026-05-04T00:53:58.000Z",
+            "category": "china-policy",
+            "metals": [
+              "rare-earths"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Iran war energy shock drives nuclear power plans in hard-hit Asia, Africa - Dailyhunt",
+            "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQzdENjlDLUF3eEpsTW92UFdPbXdjNmlrTkc3S2F4OTNQRHdxR21uNEpFUDJZZEdlNDFjSjF4d3RzS0I2bndaOUI4cHVCelFhbWtJUXJyUHgtR3VIdVBfdTZPQnFlU0x6X3VfbDRhbEhuMjFlTGxEcjZkMDZQRzE3MGpZY2ZGZDNRWjlQUDBNWTRrem1HSGlxN0JNX2p1anNUc291ZjR1aS0wMzVGTmVpQTZjOGdDYUZIMVFDNDFyeDhsUFF5X3JJa1BQVHZlN1FSckxzSlJGV0s0LWhkcU9fcy1hbEJUdXlodkZWVzE3cm1WM1gzSUdfVmt0UnRKeE9I?oc=5",
+            "source": "Dailyhunt",
+            "sourceUrl": "https://m.dailyhunt.in",
+            "pubDate": "2026-05-04T03:48:41.000Z",
+            "category": "uranium",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "India Markets Diverge: Energy Themes Rise as IT Faces AI Headwinds - Whalesbook",
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYXFOSGNHY0V3Y2xIOVFOSUg4ZWNhdGczWnNRVTV4dVNhaHUzVUM5UzlSRU8zZExPbTNnLU41QlB6bnNiTUtqSTViQjlPNlhHbnFxTmNKU3I4UWNWN0pVRV9iUDlHdUlBZUNVTWk1MUEyVjRYSXRFNHlBdmh6UFVkVzNpZUVyV2dEbHRPX3ZFTzM1X0pteHpfRXRSekpuTk1mVlQyMThjdU5MdnFJYmFKZE81TmFwUmhHQ045YXdqcmQ4S2tvVTRKU0dJUE9LZjhlQmxwVE5IQVk2OXE0Y3EzbzZR?oc=5",
+            "source": "Whalesbook",
+            "sourceUrl": "https://www.whalesbook.com",
+            "pubDate": "2026-05-04T05:55:56.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "BHP Group Ltd’s China Iron Ore Deal Puts Rio Tinto and Fortescue on the Clock - Bez Kabli",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWsxc3l1TWUtM3o4QUtxaVJka1loVjg2UzVrZ3VLT0hUUlRzajFvM2JILVp5UVB1M2xJYU1vZGFiR1JKeHNWTUZsZDVOa3lRQ3h1U1RJb0hTNlZTQVo3OUZObVhNcjI4NkFzUlFGOXZRVnBDdFlWTVlTSDYwc1Z1ZFlWczhZQjRnTG9zbnQ3TkZlZUhiOUhmTTJxanRidWlERmJHcA?oc=5",
+            "source": "Bez Kabli",
+            "sourceUrl": "https://www.bez-kabli.pl",
+            "pubDate": "2026-05-03T13:17:34.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "lithium",
+              "iron-ore"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Temas Resources Engages Vector Advisors - ACCESS Newswire",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcGV4RnV2YWR1NG50V3dMY1hHai1KS3paZHB6b2p4WHhDRjlTcVZ2ZFM4LXgxX3pDLTQ0ejljNnc1Rkl2eWVaeEpSZXV0X0tpdFpaRHA1YmZucFExQWZXbUdJR0N2bVMxdGluandhUHNMUE10MlQ2emgyRF9VamZzVVlubU00aVFvQjU3eFVtQWlCVUVtU3RWY3hvYkVzdUhzWDF1TDlJbzVWVEZ3?oc=5",
+            "source": "ACCESS Newswire",
+            "sourceUrl": "https://www.accessnewswire.com",
+            "pubDate": "2026-05-04T11:39:17.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Hudbay Record Quarterly Earnings: A Financial Milestone in 2026 - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3gwc08wSFpIN28xWG5SekdIVWZMcDdoQjVucUdQSnJ4QnltZHpNS0w5S29hdUVFcU5GalBIWnQyOW9VRWpieEpOOG5tZkxxU2t1UWpDX1BiR3RZZl9MS0l3WGFKbHJZY1VBVkQwMXNCZm12LVVJTXdiVzRpUEx3Tm1mWTFlcjg1MGlMT1N5UkpaN0Jq?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-04T08:24:23.000Z",
+            "category": "general",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "MicroStrategy tokenized stock (xStock) price today, MSTRX to USD chart, marketcap and volume - CryptoSlate",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SN3BvSGlvdkp5QUhTQUtiYlVWQ0k3MGF0bjlBU0NDcjZfM0NmZ3hnenotTVBnVTVqbWtVRzJxTmYwMzlfRkg4OWVQZlN5QVdWZE8wNEdQRzBsbDBpZjl6TkZsYkkzbTk4UWdTaG5kTm0ya1dvc0E?oc=5",
+            "source": "CryptoSlate",
+            "sourceUrl": "https://cryptoslate.com",
+            "pubDate": "2026-05-04T07:17:36.000Z",
+            "category": "rwa",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "rwa"
+            ]
+          },
+          {
+            "title": "NYSE Proposes Groundbreaking Move to Tokenized Securities Trading - FinanceFeeds",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSVVfbjJCeVZnTXpqaGR1NTBvX2IxZWJCLVRiZnFJQjRhSnBTZ2tVNFF6VDRWNWkyazJDc2JUMkdPd0dOVFM5VWNac21yUjhYSnNjbVJUWnRXNUxTTWFnTF9sNndBYThiVE04NVFtSkRncVpxUVExTmltOWxwYXJqQjRFaVdFVGJMS2tkbVpLa09DTHFEcUE?oc=5",
+            "source": "FinanceFeeds",
+            "sourceUrl": "https://financefeeds.com",
+            "pubDate": "2026-05-04T07:14:37.000Z",
+            "category": "rwa",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "rwa"
+            ]
+          },
+          {
+            "title": "A Brief Analysis of Stablecoin Licenses and On-Chain Funding - 链捕手ChainCatcher",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NckRpdEdqNGJCWW9UejR5UHBld1RuaW1PazZWY21qUnhySUdZbXBBOURaWVV1eWFrRkNCODlEcWV0MG5wVm5hbFZ2Q2pyckJsckxUaVhmeVJubXc?oc=5",
+            "source": "链捕手ChainCatcher",
+            "sourceUrl": "https://www.chaincatcher.com",
+            "pubDate": "2026-05-04T03:57:49.000Z",
+            "category": "rwa",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Japan was first mover on economic security. Australia’s now a partner - AFR",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOElmNDZaOE40MXl3T3kwV0ZaXzgtdF90Z0UtU1lpSDUtN3NnNWd4OENzbk5HSXVDUjBYMXBzZmE2eVBUQW5aZmVweGRPWGhpTWx2NlhrZkFuSXpYdjJYbngyUERSN1FkOHZrbW9nZlJfWVZTRnA0akJ1RkZkWkVTWmNNTm90d0tQMTVBR08xYW9uMVo1WW50N2c2VjVUYS1OVXdqQnJrSU5BZXJyMS1HMWd3ZU14aGg0Y194YnFaQ2M3TG92TEE?oc=5",
+            "source": "AFR",
+            "sourceUrl": "https://www.afr.com",
+            "pubDate": "2026-05-04T05:45:00.000Z",
+            "category": "china-policy",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Copper costs turn negative for Southern, Vale as byproducts soar - Mining.com",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMDNyWlJaOWpCVzJwZEQzVkVqc0F4YkVyekZXazVNdHJTZ2RhcTFHWDllTFNIMDRoVHkzOHpHbzZzdFBvNEhram8yNE5nNENqejZrQkgzaTZrYzhZWVN6SzA5SVZhSlRKNFNKUnUtRHlUVXZGZUhRUzRKZm1YVVNOSTB0REFUeFlvUmpQWUVXOUhYa0pEY3c?oc=5",
+            "source": "Mining.com",
+            "sourceUrl": "https://www.mining.com",
+            "pubDate": "2026-05-01T16:30:49.000Z",
+            "category": "general",
+            "metals": [
+              "copper"
+            ],
+            "topics": []
+          },
+          {
+            "title": "China Indoor Residential Switchgear - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdVNmbTFuWlVDWkZNNnBXUzMxZlU1SkNqNDZpRnoya0hqb0lldUVsUmFyX1hkVWhBWTIzZnVFUW9NMG9nRDJDZjBxVFU3WnZIV2o5Y0U3bGJ3SjUxVTVGZUFDS0lMUXNWaXF1NjVCbDdXQURJZ2ZLa1hYcWxGbEVhdkxWLU8tNmIyTTM0SDBXbVdzTWM0MmJxSERaWmVFazRmVUJkRS1iR0hRNldXZXRmZGJqNHRrNTQ?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-03T18:38:21.000Z",
+            "category": "copper",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Germany Exhaust Sensor - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbDYxdi0zd1U1eklQMEdTb2JacEZxamtSNWQtQnlBdVR5ZENSRVlfS3RZZEJnUzFzVGE3WFBtX0YwcDM3blZOSUJ4SjV3NmZkMlBmVHNqZDlfQWMzSUU2WjhVSTNyQ0VKakVwUGRGVXdXbjlOOEFvVVpRVzJ6bkl6WTdVMlhfaVl0bHNMZUgyQWtsTlBSY3FVT2VyRWk0V2E5enZvS0pB?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-03T22:03:37.000Z",
+            "category": "pgm",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Parks Reef High-Grade PGM Drilling Results | Podium - Discovery Alert",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORDdMV19RLXlDcE41SHRMZ3pzbHVMaTZoa0xYdnZPYl9ETEc0MzB5aGk1bnNObG84WmNuQVFyQVNVd1JvVi1yTE02SFR6dWZ0OUNaV2Y4U3VPUmJFTmVXRW5rWFE5MEQzazJzeHQyT2tBcWlNQ3ZyM3pJd1JlMjhZTlJUQXVLQzRJdUJ0Z3Y0NTBWS0k?oc=5",
+            "source": "Discovery Alert",
+            "sourceUrl": "https://discoveryalert.com.au",
+            "pubDate": "2026-05-03T22:55:05.000Z",
+            "category": "pgm",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "India’s critical mineral imports show high concentration of trade linkages, reinforcing need for diversification - Hellenic Shipping News",
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeXdUY1VaVWxmXzFMRkY3elNmczlyck9OQ0owRmNrZ2JpREpwTHNKVkZZSHMzSWJGOVozZ3kwVVdRUXNIMHEtcEFJNFdydUZaS0xIR0U5M25tZDAyS09taEFnaFNIS0xhcHJHM1dORkwyUnVrWVlXWnFhSG9qZG45Nkl6a2owVHF6aTVmakY0Y2ZFb0NtUVVZQ0M4aVAycXVZcV9sZ3ZMVkp2QVlia1dqd1FpZU1tSWdtaEZKNEQ2akkwSElZclQzcVlPX2NFUXRBZVdjcVhlVTNwdl83NXF0XzFR?oc=5",
+            "source": "Hellenic Shipping News",
+            "sourceUrl": "https://www.hellenicshippingnews.com",
+            "pubDate": "2026-05-03T21:03:56.000Z",
+            "category": "battery",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "China Vitamins and Minerals Based Injectables - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTlpzVll3eGEzYnNOOTh5aEVEZU1UOXBNRkFCRmpxMXJNNjNKRlB1ZWJQM19XSnJ0WjdsSXdRbWdmNkZ4RlNQTUk3bUZZSlJ1TTVGVG9NeDRLQnkxOG1jSWRIOFFVbFVIcDd1YXpiVVA5ZFh2V2htb05KLUFJWkdBbWRrb204MUc5cTJDaVpNdWtNaExLaEtRYXRhd2JpaXVhLWxnb2V2RWFrQVpRSTlXSkFqNVNyTGJfVG5xM2ZnUWxWYXB6?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-03T19:07:12.000Z",
+            "category": "specialty",
+            "metals": [
+              "general"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Canada Food Minerals Market 2026 Analysis and Forecast to 2035 - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYUZlU1lsRDlLM2JXTmJhelRNek5jMnFGTWVCSHZkWUk2UnBuU1JIUVQ2d2xEeVJpbUhNeTRNZW9nZnB6elJBNGJQRTZLVTU2Tkhrc1h2YWg1TGZCeTJXRXFkT24wV2lQNGNacEt6bnJZOG1IMWpIc1V1VkRzdEZpQk9rYXhOcmMwQ2NFUjNPUkdFU1FhdEUyckpELXUwMktmckdr?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-03T20:28:21.000Z",
+            "category": "specialty",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "Japan Throttle Cable - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZHkzRl9fY0pYblBUS3pkQS14bm5sQkNJcW14aXVsV0ZLM1pTbkxwNE9KYUpLUFZKSEphV3BiLTRWSmRtUVoxdHZIMGZzQktFalpsUGx6d3BGOGhQZFdSTHFQcW5GS29XUzdkc3JFd0xjeDNQZDcyMFo1RW5XVGFuT19TcWxOaXdXcDFlVHBfcnY3bDRkdS02QlIzSmNicUU3anNN?oc=5",
+            "source": "IndexBox",
+            "sourceUrl": "https://www.indexbox.io",
+            "pubDate": "2026-05-03T15:07:20.000Z",
+            "category": "iron-ore",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          },
+          {
+            "title": "The Kazakhstan Tungsten Deal: Strategic Necessity Meets Capital Proximity - Rare Earth Exchanges",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeUlIMlA5N3BXdzBVcU5IUGc0dk1aWXRqdTB1NEU2VmZGSXI1OXl0Y2otWkFhVVhDSWU0ZXpSNXhncFNPUWVBQlZxa290UldhZDhwckJLQlk2TjhxZm1zalowZGt3UUU5VC1Zaldjc0NkOUN3eGlWVUhYNXdIRGxaY1hHdVQ4VHpZYldfbWE3NWdZUGZZakRmQmlZa1U0Z29XNDhLXzhQdWhQNEtPNnc?oc=5",
+            "source": "Rare Earth Exchanges",
+            "sourceUrl": "https://rareearthexchanges.com",
+            "pubDate": "2026-05-02T15:40:58.000Z",
+            "category": "china-policy",
+            "metals": [
+              "rare-earths",
+              "tungsten"
+            ],
+            "topics": [
+              "china-policy"
+            ]
+          },
+          {
+            "title": "Why experts say this nuclear development cycle is strongly underpinned - Investing.com",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM1NzY2lQcVZmYk9XQVJ6eTZjdGU4S2RIandwMlFVTlhHMEp3eEZLSTVKdWxpN2pad1FNMXZQN1lta0kzVnZxXzZQamVleVhKYlJ3WmY0UFMtQjdpLUlaT1RFTkpMdndQLTl1MTdPWmtSUW5sdFo5Z2JVNmU3ZWZlWmhQckZtaHBvcHZRcUZSMFlBaXlCLXRvQTB4VF9aT0pGT0Y4TW83Yk5td3IwcFM2S2F2dWk2VlJpLU82ZWdLUVlrOFdEdlpvT3BB?oc=5",
+            "source": "Investing.com",
+            "sourceUrl": "https://m.investing.com",
+            "pubDate": "2026-05-02T04:48:00.000Z",
+            "category": "uranium",
+            "metals": [
+              "general"
+            ],
+            "topics": []
+          }
+        ]
+      }
     }
   ],
-  "unique_articles_total": 171
+  "unique_articles_total": 197
 }
