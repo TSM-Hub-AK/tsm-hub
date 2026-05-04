@@ -716,7 +716,7 @@ for (const [metalKey, config] of Object.entries(METAL_CONFIG)) {
     "creator": {
       "@type": "Organization",
       "name": "TrueSource Metals",
-      "url": "https://truesourcemetals.com"
+      "url": "https://www.truesourcemetals.com"
     },
     "temporalCoverage": new Date().toISOString().split('T')[0] + "/..",
     "spatialCoverage": "Global",
