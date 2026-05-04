@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Cobalt — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Cobalt: official prices, production data for 14 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Cobalt price, Cobalt price today, Cobalt LME price, Cobalt SHFE price, Cobalt producers, Cobalt production by country, Cobalt reserves, Cobalt market data, Cobalt commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/cobalt">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Cobalt — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Cobalt: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/cobalt">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Cobalt — Official Prices, Production & Reserves","description":"Cobalt (Co): official exchange prices, mine production data for 14 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/cobalt","keywords":["cobalt price","cobalt price today","Co price","cobalt LME","cobalt producers","cobalt production by country","cobalt reserves","cobalt market data","battery metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Cobalt official settlement/fix prices","Cobalt mine production by country (USGS MCS 2026)","Cobalt reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Cobalt","item":"https://hub.truesourcemetals.com/metals/cobalt"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Cobalt
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Cobalt</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Battery Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Co · Battery Metal · 14 producing countries · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,383 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num">e200</td><td class="num">e300</td><td class="num">70,000</td></tr><tr><td>Australia</td><td class="num">e4,780</td><td class="num">e3,700</td><td class="num">1,700,000</td></tr><tr><td>Canada</td><td class="num">e3,350</td><td class="num">e3,500</td><td class="num">220,000</td></tr><tr><td>China</td><td class="num">e2,000</td><td class="num">e2,000</td><td class="num">160,000</td></tr><tr><td>Congo (Kinshasa)</td><td class="num">e226,000</td><td class="num">e230,000</td><td class="num">6,000,000</td></tr><tr><td>Cuba</td><td class="num">e3,450</td><td class="num">e2,000</td><td class="num">500,000</td></tr><tr><td>Indonesia</td><td class="num">e35,000</td><td class="num">e44,000</td><td class="num">760,000</td></tr><tr><td>Madagascar</td><td class="num">e3,100</td><td class="num">e3,900</td><td class="num">100,000</td></tr><tr><td>Papua New Guinea</td><td class="num">e2,630</td><td class="num">e2,800</td><td class="num">84,000</td></tr><tr><td>Philippines</td><td class="num">e3,100</td><td class="num">e3,700</td><td class="num">260,000</td></tr><tr><td>Russia</td><td class="num">e8,000</td><td class="num">e7,700</td><td class="num">800,000</td></tr><tr><td>Turkey</td><td class="num">e2,200</td><td class="num">e1,900</td><td class="num">91,000</td></tr><tr><td>Other countries</td><td class="num">e7,780</td><td class="num">e9,100</td><td class="num">780,000</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">302,000</td><td class="num">310,000</td><td class="num">12,000,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Congo (Kinshasa)</td>
+      <td class="num">6,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Australia</td>
+      <td class="num">1,700,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">800,000</td>
+    </tr>
+  
+    <tr>
+      <td>Other countries</td>
+      <td class="num">780,000</td>
+    </tr>
+  
+    <tr>
+      <td>Indonesia</td>
+      <td class="num">760,000</td>
+    </tr>
+  
+    <tr>
+      <td>Cuba</td>
+      <td class="num">500,000</td>
+    </tr>
+  
+    <tr>
+      <td>Philippines</td>
+      <td class="num">260,000</td>
+    </tr>
+  
+    <tr>
+      <td>Canada</td>
+      <td class="num">220,000</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">160,000</td>
+    </tr>
+  
+    <tr>
+      <td>Madagascar</td>
+      <td class="num">100,000</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">12,000,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed cobalt production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual cobalt production (Co, tonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>CMOC Group Ltd. (China Molybdenum Co., Ltd.)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">114,165</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf" target="_blank" rel="noopener" title="Cobalt metal production; FY ends Dec 31">HKEX Annual Results Announcement 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Zhejiang Huayou Cobalt Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">46,800</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.huayou.com/Public/Uploads/uploadfile2/files/20250418/2024AnnualReportofHuayouCobalt.pdf" target="_blank" rel="noopener" title="Primary source reports &quot;shipment of cobalt products ... 46,800 metal tons (including internal supply)&quot;; production may be similar/higher. No explicit &quot;production&quot; figure found in accessible excerpts.">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Glencore plc</div>
+      <div class="producer-card__country">Switzerland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">38,200</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf" target="_blank" rel="noopener" title="Own sourced cobalt production (metric tonnes contained metal); calendar year ended Dec 31, 2024. Most recent available as of Apr 2026 (2025 report not yet confirmed published).">Glencore Full Year 2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Eurasian Resources Group S.à r.l. (ERG)</div>
+      <div class="producer-card__country">Luxembourg</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">19,000</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">calendar 2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.erg.kz/files/redesign/report_cards/1449079069696dfe26422c14.24787907/file/SD%20review%202024_final%20(ENG" target="_blank" rel="noopener" title="Saleable cobalt hydroxide (not contained Co metal). Reports 19kt hydroxide, down 5% from 20kt in 2023. No contained Co figure found in primary sources.">ERG Sustainable Development Review 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Nanjing Hanrui Cobalt Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">16,169</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="http://pdf.dfcfw.com/pdf/H2_AN202504171657968385_1.pdf" target="_blank" rel="noopener" title="Cobalt metal production (金属吨); electrolytic cobalt project expansion drove 95% YoY growth. Sales 15,401 t.">2024 年年度报告</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Sherritt International Corporation</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,206</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://sherritt.com/wp-content/uploads/2025/04/Q4-2024-Financial-Report.pdf" target="_blank" rel="noopener" title="Sherritt's share is 50% of Moa JV (1,603 t). Production is finished cobalt (metric tonnes contained Co metal).">Q4 2024 Financial Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>MMG Limited (Kinsevere mine)</div>
+      <div class="producer-card__country">China (Hong Kong listed; subsidiary of China Minmetals Corp.)</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2,926</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.mmg.com/wp-content/uploads/2025/04/MMG_AR24_MDA_KIN.pdf" target="_blank" rel="noopener" title="Kinsevere cobalt production. Figure from production table (tonnes); payable sold 1,617 t. Kinsevere is 100% owned by MMG.">MMG Annual Report 2024 - Kinsevere MDA</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Vale S.A.</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2,079</span>
+            <span class="producer-card__kt-unit">t Co</span>
+            <span class="producer-card__fy">calendar 2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://api.mziq.com/mzfilemanager/v2/d/53207d1c-63b4-48f1-96b7-19869fae19fe/4588c428-e2bc-d57a-9544-935f8716805c?origin=1" target="_blank" rel="noopener" title="Cobalt finished production (by-product from nickel); assumed metric tonnes contained Co metal per task convention. From official company production report.">Vale's Production and Sales in 4Q24 and 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Boliden AB</div>
+      <div class="producer-card__country">Sweden</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">Calendar 2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Primary sources confirm nickel production from Kevitsa (6% of mines sales FY2024) but no separate cobalt disclosure despite low Co grades in…</div>
+          <div class="producer-card__source"><a href="https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_Q4_2024_presentation_0.pdf" target="_blank" rel="noopener">Boliden Q4 2024 Year-end Presentation</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>CNGR Advanced Material Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">N/A</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">No cobalt (Co metal) production in tonnes disclosed in primary filings; company produces cobalt-based precursors/tetroxide (market share 28%…</div>
+          <div class="producer-card__source"><a href="https://static.cninfo.com.cn/finalpage/2025-04-12/1223071459.PDF" target="_blank" rel="noopener">2024 Annual Report Summary</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Compagnie de Tifnout Tighanimine (CTT) – subsidiary of Groupe Managem</div>
+      <div class="producer-card__country">Morocco</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">N/A</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Subsidiary of Managem (99.77%). Reduced production in 2024 due to low Co prices (preserve resource), no tonnes disclosed in accessible prima…</div>
+          <div class="producer-card__source"><a href="https://www.managemgroup.com/sites/default/files/2024-09/RFS%202024%20MANAGEM_%20(002" target="_blank" rel="noopener">Managem H1 2024 Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Ganzhou Tengyuan Cobalt New Materials Co., Ltd. (Tengyuan Cobalt)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">Calendar</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">No Co production (t Co) in primary annual report summaries or performance filings reviewed; only qualitative growth mentions. Secondary sour…</div>
+          <div class="producer-card__source"><a href="http://static.cninfo.com.cn/finalpage/2026-04-21/1225128064.PDF" target="_blank" rel="noopener">2025 Annual Report Summary</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Lundin Mining Corporation (Eagle Mine)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Eagle Mine produced 9,907 t Ni and 8,906 t Cu in FY2025 (calendar 2025); cobalt mentioned as minor by-product but no production tonnage disc…</div>
+          <div class="producer-card__source"><a href="https://lundinmining.com/_resources/financials/2025-q4.pdf" target="_blank" rel="noopener">2025 Q4 MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>PJSC MMC Norilsk Nickel (Nornickel)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">Calendar</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Cobalt produced at Kola MMC; fire in 2022 reduced capacity to ~1,000 t, new facility launched 2025 with 3,000 t capacity, but actual FY24/25…</div>
+          <div class="producer-card__source"><a href="No" target="_blank" rel="noopener">Source</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>PT Halmahera Persada Lygend (JV: Lygend Resources & PT Trimegah Bangun Persada Tbk / Harita Nickel)</div>
+      <div class="producer-card__country">Indonesia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">JV Harita Nickel (NCKL 63.1%)/Lygend Resources (36.9%). Produces Ni-Co MHP, sulfates. Actual Ni production disclosed (e.g. HPL H1: 33k t Ni …</div>
+          <div class="producer-card__source"><a href="https://www.hkexnews.hk/listedco/listconews/sehk/2025/0328/2025032802876.pdf" target="_blank" rel="noopener">Lygend Resources 2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>PT Huayue Nickel Cobalt (Zhejiang Huayou Cobalt)</div>
+      <div class="producer-card__country">Indonesia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">N/A</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private Indonesian JV of Zhejiang Huayou Cobalt (603799 · SSE). No specific annual Co production (t Co contained) in primary filings; only a…</div>
+          <div class="producer-card__source"><a href="https://www.huayou.com/Public/Uploads/uploadfile2/files/20250418/2024AnnualReportofHuayouCobalt.pdf" target="_blank" rel="noopener">Zhejiang Huayou Cobalt 2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>Shenzhen GEM High-Tech Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Primary source discloses cobalt product sales: 20,664 t Co3O4 (product weight, FY2024), 12,557 t other Co products (product weight, FY2024).…</div>
+          <div class="producer-card__source"><a href="https://static.cninfo.com.cn/finalpage/2025-04-26/1223332823.PDF" target="_blank" rel="noopener">2024 Annual Report Summary (cninfo.com.cn)</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Terrafame Ltd.</div>
+      <div class="producer-card__country">Finland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">calendar 2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Privately held (56.1% Finnish Minerals Group); reports battery chemicals sales EUR 196.7M FY2024 but no volume breakdown by metal</div>
+          <div class="producer-card__source"><a href="https://www.terrafame.com/media/mediamateriaali/raportointi/taloudelliset-katsaukset/2024/terrafame_financial_review_2024.pdf" target="_blank" rel="noopener">Financial Review 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Wanbao Mining (subsidiary of Norinco / China North Industries Group)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">N/A</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Cobalt resources: 55万 t (2010s data [51job Norinco page](http://campus.51job.com/norinco2021/company2.html)). Sales: 7,000 t Co (pre-2018 [B…</div>
+          <div class="producer-card__source"><a href="No" target="_blank" rel="noopener">Source</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Ambatovy Nickel (Sherritt 12%, Korea Resources Corp 27.5%, SNC-Lavalin 5%, Sumitomo Corp 54.167%)</div>
+      <div class="producer-card__country">Canada/Korea/Japan (operations in Madagascar)</div>
+      
+      
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1314,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1324,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1332,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link metals-nav__link--active">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1369,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

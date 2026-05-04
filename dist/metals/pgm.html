@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Platinum Group Metals — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Platinum Group Metals: official prices, production data for 0 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Platinum Group Metals price, Platinum Group Metals price today, Platinum Group Metals LME price, Platinum Group Metals SHFE price, Platinum Group Metals producers, Platinum Group Metals production by country, Platinum Group Metals reserves, Platinum Group Metals market data, Platinum Group Metals commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/pgm">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Platinum Group Metals — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Platinum Group Metals: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/pgm">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Platinum Group Metals — Official Prices, Production & Reserves","description":"Platinum Group Metals (PGM): official exchange prices, mine production data for 0 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/pgm","keywords":["platinum group metals price","platinum group metals price today","PGM price","platinum group metals LME","platinum group metals producers","platinum group metals production by country","platinum group metals reserves","platinum group metals market data","precious metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Platinum Group Metals official settlement/fix prices","Platinum Group Metals mine production by country (USGS MCS 2026)","Platinum Group Metals reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Platinum Group Metals","item":"https://hub.truesourcemetals.com/metals/pgm"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Platinum Group Metals
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Platinum Group Metals</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Precious Metal</span><span class="badge badge--exchange">LBMA</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          PGM · Precious Metal · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,333 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-platinum-group.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <p style="color:var(--color-text-muted)">Production data not available in standard format. See <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-platinum-group.pdf">USGS source</a>.</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed total PGM production (4E or 6E basis)</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual platinum-group metals production (thousand troy ounces). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Impala Platinum (Implats)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,550</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.implats-ir.co.za/results/2025/annual-results-2025/pdf/market-presentation-2025.pdf" target="_blank" rel="noopener" title="Key operations: Impala Rustenburg, Zimplats, Mimosa, Marula, Two Rivers, Impala Canada.">Implats FY2025 Annual Results Presentation</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Anglo American Platinum</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,412</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.valterraplatinum.com/~/media/Files/V/Valterra-Platinum/Platinum/investors/annual-reporting/annual-results-2025/annual-results-booklet-presentation-2025.pdf" target="_blank" rel="noopener" title="Key mines: Mogalakwena (948 koz M&C), Amandelbult, Mototolo, Unki, Modikwa; demerged from Anglo American in 2025 as Valterra Platinum.">Valterra Platinum Annual Results Booklet 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Sibanye-Stillwater</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2,165</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://reports.sibanyestillwater.com/2024/download/SSW-CIR24-operational-excellence.pdf" target="_blank" rel="noopener" title="Key SA PGM mines: Rustenburg, Marikana, Kroondal, Mimosa; US: Stillwater, East Boulder.">Combined Integrated Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Northam Platinum</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">899</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.northam.co.za/investors-and-media/announcements/2025/1671-voluntary-trading-statement-and-trading-update-for-the-year-ended-30-june-2025" target="_blank" rel="noopener" title="Key mines: Zondereinde, Booysendal, Eland.">Trading Update FY2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Zimplats</div>
+      <div class="producer-card__country">Zimbabwe</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">646</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.zimplats.com/data/2024/09/Zimplats-Final-Annual-Integrated-Report-FY2024-1.pdf" target="_blank" rel="noopener" title="Ngezi underground mines and Selous Metallurgical Complex on Great Dyke.">Zimplats FY2024 Integrated Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Mimosa Mining Company</div>
+      <div class="producer-card__country">Zimbabwe</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">254</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.implats-ir.co.za/results/2025/annual-results-2025/pdf/presentation.pdf" target="_blank" rel="noopener" title="Underground bord-and-pillar mine on Great Dyke; power disruptions impacted recoveries.">Implats FY2025 Annual Results Presentation</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Unki Mine (Zimbabwe, operated by Amplats)</div>
+      <div class="producer-card__country">Zimbabwe</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">240</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.valterraplatinum.com/~/media/Files/V/Valterra-Platinum/Platinum/investors/annual-reporting/annual-results-2024/annual-results-booklet-with-presentation-2024.pdf" target="_blank" rel="noopener" title="Underground mine on Great Dyke; PGM metal-in-concentrate production.">Valterra Platinum Annual Results Booklet 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Impala Canada (Lac des Iles Mine)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">237</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.implats.co.za/implats-at-a-glance.php" target="_blank" rel="noopener" title="Key mine: Lac des Iles (LDI), Ontario; 6E in concentrate.">Implats at a glance</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Glencore (Integrated Nickel Operations — Sudbury & Raglan)</div>
+      <div class="producer-card__country">Canada / Norway</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">116</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/a8114247-02e8-4bd8-bc04-81f411ba631c/GLEN_2025-FY-Production-Report.pdf" target="_blank" rel="noopener" title="Combined PGM from INO (Sudbury, Raglan, Nikkelverk): Pt 22 + Pd 91 + Rh 3 + Au 11 koz.">Glencore FY2025 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>ARM Platinum — Bokoni Mine</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">45.6</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.arm-ir-reports.co.za/results/2025/annual-results/commentary.php" target="_blank" rel="noopener" title="Early ounces project ramp-up using 60ktpm concentrator; operations suspended end FY2025.">ARM FY2025 Annual Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>KGHM International (Sudbury Basin)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">17.3</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2022</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://raportcsr2022.kghm.com/en/kghm-group-in-2022/performance-of-the-kghm-international-ltd-segment/" target="_blank" rel="noopener" title="McCreedy West underground mine in Sudbury Basin, Canada; assets sold to Magna Mining in Feb 2025.">KGHM Integrated Report 2022</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>African Rainbow Minerals (ARM Platinum)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key mines: Modikwa (41.5% ARM), Two Rivers (54% ARM), Bokoni (100% ARM); ~616 koz 6E (100% basis FY25), attributable undisclosed in primary …</div>
+          <div class="producer-card__source"><a href="https://www.arm-ir-reports.co.za/reports/arm-iar-2025/index.php" target="_blank" rel="noopener">ARM Integrated Annual Report 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Nornickel</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Primary operations at Talnakh and Norilsk sites on Taimyr Peninsula; reports Pd 2762 koz and Pt 667 koz separately, no combined 4E/6E PGM to…</div>
+          <div class="producer-card__source"><a href="https://nornickel.com/upload/iblock/cf7/5gbm89s3ovimx76xl2cjsg6vk59ppmo3/nornickel_production_results_2024_eng_full.pdf" target="_blank" rel="noopener">Production Results 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Platinum Group Metals Ltd. (Waterberg Project)</div>
+      <div class="producer-card__country">South Africa (project); Canada (incorporated)</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Pre-production developer/operator of Waterberg Project, a planned bulk underground PGM mine on Northern Limb Bushveld Complex, South Africa;…</div>
+          <div class="producer-card__source"><a href="https://www.platinumgroupmetals.net/news/news-details/2025/Platinum-Group-Metals-Ltd--Reports-2025-Annual-Results/default.aspx" target="_blank" rel="noopener">2025 Annual Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Vale Base Metals (Sudbury Operations)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Sudbury mines, mill, smelter, refinery; PGMs produced as nickel by-products (Pt 107 koz, Pd 120 koz company-wide FY2024), no Sudbury-specifi…</div>
+          <div class="producer-card__source"><a href="https://api.mziq.com/mzfilemanager/v2/d/53207d1c-63b4-48f1-96b7-19869fae19fe/4588c428-e2bc-d57a-9544-935f8716805c?origin=1" target="_blank" rel="noopener">Vale Production & Sales 4Q24 PDF</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>Impala Platinum Holdings (Implats)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,550</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.implats-ir.co.za/results/2025/annual-results-2025/pdf/market-presentation-2025.pdf" target="_blank" rel="noopener" title="Key operations: Impala Rustenburg, Zimplats, Mimosa, Marula, Two Rivers, Impala Canada.">Implats FY2025 Annual Results Presentation</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>Anglo American Platinum (Amplats / Valterra Platinum)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,412</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.valterraplatinum.com/~/media/Files/V/Valterra-Platinum/Platinum/investors/annual-reporting/annual-results-2025/annual-results-booklet-presentation-2025.pdf" target="_blank" rel="noopener" title="Key mines: Mogalakwena (948 koz M&C), Amandelbult, Mototolo, Unki, Modikwa; demerged from Anglo American in 2025 as Valterra Platinum.">Valterra Platinum Annual Results Booklet 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Northam Platinum Holdings</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">899</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.northam.co.za/investors-and-media/announcements/2025/1671-voluntary-trading-statement-and-trading-update-for-the-year-ended-30-june-2025" target="_blank" rel="noopener" title="Key mines: Zondereinde, Booysendal, Eland.">Trading Update FY2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Zimplats Holdings (Impala subsidiary)</div>
+      <div class="producer-card__country">Zimbabwe</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">646</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.zimplats.com/data/2024/09/Zimplats-Final-Annual-Integrated-Report-FY2024-1.pdf" target="_blank" rel="noopener" title="Ngezi underground mines and Selous Metallurgical Complex on Great Dyke.">Zimplats FY2024 Integrated Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Glencore (Integrated Nickel Operations, Sudbury)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">116</span>
+            <span class="producer-card__kt-unit">koz PGM</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/a8114247-02e8-4bd8-bc04-81f411ba631c/GLEN_2025-FY-Production-Report.pdf" target="_blank" rel="noopener" title="Combined PGM from INO (Sudbury, Raglan, Nikkelverk): Pt 22 + Pd 91 + Rh 3 + Au 11 koz.">Glencore FY2025 Production Report</a></div>
+        
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1264,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1274,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">LBMA prices: via <a href="https://metals.dev">Metals.dev</a> API (official fix prices)</p>
       </div>
     </section>
 
@@ -1002,7 +1282,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link metals-nav__link--active">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1319,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

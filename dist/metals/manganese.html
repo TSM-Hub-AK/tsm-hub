@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Manganese — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Manganese: official prices, production data for 11 countries, reserves, 12 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Manganese price, Manganese price today, Manganese LME price, Manganese SHFE price, Manganese producers, Manganese production by country, Manganese reserves, Manganese market data, Manganese commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/manganese">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Manganese — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Manganese: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/manganese">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Manganese — Official Prices, Production & Reserves","description":"Manganese (Mn): official exchange prices, mine production data for 11 countries, reserves by country, 12 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/manganese","keywords":["manganese price","manganese price today","Mn price","manganese LME","manganese producers","manganese production by country","manganese reserves","manganese market data","strategic metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Manganese official settlement/fix prices","Manganese mine production by country (USGS MCS 2026)","Manganese reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Manganese","item":"https://hub.truesourcemetals.com/metals/manganese"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Manganese
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Manganese</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Strategic Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Mn · Strategic Metal · 11 producing countries · 12 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,269 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num"></td><td class="num"></td><td class="num"></td></tr><tr><td>Australia</td><td class="num">e1,600</td><td class="num">e1,600</td><td class="num">580,000</td></tr><tr><td>Brazil</td><td class="num">705</td><td class="num">e800</td><td class="num">300,000</td></tr><tr><td>China</td><td class="num">690</td><td class="num">e700</td><td class="num">260,000</td></tr><tr><td>Côte d'Ivoire</td><td class="num">340</td><td class="num">e350</td><td class="num">NA</td></tr><tr><td>Gabon</td><td class="num">4,640</td><td class="num">e5,000</td><td class="num">61,000</td></tr><tr><td>Ghana</td><td class="num">1,280</td><td class="num">e2,000</td><td class="num">13,000</td></tr><tr><td>India</td><td class="num">731</td><td class="num">e790</td><td class="num">34,000</td></tr><tr><td>South Africa</td><td class="num">7,490</td><td class="num">e7,600</td><td class="num">550,000</td></tr><tr><td>Other countries</td><td class="num">1,240</td><td class="num">e1,300</td><td class="num">Small</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">18,700</td><td class="num">20,000</td><td class="num">1,700,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: thousand metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (thousand metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Australia</td>
+      <td class="num">580,000</td>
+    </tr>
+  
+    <tr>
+      <td>South Africa</td>
+      <td class="num">550,000</td>
+    </tr>
+  
+    <tr>
+      <td>Brazil</td>
+      <td class="num">300,000</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">260,000</td>
+    </tr>
+  
+    <tr>
+      <td>Gabon</td>
+      <td class="num">61,000</td>
+    </tr>
+  
+    <tr>
+      <td>India</td>
+      <td class="num">34,000</td>
+    </tr>
+  
+    <tr>
+      <td>Ghana</td>
+      <td class="num">13,000</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num"></td>
+    </tr>
+  
+    <tr>
+      <td>Côte d'Ivoire</td>
+      <td class="num">NA</td>
+    </tr>
+  
+    <tr>
+      <td>Other countries</td>
+      <td class="num">Small</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">1,700,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (12)</h2>
+        <span class="section__source">Ranked by latest disclosed Mn ore production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual manganese ore production (kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Comilog / Société Minière de la Moanda (Gabon — Eramet subsidiary)</div>
+      <div class="producer-card__country">France</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">6,803</span>
+            <span class="producer-card__kt-unit">kt ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.eramet.com/wp-content/uploads/2025/02/2025-19-02-Eramet-CP-Financial-results-2024.pdf" target="_blank" rel="noopener" title="Moanda mine; high-grade ore typically 44-52% Mn.">Eramet FY2024 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Eramet S.A. — Comilog (Moanda Mine, Gabon)</div>
+      <div class="producer-card__country">France</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">6,803</span>
+            <span class="producer-card__kt-unit">kt ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.eramet.com/wp-content/uploads/2025/02/2025-19-02-Eramet-CP-Resultats-Financiers-2024.pdf" target="_blank" rel="noopener" title="Key mine: Moanda/Comilog; ore grade not specified in results.">Eramet FY2024 Results Press Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Assmang Proprietary Limited (ARM Ferrous / African Rainbow Minerals)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,761</span>
+            <span class="producer-card__kt-unit">kt ore</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://arm.co.za/wp-content/uploads/2025/10/Ops-review_Ferrous-2025.pdf" target="_blank" rel="noopener" title="Key mines: Black Rock (Nchwaning, Gloria); no ore grade disclosed">ARM Ferrous Ops Review 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Tshipi é Ntle Manganese Mining (Pty) Ltd. — Tshipi Borwa Mine</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,603</span>
+            <span class="producer-card__kt-unit">kt ore</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://announcements.asx.com.au/asxpdf/20250731/pdf/06mbxnrlp6v6ns.pdf" target="_blank" rel="noopener" title="Tshipi Borwa mine, Kalahari Basin; ore grade ~36.5% Mn (lumpy/high-grade).">Jupiter Mines Q4 FY2025 Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>South32 Limited — Australia Manganese (GEMCO)</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2,151</span>
+            <span class="producer-card__kt-unit">kt ore</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.south32.net/docs/default-source/all-financial-results/quarterly-report-june-2025.pdf?sfvrsn=6edf80_1" target="_blank" rel="noopener" title="Key mines: Wessels, Mamatwan (Hotazel); ore grade sold 38.9% Mn.">South32 Quarterly Report June 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>MOIL Limited (Manganese Ore India Limited)</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,756</span>
+            <span class="producer-card__kt-unit">kt ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://moil.nic.in/userfiles/file/InvRel/Financials/Annual_Report_2023-24.pdf" target="_blank" rel="noopener" title="Various grades; key mine: Balaghat">Annual Report 2023-24</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Consolidated Minerals (Consmin) — Woodie Woodie Mine</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">Undisclosed</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key mine: Woodie Woodie (high-grade ~40% Mn ore).</div>
+          <div class="producer-card__source"><a href="https://www.consminerals.com.au" target="_blank" rel="noopener">ConsMin website</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Ghana Manganese Company Ltd. (GMC)</div>
+      <div class="producer-card__country">Ghana</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Nsuta mines; 26.9% Mn (2019 sample); no FY24/25 ore production disclosed on company site.</div>
+          <div class="producer-card__source"><a href="https://ghamang.com.gh/mine-overview/" target="_blank" rel="noopener">GMC Mine Overview</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Grupo Industrial Camargo Corrêa / Mineração Pedra Branca do Amapari (Brazil)</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Undisclosed; primarily gold/iron operations at Pedra Branca do Amapari, no primary Mn source found</div>
+          <div class="producer-card__source"><a href="https://construtoracamargocorrea.com.br" target="_blank" rel="noopener">Construtora Camargo Corrêa</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Guyana Manganese Inc. (wholly owned subsidiary of Bosai Group, China)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Matthews Ridge mine; 38% Mn per USGS citing company</div>
+          <div class="producer-card__source"><a href="https://en.cqbosai.com" target="_blank" rel="noopener">Bosai Minerals</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>JSC Nikopol Ferroalloy Plant (Ferrexpo / Privat Group related — Ukraine)</div>
+      <div class="producer-card__country">Ukraine</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Ferroalloy producer using manganese sinter/agglomerate; no ore mining output disclosed in primary financial/audit reports.</div>
+          <div class="producer-card__source"><a href="https://www.nzf.com.ua/Default.aspx?id=288&sect=management&subid=7" target="_blank" rel="noopener">Financial Reports Page</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>South32 Limited — South Africa Manganese</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1200,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1210,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1218,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link metals-nav__link--active">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1255,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

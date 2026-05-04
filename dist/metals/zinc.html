@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Zinc — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Zinc: official prices, production data for 12 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Zinc price, Zinc price today, Zinc LME price, Zinc SHFE price, Zinc producers, Zinc production by country, Zinc reserves, Zinc market data, Zinc commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/zinc">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Zinc — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Zinc: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/zinc">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Zinc — Official Prices, Production & Reserves","description":"Zinc (Zn): official exchange prices, mine production data for 12 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/zinc","keywords":["zinc price","zinc price today","Zn price","zinc LME","zinc producers","zinc production by country","zinc reserves","zinc market data","base metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Zinc official settlement/fix prices","Zinc mine production by country (USGS MCS 2026)","Zinc reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Zinc","item":"https://hub.truesourcemetals.com/metals/zinc"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Zinc
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Zinc</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Base Metal</span><span class="badge badge--exchange">LME</span><span class="badge badge--exchange">SHFE</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Zn · Base Metal · 12 producing countries · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,396 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zinc.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num">759</td><td class="num">e670</td><td class="num">9,300</td></tr><tr><td>Australia</td><td class="num">1,100</td><td class="num">e1,100</td><td class="num">64,000</td></tr><tr><td>Bolivia</td><td class="num">512</td><td class="num">e500</td><td class="num">NA</td></tr><tr><td>China</td><td class="num">4,000</td><td class="num">e4,100</td><td class="num">60,000</td></tr><tr><td>India</td><td class="num">e866</td><td class="num">e870</td><td class="num">10,000</td></tr><tr><td>Kazakhstan</td><td class="num">e375</td><td class="num">e360</td><td class="num">7,400</td></tr><tr><td>Mexico</td><td class="num">773</td><td class="num">e780</td><td class="num">14,000</td></tr><tr><td>Peru</td><td class="num">1,270</td><td class="num">e1,500</td><td class="num">18,000</td></tr><tr><td>Russia</td><td class="num">e310</td><td class="num">e430</td><td class="num">29,000</td></tr><tr><td>Sweden</td><td class="num">239</td><td class="num">e230</td><td class="num">4,100</td></tr><tr><td>Other countries</td><td class="num">1,730</td><td class="num">e2,000</td><td class="num">25,000</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">11,900</td><td class="num">13,000</td><td class="num">240,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: thousand metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zinc.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (thousand metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Australia</td>
+      <td class="num">64,000</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">60,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">29,000</td>
+    </tr>
+  
+    <tr>
+      <td>Other countries</td>
+      <td class="num">25,000</td>
+    </tr>
+  
+    <tr>
+      <td>Peru</td>
+      <td class="num">18,000</td>
+    </tr>
+  
+    <tr>
+      <td>Mexico</td>
+      <td class="num">14,000</td>
+    </tr>
+  
+    <tr>
+      <td>India</td>
+      <td class="num">10,000</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">9,300</td>
+    </tr>
+  
+    <tr>
+      <td>Kazakhstan</td>
+      <td class="num">7,400</td>
+    </tr>
+  
+    <tr>
+      <td>Sweden</td>
+      <td class="num">4,100</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">240,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed contained Zn production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual zinc production (Zn-contained, kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Vedanta</div>
+      <div class="producer-card__country">UK/India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,273</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.vedantalimited.com/public/uploads/11429/VEDL_PressRelease_Q4FY25_30April2025.pdf" target="_blank" rel="noopener" title="Total mined metal from Zinc India (1095 kt, key assets Rampura Agucha etc.) and Zinc International (178 kt, Gamsberg etc.).">Q4 FY25 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Glencore</div>
+      <div class="producer-card__country">Switzerland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">969</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/a8114247-02e8-4bd8-bc04-81f411ba631c/GLEN_2025-FY-Production-Report.pdf" target="_blank" rel="noopener" title="Own-sourced contained zinc from assets including Antamina, McArthur River, Kazzinc; up 7% from FY2024's 905 kt.">2025 Full Year Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Teck Resources</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">616</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.teck.com/news/news-releases/2025/teck-announces-2024-production-and-2025-guidance-update" target="_blank" rel="noopener" title="Primarily from Red Dog mine (556 kt), world's largest zinc mine, plus 22.5% Antamina share (60 kt).">2024 Production Update</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Zijin Mining</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">407</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.zijinmining.com/upload/file/2025/03/23/fe0519070ce84ef7992dfb7c03b40bc5.pdf" target="_blank" rel="noopener" title="Mine-produced zinc in concentrate; key assets: Zijin Zinc (Wulagen), Bisha (Eritrea), Longxing (Russia).">Annual Results Announcement 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Nexa Resources</div>
+      <div class="producer-card__country">Luxembourg</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">327</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.newsfilecorp.com/release/241717/Nexa-Resources-Reports-Strong-2024-Results-with-a-76-Increase-in-Annual-Adjusted-EBITDA" target="_blank" rel="noopener" title="Polymetallic producer; consolidated mining output from key assets incl. Cerro Lindo, Aripuanã, Vazante.">4Q24 & FY2024 Earnings Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Industrias Peñoles</div>
+      <div class="producer-card__country">Mexico</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">271</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.penoles.com.mx/assets/files/reportes/BMV/informe/en/Informe_Director_4T24_Eng.pdf" target="_blank" rel="noopener" title="Mining zinc production (contained metal, 100% attributable including Fresnillo plc and Juanicipio); key assets include Sabinas, Fresnillo, San Julián.">Directors Report 4Q24</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Compañía Minera Antamina S.A.</div>
+      <div class="producer-card__country">Peru</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">268</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.antamina.com/wp-content/uploads/2025/11/sustainability-report-antamina-2024.pdf" target="_blank" rel="noopener" title="Key polymetallic asset (Cu/Zn) owned by BHP (33.75%), Glencore (33.75%), Teck (22.5%), Mitsubishi (10%); contained Zn confirmed via owner reports (Teck: 268 kt 100%).">Antamina Sustainability Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Volcan Compañía Minera</div>
+      <div class="producer-card__country">Peru</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">236</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">CY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.volcan.com.pe/wp-content/uploads/2026/03/Memoria-Anual-Volcan-2025-vF.pdf" target="_blank" rel="noopener" title="Polymetallic producer (zinc primary); key units: Yauli, Chungar, Cerro de Pasco Sulfuros, Alpamarca.">Memoria Anual 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>MMG Limited</div>
+      <div class="producer-card__country">Hong Kong</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">220</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.mmg.com/wp-content/uploads/2025/01/e_2025-01-23_4QTR-Production-Report.pdf" target="_blank" rel="noopener" title="Total contained zinc from Dugald River (164 kt) and Rosebery (56 kt); primarily copper producer (Las Bambas) but strong zinc assets in Australia.">4Q24 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Lundin Mining (Neves-Corvo & Zinkgruvan)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">192</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://lundinmining.com/_resources/financials/annual_financial_statements_-_q4_2024_final_-_combined.pdf?v=032611" target="_blank" rel="noopener" title="Neves-Corvo 110 kt + Zinkgruvan 82 kt contained Zn; sold to Boliden in 2025.">Lundin Mining FY2024 MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Votorantim Metais (Nexa Resources Brazil operations)</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">180</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://api.mziq.com/mzfilemanager/v2/d/fe910899-6ec8-4afe-a772-1e96c9351084/7f085cd3-057d-f5e4-8f51-fb3d5ac483b0?origin=1" target="_blank" rel="noopener" title="Brazil mines: Vazante (141 kt), Aripuanã (32 kt), Morro Agudo (7 kt, Jan-Apr only); consolidated group 327 kt.">Nexa 4Q24 & FY2024 Earnings Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Boliden</div>
+      <div class="producer-card__country">Sweden</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">164</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://investors.boliden.com/sites/boliden-ir/files/pr/202502052475-1.pdf" target="_blank" rel="noopener" title="Contained zinc in concentrate from Mines unit (Garpenberg, Boliden Area, Tara); primary zinc mines.">Year-end Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Sibanye-Stillwater (Century Operation)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">82.0</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://reports.sibanyestillwater.com/2024/download/SSW-CIR24-operational-excellence.pdf" target="_blank" rel="noopener" title="Century zinc tailings retreatment operation in Queensland, Australia; 82 kt payable zinc metal produced.">Combined Integrated Report 2024 Operational Excellence</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Hudbay Minerals</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">33.0</span>
+            <span class="producer-card__kt-unit">kt Zn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results-Achieves-2024-Consolidated-Production-and-Cost-Guidance-and-Provides-2025-Annual-Guidance/default.aspx" target="_blank" rel="noopener" title="By-product Zn from Lalor mine (Manitoba); exact kt confirmed in secondary source citing company data, consistent with Q4 figure and 4% decline noted in primary press release.">Hudbay Q4/FY2024 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Hindustan Zinc</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">World's second largest integrated zinc producer; key asset Rampura Agucha mine; reports total mined metal but no contained Zn breakdown.</div>
+          <div class="producer-card__source"><a href="https://integratedreport.hzlindia.com/annual-integrated-report-fy-2024-25/" target="_blank" rel="noopener">Integrated Annual Report FY2024/25</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>Ivanhoe Mines</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Secondary zinc output from Kipushi mine (62% owned); 50 kt zinc in concentrate produced during inaugural ramp-up year.</div>
+          <div class="producer-card__source"><a href="https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-provides-2024-production-results-2025-production-guidance/" target="_blank" rel="noopener">2024 Production Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>Kazzinc</div>
+      <div class="producer-card__country">Kazakhstan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private company (Glencore ~70% owner); no contained Zn production disclosed in own sources, reports own-sourced Zn metal 128 kt + concentrat…</div>
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf" target="_blank" rel="noopener">Glencore FY2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Korea Zinc</div>
+      <div class="producer-card__country">South Korea</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">World's largest zinc smelter (Onsan); actual contained Zn production not found in accessible reports, check DART 사업보고서 for details.</div>
+          <div class="producer-card__source"><a href="https://www.koreazinc.co.kr/wp-content/uploads/2025/07/2024_%EA%B3%A0%EB%A0%A4%EC%95%84%EC%97%B0-%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EA%B2%BD%EC%98%81%EB%B3%B4%EA%B3%A0%EC%84%9CKOR.pdf" target="_blank" rel="noopener">2024 Sustainability Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Minera San Cristobal S.A. (Sumitomo)</div>
+      <div class="producer-card__country">Bolivia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">CY2023</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">World-class open-pit zinc-silver-lead mine in Potosí, Bolivia; reports 278 kt wet zinc-silver concentrate produced in 2023, no contained Zn …</div>
+          <div class="producer-card__source"><a href="https://www.minerasancristobal.com/reportesostenibilidad2023/english/home.html" target="_blank" rel="noopener">2023 Sustainability Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Nyrstar</div>
+      <div class="producer-card__country">Netherlands</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Nyrstar NV is a holding shell post-2019 restructuring; operational zinc smelting business (smelters in Netherlands, Belgium, Australia) whol…</div>
+          <div class="producer-card__source"><a href="https://www.nyrstarnv.be/~/media/Files/N/Nyrstar-IR/results-reports-and-presentations/english/2025/nyrstar-nv-2024-annual-report-english.pdf" target="_blank" rel="noopener">Nyrstar NV 2024 Annual Report</a></div>
+        
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1327,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1337,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">LME prices: via <a href="https://metals.dev">Metals.dev</a> API (official settlement prices)</p><p style="margin-bottom:var(--space-2)">SHFE prices: via <a href="https://www.shfe.com.cn">Shanghai Futures Exchange</a> (settlement prices)</p>
       </div>
     </section>
 
@@ -1002,7 +1345,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link metals-nav__link--active">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1382,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

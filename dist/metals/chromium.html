@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Chromium — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Chromium: official prices, production data for 10 countries, reserves, 12 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Chromium price, Chromium price today, Chromium LME price, Chromium SHFE price, Chromium producers, Chromium production by country, Chromium reserves, Chromium market data, Chromium commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/chromium">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Chromium — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Chromium: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/chromium">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Chromium — Official Prices, Production & Reserves","description":"Chromium (Cr): official exchange prices, mine production data for 10 countries, reserves by country, 12 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/chromium","keywords":["chromium price","chromium price today","Cr price","chromium LME","chromium producers","chromium production by country","chromium reserves","chromium market data","strategic metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Chromium official settlement/fix prices","Chromium mine production by country (USGS MCS 2026)","Chromium reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Chromium","item":"https://hub.truesourcemetals.com/metals/chromium"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Chromium
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Chromium</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Strategic Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Cr · Strategic Metal · 10 producing countries · 12 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,272 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-chromium.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num"></td><td class="num"></td><td class="num">8,500</td></tr><tr><td>Brazil</td><td class="num">e1,400</td><td class="num">e2,000</td><td class="num">3,900</td></tr><tr><td>Finland</td><td class="num">1,940</td><td class="num">e1,900</td><td class="num">63,000</td></tr><tr><td>India</td><td class="num">3,370</td><td class="num">e3,000</td><td class="num">79,000</td></tr><tr><td>Kazakhstan</td><td class="num">e6,100</td><td class="num">e7,000</td><td class="num">230,000</td></tr><tr><td>South Africa</td><td class="num">22,900</td><td class="num">e23,000</td><td class="num">350,000</td></tr><tr><td>Turkey</td><td class="num">9,300</td><td class="num">e9,000</td><td class="num">27,000</td></tr><tr><td>Zimbabwe</td><td class="num">1,600</td><td class="num">e2,000</td><td class="num">140,000</td></tr><tr><td>Other countries</td><td class="num">3,000</td><td class="num">e3,000</td><td class="num">NA</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">49,600</td><td class="num">51,000</td><td class="num">>1,200,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: thousand metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-chromium.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (thousand metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>South Africa</td>
+      <td class="num">350,000</td>
+    </tr>
+  
+    <tr>
+      <td>Kazakhstan</td>
+      <td class="num">230,000</td>
+    </tr>
+  
+    <tr>
+      <td>Zimbabwe</td>
+      <td class="num">140,000</td>
+    </tr>
+  
+    <tr>
+      <td>India</td>
+      <td class="num">79,000</td>
+    </tr>
+  
+    <tr>
+      <td>Finland</td>
+      <td class="num">63,000</td>
+    </tr>
+  
+    <tr>
+      <td>Turkey</td>
+      <td class="num">27,000</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">8,500</td>
+    </tr>
+  
+    <tr>
+      <td>Brazil</td>
+      <td class="num">3,900</td>
+    </tr>
+  
+    <tr>
+      <td>Other countries</td>
+      <td class="num">NA</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">>1,200,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (12)</h2>
+        <span class="section__source">Ranked by latest disclosed chromite/chrome production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual chromium production (kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Jubilee Metals Group Plc — Chromite Recovery (South Africa)</div>
+      <div class="producer-card__country">United Kingdom</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,933</span>
+            <span class="producer-card__kt-unit">kt Cr</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://senspdf.jse.co.za/documents/SENS_20251217_S514532.pdf" target="_blank" rel="noopener" title="Chromite recovery in South Africa: Thutse, Hernic, Inyoni, Windsor (Eastern Bushveld).">JSE SENS FY2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>TNC Kazchrome JSC (Eurasian Resources Group / ERG)</div>
+      <div class="producer-card__country">Kazakhstan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,850</span>
+            <span class="producer-card__kt-unit">kt Cr</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.globenewswire.com/news-release/2025/07/25/3121816/0/en/Kazchrome-a-subsidiary-of-Eurasian-Resources-Group-sets-a-new-global-industry-record-in-ferrochrome-production.html" target="_blank" rel="noopener" title="Key mines: Donskoy GOK, Bolashak (chrome ore)">ERG Press Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Glencore plc — Merafe Chrome Venture</div>
+      <div class="producer-card__country">Switzerland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,166</span>
+            <span class="producer-card__kt-unit">kt Cr</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf" target="_blank" rel="noopener" title="Mines: Helena, Magareng, Thorncliffe (Eastern Bushveld), Waterval, Kroondal (Western Bushveld); Smelters: Boshoek, Wonderkop, Lion, Lydenburg">Glencore FY2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Outokumpu Oyj — Kemi Chromite Mine</div>
+      <div class="producer-card__country">Finland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">374</span>
+            <span class="producer-card__kt-unit">kt Cr</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.outokumpu.com/-/media/files/investors/interim-reports/2024-results/financial-statements-release-2024.pdf?revision=1ce20fd4-ee74-4432-8365-b01b1f9dcf49&amp;modified=20250213063808" target="_blank" rel="noopener" title="key mine: Kemi">Financial statements release 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Merafe Resources Ltd.</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">301</span>
+            <span class="producer-card__kt-unit">kt Cr</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.meraferesources.co.za/reports/ir-2024/manufactured-capital.php" target="_blank" rel="noopener" title="Glencore-Merafe Chrome Venture: Eastern Bushveld mines, Rustenburg, Wonderkop, Boshoek, Lion, Lydenburg smelters">Integrated Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Indian Metals & Ferro Alloys Ltd. (IMFA)</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">260</span>
+            <span class="producer-card__kt-unit">kt Cr</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.imfa.in/media-hub/blog/a-force-to-reckon-with" target="_blank" rel="noopener" title="Key mines: Sukinda, Mahagiri">IMFA Blog</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Vedanta Resources Ltd. — Chromite (Odisha, India)</div>
+      <div class="producer-card__country">United Kingdom</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">240</span>
+            <span class="producer-card__kt-unit">kt Cr</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.vedantaresources.com/uploads/investor-overview/financial-results/VRL_Results_Presentation_FY24_final_website.pdf" target="_blank" rel="noopener" title="key mine: Ostapal (Odisha)">Vedanta FY24 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Odisha Mining Corporation Ltd. (OMC)</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY24/25</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key mines: South Kaliapani, Sukranoi, Bangur (Sukinda valley)</div>
+          <div class="producer-card__source"><a href="https://omcltd.in/Upload/Annual_Report_Documents/98a0726bbc6b477d9721f69b4440afeb_20231019124453903.pdf" target="_blank" rel="noopener">OMC Annual Report FY22/23</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Samancor Chrome (Pty) Ltd.</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key mines: Eastern Bushveld (Doornbosch, Lannex, etc.), Western Bushveld (Millsell, Mooinooi)</div>
+          <div class="producer-card__source"><a href="https://samancorcr.com/overview/" target="_blank" rel="noopener">Samancor Chrome Overview</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Tata Steel Mining Limited (TSML) — Sukinda Chromite Mines</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024/25</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key mine: Sukinda Chromite Mines, Odisha</div>
+          <div class="producer-card__source"><a href="https://www.tatasteel.com/investors/integrated-report-2024-25/pdf/Tata-Steel-IR-2024-25-Annexures-140725.pdf" target="_blank" rel="noopener">Tata Steel Integrated Report 2024-25 Annexures</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Yildirim Group / American Chrome & Chemicals Inc.</div>
+      <div class="producer-card__country">Turkey</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">Undisclosed</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key facilities: Eti Krom (Turkey), Voskhod (Kazakhstan), Vargön Alloys (Sweden); consolidated capacity 550 kt FeCr, 2,500 kt chrome ore (no …</div>
+          <div class="producer-card__source"><a href="https://www.yilmaden.com/at-a-glance" target="_blank" rel="noopener">YILMADEN At a Glance</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Zimasco (Pvt) Ltd. (majority owned by Sinosteel, China)</div>
+      <div class="producer-card__country">Zimbabwe</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">key mine: Shurugwi, Guinea Fowl, Mutorashanga</div>
+          <div class="producer-card__source"><a href="https://zimasco.co.zw/" target="_blank" rel="noopener">Zimasco website</a></div>
+        
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1203,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1213,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1221,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link metals-nav__link--active">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1258,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

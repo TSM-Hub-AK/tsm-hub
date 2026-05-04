@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Rare Earth Elements — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Rare Earth Elements: official prices, production data for 18 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Rare Earth Elements price, Rare Earth Elements price today, Rare Earth Elements LME price, Rare Earth Elements SHFE price, Rare Earth Elements producers, Rare Earth Elements production by country, Rare Earth Elements reserves, Rare Earth Elements market data, Rare Earth Elements commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/rare-earths">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Rare Earth Elements — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Rare Earth Elements: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/rare-earths">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Rare Earth Elements — Official Prices, Production & Reserves","description":"Rare Earth Elements (REE): official exchange prices, mine production data for 18 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/rare-earths","keywords":["rare earth elements price","rare earth elements price today","REE price","rare earth elements LME","rare earth elements producers","rare earth elements production by country","rare earth elements reserves","rare earth elements market data","strategic metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Rare Earth Elements official settlement/fix prices","Rare Earth Elements mine production by country (USGS MCS 2026)","Rare Earth Elements reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Rare Earth Elements","item":"https://hub.truesourcemetals.com/metals/rare-earths"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Rare Earth Elements
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Rare Earth Elements</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Strategic Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          REE · Strategic Metal · 18 producing countries · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,351 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num">45,500</td><td class="num">e51,000</td><td class="num">1,900,000</td></tr><tr><td>Australia</td><td class="num">e29,000</td><td class="num">e29,000</td><td class="num">6,300,000</td></tr><tr><td>Brazil</td><td class="num">e560</td><td class="num">e2,000</td><td class="num">21,000,000</td></tr><tr><td>Burma</td><td class="num">e27,000</td><td class="num">e22,000</td><td class="num">NA</td></tr><tr><td>Canada</td><td class="num"></td><td class="num"></td><td class="num">830,000</td></tr><tr><td>China</td><td class="num">e270,000</td><td class="num">e270,000</td><td class="num">44,000,000</td></tr><tr><td>Greenland</td><td class="num"></td><td class="num"></td><td class="num">1,500,000</td></tr><tr><td>India</td><td class="num">e2,900</td><td class="num">e2,900</td><td class="num">NA</td></tr><tr><td>Madagascar</td><td class="num">e1,400</td><td class="num">e2,700</td><td class="num">NA</td></tr><tr><td>Malaysia</td><td class="num">e140</td><td class="num">e110</td><td class="num">710,000</td></tr><tr><td>Nigeria</td><td class="num">e1,500</td><td class="num">e1,500</td><td class="num">NA</td></tr><tr><td>Russia</td><td class="num">e2,600</td><td class="num">e2,600</td><td class="num">3,800,000</td></tr><tr><td>South Africa</td><td class="num"></td><td class="num"></td><td class="num">860,000</td></tr><tr><td>Tanzania</td><td class="num"></td><td class="num"></td><td class="num">890,000</td></tr><tr><td>Thailand</td><td class="num">e2,100</td><td class="num">e4,800</td><td class="num">NA</td></tr><tr><td>Vietnam</td><td class="num">e300</td><td class="num">e150</td><td class="num">3,500,000</td></tr><tr><td>Other countries</td><td class="num">e1,000</td><td class="num">e550</td><td class="num">NA</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">380,000</td><td class="num">390,000</td><td class="num">>85,000,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>China</td>
+      <td class="num">44,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Brazil</td>
+      <td class="num">21,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Australia</td>
+      <td class="num">6,300,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">3,800,000</td>
+    </tr>
+  
+    <tr>
+      <td>Vietnam</td>
+      <td class="num">3,500,000</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">1,900,000</td>
+    </tr>
+  
+    <tr>
+      <td>Greenland</td>
+      <td class="num">1,500,000</td>
+    </tr>
+  
+    <tr>
+      <td>Tanzania</td>
+      <td class="num">890,000</td>
+    </tr>
+  
+    <tr>
+      <td>South Africa</td>
+      <td class="num">860,000</td>
+    </tr>
+  
+    <tr>
+      <td>Canada</td>
+      <td class="num">830,000</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">>85,000,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed REO production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual rare-earth-oxide production (kilotonnes REO). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>China Northern Rare Earth (Group) High-Tech Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">170</span>
+            <span class="producer-card__kt-unit">kt REO</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600111&id=10901519" target="_blank" rel="noopener" title="Operates Bayan Obo, world's largest REE deposit; 170 kt REO smelting-separation quota.">Sina Finance 2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>MP Materials Corp.</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">45.5</span>
+            <span class="producer-card__kt-unit">kt REO</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx" target="_blank" rel="noopener" title="Operates Mountain Pass mine and processing facility in California.">MP Materials FY2024 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>China Rare Earth Resources and Technology Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">7.80</span>
+            <span class="producer-card__kt-unit">kt REO</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=000831&id=11017137" target="_blank" rel="noopener" title="Ionic-type rare earth from Jianghua mine (Hunan); part of China Rare Earth Group.">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Energy Fuels Inc.</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">0.04</span>
+            <span class="producer-card__kt-unit">kt REO</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://investors.energyfuels.com/2025-02-27-Energy-Fuels-Announces-2024-Results,-Including-Active-U-S-Uranium-Mining,-Uranium-and-Mineral-Sand-Sales,-Commercial-U-S-Rare-Earth-Production,-and-Strong-Balance-Sheet" target="_blank" rel="noopener" title="Commercial production at White Mesa Mill; 38 tonnes separated NdPr oxide.">2024 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Arafura Rare Earths Limited</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Pre-production development stage for Nolans NdPr project in Northern Territory.</div>
+          <div class="producer-card__source"><a href="https://www.arultd.com/wp-content/uploads/2024/09/20240916-ST28239-Arafura-Annual-Report-2024_DIGITAL.pdf" target="_blank" rel="noopener">Arafura Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>China Rare Earth Group Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Controls ionic mid-heavy REE resources in southern China (Jiangxi, Guangdong, Hunan); formed 2021 via merger of state assets.</div>
+          <div class="producer-card__source"><a href="https://www.regcc.cn/" target="_blank" rel="noopener">REGCC Official Site</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Iluka Resources Limited</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Eneabba refinery under construction (commissioning 2027); rare earths co-product from mineral sands ops (Mount Weld, Cataby, Jacinth-Ambrosi…</div>
+          <div class="producer-card__source"><a href="https://www.iluka.com/media/hlbhtwnj/final-iluka-ar24-25225.pdf" target="_blank" rel="noopener">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>IREL (India) Limited</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Monazite beach sand processing at OSCOM (Odisha), Chavara (Kerala), MK (Tamil Nadu); ~11 ktpa RECl capacity at OSCOM REEP but actual undiscl…</div>
+          <div class="producer-card__source"><a href="https://www.irel.co.in/annual-reports" target="_blank" rel="noopener">IREL Annual Reports</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Lynas Rare Earths Limited</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Mt Weld mine and concentration plant in Western Australia; processing in Malaysia and Kalgoorlie.</div>
+          <div class="producer-card__source"><a href="https://lynasrareearths.com/investors-media/reporting-centre/annual-reports/" target="_blank" rel="noopener">Annual Reports</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Neo Performance Materials Inc.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Midstream processor of REE separation (ex-China JAMR/ZAMR, Silmet Estonia); C&O sales 7 kt (FY24, not REO-specific).</div>
+          <div class="producer-card__source"><a href="https://www.neomaterials.com/wp-content/uploads/2025/03/NPM-12.31.2024-MDA-vF2.pdf" target="_blank" rel="noopener">FY2024 MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>REEtec AS</div>
+      <div class="producer-card__country">Norway</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Separation plant under construction at Herøya, Porsgrunn (demo since 2019, full-scale 0.72 kt NdPr planned H2 2024).</div>
+          <div class="producer-card__source"><a href="https://www.reetec.no/" target="_blank" rel="noopener">REEtec AS</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Shenghe Resources Holding Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key projects: Dechang mine (Sichuan), overseas stakes in MP Materials (USA), Ngualla (Tanzania).</div>
+          <div class="producer-card__source"><a href="https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-06-04/600392_20250604_V7J5.pdf" target="_blank" rel="noopener">2024 Annual Report (SSE)</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Solikamsk Magnesium Plant (SMZ / Rosatom)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Processes loparite concentrate from Lovozersky GOK; ~2.7 kt REO reported in 2020 company PDF, planning separated REE production by 2028.</div>
+          <div class="producer-card__source"><a href="https://www.smw.ru/" target="_blank" rel="noopener">SMZ Official Website</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Solvay S.A.</div>
+      <div class="producer-card__country">Belgium</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">La Rochelle facility (France) started limited rare earth separation for permanent magnets in 2025; no quantitative REO production reported.</div>
+          <div class="producer-card__source"><a href="https://www.solvay.com/sites/g/files/srpend616/files/2026-02/2025Q4_Financialreport_EN.pdf" target="_blank" rel="noopener">FY2025 Q4 Financial Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Xiamen Tungsten Co., Ltd. (XTC)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Fujian rare earth resources via subsidiaries like Changting Jinlong Rare Earth.</div>
+          <div class="producer-card__source"><a href="https://file.finance.qq.com/finance/hs/pdf/2025/04/26/1223318000.PDF" target="_blank" rel="noopener">2024 Annual Report Abstract (SSE)</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>CBMM — Companhia Brasileira de Metalurgia e Mineração</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>China Minmetals Rare Earth Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>China Southern Rare Earth Group Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Ganzhou Qiandong Rare Earths Group Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Guangdong Rare Earth Industry Group Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1282,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1292,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1300,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link metals-nav__link--active">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1337,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

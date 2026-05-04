@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Graphite — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Graphite: official prices, production data for 20 countries, reserves, 15 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Graphite price, Graphite price today, Graphite LME price, Graphite SHFE price, Graphite producers, Graphite production by country, Graphite reserves, Graphite market data, Graphite commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/graphite">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Graphite — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Graphite: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/graphite">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Graphite — Official Prices, Production & Reserves","description":"Graphite (C): official exchange prices, mine production data for 20 countries, reserves by country, 15 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/graphite","keywords":["graphite price","graphite price today","C price","graphite LME","graphite producers","graphite production by country","graphite reserves","graphite market data","industrial mineral","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Graphite official settlement/fix prices","Graphite mine production by country (USGS MCS 2026)","Graphite reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Graphite","item":"https://hub.truesourcemetals.com/metals/graphite"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Graphite
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Graphite</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Industrial Mineral</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          C · Industrial Mineral · 20 producing countries · 15 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,315 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num"></td><td class="num"></td><td class="num">s</td></tr><tr><td>Austria</td><td class="num">100</td><td class="num">e200</td><td class="num">s</td></tr><tr><td>Brazil</td><td class="num">58,000</td><td class="num">e65,000</td><td class="num">74,000,000</td></tr><tr><td>Canada</td><td class="num">11,700</td><td class="num">e8,000</td><td class="num">5900000</td></tr><tr><td>China</td><td class="num">1,270,000</td><td class="num">e1,400,000</td><td class="num">100,000,000</td></tr><tr><td>Germany</td><td class="num">140</td><td class="num">e140</td><td class="num">s</td></tr><tr><td>India</td><td class="num">17,600</td><td class="num">e17,000</td><td class="num">8,600,000</td></tr><tr><td>Korea, North</td><td class="num">e8,100</td><td class="num">e8,000</td><td class="num">2,000,000</td></tr><tr><td>Korea, Republic of</td><td class="num">1,000</td><td class="num">e500</td><td class="num">1,800,000</td></tr><tr><td>Madagascar</td><td class="num">85,000</td><td class="num">e80,000</td><td class="num">27,000,000</td></tr><tr><td>Mexico</td><td class="num">706</td><td class="num">e740</td><td class="num">3,100,000</td></tr><tr><td>Mozambique</td><td class="num">39,000</td><td class="num">e60,000</td><td class="num">25,000,000</td></tr><tr><td>Norway</td><td class="num">5,340</td><td class="num">e6,600</td><td class="num">600,000</td></tr><tr><td>Russia</td><td class="num">e20,000</td><td class="num">e25,000</td><td class="num">14000000</td></tr><tr><td>Sri Lanka</td><td class="num">3,000</td><td class="num">e3,200</td><td class="num">1,500,000</td></tr><tr><td>Tanzania</td><td class="num">e27,000</td><td class="num">e75,000</td><td class="num">18,000,000</td></tr><tr><td>Turkey</td><td class="num">2,600</td><td class="num">e2,200</td><td class="num">6,900,000</td></tr><tr><td>Ukraine</td><td class="num">900</td><td class="num">e800</td><td class="num">s</td></tr><tr><td>Vietnam</td><td class="num">500</td><td class="num">e500</td><td class="num">9700000</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">1,550,000</td><td class="num">1,800,000</td><td class="num">310,000,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>China</td>
+      <td class="num">100,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Brazil</td>
+      <td class="num">74,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Madagascar</td>
+      <td class="num">27,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Mozambique</td>
+      <td class="num">25,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Tanzania</td>
+      <td class="num">18,000,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">14000000</td>
+    </tr>
+  
+    <tr>
+      <td>Vietnam</td>
+      <td class="num">9700000</td>
+    </tr>
+  
+    <tr>
+      <td>India</td>
+      <td class="num">8,600,000</td>
+    </tr>
+  
+    <tr>
+      <td>Turkey</td>
+      <td class="num">6,900,000</td>
+    </tr>
+  
+    <tr>
+      <td>Canada</td>
+      <td class="num">5900000</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">310,000,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (15)</h2>
+        <span class="section__source">Ranked by latest disclosed graphite concentrate or anode-material production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual graphite production (kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Syrah Resources Limited</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">67.0</span>
+            <span class="producer-card__kt-unit">kt</span>
+            <span class="producer-card__fy">2025</span>
+          </div>
+          <div class="producer-card__class">natural flake</div>
+          <div class="producer-card__source"><a href="https://announcements.asx.com.au/asxpdf/20260326/pdf/06xv29j0wp3tr8.pdf" target="_blank" rel="noopener" title="Balama Mine, Mozambique (sole operation). 67 kt natural graphite concentrate produced in campaign mode after suspension/ non-operating period early 2025; 55 kt sold mainly ex-China. FY = calendar year ending Dec 2025. kt = kilotonnes.">2025 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Northern Graphite Corporation</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">11.7</span>
+            <span class="producer-card__kt-unit">kt</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">natural flake</div>
+          <div class="producer-card__source"><a href="https://www.northerngraphite.com/wp-content/uploads/2025/05/NGC-MDA-2024.12.31.pdf" target="_blank" rel="noopener" title="Lac des Iles mine (LDI), Quebec. 11,697 tonnes graphite concentrate produced (sum: Q1 2574t, Q2 4082t, Q3 3630t, Q4 1411t); from 168,795t ore at 6.8% grade, 88% recovery. Operations had temporary shutdowns for cash preservation and maintenance (Nov 2024-Jan 2025). Other assets (Okanjande, Bissett Creek) no production (care & maintenance / development stage).">MD&A 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Tirupati Graphite plc</div>
+      <div class="producer-card__country">UK</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">7.10</span>
+            <span class="producer-card__kt-unit">kt</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">natural flake</div>
+          <div class="producer-card__source"><a href="https://tirupatigraphite.co.uk/wp-content/uploads/2025/07/FY24-Annual-Report-1.pdf" target="_blank" rel="noopener" title="Consolidated production from Madagascar projects (primarily Vatomina 12ktpa nameplate, intermittent Sahamamy); flake graphite concentrate; 7,096 MT total. FY25 (ended Mar 2025) reported 2,169 MT via RNS [Investegate announcement](https://www.investegate.co.uk/index.php/announcement/rns/tirupati-graphite--tgr/final-results-for-year-ended-31-march-2025/9473950) (Vatomina intermittent due to weather/ore/equipment, Sahamamy care & maintenance), but full FY25 annual report PDF not located on site.">FY24 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>AMG Mining AG / Graphit Kropfmühl GmbH</div>
+      <div class="producer-card__country">Germany</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Mines in Germany (Kropfmühl) and Sri Lanka; consolidated in AMG Technologies segment (adj. EBITDA $164M FY25, no volume breakdown). No produ…</div>
+          <div class="producer-card__source"><a href="https://reports.amg-nv.com/2025/" target="_blank" rel="noopener">AMG 2025 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>BTR New Material Group Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">FY2024 annual report discloses natural flake graphite revenue (38.9M RMB) via Jixi Changyuan Mining subsidiary but no production tonnage (mi…</div>
+          <div class="producer-card__source"><a href="http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=835185&id=10880465" target="_blank" rel="noopener">2024 Annual Report (Sina Finance)</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Heilongjiang Aoyu Energy Technology Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private company based in Jixi City, Heilongjiang. Produces natural crystalline flake graphite. No primary annual report, production report, …</div>
+          <div class="producer-card__source"><a href="https://www.made-in-china.com/showroom/aoyugraphite/" target="_blank" rel="noopener">Made-in-China profile</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Imerys Graphite & Carbon (Imerys S.A.)</div>
+      <div class="producer-card__country">France</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">No graphite production tonnage disclosed in primary sources (annual/integrated reports). Graphite & Carbon segment revenue €224m (FY2023), €…</div>
+          <div class="producer-card__source"><a href="https://splann.org/wp-content/uploads/2024/11/1_-rapport-annuel-imerys_2023.pdf" target="_blank" rel="noopener">Imerys 2023 Universal Registration Document</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Mason Resources Inc. (formerly Mason Graphite Inc.)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Lac Guéret Project (Quebec) - pre-production exploration/development stage, no operational production reported. Sold 100% to Nouveau Monde G…</div>
+          <div class="producer-card__source"><a href="https://masonresourcesinc.com/wp-content/uploads/2024/10/Q4-MDNA_June-30-2024.pdf" target="_blank" rel="noopener">Mason Resources FY2024 MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>NextSource Materials Inc.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Molo Mine (Madagascar), Phase 1 ramp-up/commissioning. >3kt SuperFlake graphite concentrate produced during commissioning (no exact FY total…</div>
+          <div class="producer-card__source"><a href="https://www.nextsourcematerials.com/wp-content/uploads/2025/09/09292025_NextSource-Consolidated-2025-YE-MDA_FINAL.pdf" target="_blank" rel="noopener">FY2025 MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Ningbo Shanshan Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Reports 28.44% YoY growth in anode materials sales volume but no absolute production tonnage disclosed. Industry total anode production 2167…</div>
+          <div class="producer-card__source"><a href="https://www.ssgf.net/uploads/20250426/950736172a5c525ca0917e86bc29d90f.pdf" target="_blank" rel="noopener">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Nouveau Monde Graphite Inc.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Matawinie Mine, Quebec. Pre-production (Phase-2 toward FID); Phase-1 demonstration plants (concentrator, shaping, coating) operational for s…</div>
+          <div class="producer-card__source"><a href="https://nmg.com/wp-content/uploads/2026/03/NMG-2025-Annual-Report.pdf" target="_blank" rel="noopener">2025 Annual Report MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Qingdao Black Dragon Graphite Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private company. No primary disclosure of recent (FY24/25) graphite production found in company's website (bd-graphite.com) or public search…</div>
+          <div class="producer-card__source"><a href="https://www.globalminingreview.com/finance-business/19012018/battery-minerals-signs-offtake-agreement-with-qingdao-black-dragon/" target="_blank" rel="noopener">Global Mining Review</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>SGL Carbon SE</div>
+      <div class="producer-card__country">Germany</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Manufacturer of synthetic graphite products (isostatic graphite, specialty graphite components) via Graphite Solutions business unit. No pro…</div>
+          <div class="producer-card__source"><a href="https://www.sglcarbon.com/news/user-upload/SGL_Carbon_Annual_Report_2025_EN_s.pdf" target="_blank" rel="noopener">Annual Report 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Shanghai Putailai New Energy Technology Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Processor of synthetic (artificial) graphite for anode materials; no raw graphite (natural/synthetic concentrate or mined ore) production to…</div>
+          <div class="producer-card__source"><a href="https://www.putailai.com/Public/Uploads/uploadfile2/files/20250606/2024AnnualReportSummary.docx" target="_blank" rel="noopener">2024 Annual Report Summary</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Talga Group Ltd.</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Vittangi Anode Project (Nunasvaara South mine), pre-production/FID pending as of FY24 (ended 30Jun2024); permits advanced in FY25 but no com…</div>
+          <div class="producer-card__source"><a href="https://talgagroup.eu-central-1.linodeobjects.com/app/uploads/2024/09/27151734/Talga_AnnualReport2024_ASX.pdf" target="_blank" rel="noopener">FY2024 Annual Report</a></div>
+        
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1246,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1256,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p>
       </div>
     </section>
 
@@ -1002,7 +1264,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link metals-nav__link--active">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1301,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

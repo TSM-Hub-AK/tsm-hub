@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Tin — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Tin: official prices, production data for 17 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Tin price, Tin price today, Tin LME price, Tin SHFE price, Tin producers, Tin production by country, Tin reserves, Tin market data, Tin commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/tin">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Tin — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Tin: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/tin">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Tin — Official Prices, Production & Reserves","description":"Tin (Sn): official exchange prices, mine production data for 17 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/tin","keywords":["tin price","tin price today","Sn price","tin LME","tin producers","tin production by country","tin reserves","tin market data","base metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Tin official settlement/fix prices","Tin mine production by country (USGS MCS 2026)","Tin reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Tin","item":"https://hub.truesourcemetals.com/metals/tin"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Tin
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Tin</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Base Metal</span><span class="badge badge--exchange">LME</span><span class="badge badge--exchange">SHFE</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Sn · Base Metal · 17 producing countries · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,353 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num"></td><td class="num"></td><td class="num"></td></tr><tr><td>Australia</td><td class="num">11,300</td><td class="num">e12,000</td><td class="num">570,000</td></tr><tr><td>Bolivia</td><td class="num">21,200</td><td class="num">e15,000</td><td class="num">400,000</td></tr><tr><td>Brazil</td><td class="num">27,600</td><td class="num">e28,000</td><td class="num">700,000</td></tr><tr><td>Burma</td><td class="num">e20,000</td><td class="num">e12,000</td><td class="num">700,000</td></tr><tr><td>China</td><td class="num">e71,000</td><td class="num">e71,000</td><td class="num">1,200,000</td></tr><tr><td>Congo (Kinshasa)</td><td class="num">e26,000</td><td class="num">e27,000</td><td class="num">91,000</td></tr><tr><td>Indonesia</td><td class="num">e55,000</td><td class="num">e61,000</td><td class="num">1,400,000</td></tr><tr><td>Laos</td><td class="num">1,860</td><td class="num">e1,800</td><td class="num">NA</td></tr><tr><td>Malaysia</td><td class="num">5,460</td><td class="num">e5,000</td><td class="num">NA</td></tr><tr><td>Nigeria</td><td class="num">e3,100</td><td class="num">e3,500</td><td class="num">NA</td></tr><tr><td>Peru</td><td class="num">32,300</td><td class="num">e33,000</td><td class="num">150,000</td></tr><tr><td>Russia</td><td class="num">3,260</td><td class="num">e4,500</td><td class="num">460,000</td></tr><tr><td>Rwanda</td><td class="num">e4,100</td><td class="num">e4,600</td><td class="num">NA</td></tr><tr><td>Vietnam</td><td class="num">e11,000</td><td class="num">e11,000</td><td class="num">23,000</td></tr><tr><td>Other countries</td><td class="num">1,570</td><td class="num">e1,700</td><td class="num">310,000</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">294,000</td><td class="num">290,000</td><td class="num">>6,000,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Indonesia</td>
+      <td class="num">1,400,000</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">1,200,000</td>
+    </tr>
+  
+    <tr>
+      <td>Brazil</td>
+      <td class="num">700,000</td>
+    </tr>
+  
+    <tr>
+      <td>Burma</td>
+      <td class="num">700,000</td>
+    </tr>
+  
+    <tr>
+      <td>Australia</td>
+      <td class="num">570,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">460,000</td>
+    </tr>
+  
+    <tr>
+      <td>Bolivia</td>
+      <td class="num">400,000</td>
+    </tr>
+  
+    <tr>
+      <td>Other countries</td>
+      <td class="num">310,000</td>
+    </tr>
+  
+    <tr>
+      <td>Peru</td>
+      <td class="num">150,000</td>
+    </tr>
+  
+    <tr>
+      <td>Congo (Kinshasa)</td>
+      <td class="num">91,000</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">>6,000,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed Sn-contained or refined tin production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual tin production (Sn, kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Yunnan Tin Company</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">78.5</span>
+            <span class="producer-card__kt-unit">kt Sn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="http://notice.10jqka.com.cn/api/pdf/9471c90785120116.pdf" target="_blank" rel="noopener" title="World's largest refined tin producer per company report and International Tin Association; tin ingot smelting output.">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Minsur</div>
+      <div class="producer-card__country">Peru</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">30.9</span>
+            <span class="producer-card__kt-unit">kt Sn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://minedocs.com/29/Minsur-AResult-2024.pdf" target="_blank" rel="noopener" title="Leading Western producer of refined tin from San Rafael mine and Pisco smelter.">Minsur 4Q24 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>PT Timah</div>
+      <div class="producer-card__country">Indonesia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">18.9</span>
+            <span class="producer-card__kt-unit">kt Sn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://timah.com/userfiles/post/25040967F5CF0985FEE.pdf" target="_blank" rel="noopener" title="Integrated tin producer with onshore/offshore mining and smelting in Bangka Belitung and Riau Islands.">FY2024 Results Press Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Alphamin Resources (Bisie Mine)</div>
+      <div class="producer-card__country">Mauritius (operations in DRC)</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">17.3</span>
+            <span class="producer-card__kt-unit">kt Sn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.alphaminresources.com/wp-content/uploads/2025/04/MDA_2024.pdf" target="_blank" rel="noopener" title="Operator of the high-grade Bisie Tin Mine (Mpama North/South) in DRC; production increased 38% due to Mpama South expansion.">FY2024 MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Empresa Metalúrgica Vinto</div>
+      <div class="producer-card__country">Bolivia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">12.7</span>
+            <span class="producer-card__kt-unit">kt Sn</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-EMV-2024-1.pdf" target="_blank" rel="noopener" title="Bolivian state-owned tin smelter (EPNE) in Oruro processing concentrates to 99.95% pure ingots; produced refined Sn metal.">Ministerio de Minería y Metalurgia - Memoria EMV 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Guangxi China Tin</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">11.3</span>
+            <span class="producer-card__kt-unit">kt Sn</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="http://static.cninfo.com.cn/finalpage/2025-04-30/1223419790.PDF" target="_blank" rel="noopener" title="Subsidiary of Guangxi China Tin Group; produced 11.3 kt tin ingots (refined Sn equivalent), 7.0 kt tin-in-concentrate from mining; Asia's largest tin polymetallic concentrator.">2024 Annual Report Summary</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Aurubis Beerse</div>
+      <div class="producer-card__country">Belgium</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024/25</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Aurubis Beerse is the company's tin smelter in Belgium producing >99.95% pure recycled tin ingots from secondary materials; group tin output…</div>
+          <div class="producer-card__source"><a href="https://www.aurubis.com/en/dam/jcr:bd81c30a-862e-4b5b-8c37-3d525d0fd129/Aurubis_Conference%20Call_FY_2024_25_EN.pdf" target="_blank" rel="noopener">Aurubis FY2024/25 Conference Call</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Fenix Metals</div>
+      <div class="producer-card__country">Poland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private secondary tin smelter/recycler in Poland; website claims ~4.5 kt pure tin (unspecified year/period), no specific FY24/25 production …</div>
+          <div class="producer-card__source"><a href="https://fenixmetals.com/about-us/" target="_blank" rel="noopener">Fenix Metals About</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Jiangxi New Nanshan Technology</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private tin smelter (Nanshan Zhongxi brand tin ingots) in Ganzhou, Jiangxi; no public disclosure of Sn production volumes in primary sources…</div>
+          <div class="producer-card__source"><a href="https://www.shfe.com.cn/products/futures/metal/nonferrousmetal/sn_f/attach/202401/P020250417525811919565.pdf" target="_blank" rel="noopener">SHFE Tin Brands</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Malaysia Smelting Corporation</div>
+      <div class="producer-card__country">Malaysia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Leading integrated tin smelter with Pulau Indah capacity 40 kt/year; mining output 2.5 kt tin-in-concentrates FY2024 but refined Sn producti…</div>
+          <div class="producer-card__source"><a href="https://ir2.chartnexus.com/msmelt/docs/ar/ar2024.pdf" target="_blank" rel="noopener">Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Mineração Taboca S.A.</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private subsidiary (recently sold by Minsur to CNMC); integrated tin mine at Pitinga (Amazonas) and smelter at Pirapora (SP); does not publi…</div>
+          <div class="producer-card__source"><a href="https://www.mtaboca.com.br/Documents/Relat%C3%B3rio%20Due%20Diligence%202025%20rev2.pdf" target="_blank" rel="noopener">Due Diligence Report 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Mitsubishi Materials Corporation (tin smelting)</div>
+      <div class="producer-card__country">Japan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Operates Naoshima smelter producing refined copper/lead/gold/silver (no tin volumes disclosed); tin smelting confirmed in business descripti…</div>
+          <div class="producer-card__source"><a href="https://ir.mmc.co.jp/en/ir/library/annual.html" target="_blank" rel="noopener">Integrated Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Operaciones Metalúrgicas S.A. (OMSA)</div>
+      <div class="producer-card__country">Bolivia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">N/A</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private Bolivian tin smelter with reported capacity of 3.8 kt refined Sn annually (320 t/mo), sources concentrates from local cooperatives; …</div>
+          <div class="producer-card__source"><a href="https://omsabo.com/web3/fivesteps" target="_blank" rel="noopener">OMSA Step 5 Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Thaisarco</div>
+      <div class="producer-card__country">Thailand</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">One of the world's largest tin smelters; no specific Sn production output disclosed in primary reports reviewed (RMAP audit to Mar 2024); pr…</div>
+          <div class="producer-card__source"><a href="https://thaisarco.com/docs/2024-Public-due-diligence-report.pdf" target="_blank" rel="noopener">2024 Public Due Diligence Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Yunnan Chengfeng Non-ferrous Metals</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Tin smelter in Gejiu City, Yunnan; design capacity 30 kt, historical output >20 kt; no specific FY24/25 production disclosed in primary repo…</div>
+          <div class="producer-card__source"><a href="https://www.yhtin.cn/newsinfo/1581251.html" target="_blank" rel="noopener">Company Responsible Minerals Supply Chain Due Diligence Report (2023)</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>China Tin Group Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>DOWA Holdings (Kosaka Smelting & Refining)</div>
+      <div class="producer-card__country">Japan</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Estanho de Rondônia S.A. (ERSA) / CSN</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Gejiu Non-Ferrous Metal Processing Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Magnu's Minerais Metais e Ligas Ltda.</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1284,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1294,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">LME prices: via <a href="https://metals.dev">Metals.dev</a> API (official settlement prices)</p><p style="margin-bottom:var(--space-2)">SHFE prices: via <a href="https://www.shfe.com.cn">Shanghai Futures Exchange</a> (settlement prices)</p>
       </div>
     </section>
 
@@ -1002,7 +1302,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link metals-nav__link--active">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1339,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

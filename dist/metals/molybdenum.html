@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Molybdenum — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Molybdenum: official prices, production data for 17 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Molybdenum price, Molybdenum price today, Molybdenum LME price, Molybdenum SHFE price, Molybdenum producers, Molybdenum production by country, Molybdenum reserves, Molybdenum market data, Molybdenum commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/molybdenum">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Molybdenum — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Molybdenum: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/molybdenum">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Molybdenum — Official Prices, Production & Reserves","description":"Molybdenum (Mo): official exchange prices, mine production data for 17 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/molybdenum","keywords":["molybdenum price","molybdenum price today","Mo price","molybdenum LME","molybdenum producers","molybdenum production by country","molybdenum reserves","molybdenum market data","strategic metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Molybdenum official settlement/fix prices","Molybdenum mine production by country (USGS MCS 2026)","Molybdenum reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Molybdenum","item":"https://hub.truesourcemetals.com/metals/molybdenum"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Molybdenum
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Molybdenum</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Strategic Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Mo · Strategic Metal · 17 producing countries · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,358 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-molybdenum.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num">34,000</td><td class="num">e40,000</td><td class="num">3,500</td></tr><tr><td>Armenia</td><td class="num">e8,200</td><td class="num">e5,300</td><td class="num">150</td></tr><tr><td>Australia</td><td class="num">600</td><td class="num">e1,000</td><td class="num">760</td></tr><tr><td>Canada</td><td class="num">1,540</td><td class="num">e2,200</td><td class="num">64</td></tr><tr><td>Chile</td><td class="num">38,500</td><td class="num">e42,000</td><td class="num">2,600</td></tr><tr><td>China</td><td class="num">e100,000</td><td class="num">e97,000</td><td class="num">7,800</td></tr><tr><td>Iran</td><td class="num">e2,900</td><td class="num">e3,300</td><td class="num">43</td></tr><tr><td>Kazakhstan</td><td class="num">4,080</td><td class="num">e4,300</td><td class="num">7</td></tr><tr><td>Korea, North</td><td class="num">e800</td><td class="num">e800</td><td class="num">78</td></tr><tr><td>Korea, Republic of</td><td class="num">340</td><td class="num">e500</td><td class="num">8</td></tr><tr><td>Mexico</td><td class="num">16,200</td><td class="num">e17,000</td><td class="num">130</td></tr><tr><td>Mongolia</td><td class="num">3,110</td><td class="num">e4,200</td><td class="num">10</td></tr><tr><td>Peru</td><td class="num">41,900</td><td class="num">e39,000</td><td class="num">1,000</td></tr><tr><td>Russia</td><td class="num">e1,500</td><td class="num">e1,300</td><td class="num">1,100</td></tr><tr><td>Uzbekistan</td><td class="num">e2,100</td><td class="num">e2,000</td><td class="num">21</td></tr><tr><td>Other countries</td><td class="num"></td><td class="num"></td><td class="num">150</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">256,000</td><td class="num">260,000</td><td class="num">17,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-molybdenum.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (thousand metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>China</td>
+      <td class="num">7,800</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">3,500</td>
+    </tr>
+  
+    <tr>
+      <td>Chile</td>
+      <td class="num">2,600</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">1,100</td>
+    </tr>
+  
+    <tr>
+      <td>Peru</td>
+      <td class="num">1,000</td>
+    </tr>
+  
+    <tr>
+      <td>Australia</td>
+      <td class="num">760</td>
+    </tr>
+  
+    <tr>
+      <td>Armenia</td>
+      <td class="num">150</td>
+    </tr>
+  
+    <tr>
+      <td>Other countries</td>
+      <td class="num">150</td>
+    </tr>
+  
+    <tr>
+      <td>Mexico</td>
+      <td class="num">130</td>
+    </tr>
+  
+    <tr>
+      <td>Korea, North</td>
+      <td class="num">78</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">17,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed Mo-contained production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual molybdenum production (Mo-contained, kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Freeport-McMoRan Inc. (Climax Molybdenum Company subsidiary)</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">38.6</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://mms.businesswire.com/media/20250122679192/en/2360933/1/FCX_250123_4Q_2024_Earnings_Release.pdf" target="_blank" rel="noopener" title="Includes primary production from Climax (open-pit), Henderson (underground), plus by-product from North America copper mines (e.g. Sierrita) and South America (Cerro Verde).">Q4 & FY2024 Earnings Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Copper development company Freeport (Henderson Mine)</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">36.3</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://mms.businesswire.com/media/20250122679192/en/2360933/1/FCX_250123_4Q_2024_Earnings_Release.pdf" target="_blank" rel="noopener" title="Consolidated Mo production including primary operations (Climax 18 Mlb, Henderson 12 Mlb) and by-product from Cu mines (NA 30 Mlb, SA 20 Mlb).">Q4 2024 Earnings Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Jinduicheng Molybdenum Group Mining Corporation</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">36.0</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://stockn.xueqiu.com/SH601958/20250402366214.pdf" target="_blank" rel="noopener" title="Contained Mo from key products: ferroalloy 22.8kt, ammonium molybdate 7.2kt, powder 5.9kt at Jinduicheng and Ruyang Donggou mines.">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>CMOC Group Ltd. (China Molybdenum Co., Ltd.)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">15.4</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf" target="_blank" rel="noopener" title="Primarily from Sandaozhuang and Shangfanggou molybdenum mines in China.">HKEX Annual Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Luoyang Luanchuan Molybdenum Industry Group Co., Ltd. (LYZX)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">15.4</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://en.cmoc.com/html/2025/News_0324/73.html" target="_blank" rel="noopener" title="Produced at Sandaozhuang Mo-W mine and Shangfanggou Mo-Fe mine in China.">CMOC 2024 Annual Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Codelco (Corporación Nacional del Cobre de Chile)</div>
+      <div class="producer-card__country">Chile</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">15.3</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.codelco.com/sites/site/docs/20240426/20240426181050/operational_and_financial_report_december_31_2024.pdf" target="_blank" rel="noopener" title="By-product from divisions including Radomiro Tomic and El Teniente.">Operational and Financial Report Dec 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Grupo México S.A.B. de C.V. (via Southern Copper's Buenavista and Grupo México's own operations)</div>
+      <div class="producer-card__country">Mexico</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">13.2</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://gmexico.com/GMDocs/ReportesFinancieros/Esp/2024/RF_ES_2024_4T.pdf" target="_blank" rel="noopener" title="Via Minera México operations including Buenavista (Mexico) and Toquepala/Cuajone (Peru/Southern Copper).">Grupo México 4Q24 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Southern Copper Corporation</div>
+      <div class="producer-card__country">United States (operations in Mexico and Peru; subsidiary of Grupo México)</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">13.2</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://southerncoppercorp.com/wp-content/uploads/2025/02/pr250211.pdf" target="_blank" rel="noopener" title="Mined production from Cuajone, Toquepala, La Caridad, and Buenavista mines; 28,997 tons = 13.2 kt contained.">Q4 & FY2024 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Antofagasta plc</div>
+      <div class="producer-card__country">United Kingdom (Chilean operations)</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">10.7</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.antofagasta.co.uk/media/4739/20250116_aplc24q4prodreport-dec24-vf.pdf" target="_blank" rel="noopener" title="By-product from Los Pelambres (8.4 kt) and Centinela (2.4 kt) mines in Chile.">Q4 2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Cerro Verde (Sociedad Minera Cerro Verde S.A.A.) — operated by Freeport-McMoRan</div>
+      <div class="producer-card__country">Peru</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">9.10</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://mms.businesswire.com/media/20250122679192/en/2360933/1/FCX_250123_4Q_2024_Earnings_Release.pdf" target="_blank" rel="noopener" title="Primary Mo by-product from Cu concentrators at Cerro Verde operations in Peru; consolidated in FCX South America segment Mo production of 20 Mlb.">FCX Q4 2024 Earnings Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Climax Molybdenum Mine (Freeport-McMoRan subsidiary)</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">8.20</span>
+            <span class="producer-card__kt-unit">kt Mo</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://mms.businesswire.com/media/20250122679192/en/2360933/1/FCX_250123_4Q_2024_Earnings_Release.pdf" target="_blank" rel="noopener" title="Climax produced 18 Mlb Mo (8.2 kt); part of primary Mo ops with Henderson (total 30 Mlb), primarily from Climax open-pit mine in Colorado.">Q4/FY2024 Earnings Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>BHP (Olympic Dam / Prominent Hill)</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Olympic Dam and Prominent Hill (Copper SA) report copper (316 kt FY25), gold, silver, uranium but do not publicly disclose Mo output separat…</div>
+          <div class="producer-card__source"><a href="https://www.bhp.com/-/media/documents/media/reports-and-presentations/2025/250819_bhpresultsfortheyearended30june2025.pdf" target="_blank" rel="noopener">BHP FY25 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Oyu Tolgoi LLC (operated by Rio Tinto / Turquoise Hill Resources / Erdenes Oyu Tolgoi)</div>
+      <div class="producer-card__country">Mongolia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Joint venture operated by Rio Tinto (66%), Mongolian gov't (34% via Erdenes Oyu Tolgoi); Mo produced as Cu by-product but not publicly discl…</div>
+          <div class="producer-card__source"><a href="https://www.ot.mn/en/news/q3-2025-performance-results" target="_blank" rel="noopener">Oyu Tolgoi Q3 2025 Performance</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Yichun Luming Mining Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Subsidiary of China Railway Group (CREC · SSE:601390); reports capacity of 22.5 kt Mo concentrate (>50% grade, ~11.6 kt contained Mo) but no…</div>
+          <div class="producer-card__source"><a href="https://www.crecg.com/zgztywz/core_business/resource_development/2025021110100831007/index.html" target="_blank" rel="noopener">CREC Luming Page</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Zangezur Copper-Molybdenum Combine (ZCMC) CJSC</div>
+      <div class="producer-card__country">Armenia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Kajaran Cu-Mo mine operator; reports Mo concentrate sales (16,437 dmt CY2024) but no contained Mo production.</div>
+          <div class="producer-card__source"><a href="https://www.zcmc.am/upload/iblock/f87/x0ao2yy327wpw6y7l4ndsu3ppe7k7qit/ZCMC_Consolidated-FS_2024.pdf" target="_blank" rel="noopener">2024 Consolidated FS</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>Almalyk Mining and Metallurgical Complex (AMMC) – Uzbekistan</div>
+      <div class="producer-card__country">Uzbekistan</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>Anglo American plc (Los Bronces / El Soldado — via Anglo American Sur)</div>
+      <div class="producer-card__country">United Kingdom</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Antamina Mine (Teck Resources 22.5%, BHP 33.75%, Glencore 33.75%, Mitsubishi 10%)</div>
+      <div class="producer-card__country">Peru</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Climax Molybdenum Company (Fort Madison Conversion Facility)</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Harita Nickel / Weda Bay Nickel (nickel-molybdenum byproduct context — Halmahera, Indonesia)</div>
+      <div class="producer-card__country">Indonesia</div>
+      
+      
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1289,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1299,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1307,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link metals-nav__link--active">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1344,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Vanadium — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Vanadium: official prices, production data for 7 countries, reserves, 13 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Vanadium price, Vanadium price today, Vanadium LME price, Vanadium SHFE price, Vanadium producers, Vanadium production by country, Vanadium reserves, Vanadium market data, Vanadium commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/vanadium">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Vanadium — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Vanadium: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/vanadium">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Vanadium — Official Prices, Production & Reserves","description":"Vanadium (V): official exchange prices, mine production data for 7 countries, reserves by country, 13 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/vanadium","keywords":["vanadium price","vanadium price today","V price","vanadium LME","vanadium producers","vanadium production by country","vanadium reserves","vanadium market data","strategic metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Vanadium official settlement/fix prices","Vanadium mine production by country (USGS MCS 2026)","Vanadium reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Vanadium","item":"https://hub.truesourcemetals.com/metals/vanadium"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Vanadium
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Vanadium</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Strategic Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          V · Strategic Metal · 7 producing countries · 13 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,269 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-vanadium.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num"></td><td class="num"></td><td class="num">50</td></tr><tr><td>Australia</td><td class="num"></td><td class="num"></td><td class="num">10,000</td></tr><tr><td>Brazil</td><td class="num">5,190</td><td class="num">e5,300</td><td class="num">94</td></tr><tr><td>China</td><td class="num">e84,000</td><td class="num">e82,000</td><td class="num">5,800</td></tr><tr><td>Russia</td><td class="num">e21,000</td><td class="num">e21,000</td><td class="num">5,000</td></tr><tr><td>South Africa</td><td class="num">8,050</td><td class="num">e5,000</td><td class="num">520</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">118,000</td><td class="num">110,000</td><td class="num">21,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-vanadium.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Australia</td>
+      <td class="num">10,000</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">5,800</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">5,000</td>
+    </tr>
+  
+    <tr>
+      <td>South Africa</td>
+      <td class="num">520</td>
+    </tr>
+  
+    <tr>
+      <td>Brazil</td>
+      <td class="num">94</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">50</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">21,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (13)</h2>
+        <span class="section__source">Ranked by latest disclosed V production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual vanadium production (kilotonnes V2O5 equivalent). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Pangang Group Vanadium Titanium & Resources Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">53.4</span>
+            <span class="producer-card__kt-unit">kt V2O5</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=000629&id=10829454" target="_blank" rel="noopener" title="Panzhihua V-Ti-magnetite operations.">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Largo Inc. (Maracás Menchen Mine)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">9.15</span>
+            <span class="producer-card__kt-unit">kt V2O5</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.largoinc.com/news-details/163762/" target="_blank" rel="noopener" title="Key mine: Maracás Menchen">Q4 & FY2025 Financial Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Glencore plc — Rhovan Vanadium Facility</div>
+      <div class="producer-card__country">Switzerland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">8.20</span>
+            <span class="producer-card__kt-unit">kt V2O5</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/a8114247-02e8-4bd8-bc04-81f411ba631c/GLEN_2025-FY-Production-Report.pdf" target="_blank" rel="noopener" title="Rhovan (South Africa vanadium smelter)">FY2025 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Bushveld Minerals Ltd. (Vametco and Vanchem)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3.70</span>
+            <span class="producer-card__kt-unit">kt V2O5</span>
+            <span class="producer-card__fy">FY2023</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.bushveldminerals.com/wp-content/uploads/2024/07/Bushveld-Minerals-Annual-Report-Financial-Results-2023.pdf" target="_blank" rel="noopener" title="Key operations: Vametco, Vanchem">Annual Report FY2023</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Ferro-Alloy Resources Ltd. (FAR) — Balasausqandiq Project</div>
+      <div class="producer-card__country">United Kingdom</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">0.30</span>
+            <span class="producer-card__kt-unit">kt V2O5</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.ferro-alloy.com/media/o00dmnhd/ferro-alloy-resources-2024-annual-report.pdf" target="_blank" rel="noopener" title="Balasausqandiq (pre-production pilot plant output)">Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>AMG Vanadium LLC (AMG Advanced Metallurgical Group)</div>
+      <div class="producer-card__country">Netherlands</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Spent catalyst recycling in Cambridge/Zanesville, OH facilities</div>
+          <div class="producer-card__source"><a href="https://reports.amg-nv.com/2024/_assets/downloads/van-business-review-vanadium-amg-ar24.pdf" target="_blank" rel="noopener">AMG AR2024 Vanadium Review</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Companhia Brasileira de Metalurgia e Mineração (CBMM)</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Niobium producer (Araxá mine); no vanadium production found in primary sources</div>
+          <div class="producer-card__source"><a href="https://cbmm.com/relatorio-sustentabilidade/assets/files/cbmm-summary-en.pdf" target="_blank" rel="noopener">CBMM 2023 Sustainability Summary</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Czech Vanadium a.s.</div>
+      <div class="producer-card__country">Czech Republic</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">Undisclosed</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Ferrovanadium production facility in Mníšek pod Brdy</div>
+          <div class="producer-card__source"><a href="https://www.czechvanadium.com/downloads/Annual_report_EN_2023.pdf" target="_blank" rel="noopener">Annual Report 2023</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Energy Fuels Inc.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">White Mesa Mill (key facility)</div>
+          <div class="producer-card__source"><a href="https://investors.energyfuels.com/2025-02-27-Energy-Fuels-Announces-2024-Results,-Including-Active-U-S-Uranium-Mining,-Uranium-and-Mineral-Sand-Sales,-Commercial-U-S-Rare-Earth-Production,-and-Strong-Balance-Sheet" target="_blank" rel="noopener">2024 Results NR</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>EVRAZ plc (Russia, NTMK / Vanady Tula)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">Undisclosed</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key facilities: NTMK (Nizhny Tagil), Vanady Tula</div>
+          <div class="producer-card__source"><a href="https://ar2021.evraz.com/en/strategic-report/business-review/steel-segment" target="_blank" rel="noopener">EVRAZ 2021 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>HBIS Group (Chengsteel / Chengde Steel)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Vanadium slag from V-Ti-magnetite; Chengde facilities</div>
+          <div class="producer-card__source"><a href="https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=000709&id=10977073" target="_blank" rel="noopener">HBIS 2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Navoiuran (Navoi Mining & Metallurgical Plant — Uranium and Vanadium division)</div>
+      <div class="producer-card__country">Uzbekistan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Pilot V2O5 from spent catalysts; uranium-focused (Uchkuduk, Zafarabad, Nurobod)</div>
+          <div class="producer-card__source"><a href="https://navoiyuran.uz/wp-content/uploads/2025/06/Financial_Statements_and_Independent_Auditors_Report_For_the_Year-2024_compressed.pdf" target="_blank" rel="noopener">2024 Annual Financial Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>U.S. Vanadium LLC (USV)</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Hot Springs, AR processing facility (secondary production from waste)</div>
+          <div class="producer-card__source"><a href="https://usvanadium.com" target="_blank" rel="noopener">U.S. Vanadium Website</a></div>
+        
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1200,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1210,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1218,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link metals-nav__link--active">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1255,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

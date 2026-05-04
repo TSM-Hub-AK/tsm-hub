@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Iron Ore — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Iron Ore: official prices, production data for 0 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Iron Ore price, Iron Ore price today, Iron Ore LME price, Iron Ore SHFE price, Iron Ore producers, Iron Ore production by country, Iron Ore reserves, Iron Ore market data, Iron Ore commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/iron-ore">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Iron Ore — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Iron Ore: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/iron-ore">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Iron Ore — Official Prices, Production & Reserves","description":"Iron Ore (Fe): official exchange prices, mine production data for 0 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/iron-ore","keywords":["iron ore price","iron ore price today","Fe price","iron ore LME","iron ore producers","iron ore production by country","iron ore reserves","iron ore market data","bulk metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Iron Ore official settlement/fix prices","Iron Ore mine production by country (USGS MCS 2026)","Iron Ore reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Iron Ore","item":"https://hub.truesourcemetals.com/metals/iron-ore"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Iron Ore
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Iron Ore</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--exchange">Bulk Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Fe · Bulk Metal · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,296 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-ore.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <p style="color:var(--color-text-muted)">Production data not available in standard format. See <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-ore.pdf">USGS source</a>.</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed iron ore production or shipments</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual iron ore production (Mt). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Rio Tinto</div>
+      <div class="producer-card__country">UK/Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">329</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results" target="_blank" rel="noopener" title="Pilbara operations, key assets include Gudai-Darri and Western Range.">Q4 2024 Operations Review</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Vale</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">328</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://vale.com/w/vales-production-and-sales-in-4q24-and-2024" target="_blank" rel="noopener" title="Key asset: S11D in Carajás; highest production since 2018, surpassing guidance of 310-320 Mt.">Vale Production Report 4Q24/2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>BHP</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">263</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.bhp.com/-/media/documents/media/reports-and-presentations/2025/250718_bhpoperationalreviewfortheyearended30june2025.pdf" target="_blank" rel="noopener" title="WAIO (Pilbara) record 257 Mt (BHP share), total incl. Samarco; primary iron ore from Western Australia Iron Ore operations.">BHP Operational Review FY25</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Fortescue</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">198</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY25</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://investors.fortescue.com" target="_blank" rel="noopener" title="Pilbara region operations including Chichester, Solomon Hubs, and Iron Bridge.">Investor Centre</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>NMDC</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">45.0</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/15dad218dabe421f8de41a8be637d7e3_20240911170110292.pdf" target="_blank" rel="noopener" title="Record production from Kirandul/Bacheli (Chhattisgarh) and Donimalai (Karnataka) mines.">NMDC FY24 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>ArcelorMittal</div>
+      <div class="producer-card__country">Luxembourg</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">42.4</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-fourth-quarter-and-full-year-2024-results" target="_blank" rel="noopener" title="Key assets: ArcelorMittal Mines Canada (AMMC) and Liberia; total group production includes equity share from JVs.">FY2024 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Metalloinvest</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">36.2</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.metalloinvest.com" target="_blank" rel="noopener" title="Key assets: Lebedinsky GOK and Mikhailovsky GOK; figure from company website production stats for 2024 (железная руда 36.2 млн тонн), consistent with annual report citations of 35.9 Mt.">Metalloinvest.com Homepage</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Anglo American (Kumba)</div>
+      <div class="producer-card__country">South Africa</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">36.1</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.angloamericankumba.com/~/media/Files/A/Anglo-American-Group-v9/Kumba/press-releases/2025/kumba-production-and-sales-report-q4-2025.pdf" target="_blank" rel="noopener" title="Key assets: Sishen and Kolomela mines in Northern Cape; reports production as primary volume metric (sales 37.0 Mt).">Q4 & FY2025 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>LKAB</div>
+      <div class="producer-card__country">Sweden</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">25.9</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://lkab.com/en/press/year-end-report-2025-lower-earnings-in-the-quarter-despite-stable-underlying-operations/" target="_blank" rel="noopener" title="Operates Kiruna and Malmberget mines, primary iron ore production (not shipments).">Year-end Report 2025 Press Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Samarco Mineração S.A.</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">15.1</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.samarco.com/wp-content/uploads/2026/03/samarco-rad-e-dfs-2025-eng.pdf" target="_blank" rel="noopener" title="Joint venture of BHP and Vale; operates Germano (MG) and Ubu (ES) complexes; 60% of ~26 Mt/y capacity post-2015 dam disaster restart.">2025 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Champion Iron Limited</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">14.2</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.championiron.com/wp-content/uploads/2024/01/2024-01-31-mda-q3fy2024-sedar.pdf" target="_blank" rel="noopener" title="Bloom Lake Mine in Labrador Trough, Quebec; FY ends March 31; production summed from quarterly reports as annual total not explicitly stated in Q4 results.">Q3 FY2024 MD&A</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>SNIM (Société Nationale Industrielle et Minière)</div>
+      <div class="producer-card__country">Mauritania</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">14.2</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://snim.com" target="_blank" rel="noopener" title="State-owned iron ore producer operating Guelbs mines in Zouerate, Tiris Zemmour region; reports sales as primary KPI with record 14.226 Mt shipped in 2024.">SNIM Website</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Ferrexpo plc</div>
+      <div class="producer-card__country">Ukraine</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">6.10</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.ferrexpo.com/media/nrdj2bny/ferrexpo-production-report-4q-2025.pdf" target="_blank" rel="noopener" title="Swiss HQ with primary operations at Poltava Mining (FPM) in Ukraine's Kremenchuk Magnetic Anomaly.">Production Report 4Q 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Grange Resources Limited</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2.47</span>
+            <span class="producer-card__kt-unit">Mt Fe ore</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://grange.blob.core.windows.net/public/add44af0-77c1-4ee3-a252-00aa0d76a9c7.pdf" target="_blank" rel="noopener" title="Savage River mine and Port Latta pellet plant in Tasmania.">Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Cleveland-Cliffs</div>
+      <div class="producer-card__country">USA</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Vertically integrated US iron ore pellet producer with mines in Michigan/Minnesota (Tilden, Hibbing Taconite, Northshore, United Taconite); …</div>
+          <div class="producer-card__source"><a href="https://www.clevelandcliffs.com/news/news-releases/detail/670/cleveland-cliffs-reports-full-year-and-fourth-quarter-2024" target="_blank" rel="noopener">FY2024 Earnings Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>Evraz plc (EVRAZ KGOK)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>Iron Ore Company of Canada (IOC)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Novolipetsk Steel (NLMK) — Stoilensky GOK</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Severstal (Karelsky Okatysh and Yakovlevskoye)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Tata Steel Limited (Iron Ore Mines)</div>
+      <div class="producer-card__country">India</div>
+      
+      
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1227,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1237,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1245,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link metals-nav__link--active">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1282,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

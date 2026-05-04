@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Lead — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Lead: official prices, production data for 14 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Lead price, Lead price today, Lead LME price, Lead SHFE price, Lead producers, Lead production by country, Lead reserves, Lead market data, Lead commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/lead">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Lead — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Lead: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/lead">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Lead — Official Prices, Production & Reserves","description":"Lead (Pb): official exchange prices, mine production data for 14 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/lead","keywords":["lead price","lead price today","Pb price","lead LME","lead producers","lead production by country","lead reserves","lead market data","base metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Lead official settlement/fix prices","Lead mine production by country (USGS MCS 2026)","Lead reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Lead","item":"https://hub.truesourcemetals.com/metals/lead"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Lead
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Lead</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--exchange">Base Metal</span><span class="badge badge--exchange">LME</span><span class="badge badge--exchange">SHFE</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Pb · Base Metal · 14 producing countries · 20 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,357 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lead.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num">304</td><td class="num">e280</td><td class="num">4,600</td></tr><tr><td>Australia</td><td class="num">e481</td><td class="num">e480</td><td class="num">34,000</td></tr><tr><td>Bolivia</td><td class="num">110</td><td class="num">e100</td><td class="num">1,600</td></tr><tr><td>China</td><td class="num">1,940</td><td class="num">e1,900</td><td class="num">22,000</td></tr><tr><td>India</td><td class="num">e226</td><td class="num">e220</td><td class="num">1,900</td></tr><tr><td>Iran</td><td class="num">e70</td><td class="num">e70</td><td class="num">2,000</td></tr><tr><td>Mexico</td><td class="num">240</td><td class="num">e200</td><td class="num">5,600</td></tr><tr><td>Peru</td><td class="num">291</td><td class="num">e290</td><td class="num">5,000</td></tr><tr><td>Russia</td><td class="num">260</td><td class="num">e260</td><td class="num">8,900</td></tr><tr><td>Sweden</td><td class="num">75</td><td class="num">e70</td><td class="num">1,700</td></tr><tr><td>Tajikistan</td><td class="num">e39</td><td class="num">e40</td><td class="num">NA</td></tr><tr><td>Turkey</td><td class="num">e66</td><td class="num">e70</td><td class="num">1,600</td></tr><tr><td>Other countries</td><td class="num">498</td><td class="num">e500</td><td class="num">5,900</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">4,600</td><td class="num">4,500</td><td class="num">95,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: thousand metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lead.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (thousand metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Australia</td>
+      <td class="num">34,000</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">22,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">8,900</td>
+    </tr>
+  
+    <tr>
+      <td>Other countries</td>
+      <td class="num">5,900</td>
+    </tr>
+  
+    <tr>
+      <td>Mexico</td>
+      <td class="num">5,600</td>
+    </tr>
+  
+    <tr>
+      <td>Peru</td>
+      <td class="num">5,000</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">4,600</td>
+    </tr>
+  
+    <tr>
+      <td>Iran</td>
+      <td class="num">2,000</td>
+    </tr>
+  
+    <tr>
+      <td>India</td>
+      <td class="num">1,900</td>
+    </tr>
+  
+    <tr>
+      <td>Sweden</td>
+      <td class="num">1,700</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">95,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed Pb-contained production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual lead production (Pb-contained, kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Hindustan Zinc</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">225</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://integratedreport.hzlindia.com/annual-integrated-report-fy-2024-25/pdf/Directors-Report-HZL.pdf" target="_blank" rel="noopener" title="Refined lead from integrated operations at Chanderiya Lead-Zinc Smelter and other Rajasthan facilities.">Directors' Report FY2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Vedanta Resources (Zawar Mine)</div>
+      <div class="producer-card__country">India</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">216</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.vedantaresources.com/uploads/investor-overview/financial-results/VRL_Results_Presentation_FY24_final_website.pdf" target="_blank" rel="noopener" title="Zinc India (HZL) refined lead production; Zawar is one of HZL's key lead-zinc mines in Rajasthan, India.">Vedanta Resources FY24 Results Presentation</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Glencore</div>
+      <div class="producer-card__country">Switzerland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">186</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf" target="_blank" rel="noopener" title="Key assets: Mount Isa/McArthur River (Australia, 144 kt concentrates), Kazzinc (41.9 kt).">FY2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Industrias Peñoles</div>
+      <div class="producer-card__country">Mexico</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">115</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.penoles.com.mx/assets/files/reportes/BMV/trimestral/IPSAB_BMV_4T2024_USD.pdf" target="_blank" rel="noopener" title="Refined Pb from Met-Mex smelter; mines include Fresnillo, Sabinas, Naica.">Peñoles 4T2024 Quarterly Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>South32</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">112</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY24</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.south32.net/investors/annual-reporting-suite/fy24" target="_blank" rel="noopener" title="Primarily from Cannington mine in Australia.">Annual Reporting Suite FY24</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Kazzinc</div>
+      <div class="producer-card__country">Kazakhstan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">111</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf" target="_blank" rel="noopener" title="Total smelter lead production including third-party feed at Ust-Kamenogorsk.">Glencore FY2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Teck Resources</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">109</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.teck.com/media/2024-Annual-Report.pdf" target="_blank" rel="noopener" title="Primary asset: Red Dog mine (Alaska).">2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Newmont</div>
+      <div class="producer-card__country">USA</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">96.0</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.sec.gov/Archives/edgar/data/1164727/000116472725000011/nem-20241231.htm" target="_blank" rel="noopener" title="All lead from Peñasquito mine (Mexico).">Newmont 2024 10-K</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Boliden AB</div>
+      <div class="producer-card__country">Sweden</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">45.3</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://investors.boliden.com/sites/boliden-ir/files/pr/202502052475-1.pdf" target="_blank" rel="noopener" title="Primary from Garpenberg zinc-lead mine">Year-end report Q4 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Hecla Mining</div>
+      <div class="producer-card__country">USA</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">40.3</span>
+            <span class="producer-card__kt-unit">kt Pb</span>
+            <span class="producer-card__fy">FY2023</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.hecla.com/wp-content/uploads/August_2024_IR-Update_.pdf" target="_blank" rel="noopener" title="Key lead assets: Lucky Friday (Idaho) and Greens Creek (Alaska).">August 2024 IR Update</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>Korea Zinc</div>
+      <div class="producer-card__country">South Korea</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Custom smelter at Onsan Refinery; capacity 420-450 kt/year Pb but actual FY output undisclosed in primary sources.</div>
+          <div class="producer-card__source"><a href="https://www.koreazinc.co.kr/wp-content/uploads/2025/07/2024_%EA%B3%A0%EB%A0%A4%EC%95%84%EC%97%B0-%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EA%B2%BD%EC%98%81%EB%B3%B4%EA%B3%A0%EC%84%9CKOR.pdf" target="_blank" rel="noopener">Korea Zinc Sustainability Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Minera San Cristobal S.A. (Sumitomo)</div>
+      <div class="producer-card__country">Bolivia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2023</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">San Cristóbal open-pit silver-zinc-lead mine; reports 77 kt wet lead-silver concentrate but no contained Pb tonnage.</div>
+          <div class="producer-card__source"><a href="https://minedocs.com/26/Minera-San-Cristobal-SR-2023.pdf" target="_blank" rel="noopener">2023 Sustainability Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Nyrstar</div>
+      <div class="producer-card__country">Netherlands</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Nyrstar NV holding company post-2019 restructuring discloses no operational production; operating assets owned by Trafigura subsidiary with …</div>
+          <div class="producer-card__source"><a href="https://www.nyrstarnv.be/en/investors/results-reports-and-presentations/2025" target="_blank" rel="noopener">Nyrstar NV Investors</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>Renco Group</div>
+      <div class="producer-card__country">USA</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Subsidiary Doe Run operates Viburnum Trend mines (SEMO) producing lead concentrates (~170 ktpa per secondary sources, undisclosed in primary…</div>
+          <div class="producer-card__source"><a href="https://doerun.com/wp-content/uploads/2025/10/Doe-Run-2024-Sustainability-Report.pdf" target="_blank" rel="noopener">Doe Run 2024 Sustainability Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>Ural Mining and Metallurgical Co</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">N/A</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key lead asset: Svyatogor smelter; no specific Pb production figures found in accessible primary sources for FY24/25 despite financial repor…</div>
+          <div class="producer-card__source"><a href="https://www.e-disclosure.ru/portal/files.aspx?id=2003&type=2" target="_blank" rel="noopener">Uralelectromed disclosures</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>Adriatic Metals (Vares Mine)</div>
+      <div class="producer-card__country">Australia (operations in Bosnia and Herzegovina)</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>Agnico Eagle Mines (LaRonde, Pinos Altos zinc-lead by-products)</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Antofagasta PLC (Zaldívar / Los Pelambres lead by-product)</div>
+      <div class="producer-card__country">Chile (UK-listed)</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>China Minmetals (Rosebery Mine, via MMG)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Coeur Mining</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1288,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1298,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">LME prices: via <a href="https://metals.dev">Metals.dev</a> API (official settlement prices)</p><p style="margin-bottom:var(--space-2)">SHFE prices: via <a href="https://www.shfe.com.cn">Shanghai Futures Exchange</a> (settlement prices)</p>
       </div>
     </section>
 
@@ -1002,7 +1306,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link metals-nav__link--active">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1343,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copper — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6GM0RTLSJ9');
+  </script>
+  <meta name="description" content="Copper: official prices, production data for 19 countries, reserves, 20 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Copper price, Copper price today, Copper LME price, Copper SHFE price, Copper producers, Copper production by country, Copper reserves, Copper market data, Copper commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/copper">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Copper — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Copper: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/copper">
+  <meta property="og:site_name" content="TrueSource Metals">
+  <meta name="twitter:card" content="summary">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="192x192" href="../icon-192.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      scroll-behavior: smooth;
+    }
+
+    :root {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+
+      --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem;
+      --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem;
+      --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem;
+      --space-16: 4rem; --space-20: 5rem;
+
+      --font-display: 'Cabinet Grotesk', 'Helvetica Neue', sans-serif;
+      --font-body: 'Satoshi', 'Inter', sans-serif;
+
+      --radius-sm: 0.375rem; --radius-md: 0.5rem;
+      --radius-lg: 0.75rem; --radius-xl: 1rem;
+
+      --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+      --content-default: 960px;
+      --content-narrow: 720px;
+    }
+
+    [data-theme="dark"] {
+      --color-bg: #0f1419;
+      --color-surface: #161c22;
+      --color-surface-2: #1c2430;
+      --color-surface-elevated: #212b38;
+      --color-border: #2a3544;
+      --color-border-subtle: #1e2836;
+      --color-text: #e0ddd8;
+      --color-text-muted: #8a9aac;
+      --color-text-faint: #566578;
+      --color-primary: #2d9da5;
+      --color-primary-hover: #38b8c2;
+      --color-gold: #c9a84c;
+      --color-gold-muted: rgba(201, 168, 76, 0.12);
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.35);
+    }
+
+    [data-theme="light"] {
+      --color-bg: #f5f4f0;
+      --color-surface: #ffffff;
+      --color-surface-2: #f9f8f5;
+      --color-surface-elevated: #ffffff;
+      --color-border: #d4d1ca;
+      --color-border-subtle: #e8e6e0;
+      --color-text: #1a1d24;
+      --color-text-muted: #5a6370;
+      --color-text-faint: #8a8f98;
+      --color-primary: #1a7d85;
+      --color-primary-hover: #15656c;
+      --color-gold: #9a7b2e;
+      --color-gold-muted: rgba(154, 123, 46, 0.08);
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    body {
+      min-height: 100dvh;
+      line-height: 1.6;
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      background-color: var(--color-bg);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-display);
+      line-height: 1.15;
+    }
+
+    a { color: var(--color-primary); text-decoration: none; }
+    a:hover { color: var(--color-primary-hover); text-decoration: underline; }
+
+    ::selection {
+      background: rgba(45, 157, 165, 0.25);
+      color: var(--color-text);
+    }
+
+    /* === HEADER === */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border-subtle);
+      padding: var(--space-4) var(--space-6);
+    }
+
+    .header__inner {
+      max-width: var(--content-default);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header__left {
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+    }
+
+    .header__back {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      text-decoration: none;
+      padding: var(--space-2) var(--space-3);
+      border-radius: var(--radius-sm);
+      transition: all var(--transition-interactive);
+    }
+
+    .header__back:hover {
+      color: var(--color-primary);
+      background: var(--color-surface);
+      text-decoration: none;
+    }
+
+    .header__brand {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      text-decoration: none;
+      color: var(--color-text);
+    }
+
+    .header__brand:hover { text-decoration: none; }
+
+    .header__logo {
+      width: 36px;
+      height: 36px;
+    }
+
+    /* Logo animation — squares assemble on load */
+    .header__logo rect {
+      opacity: 0;
+      transform-origin: center;
+      animation: logoAssemble 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .header__logo rect:nth-child(1) { animation-delay: 0.1s; }
+    .header__logo rect:nth-child(2) { animation-delay: 0.2s; }
+    .header__logo rect:nth-child(3) { animation-delay: 0.3s; }
+    .header__logo rect:nth-child(4) { animation-delay: 0.4s; }
+
+    @keyframes logoAssemble {
+      0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(-45deg);
+      }
+      60% {
+        opacity: 1;
+        transform: scale(1.08) rotate(3deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+      }
+    }
+
+    /* Logo hover — swap teal ↔ gold */
+    .header__brand:hover .header__logo rect:nth-child(1),
+    .header__brand:hover .header__logo rect:nth-child(4) {
+      fill: var(--color-gold);
+      transition: fill 0.4s ease;
+    }
+
+    .header__brand:hover .header__logo rect:nth-child(2),
+    .header__brand:hover .header__logo rect:nth-child(3) {
+      fill: var(--color-primary);
+      transition: fill 0.4s ease;
+    }
+
+    .header__logo rect {
+      transition: fill 0.4s ease;
+    }
+
+    .header__title {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: var(--text-sm);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .header__title span { color: var(--color-gold); }
+
+    .header__controls {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .theme-toggle {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+      border-radius: var(--radius-sm);
+      padding: var(--space-2);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      transition: all var(--transition-interactive);
+    }
+
+    .theme-toggle:hover {
+      color: var(--color-primary);
+      border-color: var(--color-primary);
+    }
+
+    /* === HERO === */
+    .hero {
+      max-width: var(--content-default);
+      margin: 0 auto;
+      padding: var(--space-12) var(--space-6) var(--space-8);
+    }
+
+    .hero__breadcrumb {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-bottom: var(--space-4);
+    }
+
+    .hero__breadcrumb a {
+      color: var(--color-text-faint);
+    }
+
+    .hero__breadcrumb a:hover {
+      color: var(--color-primary);
+    }
+
+    .hero__top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-6);
+      flex-wrap: wrap;
+    }
+
+    .hero__info {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .hero__name {
+      font-size: var(--text-2xl);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: var(--space-2);
+    }
+
+    .hero__badges {
+      display: flex;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+      margin-bottom: var(--space-3);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-1);
+      padding: var(--space-1) var(--space-3);
+      border-radius: 999px;
+      font-size: var(--text-xs);
+      font-weight: 500;
+    }
+
+    .badge--critical {
+      background: var(--color-gold-muted);
+      color: var(--color-gold);
+      border: 1px solid var(--color-gold);
+    }
+
+    .badge--exchange {
+      background: var(--color-surface);
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-border);
+    }
+
+    .hero__meta {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      line-height: 1.8;
+    }
+
+    .hero__prices {
+      display: flex;
+      gap: var(--space-4);
+      flex-wrap: wrap;
+    }
+
+    .price-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      min-width: 180px;
+      flex: 1;
+      max-width: 240px;
+    }
+
+    .price-card__exchange {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      margin-bottom: var(--space-1);
+    }
+
+    .price-card__value {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: var(--space-1);
+    }
+
+    .price-card__unit {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+    }
+
+    .price-card__date {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-top: var(--space-2);
+    }
+
+    /* === SECTION NAVIGATION === */
+    .section-nav {
+      position: sticky;
+      top: 60px;
+      z-index: 40;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border-subtle);
+      padding: 0 var(--space-6);
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .section-nav::-webkit-scrollbar { display: none; }
+
+    .section-nav__inner {
+      max-width: var(--content-default);
+      margin: 0 auto;
+      display: flex;
+      gap: 0;
+    }
+
+    .section-nav__link {
+      padding: var(--space-3) var(--space-4);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--color-text-muted);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: all var(--transition-interactive);
+    }
+
+    .section-nav__link:hover {
+      color: var(--color-primary);
+      text-decoration: none;
+      border-bottom-color: var(--color-primary);
+    }
+
+    /* === CONTENT SECTIONS === */
+    .content {
+      max-width: var(--content-default);
+      margin: 0 auto;
+      padding: 0 var(--space-6);
+    }
+
+    .section {
+      padding: var(--space-12) 0;
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    .section__header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: var(--space-6);
+      gap: var(--space-4);
+      flex-wrap: wrap;
+    }
+
+    .section__title {
+      font-size: var(--text-lg);
+      font-weight: 700;
+    }
+
+    .section__source {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    .section__source a {
+      color: var(--color-text-faint);
+    }
+
+    .section__source a:hover {
+      color: var(--color-primary);
+    }
+
+    /* === DATA TABLES === */
+    .data-table-wrap {
+      overflow-x: auto;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-border);
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: var(--text-sm);
+    }
+
+    .data-table th {
+      background: var(--color-surface);
+      padding: var(--space-3) var(--space-4);
+      text-align: left;
+      font-weight: 600;
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid var(--color-border);
+      position: sticky;
+      top: 0;
+    }
+
+    .data-table th.num,
+    .data-table td.num {
+      text-align: right;
+    }
+
+    .data-table td {
+      padding: var(--space-3) var(--space-4);
+      border-bottom: 1px solid var(--color-border-subtle);
+      color: var(--color-text);
+    }
+
+    .data-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .data-table tr:hover td {
+      background: var(--color-surface);
+    }
+
+    .data-table .row-total td {
+      font-weight: 700;
+      background: var(--color-surface);
+      border-top: 2px solid var(--color-border);
+    }
+
+    .data-table .row-total:hover td {
+      background: var(--color-surface-2);
+    }
+
+    .data-table .note {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      font-style: italic;
+    }
+
+    /* === PRODUCERS GRID === */
+    .producers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: var(--space-4);
+    }
+
+    .producer-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      transition: all var(--transition-interactive);
+    }
+
+    .producer-card:hover {
+      border-color: var(--color-primary);
+      box-shadow: var(--shadow-md);
+    }
+
+    .producer-card__name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: var(--text-sm);
+      margin-bottom: var(--space-1);
+    }
+
+    .producer-card__country {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+      margin-bottom: var(--space-2);
+    }
+
+    .producer-card__type {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    .producer-card__production {
+      margin-top: var(--space-3);
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--color-border);
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+    }
+
+    .producer-card__kt {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: var(--text-lg);
+      color: var(--color-primary);
+    }
+
+    .producer-card__kt--undisclosed {
+      font-family: var(--font-display);
+      font-weight: 500;
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      font-style: italic;
+    }
+
+    .producer-card__kt-unit {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+    }
+
+    .producer-card__fy {
+      margin-left: auto;
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    .producer-card__class {
+      margin-top: var(--space-2);
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+    }
+
+    .producer-card__source {
+      margin-top: var(--space-2);
+      font-size: var(--text-xs);
+    }
+
+    .producer-card__source a {
+      color: var(--color-text-faint);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--color-text-faint);
+    }
+
+    .producer-card__source a:hover {
+      color: var(--color-primary);
+      border-bottom-color: var(--color-primary);
+    }
+
+    .producer-card__rank {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-right: var(--space-2);
+    }
+
+    /* === NEWS === */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+    }
+
+    .news-item {
+      display: flex;
+      gap: var(--space-4);
+      padding: var(--space-4);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      text-decoration: none;
+      color: var(--color-text);
+      transition: all var(--transition-interactive);
+    }
+
+    .news-item:hover {
+      border-color: var(--color-primary);
+      box-shadow: var(--shadow-sm);
+      text-decoration: none;
+      color: var(--color-text);
+    }
+
+    .news-item__content { flex: 1; }
+
+    .news-item__title {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: var(--text-sm);
+      margin-bottom: var(--space-1);
+      line-height: 1.35;
+    }
+
+    .news-item__meta {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    .news-item__excerpt {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      margin-top: var(--space-2);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* === ALL METALS NAV === */
+    .metals-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-top: var(--space-6);
+    }
+
+    .metals-nav__link {
+      padding: var(--space-2) var(--space-3);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      color: var(--color-text-muted);
+      text-decoration: none;
+      transition: all var(--transition-interactive);
+    }
+
+    .metals-nav__link:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    .metals-nav__link--active {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      color: #fff;
+    }
+
+    .metals-nav__link--active:hover {
+      color: #fff;
+    }
+
+    /* === FOOTER === */
+    .footer {
+      max-width: var(--content-default);
+      margin: 0 auto;
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    .footer a {
+      color: var(--color-text-faint);
+    }
+
+    .footer a:hover {
+      color: var(--color-primary);
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 640px) {
+      .hero__top {
+        flex-direction: column;
+      }
+
+      .hero__prices {
+        width: 100%;
+      }
+
+      .price-card {
+        max-width: none;
+      }
+
+      .producers-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-nav__link {
+        padding: var(--space-2) var(--space-3);
+        font-size: var(--text-xs);
+      }
+    }
+
+    /* === TSM Splash === */
+    .tsm-splash {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: var(--color-bg, #0f1419);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+    }
+    .tsm-splash.is-hidden { opacity: 0; pointer-events: none; }
+
+    .tsm-splash__logo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      width: 72px;
+      height: 72px;
+    }
+
+    .tsm-splash__cube {
+      border-radius: 5px;
+      opacity: 0;
+      transform: scale(0.3) rotate(-15deg);
+      animation: splashCubeIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    }
+    .tsm-splash__cube:nth-child(1) { background: var(--color-primary, #2d9da5); animation-delay: 0s; }
+    .tsm-splash__cube:nth-child(2) { background: var(--color-gold, #c9a84c); animation-delay: 0.1s; }
+    .tsm-splash__cube:nth-child(3) { background: var(--color-gold, #c9a84c); animation-delay: 0.2s; }
+    .tsm-splash__cube:nth-child(4) { background: var(--color-primary, #2d9da5); animation-delay: 0.3s; }
+
+    @keyframes splashCubeIn {
+      0% { opacity: 0; transform: scale(0.3) rotate(-15deg); }
+      100% { opacity: 1; transform: scale(1) rotate(0deg); }
+    }
+
+    .tsm-splash__text {
+      font-family: var(--font-display);
+      font-size: clamp(0.875rem, 1.5vw, 1.125rem);
+      font-weight: 700;
+      color: var(--color-text-muted, #8a9aac);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      opacity: 0;
+      transform: translateY(6px);
+      animation: splashTextIn 0.4s ease-out 0.5s forwards;
+    }
+    .tsm-splash__text span { color: var(--color-gold, #c9a84c); }
+
+    @keyframes splashTextIn {
+      0% { opacity: 0; transform: translateY(6px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* === Scroll to top === */
+    .scroll-top {
+      position: fixed;
+      bottom: 2.5rem;
+      right: 2.5rem;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      color: #fff;
+      border: 2px solid rgba(255,255,255,0.15);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(12px);
+      transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, background 0.25s ease;
+      z-index: 900;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+    }
+    .scroll-top.is-visible { opacity: 1; visibility: visible; transform: translateY(0); }
+    .scroll-top:hover { background: var(--color-gold); transform: translateY(-3px); }
+    .scroll-top svg { width: 26px; height: 26px; stroke-width: 3; }
+    @media (max-width: 600px) { .scroll-top { bottom: 1.5rem; right: 1.5rem; width: 48px; height: 48px; } }
+
+  </style>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('tsm-theme');
+      if (saved) document.documentElement.setAttribute('data-theme', saved);
+    })();
+  </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Copper — Official Prices, Production & Reserves","description":"Copper (Cu): official exchange prices, mine production data for 19 countries, reserves by country, 20 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/copper","keywords":["copper price","copper price today","Cu price","copper LME","copper producers","copper production by country","copper reserves","copper market data","base metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Copper official settlement/fix prices","Copper mine production by country (USGS MCS 2026)","Copper reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Copper","item":"https://hub.truesourcemetals.com/metals/copper"}]}</script>
+</head>
+<body>
+
+  <!-- TSM Splash (once per session) -->
+  <div class="tsm-splash" id="tsmSplash">
+    <div class="tsm-splash__logo">
+      <div class="tsm-splash__cube"></div>
+      <div class="tsm-splash__cube"></div>
+      <div class="tsm-splash__cube"></div>
+      <div class="tsm-splash__cube"></div>
+    </div>
+    <div class="tsm-splash__text">True<span>Source</span> Metals</div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__left">
+        <a href="../" class="header__brand">
+          <svg class="header__logo" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="20" width="70" height="70" rx="8" fill="var(--color-primary)"/>
+            <rect x="110" y="20" width="70" height="70" rx="8" fill="var(--color-gold)"/>
+            <rect x="20" y="110" width="70" height="70" rx="8" fill="var(--color-gold)"/>
+            <rect x="110" y="110" width="70" height="70" rx="8" fill="var(--color-primary)"/>
+          </svg>
+          <span class="header__title">True<span>Source</span> Metals</span>
+        </a>
+      </div>
+      <div class="header__controls">
+        <a href="../" class="header__back">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 12L6 8l4-4"/></svg>
+          Hub
+        </a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION NAV -->
+  <nav class="section-nav">
+    <div class="section-nav__inner">
+      <a href="#prices" class="section-nav__link">Prices</a>
+      <a href="#production" class="section-nav__link">Production</a>
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      <a href="#product-forms" class="section-nav__link">Product Forms</a>
+      <a href="#producers" class="section-nav__link">Producers</a>
+      <a href="#news" class="section-nav__link">News</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__breadcrumb">
+      <a href="../">TSM Hub</a> → Copper
+    </div>
+    <div class="hero__top">
+      <div class="hero__info">
+        <h1 class="hero__name">Copper</h1>
+        <div class="hero__badges">
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Base Metal</span><span class="badge badge--exchange">LME</span><span class="badge badge--exchange">SHFE</span>
+        </div>
+        <div class="hero__meta">
+          Cu · Base Metal · 19 producing countries · 20 major producers
+        </div>
+      </div>
+      <div class="hero__prices">
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="content">
+
+    <!-- PRICES SECTION -->
+    <section id="prices" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Official Prices</h2>
+        <span class="section__source"></span>
+      </div>
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
+    </section>
+
+    <!-- PRODUCTION SECTION -->
+    <section id="production" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Mine Production by Country</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap">
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num">1,050</td><td class="num">e1,000</td><td class="num">47,000</td></tr><tr><td>Australia</td><td class="num">765</td><td class="num">e730</td><td class="num">100,000</td></tr><tr><td>Canada</td><td class="num">515</td><td class="num">e500</td><td class="num">7,000</td></tr><tr><td>Chile</td><td class="num">5,510</td><td class="num">e5,300</td><td class="num">180,000</td></tr><tr><td>China</td><td class="num">1,840</td><td class="num">e1,800</td><td class="num">41,000</td></tr><tr><td>Congo (Kinshasa)</td><td class="num">2,990</td><td class="num">e3,200</td><td class="num">80,000</td></tr><tr><td>Germany</td><td class="num"></td><td class="num"></td><td class="num"></td></tr><tr><td>India</td><td class="num">27</td><td class="num">e23</td><td class="num">2,200</td></tr><tr><td>Indonesia</td><td class="num">1,010</td><td class="num">e710</td><td class="num">21,000</td></tr><tr><td>Japan</td><td class="num"></td><td class="num"></td><td class="num"></td></tr><tr><td>Kazakhstan</td><td class="num">724</td><td class="num">e710</td><td class="num">20,000</td></tr><tr><td>Korea, Republic of</td><td class="num"></td><td class="num"></td><td class="num"></td></tr><tr><td>Mexico</td><td class="num">717</td><td class="num">e690</td><td class="num">53,000</td></tr><tr><td>Peru</td><td class="num">2,740</td><td class="num">e2,700</td><td class="num">85,000</td></tr><tr><td>Poland</td><td class="num">400</td><td class="num">e410</td><td class="num">33,000</td></tr><tr><td>Russia</td><td class="num">1,020</td><td class="num">e1,300</td><td class="num">80,000</td></tr><tr><td>Zambia</td><td class="num">823</td><td class="num">e940</td><td class="num">21,000</td></tr><tr><td>Other countries</td><td class="num">2,850</td><td class="num">e3,000</td><td class="num">210,000</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">23,000</td><td class="num">23,000</td><td class="num">980,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: thousand metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
+      </div>
+    </section>
+
+    <!-- RESERVES SECTION -->
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (thousand metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Other countries</td>
+      <td class="num">210,000</td>
+    </tr>
+  
+    <tr>
+      <td>Chile</td>
+      <td class="num">180,000</td>
+    </tr>
+  
+    <tr>
+      <td>Australia</td>
+      <td class="num">100,000</td>
+    </tr>
+  
+    <tr>
+      <td>Peru</td>
+      <td class="num">85,000</td>
+    </tr>
+  
+    <tr>
+      <td>Congo (Kinshasa)</td>
+      <td class="num">80,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">80,000</td>
+    </tr>
+  
+    <tr>
+      <td>Mexico</td>
+      <td class="num">53,000</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">47,000</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">41,000</td>
+    </tr>
+  
+    <tr>
+      <td>Poland</td>
+      <td class="num">33,000</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">980,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
+
+    <!-- PRODUCT FORMS SECTION -->
+    
+    <section id="product-forms" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Commercial Product Forms</h2>
+        <span class="section__source">Sources: <a href="https://www.lme.com">LME contract specs</a>, <a href="https://doi.org/10.5066/P1WKQ63T">USGS MCS 2026</a></span>
+      </div>
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-4);">Major commercial forms in which this metal is refined, traded and delivered. "LME" indicates the form is deliverable against an LME physical contract.</p>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Form</th><th>Chemical form</th><th>Typical grade / spec</th><th>Primary end use</th><th style="text-align:center;">LME</th></tr></thead>
+        <tbody>
+      <tr>
+        <td><strong>Cathode (LME Grade A)</strong><div class="note" style="margin-top:4px;color:var(--color-text-faint);font-size:var(--text-xs);">LME-deliverable cathode; 25 t lots</div></td>
+        <td><code style="background:transparent;color:var(--color-text-muted);">Cu, ≥99.9935%</code></td>
+        <td>BS EN 1978:1998 Cu-CATH-1</td>
+        <td>Wire rod feedstock, electrical conductors</td>
+        <td style="text-align:center;"><span class="badge badge--critical" style="font-size:var(--text-xs);padding:2px 6px;">LME</span></td>
+      </tr>
+      <tr>
+        <td><strong>Wire rod</strong></td>
+        <td><code style="background:transparent;color:var(--color-text-muted);">Cu, ≥99.95%</code></td>
+        <td>8 mm continuous cast (ASTM B49)</td>
+        <td>Power cables, building wire, magnet wire</td>
+        <td style="text-align:center;"><span style="color:var(--color-text-faint);font-size:var(--text-xs);">—</span></td>
+      </tr>
+      <tr>
+        <td><strong>Billets</strong></td>
+        <td><code style="background:transparent;color:var(--color-text-muted);">Cu or Cu-alloy (C11000, C12200)</code></td>
+        <td>ETP / DHP copper</td>
+        <td>Extrusion into tubes, plumbing, HVAC</td>
+        <td style="text-align:center;"><span style="color:var(--color-text-faint);font-size:var(--text-xs);">—</span></td>
+      </tr>
+      <tr>
+        <td><strong>Concentrate</strong><div class="note" style="margin-top:4px;color:var(--color-text-faint);font-size:var(--text-xs);">Main traded form from mine to smelter</div></td>
+        <td><code style="background:transparent;color:var(--color-text-muted);">CuFeS₂-bearing (chalcopyrite)</code></td>
+        <td>25–30% Cu</td>
+        <td>Smelter feedstock (flash / TSL)</td>
+        <td style="text-align:center;"><span style="color:var(--color-text-faint);font-size:var(--text-xs);">—</span></td>
+      </tr>
+      <tr>
+        <td><strong>Scrap No.1 / No.2</strong></td>
+        <td><code style="background:transparent;color:var(--color-text-muted);">Cu (recycled)</code></td>
+        <td>No.1: ≥99%; No.2: 94–96%</td>
+        <td>Secondary smelter / refiner feed</td>
+        <td style="text-align:center;"><span style="color:var(--color-text-faint);font-size:var(--text-xs);">—</span></td>
+      </tr></tbody>
+      </table></div>
+    </section>
+  
+
+    <!-- PRODUCERS SECTION -->
+    <section id="producers" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Major Producers (20)</h2>
+        <span class="section__source">Ranked by latest disclosed copper production</span>
+      </div>
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual copper production (Cu-contained, kilotonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
+      <div class="producers-grid">
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>BHP</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2,017</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.bhp.com/news/media-centre/releases/2025/07/bhp-operational-review-for-the-year-ended-30-june-2025" target="_blank" rel="noopener" title="Record group copper production of 2,017 kt, up 8% from FY2024 (1,865 kt). Includes Escondida, Spence, Copper SA (316 kt), Antamina (119 kt), others. Primarily copper contained in concentrate from mining operations; some cathode/refined noted at assets like Olympic Dam.">BHP Operational Review for the year ended 30 June 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Freeport-McMoRan</div>
+      <div class="producer-card__country">USA</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,910</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://mms.businesswire.com/media/20250122679192/en/2360933/1/FCX_250123_4Q_2024_Earnings_Release.pdf" target="_blank" rel="noopener" title="4.2 billion pounds recoverable copper mined production (exact: 4,214 million pounds per operating data table). Sales: 4.1 billion pounds. No consolidated refined production reported (PT-FI smelter start-up mid-2025). Calendar year ended Dec 31, 2024. kt calculated as (4.214e9 lbs / 2204.62 lbs/mt) / 1000 = 1910 kt Cu contained (rounded).">Freeport-McMoRan Fourth Quarter and Year Ended 2024 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Codelco</div>
+      <div class="producer-card__country">Chile</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,440</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.codelco.com/sites/site/docs/20250428/20250428185356/operational_and_financial_report_december_31_2025.pdf" target="_blank" rel="noopener" title="Own production: 1,334 kt fine copper. Total includes Codelco's stakes in El Abra (49%), Anglo American Sur (20%), Quebrada Blanca (10%). Matches guidance for state-owned Codelco to report own-mined + associates (Anglo Sur). Fine copper equivalent.">Codelco Operational and Financial Report December 31, 2025</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Zijin Mining Group Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,068</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.zijinmining.com/upload/file/2025/03/23/fe0519070ce84ef7992dfb7c03b40bc5.pdf" target="_blank" rel="noopener" title="Consolidated mine-produced copper 1,068,455 t (management discussion rounds to 1.07 million t, +6% YoY from 1.007 million t in 2023). Attributable to Zijin: 876 kt. Refined copper (consolidated): 748 kt (note in refined).">Annual Results Announcement for the Year Ended 31 December 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Southern Copper</div>
+      <div class="producer-card__country">Mexico</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">974</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://southerncoppercorp.com/wp-content/uploads/2025/06/m2024.pdf" target="_blank" rel="noopener" title="Total mined copper production (concentrates + SX/EW): 973,851 metric tons. Smelter/refinery production: 611 kt (noted but mined preferred per instructions). CY2024 aligns with FY2024 as calendar year reporter.">Southern Copper Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Glencore</div>
+      <div class="producer-card__country">Switzerland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">952</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.glencore.com/.rest/api/v1/documents/static/437c6cdb-dbfb-4e61-a769-18655951cee2/Glencore+production+report_FY2024.pdf" target="_blank" rel="noopener" title="Own sourced copper production (copper metal and copper in concentrates from mining operations and JVs). Excludes custom smelters/refineries (copper anode 440.8 kt, copper metal 463.6 kt). 4% below prior year like-for-like.">Glencore Full Year 2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Anglo American</div>
+      <div class="producer-card__country">UK</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">773</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.angloamerican.com/media/press-releases/2025/06-02-2025" target="_blank" rel="noopener" title="Contained metal basis from Copper operations in Chile (Los Bronces, Collahuasi 44%, El Soldado) and Peru (Quellaveco). Within 2024 guidance of 730-790 kt. Down 6% from 826 kt in 2023. Excludes copper from PGM business.">Anglo American Q4 2024 Production Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>KGHM Polska Miedź</div>
+      <div class="producer-card__country">Poland</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">730</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined + Refined</div>
+          <div class="producer-card__source"><a href="https://kghm.com/sites/default/files/KGHM%20IR%20release%20Q4%202024.pdf" target="_blank" rel="noopener" title="Payable copper production for the KGHM Group (consolidated, includes mined copper in concentrate from Polish assets ~400 kt, refined electrolytic copper ~589 kt from KGHM Polska Miedź S.A., and contributions from Sierra Gorda and KGHM International; exact 729.7 kt in preliminary Dec 2024 report, rounded to 730 kt in Q4 IR release. CY2024.">KGHM Q4 and FY2024 IR Release & Production Reports</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Rio Tinto plc</div>
+      <div class="producer-card__country">United Kingdom / Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">697</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results" target="_blank" rel="noopener" title="Consolidated basis mined copper (copper in concentrate). Rio Tinto share: 624 kt mined, 248 kt refined. Calendar year. Increased due to Oyu Tolgoi ramp-up and higher Escondida grades, offset by Kennecott geotech issues.">Rio Tinto Fourth Quarter Operations Review 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Antofagasta</div>
+      <div class="producer-card__country">UK</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">664</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.antofagasta.co.uk/media/4803/antofagasta-annual-report-2024-web-version-26-march-compressed_1.pdf" target="_blank" rel="noopener" title="Contained copper from concentrate and cathodes across Los Pelambres (319.6 kt), Centinela (223.8 kt), Antucoya (80.4 kt), Zaldívar (40.1 kt attributable). Chile-based operations.">Antofagasta Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>CMOC Group</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">650</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf" target="_blank" rel="noopener" title="Primarily from DRC operations (TFM 80% owned, KFM 71.25% owned); copper cathode/metal production; group total self-produced mine output. Capacity post-expansion: TFM 450kt, KFM 150kt.">CMOC Group Limited Annual Results Announcement for the year ended 31 December 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>Teck Resources</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">446</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.teck.com/media/2024-Annual-Report.pdf" target="_blank" rel="noopener" title="Copper in concentrate from Quebrada Blanca (208 kt), Highland Valley Copper (102 kt), Antamina 22.5% share (96 kt), Carmen de Andacollo (40 kt). Record production, up 50% from 2023. No refined copper reported as primary output.">Teck 2024 Annual Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Ivanhoe Mines Ltd.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">437</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.ivanhoemines.com/wp-content/uploads/20250219-Ivanhoe-Mines-Q4-2024-and-Annual-Financials-ReleaseVF.pdf" target="_blank" rel="noopener" title="Kamoa-Kakula Copper Complex (100% project basis; Ivanhoe 39.6% ownership). Copper in concentrate produced by Phase 1, 2 & 3 concentrators. Record production, +11% YoY.">Ivanhoe Mines Q4 2024 and Annual Financial Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#14</span>MMG Limited</div>
+      <div class="producer-card__country">Australia (majority Chinese-owned)</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">400</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.mmg.com/wp-content/uploads/2025/04/MMG_Annual-Report-2024.pdf" target="_blank" rel="noopener" title="Total contained Cu: 399,758 tonnes (Las Bambas 322.9 kt concentrate, Kinsevere 45 kt cathode, Khoemacau 31 kt concentrate, Rosebery 1.3 kt). 15% increase from 2023.">MMG Annual Report 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#15</span>First Quantum Minerals Ltd.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">396</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2025</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.first-quantum.com/wp-content/uploads/2026/02/Q4-2025-FQM-Managements-Discussion-Analysis-FINAL.pdf" target="_blank" rel="noopener" title="Excludes Cobre Panamá (suspended); primarily copper in concentrate from Kansanshi (181kt), Sentinel (189kt), other sites (26kt). Contained basis, prior to Kansanshi smelter.">First Quantum Minerals Q4 2025 Management's Discussion and Analysis</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#16</span>KAZ Minerals (KAZ Minerals Holdings Ltd.)</div>
+      <div class="producer-card__country">Kazakhstan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">380</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://www.kazminerals.com/q4-2024-production-report/" target="_blank" rel="noopener" title="Payable metal in concentrate and copper cathode from oxide ore. Production declined from 403 kt in 2023 due to lower grades despite record ore throughput of 96.5 Mt. Private since 2021 (delisted LSE). Breakdown: Aktogay 229 kt, Bozshakol 105 kt, East Region & Bozymchak 46 kt.">KAZ Minerals Production and Sales Report for Twelve Months Ended 31 December 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#17</span>Lundin Mining Corporation</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">369</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://lundinmining.com/_resources/financials/annual_financial_statements_-_q4_2024_final_-_combined.pdf?v=032611" target="_blank" rel="noopener" title="Record consolidated copper production of 369,067 tonnes contained metal on 100% basis across all operations (continuing + discontinued: Candelaria 162kt, Caserones 125kt, Chapada 43kt, Eagle 6kt, Neves-Corvo 28kt, Zinkgruvan 4kt). CY2024 aligns with FY2024 for Dec year-end company.">Lundin Mining 2024 Annual MD&A and Financial Statements, Production Results News Releases</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#18</span>Vale S.A.</div>
+      <div class="producer-card__country">Brazil</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">348</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://api.mziq.com/mzfilemanager/v2/d/53207d1c-63b4-48f1-96b7-19869fae19fe/4588c428-e2bc-d57a-9544-935f8716805c?origin=1" target="_blank" rel="noopener" title="Contained copper in concentrate (&quot;finished production&quot;); record production at Salobo (199.8 kt). Sales were 327.2 kt payable Cu.">Vale's Production and Sales in 4Q24 and 2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#19</span>Capstone Copper Corp.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">184</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://capstonecopper.com/wp-content/uploads/2025/02/2024-Capstone-Copper-Corp-Year-end-Report-to-Shareholders.pdf" target="_blank" rel="noopener" title="Consolidated contained copper: 142 kt in sulphide concentrates + 43 kt cathodes. Mantoverde reported on 100% basis (Capstone 70% ownership). Calendar year aligns with FY.">Capstone Copper 2024 Year-end Report to Shareholders (MD&A)</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#20</span>Hudbay Minerals Inc.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">138</span>
+            <span class="producer-card__kt-unit">kt Cu</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class">Mined</div>
+          <div class="producer-card__source"><a href="https://hudbayminerals.com/investors/press-releases/press-release-details/2025/Hudbay-Delivers-Strong-Fourth-Quarter-and-Record-Full-Year-2024-Results-Achieves-2024-Consolidated-Production-and-Cost-Guidance-and-Provides-2025-Annual-Guidance/default.aspx" target="_blank" rel="noopener" title="Copper contained in concentrate produced. Operations: Constancia (Peru), Snow Lake (Manitoba), Copper Mountain (BC, 100% basis, Hudbay 75% ownership). Breakdown: Peru 99 kt, BC 26 kt, Manitoba ~13 kt (inferred).">Hudbay Q4 and FY2024 Results Press Release</a></div>
+        
+    </div>
+  
+      </div>
+    </section>
+
+    <!-- NEWS SECTION -->
+    <section id="news" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Latest News</h2>
+        <a href="../#news" class="section__source">All metals news →</a>
+      </div>
+      <div class="news-list">
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
+      </div>
+    </section>
+
+    <!-- DATA SOURCES -->
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">Data Sources</h2>
+      </div>
+      <div class="hero__meta">
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">LME prices: via <a href="https://metals.dev">Metals.dev</a> API (official settlement prices)</p><p style="margin-bottom:var(--space-2)">SHFE prices: via <a href="https://www.shfe.com.cn">Shanghai Futures Exchange</a> (settlement prices)</p>
+      </div>
+    </section>
+
+    <!-- ALL METALS NAV -->
+    <div style="padding: var(--space-8) 0;">
+      <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
+      <div class="metals-nav">
+        <a href="copper" class="metals-nav__link metals-nav__link--active">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('tsm-theme', next);
+    }
+  </script>
+  <script>
+    (function() {
+      var splash = document.getElementById('tsmSplash');
+      if (!splash) return;
+      if (sessionStorage.getItem('tsm-splash')) { splash.remove(); return; }
+      sessionStorage.setItem('tsm-splash', '1');
+      setTimeout(function() { splash.classList.add('is-hidden'); }, 1600);
+      setTimeout(function() { splash.remove(); }, 2200);
+    })();
+    // === Scroll to top button ===
+    (function() {
+      var btn = document.querySelector('.scroll-top');
+      if (!btn) return;
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 400) {
+          btn.classList.add('is-visible');
+        } else {
+          btn.classList.remove('is-visible');
+        }
+      });
+      btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    })();
+  </script>
+</body>
+</html>

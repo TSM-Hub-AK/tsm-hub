@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Antimony — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Antimony: official prices, production data for 18 countries, reserves, 10 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Antimony price, Antimony price today, Antimony LME price, Antimony SHFE price, Antimony producers, Antimony production by country, Antimony reserves, Antimony market data, Antimony commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/antimony">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Antimony — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Antimony: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/antimony">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Antimony — Official Prices, Production & Reserves","description":"Antimony (Sb): official exchange prices, mine production data for 18 countries, reserves by country, 10 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/antimony","keywords":["antimony price","antimony price today","Sb price","antimony LME","antimony producers","antimony production by country","antimony reserves","antimony market data","strategic metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Antimony official settlement/fix prices","Antimony mine production by country (USGS MCS 2026)","Antimony reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Antimony","item":"https://hub.truesourcemetals.com/metals/antimony"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Antimony
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Antimony</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Strategic Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          Sb · Strategic Metal · 18 producing countries · 10 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,244 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-antimony.pdf">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">2025e</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>United States</td><td class="num"></td><td class="num">W</td><td class="num">60,000</td></tr><tr><td>Australia</td><td class="num">1,270</td><td class="num">e1,300</td><td class="num">110,000</td></tr><tr><td>Bolivia</td><td class="num">5,300</td><td class="num">e5,000</td><td class="num">310,000</td></tr><tr><td>Burma</td><td class="num">e4,500</td><td class="num">e4,500</td><td class="num">140,000</td></tr><tr><td>Canada</td><td class="num"></td><td class="num"></td><td class="num">78,000</td></tr><tr><td>China</td><td class="num">e40,000</td><td class="num">e40,000</td><td class="num">830,000</td></tr><tr><td>Guatemala</td><td class="num">e50</td><td class="num">e50</td><td class="num">NA</td></tr><tr><td>Iran</td><td class="num">e90</td><td class="num">e90</td><td class="num">NA</td></tr><tr><td>Kazakhstan</td><td class="num">e800</td><td class="num">e800</td><td class="num">NA</td></tr><tr><td>Kyrgyzstan</td><td class="num">e700</td><td class="num">e700</td><td class="num">260,000</td></tr><tr><td>Laos</td><td class="num">e200</td><td class="num">e200</td><td class="num">NA</td></tr><tr><td>Mexico</td><td class="num">600</td><td class="num">e600</td><td class="num">18,000</td></tr><tr><td>Pakistan</td><td class="num">260</td><td class="num">e260</td><td class="num">26,000</td></tr><tr><td>Russia</td><td class="num">e40,000</td><td class="num">e32,000</td><td class="num">350,000</td></tr><tr><td>Tajikistan</td><td class="num">e22,000</td><td class="num">e22,000</td><td class="num">60,000</td></tr><tr><td>Turkey</td><td class="num">e3,000</td><td class="num">e3,000</td><td class="num">99,000</td></tr><tr><td>Vietnam</td><td class="num">e220</td><td class="num">e220</td><td class="num">54,000</td></tr><tr class="row-total"><td>World total (rounded)</td><td class="num">119,000</td><td class="num">110,000</td><td class="num">>2,000,000</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: metric tons. "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-antimony.pdf">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (metric tons)</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>China</td>
+      <td class="num">830,000</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">350,000</td>
+    </tr>
+  
+    <tr>
+      <td>Bolivia</td>
+      <td class="num">310,000</td>
+    </tr>
+  
+    <tr>
+      <td>Kyrgyzstan</td>
+      <td class="num">260,000</td>
+    </tr>
+  
+    <tr>
+      <td>Burma</td>
+      <td class="num">140,000</td>
+    </tr>
+  
+    <tr>
+      <td>Australia</td>
+      <td class="num">110,000</td>
+    </tr>
+  
+    <tr>
+      <td>Turkey</td>
+      <td class="num">99,000</td>
+    </tr>
+  
+    <tr>
+      <td>Canada</td>
+      <td class="num">78,000</td>
+    </tr>
+  
+    <tr>
+      <td>United States</td>
+      <td class="num">60,000</td>
+    </tr>
+  
+    <tr>
+      <td>Tajikistan</td>
+      <td class="num">60,000</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">>2,000,000</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (10)</h2>
+        <span class="section__source">Ranked by latest disclosed Sb-contained production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual antimony production (Sb-contained, tonnes). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Mandalay Resources Corporation</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,282</span>
+            <span class="producer-card__kt-unit">t Sb</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.globenewswire.com/news-release/2025/01/13/3008363/0/en/Mandalay-Resources-Delivers-Strong-Q4-Gold-and-Antimony-Performance-Achieves-Top-End-of-2024-Production-Guidance-Leading-to-76-Million-Cash-Balance.html" target="_blank" rel="noopener" title="key mine: Costerfield">Q4/FY2024 Production Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Sun Metals Corp. / Mandalay (Costerfield, Australia)</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,282</span>
+            <span class="producer-card__kt-unit">t Sb</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.globenewswire.com/news-release/2025/01/13/3008363/0/en/Mandalay-Resources-Delivers-Strong-Q4-Gold-and-Antimony-Performance-Achieves-Top-End-of-2024-Production-Guidance-Leading-to-76-Million-Cash-Balance.html" target="_blank" rel="noopener" title="key mine: Costerfield, Australia">Mandalay Q4/FY2024 Production</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Bolkar Madencilik (Turkish antimony operations)</div>
+      <div class="producer-card__country">Turkey</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Polymetallic mine (Au, Ag, Pb, Zn); no Sb production reported in primary sources</div>
+          <div class="producer-card__source"><a href="https://www.gumustasmaden.com.tr/en/nigde-bolkar-mine.html" target="_blank" rel="noopener">Gümüştaş Bolkar Mine</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Hsikwangshan Twinkling Star Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key mine: Hsikwangshan (south and north mines)</div>
+          <div class="producer-card__source"><a href="http://www.hksts.com/gsgk/gsjj/" target="_blank" rel="noopener">Company Profile</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>Hunan Huaxing Nonferrous Holdings Co., Ltd.</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Private Chinese company; subsidiaries include Hunan Loudi Huaxing Antimony Industry; no public disclosure of Sb production in primary source…</div>
+          <div class="producer-card__source"><a href="https://www.hxtyc.com" target="_blank" rel="noopener">Hunan Huaxing Official Website</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>Hunan Nonferrous Metals Corporation Limited</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Key mine: Xikuangshan (Hsikwangshan); delisted, website inactive</div>
+          <div class="producer-card__source"><a href="https://en.wikipedia.org/wiki/Hunan_Nonferrous_Metals" target="_blank" rel="noopener">Wikipedia</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Perpetua Resources Corp.</div>
+      <div class="producer-card__country">USA</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Pre-production development-stage company; key project: Stibnite Gold Project</div>
+          <div class="producer-card__source"><a href="https://perpetuaresources.com/wp-content/uploads/Perpetua-Resources-Annual-Report-and-10-K-FY-2024.pdf" target="_blank" rel="noopener">FY2024 10-K</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Polyus PJSC (Olimpiada Mine)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">key mine: Olimpiada</div>
+          <div class="producer-card__source"><a href="https://polyus.com/en/media/press-releases/operating-results-for-the-second-halff-of-2024-and-full-year-2024/" target="_blank" rel="noopener">Operating Results 2H & FY2024</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Talco Gold (Tajik Aluminium Company / Tibet Huayu Mining JV)</div>
+      <div class="producer-card__country">Tajikistan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Konchoch group deposits (Chulboy, Konchoch, Shakhkon)</div>
+          <div class="producer-card__source"><a href="https://talco.com.tj/sites/default/files/2025/FS%20Talco_2024_ENG_signed.pdf" target="_blank" rel="noopener">TALCO 2024 Financial Statements</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Tri-Star Gold Inc. / GeoProMining (Nezhdaninskoe, Yakutia)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">key mines: Sarylakh-Surma, Sentachan (Yakutia antimony-gold); Nezhdaninskoe owned by Polyus; no recent FY24/25 primary data found</div>
+          <div class="producer-card__source"><a href="https://www.rns-pdf.londonstockexchange.com/rns/2244L_1-2020-4-28.pdf" target="_blank" rel="noopener">GeoProMining 2019 Annual Report</a></div>
+        
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1175,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1185,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1193,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link metals-nav__link--active">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1230,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->

@@ -159,6 +159,9 @@
     .footer a { color: var(--color-text-muted); }
     .footer__cta { display: inline-block; margin-top: var(--space-3); color: var(--color-primary) !important; text-decoration: none; transition: opacity 0.2s ease; }
     .footer__cta:hover { opacity: 0.75; }
+    .footer__disclaimer { font-size: var(--text-xs); color: var(--color-text-faint); max-width: 720px; margin: var(--space-4) auto 0; line-height: 1.6; }
+    .footer__disclaimer a { color: var(--color-primary); text-decoration: none; }
+    .footer__disclaimer a:hover { opacity: 0.75; }
 
     @media (max-width: 640px) {
       .hero { padding: var(--space-8) var(--space-4) var(--space-5); }
@@ -731,7 +734,9 @@
   <footer class="footer">
     <p>&copy; 2026 TrueSource Metals. All rights reserved.</p>
     <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    <p style="margin-top: var(--space-3);">Battery materials reference. Data for informational purposes only.</p>
+    <p class="footer__disclaimer">
+      Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://www.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
+    </p>
   </footer>
 
   <!-- Scroll to top -->

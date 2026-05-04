@@ -1018,6 +1018,21 @@
 
     .footer__cta:hover { opacity: 0.75; }
 
+    .footer__disclaimer {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      max-width: 720px;
+      margin: 0 auto var(--space-4);
+      line-height: 1.6;
+    }
+
+    .footer__disclaimer a {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    .footer__disclaimer a:hover { opacity: 0.75; }
+
     /* === PRICES CONTAINER === */
     .prices-container {
       display: grid;
@@ -1683,8 +1698,9 @@
       {{PRICES_HTML}}
     </div>
 
-    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); margin-bottom: var(--space-10);">
-      Source: <a href="https://metals.dev" target="_blank" rel="noopener">Metals.dev</a> · <a href="https://metals-api.com" target="_blank" rel="noopener">Metals-API</a> · LME, LBMA, SHFE official data · Last update: {{DATA_TIME}}<br>Note: OTC/rare earth prices shown as provided by API source. Industry benchmark pricing (Fastmarkets, Asian Metal, SMM) may use different units.
+    <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-4); margin-bottom: var(--space-10); line-height: 1.6;">
+      <strong>Delayed end-of-day prices.</strong> LME, LBMA, COMEX/NYMEX data sourced via licensed redistributors <a href="https://metals.dev" target="_blank" rel="noopener">Metals.dev</a> and <a href="https://metals-api.com" target="_blank" rel="noopener">Metals-API</a> under active paid subscriptions. Last update: {{DATA_TIME}}.<br>
+      OTC and rare earth prices shown as provided by API source. Industry benchmark pricing (Fastmarkets, Asian Metal, SMM) may use different units. <a href="/sources" style="color: var(--color-primary);">Full data sources →</a>
     </p>
 
     <!-- ============================================ -->
@@ -1731,8 +1747,8 @@
         </table>
       </details>
 
-      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-3);">
-        Source: <a href="https://www.shfe.com.cn/eng/reports/StatisticalData/DailyData/" target="_blank" rel="noopener">Shanghai Futures Exchange</a> · {{SHFE_DATE}}
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-top: var(--space-3); line-height: 1.6;">
+        <strong>SHFE Daily Data</strong> (public release, end-of-day, not real-time). Source: <a href="https://www.shfe.com.cn/eng/reports/StatisticalData/DailyData/" target="_blank" rel="noopener">Shanghai Futures Exchange</a> · {{SHFE_DATE}}
       </p>
     </div>
 
@@ -2234,6 +2250,9 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="footer__inner">
+      <p class="footer__disclaimer">
+        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="/sources">Data sources →</a> Not financial advice.
+      </p>
       <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
       <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
     </div>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{METAL_NAME}} — Official Prices, Production, Reserves, Producers | TSM Hub</title>
+  <title>Uranium — Official Prices, Production, Reserves, Producers | TSM Hub</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM0RTLSJ9"></script>
@@ -13,14 +13,14 @@
     gtag('js', new Date());
     gtag('config', 'G-6GM0RTLSJ9');
   </script>
-  <meta name="description" content="{{METAL_NAME}}: official prices{{META_PRICE_SOURCES}}, production data for {{PRODUCTION_COUNTRIES}} countries, reserves, {{PRODUCER_COUNT}} global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
-  <meta name="keywords" content="{{METAL_NAME}} price, {{METAL_NAME}} price today, {{METAL_NAME}} LME price, {{METAL_NAME}} SHFE price, {{METAL_NAME}} producers, {{METAL_NAME}} production by country, {{METAL_NAME}} reserves, {{METAL_NAME}} market data, {{METAL_NAME}} commodity, metals prices">
-  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta name="description" content="Uranium: official prices, production data for 14 countries, reserves, 13 global producers. Source: USGS MCS 2026, LME, LBMA, SHFE. Updated twice daily.">
+  <meta name="keywords" content="Uranium price, Uranium price today, Uranium LME price, Uranium SHFE price, Uranium producers, Uranium production by country, Uranium reserves, Uranium market data, Uranium commodity, metals prices">
+  <link rel="canonical" href="https://hub.truesourcemetals.com/metals/uranium">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{METAL_NAME}} — Prices, Production, Reserves | TSM Hub">
-  <meta property="og:description" content="{{METAL_NAME}}: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
-  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/{{METAL_SLUG}}">
+  <meta property="og:title" content="Uranium — Prices, Production, Reserves | TSM Hub">
+  <meta property="og:description" content="Uranium: official prices, production &amp; reserves by country, top producers. USGS MCS 2026 data. Free.">
+  <meta property="og:url" content="https://hub.truesourcemetals.com/metals/uranium">
   <meta property="og:site_name" content="TrueSource Metals">
   <meta name="twitter:card" content="summary">
   <meta name="robots" content="index, follow">
@@ -714,39 +714,21 @@
 
     /* === FOOTER === */
     .footer {
-      border-top: 1px solid var(--color-border-subtle);
-      padding: var(--space-8) var(--space-6);
-      text-align: center;
-    }
-    .footer__inner {
       max-width: var(--content-default);
       margin: 0 auto;
-    }
-    .footer__copy {
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-    .footer__cta {
-      display: inline-block;
-      margin-top: var(--space-3);
-      font-size: var(--text-xs);
-      color: var(--color-primary);
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-    .footer__cta:hover { opacity: 0.75; }
-    .footer__disclaimer {
-      font-size: var(--text-xs);
+
+    .footer a {
       color: var(--color-text-faint);
-      max-width: 720px;
-      margin: 0 auto var(--space-4);
-      line-height: 1.6;
     }
-    .footer__disclaimer a {
+
+    .footer a:hover {
       color: var(--color-primary);
-      text-decoration: none;
     }
-    .footer__disclaimer a:hover { opacity: 0.75; }
 
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
@@ -864,6 +846,8 @@
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
   </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Uranium — Official Prices, Production & Reserves","description":"Uranium (U): official exchange prices, mine production data for 14 countries, reserves by country, 13 major global producers. Source: USGS Mineral Commodity Summaries 2026, LME, LBMA, SHFE. Updated twice daily.","url":"https://hub.truesourcemetals.com/metals/uranium","keywords":["uranium price","uranium price today","U price","uranium LME","uranium producers","uranium production by country","uranium reserves","uranium market data","energy metal","metals prices","commodity data"],"creator":{"@type":"Organization","name":"TrueSource Metals","url":"https://truesourcemetals.com"},"temporalCoverage":"2026-04-24/..","spatialCoverage":"Global","isPartOf":{"@type":"DataCatalog","name":"TSM Hub","url":"https://hub.truesourcemetals.com"},"variableMeasured":["Uranium official settlement/fix prices","Uranium mine production by country (USGS MCS 2026)","Uranium reserves by country (USGS MCS 2026)"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TSM Hub","item":"https://hub.truesourcemetals.com"},{"@type":"ListItem","position":2,"name":"Uranium","item":"https://hub.truesourcemetals.com/metals/uranium"}]}</script>
 </head>
 <body>
 
@@ -909,8 +893,8 @@
     <div class="section-nav__inner">
       <a href="#prices" class="section-nav__link">Prices</a>
       <a href="#production" class="section-nav__link">Production</a>
-      {{NAV_RESERVES_LINK}}
-      {{NAV_PRODUCT_FORMS_LINK}}
+      <a href="#reserves" class="section-nav__link">Reserves</a>
+      
       <a href="#producers" class="section-nav__link">Producers</a>
       <a href="#news" class="section-nav__link">News</a>
     </div>
@@ -919,20 +903,20 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero__breadcrumb">
-      <a href="../">TSM Hub</a> → {{METAL_NAME}}
+      <a href="../">TSM Hub</a> → Uranium
     </div>
     <div class="hero__top">
       <div class="hero__info">
-        <h1 class="hero__name">{{METAL_NAME}}</h1>
+        <h1 class="hero__name">Uranium</h1>
         <div class="hero__badges">
-          {{BADGES_HTML}}
+          <span class="badge badge--critical">★ US Critical Mineral 2025</span><span class="badge badge--exchange">Energy Metal</span><span class="badge badge--exchange">Metals-API</span>
         </div>
         <div class="hero__meta">
-          {{METAL_SUMMARY}}
+          U · Energy Metal · 14 producing countries · 13 major producers
         </div>
       </div>
       <div class="hero__prices">
-        {{HERO_PRICES_HTML}}
+        <div class="price-card"><div class="price-card__exchange">Price</div><div class="price-card__value" style="font-size:var(--text-base);color:var(--color-text-muted)">See Hub for details</div></div>
       </div>
     </div>
   </section>
@@ -943,37 +927,294 @@
     <section id="prices" class="section">
       <div class="section__header">
         <h2 class="section__title">Official Prices</h2>
-        <span class="section__source">{{PRICES_DATE}}</span>
+        <span class="section__source"></span>
       </div>
-      {{PRICES_TABLE_HTML}}
+      <p style="color:var(--color-text-muted)">Price data not available for this metal. Visit the <a href="../">Hub</a> for all available prices.</p>
     </section>
 
     <!-- PRODUCTION SECTION -->
     <section id="production" class="section">
       <div class="section__header">
         <h2 class="section__title">Mine Production by Country</h2>
-        <span class="section__source">Source: <a href="{{MCS_SOURCE_URL}}">USGS MCS 2026</a></span>
+        <span class="section__source">Source: <a href="https://pubs.usgs.gov/periodicals/mcs2026/">USGS MCS 2026</a></span>
       </div>
       <div class="data-table-wrap">
-        {{PRODUCTION_TABLE_HTML}}
+        <div class="data-table-wrap"><table class="data-table">
+    <thead><tr><th>Country</th><th class="num">2024</th><th class="num">Reserves</th></tr></thead>
+    <tbody><tr><td>Kazakhstan</td><td class="num">23,270</td><td class="num">813,900</td></tr><tr><td>Canada</td><td class="num">14,309</td><td class="num">582,000</td></tr><tr><td>Namibia</td><td class="num">7,333</td><td class="num">497,900</td></tr><tr><td>Australia</td><td class="num">4,598</td><td class="num">1,671,200</td></tr><tr><td>Uzbekistan</td><td class="num">4,000</td><td class="num">NA</td></tr><tr><td>Russia</td><td class="num">2,738</td><td class="num">476,600</td></tr><tr><td>China</td><td class="num">1,600</td><td class="num">270,500</td></tr><tr><td>Niger</td><td class="num">962</td><td class="num">336,000</td></tr><tr><td>India</td><td class="num">500</td><td class="num">NA</td></tr><tr><td>Ukraine</td><td class="num">288</td><td class="num">106,700</td></tr><tr><td>USA</td><td class="num">260</td><td class="num">67,800</td></tr><tr><td>South Africa</td><td class="num">200</td><td class="num">320,900</td></tr><tr><td>Others</td><td class="num">155</td><td class="num">324,900</td></tr><tr class="row-total"><td>World total</td><td class="num">60,213</td><td class="num">5,925,700</td></tr></tbody>
+  </table></div>
+  <p style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-faint)">Unit: tonnes U (uranium metal). "e" = estimated. Source: USGS Mineral Commodity Summaries 2026 (DOI: <a href="https://doi.org/10.5066/P1WKQ63T" style="color:var(--color-text-faint)">10.5066/P1WKQ63T</a>)</p>
       </div>
     </section>
 
     <!-- RESERVES SECTION -->
-    {{RESERVES_SECTION_HTML}}
+    
+    <section id="reserves" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Reserves by Country (Top 10)</h2>
+        <span class="section__source">Source: <a href="#">USGS MCS 2026</a></span>
+      </div>
+      <div class="data-table-wrap"><table class="data-table">
+        <thead><tr><th>Country</th><th class="num">Reserves (tonnes U (Reasonably Assured Resources + Inferred Resources to $130/kg U, 2023 data from OECD NEA/IAEA Red Book as cited by WNA))</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Australia</td>
+      <td class="num">1,671,200</td>
+    </tr>
+  
+    <tr>
+      <td>Kazakhstan</td>
+      <td class="num">813,900</td>
+    </tr>
+  
+    <tr>
+      <td>Canada</td>
+      <td class="num">582,000</td>
+    </tr>
+  
+    <tr>
+      <td>Namibia</td>
+      <td class="num">497,900</td>
+    </tr>
+  
+    <tr>
+      <td>Russia</td>
+      <td class="num">476,600</td>
+    </tr>
+  
+    <tr>
+      <td>Niger</td>
+      <td class="num">336,000</td>
+    </tr>
+  
+    <tr>
+      <td>Others</td>
+      <td class="num">324,900</td>
+    </tr>
+  
+    <tr>
+      <td>South Africa</td>
+      <td class="num">320,900</td>
+    </tr>
+  
+    <tr>
+      <td>China</td>
+      <td class="num">270,500</td>
+    </tr>
+  
+    <tr>
+      <td>Ukraine</td>
+      <td class="num">106,700</td>
+    </tr>
+  <tr class="row-total"><td>World Total</td><td class="num">5,925,700</td></tr></tbody>
+      </table></div>
+    </section>
+  
 
     <!-- PRODUCT FORMS SECTION -->
-    {{PRODUCT_FORMS_SECTION_HTML}}
+    
 
     <!-- PRODUCERS SECTION -->
     <section id="producers" class="section">
       <div class="section__header">
-        <h2 class="section__title">Major Producers ({{PRODUCER_COUNT}})</h2>
-        {{PRODUCERS_SUBHEAD}}
+        <h2 class="section__title">Major Producers (13)</h2>
+        <span class="section__source">Ranked by latest disclosed U production</span>
       </div>
-      {{PRODUCERS_INTRO}}
+      <p style="color:var(--color-text-muted);margin-bottom:var(--space-5);font-size:var(--text-sm);">Companies ranked by most recently disclosed annual uranium production (tU). Each card links to the primary source (annual report, production report, or exchange filing). "Not disclosed" means the company does not publish metal-specific tonnage — common for private Chinese/state-owned groups and pre-production projects.</p>
       <div class="producers-grid">
-        {{PRODUCERS_HTML}}
+        
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#1</span>Kazatomprom (National Atomic Company of Kazakhstan JSC)</div>
+      <div class="producer-card__country">Kazakhstan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">23,270</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.kazatomprom.kz/en/media/view/4q24_operations_trading_and_jv_inkai_production_update" target="_blank" rel="noopener" title="Operates 27 deposits in 14 ISR mining assets in Kazakhstan, including JV Inkai.">4Q24 Operations Update</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#2</span>Cameco Corporation</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">19,800</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.cameco.com/sites/default/files/documents/2024-Q4-News-Release.pdf" target="_blank" rel="noopener" title="McArthur River/Key Lake (record production), Cigar Lake, Inkai JV.">2024 Q4 News Release</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#3</span>Navoiyuran (Navoi Mining & Metallurgical Company — Uranium Division)</div>
+      <div class="producer-card__country">Uzbekistan</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">7,000</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://navoiyuran.uz/en/navoiyuran-announces-2025-full-year-preliminary-results/" target="_blank" rel="noopener" title="ISR operations at 43 deposits including Qizilkok, Arnasay, Sugrali, and Uchkuduk.">2025 Preliminary Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#4</span>Uranium One Inc. (subsidiary of Rosatom / ARMZ)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">5,800</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://report.rosatom.ru/go_eng/2024/tenex_2024_eng.pdf" target="_blank" rel="noopener" title="Kazakhstan JVs: Karatau, Akbastau, South Inkai, Zarechnoye, Akdala, Kharasan.">TENEX 2024 Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#5</span>BHP Group — Olympic Dam (uranium as co-product)</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">3,603</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.bhp.com/-/media/documents/media/reports-and-presentations/2024/240717_bhpoperationalreviewfortheyearended30june2024.pdf" target="_blank" rel="noopener" title="Uranium as co-product at Olympic Dam, reported as payable uranium 3,603 t (tonnes U).">BHP FY24 Operational Review</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#6</span>JSC Atomredmetzoloto (ARMZ Uranium Holding — Rosatom)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2,738</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://report.rosatom.ru/go_eng/2024/armz_2024_eng.pdf" target="_blank" rel="noopener" title="Production from Russian assets: PIMCU, Khiagda (1,103 tU, led Russia), Dalur; ISL 62% of total.">Rosatom Mining Division 2024 Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#7</span>Rössing Uranium Ltd. (majority owned by CNNC — China National Nuclear Corporation)</div>
+      <div class="producer-card__country">Namibia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">2,472</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">CY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.rossing.com/rossing-uraniums-2024-sustainability-and-performance-report-officially-launched/" target="_blank" rel="noopener" title="Open-pit mine in Erongo Region, Phase 4 pushback extending LoM to 2036.">2024 Sustainability Report Launch</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#8</span>Paladin Energy Ltd.</div>
+      <div class="producer-card__country">Australia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">1,280</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.paladinenergy.com.au/investors/asx-announcements/" target="_blank" rel="noopener" title="Langer Heinrich Mine (Namibia, 75% owned), first full ramp-up year post-restart">June 2025 Quarterly Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#9</span>Uranium One / JV Budenovskoye LLP (Kazakhstan)</div>
+      <div class="producer-card__country">Russia</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">617</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://www.kazatomprom.kz/storage/c0/fy2024_ofr_eng.pdf" target="_blank" rel="noopener" title="Kazatomprom-Rosatom/Uranium One JV (51-49%) on Budenovskoye blocks 6&amp;7; ramp-up delayed">Kazatomprom FY2024 OFR</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#10</span>Energy Fuels Inc.</div>
+      <div class="producer-card__country">Canada</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt">460</span>
+            <span class="producer-card__kt-unit">tU</span>
+            <span class="producer-card__fy">FY2025</span>
+          </div>
+          
+          <div class="producer-card__source"><a href="https://investors.energyfuels.com/2026-02-26-Energy-Fuels-Announces-2025-Results-and-2026-Guidance" target="_blank" rel="noopener" title="Production from Pinyon Plain (Arizona) and La Sal Complex (Utah) mines; 1,015,000 lb finished U3O8 produced.">2025 Results</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#11</span>CGN (China General Nuclear Power Group) — Swakop Uranium (Husab Mine)</div>
+      <div class="producer-card__country">China</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Swakop Uranium Husab Mine (Namibia); Kazakhstan mines reported 2,757 tU total FY2024, Husab not mentioned</div>
+          <div class="producer-card__source"><a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0114/2025011400360.pdf" target="_blank" rel="noopener">Q4 2024 Operational Statement</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#12</span>General Atomics / Quasar Resources (formerly AREVA Resources Australia — Beverley/Four Mile)</div>
+      <div class="producer-card__country">United States</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">Beverley / Four Mile ISR mines in South Australia; operated by Heathgate affiliate of General Atomics.</div>
+          <div class="producer-card__source"><a href="https://heathgate.com.au/wp-content/uploads/2024/08/2023-Sustainability-Report_Final.pdf" target="_blank" rel="noopener">Heathgate 2023 Sustainability Report</a></div>
+        
+    </div>
+  
+    <div class="producer-card">
+      <div class="producer-card__name"><span class="producer-card__rank">#13</span>Orano SA (formerly AREVA Mines)</div>
+      <div class="producer-card__country">France</div>
+      
+      
+          <div class="producer-card__production">
+            <span class="producer-card__kt--undisclosed">Not disclosed</span>
+            <span class="producer-card__fy">FY2024</span>
+          </div>
+          <div class="producer-card__class" style="font-style:italic;">No consolidated group total reported; key assets Katco (Kazakhstan), Somaïr (Niger, lost control 2024), Cigar Lake/McArthur River/Key Lake/M…</div>
+          <div class="producer-card__source"><a href="https://www.orano.group/finance-raa2024/en/" target="_blank" rel="noopener">Annual Activity Report 2024</a></div>
+        
+    </div>
+  
       </div>
     </section>
 
@@ -984,7 +1225,7 @@
         <a href="../#news" class="section__source">All metals news →</a>
       </div>
       <div class="news-list">
-        {{NEWS_HTML}}
+        <p style="color:var(--color-text-muted)">No recent news for this metal. Visit the <a href="../#news">Hub news section</a> for all metals news.</p>
       </div>
     </section>
 
@@ -994,7 +1235,7 @@
         <h2 class="section__title">Data Sources</h2>
       </div>
       <div class="hero__meta">
-        {{DATA_SOURCES_HTML}}
+        <p style="margin-bottom:var(--space-2)">Production and reserves data: <a href="https://doi.org/10.5066/P1WKQ63T">USGS Mineral Commodity Summaries 2026</a></p><p style="margin-bottom:var(--space-2)">Additional prices: via <a href="https://metals-api.com">Metals-API.com</a></p>
       </div>
     </section>
 
@@ -1002,7 +1243,36 @@
     <div style="padding: var(--space-8) 0;">
       <h3 style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-4);">All Metals</h3>
       <div class="metals-nav">
-        {{ALL_METALS_NAV}}
+        <a href="copper" class="metals-nav__link">Copper</a>
+        <a href="aluminium" class="metals-nav__link">Aluminium</a>
+        <a href="nickel" class="metals-nav__link">Nickel</a>
+        <a href="zinc" class="metals-nav__link">Zinc</a>
+        <a href="lead" class="metals-nav__link">Lead</a>
+        <a href="tin" class="metals-nav__link">Tin</a>
+        <a href="gold" class="metals-nav__link">Gold</a>
+        <a href="silver" class="metals-nav__link">Silver</a>
+        <a href="pgm" class="metals-nav__link">Platinum Group Metals</a>
+        <a href="lithium" class="metals-nav__link">Lithium</a>
+        <a href="cobalt" class="metals-nav__link">Cobalt</a>
+        <a href="rare-earths" class="metals-nav__link">Rare Earth Elements</a>
+        <a href="tungsten" class="metals-nav__link">Tungsten</a>
+        <a href="vanadium" class="metals-nav__link">Vanadium</a>
+        <a href="manganese" class="metals-nav__link">Manganese</a>
+        <a href="molybdenum" class="metals-nav__link">Molybdenum</a>
+        <a href="chromium" class="metals-nav__link">Chromium</a>
+        <a href="antimony" class="metals-nav__link">Antimony</a>
+        <a href="gallium" class="metals-nav__link">Gallium</a>
+        <a href="germanium" class="metals-nav__link">Germanium</a>
+        <a href="graphite" class="metals-nav__link">Graphite</a>
+        <a href="iron-ore" class="metals-nav__link">Iron Ore</a>
+        <a href="titanium" class="metals-nav__link">Titanium</a>
+        <a href="magnesium" class="metals-nav__link">Magnesium</a>
+        <a href="uranium" class="metals-nav__link metals-nav__link--active">Uranium</a>
+        <a href="neodymium" class="metals-nav__link">Neodymium</a>
+        <a href="praseodymium" class="metals-nav__link">Praseodymium</a>
+        <a href="dysprosium" class="metals-nav__link">Dysprosium</a>
+        <a href="terbium" class="metals-nav__link">Terbium</a>
+        <a href="lanthanum" class="metals-nav__link">Lanthanum</a>
       </div>
     </div>
 
@@ -1010,13 +1280,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__disclaimer">
-        Educational and informational use only. All prices are end-of-day (not real-time). Exchange data (LME, LBMA, SHFE, COMEX/NYMEX) provided through licensed data redistributors. <a href="https://hub.truesourcemetals.com/sources">Data sources →</a> Not financial advice.
-      </p>
-      <p class="footer__copy">&copy; 2026 TrueSource Metals. All rights reserved.</p>
-      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
-    </div>
+    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
+    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
   </footer>
 
   <!-- Scroll to top -->
