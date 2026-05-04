@@ -714,20 +714,31 @@
 
     /* === FOOTER === */
     .footer {
-      max-width: var(--content-default);
-      margin: 0 auto;
+      border-top: 1px solid var(--color-border-subtle);
       padding: var(--space-8) var(--space-6);
       text-align: center;
+    }
+    .footer__inner {
+      max-width: var(--content-default);
+      margin: 0 auto;
+    }
+    .footer__copy {
       font-size: var(--text-xs);
       color: var(--color-text-faint);
     }
-
-    .footer a {
-      color: var(--color-text-faint);
-    }
-
-    .footer a:hover {
+    .footer__cta {
+      display: inline-block;
+      margin-top: var(--space-3);
+      font-size: var(--text-xs);
       color: var(--color-primary);
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+    .footer__cta:hover { opacity: 0.75; }
+    .footer__note {
+      margin-top: var(--space-3);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
     }
 
     /* === RESPONSIVE === */
@@ -992,8 +1003,11 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>&copy; 2026 TrueSource Metals Limited, Hong Kong · <a href="https://truesourcemetals.com">truesourcemetals.com</a></p>
-    <p style="margin-top: var(--space-2);">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
+    <div class="footer__inner">
+      <p class="footer__copy">&copy; 2025–2026 TrueSource Metals. All rights reserved.</p>
+      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
+      <p class="footer__note">Prices shown are official settlement/fix prices, not live quotes. Data provided for informational purposes only.</p>
+    </div>
   </footer>
 
   <!-- Scroll to top -->

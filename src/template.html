@@ -1007,6 +1007,17 @@
       color: var(--color-text-faint);
     }
 
+    .footer__cta {
+      display: inline-block;
+      margin-top: var(--space-3);
+      font-size: var(--text-xs);
+      color: var(--color-primary);
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .footer__cta:hover { opacity: 0.75; }
+
     /* === PRICES CONTAINER === */
     .prices-container {
       display: grid;
@@ -2224,6 +2235,7 @@
   <footer class="footer">
     <div class="footer__inner">
       <p class="footer__copy">&copy; 2025–2026 TrueSource Metals. All rights reserved.</p>
+      <a class="footer__cta" href="https://www.truesourcemetals.com" target="_blank" rel="noopener">Explore digital ownership of physical metals →</a>
     </div>
   </footer>
 
