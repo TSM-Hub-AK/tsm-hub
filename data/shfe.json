@@ -1,0 +1,317 @@
+{
+  "date": "20260506",
+  "date_formatted": "2026-05-06",
+  "fetched_at": "2026-05-07T02:03:05.261Z",
+  "source": "Shanghai Futures Exchange (SHFE)",
+  "source_url": "https://www.shfe.com.cn/eng/reports/StatisticalData/DailyData/",
+  "metals": {
+    "cu": {
+      "name": "Copper",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "cu2605",
+        "settlement_price": 102440,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 119105,
+        "day_high": 102950,
+        "day_low": 101210,
+        "avg_price": 102424.55
+      },
+      "contract_count": 12
+    },
+    "al": {
+      "name": "Aluminium",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "al2605",
+        "settlement_price": 24625,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 233728,
+        "day_high": 24870,
+        "day_low": 24535,
+        "avg_price": 24711.25
+      },
+      "contract_count": 12
+    },
+    "zn": {
+      "name": "Zinc",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "zn2605",
+        "settlement_price": 24070,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 131620,
+        "day_high": 24410,
+        "day_low": 23690,
+        "avg_price": 24125.82
+      },
+      "contract_count": 12
+    },
+    "pb": {
+      "name": "Lead",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "pb2605",
+        "settlement_price": 16780,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 123760,
+        "day_high": 17145,
+        "day_low": 16620,
+        "avg_price": 16878.84
+      },
+      "contract_count": 12
+    },
+    "ni": {
+      "name": "Nickel",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "ni2605",
+        "settlement_price": 153400,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 333344,
+        "day_high": 161490,
+        "day_low": 149800,
+        "avg_price": 153753.57
+      },
+      "contract_count": 12
+    },
+    "sn": {
+      "name": "Tin",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "sn2605",
+        "settlement_price": 402800,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 228955,
+        "day_high": 417280,
+        "day_low": 390000,
+        "avg_price": 404831.21
+      },
+      "contract_count": 12
+    },
+    "ao": {
+      "name": "Aluminium Oxide",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "ao2605",
+        "settlement_price": 2642,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 275525,
+        "day_high": 3034,
+        "day_low": 2600,
+        "avg_price": 2826.59
+      },
+      "contract_count": 12
+    },
+    "ad": {
+      "name": "Cast Aluminium Alloy",
+      "unit": "RMB/t",
+      "category": "base",
+      "front_month": {
+        "contract": "ad2605",
+        "settlement_price": 23110,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 5412,
+        "day_high": 23690,
+        "day_low": 23040,
+        "avg_price": 23269.93
+      },
+      "contract_count": 12
+    },
+    "au": {
+      "name": "Gold",
+      "unit": "RMB/g",
+      "category": "precious",
+      "front_month": {
+        "contract": "au2605",
+        "settlement_price": 1020.98,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 127222,
+        "day_high": 1040.98,
+        "day_low": 1014.72,
+        "avg_price": 1023.93
+      },
+      "contract_count": 8
+    },
+    "ag": {
+      "name": "Silver",
+      "unit": "RMB/kg",
+      "category": "precious",
+      "front_month": {
+        "contract": "ag2605",
+        "settlement_price": 18609,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 393466,
+        "day_high": 18906,
+        "day_low": 18315,
+        "avg_price": 18637.27
+      },
+      "contract_count": 12
+    },
+    "rb": {
+      "name": "Steel Rebar",
+      "unit": "RMB/t",
+      "category": "steel",
+      "front_month": {
+        "contract": "rb2605",
+        "settlement_price": 3148,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 812516,
+        "day_high": 3309,
+        "day_low": 3123,
+        "avg_price": 3243.88
+      },
+      "contract_count": 12
+    },
+    "hc": {
+      "name": "Hot Rolled Coils",
+      "unit": "RMB/t",
+      "category": "steel",
+      "front_month": {
+        "contract": "hc2605",
+        "settlement_price": 3452,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 677590,
+        "day_high": 3530,
+        "day_low": 3413,
+        "avg_price": 3472.85
+      },
+      "contract_count": 12
+    },
+    "ss": {
+      "name": "Stainless Steel",
+      "unit": "RMB/t",
+      "category": "steel",
+      "front_month": {
+        "contract": "ss2605",
+        "settlement_price": 15685,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 256713,
+        "day_high": 15940,
+        "day_low": 15470,
+        "avg_price": 15718.71
+      },
+      "contract_count": 12
+    },
+    "wr": {
+      "name": "Wire Rod",
+      "unit": "RMB/t",
+      "category": "steel",
+      "front_month": {
+        "contract": "wr2605",
+        "settlement_price": 3380,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "open_interest": 0
+      },
+      "summary": {
+        "total_volume": 143,
+        "day_high": 3479,
+        "day_low": 3283,
+        "avg_price": 3403.05
+      },
+      "contract_count": 12
+    }
+  }
+}
